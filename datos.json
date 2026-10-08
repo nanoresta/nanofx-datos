@@ -1,19 +1,19 @@
 {
- "generado": "2026-10-08T08:57:06Z",
+ "generado": "2026-10-08T09:12:20Z",
  "errores": [],
  "fed": [
   {
    "fecha": "2026-10-28",
-   "subir": 16.5,
+   "subir": 16.0,
    "bajar": 0.5,
-   "mantener": 83.0,
+   "mantener": 83.5,
    "tasaImplicita": 3.92
   },
   {
    "fecha": "2026-12-09",
-   "subir": 82.0,
+   "subir": 82.5,
    "bajar": 3.5,
-   "mantener": 14.5,
+   "mantener": 14.0,
    "tasaImplicita": 4.13
   },
   {
@@ -154,6 +154,462 @@
     "neta": 5782.8
    }
   ]
+ },
+ "opciones": {
+  "SPX": {
+   "etf": "SPY",
+   "precio": 777.3,
+   "oiFecha": "2026-10-06",
+   "contratos": 1574,
+   "ratioIndice": 10.0358,
+   "ratioFecha": "2026-10-06",
+   "regimen": "positiva",
+   "gexTotal": -1.46,
+   "pcrOI": 1.43,
+   "callWall": 785.0,
+   "putWall": 775.0,
+   "gammaFlip": 776.39,
+   "maxPain": 775.0,
+   "vencimientoCercano": "2026-10-08",
+   "escalera": [
+    {
+     "strike": 754.0,
+     "gex": -47.7
+    },
+    {
+     "strike": 755.0,
+     "gex": -757.6
+    },
+    {
+     "strike": 756.0,
+     "gex": -45.7
+    },
+    {
+     "strike": 757.0,
+     "gex": -235.4
+    },
+    {
+     "strike": 758.0,
+     "gex": -50.9
+    },
+    {
+     "strike": 759.0,
+     "gex": -84.2
+    },
+    {
+     "strike": 760.0,
+     "gex": -401.4
+    },
+    {
+     "strike": 761.0,
+     "gex": -48.5
+    },
+    {
+     "strike": 762.0,
+     "gex": -79.7
+    },
+    {
+     "strike": 763.0,
+     "gex": -151.6
+    },
+    {
+     "strike": 764.0,
+     "gex": -112.8
+    },
+    {
+     "strike": 765.0,
+     "gex": -456.7
+    },
+    {
+     "strike": 766.0,
+     "gex": -45.1
+    },
+    {
+     "strike": 767.0,
+     "gex": -1258.4
+    },
+    {
+     "strike": 768.0,
+     "gex": -326.7
+    },
+    {
+     "strike": 769.0,
+     "gex": -189.6
+    },
+    {
+     "strike": 770.0,
+     "gex": -724.7
+    },
+    {
+     "strike": 771.0,
+     "gex": -191.4
+    },
+    {
+     "strike": 772.0,
+     "gex": -391.2
+    },
+    {
+     "strike": 773.0,
+     "gex": -313.0
+    },
+    {
+     "strike": 774.0,
+     "gex": -227.6
+    },
+    {
+     "strike": 775.0,
+     "gex": -765.6
+    },
+    {
+     "strike": 776.0,
+     "gex": -269.0
+    },
+    {
+     "strike": 777.0,
+     "gex": -117.4
+    },
+    {
+     "strike": 778.0,
+     "gex": 115.4
+    },
+    {
+     "strike": 779.0,
+     "gex": 49.8
+    },
+    {
+     "strike": 780.0,
+     "gex": 1074.3
+    },
+    {
+     "strike": 781.0,
+     "gex": 261.5
+    },
+    {
+     "strike": 782.0,
+     "gex": 236.2
+    },
+    {
+     "strike": 783.0,
+     "gex": 542.4
+    },
+    {
+     "strike": 784.0,
+     "gex": 240.5
+    },
+    {
+     "strike": 785.0,
+     "gex": 2495.0
+    },
+    {
+     "strike": 786.0,
+     "gex": 196.7
+    },
+    {
+     "strike": 787.0,
+     "gex": 347.2
+    },
+    {
+     "strike": 788.0,
+     "gex": 101.0
+    },
+    {
+     "strike": 789.0,
+     "gex": 99.5
+    },
+    {
+     "strike": 790.0,
+     "gex": 1337.4
+    },
+    {
+     "strike": 791.0,
+     "gex": 79.9
+    },
+    {
+     "strike": 792.0,
+     "gex": 66.8
+    },
+    {
+     "strike": 793.0,
+     "gex": 121.2
+    },
+    {
+     "strike": 794.0,
+     "gex": 82.5
+    },
+    {
+     "strike": 795.0,
+     "gex": 306.2
+    },
+    {
+     "strike": 796.0,
+     "gex": 69.1
+    },
+    {
+     "strike": 797.0,
+     "gex": 123.9
+    },
+    {
+     "strike": 798.0,
+     "gex": 83.3
+    },
+    {
+     "strike": 799.0,
+     "gex": 54.5
+    },
+    {
+     "strike": 800.0,
+     "gex": 504.6
+    }
+   ],
+   "indice": {
+    "precio": 7801,
+    "callWall": 7878,
+    "putWall": 7778,
+    "gammaFlip": 7792,
+    "maxPain": 7778
+   },
+   "odte": {
+    "vencimiento": "2026-10-08",
+    "esHoy": true,
+    "base": "open interest",
+    "gexTotal": null,
+    "callWall": 796.0,
+    "putWall": 770.0,
+    "gammaFlip": null,
+    "maxPain": 775.0,
+    "pcrOI": 1.04,
+    "indice": {
+     "callWall": 7989,
+     "putWall": 7728,
+     "gammaFlip": null,
+     "maxPain": 7778
+    }
+   }
+  },
+  "NDX": {
+   "etf": "QQQ",
+   "precio": 757.84,
+   "oiFecha": "2026-10-06",
+   "contratos": 1514,
+   "ratioIndice": 41.1059,
+   "ratioFecha": "2026-10-06",
+   "regimen": "positiva",
+   "gexTotal": 0.23,
+   "pcrOI": 1.16,
+   "callWall": 760.0,
+   "putWall": 754.0,
+   "gammaFlip": 754.85,
+   "maxPain": 756.0,
+   "vencimientoCercano": "2026-10-08",
+   "escalera": [
+    {
+     "strike": 736.0,
+     "gex": -37.0
+    },
+    {
+     "strike": 737.0,
+     "gex": -29.1
+    },
+    {
+     "strike": 738.0,
+     "gex": -100.2
+    },
+    {
+     "strike": 739.0,
+     "gex": -6.3
+    },
+    {
+     "strike": 740.0,
+     "gex": -221.7
+    },
+    {
+     "strike": 741.0,
+     "gex": -25.3
+    },
+    {
+     "strike": 742.0,
+     "gex": -134.2
+    },
+    {
+     "strike": 743.0,
+     "gex": -13.9
+    },
+    {
+     "strike": 744.0,
+     "gex": -94.4
+    },
+    {
+     "strike": 745.0,
+     "gex": -127.0
+    },
+    {
+     "strike": 746.0,
+     "gex": 2.4
+    },
+    {
+     "strike": 747.0,
+     "gex": -30.7
+    },
+    {
+     "strike": 748.0,
+     "gex": 21.5
+    },
+    {
+     "strike": 749.0,
+     "gex": -95.5
+    },
+    {
+     "strike": 750.0,
+     "gex": -155.1
+    },
+    {
+     "strike": 751.0,
+     "gex": -49.5
+    },
+    {
+     "strike": 752.0,
+     "gex": -120.8
+    },
+    {
+     "strike": 753.0,
+     "gex": -119.7
+    },
+    {
+     "strike": 754.0,
+     "gex": -660.8
+    },
+    {
+     "strike": 755.0,
+     "gex": 57.1
+    },
+    {
+     "strike": 756.0,
+     "gex": -28.6
+    },
+    {
+     "strike": 757.0,
+     "gex": -69.5
+    },
+    {
+     "strike": 758.0,
+     "gex": 47.5
+    },
+    {
+     "strike": 759.0,
+     "gex": 39.1
+    },
+    {
+     "strike": 760.0,
+     "gex": 1018.0
+    },
+    {
+     "strike": 761.0,
+     "gex": 58.2
+    },
+    {
+     "strike": 762.0,
+     "gex": 72.1
+    },
+    {
+     "strike": 763.0,
+     "gex": 70.9
+    },
+    {
+     "strike": 764.0,
+     "gex": 55.2
+    },
+    {
+     "strike": 765.0,
+     "gex": 388.7
+    },
+    {
+     "strike": 766.0,
+     "gex": 58.5
+    },
+    {
+     "strike": 767.0,
+     "gex": 92.2
+    },
+    {
+     "strike": 768.0,
+     "gex": 57.0
+    },
+    {
+     "strike": 769.0,
+     "gex": 49.2
+    },
+    {
+     "strike": 770.0,
+     "gex": 576.5
+    },
+    {
+     "strike": 771.0,
+     "gex": 53.3
+    },
+    {
+     "strike": 772.0,
+     "gex": 51.5
+    },
+    {
+     "strike": 773.0,
+     "gex": 30.1
+    },
+    {
+     "strike": 774.0,
+     "gex": 52.2
+    },
+    {
+     "strike": 775.0,
+     "gex": 367.2
+    },
+    {
+     "strike": 776.0,
+     "gex": 5.8
+    },
+    {
+     "strike": 777.0,
+     "gex": 4.8
+    },
+    {
+     "strike": 778.0,
+     "gex": 4.3
+    },
+    {
+     "strike": 779.0,
+     "gex": 1.7
+    },
+    {
+     "strike": 780.0,
+     "gex": 217.1
+    }
+   ],
+   "indice": {
+    "precio": 31152,
+    "callWall": 31241,
+    "putWall": 30994,
+    "gammaFlip": 31029,
+    "maxPain": 31076
+   },
+   "odte": {
+    "vencimiento": "2026-10-08",
+    "esHoy": true,
+    "base": "open interest",
+    "gexTotal": null,
+    "callWall": 770.0,
+    "putWall": 755.0,
+    "gammaFlip": null,
+    "maxPain": 756.0,
+    "pcrOI": 2.51,
+    "indice": {
+     "callWall": 31652,
+     "putWall": 31035,
+     "gammaFlip": null,
+     "maxPain": 31076
+    }
+   }
+  },
+  "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
+  "calculado": "2026-10-08T09:12:33Z"
  },
  "fedFuente": "Kalshi, mercado de predicción en vivo (contratos KXFED)"
 }
