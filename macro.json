@@ -1,100 +1,234 @@
 {
   "calendario": [
     {
-      "actual": "+0,6 % m/m; 3,7 % a/a general; +0,3 % m/m; 2,6 % a/a subyacente",
-      "anterior": "3,4 % a/a (general); subyacente 2,4 % a/a",
-      "evento": "IPC (sep) — inflación general y subyacente",
+      "actual": "3,7 % a/a",
+      "actualNum": 3.7,
+      "anterior": "3,4 % a/a",
+      "anteriorNum": 3.4,
+      "divisaSiSube": "+",
+      "evento": "IPC (anual)",
       "fecha": "2026-10-14",
       "horaUtc": "12:30",
       "impacto": "alto",
-      "nota": "Publicado por el BLS: ambas lecturas superan el consenso Dow Jones (3,6 %/2,5 %). La energía (gasolina +9,1 %) explica la mitad de la subida general. Dispara la probabilidad de subida del 28 de octubre al 47,5 % y la de diciembre al 92,0 % (Kalshi).",
+      "nota": "Publicado: supera el consenso Dow Jones (3,6 %). La energía (gasolina +9,1 %) explica buena parte de la subida.",
       "pais": "EE. UU.",
-      "previsto": "3,6-3,7 % a/a (general); subyacente 2,4-2,5 % a/a"
+      "previsto": "3,6-3,7 % a/a",
+      "previstoNum": 3.65
     },
     {
-      "anterior": "+5,4 % interanual",
-      "evento": "IPP (sep)",
+      "actual": "2,6 % a/a",
+      "actualNum": 2.6,
+      "anterior": "2,4 % a/a",
+      "anteriorNum": 2.4,
+      "divisaSiSube": "+",
+      "evento": "IPC subyacente (anual)",
+      "fecha": "2026-10-14",
+      "horaUtc": "12:30",
+      "impacto": "alto",
+      "nota": "Publicado: también por encima del consenso (2,5 %); dispara la probabilidad de subida de la Fed en diciembre.",
+      "pais": "EE. UU.",
+      "previsto": "2,4-2,5 % a/a",
+      "previstoNum": 2.45
+    },
+    {
+      "actual": null,
+      "actualNum": null,
+      "anterior": "+0,4 % m/m",
+      "anteriorNum": 0.4,
+      "divisaSiSube": "+",
+      "evento": "IPP (mensual)",
       "fecha": "2026-10-15",
       "horaUtc": "12:30",
       "impacto": "alto",
       "pais": "EE. UU.",
-      "previsto": "+0,5 % m/m; +5,9 % a/a"
+      "previsto": "+0,5 % m/m",
+      "previstoNum": 0.5
     },
     {
+      "actual": null,
+      "actualNum": null,
+      "anterior": "+0,2 % m/m",
+      "anteriorNum": 0.2,
+      "divisaSiSube": "+",
+      "evento": "IPP subyacente (mensual)",
+      "fecha": "2026-10-15",
+      "horaUtc": "12:30",
+      "impacto": "alto",
+      "pais": "EE. UU.",
+      "previsto": "+0,3 % m/m",
+      "previstoNum": 0.3
+    },
+    {
+      "actual": null,
+      "actualNum": null,
+      "anterior": "+5,4 % a/a",
+      "anteriorNum": 5.4,
+      "divisaSiSube": "+",
+      "evento": "IPP (anual)",
+      "fecha": "2026-10-15",
+      "horaUtc": "12:30",
+      "impacto": "medio",
+      "pais": "EE. UU.",
+      "previsto": "+5,9 % a/a",
+      "previstoNum": 5.9
+    },
+    {
+      "actual": null,
+      "actualNum": null,
       "anterior": "+1,2 % m/m",
-      "evento": "Ventas minoristas (sep)",
+      "anteriorNum": 1.2,
+      "divisaSiSube": "+",
+      "evento": "Ventas minoristas (mensual)",
       "fecha": "2026-10-15",
       "horaUtc": "12:30",
       "impacto": "alto",
       "pais": "EE. UU.",
-      "previsto": "+0,3 % m/m (ex autos +0,5 %)"
+      "previsto": "+0,3 % m/m",
+      "previstoNum": 0.3
     },
     {
-      "anterior": "197 mil",
-      "evento": "Peticiones iniciales de desempleo",
+      "actual": null,
+      "actualNum": null,
+      "anterior": null,
+      "anteriorNum": null,
+      "divisaSiSube": "+",
+      "evento": "Ventas minoristas excl. autos (mensual)",
       "fecha": "2026-10-15",
       "horaUtc": "12:30",
-      "impacto": "alto",
+      "impacto": "medio",
+      "pais": "EE. UU.",
+      "previsto": "+0,5 % m/m",
+      "previstoNum": 0.5
+    },
+    {
+      "actual": null,
+      "actualNum": null,
+      "anterior": "197 mil",
+      "anteriorNum": 197,
+      "divisaSiSube": "-",
+      "evento": "Peticiones iniciales de subsidio por desempleo",
+      "fecha": "2026-10-15",
+      "horaUtc": "12:30",
+      "impacto": "medio",
       "nota": "Misma semana que el IPP y las ventas minoristas.",
       "pais": "EE. UU.",
-      "previsto": "sin consenso publicado a 14 de octubre"
+      "previsto": "sin consenso publicado a 14 de octubre",
+      "previstoNum": null
     },
     {
+      "actual": null,
+      "actualNum": null,
+      "anterior": null,
+      "anteriorNum": null,
+      "divisaSiSube": "+",
+      "evento": "Encuesta ZEW de sentimiento económico (Alemania, oct)",
+      "fecha": "2026-10-20",
+      "horaUtc": "09:00",
+      "impacto": "medio",
+      "nota": "Sin consenso publicado a 14 de octubre.",
+      "pais": "Eurozona",
+      "previsto": null,
+      "previstoNum": null
+    },
+    {
+      "actual": null,
+      "actualNum": null,
       "anterior": "46,3 (preliminar)",
+      "anteriorNum": 46.3,
+      "divisaSiSube": "+",
       "evento": "Confianza del consumidor U. Michigan (oct, final)",
       "fecha": "2026-10-23",
       "horaUtc": "14:00",
-      "impacto": "alto",
-      "nota": "Dato final; el preliminar de octubre (46,3) fue el más bajo desde mayo, con las expectativas de inflación a 1 año en el 4,7 %.",
+      "impacto": "medio",
+      "nota": "El preliminar de octubre fue el más bajo desde mayo, con la inflación esperada a 1 año en el 4,7 %.",
       "pais": "EE. UU.",
-      "previsto": "sin consenso publicado a 14 de octubre"
+      "previsto": "sin consenso publicado a 14 de octubre",
+      "previstoNum": null
     },
     {
+      "actual": null,
+      "actualNum": null,
+      "anterior": null,
+      "anteriorNum": null,
+      "divisaSiSube": "+",
       "evento": "Decisión de tipos del FOMC",
       "fecha": "2026-10-28",
       "horaUtc": "18:00",
       "impacto": "alto",
-      "pais": "EE. UU."
+      "pais": "EE. UU.",
+      "previsto": "Mantener (67,0 % según Kalshi); subir 25 pb (32,5 %); bajar (0,5 %)",
+      "previstoNum": null
     },
     {
+      "actual": null,
+      "actualNum": null,
+      "anterior": null,
+      "anteriorNum": null,
+      "divisaSiSube": "+",
       "evento": "Rueda de prensa del presidente de la Fed, Kevin Warsh",
       "fecha": "2026-10-28",
       "horaUtc": "18:30",
       "impacto": "alto",
-      "pais": "EE. UU."
+      "pais": "EE. UU.",
+      "previsto": null,
+      "previstoNum": null
     },
     {
-      "anterior": "+1,5 % anualizado (T2, segunda estimación)",
+      "actual": null,
+      "actualNum": null,
+      "anterior": "+1,5 % anualizado",
+      "anteriorNum": 1.5,
+      "divisaSiSube": "+",
       "evento": "PIB (T3 2026, avance)",
       "fecha": "2026-10-29",
       "horaUtc": "12:30",
       "impacto": "alto",
-      "nota": "Se publica un día después de la decisión del FOMC; incluye además el informe de PCE de septiembre el mismo día.",
+      "nota": "Se publica un día después de la decisión del FOMC, junto con el PCE de septiembre.",
       "pais": "EE. UU.",
-      "previsto": "sin consenso publicado a 14 de octubre"
+      "previsto": "sin consenso publicado a 14 de octubre",
+      "previstoNum": null
     },
     {
-      "anterior": "3,4 % a/a (general); subyacente 3,0 % a/a (agosto)",
-      "evento": "PCE (sep) — inflación general y subyacente",
+      "actual": null,
+      "actualNum": null,
+      "anterior": "3,4 % a/a",
+      "anteriorNum": 3.4,
+      "divisaSiSube": "+",
+      "evento": "PCE (anual)",
       "fecha": "2026-10-29",
       "horaUtc": "12:30",
       "impacto": "alto",
-      "nota": "Dato de inflación preferido por la Fed; se publica junto con el PIB del tercer trimestre, un día después de la decisión del FOMC.",
+      "nota": "Dato de inflación preferido por la Fed.",
       "pais": "EE. UU.",
-      "previsto": "sin consenso publicado a 14 de octubre"
+      "previsto": "sin consenso publicado a 14 de octubre",
+      "previstoNum": null
+    },
+    {
+      "actual": null,
+      "actualNum": null,
+      "anterior": "3,0 % a/a (agosto)",
+      "anteriorNum": 3,
+      "divisaSiSube": "+",
+      "evento": "PCE subyacente (anual)",
+      "fecha": "2026-10-29",
+      "horaUtc": "12:30",
+      "impacto": "alto",
+      "pais": "EE. UU.",
+      "previsto": "sin consenso publicado a 14 de octubre",
+      "previstoNum": null
     }
   ],
   "fed": {
-    "actualizado": "2026-10-14T21:12:47Z",
+    "actualizado": "2026-10-14T21:58:42Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida el 28 de octubre se mantiene sin cambios en el 32,5 % (mantener 67,0 %). La de diciembre sube ligeramente al 89,5 % (desde el 88,5 %), reforzando el sesgo hawkish de fondo hacia esa reunión.",
+    "lectura": "La probabilidad de subida el 28 de octubre sube ligeramente al 33,0 % (mantener 66,5 %, desde 32,5 %/67,0 % hace unas horas). La de diciembre se mantiene estable en el 89,5 %, reforzando el sesgo hawkish de fondo hacia esa reunión.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 67,
-        "subir": 32.5,
+        "mantener": 66.5,
+        "subir": 33,
         "tasaImplicita": 3.96
       },
       {
@@ -107,8 +241,8 @@
       {
         "bajar": 5.5,
         "fecha": "2027-01-27",
-        "mantener": 2.5,
-        "subir": 92,
+        "mantener": 2,
+        "subir": 92.5,
         "tasaImplicita": 4.26
       },
       {
@@ -239,28 +373,36 @@
     {
       "nombre": "CNBC · Fed officials see another hike coming, but no sign as to when, minutes show (7 oct)",
       "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html"
+    },
+    {
+      "nombre": "Investinglive · Week ahead: US inflation and retail sales preview (PPI +0,5% m/m, core +0,3% m/m)",
+      "url": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/"
+    },
+    {
+      "nombre": "ZEW · Release dates 2026 (encuesta de sentimiento económico, 20 de octubre)",
+      "url": "https://www.zew.de/PM9529-1"
     }
   ],
   "indices": [
     {
-      "changeNote": "Cierre oficial del miércoles 14 de octubre en 7.718,94 (-1,11 %), tras el IPC de septiembre más caliente de lo esperado, la multa a Bank of America y el desplome de los semiconductores (SOXX -4,3 %). El régimen de gamma sigue NEGATIVO, ahora en -8,47 mil M$ por 1 % (mejora desde -9,31).",
+      "changeNote": "Cierre oficial del miércoles 14 de octubre en 7.718,94 (-1,11 %), tras el IPC de septiembre más caliente de lo esperado, la multa a Bank of America y el desplome de los semiconductores (SOXX -4,3 %). Sin datos de futuros post-cierre verificables a las 22:18 UTC. El régimen de gamma sigue NEGATIVO, ahora en -8,41 mil M$ por 1 % (mejora algo desde -8,47).",
       "changePct": -1.11,
       "claves": [
         "Call wall en 7725 (SPY 770,0); put wall en 7745 (SPY 772,0).",
-        "Régimen de gamma NEGATIVO, en -8,47 mil M$ por 1 % (mejora algo desde -9,31).",
-        "Giro de gamma en 7791 (SPY 776,62); max pain en 7795 (SPY 777,0).",
+        "Régimen de gamma NEGATIVO, en -8,41 mil M$ por 1 % (mejora algo desde -8,47).",
+        "Giro de gamma en 7791 (SPY 776,55); max pain en 7795 (SPY 777,0).",
         "Put/call de open interest en 1,69 (sin cambios)."
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1682,
+        "contratos": 1685,
         "escalera": [
           {
-            "gex": -34.6,
+            "gex": -34.7,
             "strike": 746
           },
           {
-            "gex": -117.1,
+            "gex": -116.8,
             "strike": 747
           },
           {
@@ -272,7 +414,7 @@
             "strike": 749
           },
           {
-            "gex": -594.7,
+            "gex": -594.8,
             "strike": 750
           },
           {
@@ -288,143 +430,143 @@
             "strike": 753
           },
           {
-            "gex": -99.7,
+            "gex": -99.4,
             "strike": 754
           },
           {
-            "gex": -1084.5,
+            "gex": -1084.6,
             "strike": 755
           },
           {
-            "gex": -88.7,
+            "gex": -88.3,
             "strike": 756
           },
           {
-            "gex": -411,
+            "gex": -409,
             "strike": 757
           },
           {
-            "gex": -138.7,
+            "gex": -138.6,
             "strike": 758
           },
           {
-            "gex": -170.5,
+            "gex": -169.8,
             "strike": 759
           },
           {
-            "gex": -637.8,
+            "gex": -632.9,
             "strike": 760
           },
           {
-            "gex": -142.1,
+            "gex": -141.3,
             "strike": 761
           },
           {
-            "gex": -263.6,
+            "gex": -262.2,
             "strike": 762
           },
           {
-            "gex": -249.5,
+            "gex": -247.7,
             "strike": 763
           },
           {
-            "gex": -133.1,
+            "gex": -132.1,
             "strike": 764
           },
           {
-            "gex": -1162.5,
+            "gex": -1154.3,
             "strike": 765
           },
           {
-            "gex": -74.7,
+            "gex": -72.6,
             "strike": 766
           },
           {
-            "gex": -293.8,
+            "gex": -289.9,
             "strike": 767
           },
           {
-            "gex": -482.3,
+            "gex": -477.4,
             "strike": 768
           },
           {
-            "gex": -271.4,
+            "gex": -268.6,
             "strike": 769
           },
           {
-            "gex": -527.5,
+            "gex": -515.1,
             "strike": 770
           },
           {
-            "gex": -153,
+            "gex": -150.3,
             "strike": 771
           },
           {
-            "gex": -1397.3,
+            "gex": -1386,
             "strike": 772
           },
           {
-            "gex": -108.7,
+            "gex": -106.9,
             "strike": 773
           },
           {
-            "gex": -197.4,
+            "gex": -195.2,
             "strike": 774
           },
           {
-            "gex": 168.3,
+            "gex": 171.8,
             "strike": 775
           },
           {
-            "gex": 68.6,
+            "gex": 69.5,
             "strike": 776
           },
           {
-            "gex": -76.8,
+            "gex": -81.8,
             "strike": 777
           },
           {
-            "gex": 106.6,
+            "gex": 106.4,
             "strike": 778
           },
           {
-            "gex": 29.1,
+            "gex": 27.5,
             "strike": 779
           },
           {
-            "gex": 426,
+            "gex": 418.5,
             "strike": 780
           },
           {
-            "gex": 132.8,
+            "gex": 133.1,
             "strike": 781
           },
           {
-            "gex": 98.6,
+            "gex": 97.5,
             "strike": 782
           },
           {
-            "gex": 330.9,
+            "gex": 332.5,
             "strike": 783
           },
           {
-            "gex": 88.1,
+            "gex": 88.2,
             "strike": 784
           },
           {
-            "gex": 463.2,
+            "gex": 461.2,
             "strike": 785
           },
           {
-            "gex": 70.6,
+            "gex": 70.5,
             "strike": 786
           },
           {
-            "gex": 41.4,
+            "gex": 41.3,
             "strike": 787
           },
           {
-            "gex": 68,
+            "gex": 67.9,
             "strike": 788
           },
           {
@@ -432,17 +574,17 @@
             "strike": 789
           },
           {
-            "gex": 338.8,
+            "gex": 340,
             "strike": 790
           },
           {
-            "gex": 33.6,
+            "gex": 33.7,
             "strike": 791
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 776.62,
-        "gexTotal": -8.47,
+        "gammaFlip": 776.55,
+        "gexTotal": -8.41,
         "indice": {
           "callWall": 7725,
           "gammaFlip": 7791,
@@ -478,35 +620,36 @@
         "vencimientoCercano": "2026-10-14"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cierra la sesión del miércoles en 7.718,94 (-1,11 % frente al cierre del martes), lastrado por el IPC de septiembre, la multa de más de 1.200 millones $ a Bank of America y un nuevo desplome de los semiconductores (el índice SOXX cae un 4,3 %, con los bonos de CoreWeave entrando en niveles de impago). El régimen de gamma sigue NEGATIVO pero mejora algo a -8,47 mil M$ por 1 % (desde -9,31), con el giro de gamma en 7.791 y el max pain en 7.795, ambos por encima del precio: zona que sigue amplificando los movimientos, con el put wall en 7.745 ya perdido como soporte. El motor de datos (Kalshi) mantiene la probabilidad de subida de la Fed el 28 de octubre sin cambios en el 32,5 % (mantener 67,0 %), mientras diciembre sube ligeramente al 89,5 %; de fondo, Kevin Warsh mantiene el tono hawkish frente a la presión de Trump para bajar tipos.",
+      "lectura": "El S&P 500 cierra la sesión del miércoles en 7.718,94 (-1,11 % frente al cierre del martes), lastrado por el IPC de septiembre, la multa de más de 1.200 millones $ a Bank of America y un nuevo desplome de los semiconductores (SOXX -4,3 %, con los bonos de CoreWeave entrando en niveles de impago). A las 22:18 UTC, sin cambios verificables en futuros tras el cierre. El régimen de gamma sigue NEGATIVO, algo menos profundo en -8,41 mil M$ por 1 % (desde -8,47), con el giro de gamma en 7.791 y el max pain en 7.795 por encima del precio, y el put wall (7.745) ya perdido como soporte: zona que amplifica los movimientos. Kevin Warsh es quien más pesa hoy, sosteniendo el tono hawkish frente a la presión de Trump justo cuando el motor de datos (Kalshi) sube la probabilidad de subida del 28 de octubre al 33,0 % (mantener 66,5 %) y mantiene diciembre en el 89,5 %. El IPP y las ventas minoristas de mañana (15 oct, 12:30 UTC) son el próximo catalizador clave; de fondo, la escalada en el estrecho de Ormuz (Brent sobre 106 $) y el escepticismo del FMI sobre el plan de deuda de Bessent pesan algo más que el alivio parcial de la tregua comercial China-EE. UU. y la pausa de Ueda en el Banco de Japón.",
       "levels": {
         "callWall": 7725,
         "gammaFlip": 7791,
         "maxPain": 7795,
+        "precio": 7713,
         "putWall": 7745
       },
       "name": "S&P 500",
-      "netGex": "negativa (-8,47 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-12)",
+      "netGex": "negativa (-8,41 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-12)",
       "regime": "negativa",
-      "score": -62,
+      "score": -70,
       "sesgo": "bajista",
       "spot": 7719
     },
     {
-      "changeNote": "Cierre oficial del miércoles 14 de octubre en 29.950,82 (-2,02 %), lastrado por el desplome de los semiconductores (SOXX -4,3 %) y la multa a Bank of America. Régimen de gamma NEGATIVO, en -6,22 mil M$ por 1 % (se profundiza desde -6,17).",
+      "changeNote": "Cierre oficial del miércoles 14 de octubre en 29.950,82 (-2,02 %), lastrado por el desplome de los semiconductores (SOXX -4,3 %) y la multa a Bank of America. Sin datos de futuros post-cierre verificables a las 22:18 UTC. Régimen de gamma NEGATIVO, estable en -6,22 mil M$ por 1 %.",
       "changePct": -2.02,
       "claves": [
         "Call wall en 30420 (QQQ 740,0); put wall en 29803 (QQQ 725,0).",
-        "Régimen de gamma NEGATIVO, en -6,22 mil M$ por 1 % (se profundiza algo desde -6,17).",
-        "Giro de gamma en 30694 (QQQ 746,67); max pain en 30749 (QQQ 748,0).",
+        "Régimen de gamma NEGATIVO, en -6,22 mil M$ por 1 % (sin cambios).",
+        "Giro de gamma en 30680 (QQQ 746,34); max pain en 30749 (QQQ 748,0).",
         "Put/call de open interest en 1,84 (sin cambios)."
       ],
       "gex": {
         "callWall": 740,
-        "contratos": 1668,
+        "contratos": 1640,
         "escalera": [
           {
-            "gex": -34.3,
+            "gex": -34.9,
             "strike": 706
           },
           {
@@ -514,180 +657,180 @@
             "strike": 707
           },
           {
-            "gex": -34.5,
+            "gex": -34.3,
             "strike": 708
           },
           {
-            "gex": -10.5,
+            "gex": -9.8,
             "strike": 709
           },
           {
-            "gex": -299.3,
+            "gex": -302.5,
             "strike": 710
           },
           {
-            "gex": -97,
+            "gex": -98.7,
             "strike": 711
           },
           {
-            "gex": -67.6,
+            "gex": -69.4,
             "strike": 712
           },
           {
-            "gex": -138.5,
+            "gex": -140.4,
             "strike": 713
           },
           {
-            "gex": -33.3,
+            "gex": -34.4,
             "strike": 714
           },
           {
-            "gex": -323.1,
+            "gex": -328.5,
             "strike": 715
           },
           {
-            "gex": -172.3,
+            "gex": -176.9,
             "strike": 716
           },
           {
-            "gex": -277.6,
+            "gex": -284.4,
             "strike": 717
           },
           {
-            "gex": 27.5,
+            "gex": 24.4,
             "strike": 718
           },
           {
-            "gex": -55.5,
+            "gex": -58.5,
             "strike": 719
           },
           {
-            "gex": -364.2,
+            "gex": -383,
             "strike": 720
           },
           {
-            "gex": -13.1,
+            "gex": -14.9,
             "strike": 721
           },
           {
-            "gex": -90.6,
+            "gex": -93.8,
             "strike": 722
           },
           {
-            "gex": -61.5,
+            "gex": -64.1,
             "strike": 723
           },
           {
-            "gex": -129.4,
+            "gex": -135.1,
             "strike": 724
           },
           {
-            "gex": -822.8,
+            "gex": -849.7,
             "strike": 725
           },
           {
-            "gex": -59,
+            "gex": -62.2,
             "strike": 726
           },
           {
-            "gex": -88.2,
+            "gex": -93.1,
             "strike": 727
           },
           {
-            "gex": -128.8,
+            "gex": -135.1,
             "strike": 728
           },
           {
-            "gex": -88.8,
+            "gex": -93.6,
             "strike": 729
           },
           {
-            "gex": -558.3,
+            "gex": -589.6,
             "strike": 730
           },
           {
-            "gex": -13.7,
+            "gex": -17.3,
             "strike": 731
           },
           {
-            "gex": -243.5,
+            "gex": -252.3,
             "strike": 732
           },
           {
-            "gex": -47.1,
+            "gex": -50.2,
             "strike": 733
           },
           {
-            "gex": -357.4,
+            "gex": -370.5,
             "strike": 734
           },
           {
-            "gex": -167.7,
+            "gex": -178.5,
             "strike": 735
           },
           {
-            "gex": -42.8,
+            "gex": -44.1,
             "strike": 736
           },
           {
-            "gex": -59.1,
+            "gex": -59.2,
             "strike": 737
           },
           {
-            "gex": -52.2,
+            "gex": -52,
             "strike": 738
           },
           {
-            "gex": -10.2,
+            "gex": -10.6,
             "strike": 739
           },
           {
-            "gex": -235.5,
+            "gex": -218.1,
             "strike": 740
           },
           {
-            "gex": -41.4,
+            "gex": -36.4,
             "strike": 741
           },
           {
-            "gex": -47.3,
+            "gex": -43.2,
             "strike": 742
           },
           {
-            "gex": -14.8,
+            "gex": -8.2,
             "strike": 743
           },
           {
-            "gex": -6.9,
+            "gex": -3.8,
             "strike": 744
           },
           {
-            "gex": -105.6,
+            "gex": -75.8,
             "strike": 745
           },
           {
-            "gex": -39.5,
+            "gex": -14.4,
             "strike": 746
           },
           {
-            "gex": -6.1,
+            "gex": 1,
             "strike": 747
           },
           {
-            "gex": 5.8,
+            "gex": 9.4,
             "strike": 748
           },
           {
-            "gex": 39.7,
+            "gex": 44.1,
             "strike": 749
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 746.67,
+        "gammaFlip": 746.34,
         "gexTotal": -6.22,
         "indice": {
           "callWall": 30420,
-          "gammaFlip": 30694,
+          "gammaFlip": 30680,
           "maxPain": 30749,
           "precio": 29918,
           "putWall": 29803
@@ -720,23 +863,24 @@
         "vencimientoCercano": "2026-10-14"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cierra la sesión del miércoles en 29.950,82 (-2,02 % frente al cierre del martes), por debajo del put wall (29.803), lastrado por un nuevo desplome de los semiconductores (SOXX -4,3 %, con Micron, Applied Materials, Western Digital, SK Hynix y los bonos de CoreWeave entrando en niveles de impago), el IPC caliente y la multa a Bank of America. El régimen de gamma sigue NEGATIVO y se profundiza ligeramente a -6,22 mil M$ por 1 % (desde -6,17), con el giro de gamma en 30.694: el índice permanece en zona de alta amplificación de movimientos y el put/call de open interest se mantiene en 1,84. La probabilidad de subida de la Fed el 28 de octubre se mantiene sin cambios en el 32,5 % (Kalshi), mientras diciembre sube ligeramente al 89,5 %, aunque la tecnología de alta duración sigue presionada por el desplome de los semiconductores.",
+      "lectura": "El Nasdaq 100 cierra la sesión del miércoles en 29.950,82 (-2,02 % frente al cierre del martes), por encima del put wall (29.803) pero por debajo del giro de gamma (30.680), lastrado por un nuevo desplome de los semiconductores (SOXX -4,3 %, con Micron, Applied Materials, Western Digital, SK Hynix y los bonos de CoreWeave entrando en niveles de impago), el IPC caliente y la multa a Bank of America. El régimen de gamma sigue NEGATIVO y estable en -6,22 mil M$ por 1 %, con el put/call de open interest en 1,84: el índice permanece en zona de alta amplificación de movimientos. El motor de datos (Kalshi) sube la probabilidad de subida de la Fed el 28 de octubre al 33,0 % (mantener 66,5 %), con Kevin Warsh sosteniendo el tono hawkish, mientras la tecnología de alta duración sigue presionada por el desplome de los semiconductores; el aplazamiento de una segunda subida de Ueda y la tregua comercial China-EE. UU. ofrecen un contrapeso parcial, insuficiente frente al golpe de los semiconductores. El IPP y las ventas minoristas de mañana son el siguiente catalizador.",
       "levels": {
         "callWall": 30420,
-        "gammaFlip": 30694,
+        "gammaFlip": 30680,
         "maxPain": 30749,
+        "precio": 29918,
         "putWall": 29803
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-6,22 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-12)",
       "regime": "negativa",
-      "score": -72,
+      "score": -78,
       "sesgo": "bajista",
       "spot": 29951
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-14T18:50:32Z",
+    "actualizado": "2026-10-14T21:58:42Z",
     "balance": 6747.6,
     "d4": 8.1,
     "dBalance": 4.6,
@@ -1131,11 +1275,11 @@
     "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 14 de octubre, por open interest). El put/call de hoy sigue más alto en el Nasdaq 100 (1,70) que en el S&P 500 (1,08): más cobertura bajista a corto plazo en el Nasdaq tras el IPC caliente. El max pain 0DTE coincide con el max pain principal en ambos índices (7.795 y 30.749), con el spot ya por debajo en ambos casos tras la caída post-IPC, y el rango 0DTE (7.354-7.926 en SPX, 30.009-30.831 en NDX) deja margen amplio para el resto de la sesión."
   },
   "politica": {
-    "actualizado": "2026-10-14T19:48:00Z",
-    "ajuste": -10,
+    "actualizado": "2026-10-14T22:18:00Z",
+    "ajuste": -8,
     "declaraciones": [
       {
-        "dicho": "El FMI le pide recortar el déficit en lugar de confiar solo en el crecimiento del 3 %.",
+        "dicho": "El FMI le pide recortar el deficit en lugar de confiar solo en el crecimiento del 3 %.",
         "efecto": "bajista",
         "fuente": "CNBC",
         "quien": "Scott Bessent",
@@ -1143,7 +1287,7 @@
         "url": "https://www.cnbc.com/2026/10/14/bond-yields-debt-deficit-treasury.html"
       },
       {
-        "dicho": "Descarta un rescate fácil del BCE para la deuda francesa; lo llama peligroso e ilegal.",
+        "dicho": "Descarta un rescate facil del BCE para la deuda francesa; lo llama peligroso e ilegal.",
         "efecto": "bajista",
         "fuente": "FXStreet",
         "quien": "Christine Lagarde",
@@ -1151,15 +1295,7 @@
         "url": "https://www.fxstreet.com/analysis/lagarde-rules-out-an-easy-ecb-rescue-for-french-debt-while-hormuz-shipping-attacks-intensify-202610140950"
       },
       {
-        "dicho": "Dice que no hay \"urgencia\" para otra subida tras la de septiembre; ve posible una más en diciembre.",
-        "efecto": "alcista",
-        "fuente": "Admiral Markets",
-        "quien": "John Williams",
-        "ts": "2026-10-13T18:00:00Z",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/fed-williams-speech-today"
-      },
-      {
-        "dicho": "Anuncia una tregua energética entre Rusia y Ucrania; el petróleo cae tras el anuncio.",
+        "dicho": "Anuncia una tregua energetica entre Rusia y Ucrania; el petroleo cae tras el anuncio.",
         "efecto": "mixto",
         "fuente": "CNBC",
         "quien": "Trump",
@@ -1167,21 +1303,29 @@
         "url": "https://www.cnbc.com/2026/10/12/trump-russia-ukraine-saudi-oil.html"
       },
       {
-        "dicho": "Responde con dureza a las críticas de Trump y defiende la subida de tipos de septiembre.",
+        "dicho": "Responde con dureza a las criticas de Trump y defiende la subida de tipos de septiembre.",
         "efecto": "bajista",
         "fuente": "The Motley Fool",
         "quien": "Kevin Warsh",
         "ts": "2026-10-08T00:00:00Z",
         "url": "https://www.fool.com/investing/2026/10/08/fed-chair-kevin-warsh-fire-back-donald-trump-interest-rate-critique-blunt-9-word-statement/"
+      },
+      {
+        "dicho": "China y EE. UU. amplian la tregua arancelaria hasta el 10 de enero de 2027.",
+        "efecto": "alcista",
+        "fuente": "NBC News",
+        "quien": "He Lifeng / Bessent",
+        "ts": "2026-10-10T00:00:00Z",
+        "url": "https://www.nbcnews.com/business/economy/us-china-extend-trade-truce-trump-rcna599525"
       }
     ],
     "efecto": "mixto",
-    "lectura": "El IPC de septiembre sorprendió al alza (general 3,7 % a/a, subyacente 2,6 % a/a), y aunque el mercado modera algo la reacción inicial -la probabilidad de subida de la Fed el 28 de octubre baja al 32,5 % (Kalshi) desde el pico del 50,5 % tras el dato-, el sesgo de fondo sigue hawkish: Kevin Warsh respondió con dureza a las críticas de Trump y defiende la subida de septiembre, y Trump ya había dicho que Warsh \"debería haber votado en contra\" de esa subida, evidenciando la tensión sobre la independencia de la Fed. El comentario algo más dovish de John Williams (Fed de Nueva York), que ve \"sin urgencia\" otra subida inmediata, ofrece un contrapeso parcial. En el plano fiscal, el FMI sigue presionando a Bessent para que recorte el déficit en lugar de confiar solo en el crecimiento, mientras Lagarde descarta un rescate fácil del BCE para la deuda francesa justo cuando se intensifican los ataques a petroleros en el estrecho de Ormuz (Brent sobre 106 $/barril). Trump mantiene de soporte de fondo la tregua energética Rusia-Ucrania y la tregua arancelaria con China hasta enero de 2027. El balance combinado sigue mixto, con sesgo ligeramente bajista para la renta variable estadounidense.",
+    "lectura": "El IPC de septiembre sorprendio al alza (general 3,7 % a/a, subyacente 2,6 % a/a), pero el mercado modera la reaccion inicial -la probabilidad de subida de la Fed el 28 de octubre se mantiene estable en el 32,5 % (Kalshi)-, con Kevin Warsh sosteniendo el tono hawkish frente a Trump, que insiste en tipos al 1 % o menos y cuestiona la independencia de la Fed. Scott Bessent afronta el escepticismo del FMI sobre su plan de deuda, mientras Christine Lagarde descarta un rescate facil del BCE para Francia justo cuando se intensifican los ataques a petroleros en el estrecho de Ormuz (Brent sobre 106 $/barril), un foco de riesgo bajista para la renta variable y alcista para el oro. De fondo, dos factores compensan parte del riesgo: Kazuo Ueda (Banco de Japon) senala que necesita mas datos antes de una segunda subida consecutiva, lo que mantiene barato el carry trade global, y He Lifeng acordo con Bessent ampliar la tregua arancelaria China-EE. UU. hasta el 10 de enero de 2027. El balance combinado queda mixto, con sesgo ligeramente bajista para el S&P 500 y el Nasdaq 100.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
         "efecto": "mixto",
-        "postura": "Dice que Warsh \"debería haber votado en contra\" de la subida de septiembre; exige tipos al 1 % o menos (1 oct).",
+        "postura": "Dice que Warsh \"deberia haber votado en contra\" de la subida de septiembre; exige tipos al 1 % o menos (1 oct).",
         "quien": "Trump",
         "ts": "2026-10-01T00:00:00Z",
         "url": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
@@ -1197,7 +1341,7 @@
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
         "efecto": "bajista",
-        "postura": "El FMI (Georgieva) le pide recortar el déficit; prepara un nuevo plan de deuda tras las elecciones de mitad de mandato.",
+        "postura": "El FMI (Georgieva) le pide recortar el deficit; su plan de 'doblar la curva de la deuda' genera escepticismo en el mercado.",
         "quien": "Scott Bessent",
         "ts": "2026-10-14T10:00:00Z",
         "url": "https://www.cnbc.com/2026/10/14/bond-yields-debt-deficit-treasury.html"
@@ -1205,65 +1349,95 @@
       {
         "cargo": "Presidenta del Banco Central Europeo",
         "efecto": "bajista",
-        "postura": "Descarta un rescate fácil del BCE para la deuda francesa mientras se intensifica la escalada en Ormuz (14 oct).",
+        "postura": "Descarta un rescate facil del BCE para la deuda francesa mientras se intensifica la escalada en Ormuz (14 oct).",
         "quien": "Christine Lagarde",
         "ts": "2026-10-14T09:50:00Z",
         "url": "https://www.fxstreet.com/analysis/lagarde-rules-out-an-easy-ecb-rescue-for-french-debt-while-hormuz-shipping-attacks-intensify-202610140950"
       },
       {
-        "cargo": "Presidente de la Fed de Nueva York",
+        "cargo": "Gobernador del Banco de Japon",
         "efecto": "alcista",
-        "postura": "Ve \"sin urgencia\" otra subida tras la de septiembre; no descarta una más a final de año (13 oct).",
-        "quien": "John Williams",
-        "ts": "2026-10-13T18:00:00Z",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/fed-williams-speech-today"
+        "postura": "Senala que necesita mas datos antes de decidir una segunda subida consecutiva en la reunion de octubre.",
+        "quien": "Kazuo Ueda",
+        "ts": "2026-10-06T00:00:00Z",
+        "url": "https://finance.yahoo.com/news/bank-japan-chief-signals-more-210253745.html"
+      },
+      {
+        "cargo": "Viceprimer ministro de China (comercio)",
+        "efecto": "alcista",
+        "postura": "Acuerda con Bessent ampliar la tregua arancelaria China-EE. UU. hasta el 10 de enero de 2027.",
+        "quien": "He Lifeng",
+        "ts": "2026-10-10T00:00:00Z",
+        "url": "https://www.nbcnews.com/business/economy/us-china-extend-trade-truce-trump-rcna599525"
       }
     ]
   },
-  "resumen": "Son las 21:16 UTC (17:16 hora de Nueva York) del miércoles 14 de octubre, tras el cierre de Wall Street (20:00 UTC). El IPC de septiembre, publicado a las 12:30 UTC, sorprendió al alza (general 3,7 % a/a, subyacente 2,6 % a/a), y la sesión cerró con fuertes pérdidas: el S&P 500 en 7.718,94 (-1,11 %) y el Nasdaq 100 en 29.950,82 (-2,02 %), con la gamma NEGATIVA en ambos índices (-8,47 mil M$ SPX, -6,22 mil M$ NDX). Un nuevo desplome de los semiconductores (SOXX -4,3 %, séptima sesión consecutiva a la baja) y los bonos de CoreWeave entrando en niveles de impago se suman a la multa de más de 1.200 millones $ a Bank of America, en plena temporada de resultados bancarios (JPMorgan decepciona, Goldman Sachs dispara el trading, BlackRock sube y State Street se desploma). El motor de datos (Kalshi) mantiene la probabilidad de subida de la Fed el 28 de octubre sin cambios en el 32,5 % (mantener 67,0 %), y sube algo la de diciembre al 89,5 % (desde 88,5 %), con Kevin Warsh sosteniendo el tono hawkish frente a la presión de Trump para bajar tipos. Bitcoin cae hacia 82.000 $ y el oro sigue bajo 4.100 $/oz, presionados por el dólar firme; el EUR/USD se mantiene cerca de mínimos de 17 meses, y persiste la escalada de ataques a petroleros en el estrecho de Ormuz (Brent sobre 106 $/barril), con el FMI presionando a Bessent sobre el déficit y Lagarde descartando un rescate fácil del BCE para la deuda francesa.",
+  "resumen": "Son las 22:18 UTC (18:18 hora de Nueva York) del miércoles 14 de octubre, en la fase posterior al cierre de Wall Street, sin cambios verificables en futuros. El IPC de septiembre sorprendió al alza y la sesión cerró con fuertes pérdidas: el S&P 500 en 7.718,94 (-1,11 %) y el Nasdaq 100 en 29.950,82 (-2,02 %), ambos con gamma NEGATIVA (-8,41 mil M$ SPX, -6,22 mil M$ NDX) y el put wall del S&P 500 (7.745) ya perdido. El desplome de los semiconductores (SOXX -4,3 %, séptima sesión consecutiva a la baja) y la multa a Bank of America se suman al cuadro bajista. El motor de datos (Kalshi) sube la probabilidad de subida de la Fed el 28 de octubre al 33,0 % (mantener 66,5 %) y mantiene diciembre en el 89,5 %, con Kevin Warsh sosteniendo el tono hawkish frente a Trump. Bitcoin cae hacia 82.000 $ y el oro sigue bajo 4.100 $/oz, presionados por el dólar firme en máximos desde abril de 2025; el EUR/USD ronda mínimos de 17 meses. Lagarde descarta un rescate fácil del BCE para Francia y el FMI presiona a Bessent sobre el déficit, mientras persiste la escalada de ataques a petroleros en el estrecho de Ormuz (Brent sobre 106 $). De fondo, la tregua comercial China-EE. UU. ampliada hasta enero de 2027 (Bessent-He Lifeng) y la pausa de Ueda en el Banco de Japón moderan parte del riesgo. Próximo catalizador: IPP y ventas minoristas de septiembre, mañana 15 de octubre a las 12:30 UTC.",
   "semana": {
     "activos": [
       {
-        "cambio": "Miércoles 14 oct, cierre: el S&P 500 cierra en 7.718,94 (-1,11 %) tras el IPC caliente, la multa a BofA y el desplome de semiconductores; la gamma mejora algo a -8,47 mil M$. Score -62 (sin cambios).",
-        "expectativa": "El S&P 500 cierra en 7.718,94 (-1,11 %) tras un IPC de septiembre por encima del consenso en ambos frentes, una multa de más de 1.200 millones $ a Bank of America y un nuevo desplome de los semiconductores (SOXX -4,3 %, con los bonos de CoreWeave en niveles de impago), aunque la probabilidad de subida de la Fed el 28 de octubre se mantiene en el 32,5 % (Kalshi) y diciembre sube algo al 89,5 %. El régimen de gamma, NEGATIVO pero algo menos profundo (-8,47 mil M$ por 1 %), deja el índice en terreno de movimientos amplificados, con el put wall (7.745) ya perdido y el giro de gamma en 7.791 como próxima resistencia. Kevin Warsh mantiene el tono hawkish frente a Trump, el FMI presiona a Bessent sobre el déficit y Lagarde descarta un rescate para Francia, mientras el Brent sobre 106 $ por Ormuz añade presión; la liquidez de la Fed entrando y la tregua con China siguen de soporte parcial.",
+        "cambio": "Miércoles 14 oct, cierre + revisión de las 22:18 UTC: el S&P 500 cierra en 7.718,94 (-1,11 %); el calendario de esta semana (IPC ya publicado, IPP/ventas minoristas/paro pendientes el 15 oct) deja el dólar con un sesgo del +60 % a su favor. Score -64 (desde -62).",
+        "expectativa": "El balance del calendario de esta semana favorece al dólar en un 60 % (IPC general y subyacente ambos por encima de lo previsto; IPP, ventas minoristas y paro de mañana aún pendientes), lo que por sí solo ya es bajista para el S&P 500. Se suman la gamma NEGATIVA (-8,41 mil M$ por 1 %, con el put wall ya perdido), la probabilidad de subida de la Fed al 33,0 % el 28 de octubre, y Kevin Warsh manteniendo el tono hawkish frente a Trump. La liquidez de la Fed entrando (+82.200 M$ semanales) y la tregua con China moderan parte del golpe, pero no compensan el desplome de los semiconductores (SOXX -4,3 %) ni la escalada en Ormuz.",
         "id": "SPX",
-        "score": -62,
+        "score": -64,
         "scoreInicial": 10,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Miércoles 14 oct, cierre: el Nasdaq 100 cierra en 29.950,82 (-2,02 %) por el desplome de semiconductores (SOXX -4,3 %) y la multa a BofA; gamma en -6,22 mil M$. Score -72 (sin cambios).",
-        "expectativa": "El Nasdaq 100 cierra en 29.950,82, por debajo del put wall (29.803), tras el IPC más caliente de lo esperado, un nuevo desplome en semiconductores (SOXX -4,3 %, con Micron, Applied Materials, Western Digital, SK Hynix y los bonos de CoreWeave entrando en niveles de impago) y la multa a Bank of America. La probabilidad de subida de la Fed se mantiene en el 32,5 % el 28 de octubre; el régimen de gamma NEGATIVO (-6,22 mil M$ por 1 %) sigue amplificando el riesgo de movimientos bruscos.",
+        "cambio": "Miércoles 14 oct, cierre + revisión de las 22:18 UTC: el Nasdaq 100 cierra en 29.950,82 (-2,02 %) por el desplome de semiconductores; el calendario deja el dólar con sesgo del +60 % a su favor. Score -67 (desde -72).",
+        "expectativa": "El dólar viene favorecido en un 60 % por el calendario de esta semana (IPC por encima de lo previsto en ambos frentes), lo que presiona a la tecnología de alta duración. El régimen de gamma NEGATIVO (-6,22 mil M$ por 1 %) y el desplome de los semiconductores (SOXX -4,3 %, séptima sesión de caídas, con los bonos de CoreWeave en niveles de impago) son el factor dominante hoy, por delante incluso del IPC. La probabilidad de subida de la Fed el 28 de octubre sube al 33,0 %, con Warsh hawkish; la tregua comercial China-EE. UU. y la pausa de Ueda ofrecen un contrapeso parcial.",
         "id": "NQ",
-        "score": -72,
+        "score": -67,
         "scoreInicial": 5,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Miércoles 14 oct, cierre: el oro se mantiene bajo 4.100 $/oz, presionado por el dólar firme tras el IPC caliente. Score +8 (sin cambios).",
-        "expectativa": "El oro cotiza bajo 4.100 $/oz, lastrado por un dólar firme cerca de máximos de 18 meses tras el IPC más caliente de lo esperado. La escalada en el estrecho de Ormuz (Brent sobre 106 $/barril) y la presión fiscal en EE. UU. y Francia siguen dando soporte de fondo como refugio, moderando la caída.",
+        "cambio": "Miércoles 14 oct, cierre + revisión de las 22:18 UTC: el oro se mantiene bajo 4.100 $/oz, presionado por el dólar en máximos desde abril de 2025 tras el IPC caliente. Score -24 (desde +8).",
+        "expectativa": "El calendario de esta semana deja al dólar favorecido en un 60 %, lo que por la vía mecánica del tipo de cambio presiona al oro a la baja hoy; el IPC general y subyacente sorprendieron al alza y refuerzan ese sesgo. Como contrapeso, la escalada en el estrecho de Ormuz (Brent sobre 106 $/barril) y la presión fiscal en EE. UU. y Francia mantienen la demanda de refugio, por lo que el retroceso se modera frente a lo que marcaría el dólar en solitario; aun así, el saldo neto de hoy es bajista a corto plazo.",
         "id": "XAU",
-        "score": 8,
+        "score": -24,
         "scoreInicial": 18,
-        "sesgo": "neutral"
+        "sesgo": "bajista"
       },
       {
-        "cambio": "Miércoles 14 oct, cierre: bitcoin retrocede hacia 82.000 $ desde los 83.400 $, presionado por el IPC caliente y el dólar firme. Score -12 (sin cambios).",
-        "expectativa": "Bitcoin retrocede hacia 82.000 $ desde los 83.400 $, presionado por el IPC más caliente de lo esperado y la subida del dólar. El tono hawkish de la Fed de cara a diciembre (89,5 % de probabilidad de subida) es un lastre de fondo, parcialmente compensado por la acumulación corporativa y entradas en fondos.",
+        "cambio": "Miércoles 14 oct, cierre + revisión de las 22:18 UTC: bitcoin retrocede hacia 82.000 $ desde los 83.400 $, presionado por el IPC caliente y el dólar firme. Score -32 (desde -12).",
+        "expectativa": "El dólar favorecido por el calendario (60 %) y el tono hawkish de la Fed de cara a diciembre (89,5 % de probabilidad de subida) pesan sobre el activo de riesgo hoy, en línea con la caída de las acciones. La acumulación corporativa y las entradas en fondos siguen de soporte de fondo, pero no evitan el retroceso de la sesión.",
         "id": "BTC",
-        "score": -12,
+        "score": -32,
         "scoreInicial": -10,
-        "sesgo": "neutral"
+        "sesgo": "bajista"
       },
       {
-        "cambio": "Miércoles 14 oct, cierre: el euro se mantiene cerca de mínimos de 17 meses (~1,114) con el dólar firme. Score -22 (sin cambios).",
-        "expectativa": "El EUR/USD se mantiene cerca de mínimos de 17 meses en torno a 1,114 tras el IPC de septiembre, más caliente de lo esperado, que refuerza al dólar. Lagarde descarta además un rescate fácil del BCE para la deuda francesa, añadiendo presión sobre el euro, aunque la tregua energética Rusia-Ucrania anunciada por Trump alivia algo la factura energética europea.",
+        "cambio": "Miércoles 14 oct, cierre + revisión de las 22:18 UTC: el euro se mantiene cerca de mínimos de 17 meses (~1,114) con el dólar firme. Score -44 (desde -22).",
+        "expectativa": "El calendario de esta semana es claramente favorable al dólar (60 %): el IPC de septiembre superó lo previsto en ambos frentes y no hay, de momento, ningún dato de la eurozona de peso que lo compense esta semana (el próximo, la encuesta ZEW alemana, llega el 20 de octubre). Lagarde descarta además un rescate fácil del BCE para la deuda francesa, añadiendo presión política sobre el euro, aunque la tregua energética Rusia-Ucrania anunciada por Trump alivia algo la factura energética europea.",
         "id": "EURUSD",
-        "score": -22,
+        "score": -44,
         "scoreInicial": -12,
         "sesgo": "bajista"
+      },
+      {
+        "cambio": "Miércoles 14 oct, cierre + revisión de las 22:18 UTC: el petróleo se mantiene firme por la escalada de ataques a petroleros en el estrecho de Ormuz (Brent sobre 106 $/barril), que compensa la presión del dólar fuerte. Score +8 (nuevo).",
+        "expectativa": "El dólar favorecido por el calendario presiona algo a la baja al crudo (denominado en dólares), pero ese efecto queda ampliamente compensado por el riesgo de oferta: la escalada de ataques a petroleros en el estrecho de Ormuz mantiene el Brent sobre 106 $/barril. El balance neto queda neutral, con sesgo ligeramente alcista si la escalada en Ormuz se intensifica.",
+        "id": "WTI",
+        "score": 8,
+        "scoreInicial": 8,
+        "sesgo": "neutral"
       }
     ],
+    "calendarioSesgo": {
+      "activos": {
+        "BTC": -48,
+        "EURUSD": -60,
+        "NQ": -60,
+        "SPX": -60,
+        "WTI": -30,
+        "XAU": -60
+      },
+      "actualizado": "2026-10-14T22:18:00Z",
+      "dolar": 60,
+      "dolarEsperado": 54,
+      "euro": 0
+    },
     "escenarios": [
       {
         "actual": "+0,6 % m/m; 3,7 % a/a general; +0,3 % m/m; 2,6 % a/a subyacente",
@@ -1276,6 +1450,7 @@
               "EURUSD": "bajista",
               "NQ": "bajista",
               "SPX": "bajista",
+              "WTI": "bajista",
               "XAU": "bajista"
             },
             "nota": "Inflación alta/dato fuerte en EE. UU.: refuerza la probabilidad de subida en diciembre y la Fed dura."
@@ -1287,6 +1462,7 @@
               "EURUSD": "neutral",
               "NQ": "neutral",
               "SPX": "neutral",
+              "WTI": "neutral",
               "XAU": "neutral"
             },
             "nota": "Sin sorpresas; el mercado mantiene el foco en la reunión del 28 de octubre."
@@ -1298,6 +1474,7 @@
               "EURUSD": "alcista",
               "NQ": "alcista",
               "SPX": "alcista",
+              "WTI": "alcista",
               "XAU": "alcista"
             },
             "nota": "Dato débil/inflación baja: reforzaría la narrativa de enfriamiento y una Fed más suave."
@@ -1324,6 +1501,7 @@
               "EURUSD": "bajista",
               "NQ": "bajista",
               "SPX": "bajista",
+              "WTI": "bajista",
               "XAU": "bajista"
             },
             "nota": "Dato fuerte: refuerza el riesgo de inflación y la Fed dura."
@@ -1335,6 +1513,7 @@
               "EURUSD": "neutral",
               "NQ": "neutral",
               "SPX": "neutral",
+              "WTI": "neutral",
               "XAU": "neutral"
             },
             "nota": "Sin sorpresas relevantes."
@@ -1346,6 +1525,7 @@
               "EURUSD": "alcista",
               "NQ": "alcista",
               "SPX": "alcista",
+              "WTI": "alcista",
               "XAU": "alcista"
             },
             "nota": "Dato débil: reforzaría la narrativa de desinflación."
@@ -1370,6 +1550,7 @@
               "EURUSD": "bajista",
               "NQ": "bajista",
               "SPX": "bajista",
+              "WTI": "bajista",
               "XAU": "bajista"
             },
             "nota": "Consumo fuerte: dato fuerte en EE. UU., refuerza la Fed dura."
@@ -1381,6 +1562,7 @@
               "EURUSD": "neutral",
               "NQ": "neutral",
               "SPX": "neutral",
+              "WTI": "neutral",
               "XAU": "neutral"
             },
             "nota": "Sin sorpresas relevantes."
@@ -1392,6 +1574,7 @@
               "EURUSD": "alcista",
               "NQ": "bajista",
               "SPX": "bajista",
+              "WTI": "bajista",
               "XAU": "alcista"
             },
             "nota": "Dato muy débil, con riesgo de miedo a recesión: bajista para acciones y cripto, alcista para el oro como refugio."
@@ -1416,6 +1599,7 @@
               "EURUSD": "alcista",
               "NQ": "alcista",
               "SPX": "alcista",
+              "WTI": "bajista",
               "XAU": "alcista"
             },
             "nota": "Mercado laboral más débil: menos presión para subir tipos."
@@ -1427,6 +1611,7 @@
               "EURUSD": "neutral",
               "NQ": "neutral",
               "SPX": "neutral",
+              "WTI": "neutral",
               "XAU": "neutral"
             },
             "nota": "Sin sorpresa relevante."
@@ -1438,6 +1623,7 @@
               "EURUSD": "bajista",
               "NQ": "bajista",
               "SPX": "bajista",
+              "WTI": "alcista",
               "XAU": "bajista"
             },
             "nota": "Empleo resistente: dato fuerte, refuerza la subida de diciembre."
@@ -1463,6 +1649,7 @@
               "EURUSD": "neutral",
               "NQ": "alcista",
               "SPX": "alcista",
+              "WTI": "alcista",
               "XAU": "bajista"
             },
             "nota": "Confianza se recupera: alivia el miedo a estanflación."
@@ -1474,6 +1661,7 @@
               "EURUSD": "neutral",
               "NQ": "neutral",
               "SPX": "neutral",
+              "WTI": "neutral",
               "XAU": "neutral"
             },
             "nota": "Confirma la debilidad de confianza con inflación esperada alta: sin sorpresa relevante pero mantiene el sesgo de cautela."
@@ -1485,6 +1673,7 @@
               "EURUSD": "neutral",
               "NQ": "bajista",
               "SPX": "bajista",
+              "WTI": "bajista",
               "XAU": "alcista"
             },
             "nota": "Dato muy débil con miedo a estanflación/recesión: bajista para acciones y cripto, alcista para el oro como refugio."
@@ -1508,6 +1697,7 @@
               "EURUSD": "bajista",
               "NQ": "bajista",
               "SPX": "bajista",
+              "WTI": "bajista",
               "XAU": "bajista"
             },
             "nota": "Fed más dura de lo esperado por el mercado: bajista en todos los activos de riesgo, incluido el oro por el coste de oportunidad."
@@ -1519,6 +1709,7 @@
               "EURUSD": "neutral",
               "NQ": "neutral",
               "SPX": "neutral",
+              "WTI": "neutral",
               "XAU": "neutral"
             },
             "nota": "Resultado ya muy descontado por el mercado; el tono del comunicado y la rueda de prensa de Warsh definen la reacción."
@@ -1530,6 +1721,7 @@
               "EURUSD": "alcista",
               "NQ": "alcista",
               "SPX": "alcista",
+              "WTI": "alcista",
               "XAU": "alcista"
             },
             "nota": "Sorpresa dovish: alcista en todos los activos de riesgo y en el oro."
@@ -1545,11 +1737,11 @@
         "previsto": "Mantener (67,0 % según Kalshi); subir 25 pb (32,5 %); bajar (0,5 %)"
       }
     ],
-    "narrativa": "Semana marcada por el IPC de septiembre, publicado a las 12:30 UTC del miércoles y más caliente de lo esperado en ambos frentes: general +0,6 % m/m (3,7 % a/a) y subyacente +0,3 % m/m (2,6 % a/a), ambos por encima del consenso Dow Jones (3,6 %/2,5 %). Es el último dato de inflación antes de la reunión de la Fed del 28 de octubre; el motor de datos (Kalshi) elevó la probabilidad de subida ese día hasta el 50,5 % tras el dato, pero se ha moderado después hasta el 32,5 %, donde se mantiene estable, mientras diciembre sube algo al 89,5 %: Kevin Warsh sostiene su discurso hawkish frente a la presión de Trump, que llegó a decir que Warsh \"debería haber votado en contra\" de la subida de septiembre. El S&P 500 y el Nasdaq 100 cerraron la sesión con fuertes pérdidas (7.718,94, -1,11 %; 29.950,82, -2,02 %), ambos con el régimen de gamma NEGATIVO (-8,47 y -6,22 mil M$ por 1 % respectivamente); el Nasdaq sigue presionado por una nueva pata bajista en fabricantes de memoria y semiconductores (SOXX -4,3 %, séptima sesión de caídas, con Micron, Applied Materials y los bonos de CoreWeave en niveles de impago) y la sesión se agrava con una multa de más de 1.200 millones $ a Bank of America. En el plano fiscal y geopolítico, el FMI (Georgieva) sigue pidiendo a Bessent recortar el déficit, Lagarde descarta un rescate fácil del BCE para la deuda francesa, y la escalada de ataques a petroleros en el estrecho de Ormuz mantiene el Brent sobre 106 $/barril. De fondo, la tregua arancelaria con China hasta enero de 2027 y la tregua energética Rusia-Ucrania anunciada por Trump siguen aliviando parte del riesgo de cola, y la liquidez neta de la Fed sigue entrando (+82.200 millones $ la última semana) como soporte para el riesgo. El oro cae bajo 4.100 $/oz por el dólar firme, bitcoin retrocede hacia 82.000 $, y el EUR/USD se mantiene cerca de mínimos de 17 meses en torno a 1,114 con el dólar firme.",
+    "narrativa": "Semana marcada por el IPC de septiembre, publicado a las 12:30 UTC del miércoles y más caliente de lo esperado en ambos frentes: general +0,6 % m/m (3,7 % a/a) y subyacente +0,3 % m/m (2,6 % a/a), ambos por encima del consenso Dow Jones (3,6 %/2,5 %). El balance del calendario de esta semana queda favorable al dólar en un 60 % (con un dólar esperado del 54 % antes de conocerse los datos), ya que todavía faltan por publicarse el IPP, las ventas minoristas y las peticiones de subsidio de mañana 15 de octubre; no hay, de momento, ningún dato de peso de la eurozona esta semana que lo compense. El motor de datos (Kalshi) elevó la probabilidad de subida del 28 de octubre hasta el 33,0 % (mantener 66,5 %) tras el IPC, mientras diciembre se mantiene en el 89,5 %: Kevin Warsh sostiene su discurso hawkish frente a la presión de Trump, que llegó a decir que Warsh \"debería haber votado en contra\" de la subida de septiembre. El S&P 500 y el Nasdaq 100 cerraron la sesión con fuertes pérdidas (7.718,94, -1,11 %; 29.950,82, -2,02 %), ambos con el régimen de gamma NEGATIVO (-8,41 y -6,22 mil M$ por 1 % respectivamente, con el put wall del S&P 500 ya perdido); el Nasdaq sigue presionado por una nueva pata bajista en semiconductores (SOXX -4,3 %, séptima sesión de caídas, con Micron, Applied Materials y los bonos de CoreWeave en niveles de impago) y la sesión se agrava con una multa de más de 1.200 millones $ a Bank of America. En el plano fiscal y geopolítico, el FMI (Georgieva) sigue pidiendo a Bessent recortar el déficit, Lagarde descarta un rescate fácil del BCE para la deuda francesa, y la escalada de ataques a petroleros en el estrecho de Ormuz mantiene el Brent sobre 106 $/barril, dando soporte al petróleo (WTI) pese al dólar fuerte. De fondo, la tregua arancelaria con China hasta enero de 2027 y la tregua energética Rusia-Ucrania anunciada por Trump siguen aliviando parte del riesgo de cola, y la liquidez neta de la Fed sigue entrando (+82.200 millones $ la última semana) como soporte para el riesgo. El oro cae bajo 4.100 $/oz y bitcoin retrocede hacia 82.000 $ por el dólar firme, y el EUR/USD se mantiene cerca de mínimos de 17 meses en torno a 1,114, sin ningún dato grande de la eurozona hasta la encuesta ZEW alemana del 20 de octubre.",
     "rango": "12-16 oct 2026",
-    "slot": "sesion",
-    "updatedAt": "2026-10-14T21:20:00.000000Z"
+    "slot": "cierre",
+    "updatedAt": "2026-10-14T22:18:00Z"
   },
-  "slot": "rapida",
-  "updatedAt": "2026-10-14T21:20:00.000000Z"
+  "slot": "cierre",
+  "updatedAt": "2026-10-14T22:18:00Z"
 }
