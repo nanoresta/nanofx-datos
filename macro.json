@@ -85,30 +85,30 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-14T14:10:39Z",
+    "actualizado": "2026-10-14T16:12:26Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida el 28 de octubre retrocede al 43,5 % (desde el 47,5 % de hace poco más de media hora), con mantener subiendo al 56,0 %: el mercado modera la reacción inicial al IPC caliente. La de diciembre se mantiene prácticamente estable en el 91,5 % (desde 92,0 %), reflejo de que el centro de gravedad del ciclo de subidas sigue en esa reunión.",
+    "lectura": "La probabilidad de subida el 28 de octubre sigue moderándose, al 39,0 % (desde el 40,5 % de la hora anterior), con mantener subiendo al 60,5 %; pesa el comentario dovish de John Williams (Fed de Nueva York), que ve «sin urgencia» otra subida inmediata. La de diciembre se mantiene prácticamente estable en el 88,5 %, reflejo de que el sesgo hawkish de fondo hacia esa reunión no cambia pese a la moderación a corto plazo.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 56,
-        "subir": 43.5,
-        "tasaImplicita": 3.98
+        "mantener": 60.5,
+        "subir": 39,
+        "tasaImplicita": 3.97
       },
       {
         "bajar": 2,
         "fecha": "2026-12-09",
-        "mantener": 6.5,
-        "subir": 91.5,
-        "tasaImplicita": 4.19
+        "mantener": 9.5,
+        "subir": 88.5,
+        "tasaImplicita": 4.16
       },
       {
         "bajar": 4,
         "fecha": "2027-01-27",
-        "mantener": 3.5,
-        "subir": 92.5,
+        "mantener": 4,
+        "subir": 92,
         "tasaImplicita": 4.21
       },
       {
@@ -235,215 +235,215 @@
   ],
   "indices": [
     {
-      "changeNote": "Cae tras el IPC de septiembre, más caliente de lo esperado (general 3,7 % a/a, subyacente 2,6 % a/a); cierre oficial del martes en 7.805,45. El régimen de gamma sigue NEGATIVO pero se modera a -2,14 mil M$ por 1 % (desde -4,23 hace una hora).",
-      "changePct": -0.33,
+      "changeNote": "Profundiza la caída tras el IPC de septiembre; cierre oficial del martes en 7.805,45. El régimen de gamma sigue NEGATIVO y se profundiza a -7,48 mil M$ por 1 % (desde -6,68). En vivo, 17:16 Canarias.",
+      "changePct": -1.02,
       "claves": [
-        "Call wall en 7825 (SPY 780,0); put wall en 7745 (SPY 772,0).",
-        "Régimen de gamma NEGATIVO, en -4,84 mil M$ por 1 % (se profundiza desde -2,14).",
-        "Giro de gamma en 7799 (SPY 777,34); max pain en 7795 (SPY 777,0).",
-        "Put/call de open interest en 1,61."
+        "Call wall en 7775 (SPY 775,0); put wall en 7745 (SPY 772,0).",
+        "Régimen de gamma NEGATIVO, en -7,48 mil M$ por 1 % (se profundiza desde -6,68).",
+        "Giro de gamma en 7797 (SPY 777,14); max pain en 7795 (SPY 777,0).",
+        "Put/call de open interest en 1,66."
       ],
       "gex": {
-        "callWall": 780,
-        "contratos": 1619,
+        "callWall": 775,
+        "contratos": 1644,
         "escalera": [
           {
-            "gex": -416.7,
+            "gex": -108.7,
+            "strike": 747
+          },
+          {
+            "gex": -88.3,
+            "strike": 748
+          },
+          {
+            "gex": -55.1,
+            "strike": 749
+          },
+          {
+            "gex": -564.3,
             "strike": 750
           },
           {
-            "gex": -53.7,
+            "gex": -88,
             "strike": 751
           },
           {
-            "gex": -65.4,
+            "gex": -100,
             "strike": 752
           },
           {
-            "gex": -193.7,
+            "gex": -285.4,
             "strike": 753
           },
           {
-            "gex": -70.2,
+            "gex": -94.9,
             "strike": 754
           },
           {
-            "gex": -878,
+            "gex": -1039.5,
             "strike": 755
           },
           {
-            "gex": -58.8,
+            "gex": -81.9,
             "strike": 756
           },
           {
-            "gex": -265.6,
+            "gex": -376.9,
             "strike": 757
           },
           {
-            "gex": -91.1,
+            "gex": -128.1,
             "strike": 758
           },
           {
-            "gex": -119.7,
+            "gex": -157.5,
             "strike": 759
           },
           {
-            "gex": -439.8,
+            "gex": -582.5,
             "strike": 760
           },
           {
-            "gex": -100.1,
+            "gex": -129.8,
             "strike": 761
           },
           {
-            "gex": -189.7,
+            "gex": -240.3,
             "strike": 762
           },
           {
-            "gex": -179.2,
+            "gex": -227,
             "strike": 763
           },
           {
-            "gex": -96,
+            "gex": -119.1,
             "strike": 764
           },
           {
-            "gex": -940.7,
+            "gex": -1080.8,
             "strike": 765
           },
           {
-            "gex": -50,
+            "gex": -62.1,
             "strike": 766
           },
           {
-            "gex": -243,
+            "gex": -267.1,
             "strike": 767
           },
           {
-            "gex": -390.7,
+            "gex": -435.9,
             "strike": 768
           },
           {
-            "gex": -240.8,
+            "gex": -249.8,
             "strike": 769
           },
           {
-            "gex": -447,
+            "gex": -468.8,
             "strike": 770
           },
           {
-            "gex": -153,
+            "gex": -149.3,
             "strike": 771
           },
           {
-            "gex": -1477.8,
+            "gex": -1363.6,
             "strike": 772
           },
           {
-            "gex": -123.5,
+            "gex": -108.3,
             "strike": 773
           },
           {
-            "gex": -249.3,
+            "gex": -202.6,
             "strike": 774
           },
           {
-            "gex": 230.4,
+            "gex": 190.5,
             "strike": 775
           },
           {
-            "gex": 92.4,
+            "gex": 74.6,
             "strike": 776
           },
           {
-            "gex": -140.9,
+            "gex": -99.8,
             "strike": 777
           },
           {
-            "gex": 122,
+            "gex": 96.7,
             "strike": 778
           },
           {
-            "gex": 18.4,
+            "gex": 14.6,
             "strike": 779
           },
           {
-            "gex": 610,
+            "gex": 449.5,
             "strike": 780
           },
           {
-            "gex": 234.1,
+            "gex": 153.3,
             "strike": 781
           },
           {
-            "gex": 162.3,
+            "gex": 113.4,
             "strike": 782
           },
           {
-            "gex": 440.5,
+            "gex": 352.6,
             "strike": 783
           },
           {
-            "gex": 147.2,
+            "gex": 105.2,
             "strike": 784
           },
           {
-            "gex": 732.7,
+            "gex": 497.1,
             "strike": 785
           },
           {
-            "gex": 109.1,
+            "gex": 81,
             "strike": 786
           },
           {
-            "gex": 61.3,
+            "gex": 42.7,
             "strike": 787
           },
           {
-            "gex": 101,
+            "gex": 71.8,
             "strike": 788
           },
           {
-            "gex": 62.6,
+            "gex": 47.4,
             "strike": 789
           },
           {
-            "gex": 403.8,
+            "gex": 358.1,
             "strike": 790
           },
           {
-            "gex": 44.1,
+            "gex": 30.9,
             "strike": 791
           },
           {
-            "gex": 52.3,
+            "gex": 40.6,
             "strike": 792
           },
           {
-            "gex": 62.7,
+            "gex": 50.7,
             "strike": 793
-          },
-          {
-            "gex": 56,
-            "strike": 794
-          },
-          {
-            "gex": 222.3,
-            "strike": 795
-          },
-          {
-            "gex": 45.7,
-            "strike": 796
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 777.34,
-        "gexTotal": -4.84,
+        "gammaFlip": 777.14,
+        "gexTotal": -7.48,
         "indice": {
-          "callWall": 7825,
-          "gammaFlip": 7799,
+          "callWall": 7775,
+          "gammaFlip": 7797,
           "maxPain": 7795,
-          "precio": 7756,
+          "precio": 7726,
           "putWall": 7745
         },
         "maxPain": 777,
@@ -465,8 +465,8 @@
           "vencimiento": "2026-10-14"
         },
         "oiFecha": "2026-10-12",
-        "pcrOI": 1.61,
-        "precio": 773.1,
+        "pcrOI": 1.66,
+        "precio": 770.08,
         "putWall": 772,
         "ratioFecha": "2026-10-13",
         "ratioIndice": 10.0323,
@@ -474,219 +474,219 @@
         "vencimientoCercano": "2026-10-14"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cotiza en 7.780 (-0,33 % frente al cierre del martes) tras el IPC de septiembre, publicado a las 12:30 UTC y por encima del consenso en ambos frentes (general 3,7 % a/a, subyacente 2,6 % a/a). El régimen de gamma sigue NEGATIVO, aunque se modera a -2,14 mil M$ por 1 % (desde -4,23 hace una hora), con el giro de gamma en 7.802 y el spot ya por debajo: terreno que sigue amplificando los movimientos, con el put wall en 7.745 como primer soporte y el max pain en 7.795 justo por encima del precio actual. El motor de datos (Kalshi) ha moderado la probabilidad de subida de la Fed el 28 de octubre al 47,5 % (vuelve a quedar por debajo de mantener, 52,0 %), aunque diciembre se mantiene muy elevado (92,0 %), reflejo del tono hawkish de Kevin Warsh frente a la presión de Trump para bajar tipos.",
+      "lectura": "El S&P 500 profundiza la caída a 7.726 (-1,02 % frente al cierre del martes) tras el IPC de septiembre, por encima del consenso, y amplía las pérdidas en la última hora. El régimen de gamma sigue NEGATIVO y se profundiza aún más a -7,48 mil M$ por 1 % (desde -6,68), con el giro de gamma ahora en 7.797 y el max pain en 7.795, ambos justo por encima del precio: zona que sigue amplificando los movimientos, con el put wall en 7.745 como primer soporte. El motor de datos (Kalshi) modera algo más la probabilidad de subida de la Fed el 28 de octubre, al 39,0 % (mantener sube al 60,5 %), ayudada por el comentario dovish de John Williams (Fed de Nueva York), mientras diciembre se mantiene estable en el 88,5 %.",
       "levels": {
-        "callWall": 7825,
-        "gammaFlip": 7799,
+        "callWall": 7775,
+        "gammaFlip": 7797,
         "maxPain": 7795,
         "putWall": 7745
       },
       "name": "S&P 500",
-      "netGex": "negativa (-4,84 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-12)",
+      "netGex": "negativa (-7,48 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-12)",
       "regime": "negativa",
-      "score": -55,
+      "score": -50,
       "sesgo": "bajista",
-      "spot": 7780
+      "spot": 7726
     },
     {
-      "changeNote": "Cae tras el IPC caliente y la ampliación de la caída en fabricantes de memoria (Micron -4,6 %, Applied Materials -7,2 %); cierre oficial del martes en 30.562. Régimen de gamma NEGATIVO en -3,89 mil M$ por 1 % (se modera desde -4,53 hace una hora).",
-      "changePct": -0.66,
+      "changeNote": "Extiende la caída por la presión sobre fabricantes de memoria y el IPC caliente; cierre oficial del martes en 30.562. Régimen de gamma NEGATIVO, se profundiza a -5,59 mil M$ por 1 % (desde -5,19). En vivo, 17:16 Canarias.",
+      "changePct": -1.69,
       "claves": [
-        "Call wall en 30420 (QQQ 740,0); put wall en 30420 (QQQ 740,0).",
-        "Régimen de gamma NEGATIVO, en -4,5 mil M$ por 1 % (se profundiza desde -3,89).",
-        "Giro de gamma en 30735 (QQQ 747,66); max pain en 30749 (QQQ 748,0).",
-        "Put/call de open interest en 1,61."
+        "Call wall en 30420 (QQQ 740,0); put wall en 29803 (QQQ 725,0).",
+        "Régimen de gamma NEGATIVO, en -5,59 mil M$ por 1 % (se profundiza desde -5,19).",
+        "Giro de gamma en 30739 (QQQ 747,76); max pain en 30749 (QQQ 748,0).",
+        "Put/call de open interest en 1,78 (sube desde 1,67)."
       ],
       "gex": {
         "callWall": 740,
-        "contratos": 1641,
+        "contratos": 1655,
         "escalera": [
           {
-            "gex": -245.6,
+            "gex": -9.5,
+            "strike": 709
+          },
+          {
+            "gex": -261.5,
+            "strike": 710
+          },
+          {
+            "gex": -87.1,
+            "strike": 711
+          },
+          {
+            "gex": -53.8,
+            "strike": 712
+          },
+          {
+            "gex": -123.3,
+            "strike": 713
+          },
+          {
+            "gex": -29.5,
+            "strike": 714
+          },
+          {
+            "gex": -297.4,
             "strike": 715
           },
           {
-            "gex": -99.3,
+            "gex": -146.6,
             "strike": 716
           },
           {
-            "gex": -160.7,
+            "gex": -236.4,
             "strike": 717
           },
           {
-            "gex": 14.1,
+            "gex": 21.4,
             "strike": 718
           },
           {
-            "gex": -33.3,
+            "gex": -48.5,
             "strike": 719
           },
           {
-            "gex": -309.4,
+            "gex": -346.6,
             "strike": 720
           },
           {
-            "gex": -7.5,
+            "gex": -11.4,
             "strike": 721
           },
           {
-            "gex": -59.2,
+            "gex": -80,
             "strike": 722
           },
           {
-            "gex": -47.2,
+            "gex": -55.7,
             "strike": 723
           },
           {
-            "gex": -85,
+            "gex": -111.6,
             "strike": 724
           },
           {
-            "gex": -721.4,
+            "gex": -783,
             "strike": 725
           },
           {
-            "gex": -51.5,
+            "gex": -56.1,
             "strike": 726
           },
           {
-            "gex": -71.3,
+            "gex": -81.6,
             "strike": 727
           },
           {
-            "gex": -110.5,
+            "gex": -121.2,
             "strike": 728
           },
           {
-            "gex": -75.8,
+            "gex": -82.9,
             "strike": 729
           },
           {
-            "gex": -540.8,
+            "gex": -559.7,
             "strike": 730
           },
           {
-            "gex": -15,
+            "gex": -14.7,
             "strike": 731
           },
           {
-            "gex": -248.3,
+            "gex": -242.7,
             "strike": 732
           },
           {
-            "gex": -52.3,
+            "gex": -46.8,
             "strike": 733
           },
           {
-            "gex": -411,
+            "gex": -366.1,
             "strike": 734
           },
           {
-            "gex": -200.2,
+            "gex": -174.6,
             "strike": 735
           },
           {
-            "gex": -58,
+            "gex": -47.9,
             "strike": 736
           },
           {
-            "gex": -78,
+            "gex": -65,
             "strike": 737
           },
           {
-            "gex": -79.3,
+            "gex": -60.3,
             "strike": 738
           },
           {
-            "gex": -19.1,
+            "gex": -14,
             "strike": 739
           },
           {
-            "gex": -349.2,
+            "gex": -261.7,
             "strike": 740
           },
           {
-            "gex": -72.2,
+            "gex": -50.2,
             "strike": 741
           },
           {
-            "gex": -77.5,
+            "gex": -55.9,
             "strike": 742
           },
           {
-            "gex": -29.6,
+            "gex": -19.1,
             "strike": 743
           },
           {
-            "gex": -12.9,
+            "gex": -6.8,
             "strike": 744
           },
           {
-            "gex": -172.7,
+            "gex": -120.8,
             "strike": 745
           },
           {
-            "gex": -86.6,
+            "gex": -50.4,
             "strike": 746
           },
           {
-            "gex": -9.7,
+            "gex": -7.6,
             "strike": 747
           },
           {
-            "gex": 20.5,
+            "gex": 13.8,
             "strike": 748
           },
           {
-            "gex": 80.2,
+            "gex": 58.2,
             "strike": 749
           },
           {
-            "gex": 308.5,
+            "gex": 188.2,
             "strike": 750
           },
           {
-            "gex": 4.1,
+            "gex": 0.6,
             "strike": 751
           },
           {
-            "gex": 23.5,
+            "gex": 22.2,
             "strike": 752
-          },
-          {
-            "gex": -2.7,
-            "strike": 753
-          },
-          {
-            "gex": 18.2,
-            "strike": 754
-          },
-          {
-            "gex": 145.6,
-            "strike": 755
-          },
-          {
-            "gex": 43.6,
-            "strike": 756
-          },
-          {
-            "gex": 18.6,
-            "strike": 757
-          },
-          {
-            "gex": 21.5,
-            "strike": 758
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 747.66,
-        "gexTotal": -4.5,
+        "gammaFlip": 747.76,
+        "gexTotal": -5.59,
         "indice": {
           "callWall": 30420,
-          "gammaFlip": 30735,
+          "gammaFlip": 30739,
           "maxPain": 30749,
-          "precio": 30267,
-          "putWall": 30420
+          "precio": 30046,
+          "putWall": 29803
         },
         "maxPain": 748,
         "odte": {
@@ -702,33 +702,33 @@
             "putWall": 30009
           },
           "maxPain": 748,
-          "pcrOI": 1.65,
+          "pcrOI": 1.69,
           "putWall": 730,
           "vencimiento": "2026-10-14"
         },
         "oiFecha": "2026-10-12",
-        "pcrOI": 1.61,
-        "precio": 736.27,
-        "putWall": 740,
+        "pcrOI": 1.78,
+        "precio": 730.91,
+        "putWall": 725,
         "ratioFecha": "2026-10-13",
         "ratioIndice": 41.1079,
         "regimen": "negativa",
         "vencimientoCercano": "2026-10-14"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cae a 30.359 (-0,66 % frente al cierre del martes), muy cerca del put wall (30.420), tras el IPC más caliente de lo esperado y una nueva pata bajista en fabricantes de memoria (Micron -4,6 %, Applied Materials -7,2 %, Western Digital, Seagate, SanDisk, SK Hynix). El régimen de gamma sigue NEGATIVO, aunque se modera a -3,89 mil M$ por 1 % (desde -4,53), con el giro de gamma en 30.739: el índice permanece en terreno de alta amplificación de movimientos. La Fed más hawkish (Kevin Warsh, 92,0 % de probabilidad de subida en diciembre según Kalshi) sigue castigando a la tecnología de alta duración, aunque ASML, con su tercera revisión al alza de previsión de ventas por la demanda de IA, ofrece algo de soporte al sentimiento sectorial.",
+      "lectura": "El Nasdaq 100 extiende la caída a 30.046 (-1,69 % frente al cierre del martes), por debajo del put wall (29.803), lastrado por el IPC caliente y la persistente presión sobre fabricantes de memoria (Micron, Applied Materials, Western Digital, SK Hynix). El régimen de gamma sigue NEGATIVO y se profundiza a -5,59 mil M$ por 1 % (desde -5,19), con el giro de gamma en 30.739: el índice permanece en zona de alta amplificación de movimientos y el put/call de open interest sube a 1,78 (más cobertura bajista). El comentario dovish de John Williams (Fed de Nueva York) ofrece algo de alivio parcial, con la probabilidad de subida el 28 de octubre moderándose al 39,0 % (Kalshi), aunque la tecnología de alta duración sigue presionada.",
       "levels": {
         "callWall": 30420,
-        "gammaFlip": 30735,
+        "gammaFlip": 30739,
         "maxPain": 30749,
-        "putWall": 30420
+        "putWall": 29803
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-4,5 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-12)",
+      "netGex": "negativa (-5,59 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-12)",
       "regime": "negativa",
-      "score": -65,
+      "score": -60,
       "sesgo": "bajista",
-      "spot": 30359
+      "spot": 30046
     }
   ],
   "liquidez": {
@@ -865,6 +865,51 @@
     "tga": 880.3
   },
   "noticias": [
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NDX": "bajista",
+        "SPX": "bajista",
+        "XAU": "neutral"
+      },
+      "fuente": "TheStreet",
+      "impacto": "alto",
+      "resumen": "TheStreet sitúa el S&P 500 en 7.733,82 (-0,92 %) y el Dow en 51.622,24 (-0,09 %), con el Nasdaq Composite perdiendo un 1,37 % por la tarde.",
+      "titular": "Wall Street profundiza pérdidas por la tarde: el S&P 500 cae un 0,92 %",
+      "ts": "2026-10-14T16:00:00Z",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NDX": "bajista",
+        "SPX": "bajista",
+        "XAU": "neutral"
+      },
+      "fuente": "Yahoo Finance / TheStreet",
+      "impacto": "alto",
+      "resumen": "Los semiconductores vuelven a presionar al Nasdaq mientras el mercado sigue digiriendo el IPC caliente de esta mañana.",
+      "titular": "El S&P 500 profundiza la caída a 7.744 (-0,79 %) y el Nasdaq extiende las pérdidas",
+      "ts": "2026-10-14T15:00:00Z",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "bajista",
+        "NDX": "neutral",
+        "SPX": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "TradingKey",
+      "impacto": "medio",
+      "resumen": "El EUR/USD cae un 0,53 % hasta 1,1138 según TradingKey, con el dólar reforzado por las apuestas de una Fed más dura.",
+      "titular": "El euro perfora 1,114 frente al dólar, nuevo mínimo intradía tras el IPC",
+      "ts": "2026-10-14T14:50:00Z",
+      "url": "https://www.tradingkey.com/news/market-movers/262216322-market-movers-eurusd-20261014"
+    },
     {
       "activos": {
         "BTC": "neutral",
@@ -1017,51 +1062,6 @@
     },
     {
       "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NDX": "alcista",
-        "SPX": "alcista",
-        "XAU": "neutral"
-      },
-      "fuente": "Charles Schwab",
-      "impacto": "alto",
-      "resumen": "ASML revisa al alza por tercera vez su previsión de ventas para 2026 ante la fuerte demanda de equipos para inteligencia artificial.",
-      "titular": "ASML eleva por tercera vez su previsión de 2026 por la demanda de IA",
-      "ts": "2026-10-14T08:00:00Z",
-      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NDX": "alcista",
-        "SPX": "alcista",
-        "XAU": "alcista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "El rendimiento a 10 años baja al 5,21 % frente al máximo de la semana pasada (5,36 %, el más alto desde 2002), antes del IPC de septiembre.",
-      "titular": "El bono a 10 años de EE. UU. retrocede al 5,21 % desde el máximo de 5,36 %",
-      "ts": "2026-10-14T07:32:00Z",
-      "url": "https://fxstreet.com/news/euro-holds-mild-gains-above-11200-as-the-us-dollar-drifts-with-us-cpi-on-tap-202610140732"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NDX": "bajista",
-        "SPX": "bajista",
-        "XAU": "neutral"
-      },
-      "fuente": "Charles Schwab / Trading Economics",
-      "impacto": "alto",
-      "resumen": "Western Digital, Seagate, SanDisk y SK Hynix extienden las caídas junto a Micron (-4 %) por temores sobre el gasto en IA y la competencia china en memoria.",
-      "titular": "La presión sobre los fabricantes de memoria y almacenamiento se extiende",
-      "ts": "2026-10-14T07:30:00Z",
-      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-    },
-    {
-      "activos": {
         "BTC": "alcista",
         "EURUSD": "neutral",
         "NDX": "neutral",
@@ -1070,25 +1070,25 @@
       },
       "fuente": "KuCoin",
       "impacto": "medio",
-      "resumen": "Strive ejerce warrants por 208 millones $ y eleva un 11 % sus tenencias de bitcoin con una nueva clase de acciones preferentes.",
-      "titular": "Bitcoin ronda los 83.400-84.000 $ tras nueva compra institucional de Strive",
-      "ts": "2026-10-14T07:00:00Z",
-      "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-14-2026"
+      "resumen": "Las ETF de bitcoin al contado registran entradas netas de 175,7 millones $, con Fidelity (FBTC, ~103 M$) y BlackRock (IBIT, ~66 M$) a la cabeza, revirtiendo las salidas del día anterior.",
+      "titular": "Las ETF de bitcoin al contado vuelven a captar flujos tras las salidas del martes",
+      "ts": "2026-10-13T20:00:00Z",
+      "url": "https://kucoin.com/news/articles/crypto-daily-market-report-october-14-2026"
     },
     {
       "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NDX": "bajista",
-        "SPX": "bajista",
-        "XAU": "neutral"
+        "BTC": "alcista",
+        "EURUSD": "alcista",
+        "NDX": "alcista",
+        "SPX": "alcista",
+        "XAU": "alcista"
       },
-      "fuente": "Schwab / Trading Economics",
+      "fuente": "Admiral Markets",
       "impacto": "alto",
-      "resumen": "La presión sobre el sector de memoria y almacenamiento (Micron, Applied Materials, Western Digital, Seagate, SanDisk, SK Hynix) se agrava por el temor a una desaceleración del gasto en IA y la competencia china, lastrando al Nasdaq 100 antes incluso del IPC.",
-      "titular": "Los fabricantes de chips de memoria amplían su caída: Micron -4,6 %, Applied Materials -7,2 %",
-      "ts": "2026-10-14T06:15:00Z",
-      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+      "resumen": "Williams dice que no hay «urgencia» para otra subida tras la de septiembre y espera que la inflación caiga al 3,5 % a cierre de 2026.",
+      "titular": "El presidente de la Fed de Nueva York, John Williams, descarta «urgencia» para otra subida inmediata",
+      "ts": "2026-10-13T18:00:00Z",
+      "url": "https://admiralmarkets.com/analytics/traders-blog/fed-williams-speech-today"
     }
   ],
   "odte": {
@@ -1110,7 +1110,7 @@
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-10-14, por open interest (QQQ 750,0). Put/call OI: 1,65.",
+        "nota": "Vencimiento 2026-10-14, por open interest (QQQ 750,0). Put/call OI: 1,69.",
         "valor": "30.831"
       },
       {
@@ -1124,12 +1124,20 @@
         "valor": "30.749"
       }
     ],
-    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 14 de octubre, por open interest). El put/call de hoy sigue más alto en el Nasdaq 100 (1,65) que en el S&P 500 (1,08): más cobertura bajista a corto plazo en el Nasdaq tras el IPC caliente. El max pain 0DTE coincide con el max pain principal en ambos índices (7.795 y 30.749), con el spot ya por debajo en ambos casos tras la caída post-IPC, y el rango 0DTE (7.354-7.926 en SPX, 30.009-30.831 en NDX) deja margen amplio para el resto de la sesión."
+    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 14 de octubre, por open interest). El put/call de hoy sigue más alto en el Nasdaq 100 (1,69) que en el S&P 500 (1,08): más cobertura bajista a corto plazo en el Nasdaq tras el IPC caliente. El max pain 0DTE coincide con el max pain principal en ambos índices (7.795 y 30.749), con el spot ya por debajo en ambos casos tras la caída post-IPC, y el rango 0DTE (7.354-7.926 en SPX, 30.009-30.831 en NDX) deja margen amplio para el resto de la sesión."
   },
   "politica": {
-    "actualizado": "2026-10-14T13:55:00Z",
-    "ajuste": -15,
+    "actualizado": "2026-10-14T16:16:00Z",
+    "ajuste": -10,
     "declaraciones": [
+      {
+        "dicho": "Dice que no hay «urgencia» para otra subida tras la de septiembre; ve posible una más en diciembre.",
+        "efecto": "alcista",
+        "fuente": "Admiral Markets",
+        "quien": "John Williams",
+        "ts": "2026-10-13T18:00:00Z",
+        "url": "https://admiralmarkets.com/analytics/traders-blog/fed-williams-speech-today"
+      },
       {
         "dicho": "El FMI le pide recortar el déficit en lugar de confiar solo en el crecimiento del 3 %.",
         "efecto": "bajista",
@@ -1161,18 +1169,10 @@
         "quien": "Kevin Warsh",
         "ts": "2026-10-08T00:00:00Z",
         "url": "https://www.fool.com/investing/2026/10/08/fed-chair-kevin-warsh-fire-back-donald-trump-interest-rate-critique-blunt-9-word-statement/"
-      },
-      {
-        "dicho": "Dice que las conversaciones con EE. UU. sobre Ormuz son «sin sentido».",
-        "efecto": "bajista",
-        "fuente": "Iran International",
-        "quien": "Masoud Pezeshkian",
-        "ts": "2026-10-05T00:00:00Z",
-        "url": "https://www.iranintl.com/en/202610050957"
       }
     ],
     "efecto": "mixto",
-    "lectura": "El IPC de septiembre sorprendió al alza (general 3,7 % a/a, subyacente 2,6 % a/a, ambos por encima del consenso), lo que llevó a disparar la probabilidad de subida de la Fed el 28 de octubre hasta el 50,5 % en la hora posterior a la publicación, antes de moderarse de nuevo al 47,5 % (por debajo de mantener, 52,0 %); la de diciembre se mantiene muy elevada en el 92,0 %, reflejo del mensaje hawkish de Kevin Warsh frente a las críticas de Trump. El FMI (Georgieva) sigue presionando a Bessent para que recorte el déficit en vez de confiar solo en el crecimiento, y Lagarde descarta un rescate fácil del BCE para la deuda francesa justo cuando se intensifican los ataques a petroleros en el estrecho de Ormuz (Brent sobre 106 $/barril, con Netanyahu pidiendo a Trump reanudar los bombardeos sobre Irán). Trump, por su parte, anunció una tregua energética Rusia-Ucrania que alivia algo la presión energética, y la tregua arancelaria con China hasta enero de 2027 sigue de soporte de fondo. El balance se mantiene mixto con sesgo ligeramente bajista: IPC caliente y Fed más dura son el factor dominante hoy, parcialmente compensados por las dos treguas (China y Rusia-Ucrania).",
+    "lectura": "El IPC de septiembre sorprendió al alza (general 3,7 % a/a, subyacente 2,6 % a/a), pero el mercado modera la reacción inicial: la probabilidad de subida de la Fed el 28 de octubre baja al 39,0 % (Kalshi), ayudada por el comentario dovish de John Williams (Fed de Nueva York), que ve «sin urgencia» otra subida inmediata aunque no descarta una en diciembre. La de diciembre se mantiene muy elevada en el 88,5 %, reflejo del tono hawkish de fondo de Kevin Warsh frente a las críticas de Trump. El FMI sigue presionando a Bessent para que recorte el déficit, y Lagarde descarta un rescate fácil del BCE para la deuda francesa justo cuando se intensifican los ataques a petroleros en el estrecho de Ormuz (Brent sobre 106 $/barril). Trump mantiene de soporte de fondo la tregua energética Rusia-Ucrania y la tregua arancelaria con China hasta enero de 2027. El balance sigue mixto: el alivio de Williams compensa parte del golpe del IPC caliente, con sesgo todavía ligeramente bajista.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1207,12 +1207,12 @@
         "url": "https://www.fxstreet.com/analysis/lagarde-rules-out-an-easy-ecb-rescue-for-french-debt-while-hormuz-shipping-attacks-intensify-202610140950"
       },
       {
-        "cargo": "Presidente de Irán",
-        "efecto": "bajista",
-        "postura": "Dice que las conversaciones con EE. UU. sobre Ormuz son «sin sentido» mientras Irán intensifica los ataques a petroleros.",
-        "quien": "Masoud Pezeshkian",
-        "ts": "2026-10-05T00:00:00Z",
-        "url": "https://www.iranintl.com/en/202610050957"
+        "cargo": "Presidente de la Fed de Nueva York",
+        "efecto": "alcista",
+        "postura": "Ve «sin urgencia» otra subida tras la de septiembre; no descarta una más a final de año (13 oct).",
+        "quien": "John Williams",
+        "ts": "2026-10-13T18:00:00Z",
+        "url": "https://admiralmarkets.com/analytics/traders-blog/fed-williams-speech-today"
       }
     ]
   },
@@ -1546,5 +1546,5 @@
     "updatedAt": "2026-10-14T13:55:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-14T14:20:00Z"
+  "updatedAt": "2026-10-14T16:16:07.000000Z"
 }
