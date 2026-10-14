@@ -137,16 +137,16 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-14T05:50:28Z",
+    "actualizado": "2026-10-14T06:20:51Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "El motor de datos (Kalshi) sube la probabilidad de subida en la reunión del 28 de octubre al 21,0 % (desde 19,5 %; mantener 78,5 %, antes 80,0 %), mientras la de diciembre se mantiene sin cambios en el 81,5 % (tasa implícita 4,12 %); el IPC de septiembre de hoy es la última gran prueba antes de esa decisión.",
+    "lectura": "El motor de datos (Kalshi) baja levemente la probabilidad de subida en la reunión del 28 de octubre al 20,5 % (desde 21,0 %; mantener 79,0 %, antes 78,5 %), mientras la de diciembre se mantiene sin cambios en el 81,5 % (tasa implícita 4,12 %); el IPC de septiembre de hoy a las 12:30 UTC es la última gran prueba antes de esa decisión.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 78.5,
-        "subir": 21,
+        "mantener": 79,
+        "subir": 20.5,
         "tasaImplicita": 3.93
       },
       {
@@ -459,11 +459,39 @@
     {
       "nombre": "Bloomberg · Trump Says Warsh Should Have Opposed Fed Rate Hike, Cites Political Board (1 oct)",
       "url": "https://www.bloomberg.com/news/articles/2026-10-01/trump-says-warsh-should-have-voted-against-fed-s-rate-hike"
+    },
+    {
+      "nombre": "Oilprice.com · Oil Prices Climb Above $106 as Iran Threatens More Tanker Attacks (14 oct)",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html"
+    },
+    {
+      "nombre": "Euronews · Oil prices rise after reported attacks on ships in Strait of Hormuz (14 oct)",
+      "url": "https://euronews.com/2026/10/14/oil-prices-rise-after-reported-attacks-on-ships-in-strait-of-hormuz"
+    },
+    {
+      "nombre": "Benzinga · Stock Market: Will S&P 500 Open Up Or Down Today? (14 oct, futuros pre-mercado)",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62344736/stock-market-will-sp-500-open-up-or-down-today-57"
+    },
+    {
+      "nombre": "XTB · Morning wrap: Wall Street looks to rebound ahead of US CPI as ASML results weigh on sentiment (14 oct)",
+      "url": "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-wall-street-looks-to-rebound-ahead-of-us-cpi-as-asml-results-weigh-on-sentiment-14-10-2026"
+    },
+    {
+      "nombre": "CNBC Select · The price of gold today, Oct. 13, 2026",
+      "url": "https://cnbc.com/select/the-price-of-gold-today-oct-13-2026"
+    },
+    {
+      "nombre": "CoinDesk · Bitcoin price today (14 oct, ~83.394 $)",
+      "url": "https://www.coindesk.com/price/bitcoin"
+    },
+    {
+      "nombre": "Iran International · Iran says US talks 'meaningless' as third tanker hit near Hormuz (5 oct)",
+      "url": "https://www.iranintl.com/en/202610050957"
     }
   ],
   "indices": [
     {
-      "changeNote": "cierre oficial de Wall Street (martes); mercado aún no abre en la sesión del miércoles 14 de octubre.",
+      "changeNote": "Cierre oficial del martes (7.805,45, -0,02 %); los futuros ES cotizan +0,22 % antes de la apertura del miércoles, a la espera del IPC de septiembre (12:30 UTC).",
       "changePct": -0.02,
       "claves": [
         "Call wall en 7877 (SPY 785,0); put wall en 7747 (SPY 772,0).",
@@ -702,7 +730,7 @@
         "vencimientoCercano": "2026-10-14"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 sigue en 7.805,45 (-0,02 %) en el cierre oficial del martes, a la espera de la apertura del miércoles 14 de octubre. El régimen de gamma gira a NEGATIVA (0,55 mil M$ por 1 %, desde +1,71 positiva), con call wall en 7.877 y put wall en 7.747; el giro de gamma sube a 7.811. El motor de datos (Kalshi) eleva la probabilidad de una subida de la Fed el 28 de octubre al 21,0 % (desde 19,5 %), mientras la de diciembre se mantiene en el 81,5 %. Asia se estabiliza tras el desplome del martes en los semiconductores, pero el dólar ronda máximos de 18 meses y el Brent supera los 106 $/barril a la espera del IPC de septiembre de EE. UU. a las 12:30 UTC, la última gran prueba de inflación antes de la reunión de la Fed.",
+      "lectura": "El S&P 500 cerró el martes en 7.805,45 (-0,02 %) y los futuros ES suben un 0,22 % en la madrugada del miércoles, antes de la apertura europea. El régimen de gamma sigue NEGATIVO (0,55 mil M$ por 1 %, desde +1,71 positiva), con call wall en 7.877 y put wall en 7.747; el giro de gamma está en 7.811, muy cerca del spot. El motor de datos (Kalshi) baja levemente la probabilidad de una subida de la Fed el 28 de octubre al 20,5 % (desde 21,0 %), mientras la de diciembre se mantiene en el 81,5 %. El dólar ronda máximos de 18 meses y el Brent sube a 106,2-106,4 $/barril tras nuevos ataques de Irán a petroleros en Ormuz, a la espera del IPC de septiembre de EE. UU. a las 12:30 UTC, la última gran prueba de inflación antes de la reunión de la Fed.",
       "levels": {
         "callWall": 7877,
         "gammaFlip": 7811,
@@ -717,7 +745,7 @@
       "spot": 7805.45
     },
     {
-      "changeNote": "cierre oficial de Wall Street (martes); mercado aún no abre en la sesión del miércoles 14 de octubre.",
+      "changeNote": "Cierre oficial del martes (30.562, -0,39 %); los futuros NQ cotizan +0,27 % antes de la apertura del miércoles, a la espera del IPC de septiembre (12:30 UTC).",
       "changePct": -0.39,
       "claves": [
         "Call wall en 30829 (QQQ 750,0); put wall en 30418 (QQQ 740,0).",
@@ -944,7 +972,7 @@
         "vencimientoCercano": "2026-10-14"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cierra el martes en torno a 30.562 (-0,39 %), con la gamma NEGATIVA profundizándose ligeramente a -2,42 mil M$ por 1 % (desde -2,24), por debajo del giro de gamma en 30.801; call wall en 30.829 y put wall en 30.418. Los semiconductores asiáticos (Kospi, Kosdaq) rebotan hoy tras el desplome del 5,5 % del martes, aliviando algo la presión sobre la tecnología, aunque el índice de semiconductores de Filadelfia (SOX) cayó un 2,7 % en la sesión previa en EE. UU. El IPC de septiembre de hoy (12:30 UTC) y el Beige Book de la Fed son las próximas citas clave, con la probabilidad de subida en diciembre sin cambios en el 81,5 % según Kalshi.",
+      "lectura": "El Nasdaq 100 cerró el martes en torno a 30.562 (-0,39 %) y los futuros NQ suben un 0,27 % en la madrugada del miércoles. La gamma NEGATIVA se mantiene en -2,42 mil M$ por 1 %, por debajo del giro de gamma en 30.801; call wall en 30.829 y put wall en 30.418. Asia se estabiliza tras el desplome de semiconductores del martes (Kospi al alza), aunque el SOX cayó un 2,7 % en la sesión previa en EE. UU. El IPC de septiembre de hoy (12:30 UTC) y el Beige Book de la Fed son las próximas citas clave, con la probabilidad de subida en diciembre sin cambios en el 81,5 % según Kalshi.",
       "levels": {
         "callWall": 30829,
         "gammaFlip": 30801,
@@ -1097,6 +1125,66 @@
       "activos": {
         "BTC": "neutral",
         "EURUSD": "neutral",
+        "NDX": "bajista",
+        "SPX": "bajista",
+        "XAU": "alcista"
+      },
+      "fuente": "Oilprice.com",
+      "impacto": "alto",
+      "resumen": "Irán planea intensificar los ataques a petroleros con nuevas tácticas; Netanyahu habría pedido a Trump reanudar los bombardeos sobre Irán. Brent en 106,37 $/barril, WTI en 94,72 $.",
+      "titular": "Irán intensifica los ataques en Ormuz y Netanyahu pide a Trump reanudar los bombardeos",
+      "ts": "2026-10-14T06:00:00Z",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-106-as-Iran-Threatens-More-Tanker-Attacks.html"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NDX": "alcista",
+        "SPX": "alcista",
+        "XAU": "neutral"
+      },
+      "fuente": "Benzinga",
+      "impacto": "alto",
+      "resumen": "Futuros del S&P 500 (+0,22 %) y del Nasdaq 100 (+0,27 %) suben antes de la apertura; un mercado de predicción da un 69 % de probabilidad a una apertura al alza, antes del IPC de las 12:30 UTC.",
+      "titular": "Los futuros de Wall Street suben levemente antes del IPC de septiembre",
+      "ts": "2026-10-14T06:30:00Z",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62344736/stock-market-will-sp-500-open-up-or-down-today-57"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NDX": "neutral",
+        "SPX": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "XTB",
+      "impacto": "medio",
+      "resumen": "Wall Street busca rebotar antes del IPC de EE. UU., mientras los resultados de ASML (por debajo de lo esperado en pedidos) lastran el sentimiento tecnológico en Europa.",
+      "titular": "Wall Street busca rebotar antes del IPC mientras ASML pesa sobre el sentimiento tecnológico",
+      "ts": "2026-10-14T05:45:00Z",
+      "url": "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-wall-street-looks-to-rebound-ahead-of-us-cpi-as-asml-results-weigh-on-sentiment-14-10-2026"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NDX": "neutral",
+        "SPX": "neutral",
+        "XAU": "bajista"
+      },
+      "fuente": "CNBC / Money Metals",
+      "impacto": "medio",
+      "resumen": "El oro cotiza entre 4.175 y 4.180 $/oz en la noche del martes a miércoles, con el dólar firme antes del IPC de septiembre de EE. UU.",
+      "titular": "El oro se mantiene cerca de 4.175-4.180 $/oz a la espera del IPC de EE. UU.",
+      "ts": "2026-10-13T22:00:00Z",
+      "url": "https://cnbc.com/select/the-price-of-gold-today-oct-13-2026"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
         "NDX": "neutral",
         "SPX": "neutral",
         "XAU": "neutral"
@@ -1232,36 +1320,6 @@
       "activos": {
         "BTC": "neutral",
         "EURUSD": "neutral",
-        "NDX": "neutral",
-        "SPX": "bajista",
-        "XAU": "neutral"
-      },
-      "fuente": "The Motley Fool",
-      "impacto": "alto",
-      "resumen": "J&J pierde cerca de un 6 % por un fallo ajustado de beneficios y Wells Fargo retrocede al no cumplir ingresos.",
-      "titular": "J&J se desploma un 6 % y Wells Fargo cae por ingresos flojos en plena temporada de resultados",
-      "ts": "2026-10-13T16:30:00Z",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-midday-oct-13-bank-earnings-and-chip-pressure-drives-mixed-trading/"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NDX": "neutral",
-        "SPX": "neutral",
-        "XAU": "alcista"
-      },
-      "fuente": "Tradingpedia",
-      "impacto": "medio",
-      "resumen": "El oro cotiza cerca de 4.186 $/oz, apoyado por rendimientos algo más blandos antes del IPC de EE. UU.",
-      "titular": "El oro ronda 4.186 $ con resistencia en 4.216 $ de cara al IPC del miércoles",
-      "ts": "2026-10-13T16:00:00Z",
-      "url": "https://tradingpedia.com/2026/10/13/gold-nears-4-2k-as-dollar-pauses-fed-hawkish"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
         "NDX": "bajista",
         "SPX": "bajista",
         "XAU": "neutral"
@@ -1286,36 +1344,6 @@
       "resumen": "El presidente de la Fed de Nueva York dice que todavía ve apropiada una subida más este año, aunque no espera otra en 2027.",
       "titular": "Williams (Fed de Nueva York) ve necesaria una subida más este año",
       "ts": "2026-10-13T14:30:00Z",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-13-134929825.html"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NDX": "neutral",
-        "SPX": "neutral",
-        "XAU": "neutral"
-      },
-      "fuente": "TheStreet / Yahoo Finance",
-      "impacto": "alto",
-      "resumen": "Arranca la temporada de resultados bancarios del tercer trimestre: Goldman Sachs bate expectativas y sube un 4,2 % en premercado, mientras JPMorgan se queda por debajo de lo previsto.",
-      "titular": "Goldman Sachs sube un 4,2 % en premercado; JPMorgan decepciona en resultados",
-      "ts": "2026-10-13T13:00:00Z",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NDX": "neutral",
-        "SPX": "alcista",
-        "XAU": "neutral"
-      },
-      "fuente": "Yahoo Finance",
-      "impacto": "alto",
-      "resumen": "UnitedHealth (UNH) supera las previsiones de beneficio del tercer trimestre y sus acciones avanzan un 4,30 % en el premercado del martes.",
-      "titular": "UnitedHealth sube un 4,3 % en premercado tras batir resultados del tercer trimestre",
-      "ts": "2026-10-13T12:00:00Z",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-13-134929825.html"
     }
   ],
@@ -1359,7 +1387,7 @@
     ]
   },
   "politica": {
-    "actualizado": "2026-10-13T21:48:00Z",
+    "actualizado": "2026-10-14T06:50:00Z",
     "ajuste": -16,
     "declaraciones": [
       {
@@ -1395,16 +1423,16 @@
         "url": "https://www.cnbc.com/2026/10/12/trump-russia-ukraine-saudi-oil.html"
       },
       {
-        "dicho": "Los ataques a petroleros en el estrecho de Ormuz alcanzan máximos de guerra.",
+        "dicho": "Dice que las conversaciones con EE. UU. sobre Ormuz son «sin sentido» mientras continúan los ataques a petroleros.",
         "efecto": "bajista",
-        "fuente": "CNBC",
-        "quien": "Marco Rubio / CNBC",
-        "ts": "2026-10-09T10:00:00Z",
-        "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html"
+        "fuente": "Iran International",
+        "quien": "Masoud Pezeshkian (presidente de Irán)",
+        "ts": "2026-10-05T00:00:00Z",
+        "url": "https://www.iranintl.com/en/202610050957"
       }
     ],
     "efecto": "mixto",
-    "lectura": "La Fed sigue hawkish: tras Williams (Fed de Nueva York), Beth Hammack (Fed de Cleveland) pide mantener una política restrictiva pese a la reciente debilidad del consumidor, mientras Kevin Warsh defiende la subida de septiembre como correcta de cara a diciembre. Bessent insiste en que EE. UU. puede crecer al 3 % para reducir la deuda sin recortar gasto, pese al escepticismo de la CBO y del mercado de bonos (30 años en máximos desde 2002). La tregua arancelaria con China hasta enero de 2027 y la tregua energética Rusia-Ucrania compensan solo en parte; el efecto político se mantiene en mixto, con sesgo algo más bajista que antes.",
+    "lectura": "La Fed sigue hawkish: tras Williams (Fed de Nueva York), Beth Hammack (Fed de Cleveland) pide mantener una política restrictiva pese a la reciente debilidad del consumidor, mientras Kevin Warsh defiende la subida de septiembre como correcta de cara a diciembre. Bessent insiste en que EE. UU. puede crecer al 3 % para reducir la deuda sin recortar gasto, pese al escepticismo de la CBO y del mercado de bonos (30 años en máximos desde 2002). En el frente geopolítico, el presidente iraní Pezeshkian descarta avances diplomáticos sobre Ormuz mientras Irán intensifica los ataques a petroleros (Brent en 106,2-106,4 $/barril) y Netanyahu pediría a Trump reanudar los bombardeos sobre Irán, según Oilprice. La tregua arancelaria con China hasta enero de 2027 y la tregua energética Rusia-Ucrania compensan solo en parte; el efecto político se mantiene en mixto, con sesgo bajista por la combinación de Fed dura y escalada en Ormuz.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1447,53 +1475,53 @@
         "url": "https://www.teletica.com/internacional/china-confirma-la-prorroga-de-la-tregua-comercial-con-estados-unidos_418118"
       },
       {
-        "cargo": "Presidenta de la Fed de Cleveland",
+        "cargo": "Presidente de Irán",
         "efecto": "bajista",
-        "postura": "Defiende mantener una política monetaria restrictiva pese a la reciente debilidad del consumidor.",
-        "quien": "Beth Hammack",
-        "ts": "2026-10-12T00:00:00Z",
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-october-13-2026-crypto-prices-regaining-ground-this-morning-as-spot-buyers-step-up-113622571.html"
+        "postura": "Dice que las conversaciones con EE. UU. sobre Ormuz son «sin sentido» mientras Irán intensifica los ataques a petroleros.",
+        "quien": "Masoud Pezeshkian",
+        "ts": "2026-10-05T00:00:00Z",
+        "url": "https://www.iranintl.com/en/202610050957"
       }
     ]
   },
-  "resumen": "Son las 06:16 UTC (07:16 hora de Canarias) del miércoles 14 de octubre; los mercados de EE. UU. aún no han abierto tras el cierre del martes (S&P 500 7.805,45, -0,02 %; Nasdaq 100 en torno a 30.562, -0,39 %). El régimen de gamma del S&P 500 gira a NEGATIVA (0,55 mil M$ por 1 %, desde +1,71 positiva) y el del Nasdaq 100 profundiza ligeramente su gamma NEGATIVA a -2,42 (desde -2,24). El motor de datos (Kalshi) eleva la probabilidad de subida de la Fed el 28 de octubre al 21,0 % (desde 19,5 %) y mantiene la de diciembre en el 81,5 %. Asia se estabiliza tras el desplome de semiconductores del martes (el Kospi rebota), aunque el dólar ronda máximos de 18 meses y el Brent supera los 106 $/barril. Jornada clave por delante: IPC de septiembre de EE. UU. a las 12:30 UTC, Beige Book de la Fed y resultados de ASML, Bank of America, Morgan Stanley, BlackRock y State Street.",
+  "resumen": "Son las 06:46 UTC (07:46 hora de Canarias) del miércoles 14 de octubre; la sesión europea aún no ha abierto y Wall Street sigue cerrada tras el cierre oficial del martes (S&P 500 7.805,45, -0,02 %; Nasdaq 100 en torno a 30.562, -0,39 %). Los futuros cotizan algo al alza antes de la apertura (ES +0,22 %, NQ +0,27 %, Benzinga), con un 69 % de probabilidad implícita de apertura al alza. El régimen de gamma del S&P 500 sigue NEGATIVO (0,55 mil M$ por 1 %) y el del Nasdaq 100 se mantiene en NEGATIVO más profundo (-2,42 mil M$ por 1 %). El motor de datos (Kalshi) baja levemente la probabilidad de subida de la Fed el 28 de octubre al 20,5 % (desde 21,0 %) y mantiene la de diciembre en el 81,5 %. El oro ronda los 4.175-4.180 $/oz y bitcoin cerca de 83.400 $, ambos a la espera del IPC de septiembre de EE. UU. a las 12:30 UTC, la última gran prueba de inflación antes de la reunión de la Fed. El dólar ronda máximos de 18 meses y el Brent sube a 106,2-106,4 $/barril tras nuevos ataques de Irán a petroleros en el estrecho de Ormuz; Netanyahu habría pedido a Trump reanudar los bombardeos sobre Irán, según Oilprice.com. Jornada clave por delante: IPC de septiembre de EE. UU., Beige Book de la Fed y resultados de ASML, Bank of America, Morgan Stanley, BlackRock y State Street.",
   "semana": {
     "activos": [
       {
-        "cambio": "Cierre oficial: el martes 13 oct el S&P 500 termina en 7.805,45 (-0,02 %), prácticamente plano, con el régimen de gamma POSITIVA estable en torno a +1,71 mil M$ por 1 %. Williams y Hammack mantienen el tono hawkish de la Fed; score se mantiene en -26 de cara al IPC de mañana.",
-        "expectativa": "El S&P 500 cierra la sesión del martes prácticamente plano, con el régimen de gamma POSITIVA estable (+1,71 mil M$ por 1 %), lo que limita algo el riesgo de movimientos amplificados de cara al IPC de mañana (consenso 3,6-3,7 % general, 2,4-2,5 % subyacente). J&J (-6 %) y Wells Fargo lastran la sesión bancaria pese a las subidas de Goldman y UnitedHealth, con JPMorgan sin cumplir previsiones pese a ganar 15.300 millones $. Al tono hawkish de Williams se suma Hammack (Fed de Cleveland) y Bessent defendiendo su plan de crecer para reducir la deuda sin recortar gasto, pese a la presión de Trump y la tregua energética Rusia-Ucrania; la liquidez neta de la Fed sigue entrando como contrapeso.",
+        "cambio": "Miércoles 14 oct, premercado: los futuros ES suben un 0,22 % antes del IPC de septiembre (12:30 UTC); el régimen de gamma sigue NEGATIVO (0,55 mil M$ por 1 %). Score sin cambios (-26) a la espera del dato.",
+        "expectativa": "El S&P 500 llega al IPC de septiembre con los futuros ligeramente al alza (+0,22 %) tras el cierre plano del martes (7.805,45), con el régimen de gamma NEGATIVO (0,55 mil M$ por 1 %) que deja al índice expuesto a movimientos algo más amplios si el dato sorprende. La Fed de Warsh sigue hawkish (Williams, Hammack), con la probabilidad de subida en diciembre sin cambios en el 81,5 % según Kalshi, mientras la escalada de Irán en el estrecho de Ormuz (Brent en 106,2-106,4 $/barril) añade presión por el lado de la inflación energética. La liquidez neta de la Fed sigue entrando (+82.200 millones $ la última semana) como contrapeso, y la tregua arancelaria con China hasta enero de 2027 sigue siendo un soporte de fondo.",
         "id": "SPX",
         "score": -26,
         "scoreInicial": 10,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Cierre oficial: el martes 13 oct el Nasdaq 100 termina en torno a 30.562 (-0,39 %); la gamma negativa se modera ligeramente a -2,24 mil M$ por 1 % (desde -2,38). Score se mantiene en -44 de cara al IPC de mañana.",
-        "expectativa": "El Nasdaq 100 mantiene su régimen de gamma negativa, algo menos profunda (-2,24 mil M$ por 1 %, desde -2,38), aún por debajo del giro de gamma (30.806), con la venta de chips de memoria (Samsung, SK Hynix, Micron) y el petróleo por encima de 105 $/barril como principal lastre. La tregua arancelaria con China hasta enero de 2027 sigue siendo un soporte, pero el tono hawkish de la Fed de Warsh, reforzado por Williams y Hammack, deja al índice expuesto a movimientos amplios con el IPC de mañana como catalizador clave; la liquidez neta de la Fed sigue entrando como contrapeso.",
+        "cambio": "Miércoles 14 oct, premercado: los futuros NQ suben un 0,27 % antes del IPC; la gamma sigue NEGATIVA en -2,42 mil M$ por 1 %. Score sin cambios (-44) a la espera del dato.",
+        "expectativa": "El Nasdaq 100 llega al IPC con los futuros algo al alza (+0,27 %) y su régimen de gamma NEGATIVO sin cambios (-2,42 mil M$ por 1 %), aún por debajo del giro de gamma (30.801). La venta de chips de memoria asiáticos (Samsung, SK Hynix, Micron) sigue lastrando el sentimiento tecnológico, agravada hoy por unos resultados de ASML por debajo de lo esperado en pedidos. El Brent sobre 106 $/barril por la escalada de Irán en Ormuz y el tono hawkish de la Fed (Williams, Hammack) dejan al índice expuesto a movimientos amplios con el IPC de hoy como catalizador clave; la tregua arancelaria con China hasta enero de 2027 y la liquidez de la Fed entrando siguen de soporte.",
         "id": "NQ",
         "score": -44,
         "scoreInicial": 5,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Martes 13 oct, cierre en EE. UU.: el oro cae a 4.160,10 $/oz (-10,70 $ en el día, Kitco) con el dólar firme antes del IPC. Score sin cambios (+18, alcista).",
-        "expectativa": "El oro cierra el martes en torno a 4.160 $/oz, con un ligero retroceso frente a los 4.186 $ de media sesión por la firmeza del dólar antes del IPC de EE. UU. de mañana. El tono hawkish de la Fed, reforzado por Hammack además de Williams, limita el avance, y la tregua energética Rusia-Ucrania reduce algo la prima de riesgo geopolítico, pero Pepperstone sigue señalando que superar los 4.275 $ confirmaría un giro de tendencia más firme.",
+        "cambio": "Madrugada del miércoles 14 oct: el oro cotiza entre 4.175 y 4.180 $/oz, prácticamente plano frente al cierre del martes, con el dólar firme antes del IPC. Score sin cambios (+18, alcista).",
+        "expectativa": "El oro se mueve entre 4.175 y 4.180 $/oz de cara al IPC de septiembre, sostenido por la escalada de Irán en el estrecho de Ormuz (Netanyahu habría pedido a Trump reanudar los bombardeos) pero limitado por un dólar firme y el tono hawkish de la Fed (Williams, Hammack). Pepperstone sigue señalando que superar los 4.275 $ confirmaría un giro de tendencia más firme; un IPC caliente hoy presionaría a la baja en el corto plazo pese al respaldo geopolítico.",
         "id": "XAU",
         "score": 18,
         "scoreInicial": 18,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Martes 13 oct: bitcoin ronda 83.400 $ tras salidas de 65,4 millones $ del ETF de BlackRock; Strategy, Strive y Metaplanet siguen acumulando; Hammack (Fed de Cleveland) pide mantener tipos restrictivos. Score sin cambios (-10, neutral).",
-        "expectativa": "Bitcoin se mueve entre 83.400 y 84.000 $ tras el desplome de la semana pasada, con las salidas de ETF spot moderándose y la acumulación corporativa (Strategy, Strive) como soporte, aunque un muro de venta en 86.500 $ sigue limitando el rebote. El tono hawkish de la Fed, reforzado por Williams y Hammack, sigue siendo un lastre de fondo para los activos de riesgo, parcialmente compensado por la tregua energética Rusia-Ucrania anunciada por Trump.",
+        "cambio": "Madrugada del miércoles 14 oct: bitcoin ronda 83.400 $, estable tras el rebote desde mínimos cercanos a 81.000 $. Score sin cambios (-10, neutral).",
+        "expectativa": "Bitcoin se mantiene cerca de 83.400 $ a la espera del IPC de septiembre y de nuevas señales de la Fed, con resistencia en la zona de 84.000 $. El tono hawkish de la Fed (Williams, Hammack) sigue siendo un lastre de fondo para los activos de riesgo, parcialmente compensado por la acumulación corporativa (Strategy, Strive) y la tregua energética Rusia-Ucrania.",
         "id": "BTC",
         "score": -10,
         "scoreInicial": -10,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Martes 13 oct: el euro recorta pérdidas hacia 1,1200 tras tocar mínimos de 17 meses en 1,1150, con el dólar algo más débil; el riesgo fiscal francés sigue limitando el rebote. Score sin cambios (-12, neutral).",
-        "expectativa": "El euro cotiza en torno a 1,1195-1,1209, por debajo de su media móvil de 20 sesiones, con el dólar firme por el tono hawkish de la Fed, reforzado por Williams y Hammack. UOB mantiene un sesgo bajista a 1-3 semanas hacia 1,1145, aunque la tregua energética Rusia-Ucrania da algo de alivio al euro al reducir la factura energética europea. Lagarde sigue intentando calmar el riesgo fiscal francés diciendo que el BCE tiene herramientas para frenar movimientos «injustificados».",
+        "cambio": "Madrugada del miércoles 14 oct: el euro recupera terreno hacia 1,1180-1,1200 con el dólar algo más débil antes del IPC de EE. UU. Score sin cambios (-12, neutral).",
+        "expectativa": "El EUR/USD cotiza en torno a 1,1180-1,1200, recortando algo de pérdidas frente a los mínimos de 17 meses (1,1150) marcados esta semana, con el dólar algo más débil antes del IPC. El tono hawkish de la Fed (Williams, Hammack) y el riesgo fiscal francés que vigila Lagarde limitan el rebote, mientras la tregua energética Rusia-Ucrania da algo de alivio al reducir la factura energética europea.",
         "id": "EURUSD",
         "score": -12,
         "scoreInicial": -12,
@@ -1688,9 +1716,9 @@
     ],
     "narrativa": "Semana marcada por el IPC de septiembre de mañana miércoles, la última lectura de inflación antes de la reunión de la Fed del 28 de octubre, en la que la Fed de Kevin Warsh sigue resistiendo la presión de Trump para bajar tipos (81,5 % de probabilidad de otra subida en diciembre y 19,5 % para el 28 de octubre, sin cambios según Kalshi; consenso de IPC en 3,6-3,7 % general y 2,4-2,5 % subyacente, modelo Cleveland en 3,57-3,60 %). Wall Street cierra oficialmente el martes 13 con el S&P 500 en 7.805,45 (-0,02 %), el Dow en 51.670,10 (-0,35 %) y el Nasdaq Composite en 27.204,38 (-0,15 %); el Nasdaq 100 termina en torno a 30.562 (-0,39 %). El S&P 500 mantiene su régimen de gamma POSITIVA (+1,71 mil M$ por 1 %) y el Nasdaq 100 su gamma NEGATIVA, algo menos profunda (-2,24, desde -2,38). Tras John Williams (Fed de Nueva York), Beth Hammack (Fed de Cleveland) pide mantener una política restrictiva. La temporada de resultados bancarios es mixta: JPMorgan no cumple previsiones pese a ganar 15.300 millones $, Goldman Sachs dispara un 72 % el trading de acciones, J&J cae un 6 % y Wells Fargo retrocede. La venta de chips de memoria en Asia (Samsung, SK Hynix, Micron, ante los avances de la china CXMT) sigue lastrando la tecnología, el petróleo se mantiene por encima de 105 $/barril y el 10 años ronda el 5,2 %. El oro cierra en 4.160 $/oz y bitcoin se mantiene cerca de 83.400 $ tras tocar mínimos bajo 81.000 $ el lunes. Bessent defiende que el crecimiento al 3 % permitirá reducir la deuda sin recortar gasto, frente al escepticismo de la CBO y de los bonos largos (30 años en máximos desde 2002). De fondo, la tregua energética Rusia-Ucrania anunciada por Trump y la tregua arancelaria con China prorrogada hasta enero de 2027 alivian algo el riesgo de cola, pero la escalada en el estrecho de Ormuz y el riesgo fiscal francés que vigila Lagarde siguen de fondo. La liquidez neta de la Fed sigue entrando (+82.200 millones $ la última semana), un soporte para el riesgo.",
     "rango": "12-16 oct 2026",
-    "slot": "cierre",
-    "updatedAt": "2026-10-13T21:48:00Z"
+    "slot": "pre-londres",
+    "updatedAt": "2026-10-14T06:50:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-14T06:20:00Z"
+  "updatedAt": "2026-10-14T07:18:00.000000Z"
 }

@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-13T18:46:03Z",
+  "actualizado": "2026-10-14T06:46:42Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.55,
-    "lectura": "Inflación por encima del objetivo (3,4 % en agosto; el IPC de septiembre sale el 14 oct) y la Fed de Warsh con tipos en 3,75-4,00 % y un 81,5 % de probabilidad de otra subida en diciembre (Kalshi, 13 oct). El crédito se encarece y el empleo ya se enfría (+29.000 en septiembre): señal clásica de techo del ciclo corto."
+    "lectura": "Inflación por encima del objetivo (3,4 % en agosto; el IPC de septiembre sale hoy, 14 oct, con un consenso del 3,6-3,7 %) y la Fed de Warsh con tipos en 3,75-4,00 %, un 21 % de probabilidad de subida el 28 oct y un 81,5 % en diciembre (Kalshi). El crédito se encarece y el empleo ya se enfría (+29.000 en septiembre): señal clásica de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -41,13 +41,13 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "81,5 % de subida el 9 dic (Kalshi, 13 oct)",
+      "c": "21 % subida el 28 oct · 81,5 % el 9 dic (Kalshi, 14 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
     },
     {
-      "c": "agosto · subyacente 2,4 % · septiembre sale el 14 oct",
+      "c": "agosto · subyacente 2,4 % · septiembre sale hoy (consenso 3,6-3,7 %)",
       "estado": "amarillo",
       "n": "Inflación (IPC)",
       "v": "3,4 %"
@@ -71,19 +71,19 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "13 oct · zona de atención",
+      "c": "14 oct · zona de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,57 %"
+      "v": "5,56 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años en el 5,57 % (13 oct) muestra que cuesta más encontrar compradores: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años en el 5,56 % (14 oct) muestra que cuesta más encontrar compradores: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La Fed sigue con sesgo de subida (81,5 % en diciembre) con la inflación en el 3,4 %, pero el empleo ya se frena (29.000 empleos en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La Fed mantiene sesgo de subida (21 % en octubre, 81,5 % en diciembre) con la inflación en el 3,4 % y el IPC de hoy esperado en el 3,6-3,7 %, mientras el empleo ya se frena (29.000 empleos en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
   "palancas": [
     {
       "estado": "rojo",
@@ -145,6 +145,11 @@
       "corto": 0.55,
       "largo": 0.76,
       "ts": "2026-10-13T18:46:03Z"
+    },
+    {
+      "corto": 0.55,
+      "largo": 0.76,
+      "ts": "2026-10-14T06:46:42Z"
     }
   ]
 }

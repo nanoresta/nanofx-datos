@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-13T18:46:03Z",
+  "actualizado": "2026-10-14T06:46:42Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "Por encima del umbral de atención (5,5 %), aún lejos de la alerta (6 %).",
-      "valor": "5,57 % (13 oct)"
+      "nota": "Por encima del umbral de atención (5,5 %), aún lejos de la alerta (6 %); +19 pb en un mes.",
+      "valor": "5,56 % (14 oct)"
     },
     {
       "estado": "verde",
@@ -16,7 +16,7 @@
     {
       "estado": "amarillo",
       "nombre": "Deuda de hyperscalers para IA",
-      "nota": "Microsoft, Alphabet, Amazon, Meta y Oracle compiten con el Tesoro por el ahorro a largo plazo; el bono de Meta-BlackRock (12.500 M$, ago.) pagó un 7,5 %. Sin dato acumulado más reciente.",
+      "nota": "JPMorgan prevé 317.000 M$ de Amazon, Alphabet, Meta y Oracle este año y Goldman 250.000 M$ para los cinco grandes (400.000 M$ en 2027): compiten con el Tesoro por el ahorro a largo.",
       "valor": "~220.000 M$ en 2026 (a 10 ago)"
     },
     {
@@ -61,7 +61,7 @@
       {
         "estado": "rojo",
         "n": "Compras con mucho apalancamiento",
-        "nota": "Deuda de margen FINRA en 1,45 bill. $ en agosto, segunda mayor de la historia (récord 1,50 bill. en junio); +38,6 % interanual en julio y +19 % en lo que va de año.",
+        "nota": "Deuda de margen FINRA en 1,45 bill. $ en agosto, segunda mayor de la historia (récord 1,50 bill. en junio) y +37 % interanual; el dato de septiembre aún no se ha publicado.",
         "valor": "Margen 1,45 bill. $ (agosto)"
       },
       {
@@ -71,32 +71,32 @@
         "valor": "Capex IA ~690.000-800.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929 pero no muy lejos, como dijo Dalio en Bloomberg (6 oct). Lo que más pesa son los precios caros (CAPE 41) y la sobreinversión en IA con deuda; los gestores de BofA ya ven la burbuja de IA como el segundo mayor riesgo, solo detrás de un repunte desordenado de los rendimientos.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929 pero no muy lejos, como dijo Dalio en Bloomberg (6 oct). Lo que más pesa son los precios caros (CAPE 41) y la sobreinversión en IA con deuda; la sacudida de los chips de memoria del martes (Samsung -7,4 %, Micron -4 %) muestra lo sensibles que están las acciones de IA.",
     "nivel": 71,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "13 oct: la pendiente se estrecha desde +85 pb (8 oct) porque los cortos suben con la Fed; los largos siguen muy por encima.",
-        "valor": "+76 pb (4,81 % / 5,57 %)"
+        "nota": "14 oct: la pendiente se estrecha desde +85 pb (8 oct) porque los cortos suben con la Fed; los largos siguen muy por encima.",
+        "valor": "+77 pb (4,79 % / 5,56 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (13 oct) da un 81,5 % a otra subida el 9 de diciembre y un 19,5 % en octubre: endurecimiento con tipos reales altos, el clásico detonante según Dalio.",
-        "valor": "3,75-4,00 %; 81,5 % subida en dic."
+        "nota": "Kalshi (14 oct) da un 21 % a otra subida el 28 de octubre y un 81,5 % el 9 de diciembre: endurecimiento con tipos reales altos, el clásico detonante según Dalio.",
+        "valor": "3,75-4,00 %; 21 % subida en oct."
       },
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "13 oct: cede desde 102,6, máximo de 18 meses; +2,8 % en el mes, sin huida de la moneda.",
-        "valor": "102,17"
+        "nota": "14 oct: justo por debajo del máximo de 18 meses del lunes; sin huida de la moneda.",
+        "valor": "~102,3"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "13 oct: estable antes del IPC; los bancos centrales (China, 23.º mes) siguen comprando.",
-        "valor": "~4.186 $/oz"
+        "nota": "13 oct (Kitco): cede 10,7 $ con el dólar firme antes del IPC; los bancos centrales (China, 23.º mes) siguen comprando.",
+        "valor": "~4.160 $/oz"
       },
       {
         "estado": "amarillo",
@@ -254,21 +254,37 @@
     {
       "nombre": "Trading Economics – DXY",
       "url": "https://tradingeconomics.com/united-states/currency"
+    },
+    {
+      "nombre": "BigGo Finance – Previsiones de emisión de deuda tecnológica (JPMorgan, Goldman)",
+      "url": "https://finance.biggo.com/news/51d5cb7d-29eb-448c-8b18-50d88f6129c3"
+    },
+    {
+      "nombre": "Kitco – Oro",
+      "url": "https://www.kitco.com/charts/gold"
+    },
+    {
+      "nombre": "NordFX – Market Pulse 14 oct",
+      "url": "https://nordfx.com/market-news/market-pulse-october-14-2026"
+    },
+    {
+      "nombre": "The Trading Tools – Deuda de margen",
+      "url": "https://www.thetrading.tools/margin-debt"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años está en el 5,57 % (zona de atención), con un déficit de unos 2 billones y 1,1 billones en intereses, y Kalshi da un 81,5 % a otra subida de la Fed en diciembre. Desde la última vez los bonos se relajan un poco (EE. UU. -3 pb, JGB a 30 años 4,03 %, Bund 3,46 %) y el yen respira algo (158,4), así que el riesgo baja a 63; la encuesta de BofA sitúa una subida desordenada de los rendimientos como el mayor riesgo extremo del mercado.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años está en el 5,56 % (zona de atención), con un déficit de unos 2 billones y 1,1 billones en intereses, y Kalshi sube al 21 % la probabilidad de otra subida de la Fed el 28 de octubre (81,5 % en diciembre). Desde ayer los bonos apenas se mueven (EE. UU. -1 pb, Bund 3,46 %, JGB a 30 años 4,04 %, yen 158,3) y el riesgo se queda en 63; la gran prueba de hoy es el IPC de septiembre (12:30 UTC), con un consenso del 3,6-3,7 %.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "13 oct; +24 pb en 1 mes",
+          "c": "14 oct; +20 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "5,23 %"
+          "v": "5,21 %"
         },
         {
-          "c": "13 oct; +22 pb en 1 mes",
+          "c": "14 oct; +19 pb en 1 mes",
           "n": "Bono 30 años",
-          "v": "5,57 %"
+          "v": "5,56 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -284,12 +300,12 @@
       "estado": "rojo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Rendimientos en máximos de casi 20 años y coste de intereses récord: el núcleo del riesgo de Dalio, aunque hoy los bonos ceden algo antes del IPC del miércoles."
+      "nota": "Rendimientos en máximos de casi 20 años y coste de intereses récord: el núcleo del riesgo de Dalio; el IPC de hoy decide si la Fed vuelve a subir en octubre."
     },
     {
       "datos": [
         {
-          "c": "13 oct; -7 pb en 1 mes",
+          "c": "14 oct; -7 pb en 1 mes",
           "n": "Bund 10 años",
           "v": "3,46 %"
         },
@@ -340,14 +356,14 @@
     {
       "datos": [
         {
-          "c": "13 oct; mínimo de casi 3 semanas",
+          "c": "14 oct; -4 pb en 1 mes",
           "n": "JGB 10 años",
           "v": "3,00 %"
         },
         {
-          "c": "13 oct; -4 pb en 1 mes",
+          "c": "14 oct; -11 pb en 1 mes",
           "n": "JGB 30 años",
-          "v": "4,03 %"
+          "v": "4,04 %"
         },
         {
           "c": "julio, -1,1 %; 3.ª caída seguida",
@@ -355,15 +371,15 @@
           "v": "1,104 bill. $"
         },
         {
-          "c": "13 oct; yen -2,6 % en 1 mes, cerca de 160",
+          "c": "14 oct; cerca de 160",
           "n": "USD/JPY",
-          "v": "158,4"
+          "v": "158,3"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Ueda (BoJ, 1,25 %) liga la próxima subida a cómo los precios mayoristas pasan al consumo; el mercado la ve en diciembre o enero, y Japón sigue reduciendo Treasuries."
+      "nota": "El BoJ (1,25 %) evita subir dos meses seguidos y apunta a diciembre; Ueda vigila los rendimientos largos y Japón sigue reduciendo Treasuries."
     },
     {
       "datos": [
@@ -373,9 +389,9 @@
           "v": "14,00 %"
         },
         {
-          "c": "12 oct; +35 pb en 1 mes",
+          "c": "13 oct; +28 pb en 1 mes",
           "n": "OFZ 10 años",
-          "v": "16,64 %"
+          "v": "16,57 %"
         },
         {
           "c": "supera el plan anual de 3,8 bill.",
@@ -414,6 +430,11 @@
       "burbuja": 71,
       "riesgo": 63,
       "ts": "2026-10-13T18:46:03Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 63,
+      "ts": "2026-10-14T06:46:42Z"
     }
   ]
 }
