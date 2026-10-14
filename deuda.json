@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-14T06:46:42Z",
+  "actualizado": "2026-10-14T18:46:02Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "Por encima del umbral de atención (5,5 %), aún lejos de la alerta (6 %); +19 pb en un mes.",
-      "valor": "5,56 % (14 oct)"
+      "nota": "Por encima del umbral de atención (5,5 %), lejos aún de la alerta (6 %); +15 pb en un mes, pero hoy -4 pb pese al IPC caliente.",
+      "valor": "5,52 % (14 oct)"
     },
     {
       "estado": "verde",
@@ -37,14 +37,14 @@
       {
         "estado": "rojo",
         "n": "Precios caros frente a su valor",
-        "nota": "CAPE de Shiller en 41,2 (1 oct), cerca del récord de 2000; Buffett indicator en máximo histórico (11 oct); el PER adelantado (19,0, 30 sept) está en su media de 10 años.",
-        "valor": "CAPE 41,2; Buffett 237 %"
+        "nota": "CAPE de Shiller en 41,6 (8 oct, Multpl), cerca del récord de 2000; Buffett indicator en máximo histórico (11 oct); el PER adelantado (19,0, 30 sept) está en su media de 10 años.",
+        "valor": "CAPE 41,6; Buffett 237 %"
       },
       {
         "estado": "rojo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "Rentabilidad por beneficios adelantada ~5,26 % (1/19,0) frente al bono a 10 años en 5,24 % (9 oct): la bolsa no paga extra por su riesgo. Peso de las 10 mayores no actualizado.",
-        "valor": "Prima de riesgo ≈ 0 pb"
+        "nota": "Rentabilidad por beneficios adelantada ~5,26 % (1/19,0) frente al bono a 10 años en 5,19 % (14 oct): la bolsa casi no paga extra por su riesgo. Peso de las 10 mayores no actualizado.",
+        "valor": "Prima de riesgo ≈ 7 pb"
       },
       {
         "estado": "amarillo",
@@ -55,8 +55,8 @@
       {
         "estado": "amarillo",
         "n": "Sentimiento eufórico",
-        "nota": "Fear & Greed neutral (46, 12 oct) y AAII neutral (7 oct); pero BofA (2-8 oct): largos en semiconductores siguen siendo la operación más concurrida y el 37 % sobrepondera tecnología (30 % en sept.).",
-        "valor": "Fear & Greed 46; AAII 40,3 % alcistas"
+        "nota": "Fear & Greed neutral (45, 13 oct) y AAII neutral (7 oct); pero BofA (2-8 oct): largos en semiconductores siguen siendo la operación más concurrida y el 37 % sobrepondera tecnología.",
+        "valor": "Fear & Greed 45; AAII 40,3 % alcistas"
       },
       {
         "estado": "rojo",
@@ -71,38 +71,38 @@
         "valor": "Capex IA ~690.000-800.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929 pero no muy lejos, como dijo Dalio en Bloomberg (6 oct). Lo que más pesa son los precios caros (CAPE 41) y la sobreinversión en IA con deuda; la sacudida de los chips de memoria del martes (Samsung -7,4 %, Micron -4 %) muestra lo sensibles que están las acciones de IA.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929 pero no muy lejos, como dijo Dalio en Bloomberg (6 oct). Lo que más pesa son los precios caros (CAPE 41,6) y la sobreinversión en IA con deuda; hoy el IPC caliente tumba al Nasdaq un 2 % y los chips (SOXX) encadenan siete sesiones de caídas, señal de lo sensibles que están a los tipos.",
     "nivel": 71,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "14 oct: la pendiente se estrecha desde +85 pb (8 oct) porque los cortos suben con la Fed; los largos siguen muy por encima.",
-        "valor": "+77 pb (4,79 % / 5,56 %)"
+        "nota": "14 oct: la pendiente se estrecha (+85 pb el 8 oct) porque los cortos suben con la Fed tras el IPC; los largos siguen muy altos.",
+        "valor": "+70 pb (4,82 % / 5,52 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (14 oct) da un 21 % a otra subida el 28 de octubre y un 81,5 % el 9 de diciembre: endurecimiento con tipos reales altos, el clásico detonante según Dalio.",
-        "valor": "3,75-4,00 %; 21 % subida en oct."
+        "nota": "Kalshi (14 oct, tras el IPC del 3,7 %) da un 34,5 % a subir el 28 de octubre y un 88,5 % el 9 de diciembre: endurecimiento con tipos reales altos, el detonante clásico según Dalio.",
+        "valor": "3,75-4,00 %; 34,5 % subida en oct."
       },
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "14 oct: justo por debajo del máximo de 18 meses del lunes; sin huida de la moneda.",
-        "valor": "~102,3"
+        "nota": "14 oct: tocó 102,88, máximo desde abril de 2025 (+2,9 % en un mes); sin huida de la moneda.",
+        "valor": "~102,5"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "13 oct (Kitco): cede 10,7 $ con el dólar firme antes del IPC; los bancos centrales (China, 23.º mes) siguen comprando.",
-        "valor": "~4.160 $/oz"
+        "nota": "14 oct: tercera sesión de caídas con el dólar fuerte tras el IPC; los bancos centrales (China, 23.º mes) siguen comprando.",
+        "valor": "~4.150 $/oz"
       },
       {
         "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "Julio trajo la mayor caída mensual de deuda de margen; en BofA (oct) el mayor riesgo extremo es una subida desordenada de rendimientos que fuerce ventas.",
-        "valor": "Margen: -85.000 M$ en julio"
+        "nota": "14 oct: gamma negativa en S&P 500 y Nasdaq amplifica las caídas; deuda de margen en máximos (agosto) y en BofA el mayor riesgo es una subida desordenada de rendimientos.",
+        "valor": "Gamma negativa; margen 1,45 bill. $"
       }
     ]
   },
@@ -270,21 +270,33 @@
     {
       "nombre": "The Trading Tools – Deuda de margen",
       "url": "https://www.thetrading.tools/margin-debt"
+    },
+    {
+      "nombre": "Finnovate – CAPE de Shiller (8 oct)",
+      "url": "https://www.finnovate.in/learn/blog/shiller-cape-ratio-us-stock-market-2026"
+    },
+    {
+      "nombre": "Benzinga – Fear & Greed (13 oct)",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62344536/nasdaq-settles-lower-as-chip-stocks-slide-investor-sentiment-weakens-fear-greed-index-remains-in-neutral-zone"
+    },
+    {
+      "nombre": "Yahoo Finance – Bolsa 14 oct",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-135249729.html"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años está en el 5,56 % (zona de atención), con un déficit de unos 2 billones y 1,1 billones en intereses, y Kalshi sube al 21 % la probabilidad de otra subida de la Fed el 28 de octubre (81,5 % en diciembre). Desde ayer los bonos apenas se mueven (EE. UU. -1 pb, Bund 3,46 %, JGB a 30 años 4,04 %, yen 158,3) y el riesgo se queda en 63; la gran prueba de hoy es el IPC de septiembre (12:30 UTC), con un consenso del 3,6-3,7 %.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: el IPC de septiembre salió caliente (3,7 %, subyacente 2,6 %) y Kalshi da ya un 34,5 % a otra subida de la Fed el 28 de octubre y un 88,5 % en diciembre, con un déficit de unos 2 billones y 1,1 billones en intereses. Curiosamente los bonos largos apenas se movieron (30 años 5,52 %, -4 pb) mientras el 2 años sube al 4,82 %, así que la curva se aplana; el dólar toca máximos desde abril de 2025 (DXY 102,5) y el yen se debilita a 158,8. El riesgo se queda en 63.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "14 oct; +20 pb en 1 mes",
+          "c": "14 oct; +18 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "5,21 %"
+          "v": "5,19 %"
         },
         {
-          "c": "14 oct; +19 pb en 1 mes",
+          "c": "14 oct; +15 pb en 1 mes",
           "n": "Bono 30 años",
-          "v": "5,56 %"
+          "v": "5,52 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -300,14 +312,14 @@
       "estado": "rojo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Rendimientos en máximos de casi 20 años y coste de intereses récord: el núcleo del riesgo de Dalio; el IPC de hoy decide si la Fed vuelve a subir en octubre."
+      "nota": "El IPC caliente de hoy (3,7 %) acerca otra subida de la Fed y mantiene los rendimientos en máximos de casi 20 años; el coste de intereses es récord y el FMI pide recortar el déficit."
     },
     {
       "datos": [
         {
-          "c": "14 oct; -7 pb en 1 mes",
+          "c": "14 oct; -9 pb en 1 mes",
           "n": "Bund 10 años",
-          "v": "3,46 %"
+          "v": "3,44 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -315,7 +327,7 @@
           "v": "88,9 %"
         },
         {
-          "c": "el petróleo más barato rebaja las apuestas de más subidas (12-13 oct)",
+          "c": "mercado descuenta subida en diciembre; Šimkus no descarta octubre (14 oct)",
           "n": "Tipo depósito BCE",
           "v": "2,50 %"
         }
@@ -323,14 +335,14 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "Bonos europeos cerca de máximos de 15 años, pero el mercado recorta las apuestas de nuevas subidas del BCE por la bajada del petróleo."
+      "nota": "Lagarde ve que la inflación energética aún no se contagia, pero el mercado descuenta otra subida en diciembre; Lagarde descarta rescatar la deuda francesa y el euro cae a 1,114."
     },
     {
       "datos": [
         {
-          "c": "9 oct; estable en 1 mes",
+          "c": "13 oct; -3 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "1,70 %"
+          "v": "1,67 %"
         },
         {
           "c": "julio, -2,4 %; mínimo desde 2008",
@@ -338,9 +350,9 @@
           "v": "618.000 M$"
         },
         {
-          "c": "13 oct; yuan +0,25 % en 1 mes; fijación PBOC 6,7298, la más fuerte desde feb-2023",
+          "c": "14 oct; yuan +0,19 % en 1 mes; fijación 6,7298 (12 oct), la más fuerte desde feb-2023",
           "n": "USD/CNY",
-          "v": "6,69"
+          "v": "6,70"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -363,7 +375,7 @@
         {
           "c": "14 oct; -11 pb en 1 mes",
           "n": "JGB 30 años",
-          "v": "4,04 %"
+          "v": "4,05 %"
         },
         {
           "c": "julio, -1,1 %; 3.ª caída seguida",
@@ -371,9 +383,9 @@
           "v": "1,104 bill. $"
         },
         {
-          "c": "14 oct; cerca de 160",
+          "c": "14 oct; +0,3 % en el día, cerca de 160",
           "n": "USD/JPY",
-          "v": "158,3"
+          "v": "158,8"
         }
       ],
       "estado": "amarillo",
@@ -435,6 +447,11 @@
       "burbuja": 71,
       "riesgo": 63,
       "ts": "2026-10-14T06:46:42Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 63,
+      "ts": "2026-10-14T18:46:02Z"
     }
   ]
 }

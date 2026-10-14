@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-14T06:46:42Z",
+  "actualizado": "2026-10-14T18:46:02Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
-    "fase": 0.55,
-    "lectura": "Inflación por encima del objetivo (3,4 % en agosto; el IPC de septiembre sale hoy, 14 oct, con un consenso del 3,6-3,7 %) y la Fed de Warsh con tipos en 3,75-4,00 %, un 21 % de probabilidad de subida el 28 oct y un 81,5 % en diciembre (Kalshi). El crédito se encarece y el empleo ya se enfría (+29.000 en septiembre): señal clásica de techo del ciclo corto."
+    "fase": 0.56,
+    "lectura": "El IPC de septiembre sube al 3,7 % (subyacente 2,6 %), por encima de lo esperado, y la Fed de Warsh (3,75-4,00 %) tiene un 34,5 % de subir el 28 oct y un 88,5 % en diciembre (Kalshi). Con el empleo frenado (+29.000 en septiembre) es el patrón clásico de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -32,7 +32,7 @@
       "url": "https://www.morningstar.com/news/dow-jones/202609304693/second-quarter-gdp-growth-climbs-to-22-in-third-estimate"
     }
   ],
-  "hacia": "Lo normal tras subir tipos con el empleo frenándose es una desaceleración o recesión en los próximos 6-18 meses (fase 4 del ciclo corto). Como la deuda ya es muy alta, la Fed tendrá poco margen: el riesgo es entrar en la fase de desapalancamiento, donde lo más probable en EE. UU. es imprimir dinero (más inflación, dólar débil, oro fuerte) antes que recortar gasto.",
+  "hacia": "Lo normal tras subir tipos con el empleo frenándose es una desaceleración o recesión en los próximos 6-18 meses (fase de recesión del ciclo corto); el IPC caliente y el petróleo por encima de 100 $ lo adelantarían al forzar más subidas. Como la deuda ya es muy alta, la Fed tendrá poco margen: el riesgo es entrar en el desapalancamiento, donde lo más probable en EE. UU. es imprimir dinero (más inflación, dólar débil, oro fuerte) antes que recortar gasto.",
   "indicadores": [
     {
       "c": "2T 2026 · Fed (Z.1)",
@@ -41,16 +41,16 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "21 % subida el 28 oct · 81,5 % el 9 dic (Kalshi, 14 oct)",
+      "c": "34,5 % subida el 28 oct · 88,5 % el 9 dic (Kalshi, 14 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
     },
     {
-      "c": "agosto · subyacente 2,4 % · septiembre sale hoy (consenso 3,6-3,7 %)",
-      "estado": "amarillo",
+      "c": "septiembre (BLS, 14 oct) · subyacente 2,6 % · por encima del consenso",
+      "estado": "rojo",
       "n": "Inflación (IPC)",
-      "v": "3,4 %"
+      "v": "3,7 %"
     },
     {
       "c": "septiembre · por debajo de lo esperado",
@@ -74,21 +74,21 @@
       "c": "14 oct · zona de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,56 %"
+      "v": "5,52 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años en el 5,56 % (14 oct) muestra que cuesta más encontrar compradores: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años en el 5,52 % (14 oct) muestra que cuesta más encontrar compradores: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La Fed mantiene sesgo de subida (21 % en octubre, 81,5 % en diciembre) con la inflación en el 3,4 % y el IPC de hoy esperado en el 3,6-3,7 %, mientras el empleo ya se frena (29.000 empleos en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (3,7 % en septiembre) y la Fed ya tiene un 88,5 % de probabilidad de subir en diciembre, mientras el empleo se frena (29.000 empleos en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
   "palancas": [
     {
       "estado": "rojo",
       "n": "Recortar gasto (austeridad)",
-      "nota": "El déficit sigue en torno a 2 billones $; no hay recortes en marcha.",
+      "nota": "El déficit sigue en torno a 2 billones $ y el FMI pide a Bessent recortarlo (14 oct); no hay recortes en marcha.",
       "valor": "No"
     },
     {
@@ -150,6 +150,11 @@
       "corto": 0.55,
       "largo": 0.76,
       "ts": "2026-10-14T06:46:42Z"
+    },
+    {
+      "corto": 0.56,
+      "largo": 0.76,
+      "ts": "2026-10-14T18:46:02Z"
     }
   ]
 }
