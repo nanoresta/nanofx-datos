@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-15T10:00:54Z",
+  "actualizado": "2026-10-15T18:46:03Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.56,
-    "lectura": "El IPC de septiembre sube al 3,7 % (subyacente 2,6 %) y la Fed de Warsh (3,75-4,00 %) tiene un 23,5 % de subir el 28 oct y un 89,5 % en diciembre (Kalshi, 15 oct). Con el empleo frenado (+29.000 en septiembre) y la bolsa tecnológica cayendo, es el patrón clásico de techo del ciclo corto."
+    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 % (15 oct); la Fed de Warsh (3,75-4,00 %) tiene un 25,5 % de subir el 28 oct y un 86,5 % en diciembre (Kalshi, 15 oct). Con el empleo frenado (+29.000 en septiembre) y la bolsa tecnológica cayendo, es el patrón clásico de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -30,6 +30,10 @@
     {
       "nombre": "Morningstar · PIB 2T",
       "url": "https://www.morningstar.com/news/dow-jones/202609304693/second-quarter-gdp-growth-climbs-to-22-in-third-estimate"
+    },
+    {
+      "nombre": "BLS · IPP septiembre 2026",
+      "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"
     }
   ],
   "hacia": "Lo normal tras subir tipos con el empleo frenándose es una desaceleración o recesión en los próximos 6-18 meses (fase de recesión del ciclo corto); el IPC caliente y el petróleo por encima de 100 $ lo adelantarían al forzar más subidas. Como la deuda ya es muy alta, la Fed tendrá poco margen: el riesgo es entrar en el desapalancamiento, donde lo más probable en EE. UU. es imprimir dinero (más inflación, dólar débil, oro fuerte) antes que recortar gasto.",
@@ -41,13 +45,13 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "23,5 % subida el 28 oct · 89,5 % el 9 dic (Kalshi, 15 oct)",
+      "c": "25,5 % subida el 28 oct · 86,5 % el 9 dic (Kalshi, 15 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
     },
     {
-      "c": "septiembre (BLS, 14 oct) · subyacente 2,6 % · por encima del consenso",
+      "c": "septiembre (BLS, 14 oct) · subyacente 2,6 % · IPP 6,3 % (15 oct)",
       "estado": "rojo",
       "n": "Inflación (IPC)",
       "v": "3,7 %"
@@ -74,16 +78,16 @@
       "c": "15 oct · justo bajo el umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,44 %"
+      "v": "5,43 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,44 % (15 oct), cerca de máximos de casi 20 años: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,43 % (15 oct), cerca de máximos de casi 20 años: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (3,7 % en septiembre) y la Fed tiene un 89,5 % de probabilidad de subir en diciembre mientras el empleo se frena (29.000 empleos) y la bolsa tecnológica se tambalea. La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y la Fed tiene un 86,5 % de probabilidad de subir en diciembre mientras el empleo se frena (29.000 empleos) y el crédito de la IA se tensa. La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
   "palancas": [
     {
       "estado": "rojo",
@@ -94,7 +98,7 @@
     {
       "estado": "amarillo",
       "n": "Reestructurar o impagar deuda",
-      "nota": "Sube la morosidad de los hogares: tarjetas 6,97 %, coches 3,0 % (90+ días).",
+      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa: bonos de CoreWeave al 14,5 % (14 oct).",
       "valor": "Leve"
     },
     {
@@ -165,6 +169,11 @@
       "corto": 0.56,
       "largo": 0.76,
       "ts": "2026-10-15T10:00:54Z"
+    },
+    {
+      "corto": 0.56,
+      "largo": 0.76,
+      "ts": "2026-10-15T18:46:03Z"
     }
   ]
 }

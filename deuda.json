@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-15T10:00:54Z",
+  "actualizado": "2026-10-15T18:46:03Z",
   "alarmas": [
     {
       "estado": "verde",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "Sigue justo por debajo del umbral de atención (5,5 %) por la compra refugio; +8 pb en un mes, así que el margen es mínimo.",
-      "valor": "5,44 % (15 oct)"
+      "nota": "Sigue justo por debajo del umbral de atención (5,5 %) gracias a la compra refugio; +6 pb en un mes, margen mínimo.",
+      "valor": "5,43 % (15 oct)"
     },
     {
       "estado": "verde",
@@ -15,9 +15,9 @@
     },
     {
       "estado": "amarillo",
-      "nombre": "Deuda de hyperscalers para IA",
-      "nota": "La deuda ligada a la IA duplica ya la de 2025 (TokenPost, 13 oct); JPMorgan prevé 317.000 M$ solo de Amazon, Alphabet, Meta y Oracle este año.",
-      "valor": "~450.000 M$ deuda IA mundial (sept.)"
+      "nombre": "Deuda de IA (hyperscalers y CoreWeave)",
+      "nota": "14 oct: los bonos de CoreWeave a 2032 (1.250 M$) rozaron el 15 % y la acción cayó un 17 %; primera señal de que el crédito empieza a dudar de la financiación de la IA.",
+      "valor": "~450.000 M$ IA mundial; CoreWeave 2032 al 14,5 %"
     },
     {
       "estado": "amarillo",
@@ -61,30 +61,30 @@
       {
         "estado": "rojo",
         "n": "Compras con mucho apalancamiento",
-        "nota": "Deuda de margen FINRA en 1,45 bill. $ en agosto, segunda mayor de la historia (récord 1,50 bill. en junio) y +37 % interanual; el dato de septiembre aún no se ha publicado.",
+        "nota": "Deuda de margen FINRA en 1,45 bill. $ en agosto, +37 % interanual (récord 1,50 bill. en junio); el dato de septiembre sale hacia la tercera semana de octubre.",
         "valor": "Margen 1,45 bill. $ (agosto)"
       },
       {
         "estado": "rojo",
         "n": "Sobreinversión por miedo a quedarse fuera",
-        "nota": "FactSet (23 jul): flujo de caja libre cerca de cero o negativo en 2026 salvo Alphabet y Microsoft; la deuda ligada a la IA llega a ~450.000 M$ en el mundo (sept.) y hay financiación circular Nvidia-OpenAI-Oracle.",
+        "nota": "FactSet (23 jul): flujo de caja libre cerca de cero o negativo en 2026 salvo Alphabet y Microsoft; deuda IA ~450.000 M$ (sept.), financiación circular Nvidia-OpenAI-Oracle y bonos de CoreWeave al 14,5 % (14 oct).",
         "valor": "Capex IA ~690.000-800.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio (6 oct). Pesan sobre todo los precios caros (CAPE 41,6) y la sobreinversión en IA con deuda; las señales de pinchazo siguen encendidas tras la caída de casi un 10 % de los chips y del 8 % del Kospi (14-15 oct).",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio (6 oct). Pesan sobre todo los precios caros (CAPE 41,6) y la sobreinversión en IA con deuda, que ya muestra grietas: los bonos de CoreWeave rozan el 15 % mientras los chips caen casi un 10 %.",
     "nivel": 71,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "15 oct: ambos tramos bajan con la huida a refugio; la curva sigue más plana que el 8 oct (+85 pb).",
-        "valor": "+69 pb (4,75 % / 5,44 %)"
+        "nota": "15 oct: el 30 años cae más que el 2 años con la huida a refugio; la curva sigue más plana que el 8 oct (+85 pb).",
+        "valor": "+68 pb (4,75 % / 5,43 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (15 oct): la subida del 28 oct está en el 23,5 % y diciembre en el 89,5 %: endurecimiento con tipos reales altos, el detonante clásico según Dalio.",
-        "valor": "3,75-4,00 %; 23,5 % subida en oct."
+        "nota": "Kalshi (15 oct, 17 h UTC): subida el 28 oct al 25,5 % y en diciembre al 86,5 %; con el IPP al 6,3 % los tipos reales siguen altos, el detonante clásico según Dalio.",
+        "valor": "3,75-4,00 %; 25,5 % subida en oct."
       },
       {
         "estado": "verde",
@@ -95,14 +95,14 @@
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "15 oct: rebota un 1,3 % desde mínimos desde agosto, pero -2,5 % en un mes; los bancos centrales siguen comprando.",
-        "valor": "~4.157 $/oz"
+        "nota": "15 oct: resiste cerca de 4.148 $ tras el IPP caliente, pero -2,5 % en un mes; los bancos centrales siguen comprando.",
+        "valor": "~4.148 $/oz"
       },
       {
         "estado": "rojo",
         "n": "Necesidad de liquidez",
-        "nota": "14-15 oct: el SOX cae cerca de un 10 % en seis sesiones y Asia se hunde (Kospi -8 %, Nikkei -4,8 %) con deuda de margen en 1,45 bill. $: riesgo de ventas forzadas.",
-        "valor": "Chips -1 bill. $; Kospi -8 %"
+        "nota": "14-15 oct: los bonos de CoreWeave rozan el 15 %, el SOX cae cerca de un 10 % y Asia se hunde con la deuda de margen en 1,45 bill. $: riesgo de ventas forzadas.",
+        "valor": "CoreWeave 14,5 %; Kospi -8 %"
       }
     ]
   },
@@ -302,21 +302,37 @@
     {
       "nombre": "TokenPost – Deuda IA 450.000 M$ (13 oct)",
       "url": "https://www.tokenpost.com/news/technology/30829"
+    },
+    {
+      "nombre": "GuruFocus – Treasuries 15 oct",
+      "url": "https://www.gurufocus.com/news/9125559/us-treasury-yields-drop-sharply-impacting-tlt-etf-on-october-15-2026"
+    },
+    {
+      "nombre": "Investing.com – CoreWeave y la deuda de IA (14 oct)",
+      "url": "https://www.investing.com/news/stock-market-news/coreweave-shares-sink-13-as-musks-yikes-highlights-ai-debt-concerns-4949553"
+    },
+    {
+      "nombre": "CNBC – Bonos de CoreWeave cerca del 15 %",
+      "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html"
+    },
+    {
+      "nombre": "BLS – IPP septiembre 2026",
+      "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa (intereses de 1,1 billones y déficit de 2 billones), aunque el riesgo baja un punto, de 52 a 51, porque el bono a 30 años cede otros 2 pb hasta el 5,44 % y el Bund cae a mínimos de 5 semanas (3,39 %) con la huida a refugio desde las acciones de IA. Es una calma por miedo, no por mejores cuentas: la Fed sigue con un 89,5 % de subir en diciembre, la deuda ligada a la IA ya ronda los 450.000 M$ en el mundo, Rusia sigue en rojo y Japón defiende el yen cerca de 158.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa (intereses de 1,1 billones y déficit de 2 billones) y el riesgo se mantiene en 51: el bono a 30 años apenas se mueve (5,43 %) porque la huida a refugio compensa un IPP disparado (+6,3 % anual). Lo nuevo es la tensión en el crédito de la IA: los bonos de CoreWeave a 2032 rozaron el 15 % y cerraron en el 14,5 %, una primera grieta en la deuda que financia la burbuja; Rusia sigue en rojo y Japón defiende el yen en torno a 158.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "15 oct; +6 pb en 1 mes (máx. 5,33 % el 14 oct)",
+          "c": "15 oct; -10 pb en el día, +6 pb en 1 mes",
           "n": "Bono 10 años",
           "v": "5,08 %"
         },
         {
-          "c": "15 oct; +8 pb en 1 mes",
+          "c": "15 oct; -10 pb en el día, +6 pb en 1 mes",
           "n": "Bono 30 años",
-          "v": "5,44 %"
+          "v": "5,43 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -332,14 +348,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Tras tocar el 5,33 % por el IPC, el bono a 10 años cae a mínimos de 3 semanas (5,08 %) por la huida a refugio desde la tecnología; el coste de intereses sigue siendo récord."
+      "nota": "El IPP de septiembre (+1,3 % mensual) no frena la caída de rendimientos por la huida a refugio desde la tecnología; el coste de intereses sigue en récord."
     },
     {
       "datos": [
         {
-          "c": "15 oct; -12 pb en 1 mes; mínimo de 5 semanas",
+          "c": "15 oct; -10 pb en 1 mes (mín. 3,38 %, 5 semanas)",
           "n": "Bund 10 años",
-          "v": "3,39 %"
+          "v": "3,41 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -390,12 +406,12 @@
         {
           "c": "15 oct; -7 pb en 1 mes",
           "n": "JGB 10 años",
-          "v": "2,94 %"
+          "v": "2,93 %"
         },
         {
-          "c": "15 oct; -12 pb en 1 mes (máx. 4,25 %)",
+          "c": "15 oct; -13 pb en 1 mes (máx. 4,25 %)",
           "n": "JGB 30 años",
-          "v": "4,00 %"
+          "v": "3,99 %"
         },
         {
           "c": "julio, -1,1 %; 3.ª caída seguida",
@@ -403,15 +419,15 @@
           "v": "1,104 bill. $"
         },
         {
-          "c": "15 oct; yen -1 % en 1 mes; Katayama dispuesta a intervenir",
+          "c": "15 oct; yen -1,2 % en 1 mes; Katayama dispuesta a intervenir",
           "n": "USD/JPY",
-          "v": "157,8"
+          "v": "158,1"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Los JGB actúan de refugio y el yen se recupera por debajo de 158 tras el aviso de intervención de Katayama; Koeda (BoJ) pide no frenar las subidas, apuntando a diciembre."
+      "nota": "Los JGB a 30 años bajan del 4 % como refugio y el yen ronda 158 con amenaza de intervención; el BoJ evita subir en octubre pero apunta a diciembre."
     },
     {
       "datos": [
@@ -482,6 +498,11 @@
       "burbuja": 71,
       "riesgo": 51,
       "ts": "2026-10-15T10:00:54Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-15T18:46:03Z"
     }
   ]
 }
