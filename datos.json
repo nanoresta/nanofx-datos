@@ -1,8 +1,6 @@
 {
- "generado": "2026-10-15T16:59:16Z",
- "errores": [
-  "ciclo: FRED vacío: BAMLH0A0HYM2"
- ],
+ "generado": "2026-10-15T19:57:01Z",
+ "errores": [],
  "fed": [
   {
    "fecha": "2026-10-28",
@@ -16,14 +14,14 @@
    "subir": 86.5,
    "bajar": 2.5,
    "mantener": 11.0,
-   "tasaImplicita": 4.14
+   "tasaImplicita": 4.15
   },
   {
    "fecha": "2027-01-27",
    "subir": 92.5,
    "bajar": 4.0,
    "mantener": 3.5,
-   "tasaImplicita": 4.27
+   "tasaImplicita": 4.32
   }
  ],
  "liquidez": {
@@ -42,10 +40,10 @@
   "dRrp": -9.2,
   "reservas": 3029.7,
   "dReservas": 81.6,
-  "repo": 0.001,
-  "repoFecha": "2026-10-14",
-  "rrpHoy": 0.201,
-  "rrpFecha": "2026-10-14",
+  "repo": 0.11,
+  "repoFecha": "2026-10-15",
+  "rrpHoy": 1.201,
+  "rrpFecha": "2026-10-15",
   "serie": [
    {
     "fecha": "2026-04-08",
@@ -160,210 +158,214 @@
  "opciones": {
   "SPX": {
    "etf": "SPY",
-   "precio": 769.56,
+   "precio": 771.97,
    "oiFecha": "2026-10-13",
-   "contratos": 1636,
+   "contratos": 1597,
    "ratioIndice": 10.0292,
    "ratioFecha": "2026-10-14",
    "regimen": "negativa",
-   "gexTotal": -9.33,
-   "pcrOI": 1.71,
-   "callWall": 770.0,
+   "gexTotal": -8.04,
+   "pcrOI": 1.63,
+   "callWall": 775.0,
    "putWall": 772.0,
-   "gammaFlip": 776.75,
+   "gammaFlip": 777.15,
    "maxPain": 777.0,
    "vencimientoCercano": "2026-10-15",
    "escalera": [
     {
-     "strike": 747.0,
-     "gex": -97.9
-    },
-    {
-     "strike": 748.0,
-     "gex": -56.8
-    },
-    {
      "strike": 749.0,
-     "gex": -46.9
+     "gex": -40.8
     },
     {
      "strike": 750.0,
-     "gex": -504.6
+     "gex": -411.1
     },
     {
      "strike": 751.0,
-     "gex": -68.0
+     "gex": -51.0
     },
     {
      "strike": 752.0,
-     "gex": -78.7
+     "gex": -55.1
     },
     {
      "strike": 753.0,
-     "gex": -224.3
+     "gex": -159.2
     },
     {
      "strike": 754.0,
-     "gex": -82.2
+     "gex": -66.9
     },
     {
      "strike": 755.0,
-     "gex": -1121.0
+     "gex": -990.3
     },
     {
      "strike": 756.0,
-     "gex": -73.4
+     "gex": -51.2
     },
     {
      "strike": 757.0,
-     "gex": -341.1
+     "gex": -233.8
     },
     {
      "strike": 758.0,
-     "gex": -146.2
+     "gex": -108.1
     },
     {
      "strike": 759.0,
-     "gex": -150.1
+     "gex": -115.6
     },
     {
      "strike": 760.0,
-     "gex": -582.7
+     "gex": -402.9
     },
     {
      "strike": 761.0,
-     "gex": -136.7
+     "gex": -106.0
     },
     {
      "strike": 762.0,
-     "gex": -256.5
+     "gex": -183.6
     },
     {
      "strike": 763.0,
-     "gex": -261.7
+     "gex": -195.3
     },
     {
      "strike": 764.0,
-     "gex": -137.5
+     "gex": -104.1
     },
     {
      "strike": 765.0,
-     "gex": -1258.6
+     "gex": -1034.8
     },
     {
      "strike": 766.0,
-     "gex": -66.6
+     "gex": -51.1
     },
     {
      "strike": 767.0,
-     "gex": -310.1
+     "gex": -269.0
     },
     {
      "strike": 768.0,
-     "gex": -581.0
+     "gex": -512.7
     },
     {
      "strike": 769.0,
-     "gex": -301.9
+     "gex": -297.1
     },
     {
      "strike": 770.0,
-     "gex": -688.6
+     "gex": -698.2
     },
     {
      "strike": 771.0,
-     "gex": -212.1
+     "gex": -233.9
     },
     {
      "strike": 772.0,
-     "gex": -1961.3
+     "gex": -2320.5
     },
     {
      "strike": 773.0,
-     "gex": -859.9
+     "gex": -1123.3
     },
     {
      "strike": 774.0,
-     "gex": -234.8
+     "gex": -321.1
     },
     {
      "strike": 775.0,
-     "gex": 104.8
+     "gex": 114.6
     },
     {
      "strike": 776.0,
-     "gex": 31.4
+     "gex": 45.4
     },
     {
      "strike": 777.0,
-     "gex": -44.9
+     "gex": -105.5
     },
     {
      "strike": 778.0,
-     "gex": 151.1
+     "gex": 212.6
     },
     {
      "strike": 779.0,
-     "gex": 79.4
+     "gex": 33.4
     },
     {
      "strike": 780.0,
-     "gex": 386.1
+     "gex": 582.2
     },
     {
      "strike": 781.0,
-     "gex": 126.7
+     "gex": 129.6
     },
     {
      "strike": 782.0,
-     "gex": 147.1
+     "gex": 191.4
     },
     {
      "strike": 783.0,
-     "gex": 325.5
+     "gex": 387.0
     },
     {
      "strike": 784.0,
-     "gex": 91.7
+     "gex": 104.3
     },
     {
      "strike": 785.0,
-     "gex": 452.6
+     "gex": 472.7
     },
     {
      "strike": 786.0,
-     "gex": 73.6
+     "gex": 83.7
     },
     {
      "strike": 787.0,
-     "gex": 44.7
+     "gex": 56.5
     },
     {
      "strike": 788.0,
-     "gex": 68.4
+     "gex": 89.1
     },
     {
      "strike": 789.0,
-     "gex": 51.2
+     "gex": 63.1
     },
     {
      "strike": 790.0,
-     "gex": 349.1
+     "gex": 376.5
     },
     {
      "strike": 791.0,
-     "gex": 38.0
+     "gex": 46.2
     },
     {
      "strike": 792.0,
-     "gex": 41.2
+     "gex": 47.8
+    },
+    {
+     "strike": 793.0,
+     "gex": 58.9
+    },
+    {
+     "strike": 794.0,
+     "gex": 47.6
+    },
+    {
+     "strike": 795.0,
+     "gex": 231.8
     }
    ],
    "indice": {
-    "precio": 7718,
-    "callWall": 7722,
+    "precio": 7742,
+    "callWall": 7773,
     "putWall": 7743,
-    "gammaFlip": 7790,
+    "gammaFlip": 7794,
     "maxPain": 7793
    },
    "odte": {
@@ -386,198 +388,202 @@
   },
   "NDX": {
    "etf": "QQQ",
-   "precio": 723.07,
+   "precio": 728.43,
    "oiFecha": "2026-10-13",
-   "contratos": 1638,
+   "contratos": 1624,
    "ratioIndice": 41.0856,
    "ratioFecha": "2026-10-14",
    "regimen": "negativa",
-   "gexTotal": -7.26,
-   "pcrOI": 1.89,
-   "callWall": 720.0,
-   "putWall": 725.0,
-   "gammaFlip": 742.59,
+   "gexTotal": -6.91,
+   "pcrOI": 1.78,
+   "callWall": 730.0,
+   "putWall": 730.0,
+   "gammaFlip": 743.75,
    "maxPain": 744.0,
    "vencimientoCercano": "2026-10-15",
    "escalera": [
     {
-     "strike": 702.0,
-     "gex": -17.0
-    },
-    {
-     "strike": 703.0,
-     "gex": -14.7
-    },
-    {
-     "strike": 704.0,
-     "gex": -15.9
-    },
-    {
-     "strike": 705.0,
-     "gex": -258.5
-    },
-    {
-     "strike": 706.0,
-     "gex": -40.1
-    },
-    {
      "strike": 707.0,
-     "gex": -101.9
+     "gex": -53.2
     },
     {
      "strike": 708.0,
-     "gex": -35.0
+     "gex": -27.7
     },
     {
      "strike": 709.0,
-     "gex": -22.3
+     "gex": -10.6
     },
     {
      "strike": 710.0,
-     "gex": -415.4
+     "gex": -299.1
     },
     {
      "strike": 711.0,
-     "gex": -225.0
+     "gex": -188.3
     },
     {
      "strike": 712.0,
-     "gex": -94.0
+     "gex": -61.4
     },
     {
      "strike": 713.0,
-     "gex": -237.5
+     "gex": -187.2
     },
     {
      "strike": 714.0,
-     "gex": -55.0
+     "gex": -36.9
     },
     {
      "strike": 715.0,
-     "gex": -479.5
+     "gex": -408.7
     },
     {
      "strike": 716.0,
-     "gex": -244.4
+     "gex": -163.0
     },
     {
      "strike": 717.0,
-     "gex": -421.9
+     "gex": -284.1
     },
     {
      "strike": 718.0,
-     "gex": 34.1
+     "gex": 30.0
     },
     {
      "strike": 719.0,
-     "gex": -78.0
+     "gex": -56.3
     },
     {
      "strike": 720.0,
-     "gex": -436.4
+     "gex": -375.0
     },
     {
      "strike": 721.0,
-     "gex": -31.2
+     "gex": -23.8
     },
     {
      "strike": 722.0,
-     "gex": -121.8
+     "gex": -102.1
     },
     {
      "strike": 723.0,
-     "gex": -91.5
+     "gex": -80.6
     },
     {
      "strike": 724.0,
-     "gex": -272.4
+     "gex": -253.5
     },
     {
      "strike": 725.0,
-     "gex": -925.1
+     "gex": -919.1
     },
     {
      "strike": 726.0,
-     "gex": -72.8
+     "gex": -71.8
     },
     {
      "strike": 727.0,
-     "gex": -124.7
+     "gex": -139.4
     },
     {
      "strike": 728.0,
-     "gex": -162.8
+     "gex": -188.9
     },
     {
      "strike": 729.0,
-     "gex": -90.8
+     "gex": -113.8
     },
     {
      "strike": 730.0,
-     "gex": -616.2
+     "gex": -747.6
     },
     {
      "strike": 731.0,
-     "gex": -16.1
+     "gex": -18.8
     },
     {
      "strike": 732.0,
-     "gex": -205.3
+     "gex": -315.4
     },
     {
      "strike": 733.0,
-     "gex": -65.8
+     "gex": -111.6
     },
     {
      "strike": 734.0,
-     "gex": -226.0
+     "gex": -491.9
     },
     {
      "strike": 735.0,
-     "gex": -145.1
+     "gex": -204.4
     },
     {
      "strike": 736.0,
-     "gex": -26.0
+     "gex": -46.7
     },
     {
      "strike": 737.0,
-     "gex": -43.1
+     "gex": -67.1
     },
     {
      "strike": 738.0,
-     "gex": 1.1
+     "gex": -47.2
     },
     {
      "strike": 739.0,
-     "gex": -7.8
+     "gex": -8.6
     },
     {
      "strike": 740.0,
-     "gex": -8.5
+     "gex": 17.0
     },
     {
      "strike": 741.0,
-     "gex": -21.5
+     "gex": -22.7
     },
     {
      "strike": 742.0,
-     "gex": -8.3
+     "gex": -55.3
     },
     {
      "strike": 743.0,
-     "gex": 2.6
+     "gex": -32.1
     },
     {
      "strike": 744.0,
-     "gex": 16.2
+     "gex": -1.3
+    },
+    {
+     "strike": 745.0,
+     "gex": -64.5
+    },
+    {
+     "strike": 746.0,
+     "gex": 25.0
+    },
+    {
+     "strike": 747.0,
+     "gex": -4.1
+    },
+    {
+     "strike": 748.0,
+     "gex": 10.3
+    },
+    {
+     "strike": 749.0,
+     "gex": 58.7
+    },
+    {
+     "strike": 750.0,
+     "gex": 94.1
     }
    ],
    "indice": {
-    "precio": 29708,
-    "callWall": 29582,
-    "putWall": 29787,
-    "gammaFlip": 30510,
+    "precio": 29928,
+    "callWall": 29993,
+    "putWall": 29993,
+    "gammaFlip": 30557,
     "maxPain": 30568
    },
    "odte": {
@@ -589,7 +595,7 @@
     "putWall": 690.0,
     "gammaFlip": null,
     "maxPain": 744.0,
-    "pcrOI": 1.38,
+    "pcrOI": 1.36,
     "indice": {
      "callWall": 31636,
      "putWall": 28349,
@@ -599,7 +605,773 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-10-15T16:59:31Z"
+  "calculado": "2026-10-15T19:57:17Z"
+ },
+ "ciclo": {
+  "actualizado": "2026-10-15T19:57:24Z",
+  "total": 64,
+  "fase": "Expansión fuerte",
+  "cambio4": -11,
+  "cambio13": -14,
+  "lectura": "Expansión fuerte (+64). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: bonos basura: tendencia.",
+  "indicadores": [
+   {
+    "id": "pib_bono",
+    "n": "PIB nominal frente al bono a 10 años",
+    "peso": 3,
+    "score": 55,
+    "valor": "PIB nominal 6,3 % · bono 10 años 5,21 %",
+    "nota": "Si la economía crece en dinero más rápido que lo que cuesta financiarse a 10 años, no hay recesión. Hoy el PIB nominal va por delante: expansivo.",
+    "fecha": "2026-04-01",
+    "frec": "cada trimestre (PIB) y a diario (bono)"
+   },
+   {
+    "id": "pib_fed",
+    "n": "Tipo de la Fed frente al PIB nominal",
+    "peso": 2,
+    "score": 81,
+    "valor": "Fed 3,88 % · PIB nominal 6,3 %",
+    "nota": "La recesión la provocan los bancos centrales: si el tipo de la Fed supera al PIB nominal, la política ahoga. Hoy el tipo está por debajo: no ahoga.",
+    "fecha": "2026-10-13",
+    "frec": "cada trimestre (PIB) y a diario (Fed)"
+   },
+   {
+    "id": "balance",
+    "n": "Balance de la Fed (3 meses)",
+    "peso": 2,
+    "score": 18,
+    "valor": "6,75 billones $ · 0,18 % en 13 semanas",
+    "nota": "Si la Fed reduce el balance, retira dinero y puede provocar la recesión. Ahora lo amplía: entra liquidez.",
+    "fecha": "2026-10-07",
+    "frec": "cada semana (jueves)"
+   },
+   {
+    "id": "reservas",
+    "n": "Reservas de los bancos",
+    "peso": 1,
+    "score": 32,
+    "valor": "3,03 billones $",
+    "nota": "Lo que les sobra a los bancos. Con unos 3 billones, sobra dinero en el sistema.",
+    "fecha": "2026-10-07",
+    "frec": "cada semana (jueves)"
+   },
+   {
+    "id": "hy_prima",
+    "n": "Prima de riesgo de los bonos basura",
+    "peso": 3,
+    "score": 79,
+    "valor": "3,25 % (+0,54 en 3 meses)",
+    "nota": "Si falta dinero, la burbuja pincha primero en los bonos basura. Prima baja = tranquilidad; si se dispara, alarma.",
+    "fecha": "2026-10-14",
+    "frec": "a diario"
+   },
+   {
+    "id": "hy_tend",
+    "n": "Bonos basura: tendencia",
+    "peso": 2,
+    "score": -29,
+    "valor": "-0,9 % sobre su media de 1 año",
+    "nota": "Si los bonos basura suben con fuerza es que entra dinero: sobra liquidez.",
+    "fecha": "2026-10-14",
+    "frec": "a diario"
+   },
+   {
+    "id": "spx_m50",
+    "n": "S&P 500 frente a su media de 50 semanas",
+    "peso": 2,
+    "score": 86,
+    "valor": "7.719 · +6,9 % sobre la media",
+    "nota": "Regla de largo plazo: por encima de la media exponencial de 50 semanas, tranquilidad; si la pierde, señal de salida.",
+    "fecha": "2026-10-14",
+    "frec": "a diario"
+   },
+   {
+    "id": "beneficios",
+    "n": "Beneficios empresariales (EE. UU.)",
+    "peso": 2,
+    "score": 100,
+    "valor": "+26,6 % en un año",
+    "nota": "Si los beneficios crecen con fuerza, lo lógico es que la bolsa y la economía sigan arriba.",
+    "fecha": "2026-04-01",
+    "frec": "cada trimestre"
+   },
+   {
+    "id": "credito",
+    "n": "Crédito de los bancos",
+    "peso": 1,
+    "score": 96,
+    "valor": "+5,9 % en un año",
+    "nota": "Si los bancos dan más crédito, el dinero circula; cuando lo restringen, la economía se frena.",
+    "fecha": "2026-09-30",
+    "frec": "cada semana"
+   },
+   {
+    "id": "deficit",
+    "n": "Déficit público (impulso fiscal)",
+    "peso": 1,
+    "score": 92,
+    "valor": "5,8 % del PIB",
+    "nota": "Un déficit grande empuja el PIB y obliga a degradar la moneda: a corto plazo es expansivo.",
+    "fecha": "2025",
+    "frec": "cada año"
+   },
+   {
+    "id": "cobre",
+    "n": "Cobre",
+    "peso": 1,
+    "score": 100,
+    "valor": "13.543 $/t · +12,1 % sobre su media de 1 año",
+    "nota": "Demanda de centros de datos y redes eléctricas: cobre al alza = economía tirando.",
+    "fecha": "2026-07",
+    "frec": "cada mes"
+   },
+   {
+    "id": "petroleo",
+    "n": "Petróleo (WTI)",
+    "peso": 1,
+    "score": 100,
+    "valor": "96,24 $ · +20,6 % sobre su media de 1 año",
+    "nota": "Petróleo firme = demanda. (Un pico muy brusco también puede frenar el consumo.)",
+    "fecha": "2026-10-06",
+    "frec": "a diario"
+   }
+  ],
+  "serie": [
+   {
+    "fecha": "2023-10-13",
+    "v": 17
+   },
+   {
+    "fecha": "2023-10-20",
+    "v": 14
+   },
+   {
+    "fecha": "2023-10-27",
+    "v": 10
+   },
+   {
+    "fecha": "2023-11-03",
+    "v": 20
+   },
+   {
+    "fecha": "2023-11-10",
+    "v": 19
+   },
+   {
+    "fecha": "2023-11-17",
+    "v": 22
+   },
+   {
+    "fecha": "2023-11-24",
+    "v": 24
+   },
+   {
+    "fecha": "2023-12-01",
+    "v": 32
+   },
+   {
+    "fecha": "2023-12-08",
+    "v": 34
+   },
+   {
+    "fecha": "2023-12-15",
+    "v": 38
+   },
+   {
+    "fecha": "2023-12-22",
+    "v": 38
+   },
+   {
+    "fecha": "2023-12-29",
+    "v": 40
+   },
+   {
+    "fecha": "2024-01-05",
+    "v": 36
+   },
+   {
+    "fecha": "2024-01-12",
+    "v": 40
+   },
+   {
+    "fecha": "2024-01-19",
+    "v": 39
+   },
+   {
+    "fecha": "2024-01-26",
+    "v": 41
+   },
+   {
+    "fecha": "2024-02-02",
+    "v": 41
+   },
+   {
+    "fecha": "2024-02-09",
+    "v": 42
+   },
+   {
+    "fecha": "2024-02-16",
+    "v": 44
+   },
+   {
+    "fecha": "2024-02-23",
+    "v": 46
+   },
+   {
+    "fecha": "2024-03-01",
+    "v": 49
+   },
+   {
+    "fecha": "2024-03-08",
+    "v": 51
+   },
+   {
+    "fecha": "2024-03-15",
+    "v": 52
+   },
+   {
+    "fecha": "2024-03-22",
+    "v": 54
+   },
+   {
+    "fecha": "2024-03-29",
+    "v": 53
+   },
+   {
+    "fecha": "2024-04-05",
+    "v": 57
+   },
+   {
+    "fecha": "2024-04-12",
+    "v": 58
+   },
+   {
+    "fecha": "2024-04-19",
+    "v": 53
+   },
+   {
+    "fecha": "2024-04-26",
+    "v": 53
+   },
+   {
+    "fecha": "2024-05-03",
+    "v": 48
+   },
+   {
+    "fecha": "2024-05-10",
+    "v": 51
+   },
+   {
+    "fecha": "2024-05-17",
+    "v": 52
+   },
+   {
+    "fecha": "2024-05-24",
+    "v": 52
+   },
+   {
+    "fecha": "2024-05-31",
+    "v": 48
+   },
+   {
+    "fecha": "2024-06-07",
+    "v": 50
+   },
+   {
+    "fecha": "2024-06-14",
+    "v": 50
+   },
+   {
+    "fecha": "2024-06-21",
+    "v": 51
+   },
+   {
+    "fecha": "2024-06-28",
+    "v": 52
+   },
+   {
+    "fecha": "2024-07-05",
+    "v": 50
+   },
+   {
+    "fecha": "2024-07-12",
+    "v": 54
+   },
+   {
+    "fecha": "2024-07-19",
+    "v": 55
+   },
+   {
+    "fecha": "2024-07-26",
+    "v": 54
+   },
+   {
+    "fecha": "2024-08-02",
+    "v": 56
+   },
+   {
+    "fecha": "2024-08-09",
+    "v": 49
+   },
+   {
+    "fecha": "2024-08-16",
+    "v": 55
+   },
+   {
+    "fecha": "2024-08-23",
+    "v": 56
+   },
+   {
+    "fecha": "2024-08-30",
+    "v": 57
+   },
+   {
+    "fecha": "2024-09-06",
+    "v": 52
+   },
+   {
+    "fecha": "2024-09-13",
+    "v": 49
+   },
+   {
+    "fecha": "2024-09-20",
+    "v": 55
+   },
+   {
+    "fecha": "2024-09-27",
+    "v": 54
+   },
+   {
+    "fecha": "2024-10-04",
+    "v": 52
+   },
+   {
+    "fecha": "2024-10-11",
+    "v": 58
+   },
+   {
+    "fecha": "2024-10-18",
+    "v": 63
+   },
+   {
+    "fecha": "2024-10-25",
+    "v": 61
+   },
+   {
+    "fecha": "2024-11-01",
+    "v": 53
+   },
+   {
+    "fecha": "2024-11-08",
+    "v": 53
+   },
+   {
+    "fecha": "2024-11-15",
+    "v": 53
+   },
+   {
+    "fecha": "2024-11-22",
+    "v": 53
+   },
+   {
+    "fecha": "2024-11-29",
+    "v": 51
+   },
+   {
+    "fecha": "2024-12-06",
+    "v": 47
+   },
+   {
+    "fecha": "2024-12-13",
+    "v": 47
+   },
+   {
+    "fecha": "2024-12-20",
+    "v": 47
+   },
+   {
+    "fecha": "2024-12-27",
+    "v": 46
+   },
+   {
+    "fecha": "2025-01-03",
+    "v": 44
+   },
+   {
+    "fecha": "2025-01-10",
+    "v": 46
+   },
+   {
+    "fecha": "2025-01-17",
+    "v": 48
+   },
+   {
+    "fecha": "2025-01-24",
+    "v": 48
+   },
+   {
+    "fecha": "2025-01-31",
+    "v": 45
+   },
+   {
+    "fecha": "2025-02-07",
+    "v": 44
+   },
+   {
+    "fecha": "2025-02-14",
+    "v": 43
+   },
+   {
+    "fecha": "2025-02-21",
+    "v": 44
+   },
+   {
+    "fecha": "2025-02-28",
+    "v": 45
+   },
+   {
+    "fecha": "2025-03-07",
+    "v": 42
+   },
+   {
+    "fecha": "2025-03-14",
+    "v": 31
+   },
+   {
+    "fecha": "2025-03-21",
+    "v": 40
+   },
+   {
+    "fecha": "2025-03-28",
+    "v": 39
+   },
+   {
+    "fecha": "2025-04-04",
+    "v": 16
+   },
+   {
+    "fecha": "2025-04-11",
+    "v": -5
+   },
+   {
+    "fecha": "2025-04-18",
+    "v": 7
+   },
+   {
+    "fecha": "2025-04-25",
+    "v": 21
+   },
+   {
+    "fecha": "2025-05-02",
+    "v": 21
+   },
+   {
+    "fecha": "2025-05-09",
+    "v": 25
+   },
+   {
+    "fecha": "2025-05-16",
+    "v": 38
+   },
+   {
+    "fecha": "2025-05-23",
+    "v": 36
+   },
+   {
+    "fecha": "2025-05-30",
+    "v": 39
+   },
+   {
+    "fecha": "2025-06-06",
+    "v": 33
+   },
+   {
+    "fecha": "2025-06-13",
+    "v": 37
+   },
+   {
+    "fecha": "2025-06-20",
+    "v": 39
+   },
+   {
+    "fecha": "2025-06-27",
+    "v": 45
+   },
+   {
+    "fecha": "2025-07-04",
+    "v": 41
+   },
+   {
+    "fecha": "2025-07-11",
+    "v": 44
+   },
+   {
+    "fecha": "2025-07-18",
+    "v": 44
+   },
+   {
+    "fecha": "2025-07-25",
+    "v": 44
+   },
+   {
+    "fecha": "2025-08-01",
+    "v": 43
+   },
+   {
+    "fecha": "2025-08-08",
+    "v": 45
+   },
+   {
+    "fecha": "2025-08-15",
+    "v": 43
+   },
+   {
+    "fecha": "2025-08-22",
+    "v": 42
+   },
+   {
+    "fecha": "2025-08-29",
+    "v": 40
+   },
+   {
+    "fecha": "2025-09-05",
+    "v": 39
+   },
+   {
+    "fecha": "2025-09-12",
+    "v": 40
+   },
+   {
+    "fecha": "2025-09-19",
+    "v": 39
+   },
+   {
+    "fecha": "2025-09-26",
+    "v": 40
+   },
+   {
+    "fecha": "2025-10-03",
+    "v": 40
+   },
+   {
+    "fecha": "2025-10-10",
+    "v": 39
+   },
+   {
+    "fecha": "2025-10-17",
+    "v": 39
+   },
+   {
+    "fecha": "2025-10-24",
+    "v": 37
+   },
+   {
+    "fecha": "2025-10-31",
+    "v": 47
+   },
+   {
+    "fecha": "2025-11-07",
+    "v": 46
+   },
+   {
+    "fecha": "2025-11-14",
+    "v": 47
+   },
+   {
+    "fecha": "2025-11-21",
+    "v": 44
+   },
+   {
+    "fecha": "2025-11-28",
+    "v": 59
+   },
+   {
+    "fecha": "2025-12-05",
+    "v": 56
+   },
+   {
+    "fecha": "2025-12-12",
+    "v": 58
+   },
+   {
+    "fecha": "2025-12-19",
+    "v": 59
+   },
+   {
+    "fecha": "2025-12-26",
+    "v": 62
+   },
+   {
+    "fecha": "2026-01-02",
+    "v": 74
+   },
+   {
+    "fecha": "2026-01-09",
+    "v": 64
+   },
+   {
+    "fecha": "2026-01-16",
+    "v": 67
+   },
+   {
+    "fecha": "2026-01-23",
+    "v": 67
+   },
+   {
+    "fecha": "2026-01-30",
+    "v": 65
+   },
+   {
+    "fecha": "2026-02-06",
+    "v": 69
+   },
+   {
+    "fecha": "2026-02-13",
+    "v": 71
+   },
+   {
+    "fecha": "2026-02-20",
+    "v": 73
+   },
+   {
+    "fecha": "2026-02-27",
+    "v": 77
+   },
+   {
+    "fecha": "2026-03-06",
+    "v": 73
+   },
+   {
+    "fecha": "2026-03-13",
+    "v": 70
+   },
+   {
+    "fecha": "2026-03-20",
+    "v": 66
+   },
+   {
+    "fecha": "2026-03-27",
+    "v": 61
+   },
+   {
+    "fecha": "2026-04-03",
+    "v": 62
+   },
+   {
+    "fecha": "2026-04-10",
+    "v": 76
+   },
+   {
+    "fecha": "2026-04-17",
+    "v": 80
+   },
+   {
+    "fecha": "2026-04-24",
+    "v": 77
+   },
+   {
+    "fecha": "2026-05-01",
+    "v": 83
+   },
+   {
+    "fecha": "2026-05-08",
+    "v": 84
+   },
+   {
+    "fecha": "2026-05-15",
+    "v": 84
+   },
+   {
+    "fecha": "2026-05-22",
+    "v": 83
+   },
+   {
+    "fecha": "2026-05-29",
+    "v": 84
+   },
+   {
+    "fecha": "2026-06-05",
+    "v": 87
+   },
+   {
+    "fecha": "2026-06-12",
+    "v": 87
+   },
+   {
+    "fecha": "2026-06-19",
+    "v": 87
+   },
+   {
+    "fecha": "2026-06-26",
+    "v": 84
+   },
+   {
+    "fecha": "2026-07-03",
+    "v": 77
+   },
+   {
+    "fecha": "2026-07-10",
+    "v": 77
+   },
+   {
+    "fecha": "2026-07-17",
+    "v": 78
+   },
+   {
+    "fecha": "2026-07-24",
+    "v": 77
+   },
+   {
+    "fecha": "2026-07-31",
+    "v": 83
+   },
+   {
+    "fecha": "2026-08-07",
+    "v": 86
+   },
+   {
+    "fecha": "2026-08-14",
+    "v": 83
+   },
+   {
+    "fecha": "2026-08-21",
+    "v": 83
+   },
+   {
+    "fecha": "2026-08-28",
+    "v": 84
+   },
+   {
+    "fecha": "2026-09-04",
+    "v": 81
+   },
+   {
+    "fecha": "2026-09-11",
+    "v": 77
+   },
+   {
+    "fecha": "2026-09-18",
+    "v": 75
+   },
+   {
+    "fecha": "2026-09-25",
+    "v": 70
+   },
+   {
+    "fecha": "2026-10-02",
+    "v": 62
+   },
+   {
+    "fecha": "2026-10-09",
+    "v": 68
+   },
+   {
+    "fecha": "2026-10-15",
+    "v": 64
+   }
+  ],
+  "fuente": "FRED (Reserva Federal de St. Louis): GDP, DGS10, DFF, WALCL, WRESBAL, BAMLH0A0HYM2, BAMLHYH0A0HYM2TRIV, SP500, CP, TOTBKCR, FYFSGDA188S, PCOPPUSDM, DCOILWTICO",
+  "metodo": "Cada indicador puntúa de -100 (recesión) a +100 (expansión); la línea es la media ponderada. Histórico semanal con los datos que ya estaban publicados cada semana."
  },
  "letras": {
   "fuente": "Tesoro Público (tesoro.es), resultado de la última subasta",
