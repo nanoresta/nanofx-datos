@@ -1,22 +1,22 @@
 {
-  "actualizado": "2026-10-14T18:46:02Z",
+  "actualizado": "2026-10-15T06:46:53Z",
   "alarmas": [
     {
-      "estado": "amarillo",
+      "estado": "verde",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "Por encima del umbral de atención (5,5 %), lejos aún de la alerta (6 %); +15 pb en un mes, pero hoy -4 pb pese al IPC caliente.",
-      "valor": "5,52 % (14 oct)"
+      "nota": "Vuelve justo por debajo del umbral de atención (5,5 %) por la compra refugio; +9 pb en un mes, así que el margen es mínimo.",
+      "valor": "5,46 % (15 oct)"
     },
     {
       "estado": "verde",
       "nombre": "Subasta 30 años (8 oct)",
-      "nota": "Demanda sólida y pocos dealers (6,8 %): la subasta calmó el mercado; no hay subastas largas esta semana. Tail no publicado.",
+      "nota": "Demanda sólida y pocos dealers (6,8 %); no hay subastas largas esta semana (la próxima, 20 años). Tail no publicado.",
       "valor": "5,618 %; cobertura 2,54 (media 2,41); indirectos 72,3 %"
     },
     {
       "estado": "amarillo",
       "nombre": "Deuda de hyperscalers para IA",
-      "nota": "JPMorgan prevé 317.000 M$ de Amazon, Alphabet, Meta y Oracle este año y Goldman 250.000 M$ para los cinco grandes (400.000 M$ en 2027): compiten con el Tesoro por el ahorro a largo.",
+      "nota": "JPMorgan prevé 317.000 M$ de Amazon, Alphabet, Meta y Oracle este año; el IPC caliente (14 oct) desató ventas en chips por miedo a la deuda de la IA.",
       "valor": "~220.000 M$ en 2026 (a 10 ago)"
     },
     {
@@ -43,8 +43,8 @@
       {
         "estado": "rojo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "Rentabilidad por beneficios adelantada ~5,26 % (1/19,0) frente al bono a 10 años en 5,19 % (14 oct): la bolsa casi no paga extra por su riesgo. Peso de las 10 mayores no actualizado.",
-        "valor": "Prima de riesgo ≈ 7 pb"
+        "nota": "Rentabilidad por beneficios adelantada ~5,26 % (PER 19,0, 30 sept) frente al bono a 10 años en 5,11 % (15 oct): la bolsa casi no paga extra por su riesgo.",
+        "valor": "Prima de riesgo ≈ 16 pb"
       },
       {
         "estado": "amarillo",
@@ -55,7 +55,7 @@
       {
         "estado": "amarillo",
         "n": "Sentimiento eufórico",
-        "nota": "Fear & Greed neutral (45, 13 oct) y AAII neutral (7 oct); pero BofA (2-8 oct): largos en semiconductores siguen siendo la operación más concurrida y el 37 % sobrepondera tecnología.",
+        "nota": "Fear & Greed neutral (13 oct) y AAII neutral (7 oct), enfriándose con la venta de chips; BofA (2-8 oct): largos en semiconductores siguen siendo la operación más concurrida.",
         "valor": "Fear & Greed 45; AAII 40,3 % alcistas"
       },
       {
@@ -71,38 +71,38 @@
         "valor": "Capex IA ~690.000-800.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929 pero no muy lejos, como dijo Dalio en Bloomberg (6 oct). Lo que más pesa son los precios caros (CAPE 41,6) y la sobreinversión en IA con deuda; hoy el IPC caliente tumba al Nasdaq un 2 % y los chips (SOXX) encadenan siete sesiones de caídas, señal de lo sensibles que están a los tipos.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio (6 oct). Pesan sobre todo los precios caros (CAPE 41,6) y la sobreinversión en IA con deuda; ahora empiezan a encenderse las señales de pinchazo: los chips pierden casi un 10 % en seis sesiones y el Kospi se desploma un 8 % (15 oct).",
     "nivel": 71,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "14 oct: la pendiente se estrecha (+85 pb el 8 oct) porque los cortos suben con la Fed tras el IPC; los largos siguen muy altos.",
-        "valor": "+70 pb (4,82 % / 5,52 %)"
+        "nota": "15 oct: ambos tramos bajan con la huida a refugio; la curva sigue más plana que el 8 oct (+85 pb).",
+        "valor": "+73 pb (4,73 % / 5,46 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (14 oct, tras el IPC del 3,7 %) da un 34,5 % a subir el 28 de octubre y un 88,5 % el 9 de diciembre: endurecimiento con tipos reales altos, el detonante clásico según Dalio.",
-        "valor": "3,75-4,00 %; 34,5 % subida en oct."
+        "nota": "Kalshi (15 oct): la subida del 28 oct baja al 24,5 %, pero diciembre sigue en el 89,5 %: endurecimiento con tipos reales altos, el detonante clásico según Dalio.",
+        "valor": "3,75-4,00 %; 24,5 % subida en oct."
       },
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "14 oct: tocó 102,88, máximo desde abril de 2025 (+2,9 % en un mes); sin huida de la moneda.",
-        "valor": "~102,5"
+        "nota": "15 oct: cede un 0,4 % desde máximos desde abril de 2025 (102,9); sin huida de la moneda.",
+        "valor": "~101,9"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "14 oct: tercera sesión de caídas con el dólar fuerte tras el IPC; los bancos centrales (China, 23.º mes) siguen comprando.",
-        "valor": "~4.150 $/oz"
+        "nota": "15 oct: rebota un 0,7 % desde mínimos desde agosto, pero -3 % en un mes; los bancos centrales siguen comprando.",
+        "valor": "~4.135 $/oz"
       },
       {
-        "estado": "amarillo",
+        "estado": "rojo",
         "n": "Necesidad de liquidez",
-        "nota": "14 oct: gamma negativa en S&P 500 y Nasdaq amplifica las caídas; deuda de margen en máximos (agosto) y en BofA el mayor riesgo es una subida desordenada de rendimientos.",
-        "valor": "Gamma negativa; margen 1,45 bill. $"
+        "nota": "14-15 oct: el SOX cae cerca de un 10 % en seis sesiones y Asia se hunde (Kospi -8 %, Nikkei -4,8 %) con deuda de margen en 1,45 bill. $: riesgo de ventas forzadas.",
+        "valor": "Chips -1 bill. $; Kospi -8 %"
       }
     ]
   },
@@ -282,21 +282,37 @@
     {
       "nombre": "Yahoo Finance – Bolsa 14 oct",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-135249729.html"
+    },
+    {
+      "nombre": "Investing.com – Rendimientos tras el IPC (15 oct)",
+      "url": "https://investing.com/news/economy-news/us-treasury-yields-slide-after-cpidriven-spike-4950530"
+    },
+    {
+      "nombre": "Irish Times/Reuters – Asia vende la IA (15 oct)",
+      "url": "https://www.irishtimes.com/business/markets/2026/10/15/asian-stocks-sell-off-as-ai-trades-crumble/"
+    },
+    {
+      "nombre": "Quartz – Chips pierden 1 bill. $ (14 oct)",
+      "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+      "nombre": "Trading Economics – JGB 30 años",
+      "url": "https://tradingeconomics.com/japan/30-year-bond-yield"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el IPC de septiembre salió caliente (3,7 %, subyacente 2,6 %) y Kalshi da ya un 34,5 % a otra subida de la Fed el 28 de octubre y un 88,5 % en diciembre, con un déficit de unos 2 billones y 1,1 billones en intereses. Curiosamente los bonos largos apenas se movieron (30 años 5,52 %, -4 pb) mientras el 2 años sube al 4,82 %, así que la curva se aplana; el dólar toca máximos desde abril de 2025 (DXY 102,5) y el yen se debilita a 158,8. El riesgo se queda en 63.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa (intereses de 1,1 billones y déficit de 2 billones), pero el riesgo baja de 63 a 52 porque el bono a 30 años vuelve justo por debajo del umbral de atención (5,46 %, -7 pb) al refugiarse los inversores en deuda durante la venta global de acciones de IA. Es una mejora frágil: llega por miedo, no por mejores cuentas, y la Fed sigue con un 89,5 % de probabilidad de subir en diciembre; Rusia sigue en rojo y Japón vigila el yen cerca de 158.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "14 oct; +18 pb en 1 mes",
+          "c": "15 oct; +9 pb en 1 mes (máx. 5,33 % el 14 oct)",
           "n": "Bono 10 años",
-          "v": "5,19 %"
+          "v": "5,11 %"
         },
         {
-          "c": "14 oct; +15 pb en 1 mes",
+          "c": "15 oct; +9 pb en 1 mes",
           "n": "Bono 30 años",
-          "v": "5,52 %"
+          "v": "5,46 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -309,17 +325,17 @@
           "v": "1,1 bill. $ / 2,0 bill. $"
         }
       ],
-      "estado": "rojo",
+      "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "El IPC caliente de hoy (3,7 %) acerca otra subida de la Fed y mantiene los rendimientos en máximos de casi 20 años; el coste de intereses es récord y el FMI pide recortar el déficit."
+      "nota": "Tras tocar el 5,33 % por el IPC, el bono a 10 años cae a mínimos de 3 semanas por la huida a refugio desde la tecnología; el coste de intereses sigue siendo récord."
     },
     {
       "datos": [
         {
-          "c": "14 oct; -9 pb en 1 mes",
+          "c": "15 oct; -4 pb en 1 mes",
           "n": "Bund 10 años",
-          "v": "3,44 %"
+          "v": "3,47 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -335,14 +351,14 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "Lagarde ve que la inflación energética aún no se contagia, pero el mercado descuenta otra subida en diciembre; Lagarde descarta rescatar la deuda francesa y el euro cae a 1,114."
+      "nota": "Lagarde espera a ver si la inflación energética se contagia, Šimkus no descarta subir en octubre y el mercado descuenta subida en diciembre; el euro rebota a 1,12."
     },
     {
       "datos": [
         {
-          "c": "13 oct; -3 pb en 1 mes",
+          "c": "14 oct; -4 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "1,67 %"
+          "v": "1,66 %"
         },
         {
           "c": "julio, -2,4 %; mínimo desde 2008",
@@ -350,9 +366,9 @@
           "v": "618.000 M$"
         },
         {
-          "c": "14 oct; yuan +0,19 % en 1 mes; fijación 6,7298 (12 oct), la más fuerte desde feb-2023",
+          "c": "15 oct; yuan +0,29 % en 1 mes; offshore en máximos desde jul-2022",
           "n": "USD/CNY",
-          "v": "6,70"
+          "v": "6,69"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -363,19 +379,19 @@
       "estado": "amarillo",
       "id": "CN",
       "nombre": "China",
-      "nota": "China sigue saliendo de la deuda de EE. UU. y acumulando oro con un yuan en máximos de más de 4 años: diversificación clásica del ciclo de Dalio."
+      "nota": "Superávit comercial récord (133.500 M$ en septiembre, exportaciones +36 %) y yuan en máximos de 4 años mientras China sigue saliendo de los Treasuries y comprando oro."
     },
     {
       "datos": [
         {
-          "c": "14 oct; -4 pb en 1 mes",
+          "c": "15 oct; -8 pb en 1 mes; mínimo de 5 semanas",
           "n": "JGB 10 años",
-          "v": "3,00 %"
+          "v": "2,92 %"
         },
         {
-          "c": "14 oct; -11 pb en 1 mes",
+          "c": "15 oct; -12 pb en 1 mes (máx. 4,25 % en oct)",
           "n": "JGB 30 años",
-          "v": "4,05 %"
+          "v": "4,00 %"
         },
         {
           "c": "julio, -1,1 %; 3.ª caída seguida",
@@ -383,15 +399,15 @@
           "v": "1,104 bill. $"
         },
         {
-          "c": "14 oct; +0,3 % en el día, cerca de 160",
+          "c": "15 oct; yen -1,1 % en 1 mes; Katayama amenaza con intervenir",
           "n": "USD/JPY",
-          "v": "158,8"
+          "v": "158,0"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "El BoJ (1,25 %) evita subir dos meses seguidos y apunta a diciembre; Ueda vigila los rendimientos largos y Japón sigue reduciendo Treasuries."
+      "nota": "El Nikkei cae un 4,8 % y los JGB actúan de refugio; Koeda (BoJ) pide no frenar demasiado las subidas, apuntando a diciembre, y Tokio avisa de otra intervención por el yen."
     },
     {
       "datos": [
@@ -422,7 +438,7 @@
       "nota": "Déficit desbordado, colchón del FNB menguando y deuda cara (próxima reunión del Banco de Rusia el 23 oct); la tregua energética anunciada por Trump no está confirmada por Moscú."
     }
   ],
-  "riesgo": 63,
+  "riesgo": 52,
   "serie": [
     {
       "riesgo": 64,
@@ -452,6 +468,11 @@
       "burbuja": 71,
       "riesgo": 63,
       "ts": "2026-10-14T18:46:02Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 52,
+      "ts": "2026-10-15T06:46:53Z"
     }
   ]
 }

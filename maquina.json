@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-14T18:46:02Z",
+  "actualizado": "2026-10-15T06:46:53Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.56,
-    "lectura": "El IPC de septiembre sube al 3,7 % (subyacente 2,6 %), por encima de lo esperado, y la Fed de Warsh (3,75-4,00 %) tiene un 34,5 % de subir el 28 oct y un 88,5 % en diciembre (Kalshi). Con el empleo frenado (+29.000 en septiembre) es el patrón clásico de techo del ciclo corto."
+    "lectura": "El IPC de septiembre sube al 3,7 % (subyacente 2,6 %) y la Fed de Warsh (3,75-4,00 %) tiene un 24,5 % de subir el 28 oct y un 89,5 % en diciembre (Kalshi, 15 oct). Con el empleo frenado (+29.000 en septiembre) y la bolsa tecnológica cayendo, es el patrón clásico de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -41,7 +41,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "34,5 % subida el 28 oct · 88,5 % el 9 dic (Kalshi, 14 oct)",
+      "c": "24,5 % subida el 28 oct · 89,5 % el 9 dic (Kalshi, 15 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -71,19 +71,19 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "14 oct · zona de atención",
+      "c": "15 oct · justo bajo el umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,52 %"
+      "v": "5,46 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años en el 5,52 % (14 oct) muestra que cuesta más encontrar compradores: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,46 % (15 oct), cerca de máximos de casi 20 años: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (3,7 % en septiembre) y la Fed ya tiene un 88,5 % de probabilidad de subir en diciembre, mientras el empleo se frena (29.000 empleos en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (3,7 % en septiembre) y la Fed tiene un 89,5 % de probabilidad de subir en diciembre mientras el empleo se frena (29.000 empleos) y la bolsa tecnológica se tambalea. La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
   "palancas": [
     {
       "estado": "rojo",
@@ -155,6 +155,11 @@
       "corto": 0.56,
       "largo": 0.76,
       "ts": "2026-10-14T18:46:02Z"
+    },
+    {
+      "corto": 0.56,
+      "largo": 0.76,
+      "ts": "2026-10-15T06:46:53Z"
     }
   ]
 }
