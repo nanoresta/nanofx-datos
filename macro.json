@@ -457,9 +457,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-15T07:02:22Z",
+    "actualizado": "2026-10-15T08:03:20Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida de tipos el 28 de octubre vuelve a bajar, al 23,5 % (mantener 76,0 %, bajar 0,5 %), frente al 24,0 %/75,5 % de la revisión anterior, moderando aún más el pico provocado por el IPC del miércoles. La de diciembre se mantiene prácticamente estable en el 89,5 %.",
+    "lectura": "La probabilidad de subida de tipos el 28 de octubre se mantiene estable en el 23,5 % (mantener 76,0 %, bajar 0,5 %), sin cambios frente a la última revisión. La de diciembre también sigue estable en el 89,5 %.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -479,8 +479,8 @@
       {
         "bajar": 6,
         "fecha": "2027-01-27",
-        "mantener": 1,
-        "subir": 93,
+        "mantener": 1.5,
+        "subir": 92.5,
         "tasaImplicita": 4.26
       },
       {
@@ -699,212 +699,212 @@
   ],
   "indices": [
     {
-      "changeNote": "Futuros ES en la sesión europea (07:02 UTC) bajan un -0,31/-0,38 % según CNBC/Benzinga tras el desplome de semiconductores en Asia (Kospi -7,6/-7,7 %, Samsung y SK Hynix >-9/-11 %); no se confirmo un nivel de precio exacto de los futuros, por lo que el spot (~7.692) es una estimación sobre el cierre oficial del miércoles (7.718,94, -1,11 %). Régimen de gamma NEGATIVO, ahora en -8,13 mil M$ por 1 % (peor que -6,82 de la revisión anterior), con la OI ya actualizada al 13 de octubre.",
+      "changeNote": "Sesión europea, 08:16 UTC: futuros ES sin cambios claros frente al cierre del miércoles (7.718,94, -1,11 %); el desplome de semiconductores en Asia se intensifica (Kospi hasta -9 % intradía, reunión de emergencia del regulador surcoreano) a pesar del récord de beneficios de TSMC.",
       "changePct": -0.35,
       "claves": [
-        "Call wall en 7725 (SPY 770,0); put wall en 7745 (SPY 772,0).",
-        "Régimen de gamma NEGATIVO, en -8,13 mil M$ por 1 % (peor que el -6,82 de ayer), con la OI ya actualizada al 13 de octubre.",
-        "Giro de gamma en 7799 (SPY 777,42); max pain en 7795 (SPY 777,0).",
-        "Put/call de open interest en 1,73 (baja desde 1,75)."
+        "Call wall y put wall convergen en 7725 (SPY 770,0): la cobertura se concentra en el mismo nivel.",
+        "Régimen de gamma NEGATIVO, en -9,32 mil M$ por 1 % (empeora desde -8,13): amplifica los movimientos.",
+        "Giro de gamma en 7775 (SPY 775,0); max pain en 7795 (SPY 777,0).",
+        "Put/call de open interest en 1,73 (sin cambios)."
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1642,
+        "contratos": 1543,
         "escalera": [
           {
-            "gex": -41.3,
+            "gex": -45.5,
             "strike": 746
           },
           {
-            "gex": -120.9,
+            "gex": -139.3,
             "strike": 747
           },
           {
-            "gex": -84.3,
+            "gex": -97.3,
             "strike": 748
           },
           {
-            "gex": -57.6,
+            "gex": -66.3,
             "strike": 749
           },
           {
-            "gex": -604.1,
+            "gex": -700.9,
             "strike": 750
           },
           {
-            "gex": -97.1,
+            "gex": -114.3,
             "strike": 751
           },
           {
-            "gex": -103.3,
+            "gex": -122.8,
             "strike": 752
           },
           {
-            "gex": -295.7,
+            "gex": -357.5,
             "strike": 753
           },
           {
-            "gex": -94.5,
+            "gex": -112.6,
             "strike": 754
           },
           {
-            "gex": -1190.7,
+            "gex": -1387.9,
             "strike": 755
           },
           {
-            "gex": -89.3,
+            "gex": -111.5,
             "strike": 756
           },
           {
-            "gex": -426.3,
+            "gex": -539.4,
             "strike": 757
           },
           {
-            "gex": -166.9,
+            "gex": -215.1,
             "strike": 758
           },
           {
-            "gex": -158,
+            "gex": -207.8,
             "strike": 759
           },
           {
-            "gex": -600.5,
+            "gex": -831.3,
             "strike": 760
           },
           {
-            "gex": -132.1,
+            "gex": -193.7,
             "strike": 761
           },
           {
-            "gex": -241.3,
+            "gex": -347.8,
             "strike": 762
           },
           {
-            "gex": -231.9,
+            "gex": -344.9,
             "strike": 763
           },
           {
-            "gex": -114.5,
+            "gex": -193.5,
             "strike": 764
           },
           {
-            "gex": -1055.1,
+            "gex": -1538.2,
             "strike": 765
           },
           {
-            "gex": -28.8,
+            "gex": -196,
             "strike": 766
           },
           {
-            "gex": -225.2,
+            "gex": -486.2,
             "strike": 767
           },
           {
-            "gex": -393.8,
+            "gex": -725.5,
             "strike": 768
           },
           {
-            "gex": -234.9,
+            "gex": -414.4,
             "strike": 769
           },
           {
-            "gex": -409.9,
+            "gex": -1161.3,
             "strike": 770
           },
           {
-            "gex": -130.2,
+            "gex": -265.9,
             "strike": 771
           },
           {
-            "gex": -1324.2,
+            "gex": -15.4,
             "strike": 772
           },
           {
-            "gex": -616.4,
+            "gex": 16.2,
             "strike": 773
           },
           {
-            "gex": -166.9,
+            "gex": 31.4,
             "strike": 774
           },
           {
-            "gex": 146.6,
+            "gex": 367.4,
             "strike": 775
           },
           {
-            "gex": 44.1,
+            "gex": 105.9,
             "strike": 776
           },
           {
-            "gex": -60.7,
+            "gex": 106.2,
             "strike": 777
           },
           {
-            "gex": 159.7,
+            "gex": 231.6,
             "strike": 778
           },
           {
-            "gex": 20.7,
+            "gex": 109.3,
             "strike": 779
           },
           {
-            "gex": 413.4,
+            "gex": 466.8,
             "strike": 780
           },
           {
-            "gex": 120.4,
+            "gex": 132.4,
             "strike": 781
           },
           {
-            "gex": 174.5,
+            "gex": 155.2,
             "strike": 782
           },
           {
-            "gex": 335.3,
+            "gex": 302.4,
             "strike": 783
           },
           {
-            "gex": 92,
+            "gex": 83.5,
             "strike": 784
           },
           {
-            "gex": 455.1,
+            "gex": 449.1,
             "strike": 785
           },
           {
-            "gex": 80.7,
+            "gex": 72.5,
             "strike": 786
           },
           {
-            "gex": 47,
+            "gex": 47.1,
             "strike": 787
           },
           {
-            "gex": 75.9,
+            "gex": 72.1,
             "strike": 788
           },
           {
-            "gex": 57.4,
+            "gex": 53.4,
             "strike": 789
           },
           {
-            "gex": 361.7,
+            "gex": 326.5,
             "strike": 790
           },
           {
-            "gex": 43.7,
+            "gex": 38.4,
             "strike": 791
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 777.42,
-        "gexTotal": -8.13,
+        "gammaFlip": 775,
+        "gexTotal": -9.32,
         "indice": {
           "callWall": 7725,
-          "gammaFlip": 7799,
+          "gammaFlip": 7775,
           "maxPain": 7795,
           "precio": 7713,
-          "putWall": 7745
+          "putWall": 7725
         },
         "maxPain": 777,
         "odte": {
@@ -927,151 +927,151 @@
         "oiFecha": "2026-10-13",
         "pcrOI": 1.73,
         "precio": 768.84,
-        "putWall": 772,
+        "putWall": 770,
         "ratioFecha": "2026-10-13",
         "ratioIndice": 10.0323,
         "regimen": "negativa",
         "vencimientoCercano": "2026-10-15"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cotiza en la sesión europea (07:02 UTC) con los futuros ES en torno a un -0,3/-0,4 % (~7.692, sobre el cierre de 7.718,94 del miércoles), arrastrado por el nuevo desplome de semiconductores en Asia (Kospi -7,6/-7,7 %, Samsung y SK Hynix por encima de -9/-11 %) tras el IPC de septiembre más caliente de lo esperado. El régimen de gamma sigue NEGATIVO y empeora a -8,13 mil M$ por 1 % (desde -6,82), con el put wall en 7.745 ya perdido como soporte y el giro de gamma en 7.799: zona que amplifica los movimientos. Kevin Warsh mantiene el tono hawkish frente a Trump, que amenaza ahora con aranceles del 150-300 % a empresas que no fabriquen en EE. UU.; a eso se suma la escalada en el estrecho de Ormuz (Irán advierte de 'buque hostil' a los petroleros, Brent sobre 106 $) y el FMI (Georgieva) cuestionando el plan fiscal de Bessent. El catalizador clave de hoy son las ventas minoristas de septiembre (12:30 UTC, previsión de fuerte desaceleración a +0,3 % m/m desde +1,2 %), junto con el IPP y las peticiones de subsidio.",
+      "lectura": "El S&P 500 cotiza en la sesión europea (08:16 UTC) con los futuros ES sin cambios claros sobre el cierre de 7.718,94 del miércoles, mientras el desplome de semiconductores en Asia se intensifica: el Kospi surcoreano llega a caer un 9 % intradía (hasta unos 5.467 puntos) y obliga al regulador financiero a convocar una reunión de emergencia, pese a que TSMC bate récord de beneficio trimestral (23.600 millones $). El régimen de gamma sigue NEGATIVO y empeora a -9,32 mil M$ por 1 % (desde -8,13), con el call wall y el put wall convergiendo ahora en 7.725 (SPY 770) y el giro de gamma en 7.775 (SPY 775): zona que amplifica cualquier movimiento brusco. Bitcoin pone a prueba el soporte de 81.000 $ por tercera vez en el mes y el euro edita ligeramente al alza por encima de 1,1200. El catalizador clave de hoy son las ventas minoristas, el IPP y las peticiones de subsidio de septiembre (12:30 UTC).",
       "levels": {
         "callWall": 7725,
-        "gammaFlip": 7799,
+        "gammaFlip": 7775,
         "maxPain": 7795,
         "precio": 7713,
-        "putWall": 7745
+        "putWall": 7725
       },
       "name": "S&P 500",
-      "netGex": "negativa (-8,13 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-13)",
+      "netGex": "negativa (-9,32 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-13)",
       "regime": "negativa",
       "score": -72,
       "sesgo": "bajista",
       "spot": 7692
     },
     {
-      "changeNote": "Futuros NQ marcan 29.848,50 (Yahoo Finance, 02:13 NY) frente al cierre oficial del miércoles (29.950,82, -2,02 %); otra fuente (Investing.com) da 29.908,50 (-0,91 % frente a su propio cierre de futuros en 30.182,75). La onda bajista de los semiconductores se agrava en Asia (Kospi -7,6/-7,7 %, Samsung y SK Hynix >-9/-11 %, por el temor a la competencia china en memoria DRAM). Régimen de gamma NEGATIVO, en -7,21 mil M$ por 1 % (peor que -6,54), con la OI actualizada al 13 de octubre.",
+      "changeNote": "Sesión europea, 08:16 UTC: futuros NQ sin cambios claros sobre el cierre del miércoles (29.950,82, -2,02 %); el desplome de semiconductores en Asia se intensifica (Kospi hasta -9 % intradía) a pesar del récord de beneficios de TSMC.",
       "changePct": -0.34,
       "claves": [
         "Call wall en 31242 (QQQ 760,0); put wall en 29803 (QQQ 725,0).",
-        "Régimen de gamma NEGATIVO, en -7,21 mil M$ por 1 % (peor que el -6,54 de ayer), con la OI ya actualizada al 13 de octubre.",
-        "Giro de gamma en 30290 (QQQ 736,85); max pain en 30584 (QQQ 744,0).",
-        "Put/call de open interest en 1,78 (baja desde 1,85)."
+        "Régimen de gamma NEGATIVO, en -6,96 mil M$ por 1 % (mejora algo desde -7,21).",
+        "Giro de gamma en 30283 (QQQ 736,67); max pain en 30584 (QQQ 744,0).",
+        "Put/call de open interest en 1,78 (sin cambios)."
       ],
       "gex": {
         "callWall": 760,
-        "contratos": 1332,
+        "contratos": 1346,
         "escalera": [
           {
-            "gex": -49.2,
+            "gex": -47.6,
             "strike": 706
           },
           {
-            "gex": -125.5,
+            "gex": -121.3,
             "strike": 707
           },
           {
-            "gex": -46,
+            "gex": -44.6,
             "strike": 708
           },
           {
-            "gex": -31.6,
+            "gex": -30,
             "strike": 709
           },
           {
-            "gex": -507.6,
+            "gex": -492.1,
             "strike": 710
           },
           {
-            "gex": -260.9,
+            "gex": -241.4,
             "strike": 711
           },
           {
-            "gex": -159.7,
+            "gex": -152.5,
             "strike": 712
           },
           {
-            "gex": -280.6,
+            "gex": -277.4,
             "strike": 713
           },
           {
-            "gex": -84.2,
+            "gex": -79.6,
             "strike": 714
           },
           {
-            "gex": -616.7,
+            "gex": -585.5,
             "strike": 715
           },
           {
-            "gex": -297.7,
+            "gex": -286.3,
             "strike": 716
           },
           {
-            "gex": -517.5,
+            "gex": -499,
             "strike": 717
           },
           {
-            "gex": -62.7,
+            "gex": -55.1,
             "strike": 718
           },
           {
-            "gex": -134.3,
+            "gex": -126.8,
             "strike": 719
           },
           {
-            "gex": -795.5,
+            "gex": -740.5,
             "strike": 720
           },
           {
-            "gex": -72.7,
+            "gex": -67.4,
             "strike": 721
           },
           {
-            "gex": -178.2,
+            "gex": -167.7,
             "strike": 722
           },
           {
-            "gex": -149.5,
+            "gex": -138.9,
             "strike": 723
           },
           {
-            "gex": -449.8,
+            "gex": -421.8,
             "strike": 724
           },
           {
-            "gex": -1486.3,
+            "gex": -1396.4,
             "strike": 725
           },
           {
-            "gex": -149.9,
+            "gex": -145.5,
             "strike": 726
           },
           {
-            "gex": -5.8,
+            "gex": -147.8,
             "strike": 727
           },
           {
-            "gex": -6.8,
+            "gex": -5.2,
             "strike": 728
           },
           {
-            "gex": 3.9,
+            "gex": -9.7,
             "strike": 729
           },
           {
-            "gex": -282.8,
+            "gex": -236.5,
             "strike": 730
           },
           {
-            "gex": 19.1,
+            "gex": 20.9,
             "strike": 731
           },
           {
-            "gex": -44.7,
+            "gex": -40.2,
             "strike": 732
           },
           {
-            "gex": 8.6,
+            "gex": 8.4,
             "strike": 733
           },
           {
@@ -1079,72 +1079,72 @@
             "strike": 734
           },
           {
-            "gex": 10.6,
+            "gex": -13.2,
             "strike": 735
           },
           {
-            "gex": 9.4,
+            "gex": 7.3,
             "strike": 736
           },
           {
-            "gex": -9.9,
+            "gex": -16.3,
             "strike": 737
           },
           {
-            "gex": 11.1,
+            "gex": 7.1,
             "strike": 738
           },
           {
-            "gex": 24.3,
+            "gex": 24.6,
             "strike": 739
           },
           {
-            "gex": 136.1,
+            "gex": 139,
             "strike": 740
           },
           {
-            "gex": 14.6,
+            "gex": 15.1,
             "strike": 741
           },
           {
-            "gex": 18.6,
+            "gex": 17.9,
             "strike": 742
           },
           {
-            "gex": 36.9,
+            "gex": 35.3,
             "strike": 743
           },
           {
-            "gex": 30.2,
+            "gex": 26.9,
             "strike": 744
           },
           {
-            "gex": 100.9,
+            "gex": 50.2,
             "strike": 745
           },
           {
-            "gex": 43.3,
+            "gex": 39.6,
             "strike": 746
           },
           {
-            "gex": 25.4,
+            "gex": 26.4,
             "strike": 747
           },
           {
-            "gex": 24.7,
+            "gex": 25.4,
             "strike": 748
           },
           {
-            "gex": 61.9,
+            "gex": 63,
             "strike": 749
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 736.85,
-        "gexTotal": -7.21,
+        "gammaFlip": 736.67,
+        "gexTotal": -6.96,
         "indice": {
           "callWall": 31242,
-          "gammaFlip": 30290,
+          "gammaFlip": 30283,
           "maxPain": 30584,
           "precio": 29918,
           "putWall": 29803
@@ -1177,16 +1177,16 @@
         "vencimientoCercano": "2026-10-15"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cotiza en la sesión europea con los futuros NQ en torno a 29.848-29.908 (-0,3/-0,9 % según la fuente, sobre el cierre de 29.950,82 del miércoles), lastrado por una nueva pata bajista de los semiconductores que se agrava en Asia: el Kospi surcoreano cae entre un 7,6 % y un 7,7 % y Samsung y SK Hynix pierden más de un 9-11 %, por el temor a la competencia china en memoria DRAM (CXMT) tras el IPC caliente de EE. UU. El régimen de gamma sigue NEGATIVO y empeora a -7,21 mil M$ por 1 % (desde -6,54), con el giro de gamma en 30.290 (por debajo del precio) y el max pain en 30.584. Kevin Warsh sostiene el tono hawkish frente a la presión de Trump (que amenaza con aranceles del 150-300 % a empresas sin fábricas en EE. UU.), mientras el FMI cuestiona el plan fiscal de Bessent y la escalada en el estrecho de Ormuz anade presión de riesgo. Las ventas minoristas y el IPP de hoy (12:30 UTC) son el próximo catalizador, con la tecnología de alta duración especialmente sensible a cualquier sorpresa.",
+      "lectura": "El Nasdaq 100 cotiza en la sesión europea con los futuros NQ cerca del cierre del miércoles (29.950,82, -2,02 %), lastrado por la intensificación del desplome de semiconductores en Asia: el Kospi llega a caer un 9 % intradía y Corea del Sur convoca una reunión de emergencia del regulador financiero, pese a que TSMC bate récord de beneficio trimestral (23.600 millones $). El régimen de gamma sigue NEGATIVO pero mejora ligeramente a -6,96 mil M$ por 1 % (desde -7,21), con el giro de gamma en 30.283 (QQQ 736,67) y el max pain en 30.584. Bitcoin pone a prueba el soporte de 81.000 $ por tercera vez en el mes, con salidas de los ETF spot de 150,5 millones $ el 14 de octubre, señal de cautela para la tecnología de alta duración. Las ventas minoristas y el IPP de septiembre (12:30 UTC) son el próximo catalizador.",
       "levels": {
         "callWall": 31242,
-        "gammaFlip": 30290,
+        "gammaFlip": 30283,
         "maxPain": 30584,
         "precio": 29918,
         "putWall": 29803
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-7,21 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-13)",
+      "netGex": "negativa (-6,96 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-13)",
       "regime": "negativa",
       "score": -83,
       "sesgo": "bajista",
@@ -1331,6 +1331,38 @@
       "activos": {
         "BTC": "bajista",
         "EURUSD": "neutral",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "Coinpedia",
+      "impacto": "alto",
+      "resumen": "El regulador financiero surcoreano actúa después de que el índice tocara los 5.467 puntos en plena ola bajista de los semiconductores.",
+      "titular": "Corea del Sur convoca una reunión de emergencia tras un Kospi que llega a caer un 9 % intradía",
+      "ts": "2026-10-15T08:10:00Z",
+      "url": "https://coinpedia.org/news/why-is-crypto-down-today-live-updates-as-bitcoin-slips-below-81k-and-kospi-crashes-9/"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NQ": "neutral",
+        "SPX": "neutral",
+        "WTI": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "KuCoin News",
+      "impacto": "medio",
+      "resumen": "Las salidas de los ETF spot de bitcoin suman 150,5 millones $ el 14 de octubre, aunque las pérdidas realizadas en cada caída van a menos.",
+      "titular": "Bitcoin pone a prueba el soporte de 81.000 $ por tercera vez en el mes",
+      "ts": "2026-10-15T07:45:00Z",
+      "url": "https://www.kucoin.com/news/flash/bitcoin-tests-81-000-support-level-three-times-amid-market-volatility"
+    },
+    {
+      "activos": {
+        "BTC": "bajista",
+        "EURUSD": "neutral",
         "NQ": "neutral",
         "SPX": "neutral",
         "WTI": "neutral",
@@ -1361,6 +1393,22 @@
     },
     {
       "activos": {
+        "BTC": "neutral",
+        "EURUSD": "alcista",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "Bloomberg",
+      "impacto": "alto",
+      "resumen": "La ola de ventas en chips se extiende a Asia tras el IPC caliente de EE. UU.; los Treasuries suben y el dólar retrocede en la sesión asiática.",
+      "titular": "Los semiconductores se desploman en Asia: el Kospi cae un 7,6 % y Samsung y SK Hynix más de un 9 %",
+      "ts": "2026-10-15T05:00:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "activos": {
         "BTC": "bajista",
         "EURUSD": "neutral",
         "NQ": "neutral",
@@ -1374,6 +1422,38 @@
       "titular": "Bitcoin cae a 80.700 $ y el oro ronda 4.143-4.146 $/oz antes de la apertura europea",
       "ts": "2026-10-15T03:30:00Z",
       "url": "https://www.coindesk.com/price/bitcoin"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "alcista",
+        "NQ": "neutral",
+        "SPX": "neutral",
+        "WTI": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El EUR/USD rebota algo desde los mínimos de 17 meses mientras el dólar hace una pausa de cara a los datos de las 12:30 UTC.",
+      "titular": "El euro edita ligeramente al alza por encima de 1,1200 antes del IPP y las ventas minoristas de EE. UU.",
+      "ts": "2026-10-15T02:36:00Z",
+      "url": "https://fxstreet.com/news/euro-edges-higher-above-11200-traders-brace-for-us-ppi-retail-sales-data-202610150236"
+    },
+    {
+      "activos": {
+        "BTC": "bajista",
+        "EURUSD": "neutral",
+        "NQ": "neutral",
+        "SPX": "neutral",
+        "WTI": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "Mitrade",
+      "impacto": "medio",
+      "resumen": "Tras el IPC del 3,7 % interanual, bitcoin y el oro siguen bajo presión de cara a la reunión de la Fed del 28 de octubre.",
+      "titular": "Bitcoin ronda los 81.750 $ y el oro los 4.123 $ a la espera de la decisión de la Fed",
+      "ts": "2026-10-15T02:00:00Z",
+      "url": "https://www.mitrade.com/au/insights/commodity-analysis/precious-metal/beincrypto-XAUUSD-202610150928"
     },
     {
       "activos": {
@@ -1409,35 +1489,18 @@
     },
     {
       "activos": {
-        "BTC": "neutral",
-        "EURUSD": "alcista",
-        "NQ": "bajista",
-        "SPX": "bajista",
-        "WTI": "neutral",
-        "XAU": "neutral"
-      },
-      "fuente": "Bloomberg",
-      "impacto": "alto",
-      "resumen": "La ola de ventas en chips se extiende a Asia tras el IPC caliente de EE. UU.; los Treasuries suben y el dólar retrocede en la sesión asiática.",
-      "titular": "Los semiconductores se desploman en Asia: el Kospi cae un 7,6 % y Samsung y SK Hynix más de un 9 %",
-      "ts": "2026-10-15T05:00:00Z",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates"
-    },
-    {
-      "activos": {
         "BTC": "bajista",
         "EURUSD": "neutral",
         "NQ": "neutral",
         "SPX": "neutral",
-        "WTI": "neutral",
-        "XAU": "neutral"
+        "XAU": "bajista"
       },
       "fuente": "Mitrade",
       "impacto": "medio",
-      "resumen": "Tras el IPC del 3,7 % interanual, bitcoin y el oro siguen bajo presión de cara a la reunión de la Fed del 28 de octubre.",
-      "titular": "Bitcoin ronda los 81.750 $ y el oro los 4.123 $ a la espera de la decisión de la Fed",
-      "ts": "2026-10-15T02:00:00Z",
-      "url": "https://www.mitrade.com/au/insights/commodity-analysis/precious-metal/beincrypto-XAUUSD-202610150928"
+      "resumen": "Bitcoin retrocede desde los 83.400 $ hacia los 82.000 $ y el oro se mantiene bajo los 4.100 $/oz, presionados por la inflación de septiembre y el dólar firme.",
+      "titular": "Bitcoin cae hacia 82.000 $ y el oro sigue bajo 4.100 $ tras el IPC caliente",
+      "ts": "2026-10-14T20:45:00Z",
+      "url": "https://www.mitrade.com/au/insights/news/live-news/article-5-2163096-20261014"
     },
     {
       "activos": {
@@ -1453,21 +1516,6 @@
       "titular": "Cierre oficial: el S&P 500 cae un 1,11 % a 7.718,94 y el Nasdaq 100 un 2,02 % a 29.950,82",
       "ts": "2026-10-14T20:30:00Z",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "EURUSD": "neutral",
-        "NQ": "neutral",
-        "SPX": "neutral",
-        "XAU": "bajista"
-      },
-      "fuente": "Mitrade",
-      "impacto": "medio",
-      "resumen": "Bitcoin retrocede desde los 83.400 $ hacia los 82.000 $ y el oro se mantiene bajo los 4.100 $/oz, presionados por la inflación de septiembre y el dólar firme.",
-      "titular": "Bitcoin cae hacia 82.000 $ y el oro sigue bajo 4.100 $ tras el IPC caliente",
-      "ts": "2026-10-14T20:45:00Z",
-      "url": "https://www.mitrade.com/au/insights/news/live-news/article-5-2163096-20261014"
     },
     {
       "activos": {
@@ -1513,51 +1561,6 @@
       "titular": "El oro perfora los 4.100 $/oz, mínimos de dos meses, y el dólar toca máximos desde abril de 2025",
       "ts": "2026-10-14T18:06:00Z",
       "url": "https://fxstreet.com/news/forex-today-more-us-inflation-alongside-jobs-in-oz-202610141806"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NQ": "bajista",
-        "SPX": "bajista",
-        "XAU": "neutral"
-      },
-      "fuente": "Yahoo Finance / CNN",
-      "impacto": "alto",
-      "resumen": "El S&P 500 toca 7.704 (-1,3 %) y el Nasdaq Composite 26.672 (-2 %) a media sesión en Nueva York; Bank of America se hunde tras una multa de más de 1.200 millones $ de los reguladores por fallos en sus controles.",
-      "titular": "Wall Street profundiza la caída por la tarde: el Nasdaq cae cerca de un 2 % y el S&P 500 un 1,3 %",
-      "ts": "2026-10-14T17:52:00Z",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-135249729.html"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NQ": "bajista",
-        "SPX": "bajista",
-        "XAU": "neutral"
-      },
-      "fuente": "Benzinga",
-      "impacto": "medio",
-      "resumen": "El S&P 500 ronda los 7.751 puntos (-0,7 %) a mediodía en Nueva York y el índice de semiconductores SOXX acumula siete sesiones consecutivas a la baja tras el IPC caliente.",
-      "titular": "El Nasdaq 100 cae un 1 % lastrado por los semiconductores: SOXX encadena su séptima sesión de caídas",
-      "ts": "2026-10-14T16:45:00Z",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62360140/nasdaq-100-drops-1-on-hot-cpi-soxx-falls-7th-day-stock-market-today"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NQ": "neutral",
-        "SPX": "neutral",
-        "XAU": "neutral"
-      },
-      "fuente": "TheStreet",
-      "impacto": "alto",
-      "resumen": "TheStreet sitúa el S&P 500 en 7.733,82 (-0,92 %) y el Dow en 51.622,24 (-0,09 %), con el Nasdaq Composite perdiendo un 1,37 % por la tarde.",
-      "titular": "Wall Street profundiza pérdidas por la tarde: el S&P 500 cae un 0,92 %",
-      "ts": "2026-10-14T16:00:00Z",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026"
     }
   ],
   "odte": {
@@ -1693,7 +1696,7 @@
       }
     ]
   },
-  "resumen": "Son las 07:02 UTC (03:02 hora de Nueva York) del jueves 15 de octubre de 2026, en la sesión europea matinal, horas antes de la apertura de Wall Street y tras el fuerte desplome del miércoles por el IPC de septiembre más caliente de lo esperado (3,7 % a/a general, 2,6 % subyacente). El motor de datos (Kalshi) modera ligeramente la probabilidad de subida de la Fed el 28 de octubre al 24,0 % (mantener 75,5 %, desde 24,5 %/75,0 %), mientras diciembre se mantiene estable en el 89,5 %. La onda bajista de los semiconductores se agrava en Asia: el Kospi surcoreano cae entre un 7,6 % y un 7,7 %, con Samsung y SK Hynix por encima de -9/-11 %, y los futuros ES/NQ vuelven a caer (-0,3/-0,4 % y -0,3/-0,9 % según la fuente). El régimen de gamma sigue NEGATIVO y empeora en ambos índices (-8,13 mil M$ SPX, -7,21 mil M$ NDX por 1 %), con la OI ya actualizada al 13 de octubre. Irán advierte de que tratará como 'buque hostil' a los petroleros que crucen el estrecho de Ormuz sin transpondedor (Brent sobre 106 $), y el FMI (Georgieva) cuestiona el plan de deuda de Bessent. Bitcoin ronda los 80.700 $ y el oro los 4.143-4.146 $/oz, ambos bajo presión del dólar fuerte (EUR/USD en mínimos de 17 meses, 1,1133-1,1137). Próximo catalizador: IPP y ventas minoristas de septiembre, hoy a las 12:30 UTC.",
+  "resumen": "Son las 08:16 UTC (04:16 hora de Nueva York) del jueves 15 de octubre de 2026, en la sesión europea, horas antes de la apertura de Wall Street. El motor de datos (Kalshi) mantiene estable la probabilidad de subida de la Fed el 28 de octubre en el 23,5 % (mantener 76,0 %) y la de diciembre en el 89,5 %. El desplome de semiconductores en Asia se intensifica: el Kospi surcoreano llega a caer un 9 % intradía (hasta unos 5.467 puntos) y obliga al regulador financiero a convocar una reunión de emergencia, pese a que TSMC bate récord de beneficio trimestral (23.600 millones $). El régimen de gamma sigue NEGATIVO y empeora en el S&P 500 (-9,32 mil M$ por 1 %, desde -8,13) aunque mejora algo en el Nasdaq 100 (-6,96, desde -7,21). Bitcoin pone a prueba el soporte de 81.000 $ por tercera vez en el mes, con salidas de los ETF spot de 150,5 millones $ el 14 de octubre, y el euro edita ligeramente al alza por encima de 1,1200 tras los mínimos de 17 meses. Próximo catalizador: IPP y ventas minoristas de septiembre, hoy a las 12:30 UTC.",
   "semana": {
     "activos": [
       {
@@ -2064,5 +2067,5 @@
     "updatedAt": "2026-10-15T07:02:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-15T07:18:22Z"
+  "updatedAt": "2026-10-15T08:16:02Z"
 }
