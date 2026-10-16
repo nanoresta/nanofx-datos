@@ -884,19 +884,19 @@
       "changePct": -1.09,
       "claves": [
         "Call wall en 7.726 (SPY 770,0), sin cambios; put wall en 7.576 (SPY 755,0), sin cambios.",
-        "Régimen de gamma NEGATIVO, en -8,03 mil M$ por 1 % (antes -8,07): prácticamente estable.",
-        "Giro de gamma en 7.809 (SPY 778,27), por encima del precio: sigue de resistencia técnica.",
+        "Régimen de gamma NEGATIVO, en -7,69 mil M$ por 1 % (antes -8,03): se modera levemente.",
+        "Giro de gamma en 7.805 (SPY 777,89), por encima del precio: sigue de resistencia técnica.",
         "Max pain en 7.736 (SPY 771,0); put/call de open interest estable en 1,81."
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1713,
+        "contratos": 1681,
         "etf": "SPY",
-        "gammaFlip": 778.27,
-        "gexTotal": -8.03,
+        "gammaFlip": 777.89,
+        "gexTotal": -7.69,
         "indice": {
           "callWall": 7726,
-          "gammaFlip": 7809,
+          "gammaFlip": 7805,
           "maxPain": 7736,
           "precio": 7659,
           "putWall": 7576
@@ -921,7 +921,7 @@
         },
         "oiFecha": "2026-10-14",
         "pcrOI": 1.81,
-        "precio": 763.34,
+        "precio": 763.31,
         "putWall": 755,
         "ratioFecha": "2026-10-15",
         "ratioIndice": 10.0342,
@@ -929,15 +929,15 @@
         "vencimientoCercano": "2026-10-16"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cierra en 7.659,44 (-1,09 % frente al cierre del jueves en 7.744,06), una sesión algo menos mala que el mínimo intradía (-1,25 %) gracias al dólar débil tras los comentarios de Kevin Warsh en el FMI de Bangkok. El régimen de gamma sigue NEGATIVO en -8,03 mil M$ por 1 % (antes -8,07), prácticamente sin cambios, con el call wall en 7.726 actuando de techo técnico. El desplome de los semiconductores (CoreWeave, con sus bonos de 2032 por encima del 15 % de rentabilidad) y el temor a una burbuja de financiación de la IA siguen dominando sobre cualquier otro factor.",
+      "lectura": "El S&P 500 cierra en 7.659,44 (-1,09 % frente al cierre del jueves en 7.744,06), una sesión algo menos mala que el mínimo intradía (-1,25 %) gracias al dólar débil tras los comentarios de Kevin Warsh en el FMI de Bangkok. El régimen de gamma se modera levemente a -7,69 mil M$ por 1 % (antes -8,03), con el call wall en 7.726 actuando de techo técnico. El desplome de los semiconductores (CoreWeave, con sus bonos de 2032 por encima del 15 % de rentabilidad) y el temor a una burbuja de financiación de la IA siguen dominando sobre cualquier otro factor.",
       "levels": {
         "callWall": 7726,
-        "gammaFlip": 7809,
+        "gammaFlip": 7805,
         "maxPain": 7736,
         "putWall": 7576
       },
       "name": "S&P 500",
-      "netGex": "negativa (-8,03 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-14)",
+      "netGex": "negativa (-7,69 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-14)",
       "regime": "negativa",
       "score": -40,
       "sesgo": "bajista",
@@ -948,21 +948,21 @@
       "changePct": -2.05,
       "claves": [
         "Call wall en 31.243 (QQQ 760,0); put wall en 28.777 (QQQ 700,0), ambos sin cambios.",
-        "Régimen de gamma NEGATIVO, en -5,95 mil M$ por 1 % (antes -5,92): se acentúa levemente.",
+        "Régimen de gamma NEGATIVO, en -5,86 mil M$ por 1 % (antes -5,95): se modera levemente.",
         "Giro de gamma no disponible (dato ausente); el put wall en 28.777 sigue siendo la referencia técnica más relevante a la baja.",
-        "Max pain en 30.133 (QQQ 733,0); put/call de open interest baja a 2,30 (antes 2,36)."
+        "Max pain en 30.133 (QQQ 733,0); put/call de open interest estable en 2,30."
       ],
       "gex": {
         "callWall": 760,
-        "contratos": 1732,
+        "contratos": 1756,
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -5.95,
+        "gexTotal": -5.86,
         "indice": {
           "callWall": 31243,
           "gammaFlip": null,
           "maxPain": 30133,
-          "precio": 29182,
+          "precio": 29196,
           "putWall": 28777
         },
         "maxPain": 733,
@@ -985,7 +985,7 @@
         },
         "oiFecha": "2026-10-14",
         "pcrOI": 2.3,
-        "precio": 709.86,
+        "precio": 710.2,
         "putWall": 700,
         "ratioFecha": "2026-10-15",
         "ratioIndice": 41.1096,
@@ -993,7 +993,7 @@
         "vencimientoCercano": "2026-10-16"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cierra en 29.293,80 (-2,05 % en la sesión), profundizando la caída frente al -1,32 % de media sesión, con el sector tecnológico liderando las pérdidas. El régimen de gamma se acentúa levemente a -5,95 mil M$ por 1 % (antes -5,92) y el put wall en 28.777 sigue siendo la referencia técnica clave a la baja. El estrés de financiación de la IA se intensifica: los bonos de CoreWeave con vencimiento en 2032 superan el 15 % de rentabilidad, Oracle y Nebius también caen, y los semiconductores encadenan ya su octava sesión consecutiva de pérdidas, la peor racha desde 2015.",
+      "lectura": "El Nasdaq 100 cierra en 29.293,80 (-2,05 % en la sesión), profundizando la caída frente al -1,32 % de media sesión, con el sector tecnológico liderando las pérdidas. El régimen de gamma se modera levemente a -5,86 mil M$ por 1 % (antes -5,95) y el put wall en 28.777 sigue siendo la referencia técnica clave a la baja. El estrés de financiación de la IA se intensifica: los bonos de CoreWeave con vencimiento en 2032 superan el 15 % de rentabilidad, Oracle y Nebius también caen, y los semiconductores encadenan ya su octava sesión consecutiva de pérdidas, la peor racha desde 2015.",
       "levels": {
         "callWall": 31243,
         "gammaFlip": null,
@@ -1001,7 +1001,7 @@
         "putWall": 28777
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-5,95 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-14)",
+      "netGex": "negativa (-5,86 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-14)",
       "regime": "negativa",
       "score": -55,
       "sesgo": "bajista",
@@ -1516,7 +1516,7 @@
       }
     ]
   },
-  "resumen": "Son las 20:16 UTC (21:16 en Canarias, 16:16 hora de Nueva York) del viernes 16 de octubre de 2026, justo tras el cierre de Wall Street. El S&P 500 cierra en 7.659,44 (-1,09 % frente al cierre del jueves) y el Nasdaq 100 en 29.293,80 (-2,05 % en la sesión), lastrados por el desplome de semiconductores y el estrés de financiación de la IA (bonos de CoreWeave por encima del 15 % de rentabilidad, Oracle y Nebius también a la baja, octava sesión consecutiva de pérdidas en SOXX). El régimen de gamma sigue NEGATIVO en ambos índices (-8,03 y -5,95 mil M$ por 1 % respectivamente). El dólar sigue débil tras los comentarios de Kevin Warsh en el FMI de Bangkok, con el oro cerca de 4.180 $/oz buscando los 4.230 $ y el EUR/USD en 1,1254, camino de su primera subida semanal en un mes. El petróleo repunta con fuerza en la sesión tras varios días de caídas, en medio de la tensión en el estrecho de Ormuz. La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene estable en el 13,5 % (mantener 86,0 %), sin apenas cambios desde la actualización de esta tarde.",
+  "resumen": "Son las 21:16 UTC (22:16 en Canarias, 17:16 hora de Nueva York) del viernes 16 de octubre de 2026, tras el cierre de Wall Street. El S&P 500 cerró en 7.659,44 (-1,09 % frente al cierre del jueves) y el Nasdaq 100 en 29.293,80 (-2,05 % en la sesión), lastrados por el desplome de semiconductores y el estrés de financiación de la IA (bonos de CoreWeave por encima del 15 % de rentabilidad, Oracle y Nebius también a la baja, octava sesión consecutiva de pérdidas en SOXX). El régimen de gamma sigue NEGATIVO en ambos índices, moderándose levemente a -7,69 y -5,86 mil M$ por 1 % respectivamente (antes -8,03 y -5,95). El dólar sigue débil tras los comentarios de Kevin Warsh en el FMI de Bangkok, con el oro cerca de 4.176 $/oz y el EUR/USD en torno a 1,123, camino de su primera subida semanal en un mes. El petróleo repunta con fuerza tras varios días de caídas, en medio de la tensión en el estrecho de Ormuz. La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene estable en el 13,5 % (mantener 86,0 %).",
   "semana": {
     "activos": [
       {
@@ -1897,5 +1897,5 @@
     "updatedAt": "2026-10-16T20:18:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-16T20:18:00Z"
+  "updatedAt": "2026-10-16T21:20:00Z"
 }
