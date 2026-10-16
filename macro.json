@@ -464,24 +464,24 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-16T07:12:32Z",
+    "actualizado": "2026-10-16T08:13:58Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre apenas se mueve, en el 13,5 % (mantener 86,0 %, bajar 0,5 %), confirmando el alivio de esta madrugada tras las palabras de Warsh en Bangkok. La probabilidad de diciembre sube ligeramente al 86,0 % (tasa implícita 4,14 %, desde 85,0 %), y la de enero de 2027 se mantiene en el 92,5 % (tasa implícita 4,32 %).",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene prácticamente plana, en el 14,0 % (mantener 85,5 %, bajar 0,5 %), apenas una décima por encima de hace una hora. La de diciembre retrocede ligeramente al 85,5 % (tasa implícita 4,13 %, desde el 86,0 % y 4,14 % anteriores), y la de enero de 2027 se mantiene en el 92,5 % (tasa implícita 4,32 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 86,
-        "subir": 13.5,
+        "mantener": 85.5,
+        "subir": 14,
         "tasaImplicita": 3.91
       },
       {
         "bajar": 2.5,
         "fecha": "2026-12-09",
-        "mantener": 11.5,
-        "subir": 86,
-        "tasaImplicita": 4.14
+        "mantener": 12,
+        "subir": 85.5,
+        "tasaImplicita": 4.13
       },
       {
         "bajar": 5.5,
@@ -866,23 +866,209 @@
   ],
   "indices": [
     {
-      "changeNote": "futuros ES antes de la apertura europea (pre-Londres), tras el cierre de Wall Street del jueves en 7.746 (+0,35 %)",
+      "changeNote": "futuros ES antes de la apertura europea (08:16 UTC / 09:16 Canarias), tras el cierre de Wall Street del jueves en 7.746 (+0,35 %)",
       "changePct": 0.2,
       "claves": [
         "Call wall en 7823 (SPY 780.0); put wall en 7572 (SPY 755.0).",
-        "Régimen de gamma NEGATIVO, en -3.35 mil M$ por 1 % (se mantiene estable frente a la lectura previa).",
-        "Giro de gamma en 7800 (SPY 777.76); max pain en 7732 (SPY 771.0).",
-        "Put/call de open interest en 1.62."
+        "Régimen de gamma NEGATIVO, en -1,22 mil M$ por 1 % (se suaviza con fuerza frente a los -3,35 de la lectura anterior).",
+        "Giro de gamma en 7786 (SPY 776.37); max pain en 7732 (SPY 771.0).",
+        "Put/call de open interest en 1,62."
       ],
       "gex": {
         "callWall": 780,
-        "contratos": 1778,
+        "contratos": 1574,
+        "escalera": [
+          {
+            "gex": -52.7,
+            "strike": 749
+          },
+          {
+            "gex": -566.5,
+            "strike": 750
+          },
+          {
+            "gex": -93.4,
+            "strike": 751
+          },
+          {
+            "gex": -101.3,
+            "strike": 752
+          },
+          {
+            "gex": -117.7,
+            "strike": 753
+          },
+          {
+            "gex": -107.4,
+            "strike": 754
+          },
+          {
+            "gex": -803.3,
+            "strike": 755
+          },
+          {
+            "gex": -59.4,
+            "strike": 756
+          },
+          {
+            "gex": -154.2,
+            "strike": 757
+          },
+          {
+            "gex": -72.4,
+            "strike": 758
+          },
+          {
+            "gex": -107.5,
+            "strike": 759
+          },
+          {
+            "gex": -459.8,
+            "strike": 760
+          },
+          {
+            "gex": -83.2,
+            "strike": 761
+          },
+          {
+            "gex": -113.6,
+            "strike": 762
+          },
+          {
+            "gex": -99.9,
+            "strike": 763
+          },
+          {
+            "gex": -75.4,
+            "strike": 764
+          },
+          {
+            "gex": -587.4,
+            "strike": 765
+          },
+          {
+            "gex": -62.7,
+            "strike": 766
+          },
+          {
+            "gex": -170.1,
+            "strike": 767
+          },
+          {
+            "gex": -47.1,
+            "strike": 768
+          },
+          {
+            "gex": -153.8,
+            "strike": 769
+          },
+          {
+            "gex": -29.9,
+            "strike": 770
+          },
+          {
+            "gex": -21.6,
+            "strike": 771
+          },
+          {
+            "gex": -11.4,
+            "strike": 772
+          },
+          {
+            "gex": 104.6,
+            "strike": 773
+          },
+          {
+            "gex": 76.4,
+            "strike": 774
+          },
+          {
+            "gex": 291.5,
+            "strike": 775
+          },
+          {
+            "gex": 109.3,
+            "strike": 776
+          },
+          {
+            "gex": 97.2,
+            "strike": 777
+          },
+          {
+            "gex": 251.4,
+            "strike": 778
+          },
+          {
+            "gex": 71.7,
+            "strike": 779
+          },
+          {
+            "gex": 565.5,
+            "strike": 780
+          },
+          {
+            "gex": 114.7,
+            "strike": 781
+          },
+          {
+            "gex": 147.6,
+            "strike": 782
+          },
+          {
+            "gex": 403.4,
+            "strike": 783
+          },
+          {
+            "gex": 113.1,
+            "strike": 784
+          },
+          {
+            "gex": 442.1,
+            "strike": 785
+          },
+          {
+            "gex": 117,
+            "strike": 786
+          },
+          {
+            "gex": 86.2,
+            "strike": 787
+          },
+          {
+            "gex": 128.7,
+            "strike": 788
+          },
+          {
+            "gex": 93.9,
+            "strike": 789
+          },
+          {
+            "gex": 442.3,
+            "strike": 790
+          },
+          {
+            "gex": 58.4,
+            "strike": 791
+          },
+          {
+            "gex": 62.5,
+            "strike": 792
+          },
+          {
+            "gex": 76.5,
+            "strike": 793
+          },
+          {
+            "gex": 64.2,
+            "strike": 794
+          }
+        ],
         "etf": "SPY",
-        "gammaFlip": 777.76,
-        "gexTotal": -3.35,
+        "gammaFlip": 776.37,
+        "gexTotal": -1.22,
         "indice": {
           "callWall": 7823,
-          "gammaFlip": 7800,
+          "gammaFlip": 7786,
           "maxPain": 7732,
           "precio": 7739,
           "putWall": 7572
@@ -892,8 +1078,11 @@
           "base": "open interest",
           "callWall": 785,
           "esHoy": true,
+          "gammaFlip": null,
+          "gexTotal": null,
           "indice": {
             "callWall": 7873,
+            "gammaFlip": null,
             "maxPain": 7732,
             "putWall": 7522
           },
@@ -907,19 +1096,20 @@
         "precio": 771.68,
         "putWall": 755,
         "ratioFecha": "2026-10-14",
+        "ratioIndice": 10.0292,
         "regimen": "negativa",
         "vencimientoCercano": "2026-10-16"
       },
       "id": "SPX",
-      "lectura": "Antes de la apertura de Londres (06:50 UTC), los futuros ES suben un 0,2 % tras el cierre del jueves en 7.746 (+0,35 %), con Asia rebotando con fuerza (Kospi +3 %) después de que el presidente de la Fed, Kevin Warsh, evitara dar señal sobre la reunión del 28 de octubre en Bangkok, hundiendo la probabilidad de subida al 14,0 % (desde 30,0 % ayer). El régimen de gamma sigue NEGATIVO (-3,35 mil M$ por 1 %) con el precio por debajo del giro de gamma (7.800), lo que deja margen para más volatilidad si el precio no logra recuperar ese nivel. Los aranceles de Trump (150-300 % a empresas sin fábricas en EE. UU.) y la tensión en el estrecho de Ormuz siguen siendo el principal contrapeso bajista, con la liquidez de la Fed entrando (+7.000 M$ en la semana) como apoyo de fondo, y el dato de producción industrial de hoy (13:15 UTC) como próximo catalizador.",
+      "lectura": "A las 08:16 UTC (09:16 hora de Canarias), antes de la apertura de Londres, los futuros ES suben un 0,2 % tras el cierre del jueves en 7.746 puntos (+0,35 %), con Asia rebotando con fuerza (MSCI Asia-Pacífico +1,4 %) tras los comentarios del presidente de la Fed, Kevin Warsh, en las reuniones del FMI en Bangkok, que mantienen la probabilidad de subida del 28 de octubre casi plana en el 14,0 % (mantener 85,5 %). El régimen de gamma sigue NEGATIVO pero se suaviza con fuerza, a -1,22 mil M$ por 1 % (desde -3,35), con el giro de gamma ahora en 7.786, apenas por encima del precio. Los aranceles de Trump y la tensión en el estrecho de Ormuz siguen como contrapeso bajista, con la liquidez de la Fed entrando como apoyo de fondo; el dato de producción industrial de hoy (13:15 UTC) es el próximo catalizador.",
       "levels": {
         "callWall": 7823,
-        "gammaFlip": 7800,
+        "gammaFlip": 7786,
         "maxPain": 7732,
         "putWall": 7572
       },
       "name": "S&P 500",
-      "netGex": "negativa (-3.35 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-14)",
+      "netGex": "negativa (-1.22 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-14)",
       "odte": {},
       "regime": "negativa",
       "score": -28,
@@ -927,23 +1117,201 @@
       "spot": 7761
     },
     {
-      "changeNote": "futuros NQ antes de la apertura europea (pre-Londres), tras el cierre de Wall Street del jueves en 29.520 (-1,44 %)",
+      "changeNote": "futuros NQ antes de la apertura europea (08:16 UTC / 09:16 Canarias), tras el cierre de Wall Street del jueves en 29.520 (-1,44 %)",
       "changePct": 0.3,
       "claves": [
         "Call wall en 31225 (QQQ 760.0); put wall en 29582 (QQQ 720.0).",
-        "Régimen de gamma NEGATIVO, en -4.95 mil M$ por 1 % (estable frente a la lectura previa).",
-        "Giro de gamma en 30670 (QQQ 746.49); max pain en 30116 (QQQ 733.0).",
-        "Put/call de open interest en 1.57."
+        "Régimen de gamma NEGATIVO, en -3,42 mil M$ por 1 % (se suaviza frente a los -4,95 de la lectura anterior).",
+        "Giro de gamma en 30672 (QQQ 746.55); max pain en 30116 (QQQ 733.0).",
+        "Put/call de open interest en 1,57."
       ],
       "gex": {
         "callWall": 760,
-        "contratos": 1632,
+        "contratos": 1832,
+        "escalera": [
+          {
+            "gex": -16.4,
+            "strike": 706
+          },
+          {
+            "gex": -21.2,
+            "strike": 707
+          },
+          {
+            "gex": -34.8,
+            "strike": 708
+          },
+          {
+            "gex": -18.5,
+            "strike": 709
+          },
+          {
+            "gex": -464.8,
+            "strike": 710
+          },
+          {
+            "gex": -191,
+            "strike": 711
+          },
+          {
+            "gex": -38.5,
+            "strike": 712
+          },
+          {
+            "gex": -152.9,
+            "strike": 713
+          },
+          {
+            "gex": -50.1,
+            "strike": 714
+          },
+          {
+            "gex": -361.5,
+            "strike": 715
+          },
+          {
+            "gex": -66.2,
+            "strike": 716
+          },
+          {
+            "gex": -85.2,
+            "strike": 717
+          },
+          {
+            "gex": -28.9,
+            "strike": 718
+          },
+          {
+            "gex": -35.9,
+            "strike": 719
+          },
+          {
+            "gex": -590.9,
+            "strike": 720
+          },
+          {
+            "gex": -29.7,
+            "strike": 721
+          },
+          {
+            "gex": -39.4,
+            "strike": 722
+          },
+          {
+            "gex": -31.1,
+            "strike": 723
+          },
+          {
+            "gex": -32.1,
+            "strike": 724
+          },
+          {
+            "gex": -592,
+            "strike": 725
+          },
+          {
+            "gex": -68.3,
+            "strike": 726
+          },
+          {
+            "gex": -20.9,
+            "strike": 727
+          },
+          {
+            "gex": -59.7,
+            "strike": 728
+          },
+          {
+            "gex": 5.8,
+            "strike": 729
+          },
+          {
+            "gex": -316.8,
+            "strike": 730
+          },
+          {
+            "gex": -2.9,
+            "strike": 731
+          },
+          {
+            "gex": -44.2,
+            "strike": 732
+          },
+          {
+            "gex": 71.9,
+            "strike": 733
+          },
+          {
+            "gex": -17.8,
+            "strike": 734
+          },
+          {
+            "gex": -122,
+            "strike": 735
+          },
+          {
+            "gex": 7.3,
+            "strike": 736
+          },
+          {
+            "gex": -8.4,
+            "strike": 737
+          },
+          {
+            "gex": 18.6,
+            "strike": 738
+          },
+          {
+            "gex": 4.3,
+            "strike": 739
+          },
+          {
+            "gex": -32.1,
+            "strike": 740
+          },
+          {
+            "gex": -5.6,
+            "strike": 741
+          },
+          {
+            "gex": -2.6,
+            "strike": 742
+          },
+          {
+            "gex": -3.3,
+            "strike": 743
+          },
+          {
+            "gex": 18.4,
+            "strike": 744
+          },
+          {
+            "gex": 59,
+            "strike": 745
+          },
+          {
+            "gex": 20.3,
+            "strike": 746
+          },
+          {
+            "gex": 11.8,
+            "strike": 747
+          },
+          {
+            "gex": 18.6,
+            "strike": 748
+          },
+          {
+            "gex": 69.9,
+            "strike": 749
+          }
+        ],
         "etf": "QQQ",
-        "gammaFlip": 746.49,
-        "gexTotal": -4.95,
+        "gammaFlip": 746.55,
+        "gexTotal": -3.42,
         "indice": {
           "callWall": 31225,
-          "gammaFlip": 30670,
+          "gammaFlip": 30672,
           "maxPain": 30116,
           "precio": 29877,
           "putWall": 29582
@@ -953,8 +1321,11 @@
           "base": "open interest",
           "callWall": 760,
           "esHoy": true,
+          "gammaFlip": null,
+          "gexTotal": null,
           "indice": {
             "callWall": 31225,
+            "gammaFlip": null,
             "maxPain": 30116,
             "putWall": 28760
           },
@@ -968,19 +1339,20 @@
         "precio": 727.2,
         "putWall": 720,
         "ratioFecha": "2026-10-14",
+        "ratioIndice": 41.0856,
         "regimen": "negativa",
         "vencimientoCercano": "2026-10-16"
       },
       "id": "NDX",
-      "lectura": "Antes de la apertura de Londres, los futuros NQ suben un 0,3 % tras el cierre del jueves cerca de 29.520 (-1,44 %), lastrado por el desplome de semiconductores (TSMC, SK Hynix) y el hundimiento de CoreWeave; el rebote de Asia (Kospi +3 %) y la caída de la probabilidad de subida de la Fed al 14,0 % tras Warsh alivian algo la presión, pero el régimen de gamma sigue NEGATIVO (-4,95 mil M$ por 1 %) con el precio todavía lejos del giro de gamma (30.670). El riesgo sectorial de IA/semiconductores (desaceleración de ingresos de Anthropic, bonos de CoreWeave) sigue siendo el factor dominante sobre la política de la Fed.",
+      "lectura": "A las 08:16 UTC, los futuros NQ suben un 0,3 % tras el cierre del jueves cerca de 29.520 (-1,44 %), lastrado por el desplome de semiconductores y CoreWeave; el rebote de Asia y la probabilidad de subida de la Fed casi plana en el 14,0 % alivian algo la presión, y el régimen de gamma, aunque sigue NEGATIVO, se suaviza con fuerza a -3,42 mil M$ por 1 % (desde -4,95), con el giro de gamma en 30.672. El riesgo sectorial de IA/semiconductores sigue siendo el factor dominante sobre la política de la Fed.",
       "levels": {
         "callWall": 31225,
-        "gammaFlip": 30670,
+        "gammaFlip": 30672,
         "maxPain": 30116,
         "putWall": 29582
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-4.95 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-14)",
+      "netGex": "negativa (-3.42 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-14)",
       "odte": {},
       "regime": "negativa",
       "score": -33,
@@ -1496,7 +1868,7 @@
       }
     ]
   },
-  "resumen": "Son las 06:50 UTC (07:50 hora de Canarias) del viernes 16 de octubre de 2026, antes de la apertura de Londres. El S&P 500 cerró el jueves en 7.746 puntos (+0,35 %) y el Nasdaq 100 en 29.520 (-1,44 %), lastrado por el desplome de semiconductores y CoreWeave; los futuros ES/NQ suben un 0,2-0,3 % en la sesión asiática, que rebota con fuerza (Kospi +3 %) tras los comentarios del presidente de la Fed, Kevin Warsh, en las reuniones del FMI en Bangkok, donde evitó dar cualquier señal sobre la reunión del 28 de octubre y dijo que ya no prejuzgará las decisiones del FOMC: la probabilidad de subida (motor Kalshi) se mantiene hundida en el 14,0 % (mantener 85,5 %), frente al 30,0 % de ayer. El régimen de gamma sigue NEGATIVO en ambos índices (SPX -3,35, NDX -4,95 mil M$ por 1 %), con el precio por debajo del giro de gamma en los dos casos. El oro ronda los 4.153 $/oz, el petróleo WTI cae un 0,55 % a 97,43 $ ante la posibilidad de que Trump relaje restricciones a países bajo sanciones, el EUR/USD cotiza cerca de 1,1211 tras subir un 0,47 % el jueves, y bitcoin se mantiene cerca de 82.000-83.000 $ tras rebotar desde el mínimo de 80.000 $ de ayer. Los aranceles de Trump, la tensión en el estrecho de Ormuz y el tono cauto de Lagarde sobre la deuda francesa siguen pesando como contrapeso bajista, mientras la liquidez de la Fed sigue entrando (+7.000 M$ en la última semana) como apoyo de fondo. El dato de producción industrial de EE. UU. (13:15 UTC) es el próximo catalizador antes del cierre semanal.",
+  "resumen": "Son las 08:16 UTC (09:16 hora de Canarias) del viernes 16 de octubre de 2026, antes de la apertura de Londres. El S&P 500 cerró el jueves en 7.746 puntos (+0,35 %) y el Nasdaq 100 en 29.520 (-1,44 %), lastrado por el desplome de semiconductores y CoreWeave; los futuros ES/NQ suben un 0,2-0,3 % en la sesión asiática, que rebota con fuerza (MSCI Asia-Pacífico +1,4 %) tras los comentarios del presidente de la Fed, Kevin Warsh, en las reuniones del FMI en Bangkok, donde evitó dar cualquier señal sobre la reunión del 28 de octubre: la probabilidad de subida (motor Kalshi) se mantiene prácticamente plana en el 14,0 % (mantener 85,5 %), y la de diciembre retrocede ligeramente al 85,5 %. El régimen de gamma sigue NEGATIVO en ambos índices pero se suaviza con fuerza (SPX -1,22, NDX -3,42 mil M$ por 1 %, desde -3,35 y -4,95), señal de menos presión de los creadores de mercado. El oro ronda los 4.150 $/oz, el petróleo WTI cae a 97,43 $ ante la posibilidad de que Trump relaje restricciones a países bajo sanciones, el euro sube hacia 1,1230 ante la debilidad del dólar tras Warsh (camino de su primera caída semanal en cinco), y bitcoin se mantiene cerca de 82.000-82.500 $ tras rebotar desde el mínimo de 80.000 $ de ayer. Los aranceles de Trump y la tensión en el estrecho de Ormuz siguen pesando como contrapeso bajista, mientras la liquidez de la Fed sigue entrando como apoyo de fondo. El dato de producción industrial de EE. UU. (13:15 UTC) es el próximo catalizador antes del cierre semanal.",
   "semana": {
     "activos": [
       {
@@ -1876,5 +2248,5 @@
     "updatedAt": "2026-10-16T06:20:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-16T07:16:40Z"
+  "updatedAt": "2026-10-16T08:16:13Z"
 }
