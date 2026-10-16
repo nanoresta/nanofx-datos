@@ -464,24 +464,24 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-16T06:10:15Z",
+    "actualizado": "2026-10-16T07:12:32Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre se desploma al 14,5 % (mantener 85,0 %, bajar 0,5 %), revirtiendo el salto al 30,0 % de ayer: el presidente de la Fed, Kevin Warsh, habló hoy en las reuniones del FMI-Banco Mundial en Bangkok y evitó dar ninguna señal sobre la reunión de octubre, diciendo que ya no prejuzgará las decisiones del FOMC. La probabilidad de diciembre baja ligeramente al 85,5 % (desde 87,0 %), con la tasa implícita estable en el 4,15 %.",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre apenas se mueve, en el 13,5 % (mantener 86,0 %, bajar 0,5 %), confirmando el alivio de esta madrugada tras las palabras de Warsh en Bangkok. La probabilidad de diciembre sube ligeramente al 86,0 % (tasa implícita 4,14 %, desde 85,0 %), y la de enero de 2027 se mantiene en el 92,5 % (tasa implícita 4,32 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 85,
-        "subir": 14.5,
+        "mantener": 86,
+        "subir": 13.5,
         "tasaImplicita": 3.91
       },
       {
         "bajar": 2.5,
         "fecha": "2026-12-09",
-        "mantener": 12,
-        "subir": 85.5,
-        "tasaImplicita": 4.15
+        "mantener": 11.5,
+        "subir": 86,
+        "tasaImplicita": 4.14
       },
       {
         "bajar": 5.5,
@@ -846,17 +846,33 @@
     {
       "nombre": "CBS News · Iran War Updates: Ships in Strait of Hormuz still face 'indiscriminate attacks' (15 oct)",
       "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+    },
+    {
+      "nombre": "The Star (Malaysia) / Reuters · Fed's Warsh gives no hint on October policy decision (16 oct)",
+      "url": "https://www.thestar.com.my/business/business-news/2026/10/16/fed039s-warsh-gives-no-hint-on-october-policy-decision"
+    },
+    {
+      "nombre": "Inkl · Oil Price Today (16 oct): crude dips to $97-105 as Trump mulls easing sanctions restrictions",
+      "url": "https://www.inkl.com/news/oil-price-today-october-16-crude-oil-dips-to-105-as-trump-mulls-easing-restrictions-on-sanction-facing-nations-whats-next"
+    },
+    {
+      "nombre": "Mitrade · Gold rebounds amid bond, debt, PPI moves (16 oct)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-bond-debt-ppi"
+    },
+    {
+      "nombre": "Schwab · Stock Market Update: Stocks slip early after wholesale inflation surges",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
     }
   ],
   "indices": [
     {
-      "changeNote": "cierre de Wall Street, 16:00 hora de Nueva York (recupera impulsado por la banca; Dow +1 %)",
-      "changePct": 0.35,
+      "changeNote": "futuros ES antes de la apertura europea (pre-Londres), tras el cierre de Wall Street del jueves en 7.746 (+0,35 %)",
+      "changePct": 0.2,
       "claves": [
-        "Call wall en 7823 (SPY 780,0); put wall en 7572 (SPY 755,0).",
-        "Régimen de gamma NEGATIVO, en -3,35 mil M$ por 1 % (antes -8,98: se suaviza con fuerza).",
-        "Giro de gamma en 7800 (SPY 777,76); max pain en 7732 (SPY 771,0).",
-        "Put/call de open interest en 1,62 (antes 1,67)."
+        "Call wall en 7823 (SPY 780.0); put wall en 7572 (SPY 755.0).",
+        "Régimen de gamma NEGATIVO, en -3.35 mil M$ por 1 % (se mantiene estable frente a la lectura previa).",
+        "Giro de gamma en 7800 (SPY 777.76); max pain en 7732 (SPY 771.0).",
+        "Put/call de open interest en 1.62."
       ],
       "gex": {
         "callWall": 780,
@@ -876,11 +892,8 @@
           "base": "open interest",
           "callWall": 785,
           "esHoy": true,
-          "gammaFlip": null,
-          "gexTotal": null,
           "indice": {
             "callWall": 7873,
-            "gammaFlip": null,
             "maxPain": 7732,
             "putWall": 7522
           },
@@ -894,12 +907,11 @@
         "precio": 771.68,
         "putWall": 755,
         "ratioFecha": "2026-10-14",
-        "ratioIndice": 10.0292,
         "regimen": "negativa",
         "vencimientoCercano": "2026-10-16"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cerró el jueves en 7.746 puntos (+0,35 %); antes de la apertura del viernes, el presidente de la Fed, Kevin Warsh, evitó dar señal sobre la reunión del 28 de octubre en las reuniones del FMI en Bangkok, lo que hundió la probabilidad de subida al 14,5 % (desde el 30,0 % de ayer) y debería aliviar la presión sobre la bolsa. El régimen de gamma sigue NEGATIVO pero se suaviza con fuerza (-3,35 mil M$ por 1 %, desde -8,98), con el precio aún por debajo del giro de gamma (7.800). Los aranceles de Trump y la tensión en el estrecho de Ormuz siguen siendo el principal contrapeso bajista, junto con la liquidez de la Fed entrando como apoyo de fondo.",
+      "lectura": "Antes de la apertura de Londres (06:50 UTC), los futuros ES suben un 0,2 % tras el cierre del jueves en 7.746 (+0,35 %), con Asia rebotando con fuerza (Kospi +3 %) después de que el presidente de la Fed, Kevin Warsh, evitara dar señal sobre la reunión del 28 de octubre en Bangkok, hundiendo la probabilidad de subida al 14,0 % (desde 30,0 % ayer). El régimen de gamma sigue NEGATIVO (-3,35 mil M$ por 1 %) con el precio por debajo del giro de gamma (7.800), lo que deja margen para más volatilidad si el precio no logra recuperar ese nivel. Los aranceles de Trump (150-300 % a empresas sin fábricas en EE. UU.) y la tensión en el estrecho de Ormuz siguen siendo el principal contrapeso bajista, con la liquidez de la Fed entrando (+7.000 M$ en la semana) como apoyo de fondo, y el dato de producción industrial de hoy (13:15 UTC) como próximo catalizador.",
       "levels": {
         "callWall": 7823,
         "gammaFlip": 7800,
@@ -907,31 +919,31 @@
         "putWall": 7572
       },
       "name": "S&P 500",
-      "netGex": "negativa (-3,35 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-14)",
+      "netGex": "negativa (-3.35 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-14)",
       "odte": {},
       "regime": "negativa",
       "score": -28,
       "sesgo": "bajista",
-      "spot": 7746
+      "spot": 7761
     },
     {
-      "changeNote": "cierre de Wall Street, 16:00 hora de Nueva York (el desplome de semiconductores y CoreWeave domina pese al rebote del S&P 500 y el Dow)",
-      "changePct": -1.44,
+      "changeNote": "futuros NQ antes de la apertura europea (pre-Londres), tras el cierre de Wall Street del jueves en 29.520 (-1,44 %)",
+      "changePct": 0.3,
       "claves": [
-        "Call wall en 31225 (QQQ 760,0); put wall en 29582 (QQQ 720,0).",
-        "Régimen de gamma NEGATIVO, en -4,95 mil M$ por 1 % (antes -6,66: también se suaviza).",
-        "Giro de gamma en 30671 (QQQ 746,51); max pain en 30116 (QQQ 733,0).",
-        "Put/call de open interest en 1,57 (antes 1,78)."
+        "Call wall en 31225 (QQQ 760.0); put wall en 29582 (QQQ 720.0).",
+        "Régimen de gamma NEGATIVO, en -4.95 mil M$ por 1 % (estable frente a la lectura previa).",
+        "Giro de gamma en 30670 (QQQ 746.49); max pain en 30116 (QQQ 733.0).",
+        "Put/call de open interest en 1.57."
       ],
       "gex": {
         "callWall": 760,
         "contratos": 1632,
         "etf": "QQQ",
-        "gammaFlip": 746.51,
+        "gammaFlip": 746.49,
         "gexTotal": -4.95,
         "indice": {
           "callWall": 31225,
-          "gammaFlip": 30671,
+          "gammaFlip": 30670,
           "maxPain": 30116,
           "precio": 29877,
           "putWall": 29582
@@ -941,11 +953,8 @@
           "base": "open interest",
           "callWall": 760,
           "esHoy": true,
-          "gammaFlip": null,
-          "gexTotal": null,
           "indice": {
             "callWall": 31225,
-            "gammaFlip": null,
             "maxPain": 30116,
             "putWall": 28760
           },
@@ -959,29 +968,28 @@
         "precio": 727.2,
         "putWall": 720,
         "ratioFecha": "2026-10-14",
-        "ratioIndice": 41.0856,
         "regimen": "negativa",
         "vencimientoCercano": "2026-10-16"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cerró el jueves cerca de 29.520 (-1,44 %), lastrado por el desplome de semiconductores (TSMC, SK Hynix) y el hundimiento de CoreWeave; antes de la apertura del viernes, Warsh evitó señalar una subida en octubre en Bangkok, hundiendo la probabilidad al 14,5 % (desde el 30,0 %), lo que debería aliviar algo la presión sobre el índice. El régimen de gamma NEGATIVO también se suaviza (-4,95 mil M$ por 1 %, desde -6,66), con el precio todavía lejos del giro de gamma (30.671). El riesgo sectorial de IA/semiconductores sigue siendo el factor dominante sobre la política de la Fed.",
+      "lectura": "Antes de la apertura de Londres, los futuros NQ suben un 0,3 % tras el cierre del jueves cerca de 29.520 (-1,44 %), lastrado por el desplome de semiconductores (TSMC, SK Hynix) y el hundimiento de CoreWeave; el rebote de Asia (Kospi +3 %) y la caída de la probabilidad de subida de la Fed al 14,0 % tras Warsh alivian algo la presión, pero el régimen de gamma sigue NEGATIVO (-4,95 mil M$ por 1 %) con el precio todavía lejos del giro de gamma (30.670). El riesgo sectorial de IA/semiconductores (desaceleración de ingresos de Anthropic, bonos de CoreWeave) sigue siendo el factor dominante sobre la política de la Fed.",
       "levels": {
         "callWall": 31225,
-        "gammaFlip": 30671,
+        "gammaFlip": 30670,
         "maxPain": 30116,
         "putWall": 29582
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-4,95 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-14)",
+      "netGex": "negativa (-4.95 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-14)",
       "odte": {},
       "regime": "negativa",
       "score": -33,
       "sesgo": "bajista",
-      "spot": 29520
+      "spot": 29609
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-15T21:28:27Z",
+    "actualizado": "2026-10-16T06:41:07Z",
     "balance": 6755.6,
     "d4": 7.9,
     "dBalance": 8,
@@ -1114,6 +1122,22 @@
     "tga": 883.4
   },
   "noticias": [
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NQ": "neutral",
+        "SPX": "neutral",
+        "WTI": "bajista",
+        "XAU": "neutral"
+      },
+      "fuente": "Mitrade / Inkl / Moneta Markets",
+      "impacto": "medio",
+      "resumen": "El oro cotiza entre 4.150 y 4.157 $/oz en la sesión asiática mientras el mercado digiera el alivio de Warsh; el WTI retrocede un 0,55 % mientras Trump estudia relajar restricciones a países bajo sanciones, aliviando el riesgo de oferta de Ormuz.",
+      "titular": "El oro ronda los 4.153 $/oz y el WTI cae a 97,43 $ en la sesión asiática del viernes",
+      "ts": "2026-10-16T06:30:00Z",
+      "url": "https://www.inkl.com/news/oil-price-today-october-16-crude-oil-dips-to-105-as-trump-mulls-easing-restrictions-on-sanction-facing-nations-whats-next"
+    },
     {
       "activos": {
         "BTC": "neutral",
@@ -1337,61 +1361,45 @@
       "titular": "El índice manufacturero de la Fed de Filadelfia se hunde a 20,9 en octubre, muy por debajo de lo esperado",
       "ts": "2026-10-15T12:30:00Z",
       "url": "https://investinglive.com/news/us-october-philly-fed-business-index-20-9-vs-28-4-expected/"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "EURUSD": "neutral",
-        "NQ": "neutral",
-        "SPX": "neutral",
-        "WTI": "neutral",
-        "XAU": "neutral"
-      },
-      "fuente": "KuCoin News",
-      "impacto": "alto",
-      "resumen": "Las salidas de los ETF spot de bitcoin suman unos 261 millones $ y casi 1.000 millones $ en posiciones apalancadas se liquidan mientras BTC roza los 80.000 $.",
-      "titular": "Los ETF de bitcoin sufren salidas de 261 millones $ y se liquidan cerca de 1.000 millones $ en apuestas",
-      "ts": "2026-10-15T11:10:00Z",
-      "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-15-2026"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-10-16, por open interest (SPY 785,0). Put/call OI: 1,77.",
+        "nota": "Vencimiento 2026-10-16, por open interest (SPY 785.0). Put/call OI: 1.77.",
         "valor": "7.873"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "SPY 750,0.",
+        "nota": "SPY 750.0.",
         "valor": "7.522"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "SPY 771,0.",
+        "nota": "SPY 771.0.",
         "valor": "7.732"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-10-16, por open interest (QQQ 760,0). Put/call OI: 1,31.",
+        "nota": "Vencimiento 2026-10-16, por open interest (QQQ 760.0). Put/call OI: 1.31.",
         "valor": "31.225"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "QQQ 700,0.",
+        "nota": "QQQ 700.0.",
         "valor": "28.760"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "QQQ 733,0.",
+        "nota": "QQQ 733.0.",
         "valor": "30.116"
       }
     ],
-    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 16 de octubre, por open interest, sin dato de gamma). El put/call de hoy baja a 1,77 en SPX (desde 2,39) y a 1,31 en Nasdaq 100 (desde 1,36), moderando algo la cobertura bajista a corto plazo. El max pain 0DTE coincide con el max pain principal en ambos índices (7.732 y 30.116); el rango 0DTE (7.522-7.873 en SPX, 28.760-31.225 en NDX) marca el rango técnico esperado para hoy."
+    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 16 de octubre, por open interest, sin dato de gamma). El put/call de hoy es de 1,77 en SPX y 1,31 en Nasdaq 100, sin apenas cambios en las últimas horas. El max pain 0DTE coincide con el max pain principal en ambos índices (7.732 y 30.116); el rango 0DTE (7.522-7.873 en SPX, 28.760-31.225 en NDX) marca el rango técnico esperado para la sesión, con los futuros ya operando dentro de ese rango antes de la apertura europea."
   },
   "politica": {
-    "actualizado": "2026-10-16T06:20:00Z",
+    "actualizado": "2026-10-16T06:50:59Z",
     "ajuste": -6,
     "declaraciones": [
       {
@@ -1488,7 +1496,7 @@
       }
     ]
   },
-  "resumen": "Son las 06:20 UTC (07:20 hora de Canarias) del viernes 16 de octubre de 2026, antes de la apertura de Wall Street. El S&P 500 cerró el jueves en 7.746 puntos (+0,35 %) y el Nasdaq 100 en 29.520 (-1,44 %), lastrado por el desplome de semiconductores y CoreWeave. El motor de datos (Kalshi) hunde la probabilidad de que la Fed suba tipos el 28 de octubre al 14,5 % (mantener 85,0 %, desde el 30,0 %/69,5 % de ayer), después de que el presidente de la Fed, Kevin Warsh, hablara en las reuniones del FMI-Banco Mundial en Bangkok y evitara dar ninguna señal sobre la próxima reunión, diciendo que ya no prejuzgará las decisiones del FOMC; la probabilidad de diciembre baja ligeramente al 85,5 % (desde 87,0 %). El régimen de gamma sigue NEGATIVO en ambos índices pero se suaviza con fuerza (SPX -3,35, NDX -4,95 mil M$ por 1 %, desde -8,98 y -6,66). Bitcoin cotiza cerca de 82.000 $ tras rebotar desde un mínimo de 80.000 $, el oro se mantiene cerca de 4.150 $/oz y el petróleo sigue sostenido por la tensión en el estrecho de Ormuz. Los futuros de EE. UU. suben un 0,2 % y Asia rebota con fuerza tras los comentarios de Warsh.",
+  "resumen": "Son las 06:50 UTC (07:50 hora de Canarias) del viernes 16 de octubre de 2026, antes de la apertura de Londres. El S&P 500 cerró el jueves en 7.746 puntos (+0,35 %) y el Nasdaq 100 en 29.520 (-1,44 %), lastrado por el desplome de semiconductores y CoreWeave; los futuros ES/NQ suben un 0,2-0,3 % en la sesión asiática, que rebota con fuerza (Kospi +3 %) tras los comentarios del presidente de la Fed, Kevin Warsh, en las reuniones del FMI en Bangkok, donde evitó dar cualquier señal sobre la reunión del 28 de octubre y dijo que ya no prejuzgará las decisiones del FOMC: la probabilidad de subida (motor Kalshi) se mantiene hundida en el 14,0 % (mantener 85,5 %), frente al 30,0 % de ayer. El régimen de gamma sigue NEGATIVO en ambos índices (SPX -3,35, NDX -4,95 mil M$ por 1 %), con el precio por debajo del giro de gamma en los dos casos. El oro ronda los 4.153 $/oz, el petróleo WTI cae un 0,55 % a 97,43 $ ante la posibilidad de que Trump relaje restricciones a países bajo sanciones, el EUR/USD cotiza cerca de 1,1211 tras subir un 0,47 % el jueves, y bitcoin se mantiene cerca de 82.000-83.000 $ tras rebotar desde el mínimo de 80.000 $ de ayer. Los aranceles de Trump, la tensión en el estrecho de Ormuz y el tono cauto de Lagarde sobre la deuda francesa siguen pesando como contrapeso bajista, mientras la liquidez de la Fed sigue entrando (+7.000 M$ en la última semana) como apoyo de fondo. El dato de producción industrial de EE. UU. (13:15 UTC) es el próximo catalizador antes del cierre semanal.",
   "semana": {
     "activos": [
       {
@@ -1868,5 +1876,5 @@
     "updatedAt": "2026-10-16T06:20:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-16T06:20:00Z"
+  "updatedAt": "2026-10-16T07:16:40Z"
 }
