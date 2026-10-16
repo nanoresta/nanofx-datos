@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-16T06:46:10Z",
+  "actualizado": "2026-10-16T18:46:31Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.56,
-    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 %; la Fed de Warsh (3,75-4,00 %) tiene solo un 14,5 % de subir el 28 oct pero un 85,5 % en diciembre (Kalshi, 16 oct). Con el empleo frenado (+29.000 en septiembre) y el crédito de la IA tensándose, es el patrón clásico de techo del ciclo corto."
+    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 %; la Fed de Warsh (3,75-4,00 %) tiene un 14,5 % de subir el 28 oct y un 81,5 % en diciembre (Kalshi, 16 oct). Con el empleo frenado (+29.000 en septiembre) y el crédito de la IA tensándose, es el patrón clásico de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -38,6 +38,10 @@
     {
       "nombre": "ActionForex · Warsh no da señal para octubre",
       "url": "https://www.actionforex.com/live-comments/657672-feds-warsh-declines-october-rate-signal-says-fed-will-no-longer-preview-decisions/"
+    },
+    {
+      "nombre": "Schwab · Mercados 16 oct (GDPNow, FedWatch)",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
     }
   ],
   "hacia": "Lo normal tras subir tipos con el empleo frenándose es una desaceleración o recesión en los próximos 6-18 meses (fase de recesión del ciclo corto); el IPC caliente y el petróleo por encima de 100 $ lo adelantarían al forzar más subidas. Como la deuda ya es muy alta, la Fed tendrá poco margen: el riesgo es entrar en el desapalancamiento, donde lo más probable en EE. UU. es imprimir dinero (más inflación, dólar débil, oro fuerte) antes que recortar gasto.",
@@ -49,7 +53,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "14,5 % subida el 28 oct · 85,5 % el 9 dic (Kalshi, 16 oct)",
+      "c": "14,5 % subida el 28 oct · 81,5 % el 9 dic (Kalshi, 16 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -67,7 +71,7 @@
       "v": "+29.000 · paro 4,2 %"
     },
     {
-      "c": "2T 2026 · 3.ª estimación",
+      "c": "2T 2026 · 3.ª estimación · GDPNow 3T 3,6 %; producción industrial +0,7 % en sept.",
       "estado": "verde",
       "n": "Crecimiento (PIB real)",
       "v": "+2,2 % anual"
@@ -79,19 +83,19 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "16 oct · justo bajo el umbral de atención",
+      "c": "16 oct · a 5 pb del umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,41 %"
+      "v": "5,45 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,41 % (16 oct), cerca de máximos de casi 20 años: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años rebota al 5,45 % (16 oct), cerca de máximos de casi 20 años: es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 85,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos) y el crédito de la IA se tensa (CDS de CoreWeave en estrés). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 81,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos) y el crédito de la IA se tensa (CDS de CoreWeave en estrés). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
   "palancas": [
     {
       "estado": "rojo",
@@ -102,7 +106,7 @@
     {
       "estado": "amarillo",
       "n": "Reestructurar o impagar deuda",
-      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa: CDS de CoreWeave en zona de estrés y Oracle -8,8 % (15 oct).",
+      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa: los CDS de CoreWeave implican ~60 % de impago a 5 años (16 oct).",
       "valor": "Leve"
     },
     {
@@ -183,6 +187,11 @@
       "corto": 0.56,
       "largo": 0.76,
       "ts": "2026-10-16T06:46:10Z"
+    },
+    {
+      "corto": 0.56,
+      "largo": 0.76,
+      "ts": "2026-10-16T18:46:31Z"
     }
   ]
 }

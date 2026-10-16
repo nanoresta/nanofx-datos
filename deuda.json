@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-16T06:46:10Z",
+  "actualizado": "2026-10-16T18:46:31Z",
   "alarmas": [
     {
       "estado": "verde",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "9 pb por debajo del umbral de atención (5,5 %); +12 pb en un mes, margen escaso.",
-      "valor": "5,41 % (16 oct)"
+      "nota": "A solo 5 pb del umbral de atención (5,5 %); +16 pb en un mes, casi sin margen.",
+      "valor": "5,45 % (16 oct)"
     },
     {
       "estado": "verde",
@@ -16,8 +16,8 @@
     {
       "estado": "rojo",
       "nombre": "Deuda de IA (hyperscalers y CoreWeave)",
-      "nota": "15 oct: los CDS de CoreWeave llegan a niveles de estrés y Oracle (236.000 M$ de pasivos, intereses +55 %) pierde 38.000 M$ en bolsa; el miedo al crédito de la IA se extiende.",
-      "valor": "CDS de CoreWeave en zona de impago; Oracle -8,8 %"
+      "nota": "Datos de ICE (15-16 oct): bonos del 9 % a 80,75 céntimos; Jensen Huang dice que CoreWeave no necesita rescate y la acción oscila con fuerza; Oracle sigue cayendo.",
+      "valor": "CDS CoreWeave ≈ 60 % de impago a 5 años; bonos al 15,3 %"
     },
     {
       "estado": "amarillo",
@@ -43,8 +43,8 @@
       {
         "estado": "rojo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "Rentabilidad por beneficios adelantada ~5,26 % (PER 19,0, 30 sept) frente al bono a 10 años en 5,08 % (15 oct): la bolsa casi no paga extra por su riesgo.",
-        "valor": "Prima de riesgo ≈ 18 pb"
+        "nota": "Rentabilidad por beneficios adelantada ~5,26 % (PER 19,0, 30 sept) frente al bono a 10 años en 5,12 % (16 oct): la bolsa no paga casi nada extra por su riesgo.",
+        "valor": "Prima de riesgo ≈ 14 pb"
       },
       {
         "estado": "amarillo",
@@ -55,7 +55,7 @@
       {
         "estado": "amarillo",
         "n": "Sentimiento eufórico",
-        "nota": "AAII (14 oct): más bajistas que alcistas y Fear & Greed neutral (13 oct); BofA (2-8 oct): largos en semiconductores siguen siendo la operación más concurrida.",
+        "nota": "AAII (semana al 14 oct): más bajistas que alcistas; Fear & Greed neutral (13 oct); BofA (2-8 oct): largos en semiconductores, la operación más concurrida, que llevan 8 sesiones cayendo.",
         "valor": "AAII 38,7 % alcistas / 41,6 % bajistas"
       },
       {
@@ -67,42 +67,42 @@
       {
         "estado": "rojo",
         "n": "Sobreinversión por miedo a quedarse fuera",
-        "nota": "FactSet (23 jul): flujo de caja libre cerca de cero o negativo en 2026 salvo Alphabet y Microsoft; deuda IA ~450.000 M$, financiación circular Nvidia-OpenAI-Oracle y CDS de CoreWeave en zona de estrés (15 oct).",
+        "nota": "FactSet (23 jul): flujo de caja libre cerca de cero o negativo en 2026 salvo Alphabet y Microsoft; deuda IA ~450.000 M$, financiación circular Nvidia-OpenAI-Oracle; CoreWeave con flujo libre de -5.740 M$ en el 2T y CDS en estrés (16 oct).",
         "valor": "Capex IA ~690.000-800.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Lo que más pesa es la sobreinversión en IA con deuda, que ya se resquebraja: tras CoreWeave, el miedo al crédito tumba a Oracle un 8,8 % (15 oct), aunque el sentimiento minorista ya no es eufórico.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (71/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Lo que más pesa es la sobreinversión en IA con deuda: los chips encadenan su peor racha desde 2015 y el mercado de crédito pone en duda a CoreWeave, aunque el sentimiento minorista ya no es eufórico.",
     "nivel": 71,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "16 oct: el 30 años sigue cayendo más que el 2 años por la compra refugio; curva más plana que el 8 oct (+85 pb).",
-        "valor": "+64 pb (4,77 % / 5,41 %)"
+        "nota": "16 oct: el 30 años rebota más que el 2 años y la curva vuelve a empinarse algo (+64 pb el día anterior).",
+        "valor": "+67 pb (4,78 % / 5,45 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (16 oct): subida el 28 oct al 14,5 % tras el silencio de Warsh, pero en diciembre al 85,5 %; con el IPP al 6,3 % los tipos reales siguen altos.",
+        "nota": "Kalshi (16 oct): subida el 28 oct al 14,5 % y en diciembre al 81,5 %; con el IPP al 6,3 % los tipos reales siguen altos.",
         "valor": "3,75-4,00 %; 14,5 % subida en oct."
       },
       {
-        "estado": "verde",
+        "estado": "amarillo",
         "n": "Dólar (DXY)",
-        "nota": "16 oct: baja de 102 y se queda atrás frente a bonos y oro como refugio, aunque sube un 1,6 % en un mes.",
-        "valor": "~101,9"
+        "nota": "16 oct: mínimo de 2 semanas y primera caída semanal en cinco; la debilidad se liga a las ventas en IA.",
+        "valor": "~101,75"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "16 oct: se mantiene sobre 4.150 $ por la demanda refugio, pero -3,7 % en un mes; los bancos centrales siguen comprando.",
-        "valor": "~4.175 $/oz"
+        "nota": "16 oct: roza los 4.200 $ con el dólar débil; los bancos centrales siguen comprando.",
+        "valor": "~4.198 $/oz"
       },
       {
         "estado": "rojo",
         "n": "Necesidad de liquidez",
-        "nota": "15 oct: el estrés de crédito de CoreWeave contagia a Oracle mientras la deuda de margen ronda 1,45 bill. $; el rebote de Asia (Kospi +3 %, 16 oct) da un respiro.",
-        "valor": "CDS CoreWeave en estrés; Oracle -8,8 %"
+        "nota": "16 oct: el S&P 500 cae ~1,1 % a media sesión mientras la deuda de margen ronda 1,45 bill. $ y el crédito de la IA sigue tenso.",
+        "valor": "CDS CoreWeave en estrés; chips 8 sesiones a la baja"
       }
     ]
   },
@@ -334,21 +334,37 @@
     {
       "nombre": "ActionForex – Warsh no da señal para octubre",
       "url": "https://www.actionforex.com/live-comments/657672-feds-warsh-declines-october-rate-signal-says-fed-will-no-longer-preview-decisions/"
+    },
+    {
+      "nombre": "Schwab – Mercados 16 oct",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+      "nombre": "HDFC Sky – Cierre de Wall Street y CDS de CoreWeave",
+      "url": "https://hdfcsky.com/news/us-stock-market-close-dow-sp500-nasdaq-october-16-2026"
+    },
+    {
+      "nombre": "24/7 Wall St – CoreWeave y la deuda (16 oct)",
+      "url": "https://247wallst.com/investing/2026/10/16/coreweave-drops-6-as-debt-worries-linger-iren-falls-4-nebius-slips/"
+    },
+    {
+      "nombre": "CNBC – Huida a los bonos (15 oct)",
+      "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa (intereses de 1,1 billones y déficit de 2 billones) y el riesgo baja ligeramente a 50: el bono a 30 años cede al 5,41 % y el yen se aprecia un poco, mientras Warsh rebaja la probabilidad de subida en octubre. Lo que empeora es el crédito de la IA: los CDS de CoreWeave entran en zona de estrés y Oracle cae un 8,8 %; Rusia sigue en rojo.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa (intereses de 1,1 billones y déficit de 2 billones) y el riesgo sube un punto a 51: el bono a 30 años rebota al 5,45 %, a solo 5 pb del umbral de atención, y el JGB a 30 años vuelve al 4,00 %. El crédito de la IA sigue tenso (los CDS de CoreWeave implican ~60 % de probabilidad de impago a 5 años, aunque Jensen Huang la respalda) y Rusia sigue en rojo.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "16 oct; estable en el día, +6 pb en 1 mes",
+          "c": "16 oct; +4 pb en el día, +19 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "5,08 %"
+          "v": "5,12 %"
         },
         {
-          "c": "16 oct; -2 pb desde el 15 oct, +12 pb en 1 mes",
+          "c": "16 oct; +4 pb en el día, +16 pb en 1 mes",
           "n": "Bono 30 años",
-          "v": "5,41 %"
+          "v": "5,45 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -364,14 +380,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Los rendimientos se estabilizan (30 años en 5,41 %) tras la huida a refugio y el mensaje neutro de Warsh en Bangkok; el coste de intereses sigue en récord."
+      "nota": "Los rendimientos rebotan el viernes (10 años 5,12 %, 30 años 5,45 %) tras la huida a refugio del jueves; el coste de intereses sigue en récord."
     },
     {
       "datos": [
         {
-          "c": "16 oct; -7 pb en 1 mes",
+          "c": "16 oct; +5 pb en el día, -2 pb en 1 mes",
           "n": "Bund 10 años",
-          "v": "3,40 %"
+          "v": "3,46 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -379,7 +395,7 @@
           "v": "88,9 %"
         },
         {
-          "c": "mercado descuenta subida en diciembre; Šimkus no descarta octubre (14 oct)",
+          "c": "Lagarde, prudente (16 oct); el mercado descuenta subida en diciembre",
           "n": "Tipo depósito BCE",
           "v": "2,50 %"
         }
@@ -387,14 +403,14 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund baja a mínimos de 5 semanas siguiendo a los Treasuries; Lagarde espera a ver si la inflación energética se contagia, Šimkus no descarta subir en octubre y el mercado descuenta subida en diciembre."
+      "nota": "El Bund rebota desde mínimos de 5 semanas; Lagarde ve una inflación sobre todo energética y espera, Šimkus no descarta subir en octubre y el mercado descuenta subida en diciembre."
     },
     {
       "datos": [
         {
-          "c": "15 oct; estable",
+          "c": "16 oct; -1 pb",
           "n": "Bono 10 años",
-          "v": "1,67 %"
+          "v": "1,66 %"
         },
         {
           "c": "julio, -2,4 %; mínimo desde 2008",
@@ -402,9 +418,9 @@
           "v": "618.000 M$"
         },
         {
-          "c": "15 oct; yuan +0,3 % en 1 mes; máximos desde jul-2022",
+          "c": "16 oct; yuan +0,3 % en 1 mes y +6,2 % en 1 año; máximos desde jul-2022",
           "n": "USD/CNY",
-          "v": "6,69"
+          "v": "6,68"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -420,14 +436,14 @@
     {
       "datos": [
         {
-          "c": "16 oct; mínimo de 5 semanas",
+          "c": "16 oct; plano, -6 pb en 1 mes",
           "n": "JGB 10 años",
-          "v": "2,92 %"
+          "v": "2,93 %"
         },
         {
-          "c": "16 oct; -11 a -14 pb en 1 mes (máx. 4,25 %)",
+          "c": "16 oct; +2 pb en el día, -8 pb en 1 mes (máx. 4,25 %)",
           "n": "JGB 30 años",
-          "v": "3,97 %"
+          "v": "4,00 %"
         },
         {
           "c": "julio, -1,1 %; 3.ª caída seguida",
@@ -435,15 +451,15 @@
           "v": "1,104 bill. $"
         },
         {
-          "c": "16 oct; yen -1,2 % en 1 mes; Katayama avisa de intervención",
+          "c": "16 oct; nuevo aviso verbal de intervención",
           "n": "USD/JPY",
-          "v": "157,8"
+          "v": "158,0"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "El JGB a 30 años sigue por debajo del 4 % y el yen se aprecia un poco (157,8) con avisos de intervención; Koeda (BoJ) defiende más subidas de tipos."
+      "nota": "El JGB a 30 años vuelve al 4 %; Ueda vigila los bonos y Koeda pide no dudar en subir, aunque el BoJ (1,25 %) se inclina por esperar a diciembre."
     },
     {
       "datos": [
@@ -474,7 +490,7 @@
       "nota": "Déficit desbordado, colchón del FNB menguando y deuda cara (próxima reunión del Banco de Rusia el 23 oct); la tregua energética anunciada por Trump no está confirmada por Moscú."
     }
   ],
-  "riesgo": 50,
+  "riesgo": 51,
   "serie": [
     {
       "riesgo": 64,
@@ -524,6 +540,11 @@
       "burbuja": 71,
       "riesgo": 50,
       "ts": "2026-10-16T06:46:10Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-16T18:46:31Z"
     }
   ]
 }
