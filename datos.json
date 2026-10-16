@@ -1,20 +1,20 @@
 {
- "generado": "2026-10-16T00:02:17Z",
+ "generado": "2026-10-16T00:32:57Z",
  "errores": [],
  "fed": [
   {
    "fecha": "2026-10-28",
-   "subir": 31.5,
+   "subir": 30.5,
    "bajar": 0.5,
-   "mantener": 68.0,
+   "mantener": 69.0,
    "tasaImplicita": 3.95
   },
   {
    "fecha": "2026-12-09",
-   "subir": 87.5,
-   "bajar": 3.0,
-   "mantener": 9.5,
-   "tasaImplicita": 4.15
+   "subir": 86.5,
+   "bajar": 2.5,
+   "mantener": 11.0,
+   "tasaImplicita": 4.16
   },
   {
    "fecha": "2027-01-27",
@@ -168,7 +168,7 @@
    "pcrOI": 1.69,
    "callWall": 775.0,
    "putWall": 772.0,
-   "gammaFlip": 777.47,
+   "gammaFlip": 777.45,
    "maxPain": 772.0,
    "vencimientoCercano": "2026-10-16",
    "escalera": [
@@ -394,7 +394,7 @@
    "pcrOI": 1.7,
    "callWall": 760.0,
    "putWall": 725.0,
-   "gammaFlip": 734.65,
+   "gammaFlip": 734.61,
    "maxPain": 735.0,
    "vencimientoCercano": "2026-10-16",
    "escalera": [
@@ -579,7 +579,7 @@
     "precio": 29877,
     "callWall": 31225,
     "putWall": 29787,
-    "gammaFlip": 30184,
+    "gammaFlip": 30182,
     "maxPain": 30198
    },
    "odte": {
@@ -601,10 +601,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-10-16T00:02:34Z"
+  "calculado": "2026-10-16T00:33:13Z"
  },
  "ciclo": {
-  "actualizado": "2026-10-16T00:02:53Z",
+  "actualizado": "2026-10-16T00:33:21Z",
   "total": 64,
   "fase": "Expansión fuerte",
   "cambio4": -11,
@@ -675,10 +675,10 @@
     "id": "spx_m50",
     "n": "S&P 500 frente a su media de 50 semanas",
     "peso": 2,
-    "score": 86,
-    "valor": "7.719 · +6,9 % sobre la media",
+    "score": 90,
+    "valor": "7.744 · +7,2 % sobre la media",
     "nota": "Regla de largo plazo: por encima de la media exponencial de 50 semanas, tranquilidad; si la pierde, señal de salida.",
-    "fecha": "2026-10-14",
+    "fecha": "2026-10-15",
     "frec": "a diario"
    },
    {
