@@ -450,16 +450,16 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-16T20:13:25Z",
+    "actualizado": "2026-10-16T21:31:41Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene estable en el 13,5 % (mantener 86,0 %, bajar 0,5 %), sin apenas cambios desde la actualización de esta tarde. La de diciembre también se mantiene en el 81,5 % (mantener 15,5 %, bajar 3,0 %, tasa implícita 4,12 %).",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre baja al 14,0 % (mantener 85,5 %, bajar 0,5 %), retrocediendo tras los comentarios de Kevin Warsh en el FMI de Bangkok, que evitó señalar una subida y habló de un endurecimiento monetario global sincronizado. La de diciembre se mantiene en el 81,5 % (mantener 15,5 %, bajar 3,0 %, tasa implícita 4,12 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 86,
-        "subir": 13.5,
+        "mantener": 85.5,
+        "subir": 14,
         "tasaImplicita": 3.91
       },
       {
@@ -472,8 +472,8 @@
       {
         "bajar": 5.5,
         "fecha": "2027-01-27",
-        "mantener": 2.5,
-        "subir": 92,
+        "mantener": 1.5,
+        "subir": 93,
         "tasaImplicita": 4.25
       },
       {
@@ -876,6 +876,18 @@
     {
       "nombre": "Benzinga · Dow, S&P 500 Futures Rise as Bessent Intensifies Economic Pressure on Iran (16 oct)",
       "url": "https://www.benzinga.com/markets/equities/26/10/62404483/stock-market-today-dow-sp-500-futures-rise-as-bessent-intensifies-economic-pressure-on-iran-treasury-yields-cool-off-tsla-aa-ibkr-in-focus"
+    },
+    {
+      "nombre": "CNBC · Fed's Warsh says AI development path will be 'very bumpy' (16 oct)",
+      "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+    },
+    {
+      "nombre": "Benzinga · October Fed Hike Odds Collapse After Warsh Remarks but AI Transition Looms (16 oct)",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62408879/fed-rate-hike-odds-warsh-ai"
+    },
+    {
+      "nombre": "Invezz · Oil set for weekly gain as supply constraints keep prices elevated (16 oct)",
+      "url": "https://invezz.com/news/2026/10/16/oil-set-for-weekly-gain-as-supply-constraints-keep-prices-elevated/"
     }
   ],
   "indices": [
@@ -884,19 +896,19 @@
       "changePct": -1.09,
       "claves": [
         "Call wall en 7.726 (SPY 770,0), sin cambios; put wall en 7.576 (SPY 755,0), sin cambios.",
-        "Régimen de gamma NEGATIVO, en -7,69 mil M$ por 1 % (antes -8,03): se modera levemente.",
-        "Giro de gamma en 7.805 (SPY 777,89), por encima del precio: sigue de resistencia técnica.",
+        "Régimen de gamma NEGATIVO, en -7,85 mil M$ por 1 % (antes -7,69): se endurece levemente al cierre.",
+        "Giro de gamma en 7.807 (SPY 778,07), por encima del precio: sigue de resistencia técnica.",
         "Max pain en 7.736 (SPY 771,0); put/call de open interest estable en 1,81."
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1681,
+        "contratos": 1700,
         "etf": "SPY",
-        "gammaFlip": 777.89,
-        "gexTotal": -7.69,
+        "gammaFlip": 778.07,
+        "gexTotal": -7.85,
         "indice": {
           "callWall": 7726,
-          "gammaFlip": 7805,
+          "gammaFlip": 7807,
           "maxPain": 7736,
           "precio": 7659,
           "putWall": 7576
@@ -929,15 +941,16 @@
         "vencimientoCercano": "2026-10-16"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cierra en 7.659,44 (-1,09 % frente al cierre del jueves en 7.744,06), una sesión algo menos mala que el mínimo intradía (-1,25 %) gracias al dólar débil tras los comentarios de Kevin Warsh en el FMI de Bangkok. El régimen de gamma se modera levemente a -7,69 mil M$ por 1 % (antes -8,03), con el call wall en 7.726 actuando de techo técnico. El desplome de los semiconductores (CoreWeave, con sus bonos de 2032 por encima del 15 % de rentabilidad) y el temor a una burbuja de financiación de la IA siguen dominando sobre cualquier otro factor.",
+      "lectura": "El S&P 500 cierra la sesión y la semana en 7.659,44 (-1,09 % frente al cierre del jueves en 7.744,06), su peor semana en varios meses, aunque algo menos mal que el mínimo intradía (-1,25 %) gracias al dólar débil tras los comentarios de Kevin Warsh en el FMI de Bangkok, que evitó señalar una subida en octubre (probabilidad ya en el 14,0 %). El régimen de gamma se endurece levemente a -7,85 mil M$ por 1 % (antes -7,69), con el call wall en 7.726 de techo técnico. El desplome de los semiconductores (CoreWeave, con sus bonos de 2032 por encima del 15 % de rentabilidad) y el temor a una burbuja de financiación de la IA siguen dominando sobre cualquier otro factor, incluido el dato de producción industrial (+0,7 % m/m) que bate lo esperado.",
       "levels": {
         "callWall": 7726,
-        "gammaFlip": 7805,
+        "gammaFlip": 7807,
         "maxPain": 7736,
+        "precio": 7659,
         "putWall": 7576
       },
       "name": "S&P 500",
-      "netGex": "negativa (-7,69 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-14)",
+      "netGex": "negativa (-7.85 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-14)",
       "regime": "negativa",
       "score": -40,
       "sesgo": "bajista",
@@ -948,7 +961,7 @@
       "changePct": -2.05,
       "claves": [
         "Call wall en 31.243 (QQQ 760,0); put wall en 28.777 (QQQ 700,0), ambos sin cambios.",
-        "Régimen de gamma NEGATIVO, en -5,86 mil M$ por 1 % (antes -5,95): se modera levemente.",
+        "Régimen de gamma NEGATIVO, en -5,87 mil M$ por 1 % (antes -5,86): estable al cierre.",
         "Giro de gamma no disponible (dato ausente); el put wall en 28.777 sigue siendo la referencia técnica más relevante a la baja.",
         "Max pain en 30.133 (QQQ 733,0); put/call de open interest estable en 2,30."
       ],
@@ -957,7 +970,7 @@
         "contratos": 1756,
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -5.86,
+        "gexTotal": -5.87,
         "indice": {
           "callWall": 31243,
           "gammaFlip": null,
@@ -993,15 +1006,16 @@
         "vencimientoCercano": "2026-10-16"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cierra en 29.293,80 (-2,05 % en la sesión), profundizando la caída frente al -1,32 % de media sesión, con el sector tecnológico liderando las pérdidas. El régimen de gamma se modera levemente a -5,86 mil M$ por 1 % (antes -5,95) y el put wall en 28.777 sigue siendo la referencia técnica clave a la baja. El estrés de financiación de la IA se intensifica: los bonos de CoreWeave con vencimiento en 2032 superan el 15 % de rentabilidad, Oracle y Nebius también caen, y los semiconductores encadenan ya su octava sesión consecutiva de pérdidas, la peor racha desde 2015.",
+      "lectura": "El Nasdaq 100 cierra en 29.293,80 (-2,05 % en la sesión), su peor semana desde junio, con el sector tecnológico liderando las pérdidas. El régimen de gamma se mantiene estable en -5,87 mil M$ por 1 % y el put wall en 28.777 sigue siendo la referencia técnica clave a la baja. El estrés de financiación de la IA se intensifica: los bonos de CoreWeave con vencimiento en 2032 superan el 15 % de rentabilidad, Oracle y Nebius también caen, y los semiconductores (SOXX) encadenan ya su octava sesión consecutiva de pérdidas, la peor racha desde 2015.",
       "levels": {
         "callWall": 31243,
         "gammaFlip": null,
         "maxPain": 30133,
+        "precio": 29196,
         "putWall": 28777
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-5,86 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-14)",
+      "netGex": "negativa (-5.87 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-14)",
       "regime": "negativa",
       "score": -55,
       "sesgo": "bajista",
@@ -1009,7 +1023,7 @@
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-16T20:13:25Z",
+    "actualizado": "2026-10-16T21:31:41Z",
     "balance": 6755.6,
     "d4": 7.9,
     "dBalance": 8,
@@ -1142,6 +1156,22 @@
     "tga": 883.4
   },
   "noticias": [
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "alcista",
+        "XAU": "neutral"
+      },
+      "fuente": "CNBC / Invezz",
+      "impacto": "medio",
+      "resumen": "Tras el cierre, el balance semanal confirma la purga tecnológica (Nasdaq 100 -2,05 % hoy) como la peor semana desde junio, mientras el crudo sube con fuerza por las restricciones de oferta ligadas a Ormuz, camino de su primer avance semanal en varias semanas.",
+      "titular": "El Nasdaq firma su peor semana desde junio; el petróleo encara su primera subida semanal en varias semanas",
+      "ts": "2026-10-16T21:30:00Z",
+      "url": "https://invezz.com/news/2026/10/16/oil-set-for-weekly-gain-as-supply-constraints-keep-prices-elevated/"
+    },
     {
       "activos": {
         "BTC": "neutral",
@@ -1365,61 +1395,45 @@
       "titular": "El oro ronda los 4.153 $/oz y el WTI cae a 97,43 $ en la sesión asiática del viernes",
       "ts": "2026-10-16T06:30:00Z",
       "url": "https://www.inkl.com/news/oil-price-today-october-16-crude-oil-dips-to-105-as-trump-mulls-easing-restrictions-on-sanction-facing-nations-whats-next"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NQ": "alcista",
-        "SPX": "alcista",
-        "WTI": "neutral",
-        "XAU": "neutral"
-      },
-      "fuente": "Bloomberg / TradingView News",
-      "impacto": "medio",
-      "resumen": "El índice MSCI Asia-Pacífico sube un 1,4 % y el Kospi rebota casi un 3 % tras siete sesiones de pérdidas.",
-      "titular": "Los futuros de EE. UU. suben un 0,2 % y Asia rebota con fuerza tras Warsh",
-      "ts": "2026-10-16T05:30:00Z",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates?srnd=phx-india"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-10-16, por open interest (SPY 785,0). Put/call OI: 1,94.",
+        "nota": "Vencimiento 2026-10-16, por open interest (SPY 785.0). Put/call OI: 1.94.",
         "valor": "7.877"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "SPY 750,0.",
+        "nota": "SPY 750.0.",
         "valor": "7.526"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "SPY 771,0.",
+        "nota": "SPY 771.0.",
         "valor": "7.736"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-10-16, por open interest (QQQ 760,0). Put/call OI: 1,83.",
+        "nota": "Vencimiento 2026-10-16, por open interest (QQQ 760.0). Put/call OI: 1.83.",
         "valor": "31.243"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "QQQ 700,0.",
+        "nota": "QQQ 700.0.",
         "valor": "28.777"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "QQQ 733,0.",
+        "nota": "QQQ 733.0.",
         "valor": "30.133"
       }
     ],
-    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 16 de octubre, por open interest, sin dato de gamma); el put/call se mantiene en 1,94 en SPX y baja a 1,83 en Nasdaq 100 (antes 1,86). El max pain 0DTE coincide con el max pain principal en ambos índices (7.736 y 30.133); el rango 0DTE (7.526-7.877 en SPX, 28.777-31.243 en NDX) marcó el rango técnico de la sesión de hoy, ya en el cierre."
+    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 16 de octubre, por open interest, sin dato de gamma); el put/call se mantiene en 1,94 en SPX y en 1,83 en Nasdaq 100. El max pain 0DTE coincide con el max pain principal en ambos índices (7.736 y 30.133); el rango 0DTE (7.526-7.877 en SPX, 28.777-31.243 en NDX) marcó el rango técnico de la sesión de hoy, ya en el cierre final de la semana."
   },
   "politica": {
-    "actualizado": "2026-10-16T19:45:00Z",
+    "actualizado": "2026-10-16T21:55:00Z",
     "ajuste": -4,
     "declaraciones": [
       {
@@ -1516,52 +1530,52 @@
       }
     ]
   },
-  "resumen": "Son las 21:16 UTC (22:16 en Canarias, 17:16 hora de Nueva York) del viernes 16 de octubre de 2026, tras el cierre de Wall Street. El S&P 500 cerró en 7.659,44 (-1,09 % frente al cierre del jueves) y el Nasdaq 100 en 29.293,80 (-2,05 % en la sesión), lastrados por el desplome de semiconductores y el estrés de financiación de la IA (bonos de CoreWeave por encima del 15 % de rentabilidad, Oracle y Nebius también a la baja, octava sesión consecutiva de pérdidas en SOXX). El régimen de gamma sigue NEGATIVO en ambos índices, moderándose levemente a -7,69 y -5,86 mil M$ por 1 % respectivamente (antes -8,03 y -5,95). El dólar sigue débil tras los comentarios de Kevin Warsh en el FMI de Bangkok, con el oro cerca de 4.176 $/oz y el EUR/USD en torno a 1,123, camino de su primera subida semanal en un mes. El petróleo repunta con fuerza tras varios días de caídas, en medio de la tensión en el estrecho de Ormuz. La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene estable en el 13,5 % (mantener 86,0 %).",
+  "resumen": "Son las 21:55 UTC (22:55 en Canarias, 17:55 hora de Nueva York) del viernes 16 de octubre de 2026, con Wall Street ya cerrada. El S&P 500 terminó la sesión y la semana en 7.659,44 (-1,09 % frente al cierre del jueves) y el Nasdaq 100 en 29.293,80 (-2,05 %), su peor semana desde junio, lastrados por el desplome de los semiconductores (SOXX encadena su octava sesión consecutiva a la baja) y el estrés de financiación de la IA (bonos de CoreWeave con vencimiento en 2032 por encima del 15 % de rentabilidad). El régimen de gamma sigue NEGATIVO en ambos índices, endureciéndose levemente en el S&P 500 a -7,85 mil M$ por 1 % (antes -7,69) y estable en el Nasdaq 100 en -5,87. El dólar sigue débil tras los comentarios de Kevin Warsh en el FMI de Bangkok, que evitó señalar una subida en octubre (probabilidad ya en el 14,0 %, mantener 85,5 %); el oro ronda los 4.180 $/oz, el EUR/USD cotiza cerca de 1,1254 camino de su primera subida semanal en un mes, y el petróleo WTI repunta con fuerza hacia los 98 $ y encara su primera subida semanal en varias semanas por la escalada de ataques a petroleros en el estrecho de Ormuz.",
   "semana": {
     "activos": [
       {
-        "cambio": "20:00 UTC: cierre en 7.659,44 (-1,09 %), algo mejor que el mínimo intradía (-1,25 %) gracias al dólar débil tras Warsh, pero el desplome tecnológico (CoreWeave, bonos de IA) sigue pesando.",
-        "expectativa": "El calendario de EE. UU. sigue girado hacia el dólar (43 sobre el 39 esperado al inicio de semana), pero Warsh ha debilitado al dólar en la práctica y el desplome de semiconductores pesa más que el propio dato macro.",
+        "cambio": "21:55 UTC: cierre semanal en 7.659,44 (-1,09 %), su peor semana en meses; el dólar débil tras Warsh amortigua parte de la caída, pero el desplome de semiconductores y CoreWeave domina.",
+        "expectativa": "El calendario sigue girado hacia el dólar (43 sobre el 39 esperado), lo que en teoría presiona al S&P 500, pero el factor dominante ha sido ajeno al calendario: el estrés de financiación de la IA, con el régimen de gamma negativo (-7,85 mil M$ por 1 %) amplificando las caídas.",
         "id": "SPX",
-        "score": -40,
+        "score": -41,
         "scoreInicial": 10,
         "sesgo": "bajista"
       },
       {
-        "cambio": "20:00 UTC: cierre del Nasdaq 100 en 29.293,80 (-2,05 %), empeora frente al -1,32 % de media sesión por la profundización de la venta en semiconductores y CoreWeave.",
-        "expectativa": "El mismo giro del calendario pesaría en teoría sobre el Nasdaq, pero el factor dominante sigue siendo ajeno al calendario: el estrés de financiación de la inversión en IA (CoreWeave, SOXX en su octava caída).",
+        "cambio": "21:55 UTC: cierre del Nasdaq 100 en 29.293,80 (-2,05 %), su peor semana desde junio, por la profundización de la venta en semiconductores y CoreWeave.",
+        "expectativa": "El mismo giro del calendario pesaría en teoría sobre el Nasdaq, pero el factor dominante sigue siendo ajeno al calendario: el estrés de financiación de la inversión en IA (CoreWeave, SOXX en su octava caída), con gamma negativo estable en -5,87 mil M$ por 1 %.",
         "id": "NQ",
-        "score": -55,
+        "score": -49,
         "scoreInicial": 5,
         "sesgo": "bajista"
       },
       {
-        "cambio": "20:00 UTC: el oro sube hacia 4.180 $/oz, buscando los 4.230 $, apoyado por el dólar débil y la demanda de refugio.",
+        "cambio": "21:55 UTC: el oro se mantiene cerca de 4.180 $/oz, apoyado por el dólar débil tras Warsh y la demanda de refugio por la escalada en Ormuz.",
         "expectativa": "El calendario favorece al dólar (43), lo que en teoría presiona al oro, pero el dólar se debilita en la práctica tras Warsh y la demanda de refugio por Ormuz sostiene el metal; ambos efectos se compensan casi por completo.",
         "id": "XAU",
-        "score": -5,
+        "score": -2,
         "scoreInicial": 18,
         "sesgo": "neutral"
       },
       {
-        "cambio": "20:00 UTC: bitcoin se mueve en el rango 82.000-85.500 $, sin dirección clara; la Fed más suave en octubre sigue dando soporte.",
-        "expectativa": "El sesgo dólar del calendario (43) pesaría en teoría sobre bitcoin, pero el dólar débil, la Fed más suave en octubre y la liquidez entrando sostienen la recuperación desde mínimos bajo 80.000 $.",
+        "cambio": "21:55 UTC: bitcoin se mueve en el rango 82.000-85.500 $, sin dirección clara; la Fed más suave en octubre sigue dando soporte.",
+        "expectativa": "El sesgo dólar del calendario (43) pesaría en teoría sobre bitcoin, pero el dólar débil, la Fed más suave en octubre (probabilidad de subida al 14,0 %) y la liquidez entrando sostienen la recuperación desde mínimos bajo 80.000 $.",
         "id": "BTC",
-        "score": -8,
+        "score": -10,
         "scoreInicial": -10,
         "sesgo": "neutral"
       },
       {
-        "cambio": "20:00 UTC: el EUR/USD cotiza en 1,1254, camino de su primera subida semanal en un mes, limitado por la media de 20 sesiones en 1,1287.",
-        "expectativa": "El calendario de EE. UU. seguía girando hacia el dólar (43), pero el mercado reacciona en sentido contrario: el dólar cae tras Warsh y el euro sube hacia 1,123-1,126, aunque Lagarde limita el rebote al descartar un rescate fácil del BCE para la deuda francesa.",
+        "cambio": "21:55 UTC: el EUR/USD cotiza en torno a 1,1254, camino de su primera subida semanal en un mes, limitado por la cautela de Lagarde sobre la deuda francesa.",
+        "expectativa": "El calendario de EE. UU. seguía girando hacia el dólar (43), pero el mercado reacciona en sentido contrario: el dólar cae tras Warsh y el euro sube hacia 1,1254, aunque Lagarde limita el rebote al descartar un rescate fácil del BCE para la deuda francesa.",
         "id": "EURUSD",
         "score": -10,
         "scoreInicial": -12,
         "sesgo": "neutral"
       },
       {
-        "cambio": "20:00 UTC: giro frente a la sesión de ayer, el petróleo repunta con fuerza ('oil leaps') pese al alivio previo en Ormuz; posible nuevo repunte de riesgo geopolítico pendiente de confirmación.",
-        "expectativa": "La menor tensión en el estrecho de Ormuz tras Trump descartando armas nucleares y Bessent señalando presión económica sobre Irán reduce la prima de riesgo de oferta, sumándose al sesgo dólar-alcista del calendario; la OPEP mantiene producción sin cambios.",
+        "cambio": "21:55 UTC: el petróleo repunta con fuerza hacia los 98 $ y encara su primera subida semanal en varias semanas, por la escalada de ataques a petroleros en el estrecho de Ormuz.",
+        "expectativa": "La reactivación de la tensión en el estrecho de Ormuz (nuevos ataques a petroleros) reintroduce la prima de riesgo de oferta, sumándose al sesgo dólar-alcista del calendario; la OPEP mantiene producción sin cambios y Trump estudia relajar restricciones a países bajo sanciones, lo que limita el repunte.",
         "id": "WTI",
         "score": 18,
         "scoreInicial": 8,
@@ -1577,7 +1591,7 @@
         "WTI": -22,
         "XAU": -43
       },
-      "actualizado": "2026-10-16T19:50:00Z",
+      "actualizado": "2026-10-16T21:55:00Z",
       "dolar": 43,
       "dolarEsperado": 39,
       "euro": 0
@@ -1889,13 +1903,13 @@
         "previsto": "Mantener (85,0 % según Kalshi); subir 25 pb (14,5 %); bajar (0,5 %)"
       }
     ],
-    "narrativa": "El calendario de esta semana sigue girado con fuerza hacia el dolar (43, frente al 39 esperado al inicio de semana): el IPC (+0,6 % m/m, 3,7 % a/a), el IPP (+1,3 % m/m, el mayor salto desde 2022), las ventas minoristas (+0,8 % frente al +0,3 % esperado) y la produccion industrial (+0,7 % frente al +0,4-0,5 % esperado) sorprendieron al alza, aunque el Philly Fed se hundio a 20,9 desde 37,8. Pero el mercado ha reaccionado en sentido contrario al sesgo del calendario: Kevin Warsh evito señalar una subida en octubre en el FMI de Bangkok, lo que ha llevado al dolar hacia minimos de varias semanas (euro hacia 1,123-1,126) y ha bajado la probabilidad de subida del 28 de octubre al 13,5 % (desde picos del 30-50,5 % durante la semana). La liquidez de la Fed sigue entrando (+7.000 M$ en la ultima semana) como contrapeso parcial. En opciones, el regimen de gamma sigue NEGATIVO en ambos indices (-8,03 mil M$ por 1 % en SPX, -5,95 en NDX), con el S&P 500 cerrando en 7.659,44 (-1,09 %) y el Nasdaq 100 en 29.293,80 (-2,05 %), lastrados sobre todo por el desplome de semiconductores (CoreWeave, bonos de 2032 por encima del 15 % de rentabilidad, SOXX en su octava caida consecutiva) y el estres de financiacion de la inversion en IA. Entre los personajes, Trump mantiene la amenaza arancelaria del 150-300 % y lamenta que eliminar a lideres iranies complicara la paz, Bessent señala que el liderazgo irani siente la presion economica de las sanciones de EE. UU., y Lagarde sigue descartando un rescate facil del BCE para la deuda francesa; el petroleo ha repuntado con fuerza en el cierre tras varias sesiones a la baja.",
+    "narrativa": "El calendario de esta semana sigue girado con fuerza hacia el dólar (43, frente al 39 esperado al inicio de semana): el IPC (+0,6 % m/m, 3,7 % a/a), el IPP (+1,3 % m/m, el mayor salto desde 2022), las ventas minoristas (+0,8 % frente al +0,3 % esperado) y la producción industrial (+0,7 % frente al +0,4-0,5 % esperado) sorprendieron al alza, aunque el Philly Fed se hundió a 20,9 desde 37,8. Pero el mercado ha reaccionado en sentido contrario al sesgo del calendario: Kevin Warsh evitó señalar una subida en octubre en el FMI de Bangkok (habló de un endurecimiento monetario global sincronizado), lo que ha llevado al dólar hacia mínimos de varias semanas (euro hacia 1,1254) y ha bajado la probabilidad de subida del 28 de octubre al 14,0 % (desde picos del 30-50,5 % durante la semana). La liquidez de la Fed sigue entrando (+7.000 M$ en la última semana) como contrapeso parcial. En opciones, el régimen de gamma sigue NEGATIVO en ambos índices (-7,85 mil M$ por 1 % en SPX, -5,87 en NDX), con el S&P 500 cerrando la semana en 7.659,44 (-1,09 %) y el Nasdaq 100 en 29.293,80 (-2,05 %, su peor semana desde junio), lastrados sobre todo por el desplome de semiconductores (CoreWeave, bonos de 2032 por encima del 15 % de rentabilidad, SOXX en su octava caída consecutiva) y el estrés de financiación de la inversión en IA. Entre los personajes, Trump mantiene la amenaza arancelaria del 150-300 % y lamenta que eliminar a líderes iraníes complicara la paz, Bessent señala que el liderazgo iraní siente la presión económica de las sanciones de EE. UU. (soporte para los futuros de EE. UU.), y Lagarde sigue descartando un rescate fácil del BCE para la deuda francesa; el petróleo ha repuntado con fuerza y encara su primera subida semanal en varias semanas por la escalada de ataques a petroleros en Ormuz.",
     "pesoCalendario": null,
     "pesoMotivo": null,
     "rango": "12-16 oct 2026",
     "slot": "completa",
-    "updatedAt": "2026-10-16T20:18:00Z"
+    "updatedAt": "2026-10-16T21:55:00Z"
   },
-  "slot": "rapida",
-  "updatedAt": "2026-10-16T21:20:00Z"
+  "slot": "cierre",
+  "updatedAt": "2026-10-16T21:55:00Z"
 }
