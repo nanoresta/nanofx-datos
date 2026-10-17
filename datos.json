@@ -1,12 +1,12 @@
 {
- "generado": "2026-10-17T22:59:10Z",
+ "generado": "2026-10-17T23:29:36Z",
  "errores": [],
  "fed": [
   {
    "fecha": "2026-10-28",
-   "subir": 11.0,
+   "subir": 11.5,
    "bajar": 0.5,
-   "mantener": 88.5,
+   "mantener": 88.0,
    "tasaImplicita": 3.9
   },
   {
@@ -168,7 +168,7 @@
    "pcrOI": 1.73,
    "callWall": 770.0,
    "putWall": 760.0,
-   "gammaFlip": 777.06,
+   "gammaFlip": 777.04,
    "maxPain": 773.0,
    "vencimientoCercano": "2026-10-19",
    "escalera": [
@@ -394,7 +394,7 @@
    "pcrOI": 2.28,
    "callWall": 760.0,
    "putWall": 700.0,
-   "gammaFlip": 744.05,
+   "gammaFlip": 743.99,
    "maxPain": 730.0,
    "vencimientoCercano": "2026-10-19",
    "escalera": [
@@ -575,7 +575,7 @@
     "precio": 29196,
     "callWall": 31243,
     "putWall": 28777,
-    "gammaFlip": 30588,
+    "gammaFlip": 30585,
     "maxPain": 30010
    },
    "odte": {
@@ -597,15 +597,15 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-10-17T22:59:25Z"
+  "calculado": "2026-10-17T23:29:50Z"
  },
  "ciclo": {
-  "actualizado": "2026-10-17T22:59:32Z",
-  "total": 66,
+  "actualizado": "2026-10-17T23:29:58Z",
+  "total": 65,
   "fase": "Expansión fuerte",
-  "cambio4": -4,
-  "cambio13": -11,
-  "lectura": "Expansión fuerte (+66). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: bonos basura: tendencia.",
+  "cambio4": -5,
+  "cambio13": -12,
+  "lectura": "Expansión fuerte (+65). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: bonos basura: tendencia.",
   "indicadores": [
    {
     "id": "pib_bono",
@@ -661,7 +661,7 @@
     "id": "hy_tend",
     "n": "Bonos basura: tendencia",
     "peso": 2,
-    "score": -18,
+    "score": -19,
     "valor": "-0,6 % sobre su media de 1 año",
     "nota": "Si los bonos basura suben con fuerza es que entra dinero: sobra liquidez.",
     "fecha": "2026-10-15",
@@ -722,7 +722,7 @@
     "n": "Petróleo (WTI)",
     "peso": 1,
     "score": 100,
-    "valor": "98,73 $ · +23,1 % sobre su media de 1 año",
+    "valor": "98,73 $ · +23,0 % sobre su media de 1 año",
     "nota": "Petróleo firme = demanda. (Un pico muy brusco también puede frenar el consumo.)",
     "fecha": "2026-10-09",
     "frec": "a diario"
@@ -1358,8 +1358,8 @@
     "v": 67
    },
    {
-    "fecha": "2026-10-17",
-    "v": 66
+    "fecha": "2026-10-18",
+    "v": 65
    }
   ],
   "fuente": "FRED (Reserva Federal de St. Louis): GDP, DGS10, DFF, WALCL, WRESBAL, BAMLH0A0HYM2, BAMLHYH0A0HYM2TRIV, SP500, CP, TOTBKCR, FYFSGDA188S, PCOPPUSDM, DCOILWTICO",
