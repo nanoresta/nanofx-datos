@@ -1,0 +1,42 @@
+{
+ "conectada": false,
+ "pasos": [
+  {
+   "id": "tv",
+   "nombre": "TradingView abierto",
+   "ok": true,
+   "detalle": "Conectado"
+  },
+  {
+   "id": "estrategia",
+   "nombre": "Estrategia en el gráfico",
+   "ok": true,
+   "detalle": "En el gráfico, en 5 min; en real debe ir en 1 min"
+  },
+  {
+   "id": "alerta",
+   "nombre": "Alerta que envía las órdenes",
+   "ok": false,
+   "detalle": "Falta crear la alerta con webhook"
+  },
+  {
+   "id": "puente",
+   "nombre": "Puente de órdenes",
+   "ok": false,
+   "detalle": "Falta contratar el puente de órdenes (TradersPost o PickMyTrade) y enlazarlo a la cuenta Tradovate de Lucid."
+  }
+ ],
+ "grafico": {
+  "simbolo": "CME_MINI:MNQ1!",
+  "temporalidad": "5",
+  "net_profit": -1241.5,
+  "total_trades": 22,
+  "winning_trades": 8,
+  "losing_trades": 14,
+  "max_drawdown": 2349.75
+ },
+ "cuenta": "LucidFlex 50k (evaluación)",
+ "riesgo": 500,
+ "actualizado": "2026-10-18T10:28:29Z",
+ "huella": "76c7f3de132cc4eeaeb8bf1c4caf4bf3"
+}
