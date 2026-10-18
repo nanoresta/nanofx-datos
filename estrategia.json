@@ -1,5 +1,5 @@
 {
- "conectada": false,
+ "conectada": true,
  "pasos": [
   {
    "id": "tv",
@@ -15,15 +15,15 @@
   },
   {
    "id": "alerta",
-   "nombre": "Alerta que envía las órdenes",
+   "nombre": "Alerta de avisos al móvil",
    "ok": true,
-   "detalle": "1 alerta(s) de la estrategia activa(s)"
+   "detalle": "Activa, avisa en la app de TradingView (caduca 2026-11-18)"
   },
   {
    "id": "puente",
-   "nombre": "Puente de órdenes",
-   "ok": false,
-   "detalle": "Falta contratar el puente de órdenes (TradersPost o PickMyTrade) y enlazarlo a la cuenta Tradovate de Lucid."
+   "nombre": "Ejecución",
+   "ok": true,
+   "detalle": "Modo manual: los avisos llegan al móvil y ejecutas tú. El puente se contratará al aprobar la cuenta."
   }
  ],
  "grafico": {
@@ -38,6 +38,7 @@
  },
  "cuenta": "LucidFlex 50k (evaluación)",
  "riesgo": 500,
- "actualizado": "2026-10-18T11:06:47Z",
- "huella": "47b7dd67dc903dc12d003e6a2b0d7a74"
+ "modo": "manual",
+ "actualizado": "2026-10-18T11:07:03Z",
+ "huella": "f604a7028e4e82d87e37ac36b6fcf357"
 }
