@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-18T22:51:42Z",
+ "generado": "2026-10-18T23:22:07Z",
  "errores": [],
  "fed": [
   {
@@ -168,7 +168,7 @@
    "pcrOI": 1.73,
    "callWall": 770.0,
    "putWall": 760.0,
-   "gammaFlip": 777.03,
+   "gammaFlip": 776.99,
    "maxPain": 773.0,
    "vencimientoCercano": "2026-10-19",
    "escalera": [
@@ -361,12 +361,12 @@
     "precio": 7659,
     "callWall": 7726,
     "putWall": 7626,
-    "gammaFlip": 7797,
+    "gammaFlip": 7796,
     "maxPain": 7756
    },
    "odte": {
     "vencimiento": "2026-10-19",
-    "esHoy": false,
+    "esHoy": true,
     "base": "gamma",
     "gexTotal": -1.43,
     "callWall": 765.0,
@@ -394,7 +394,7 @@
    "pcrOI": 2.28,
    "callWall": 760.0,
    "putWall": 700.0,
-   "gammaFlip": 743.95,
+   "gammaFlip": 743.86,
    "maxPain": 730.0,
    "vencimientoCercano": "2026-10-19",
    "escalera": [
@@ -575,12 +575,12 @@
     "precio": 29196,
     "callWall": 31243,
     "putWall": 28777,
-    "gammaFlip": 30583,
+    "gammaFlip": 30580,
     "maxPain": 30010
    },
    "odte": {
     "vencimiento": "2026-10-19",
-    "esHoy": false,
+    "esHoy": true,
     "base": "gamma",
     "gexTotal": -0.44,
     "callWall": 735.0,
@@ -597,10 +597,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-10-18T22:51:56Z"
+  "calculado": "2026-10-18T23:22:21Z"
  },
  "ciclo": {
-  "actualizado": "2026-10-18T22:52:04Z",
+  "actualizado": "2026-10-18T23:22:28Z",
   "total": 65,
   "fase": "Expansión fuerte",
   "cambio4": -5,
@@ -651,8 +651,8 @@
     "id": "hy_prima",
     "n": "Prima de riesgo de los bonos basura",
     "peso": 3,
-    "score": 85,
-    "valor": "3,23 % (+0,50 en 3 meses)",
+    "score": 81,
+    "valor": "3,23 % (+0,54 en 3 meses)",
     "nota": "Si falta dinero, la burbuja pincha primero en los bonos basura. Prima baja = tranquilidad; si se dispara, alarma.",
     "fecha": "2026-10-15",
     "frec": "a diario"
@@ -722,9 +722,9 @@
     "n": "Petróleo (WTI)",
     "peso": 1,
     "score": 100,
-    "valor": "98,73 $ · +23,0 % sobre su media de 1 año",
+    "valor": "98,73 $ · +22,9 % sobre su media de 1 año",
     "nota": "Petróleo firme = demanda. (Un pico muy brusco también puede frenar el consumo.)",
-    "fecha": "2026-10-09",
+    "fecha": "2026-10-12",
     "frec": "a diario"
    }
   ],
@@ -1358,7 +1358,7 @@
     "v": 67
    },
    {
-    "fecha": "2026-10-18",
+    "fecha": "2026-10-19",
     "v": 65
    }
   ],
