@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-19T06:47:26Z",
+  "actualizado": "2026-10-19T18:46:02Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.56,
-    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 %; la Fed de Warsh (3,75-4,00 %) tiene un 12 % de subir el 28 oct y un 83,5 % en diciembre (Kalshi, 19 oct). Con el empleo frenado (+29.000 en septiembre) y el crédito de la IA tensándose, es el patrón clásico de techo del ciclo corto."
+    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 %; la Fed de Warsh (3,75-4,00 %) tiene un 15,5 % de subir el 28 oct y un 82 % en diciembre (Kalshi, 19 oct). Con el empleo frenado (+29.000 en septiembre), la confianza de los constructores en mínimos desde 2012 (NAHB 29) y el crédito de la IA tensándose, es el patrón clásico de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -46,6 +46,14 @@
     {
       "nombre": "Investing.com/Reuters · CoreWeave, peor semana",
       "url": "https://www.investing.com/news/economy-news/coreweave-shares-bonds-headed-for-steep-weekly-losses-as-ai-borrowing-concerns-mount-4953586"
+    },
+    {
+      "nombre": "FXCM · Briefing macro 19 oct",
+      "url": "https://www.fxcm.com/za/insights/global-macro-and-markets-briefing-19-october-2026/"
+    },
+    {
+      "nombre": "U.S. News · NAHB octubre",
+      "url": "https://money.usnews.com/investing/news/articles/2026-10-19/us-homebuilder-sentiment-tumbles-to-near-14-1-2-year-low-in-october"
     }
   ],
   "hacia": "Lo normal tras subir tipos con el empleo frenándose es una desaceleración o recesión en los próximos 6-18 meses (fase de recesión del ciclo corto); el IPC caliente y el petróleo por encima de 100 $ lo adelantarían al forzar más subidas. Como la deuda ya es muy alta, la Fed tendrá poco margen: el riesgo es entrar en el desapalancamiento, donde lo más probable en EE. UU. es imprimir dinero (más inflación, dólar débil, oro fuerte) antes que recortar gasto.",
@@ -57,7 +65,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "12 % subida el 28 oct · 83,5 % el 9 dic (Kalshi, 19 oct)",
+      "c": "15,5 % subida el 28 oct · 82 % el 9 dic (Kalshi, 19 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -87,19 +95,19 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "19 oct · a 10 pb del umbral de atención",
+      "c": "19 oct · a 2 pb del umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,40 %"
+      "v": "5,48 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,40 % (19 oct), cerca de máximos de casi 20 años, y Japón y China siguen vendiendo Treasuries (TIC de agosto): es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,48 % (19 oct), cerca de máximos de casi 20 años, y Japón y China siguen vendiendo Treasuries (TIC de agosto): es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 83,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos) y el crédito de la IA se rompe (CDS de CoreWeave >1.000 pb, Nasdaq -4,5 % en la semana). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 82 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos) y el crédito de la IA se rompe (CDS de CoreWeave >1.000 pb, Nasdaq -4,5 % en la semana). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
   "palancas": [
     {
       "estado": "rojo",
@@ -201,6 +209,11 @@
       "corto": 0.56,
       "largo": 0.76,
       "ts": "2026-10-19T06:47:26Z"
+    },
+    {
+      "corto": 0.56,
+      "largo": 0.76,
+      "ts": "2026-10-19T18:46:02Z"
     }
   ]
 }
