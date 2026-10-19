@@ -1,35 +1,33 @@
 {
- "conectada": false,
+ "conectada": true,
  "pasos": [
   {
-   "id": "tv",
-   "nombre": "TradingView abierto",
-   "ok": false,
-   "detalle": "Cerrado o sin el puerto de depuración"
-  },
-  {
-   "id": "estrategia",
-   "nombre": "Estrategia en el gráfico",
-   "ok": false,
-   "detalle": "TradingView cerrado"
-  },
-  {
    "id": "alerta",
-   "nombre": "Alerta de avisos al móvil",
-   "ok": false,
-   "detalle": "TradingView cerrado"
+   "nombre": "Alerta que envía las órdenes",
+   "ok": true,
+   "detalle": "Activa en los servidores de TradingView, envía las órdenes a PickMyTrade (caduca 2026-11-19)"
   },
   {
    "id": "puente",
-   "nombre": "Ejecución",
+   "nombre": "Puente de órdenes",
    "ok": true,
-   "detalle": "Modo manual: los avisos llegan al móvil y ejecutas tú. El puente se contratará al aprobar la cuenta."
+   "detalle": "PickMyTrade → Tradovate, cuenta LFE05078906270004 (probado el 19-oct-2026 con 1 micro: entrada, stop, objetivo y cierre correctos)"
   }
  ],
- "grafico": {},
+ "grafico": {
+  "simbolo": "CME_MINI:MNQ1!",
+  "temporalidad": "1",
+  "net_profit": 561,
+  "total_trades": 1,
+  "winning_trades": 1,
+  "losing_trades": 0,
+  "max_drawdown": 193.25,
+  "ultimaSeñal": null
+ },
  "cuenta": "LucidFlex 50k (evaluación)",
  "riesgo": 500,
- "modo": "manual",
- "actualizado": "2026-10-19T08:48:09Z",
- "huella": "b35c582c70a99d5b22cb93e0505de846"
+ "modo": "auto",
+ "comprobado": "2026-10-19T08:50:22Z",
+ "actualizado": "2026-10-19T08:50:22Z",
+ "huella": "e45397e57d0d35c254295992d44657b3"
 }
