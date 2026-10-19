@@ -4,20 +4,20 @@
   {
    "id": "tv",
    "nombre": "TradingView abierto",
-   "ok": true,
-   "detalle": "Conectado"
+   "ok": false,
+   "detalle": "Cerrado o sin el puerto de depuración"
   },
   {
    "id": "estrategia",
    "nombre": "Estrategia en el gráfico",
-   "ok": true,
-   "detalle": "En el gráfico MNQ1!, 1 min"
+   "ok": false,
+   "detalle": "TradingView cerrado"
   },
   {
    "id": "alerta",
    "nombre": "Alerta de avisos al móvil",
    "ok": false,
-   "detalle": "Falta crear la alerta con webhook"
+   "detalle": "TradingView cerrado"
   },
   {
    "id": "puente",
@@ -26,18 +26,10 @@
    "detalle": "Modo manual: los avisos llegan al móvil y ejecutas tú. El puente se contratará al aprobar la cuenta."
   }
  ],
- "grafico": {
-  "simbolo": "CME_MINI:MNQ1!",
-  "temporalidad": "1",
-  "net_profit": 561,
-  "total_trades": 1,
-  "winning_trades": 1,
-  "losing_trades": 0,
-  "max_drawdown": 193.25
- },
+ "grafico": {},
  "cuenta": "LucidFlex 50k (evaluación)",
  "riesgo": 500,
  "modo": "manual",
- "actualizado": "2026-10-19T08:43:05Z",
- "huella": "2b41ba46de7c92f0dfdfc441fff7879e"
+ "actualizado": "2026-10-19T08:48:09Z",
+ "huella": "b35c582c70a99d5b22cb93e0505de846"
 }
