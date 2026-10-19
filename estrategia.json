@@ -1,5 +1,5 @@
 {
- "conectada": true,
+ "conectada": false,
  "pasos": [
   {
    "id": "tv",
@@ -16,8 +16,8 @@
   {
    "id": "alerta",
    "nombre": "Alerta de avisos al móvil",
-   "ok": true,
-   "detalle": "Activa, avisa en la app de TradingView (caduca 2026-11-18)"
+   "ok": false,
+   "detalle": "Falta crear la alerta con webhook"
   },
   {
    "id": "puente",
@@ -33,12 +33,11 @@
   "total_trades": 1,
   "winning_trades": 1,
   "losing_trades": 0,
-  "max_drawdown": 193.25,
-  "ultimaSeñal": null
+  "max_drawdown": 193.25
  },
  "cuenta": "LucidFlex 50k (evaluación)",
  "riesgo": 500,
  "modo": "manual",
- "actualizado": "2026-10-19T08:38:01Z",
- "huella": "3cdf61ab9f65225d735eb695978c2915"
+ "actualizado": "2026-10-19T08:43:05Z",
+ "huella": "2b41ba46de7c92f0dfdfc441fff7879e"
 }
