@@ -324,9 +324,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-19T05:57:32Z",
+    "actualizado": "2026-10-19T06:59:09Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre baja al 12,0 % (mantener 87,5 %, bajar 0,5 %), frente al 14,0 % de la lectura anterior. La de diciembre sube ligeramente al 83,5 % (mantener 13,5 %, bajar 3,0 %, tasa implícita 4,12 %).",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre baja al 12,0 % (mantener 87,5 %, bajar 0,5 %), frente al 14,0 % de la lectura anterior. La de diciembre se mantiene en el 83,5 % (mantener 13,5 %, bajar 3,0 %, tasa implícita 4,12 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -348,7 +348,7 @@
         "fecha": "2027-01-27",
         "mantener": 2,
         "subir": 92.5,
-        "tasaImplicita": 4.18
+        "tasaImplicita": 4.19
       },
       {
         "bajar": 1.5,
@@ -762,17 +762,25 @@
     {
       "nombre": "Invezz · Oil set for weekly gain as supply constraints keep prices elevated (16 oct)",
       "url": "https://invezz.com/news/2026/10/16/oil-set-for-weekly-gain-as-supply-constraints-keep-prices-elevated/"
+    },
+    {
+      "nombre": "NBC News · Meet the Press, entrevista a Scott Bessent (18 oct)",
+      "url": "https://www.nbcnews.com/meet-the-press/video/scott-bessent-says-prices-will-come-down-after-iran-war-we-will-get-to-the-other-side-271778885748"
+    },
+    {
+      "nombre": "Inkl · Oil tanker on fire after hitting mine in Hormuz, Iran's Guards say (18-19 oct)",
+      "url": "https://www.inkl.com/news/oil-tanker-on-fire-after-hitting-mine-in-hormuz-irans-guards"
     }
   ],
   "indices": [
     {
-      "changeNote": "futuros premercado, 06:20 UTC (02:20 hora de Nueva York, 07:20 Canarias)",
+      "changeNote": "futuros premercado, 06:28 UTC (02:28 hora de Nueva York, 07:28 Canarias)",
       "changePct": 0.8,
       "claves": [
-        "Call wall en 7.726 (SPY 770,0), sin cambios; put wall sube a 7.626 (SPY 760,0), antes 7.576.",
-        "Régimen de gamma NEGATIVO, en -7,64 mil M$ por 1 % (antes -7,85): se suaviza algo.",
-        "Giro de gamma en 7.812 (SPY 778,52), por encima del precio: sigue de resistencia técnica.",
-        "Max pain en 7.756 (SPY 773,0); put/call de open interest baja a 1,73 (antes 1,81)."
+        "Call wall en 7.726 (SPY 770,0), sin cambios; put wall en 7.626 (SPY 760,0), sin cambios.",
+        "Régimen de gamma NEGATIVO, estable en -7,64 mil M$ por 1 %.",
+        "Giro de gamma en 7.811 (SPY 778,49), por encima del precio: sigue de resistencia técnica.",
+        "Max pain en 7.756 (SPY 773,0); put/call de open interest en 1,73, sin cambios."
       ],
       "gex": {
         "callWall": 770,
@@ -964,11 +972,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 778.52,
+        "gammaFlip": 778.49,
         "gexTotal": -7.64,
         "indice": {
           "callWall": 7726,
-          "gammaFlip": 7812,
+          "gammaFlip": 7811,
           "maxPain": 7756,
           "precio": 7659,
           "putWall": 7626
@@ -1001,29 +1009,28 @@
         "vencimientoCercano": "2026-10-19"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cierra la sesión y la semana en 7.659,44 (-1,09 % frente al cierre del jueves en 7.744,06), su peor semana en varios meses, aunque algo menos mal que el mínimo intradía (-1,25 %) gracias al dólar débil tras los comentarios de Kevin Warsh en el FMI de Bangkok, que evitó señalar una subida en octubre (probabilidad ya en el 14,0 %). El régimen de gamma se endurece levemente a -7,85 mil M$ por 1 % (antes -7,69), con el call wall en 7.726 de techo técnico. El desplome de los semiconductores (CoreWeave, con sus bonos de 2032 por encima del 15 % de rentabilidad) y el temor a una burbuja de financiación de la IA siguen dominando sobre cualquier otro factor, incluido el dato de producción industrial (+0,7 % m/m) que bate lo esperado.",
+      "lectura": "A las 06:28 UTC del lunes 19 de octubre, los futuros del S&P 500 suben un 0,8 % tras el peor cierre semanal desde junio (cierre en 7.659,44). La gamma sigue negativa en -7,64 mil M$ por 1 %, con el call wall en 7.726 de techo técnico y el giro de gamma en 7.811 de resistencia. Bessent dio soporte el domingo en Meet the Press al prometer que los precios bajarán cuando termine la guerra con Irán, y Warsh sigue sin señalar una subida en octubre (probabilidad ya en el 14,0 %), pero un nuevo ataque con mina a un petrolero en el estrecho de Ormuz añade riesgo. El dato más relevante de la semana es el PMI de servicios S&P Global del viernes (previsto 57,9 frente a 58,8 anterior).",
       "levels": {
         "callWall": 7726,
-        "gammaFlip": 7812,
+        "gammaFlip": 7811,
         "maxPain": 7756,
-        "precio": 7659,
         "putWall": 7626
       },
       "name": "S&P 500",
       "netGex": "negativa (-7.64 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-15)",
       "regime": "negativa",
-      "score": -40,
-      "sesgo": "bajista",
+      "score": 13,
+      "sesgo": "neutral",
       "spot": 7720.1
     },
     {
-      "changeNote": "futuros premercado, 06:20 UTC (02:20 hora de Nueva York, 07:20 Canarias)",
+      "changeNote": "futuros premercado, 06:28 UTC (02:28 hora de Nueva York, 07:28 Canarias)",
       "changePct": 1.3,
       "claves": [
         "Call wall en 31.243 (QQQ 760,0) y put wall en 28.777 (QQQ 700,0), ambos sin cambios.",
-        "Régimen de gamma NEGATIVO, en -5,85 mil M$ por 1 % (antes -5,87): prácticamente estable.",
-        "Giro de gamma en 30.888 (QQQ 751,35), dato ahora disponible, por encima del precio: referencia de resistencia.",
-        "Max pain en 30.010 (QQQ 730,0); put/call de open interest baja a 2,28 (antes 2,30)."
+        "Régimen de gamma NEGATIVO, estable en -5,85 mil M$ por 1 %.",
+        "Giro de gamma en 30.884 (QQQ 751,27), por encima del precio: referencia de resistencia.",
+        "Max pain en 30.010 (QQQ 730,0); put/call de open interest en 2,28, sin cambios."
       ],
       "gex": {
         "callWall": 760,
@@ -1203,11 +1210,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 751.35,
+        "gammaFlip": 751.27,
         "gexTotal": -5.85,
         "indice": {
           "callWall": 31243,
-          "gammaFlip": 30888,
+          "gammaFlip": 30884,
           "maxPain": 30010,
           "precio": 29196,
           "putWall": 28777
@@ -1240,24 +1247,23 @@
         "vencimientoCercano": "2026-10-19"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cierra en 29.293,80 (-2,05 % en la sesión), su peor semana desde junio, con el sector tecnológico liderando las pérdidas. El régimen de gamma se mantiene estable en -5,87 mil M$ por 1 % y el put wall en 28.777 sigue siendo la referencia técnica clave a la baja. El estrés de financiación de la IA se intensifica: los bonos de CoreWeave con vencimiento en 2032 superan el 15 % de rentabilidad, Oracle y Nebius también caen, y los semiconductores (SOXX) encadenan ya su octava sesión consecutiva de pérdidas, la peor racha desde 2015.",
+      "lectura": "Los futuros del Nasdaq 100 rebotan un 1,3 % tras su peor semana desde junio, aunque los semiconductores (SOXX) acumulan ya ocho sesiones consecutivas a la baja, su peor racha desde 2008, con el estrés de financiación de la IA (bonos de CoreWeave por encima del 15 %) como principal lastre. La gamma sigue negativa en -5,85 mil M$ por 1 %, con el put wall en 28.777 de referencia técnica clave. Warsh evita señalar una subida en octubre (probabilidad ya en el 14,0 %), lo que da algo de aire, pero el PMI de servicios S&P Global del viernes (previsto 57,9) será la referencia macro clave de la semana.",
       "levels": {
         "callWall": 31243,
-        "gammaFlip": 30888,
+        "gammaFlip": 30884,
         "maxPain": 30010,
-        "precio": 29196,
         "putWall": 28777
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-5.85 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-15)",
       "regime": "negativa",
-      "score": -55,
-      "sesgo": "bajista",
+      "score": 11,
+      "sesgo": "neutral",
       "spot": 29674.8
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-19T05:57:32Z",
+    "actualizado": "2026-10-19T06:27:57Z",
     "balance": 6755.6,
     "d4": 7.9,
     "dBalance": 8,
@@ -1394,6 +1400,22 @@
       "activos": {
         "BTC": "neutral",
         "EURUSD": "neutral",
+        "NQ": "neutral",
+        "SPX": "neutral",
+        "WTI": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "Yahoo Finance",
+      "impacto": "medio",
+      "resumen": "Tesla y Meta presentarán sus cuentas el miércoles 21 de octubre, en una semana con 212 empresas publicando beneficios.",
+      "titular": "Arranca una semana cargada de resultados: Tesla, Meta y Netflix entre 212 compañías",
+      "ts": "2026-10-19T07:00:00Z",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
         "NQ": "alcista",
         "SPX": "alcista",
         "WTI": "neutral",
@@ -1405,6 +1427,22 @@
       "titular": "Los futuros de EE. UU. suben con fuerza este lunes: Nasdaq 100 +1,3 %, S&P 500 +0,8 %",
       "ts": "2026-10-19T06:00:00Z",
       "url": "https://www.chaincatcher.com/en/article/2297263"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NQ": "neutral",
+        "SPX": "neutral",
+        "WTI": "bajista",
+        "XAU": "neutral"
+      },
+      "fuente": "FXStreet",
+      "impacto": "alto",
+      "resumen": "El Brent retrocede a 108,06 $ (-1,6 %) y el WTI a 100,70 $ (-0,7 %) tras levantar Washington sanciones y aranceles clave a Rusia.",
+      "titular": "El petróleo cae tras el levantamiento de sanciones de EE. UU. a las exportaciones de combustible rusas",
+      "ts": "2026-10-19T05:51:00Z",
+      "url": "https://www.fxstreet.com/analysis/oil-and-geopolitics-in-focus-after-turbulent-weekend-202610190551"
     },
     {
       "activos": {
@@ -1469,49 +1507,97 @@
       "titular": "El euro cae por debajo de 1,12 dólares al abrir la semana, borrando la subida del viernes",
       "ts": "2026-10-19T02:00:00Z",
       "url": "https://actionforex.com/contributors/fundamental-analysis/657927-oil-and-geopolitics-in-focus-after-turbulent-weekend"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "bajista",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "alcista",
+        "XAU": "alcista"
+      },
+      "fuente": "Inkl / IRGC",
+      "impacto": "alto",
+      "resumen": "El IRGC dice que el buque había apagado sus sistemas de posicionamiento y usaba una ruta sur no autorizada; el tránsito por el estrecho sigue prohibido.",
+      "titular": "Un petrolero arde en Ormuz tras chocar con una mina, según la Guardia Revolucionaria de Irán",
+      "ts": "2026-10-19T01:00:00Z",
+      "url": "https://www.inkl.com/news/oil-tanker-on-fire-after-hitting-mine-in-hormuz-irans-guards"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
+        "NQ": "alcista",
+        "SPX": "alcista",
+        "WTI": "bajista",
+        "XAU": "neutral"
+      },
+      "fuente": "NBC News (Meet the Press)",
+      "impacto": "medio",
+      "resumen": "El secretario del Tesoro atribuye la subida de precios a un \"shock de oferta energética\" ligado al conflicto y dice que \"llegaremos al otro lado\"; también defendió las sanciones a Rusia.",
+      "titular": "Bessent promete en Meet the Press que los precios bajarán cuando termine la guerra con Irán",
+      "ts": "2026-10-18T13:00:00Z",
+      "url": "https://www.nbcnews.com/meet-the-press/video/scott-bessent-says-prices-will-come-down-after-iran-war-we-will-get-to-the-other-side-271778885748"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-10-19, por open interest (SPY 782,0). Put/call OI: 1,68.",
+        "nota": "Vencimiento 2026-10-19, por open interest (SPY 782.0). Put/call OI: 1.68.",
         "valor": "7.847"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "SPY 731,0.",
+        "nota": "SPY 731.0.",
         "valor": "7.335"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "SPY 773,0.",
+        "nota": "SPY 775.6.",
         "valor": "7.756"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-10-19, por open interest (QQQ 735,0). Put/call OI: 1,2.",
+        "nota": "Vencimiento 2026-10-19, por open interest (QQQ 735.0). Put/call OI: 1.2.",
         "valor": "30.216"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "QQQ 700,0.",
+        "nota": "QQQ 700.0.",
         "valor": "28.777"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "QQQ 730,0.",
+        "nota": "QQQ 3001.0.",
         "valor": "30.010"
       }
     ],
-    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 19 de octubre, por open interest, sin dato de gamma); el put/call se mantiene en 1,68 en SPX y baja a 1,20 en Nasdaq 100 (antes 1,83). El max pain 0DTE coincide con el max pain principal en ambos índices (7.756 y 30.010); el rango 0DTE (7.335-7.847 en SPX, 28.777-30.216 en NDX) marca el rango técnico esperado para la sesión de hoy."
+    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 19 de octubre, por open interest, sin dato de gamma); el put/call se mantiene en 1,68 en SPX y en 1,20 en Nasdaq 100. El max pain 0DTE coincide con el max pain principal en ambos índices (7.756 y 30.010); el rango 0DTE (7.335-7.847 en SPX, 28.777-30.216 en NDX) marca el rango técnico esperado para la sesión de hoy, con los futuros apuntando a una apertura cerca de la parte alta de ese rango tras el rebote premercado."
   },
   "politica": {
-    "actualizado": "2026-10-16T21:55:00Z",
-    "ajuste": -4,
+    "actualizado": "2026-10-19T07:10:00Z",
+    "ajuste": -6,
     "declaraciones": [
       {
-        "dicho": "Evita señalar una subida en octubre y dice que ya no prejuzgara las reuniones del FOMC.",
+        "dicho": "Dice que los precios bajarán al terminar la guerra con Irán: \"llegaremos al otro lado\".",
+        "efecto": "alcista",
+        "fuente": "NBC News (Meet the Press)",
+        "quien": "Scott Bessent",
+        "ts": "2026-10-18T13:00:00Z",
+        "url": "https://www.nbcnews.com/meet-the-press/video/scott-bessent-says-prices-will-come-down-after-iran-war-we-will-get-to-the-other-side-271778885748"
+      },
+      {
+        "dicho": "Guardia Revolucionaria: un petrolero ardió tras chocar con una mina en Ormuz; el tránsito sigue prohibido.",
+        "efecto": "bajista",
+        "fuente": "Inkl / IRGC",
+        "quien": "Mando naval del IRGC (Irán)",
+        "ts": "2026-10-19T01:00:00Z",
+        "url": "https://www.inkl.com/news/oil-tanker-on-fire-after-hitting-mine-in-hormuz-irans-guards"
+      },
+      {
+        "dicho": "Evita señalar una subida de tipos en octubre; dice que ya no prejuzgará las reuniones del FOMC.",
         "efecto": "alcista",
         "fuente": "ActionForex / CNBC / AP",
         "quien": "Kevin Warsh",
@@ -1519,15 +1605,7 @@
         "url": "https://www.actionforex.com/live-comments/657672-feds-warsh-declines-october-rate-signal-says-fed-will-no-longer-preview-decisions/"
       },
       {
-        "dicho": "Dice que el liderazgo irani empieza a sentir la presion economica de las sanciones de EE. UU.",
-        "efecto": "alcista",
-        "fuente": "InvestingLive",
-        "quien": "Scott Bessent",
-        "ts": "2026-10-16T12:30:00Z",
-        "url": "https://investinglive.com/news/bessent-iran-leadership-is-feeling-the-economic-pressure/"
-      },
-      {
-        "dicho": "Lamenta que eliminar a lideres iranies haya complicado lograr la paz con Teheran.",
+        "dicho": "Lamenta que eliminar a líderes iraníes haya complicado lograr la paz con Teherán.",
         "efecto": "bajista",
         "fuente": "Fox News",
         "quien": "Trump",
@@ -1535,29 +1613,21 @@
         "url": "https://www.foxnews.com/live-news/us-iran-war-peace-donald-trump-strait-hormuz-oil-prices-midterms-october-15"
       },
       {
-        "dicho": "Descarta un rescate facil del BCE para la deuda francesa, en plena escalada en Ormuz.",
+        "dicho": "Descarta un rescate fácil del BCE para la deuda francesa en plena escalada en Ormuz.",
         "efecto": "bajista",
         "fuente": "FXStreet",
         "quien": "Christine Lagarde",
         "ts": "2026-10-14T09:50:00Z",
         "url": "https://www.fxstreet.com/analysis/lagarde-rules-out-an-easy-ecb-rescue-for-french-debt-while-hormuz-shipping-attacks-intensify-202610140950"
-      },
-      {
-        "dicho": "El Banco de Japon se inclina en contra de una subida consecutiva en octubre, pero no descarta otra en diciembre.",
-        "efecto": "neutral",
-        "fuente": "Bloomberg",
-        "quien": "Kazuo Ueda",
-        "ts": "2026-10-13T00:00:00Z",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-13/boj-is-said-to-lean-against-back-to-back-rate-hike-in-october"
       }
     ],
     "efecto": "mixto",
-    "lectura": "Warsh sigue sin dar señal sobre la subida de octubre (probabilidad al 13,5 %), citando el auge de inversion en IA como presion alcista sobre la inflacion, lo que debilita al dolar y amortigua el sesgo bajista. Bessent afirma que el liderazgo irani empieza a sentir la presion economica de las sanciones de EE. UU., dando soporte a los futuros de EE. UU. y enfriando los rendimientos del Tesoro. Los aranceles de Trump, el tono cauto de Lagarde sobre la deuda francesa y el Banco de Japon neutral siguen pesando sobre el sesgo general.",
+    "lectura": "Warsh sigue evitando una señal clara sobre octubre y Bessent promete una bajada de precios tras el fin de la guerra con Irán, lo que sostiene a los futuros, pero un nuevo ataque con mina en Ormuz (petrolero incendiado) y la cautela de Lagarde con la deuda francesa mantienen el sesgo en mixto.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
         "efecto": "bajista",
-        "postura": "Lamenta que eliminar a lideres iranies complicara la paz, tras descartar armas nucleares contra Iran (15-16 oct).",
+        "postura": "Lamenta que eliminar a líderes iraníes complicara lograr la paz con Teherán (15 oct).",
         "quien": "Trump",
         "ts": "2026-10-15T07:00:00Z",
         "url": "https://www.foxnews.com/live-news/us-iran-war-peace-donald-trump-strait-hormuz-oil-prices-midterms-october-15"
@@ -1565,7 +1635,7 @@
       {
         "cargo": "Presidente de la Reserva Federal",
         "efecto": "alcista",
-        "postura": "Evita dar señal sobre octubre en el FMI en Bangkok; dice que ya no prejuzgara las decisiones del FOMC (16 oct).",
+        "postura": "Evita señalar una subida en octubre en el FMI de Bangkok; probabilidad ya en el 14 % (16 oct).",
         "quien": "Kevin Warsh",
         "ts": "2026-10-16T03:00:00Z",
         "url": "https://www.actionforex.com/live-comments/657672-feds-warsh-declines-october-rate-signal-says-fed-will-no-longer-preview-decisions/"
@@ -1573,85 +1643,91 @@
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
         "efecto": "alcista",
-        "postura": "Dice que el liderazgo irani empieza a sentir la presion economica de las sanciones de EE. UU. (16 oct).",
+        "postura": "Dice que los precios bajarán cuando termine la guerra con Irán: \"llegaremos al otro lado\" (18 oct).",
         "quien": "Scott Bessent",
-        "ts": "2026-10-16T12:30:00Z",
-        "url": "https://investinglive.com/news/bessent-iran-leadership-is-feeling-the-economic-pressure/"
+        "ts": "2026-10-18T13:00:00Z",
+        "url": "https://www.nbcnews.com/meet-the-press/video/scott-bessent-says-prices-will-come-down-after-iran-war-we-will-get-to-the-other-side-271778885748"
       },
       {
         "cargo": "Presidenta del Banco Central Europeo",
         "efecto": "bajista",
-        "postura": "Descarta un rescate facil del BCE para la deuda francesa mientras se intensifica la escalada en Ormuz (14 oct).",
+        "postura": "Descarta un rescate fácil del BCE para la deuda francesa en plena escalada en Ormuz (14 oct).",
         "quien": "Christine Lagarde",
         "ts": "2026-10-14T09:50:00Z",
         "url": "https://www.fxstreet.com/analysis/lagarde-rules-out-an-easy-ecb-rescue-for-french-debt-while-hormuz-shipping-attacks-intensify-202610140950"
       },
       {
-        "cargo": "Gobernador del Banco de Japon",
+        "cargo": "Gobernador del Banco de Japón",
         "efecto": "neutral",
-        "postura": "El BoJ se inclina en contra de una subida consecutiva en octubre, aunque no descarta otra en diciembre (13 oct).",
+        "postura": "El BoJ se inclina contra una subida consecutiva en octubre, sin descartar otra en diciembre (13 oct).",
         "quien": "Kazuo Ueda",
         "ts": "2026-10-13T00:00:00Z",
         "url": "https://www.bloomberg.com/news/articles/2026-10-13/boj-is-said-to-lean-against-back-to-back-rate-hike-in-october"
       },
       {
-        "cargo": "Fuerza naval de la Guardia Revolucionaria Islamica, Iran",
+        "cargo": "Guardia Revolucionaria Islámica, fuerza naval",
         "efecto": "bajista",
-        "postura": "Un petrolero arde en el estrecho de Ormuz; EE. UU. rechaza que Iran controle la zona (15 oct).",
-        "quien": "Mando naval del IRGC (Iran)",
-        "ts": "2026-10-15T09:00:00Z",
-        "url": "https://boereport.com/2026/10/15/irans-army-says-oil-tanker-on-fire-in-the-strait-of-hormuz/"
+        "postura": "Dice que un petrolero ardió tras chocar con una mina en Ormuz; el tránsito sigue prohibido (18-19 oct).",
+        "quien": "Mando naval del IRGC (Irán)",
+        "ts": "2026-10-19T01:00:00Z",
+        "url": "https://www.inkl.com/news/oil-tanker-on-fire-after-hitting-mine-in-hormuz-irans-guards"
       }
     ]
   },
-  "resumen": "Son las 06:20 UTC (07:20 en Canarias, 02:20 hora de Nueva York) del lunes 19 de octubre de 2026, con Wall Street aún cerrada. Los futuros apuntan a una apertura al alza (S&P 500 +0,8 %, Nasdaq 100 +1,3 %) tras el peor cierre semanal desde junio, aunque los semiconductores siguen bajo presión tras ocho sesiones consecutivas a la baja. La probabilidad de que la Fed suba tipos el 28 de octubre baja al 12,0 % tras los comentarios de Kevin Warsh la semana pasada; la liquidez sigue entrando sin tensión en los repos. El oro ronda los 4.175-4.180 $/oz, el petróleo repunta por la escalada en el estrecho de Ormuz durante el fin de semana (Brent sobre 108 $) y el euro cae por debajo de 1,12 $ al reabrir la semana.",
+  "resumen": "Son las 07:19 UTC (08:19 en Canarias, 03:19 hora de Nueva York) del lunes 19 de octubre de 2026, con Wall Street aún cerrada. Los futuros suben con fuerza (S&P 500 +0,8 %, Nasdaq 100 +1,3 %) tras el peor cierre semanal desde junio, aunque los semiconductores encadenan ya ocho sesiones consecutivas a la baja. La probabilidad de que la Fed suba tipos el 28 de octubre baja al 12,0 %, sin que Warsh dé pistas claras; Bessent prometió el domingo en Meet the Press que los precios bajarán cuando acabe la guerra con Irán. El petróleo recorta parte de su subida tras levantar Washington sanciones a las exportaciones de combustible rusas (Brent 108,06 $, -1,6 %), aunque la escalada en el estrecho de Ormuz sigue viva (un petrolero ardió tras chocar con una mina). El oro ronda los 4.181 $/oz y el euro recupera terreno hacia 1,1231 $ tras tocar mínimos al reabrir la semana. Arranca además una semana cargada de resultados, con Tesla y Meta el miércoles.",
   "semana": {
     "activos": [
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "El calendario de la semana viene ligeramente en contra del dólar (PMI y Michigan con sesgo de enfriamiento, aunque casi la mitad sin consenso), lo que en teoría favorecería a la renta variable vía un dólar más débil. Pero domina el resto: la gamma sigue negativa (-7,85 mil M$ por 1 %) y el estrés de financiación de la IA sigue presionando, dejando un sesgo de partida neutral con riesgo de volatilidad en ambas direcciones.",
+        "cambio": "Sube de -8 a 19 (de neutral a alcista)",
+        "expectativa": "El calendario de la semana sigue en contra del dólar (-69), lo que en teoría favorece a la renta variable, y el rebote premercado (+0,8 %) junto con las promesas de Bessent y la indefinición de Warsh sobre octubre inclinan el sesgo hacia alcista, aunque la gamma negativa y la escalada en Ormuz limitan la convicción.",
         "id": "SPX",
-        "score": -8,
+        "narrativa": "El calendario de esta semana viene en contra del dólar (-69 sobre la base esperada), con los PMI preliminares de EE. UU. y la eurozona del viernes pesando más, aunque casi la mitad de los datos no tiene consenso publicado, así que el peso real del calendario sigue siendo bajo-medio (0,35). La Fed sigue sin dar señales claras para el 28 de octubre (probabilidad de subida al 14,0 %, algo más alta que la semana pasada) y la liquidez continúa entrando sin tensión (+7.000 M$ la última semana). La gamma se mantiene negativa en -7,64 mil M$ por 1 %, con el call wall en 7.726 de techo técnico, mientras Bessent calma los ánimos prometiendo precios más bajos tras el fin de la guerra con Irán y Warsh evita señalar una subida, aunque la escalada en el estrecho de Ormuz (petrolero incendiado tras una mina) y la cautela de Lagarde con la deuda francesa mantienen el riesgo.",
+        "score": 19,
         "scoreInicial": -8,
+        "sesgo": "alcista"
+      },
+      {
+        "cambio": "Sube de -16 a 11 (de bajista a neutral)",
+        "expectativa": "El giro del calendario hacia un dólar más débil y la indefinición de Warsh ayudan en teoría a la tecnología, pero el Nasdaq sigue lastrado por el estrés de financiación de la IA (SOXX en su peor racha desde 2008), lo que mantiene el sesgo apenas en terreno neutral pese al rebote premercado.",
+        "id": "NQ",
+        "narrativa": "El calendario de esta semana viene en contra del dólar (-69), lo que en teoría apoya a la tecnología, pero el Nasdaq sigue además lastrado por el estrés de financiación de la IA (bonos de CoreWeave por encima del 15 %, semiconductores en su peor racha desde 2008), que pesa más que el propio calendario macro. La Fed (probabilidad de subida al 14,0 %) y la liquidez entrando sin tensión dan algo de aire, y la gamma negativa se mantiene estable en -5,87 mil M$ por 1 %, con el put wall en 28.777 de referencia técnica clave. Warsh evita señalar una subida y Bessent promete una bajada de precios tras el fin de la guerra con Irán, pero la escalada en Ormuz añade una capa de riesgo adicional sobre un índice ya frágil.",
+        "score": 11,
+        "scoreInicial": -16,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "El giro del calendario hacia un dólar algo más débil ayudaría en teoría a la tecnología, pero el Nasdaq sigue en el centro del estrés de financiación de la IA (SOXX en su peor racha desde 2015, bonos de CoreWeave por encima del 15 %) con gamma negativa estable en -5,87 mil M$ por 1 %, lo que deja un sesgo de partida bajista.",
-        "id": "NQ",
-        "score": -16,
-        "scoreInicial": -16,
-        "sesgo": "bajista"
-      },
-      {
-        "cambio": "Inicio de semana",
-        "expectativa": "El calendario apunta a datos de EE. UU. algo más flojos de lo previsto, lo que debilitaría al dólar y apoyaría al oro; a eso se suma la demanda de refugio por la escalada de ataques a petroleros en el estrecho de Ormuz y la indefinición de Warsh sobre la subida de octubre. El sesgo de partida es claramente alcista.",
+        "cambio": "Sube de 50 a 60 (se refuerza el alcista)",
+        "expectativa": "El calendario apunta a datos de EE. UU. algo más flojos de lo previsto, lo que debilitaría al dólar y apoyaría al oro; a eso se suma la demanda de refugio por la nueva escalada en Ormuz (petrolero incendiado tras una mina) y la indefinición de Warsh. El sesgo se refuerza hacia claramente alcista.",
         "id": "XAU",
-        "score": 50,
+        "narrativa": "El calendario de EE. UU. se inclina en contra del dólar esta semana (-69), lo que apoya al oro, y a eso se suma la Fed sin señales claras para el 28 de octubre y la liquidez entrando sin tensión. En opciones, la gamma negativa en ambos índices amplifica la volatilidad y refuerza la demanda de refugio. El oro se beneficia además de la escalada bélica en el estrecho de Ormuz (nuevo ataque con mina) y de que tanto Bessent como Warsh resten urgencia a una subida de tipos, mientras la cautela de Lagarde con la deuda francesa añade un argumento de refugio adicional en Europa.",
+        "score": 60,
         "scoreInicial": 50,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "Un calendario que se inclina en contra del dólar y una Fed que sigue sin dar señales claras de subida en octubre apoyan la recuperación de bitcoin, junto con la liquidez de la Fed que sigue entrando (+7.000 M$ la última semana). El sesgo de partida es alcista, aunque con riesgo de contagio si el estrés de financiación de la IA se intensifica.",
+        "cambio": "Sube de 29 a 36 (se refuerza el alcista)",
+        "expectativa": "Un calendario que se inclina en contra del dólar y una Fed que sigue sin dar señales claras de subida en octubre apoyan la recuperación de bitcoin hacia 82.500 $, junto con la liquidez de la Fed que sigue entrando; el sesgo se refuerza hacia alcista, aunque con riesgo de contagio si el estrés de financiación de la IA se intensifica.",
         "id": "BTC",
-        "score": 29,
+        "narrativa": "El calendario de EE. UU. se inclina en contra del dólar (-69), lo que apoya la recuperación de bitcoin hacia los 82.500 $ tras el susto del viernes. La Fed sin señales claras para el 28 de octubre (probabilidad de subida al 14,0 %) y la liquidez entrando sin tensión (+7.000 M$ la última semana) refuerzan el sesgo alcista. Bessent y Warsh restan urgencia a una subida de tipos, lo que favorece a los activos de riesgo, aunque el estrés de financiación de la IA en el Nasdaq y la escalada en Ormuz son focos de riesgo que podrían contagiar el apetito por riesgo.",
+        "score": 36,
         "scoreInicial": 29,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "El calendario de EE. UU. se inclina levemente en contra del dólar esta semana, lo que debería apoyar al euro, pero Lagarde sigue cauta con la deuda francesa y la eurozona no tiene grandes referencias hasta los PMI del viernes. El sesgo de partida queda neutral, a la espera del BCE y del FOMC la semana siguiente.",
+        "cambio": "Baja de 13 a 10 (se mantiene neutral)",
+        "expectativa": "El calendario de EE. UU. se inclina levemente en contra del dólar esta semana, lo que debería apoyar al euro, pero Lagarde sigue cauta con la deuda francesa y el bloque de PMI de la eurozona del viernes viene con un balance muy débil (-100); el sesgo se queda neutral, a la espera del BCE y del FOMC la semana siguiente.",
         "id": "EURUSD",
-        "score": 13,
+        "narrativa": "El calendario de EE. UU. favorece ligeramente al euro por un dólar algo más débil (-69), pero el bloque de PMI de la eurozona del viernes viene con un balance muy débil (-100, con casi todos los datos sin consenso publicado) y Lagarde sigue cauta sobre la deuda francesa en plena escalada en Ormuz, lo que limita el alza. El euro ya cotiza por debajo de 1,12 $ al reabrir la semana, y tanto el BCE como el FOMC de la semana siguiente mantienen al par sin una dirección clara por ahora.",
+        "score": 10,
         "scoreInicial": 13,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "Más allá del calendario macro, el petróleo sigue dominado por la escalada de ataques a petroleros en el estrecho de Ormuz, que añade una prima de riesgo de oferta, mientras la OPEP mantiene la producción sin cambios. El sesgo de partida es alcista, aunque Trump estudia relajar restricciones a países bajo sanciones, lo que podría limitar el repunte.",
+        "cambio": "Sube de 35 a 38 (se mantiene alcista)",
+        "expectativa": "Más allá del calendario macro, el petróleo sigue dominado por la escalada de ataques en el estrecho de Ormuz, que añade una prima de riesgo de oferta tras el nuevo ataque con mina del fin de semana; el sesgo de partida se mantiene alcista, aunque Trump estudia relajar restricciones a países bajo sanciones, lo que podría limitar el repunte.",
         "id": "WTI",
-        "score": 35,
+        "narrativa": "Más allá del calendario, el petróleo sigue dominado por la escalada bélica en el estrecho de Ormuz (nuevo ataque con mina, petrolero incendiado) con el Brent por encima de 108 $, mientras el dólar algo más débil por el calendario de la semana (-69) añade un soporte adicional. Trump estudia relajar restricciones a países bajo sanciones, lo que podría aliviar algo la prima de riesgo, y Bessent insiste en que los precios bajarán cuando termine el conflicto con Irán, pero mientras tanto la OPEP mantiene la producción sin cambios y el riesgo de oferta domina.",
+        "score": 38,
         "scoreInicial": 35,
         "sesgo": "alcista"
       }
@@ -1665,13 +1741,7 @@
         "WTI": 34,
         "XAU": 69
       },
-      "actualizado": "2026-10-18T18:10:05.000Z",
-      "datos": {
-        "igual": 0,
-        "neg": 5,
-        "pos": 1,
-        "sin": 6
-      },
+      "actualizado": "2026-10-19T07:10:00Z",
       "dolar": -69,
       "dolarEsperado": -69,
       "euro": -100
@@ -1879,8 +1949,8 @@
     "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa y la indefinición de Warsh.",
     "rango": "19 a 23 de octubre de 2026",
     "slot": "semanal",
-    "updatedAt": "2026-10-18T18:10:05.000Z"
+    "updatedAt": "2026-10-19T07:10:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-19T06:25:00.000Z"
+  "updatedAt": "2026-10-19T07:25:00.000000Z"
 }
