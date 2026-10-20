@@ -324,29 +324,29 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-20T19:57:32Z",
+    "actualizado": "2026-10-20T20:58:25Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene en el 14,5 % (mantener 85,0 %, bajar 0,5 %, tasa implícita 3,91 %), sin cambios. La de diciembre baja ligeramente al 84,0 % (mantener 13,5 %, bajar 2,5 %, tasa implícita 4,12 %) frente al 84,5 % de la hora anterior, mientras Kevin Warsh sigue sin dar pistas sobre la decisión de octubre.",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre baja ligeramente al 14,0 % (mantener 85,5 %, bajar 0,5 %, tasa implícita 3,91 %), frente al 14,5 % de la hora anterior. La de diciembre también cede algo al 83,5 % (mantener 14,0 %, bajar 2,5 %, tasa implícita 4,12 %) desde el 84,0 % previo, mientras Kevin Warsh sigue sin dar pistas sobre la decisión de octubre.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 85,
-        "subir": 14.5,
+        "mantener": 85.5,
+        "subir": 14,
         "tasaImplicita": 3.91
       },
       {
         "bajar": 2.5,
         "fecha": "2026-12-09",
-        "mantener": 13.5,
-        "subir": 84,
+        "mantener": 14,
+        "subir": 83.5,
         "tasaImplicita": 4.12
       },
       {
-        "bajar": 5,
+        "bajar": 6,
         "fecha": "2027-01-27",
-        "mantener": 2,
+        "mantener": 1,
         "subir": 93,
         "tasaImplicita": 4.27
       },
@@ -878,211 +878,211 @@
   ],
   "indices": [
     {
-      "changeNote": "Índice de contado (vía SPY) a las 19:57 UTC (20:57 en Canarias, 15:57 en Nueva York); cierre anterior 7.690,73 (+0,41 % el 19 de octubre). Wall Street extiende el rebote de la tarde (Dow +0,9 %) mientras el petróleo cae ante la esperanza de diplomacia en Irán (propuesta de Catar y Pakistán) y los semiconductores sostienen el rebote tras el susto de sobreinversión en IA.",
-      "changePct": 0.26,
+      "changeNote": "Índice de contado (vía SPY) a las 21:16 UTC (22:16 en Canarias, 17:16 en Nueva York); cierre anterior 7.690,73 (+0,41 % el 19 de octubre). La gamma negativa se modera con fuerza mientras Wall Street extiende el rebote de la tarde y el petróleo sigue cayendo por la esperanza de diplomacia en Irán.",
+      "changePct": 0.52,
       "claves": [
-        "Call wall en 7.725 (SPY 770), por debajo del giro de gamma en 7.774.",
-        "Régimen de gamma NEGATIVO en -5,56 mil M$ por 1 % (frente a -5,74 de la hora anterior).",
-        "Giro de gamma en 7.774 (SPY 774,88); con el precio en 7.711, todavía por debajo, la gamma negativa puede amplificar los movimientos en ambas direcciones.",
-        "Max pain en 7.725 (SPY 770); put/call de open interest en 1,63."
+        "Call wall en 7.725 (SPY 770), ya muy cerca del precio.",
+        "Régimen de gamma NEGATIVO en -1,55 mil M$ por 1 % (frente a -5,56 de la hora anterior, se modera con fuerza).",
+        "Giro de gamma en 7.762 (SPY 773,73); con el precio en 7.731, prácticamente en el giro de gamma.",
+        "Max pain en 7.725 (SPY 770); put/call de open interest en 1,60."
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1642,
+        "contratos": 1463,
         "escalera": [
           {
-            "gex": -73.6,
-            "strike": 746
-          },
-          {
-            "gex": -67.2,
-            "strike": 747
-          },
-          {
-            "gex": -103.8,
+            "gex": -93.9,
             "strike": 748
           },
           {
-            "gex": -66.2,
+            "gex": -57.7,
             "strike": 749
           },
           {
-            "gex": -1331.2,
+            "gex": -1185.1,
             "strike": 750
           },
           {
-            "gex": -56,
+            "gex": -51,
             "strike": 751
           },
           {
-            "gex": -93.8,
+            "gex": -80.7,
             "strike": 752
           },
           {
-            "gex": -116.2,
+            "gex": -96.4,
             "strike": 753
           },
           {
-            "gex": -102.2,
+            "gex": -86.3,
             "strike": 754
           },
           {
-            "gex": -487.8,
+            "gex": -421.7,
             "strike": 755
           },
           {
-            "gex": -94.1,
+            "gex": -80.2,
             "strike": 756
           },
           {
-            "gex": -177.7,
+            "gex": -151.3,
             "strike": 757
           },
           {
-            "gex": -122,
+            "gex": -101.9,
             "strike": 758
           },
           {
-            "gex": -164.5,
+            "gex": -139.6,
             "strike": 759
           },
           {
-            "gex": -1235.6,
+            "gex": -1078,
             "strike": 760
           },
           {
-            "gex": -246.8,
+            "gex": -203.7,
             "strike": 761
           },
           {
-            "gex": -79.8,
+            "gex": -95.5,
             "strike": 762
           },
           {
-            "gex": -115.9,
+            "gex": -132.4,
             "strike": 763
           },
           {
-            "gex": -177.2,
+            "gex": -143.8,
             "strike": 764
           },
           {
-            "gex": -851,
+            "gex": -727,
             "strike": 765
           },
           {
-            "gex": -34.7,
+            "gex": -39.8,
             "strike": 766
           },
           {
-            "gex": -156.7,
+            "gex": -116.7,
             "strike": 767
           },
           {
-            "gex": -66.6,
+            "gex": -17.8,
             "strike": 768
           },
           {
-            "gex": -825.8,
+            "gex": -660.8,
             "strike": 769
           },
           {
-            "gex": 137.1,
+            "gex": 523.8,
             "strike": 770
           },
           {
-            "gex": -45.2,
+            "gex": 125.7,
             "strike": 771
           },
           {
-            "gex": 32.6,
+            "gex": 199.8,
             "strike": 772
           },
           {
-            "gex": 174.9,
+            "gex": 384.8,
             "strike": 773
           },
           {
-            "gex": 135.4,
+            "gex": 292.9,
             "strike": 774
           },
           {
-            "gex": 339,
+            "gex": 589.7,
             "strike": 775
           },
           {
-            "gex": 137.4,
+            "gex": 251.5,
             "strike": 776
           },
           {
-            "gex": 103,
+            "gex": 193.3,
             "strike": 777
           },
           {
-            "gex": 139.8,
+            "gex": 245.6,
             "strike": 778
           },
           {
-            "gex": 99.3,
+            "gex": 162.3,
             "strike": 779
           },
           {
-            "gex": 681.8,
+            "gex": 948.3,
             "strike": 780
           },
           {
-            "gex": 80.6,
+            "gex": 119.8,
             "strike": 781
           },
           {
-            "gex": 102.8,
+            "gex": 140.8,
             "strike": 782
           },
           {
-            "gex": 325.4,
+            "gex": 401.4,
             "strike": 783
           },
           {
-            "gex": 73,
+            "gex": 98.3,
             "strike": 784
           },
           {
-            "gex": 300.8,
+            "gex": 397.2,
             "strike": 785
           },
           {
-            "gex": 64.6,
+            "gex": 83.6,
             "strike": 786
           },
           {
-            "gex": 48.8,
+            "gex": 66.1,
             "strike": 787
           },
           {
-            "gex": 73.7,
+            "gex": 87.3,
             "strike": 788
           },
           {
-            "gex": 52.8,
+            "gex": 73.1,
             "strike": 789
           },
           {
-            "gex": 307.9,
+            "gex": 430.7,
             "strike": 790
           },
           {
-            "gex": 40.5,
+            "gex": 48.6,
             "strike": 791
+          },
+          {
+            "gex": 91.2,
+            "strike": 792
+          },
+          {
+            "gex": 75.4,
+            "strike": 793
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 774.88,
-        "gexTotal": -5.56,
+        "gammaFlip": 773.73,
+        "gexTotal": -1.55,
         "indice": {
           "callWall": 7725,
-          "gammaFlip": 7774,
+          "gammaFlip": 7762,
           "maxPain": 7725,
-          "precio": 7711,
+          "precio": 7731,
           "putWall": 7524
         },
         "maxPain": 770,
@@ -1104,8 +1104,8 @@
           "vencimiento": "2026-10-20"
         },
         "oiFecha": "2026-10-16",
-        "pcrOI": 1.63,
-        "precio": 768.61,
+        "pcrOI": 1.6,
+        "precio": 770.63,
         "putWall": 750,
         "ratioFecha": "2026-10-19",
         "ratioIndice": 10.0323,
@@ -1113,215 +1113,219 @@
         "vencimientoCercano": "2026-10-20"
       },
       "id": "SPX",
-      "lectura": "Hacia las 19:57 UTC (20:57 en Canarias, 15:57 en Nueva York), el S&P 500 cotiza en 7.711 puntos (+0,26 % frente al cierre de 7.690,73 del lunes), extendiendo el rebote de la tarde (Dow +0,9 %) mientras el petróleo cae con fuerza (WTI hacia 97-98 $, Brent hacia 107 $) ante la esperanza de que una propuesta de Catar y Pakistán reactive la diplomacia para acabar la guerra de Irán. La gamma sigue negativa pero se modera algo a -5,56 mil M$ por 1 % (frente a -5,74 hace una hora), con el precio aún por debajo del giro de gamma en 7.774, lo que puede amplificar los movimientos en cualquier dirección; el call wall se mantiene en 7.725 y el max pain coincide en el mismo nivel. Trump sigue aliviando las sanciones al petróleo ruso y Bessent insiste en que los precios bajarán al terminar la guerra de Irán, mientras Irán mantiene la amenaza sobre los cables submarinos. Con el calendario de la semana marcando un dólar claramente débil, el sesgo del día queda neutral, pendiente del PMI de servicios y la confianza de Michigan del viernes.",
+      "lectura": "Hacia las 21:16 UTC (22:16 en Canarias, 17:16 en Nueva York), el S&P 500 cotiza en 7.731 puntos (+0,52 % frente al cierre de 7.690,73 del lunes), extendiendo el rebote de la tarde (Dow +0,9 %) mientras el petróleo sigue cayendo hacia 106-107 $ (Brent) ante la esperanza de diplomacia en Irán. La gamma negativa se modera con fuerza a -1,55 mil M$ por 1 % (frente a -5,56 hace una hora), con el precio en 7.731 ya muy cerca del giro de gamma en 7.762, lo que reduce el riesgo de movimientos amplificados en cualquier dirección. El call wall se mantiene en 7.725 y el max pain coincide en el mismo nivel. Las ventas pendientes de viviendas de segunda mano se desplomaron un 7,3 % en septiembre (mínimo histórico), un dato débil que contrasta con el buen tono bursátil. Con el calendario de la semana marcando un dólar claramente débil, el sesgo del día se mantiene neutral, pendiente del PMI de servicios y la confianza de Michigan del viernes.",
       "levels": {
         "callWall": 7725,
-        "gammaFlip": 7774,
+        "gammaFlip": 7762,
         "maxPain": 7725,
-        "precio": 7711,
+        "precio": 7731,
         "putWall": 7524
       },
       "name": "S&P 500",
-      "netGex": "negativa (-5,56 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-16)",
+      "netGex": "negativa (-1,55 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-16)",
       "regime": "negativa",
       "score": 8,
       "sesgo": "neutral",
-      "spot": 7711
+      "spot": 7731
     },
     {
-      "changeNote": "Índice de contado (vía QQQ) a las 19:57 UTC (20:57 en Canarias); retrocede un 0,05 % frente a los 29.500 de la hora anterior, mientras el mercado consolida el rebote de los semiconductores tras el susto de sobreinversión en IA que golpeó a Asia esta mañana (KOSPI -4,3 %, Nikkei -1,4 %), con el petróleo cayendo por la esperanza de diplomacia en Irán.",
-      "changePct": -0.05,
+      "changeNote": "Índice de contado (vía QQQ) a las 21:16 UTC (22:16 en Canarias); sube un 0,61 % frente a los 29.485 de la hora anterior, con la gamma negativa moderándose con fuerza mientras persiste la cautela por la sobreinversión en IA tras el desplome del KOSPI (-4,3 %).",
+      "changePct": 0.61,
       "claves": [
-        "Call wall en 30.421 (QQQ 740), muy por encima del precio.",
-        "Régimen de gamma NEGATIVO en -5,13 mil M$ por 1 % (frente a -5,06 de la hora anterior).",
-        "Giro de gamma en 30.304 (QQQ 737,16); con el precio en 29.485, muy por debajo, la gamma negativa amplifica el riesgo de caída.",
-        "Max pain en 29.599 (QQQ 720); put/call de open interest en 1,61."
+        "Call wall en 30.421 (QQQ 740), por encima del precio.",
+        "Régimen de gamma NEGATIVO en -2,93 mil M$ por 1 % (frente a -5,13 de la hora anterior, se modera con fuerza).",
+        "Giro de gamma en 30.148 (QQQ 733,37); con el precio en 29.666, acercándose al giro de gamma.",
+        "Max pain en 29.599 (QQQ 720); put/call de open interest en 1,55."
       ],
       "gex": {
         "callWall": 740,
-        "contratos": 1704,
+        "contratos": 1601,
         "escalera": [
           {
-            "gex": -34.4,
-            "strike": 696
-          },
-          {
-            "gex": -23.4,
-            "strike": 697
-          },
-          {
-            "gex": -22.1,
-            "strike": 698
-          },
-          {
-            "gex": -20.7,
-            "strike": 699
-          },
-          {
-            "gex": -998,
+            "gex": -859.6,
             "strike": 700
           },
           {
-            "gex": -46,
+            "gex": -38.7,
             "strike": 701
           },
           {
-            "gex": -35.4,
+            "gex": -29.1,
             "strike": 702
           },
           {
-            "gex": -34.1,
+            "gex": -29.5,
             "strike": 703
           },
           {
-            "gex": -24.7,
+            "gex": -20.4,
             "strike": 704
           },
           {
-            "gex": -327.4,
+            "gex": -281.4,
             "strike": 705
           },
           {
-            "gex": -32.8,
+            "gex": -28.2,
             "strike": 706
           },
           {
-            "gex": -52.6,
+            "gex": -47.3,
             "strike": 707
           },
           {
-            "gex": -72.4,
+            "gex": -63.7,
             "strike": 708
           },
           {
-            "gex": -31.6,
+            "gex": -33.9,
             "strike": 709
           },
           {
-            "gex": -745,
+            "gex": -632.2,
             "strike": 710
           },
           {
-            "gex": -437.4,
+            "gex": -347.1,
             "strike": 711
           },
           {
-            "gex": -94.7,
+            "gex": -76.5,
             "strike": 712
           },
           {
-            "gex": -177.4,
+            "gex": -165.2,
             "strike": 713
           },
           {
-            "gex": -57.4,
+            "gex": -41.4,
             "strike": 714
           },
           {
-            "gex": -378.5,
+            "gex": -295.4,
             "strike": 715
           },
           {
-            "gex": -47.8,
+            "gex": -33.7,
             "strike": 716
           },
           {
-            "gex": -82.9,
+            "gex": -60.7,
             "strike": 717
           },
           {
-            "gex": -24.5,
+            "gex": -26.1,
             "strike": 718
           },
           {
-            "gex": -34.1,
+            "gex": -8.1,
             "strike": 719
           },
           {
-            "gex": -570.4,
+            "gex": -359.6,
             "strike": 720
           },
           {
-            "gex": -26.6,
+            "gex": 3.1,
             "strike": 721
           },
           {
-            "gex": -14.9,
+            "gex": 32.3,
             "strike": 722
           },
           {
-            "gex": 6.6,
+            "gex": 55.3,
             "strike": 723
           },
           {
-            "gex": 21.7,
+            "gex": 79,
             "strike": 724
           },
           {
-            "gex": -263.9,
+            "gex": -133.1,
             "strike": 725
           },
           {
-            "gex": -6.9,
+            "gex": 20.3,
             "strike": 726
           },
           {
-            "gex": 11.5,
+            "gex": 39.5,
             "strike": 727
           },
           {
-            "gex": 4.4,
+            "gex": 37.2,
             "strike": 728
           },
           {
-            "gex": 31.5,
+            "gex": 55.1,
             "strike": 729
           },
           {
-            "gex": -102.3,
+            "gex": 12.7,
             "strike": 730
           },
           {
-            "gex": 64.2,
+            "gex": 91.7,
             "strike": 731
           },
           {
-            "gex": -3.1,
+            "gex": 15.2,
             "strike": 732
           },
           {
-            "gex": 19.6,
+            "gex": 34.1,
             "strike": 733
           },
           {
-            "gex": -9,
+            "gex": -0.3,
             "strike": 734
           },
           {
-            "gex": 110.1,
+            "gex": 204,
             "strike": 735
           },
           {
-            "gex": 1.5,
+            "gex": 6.4,
             "strike": 736
           },
           {
-            "gex": 1.9,
+            "gex": 13.1,
             "strike": 737
           },
           {
-            "gex": 17.5,
+            "gex": 28,
             "strike": 738
+          },
+          {
+            "gex": 16.3,
+            "strike": 739
+          },
+          {
+            "gex": 232.5,
+            "strike": 740
+          },
+          {
+            "gex": 13,
+            "strike": 741
+          },
+          {
+            "gex": 5.7,
+            "strike": 742
+          },
+          {
+            "gex": 7.2,
+            "strike": 743
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 737.16,
-        "gexTotal": -5.13,
+        "gammaFlip": 733.37,
+        "gexTotal": -2.93,
         "indice": {
           "callWall": 30421,
-          "gammaFlip": 30304,
+          "gammaFlip": 30148,
           "maxPain": 29599,
-          "precio": 29485,
+          "precio": 29666,
           "putWall": 28777
         },
         "maxPain": 720,
@@ -1338,13 +1342,13 @@
             "putWall": 28982
           },
           "maxPain": 720,
-          "pcrOI": 0.66,
+          "pcrOI": 0.64,
           "putWall": 705,
           "vencimiento": "2026-10-20"
         },
         "oiFecha": "2026-10-16",
-        "pcrOI": 1.61,
-        "precio": 717.22,
+        "pcrOI": 1.55,
+        "precio": 721.63,
         "putWall": 700,
         "ratioFecha": "2026-10-19",
         "ratioIndice": 41.1095,
@@ -1352,20 +1356,20 @@
         "vencimientoCercano": "2026-10-20"
       },
       "id": "NDX",
-      "lectura": "Hacia las 19:57 UTC (20:57 en Canarias), el Nasdaq 100 cotiza en 29.485 puntos (-0,05 % frente a los 29.500 de la hora anterior), consolidando por debajo de su rebote de la mañana tras el susto de sobreinversión en inteligencia artificial que golpeó a Asia (KOSPI -4,3 %, Nikkei -1,4 %), mientras el petróleo cae ante la esperanza de diplomacia en Irán. La gamma negativa se intensifica levemente a -5,13 mil M$ por 1 % (frente a -5,06 hace una hora), con el precio muy por debajo del giro de gamma en 30.304, lo que amplifica el riesgo de nuevas caídas si el sentimiento hacia la IA se deteriora. Kevin Warsh evita dar señales sobre los tipos de octubre y Bessent calma los ánimos sobre la inflación energética, pero el temor a una burbuja de inversión en IA sigue siendo el principal lastre a corto plazo. Sesgo del día: bajista, con el PMI de servicios y Michigan del viernes como próximos catalizadores reales.",
+      "lectura": "Hacia las 21:16 UTC (22:16 en Canarias, 17:16 en Nueva York), el Nasdaq 100 cotiza en 29.666 puntos (+0,61 % frente a los 29.485 de la hora anterior), consolidando el rebote de los semiconductores tras el susto de sobreinversión en IA que golpeó a Asia esta mañana (KOSPI -4,3 %, Nikkei -1,4 %), mientras el petróleo cae ante la esperanza de diplomacia en Irán. La gamma negativa se modera notablemente a -2,93 mil M$ por 1 % (frente a -5,13 hace una hora), con el precio acercándose al giro de gamma en 30.148, lo que reduce el riesgo de nuevas caídas amplificadas. Kevin Warsh sigue sin dar señales sobre los tipos de octubre, mientras bitcoin recupera terreno y Strive suma 1.223 BTC más a su tesorería. Sesgo del día: bajista, con el PMI de servicios y Michigan del viernes como próximos catalizadores reales.",
       "levels": {
         "callWall": 30421,
-        "gammaFlip": 30304,
+        "gammaFlip": 30148,
         "maxPain": 29599,
-        "precio": 29485,
+        "precio": 29666,
         "putWall": 28777
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-5,13 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-16)",
+      "netGex": "negativa (-2,93 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-16)",
       "regime": "negativa",
       "score": -16,
       "sesgo": "bajista",
-      "spot": 29485
+      "spot": 29666
     }
   ],
   "liquidez": {
@@ -1602,6 +1606,22 @@
       "activos": {
         "BTC": "neutral",
         "EURUSD": "neutral",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "neutral",
+        "XAU": "alcista"
+      },
+      "fuente": "TheStreet Pro",
+      "impacto": "medio",
+      "resumen": "TheStreet Pro informa de que las firmas de contratos de viviendas de segunda mano cayeron un 7,3 % en septiembre, el nivel más bajo registrado por el índice.",
+      "titular": "Las ventas pendientes de viviendas de segunda mano se desploman un 7,3 % en septiembre, mínimo histórico",
+      "ts": "2026-10-20T14:30:00Z",
+      "url": "https://pro.thestreet.com/stock-market-today/2026-10-20#update-wp:22999"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "EURUSD": "neutral",
         "NQ": "neutral",
         "SPX": "neutral",
         "WTI": "neutral",
@@ -1664,6 +1684,22 @@
     },
     {
       "activos": {
+        "BTC": "alcista",
+        "EURUSD": "neutral",
+        "NQ": "neutral",
+        "SPX": "neutral",
+        "WTI": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "Bitcoin News Digest (Substack)",
+      "impacto": "medio",
+      "resumen": "Bitcoin News Digest informa de la compra de Strive y de que JPMorgan publica su primera previsión a largo plazo para bitcoin, con un escenario base de un 10 % de rentabilidad anual.",
+      "titular": "Strive compra 1.223 bitcoins por 100,6 millones $, eleva su tesorería a unos 3.000 millones $",
+      "ts": "2026-10-20T12:00:00Z",
+      "url": "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-october-20-2026"
+    },
+    {
+      "activos": {
         "BTC": "bajista",
         "EURUSD": "bajista",
         "NQ": "bajista",
@@ -1709,22 +1745,6 @@
       "titular": "Los ETF de bitcoin al contado sufren salidas semanales de 228,6 millones $ pese al rebote hacia 82.000 $",
       "ts": "2026-10-20T09:15:00Z",
       "url": "https://crypto.news/why-is-bitcoin-price-going-down-today-october-20/"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NQ": "neutral",
-        "SPX": "alcista",
-        "WTI": "neutral",
-        "XAU": "neutral"
-      },
-      "fuente": "NordFX (Market Pulse)",
-      "impacto": "medio",
-      "resumen": "General Motors anuncia una recompra de acciones de 20.000 millones $ antes de publicar resultados del tercer trimestre junto a General Electric, Netflix, Raytheon y United Airlines.",
-      "titular": "Arranca la temporada de resultados: GM anuncia una recompra de 20.000 millones $ antes de presentar cuentas",
-      "ts": "2026-10-20T08:00:00Z",
-      "url": "https://nordfx.com/market-news/market-pulse-october-20-2026"
     }
   ],
   "odte": {
@@ -1746,7 +1766,7 @@
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-10-20, por open interest (QQQ 749). Put/call OI: 0,66.",
+        "nota": "Vencimiento 2026-10-20, por open interest (QQQ 749). Put/call OI: 0,64.",
         "valor": "30.791"
       },
       {
@@ -1760,7 +1780,7 @@
         "valor": "29.599"
       }
     ],
-    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 20 de octubre, por open interest, sin dato de gamma); el put/call de SPX se mantiene en 1,61 y el de NDX sube a 0,66 (antes 0,64). El max pain 0DTE coincide con el max pain principal en ambos índices (7.725 y 29.599); el rango 0DTE (7.334-7.775 en SPX, 28.982-30.791 en NDX) marca el rango técnico de referencia para el resto de la sesión de hoy."
+    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 20 de octubre, por open interest, sin dato de gamma); el put/call de SPX se mantiene en 1,61 y el de NDX baja a 0,64 (antes 0,66). El max pain 0DTE coincide con el max pain principal en ambos índices (7.725 y 29.599); el rango 0DTE (7.334-7.775 en SPX, 28.982-30.791 en NDX) marca el rango técnico de referencia para el resto de la sesión de hoy."
   },
   "politica": {
     "actualizado": "2026-10-20T19:51:07Z",
@@ -1860,54 +1880,54 @@
       }
     ]
   },
-  "resumen": "Son las 20:16 UTC (21:16 en Canarias, 16:16 hora de Nueva York) del martes 20 de octubre de 2026, en plena sesión de Wall Street. El S&P 500 cotiza en 7.711 puntos (+0,26 % frente al cierre del lunes) y el Nasdaq 100 en 29.485 (-0,05 % frente a la hora anterior), con el Dow avanzando cerca de un 0,9 % liderado por sanidad (Eli Lilly en máximos). El petróleo sigue cayendo hacia 107 $ (Brent) ante la esperanza de que una propuesta de Catar y Pakistán reactive la diplomacia para acabar la guerra de Irán, mientras Trump sigue relajando las sanciones al petróleo ruso y Bessent insiste en que los precios bajarán cuando termine el conflicto; Irán, no obstante, mantiene la escalada al amenazar con atacar los cables submarinos del estrecho de Ormuz (Polymarket solo da un 4 % de probabilidad real). La gamma sigue negativa en ambos índices, pero se modera algo en el S&P 500 (-5,56 mil M$ por 1 %, frente a -5,74 hace una hora) y se intensifica levemente en el Nasdaq 100 (-5,13 frente a -5,06), con el precio por debajo del giro de gamma en los dos casos. La Fed mantiene la probabilidad de subir tipos el 28 de octubre en el 14,5 % y baja algo la de diciembre al 84,0 % (antes 84,5 %), sin cambios relevantes, mientras Kevin Warsh sigue sin dar pistas. Bitcoin ronda los 81.000-82.000 $, con salidas semanales netas en los ETF al contado pese a la fuerte entrada del lunes. El sesgo del día: S&P 500 neutral, Nasdaq 100 bajista; la semana sigue alcista para renta variable, oro y bitcoin, neutral para petróleo y euro, con el calendario marcando un dólar claramente débil.",
+  "resumen": "Son las 21:16 UTC (22:16 en Canarias, 17:16 hora de Nueva York) del martes 20 de octubre de 2026, en plena sesión de Wall Street. El S&P 500 cotiza en 7.731 puntos (+0,52 % frente al cierre del lunes) y el Nasdaq 100 en 29.666 (+0,61 % frente a la hora anterior), con el Dow avanzando cerca de un 0,9 % liderado por sanidad (Eli Lilly en máximos) y la gamma negativa moderándose con fuerza en ambos índices (SPX -1,55 mil M$ por 1 %, antes -5,56; NDX -2,93, antes -5,13), lo que reduce el riesgo de movimientos amplificados. El petróleo sigue cayendo hacia 106-107 $ (Brent) ante la esperanza de que una propuesta de Catar y Pakistán reactive la diplomacia para acabar la guerra de Irán, mientras Trump sigue relajando las sanciones al petróleo ruso y Bessent insiste en que los precios bajarán cuando termine el conflicto; Irán, no obstante, mantiene la amenaza sobre los cables submarinos del estrecho de Ormuz. La Fed baja ligeramente la probabilidad de subir tipos el 28 de octubre al 14,0 % (antes 14,5 %) y la de diciembre al 83,5 % (antes 84,0 %), sin que Kevin Warsh haya dado pistas nuevas. Bitcoin ronda los 81.000-82.700 $, con Strive comprando 1.223 BTC más y JPMorgan publicando su primera previsión a largo plazo (10 % anual). Las ventas pendientes de viviendas de segunda mano se desplomaron un 7,3 % en septiembre, mínimo histórico. El sesgo del día: S&P 500 neutral, Nasdaq 100 bajista; la semana sigue alcista para renta variable, oro y bitcoin, con el petróleo girando a la baja y el calendario marcando un dólar claramente débil.",
   "semana": {
     "activos": [
       {
-        "cambio": "Baja de 37 a 27 (sigue alcista, algo menos): el relato de la tarde mejora por la caída del petróleo y los buenos resultados empresariales, pero el temor a una sobreinversión en IA y la gamma negativa, que se intensifica, limitan el avance.",
-        "expectativa": "El calendario sigue a favor de la renta variable por un dólar más débil (-61 confirmado), pero el susto de sobreinversión en IA (KOSPI) y la gamma negativa frenan el avance; el PMI de servicios y la confianza de Michigan del viernes serán el próximo catalizador real.",
+        "cambio": "Sube de 27 a 30 (sigue alcista): la gamma se modera con fuerza (-1,55 frente a -5,56 mil M$ por 1 % hace una hora) y el precio ya casi toca el giro de gamma en 7.762, reduciendo el riesgo de movimientos amplificados, aunque las ventas pendientes de vivienda se desplomaron un 7,3 % en septiembre.",
+        "expectativa": "El calendario sigue a favor de la renta variable por un dólar más débil (-61 confirmado), y la gamma, que se modera con fuerza, reduce el riesgo de movimientos bruscos; el PMI de servicios y la confianza de Michigan del viernes serán el próximo catalizador real.",
         "id": "SPX",
-        "score": 27,
+        "score": 30,
         "scoreInicial": -8,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Baja de 35 a 23 (sigue alcista, bastante menos): el Nasdaq 100 recupera parte de las pérdidas de la mañana tras el susto de la IA, pero la gamma negativa se intensifica (-5,06 mil M$ por 1 %) con el precio muy por debajo del giro de gamma.",
-        "expectativa": "El calendario favorece algo a la tecnología por un dólar más débil, pero el temor a sobreinversión en IA que hoy golpeó a Asia (KOSPI -4,3 %) y la gamma muy negativa son el principal riesgo a corto plazo, pese al rebote parcial de los semiconductores por la tarde.",
+        "cambio": "Sube de 23 a 25 (sigue alcista): la gamma negativa se modera con fuerza (-2,93 frente a -5,13 mil M$ por 1 % hace una hora) y el precio se acerca al giro de gamma en 30.148, aunque el temor a la sobreinversión en IA tras el desplome del KOSPI (-4,3 %) sigue limitando el avance.",
+        "expectativa": "El calendario favorece algo a la tecnología por un dólar más débil, y la gamma, que se modera con fuerza, reduce el riesgo de caídas bruscas; el temor a sobreinversión en IA sigue siendo el principal riesgo a corto plazo.",
         "id": "NQ",
-        "score": 23,
+        "score": 25,
         "scoreInicial": -16,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Baja de 56 a 21 (sigue alcista, bastante menos): el oro pierde atractivo como refugio con el apetito por el riesgo de la tarde (Wall Street al alza, petróleo a la baja) y el rendimiento a 10 años firme en 5,14 %.",
-        "expectativa": "Mientras persista la escalada en Ormuz el oro mantiene un sesgo de fondo alcista como refugio, pero el alivio de la tarde (diplomacia en Irán, resultados empresariales) y el dólar firme cerca de 102 limitan el avance a corto plazo.",
+        "cambio": "Baja de 21 a 18 (sigue alcista, al límite): el oro pierde algo más de atractivo como refugio con el apetito por el riesgo sostenido (Wall Street al alza, petróleo a la baja) y el dólar firme cerca de 102.",
+        "expectativa": "Mientras persista la escalada en Ormuz el oro mantiene un sesgo de fondo alcista como refugio, pero el alivio en Irán y el buen tono bursátil limitan el avance a corto plazo.",
         "id": "XAU",
-        "score": 21,
+        "score": 18,
         "scoreInicial": 50,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Baja de 47 a 24 (sigue alcista, menos): bitcoin recorta pérdidas hacia 82.000 $ con el giro alcista de Wall Street, pero las salidas semanales de los ETF al contado (228,6 millones $) y el contagio del temor a la IA limitan el margen de subida.",
-        "expectativa": "El calendario y una Fed que no se apresura a subir tipos siguen dando soporte, pero la demanda al contado sigue débil (salidas netas semanales) y el apetito por el riesgo depende de que se confirme el alivio en Irán y en IA.",
+        "cambio": "Sube de 24 a 27 (sigue alcista): bitcoin recupera terreno hacia 82.000-82.700 $ y Strive suma 1.223 BTC más a su tesorería (unos 3.000 millones $ en total), mientras JPMorgan publica su primera previsión a largo plazo (10 % anual).",
+        "expectativa": "El calendario y una Fed que no se apresura a subir tipos siguen dando soporte, y las nuevas compras corporativas mejoran algo el sentimiento, aunque la demanda al contado de los ETF sigue mixta.",
         "id": "BTC",
-        "score": 24,
+        "score": 27,
         "scoreInicial": 29,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Gira de 24 a -9 (pasa a neutral): el Brent se desploma hacia 107 $ ante la esperanza de que la propuesta de Catar y Pakistán reactive la diplomacia para acabar la guerra de Irán, mientras Trump sigue relajando las sanciones al petróleo ruso, lo que añade oferta.",
-        "expectativa": "El petróleo pierde parte de su prima de riesgo de oferta por la esperanza de diplomacia y la relajación de las sanciones rusas, aunque los ataques con minas en Ormuz siguen activos y podrían revertir el movimiento si la propuesta de paz no se confirma.",
+        "cambio": "Baja de -9 a -14 (se acerca a bajista): el Brent sigue cayendo hacia 106-107 $ ante la esperanza de diplomacia en Irán y el alivio de las sanciones al petróleo ruso, que añaden oferta al mercado.",
+        "expectativa": "El petróleo sigue perdiendo la prima de riesgo de oferta por la esperanza de diplomacia y la relajación de las sanciones rusas, aunque los ataques con minas en Ormuz siguen activos y podrían revertir el movimiento si la propuesta de paz no se confirma.",
         "id": "WTI",
-        "score": -9,
+        "score": -14,
         "scoreInicial": 35,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Sube de 0 a 11 (sigue neutral): el euro se mantiene en 1,1223-1,1233 mientras el dólar (DXY) retrocede algo más, de 102,07 el lunes a 101,8, aunque los riesgos fiscales de Francia y la cautela de Lagarde limitan el avance.",
+        "cambio": "Sube de 11 a 12 (sigue neutral): el euro se mantiene en 1,1223-1,1237 mientras el dólar sigue sin fuerza, aunque los riesgos fiscales de Francia y la cautela de Lagarde limitan el avance.",
         "expectativa": "El euro se mantiene sin dirección clara: el calendario apoya un leve avance por un dólar algo más débil, pero la prudencia de Lagarde con la deuda francesa y el BCE, que se perfila para mantener los tipos en el 2,50 % el 29 de octubre, lo frenan de cara a esa reunión y al FOMC de la semana siguiente.",
         "id": "EURUSD",
-        "score": 11,
+        "score": 12,
         "scoreInicial": 13,
         "sesgo": "neutral"
       }
@@ -2124,11 +2144,11 @@
         "previsto": "52,3 (estimación, con cierta incertidumbre entre fuentes)"
       }
     ],
-    "narrativa": "El calendario de la semana sigue claramente en contra del dólar (-61 ya confirmado, -69 sobre la base esperada), tras un dato de vivienda mixto (viviendas iniciadas débiles, permisos casi en línea) y el hundimiento del NAHB a mínimos de más de una década; el peso real llega el viernes (PMI, Michigan) y la semana siguiente (FOMC el 28, BCE el 29, PCE el 29). En tipos, la Fed mantiene la probabilidad de subir el 28 de octubre en el 14,5 % y la de diciembre en el 84,5 %, sin cambios relevantes hoy. En opciones, la gamma sigue negativa en ambos índices bursátiles (SPX -5,74, NDX -5,06 mil M$ por 1 %) con el precio por debajo del giro de gamma en los dos casos, lo que amplificaría cualquier movimiento. Por la tarde, el petróleo cae hacia 107 $ (Brent) ante la esperanza de que una propuesta de Catar y Pakistán reactive la diplomacia para acabar la guerra de Irán, Trump sigue relajando las sanciones al petróleo ruso y Bessent insiste en que los precios bajarán cuando acabe el conflicto; todo ello compensa en parte la nueva amenaza de Irán sobre los cables submarinos y el temor a una sobreinversión en inteligencia artificial que esta mañana golpeó a Asia (KOSPI -4,3 %). Arranca con fuerza la temporada de resultados: GM, GE Aerospace, 3M y RTX ya han publicado (RTX eleva su previsión anual), y Netflix y United Airlines lo harán tras el cierre.",
+    "narrativa": "El calendario de la semana sigue claramente en contra del dólar (-61 ya confirmado, -69 sobre la base esperada), tras un dato de vivienda mixto (viviendas iniciadas débiles, permisos casi en línea, y las ventas pendientes de segunda mano desplomándose un 7,3 % en septiembre) y el hundimiento del NAHB a mínimos de más de una década; el peso real llega el viernes (PMI, Michigan) y la semana siguiente (FOMC el 28, BCE el 29, PCE el 29). En tipos, la Fed baja ligeramente la probabilidad de subir el 28 de octubre al 14,0 % (antes 14,5 %) y la de diciembre al 83,5 % (antes 84,0 %). En opciones, la gamma negativa se modera con fuerza en ambos índices bursátiles (SPX -1,55, NDX -2,93 mil M$ por 1 %, frente a -5,56 y -5,13 hace una hora), lo que reduce el riesgo de movimientos amplificados. Por la tarde, el petróleo sigue cayendo hacia 106-107 $ (Brent) ante la esperanza de que una propuesta de Catar y Pakistán reactive la diplomacia para acabar la guerra de Irán, Trump sigue relajando las sanciones al petróleo ruso y Bessent insiste en que los precios bajarán cuando acabe el conflicto; todo ello compensa en parte la nueva amenaza de Irán sobre los cables submarinos y el temor a una sobreinversión en inteligencia artificial que esta mañana golpeó a Asia (KOSPI -4,3 %). Bitcoin recupera terreno con Strive sumando 1.223 BTC más a su tesorería. Arranca con fuerza la temporada de resultados: GM, GE Aerospace, 3M y RTX ya han publicado (RTX eleva su previsión anual), y Netflix y United Airlines lo harán tras el cierre.",
     "pesoCalendario": 0.35,
     "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa, la amenaza de Irán a los cables submarinos y la indefinición de Warsh.",
     "rango": "19 a 23 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-20T20:16:31Z"
+  "updatedAt": "2026-10-20T21:16:24.000000Z"
 }
