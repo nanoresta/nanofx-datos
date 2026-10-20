@@ -1,23 +1,23 @@
 {
-  "actualizado": "2026-10-20T06:46:33Z",
+  "actualizado": "2026-10-20T18:46:07Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 4 pb del umbral de atención (5,5 %): -2 pb en el día y +18 pb en un mes (Trading Economics).",
-      "valor": "5,46 % (20 oct)"
+      "nota": "A 6 pb del umbral de atención (5,5 %): -3 pb en el día y +16 pb en un mes (Trading Economics).",
+      "valor": "5,44 % (20 oct)"
     },
     {
       "estado": "verde",
       "nombre": "Subasta 30 años (8 oct)",
-      "nota": "Demanda sólida y pocos dealers (6,8 %); la próxima subasta larga es la de 20 años esta semana. Tail no publicado.",
+      "nota": "Demanda sólida y pocos dealers (6,8 %). Próxima prueba: 13.000 M$ a 20 años el 21 oct (la de julio salió al 5,163 %). Tail no publicado.",
       "valor": "5,618 %; cobertura 2,54 (media 2,41); indirectos 72,3 %"
     },
     {
       "estado": "rojo",
       "nombre": "Deuda de IA (hyperscalers y CoreWeave)",
-      "nota": "CNBC (19 oct): los bonos de CoreWeave siguen rindiendo cerca del 15 % aunque las acciones de IA rebotan; el estrés del crédito de IA no se ha ido.",
-      "valor": "Bonos CoreWeave ~15 %; CDS >1.000 pb"
+      "nota": "Goldman estima ~500.000 M$ de financiación a empresas de IA en 2026 (20 oct) y los 5 hyperscalers emitieron ~220.000 M$ en bonos hasta agosto; CoreWeave sigue cerca del 15 % (CNBC, 19 oct).",
+      "valor": "Bonos CoreWeave ~15 %; ~500.000 M$ a IA en 2026"
     },
     {
       "estado": "amarillo",
@@ -43,8 +43,8 @@
       {
         "estado": "rojo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "Rentabilidad por beneficios adelantada ~5,26 % (PER 19,0, 30 sept) frente al bono a 10 años en 5,13 % (20 oct): la bolsa casi no paga extra por su riesgo.",
-        "valor": "Prima de riesgo ≈ 13 pb"
+        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en 5,13 % (20 oct): la bolsa casi no paga extra por su riesgo.",
+        "valor": "Prima de riesgo ≈ 11 pb"
       },
       {
         "estado": "amarillo",
@@ -71,38 +71,38 @@
         "valor": "Capex IA ~690.000-800.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesan más la sobreinversión en IA con deuda y el apalancamiento (margen de 1,48 billones); el sentimiento, en cambio, está en miedo extremo (18), lo que resta un punto.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesan más la sobreinversión en IA con deuda (~500.000 M$ en 2026) y el apalancamiento (margen de 1,48 billones); el miedo extremo en el sentimiento resta algo.",
     "nivel": 70,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "20 oct (Trading Economics): los tipos largos han subido ~17 pb en un mes y los cortos solo 1 pb; la curva sigue empinándose.",
-        "valor": "+69 pb (4,77 % / 5,46 %)"
+        "nota": "20 oct (Trading Economics): en un mes los largos suben ~16 pb y los cortos ~5 pb; la curva sigue empinándose, aunque hoy baja el tramo largo.",
+        "valor": "+64 pb (4,80 % / 5,44 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (20 oct): subida el 28 oct al 15,5 % y en diciembre al 82,5 %; con el IPP al 6,3 % los tipos reales siguen altos.",
-        "valor": "3,75-4,00 %; 82,5 % subida en dic."
+        "nota": "Kalshi (20 oct): subida el 28 oct al 14,5 % y en diciembre al 83 %; con el IPP al 6,3 % los tipos reales siguen altos.",
+        "valor": "3,75-4,00 %; 83 % subida en dic."
       },
       {
         "estado": "amarillo",
         "n": "Dólar (DXY)",
-        "nota": "20 oct: el dólar se mantiene cerca de 102 aunque el yuan marca máximo de 4 años; sin debilidad clara del dólar.",
-        "valor": "~102"
+        "nota": "20 oct (FXStreet): el DXY cae un 0,3 % a 101,66; algo de debilidad, sin ruptura clara.",
+        "valor": "101,7"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "20 oct (TraderFactor): cede con los rendimientos altos, pero cerca de máximos y con bancos centrales comprando.",
-        "valor": "~4.138 $/oz"
+        "nota": "20 oct (Trading Economics): -0,4 % en el día y ~-5 % en un mes por los tipos altos; lejos del récord de 5.608 $ de enero, pero los bancos centrales siguen comprando.",
+        "valor": "~4.125 $/oz"
       },
       {
         "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "Semana al 16 oct: Nasdaq 100 -5,5 % y SOX -11 %; el 19 oct rebotan (Nasdaq +1,1 %), pero el KOSPI cae >2 % el 20 oct por miedo a la sobreinversión en IA.",
-        "valor": "Nasdaq -5,5 % sem.; CDS CoreWeave en estrés"
+        "nota": "Tras la semana al 16 oct (Nasdaq 100 -5,5 %, SOX -11 %), el 20 oct los chips borran pérdidas y el S&P sube un 0,3 % (Bloomberg, Motley Fool); el crédito de IA sigue tenso.",
+        "valor": "Nasdaq -5,5 % sem. pasada; CDS CoreWeave en estrés"
       }
     ]
   },
@@ -386,21 +386,37 @@
     {
       "nombre": "TraderFactor – Dólar, oro y rendimientos (20 oct)",
       "url": "https://traderfactor.com/dollar-near-102-gold-slips-yields-stay-elevated/"
+    },
+    {
+      "nombre": "FXStreet – Treasuries ceden por Irán (20 oct)",
+      "url": "https://www.fxstreet.com/news/us-treasury-yields-retreat-as-iran-deal-hopes-pull-wti-lower-202610201649"
+    },
+    {
+      "nombre": "Invezz – Rendimientos y JPMorgan (20 oct)",
+      "url": "https://invezz.com/news/2026/10/20/us-treasury-yields-ease-jpmorgan-sees-year-end-stock-gains-if-yields-remain-stable/"
+    },
+    {
+      "nombre": "Newsquawk – Subasta 20 años el 21 oct",
+      "url": "https://www.newsquawk.com/headlines/us-treasury-to-sell-usd-13bln-of-20-year-bonds-on-oct-21st-to-settle-oct-22nd-to-sell-usd-26bln-of-5-year-tips-on-oct-22nd-to-settle-october-30th"
+    },
+    {
+      "nombre": "Defiance AIBN – Financiación de IA 2026 (20 oct)",
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-10-20-defiance-launches-aibn-the-first-us-listed-etf-dedicated-to-the-bonds-funding-the-ai-buildout"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años está en el 5,46 %, a 4 pb del umbral de atención, con intereses de 1,1 billones y déficit de 2 billones; el riesgo se mantiene en 51. Desde anoche hay algo de calma: los JGB japoneses bajan a mínimos de 6 semanas, el yuan marca máximo de 4 años y el Bund no se mueve, mientras Rusia sigue en rojo antes de su reunión del 23 de octubre.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años baja al 5,44 %, aún a 6 pb del umbral de atención, con intereses de 1,1 billones y déficit de 2 billones. Desde esta mañana, la caída del petróleo por las esperanzas de diálogo con Irán y los malos datos de vivienda bajan los rendimientos en EE. UU., Japón y Alemania, y el riesgo cede a 50; mañana se subasta el bono a 20 años y el jueves decide el Banco de Rusia.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "20 oct; -2 pb en el día, +17 pb en 1 mes",
+          "c": "20 oct; -1 pb en el día, +17 pb en 1 mes",
           "n": "Bono 10 años",
           "v": "5,13 %"
         },
         {
-          "c": "20 oct; -2 pb en el día, +18 pb en 1 mes",
+          "c": "20 oct; -3 pb en el día, +16 pb en 1 mes",
           "n": "Bono 30 años",
-          "v": "5,46 %"
+          "v": "5,44 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -416,14 +432,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Los rendimientos se estabilizan el martes tras repuntar el lunes con el petróleo (WTI ~99 $); el bono a 30 años sigue a 4 pb del umbral de atención y el coste de intereses sigue en récord."
+      "nota": "Los rendimientos bajan el martes con el petróleo (WTI ~97,6 $) y la vivienda débil (iniciaciones -5,2 %, ventas pendientes -7,3 % en sept.); el miércoles 21 se subastan 13.000 M$ a 20 años."
     },
     {
       "datos": [
         {
-          "c": "20 oct; plano en el día y en 1 mes",
+          "c": "20 oct; -4 pb en el día y en 1 mes",
           "n": "Bund 10 años",
-          "v": "3,46 %"
+          "v": "3,42 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -439,7 +455,7 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund se mantiene en el 3,46 % pese a las protestas en Francia; el BCE (2,50 %) no tocaría tipos este mes y el mercado descuenta otra subida en diciembre."
+      "nota": "El Bund baja al 3,42 % como refugio, pero el diferencial francés supera los 150 pb, máximo desde la crisis del euro; el BCE (2,50 %) no tocaría tipos este mes."
     },
     {
       "datos": [
@@ -454,7 +470,7 @@
           "v": "590.700 M$"
         },
         {
-          "c": "20 oct; 6,6791 en tierra, máximo de 4 años",
+          "c": "20 oct; 6,6755, -0,1 %; máximo desde jun-2022; fijación PBOC 6,72",
           "n": "USD/CNY",
           "v": "6,68"
         },
@@ -467,7 +483,7 @@
       "estado": "amarillo",
       "id": "CN",
       "nombre": "China",
-      "nota": "El yuan marca máximo de 4 años (6,68) tras un PIB del 3T del 4,5 %; China sigue saliendo de los Treasuries y comprando oro."
+      "nota": "El yuan sube por cuarta sesión a máximos desde 2022 y el PBOC frena la subida con fijaciones más débiles; China sigue saliendo de los Treasuries y comprando oro."
     },
     {
       "datos": [
@@ -477,9 +493,9 @@
           "v": "2,90 %"
         },
         {
-          "c": "20 oct; -4 pb en el día, -13 pb en 1 mes",
+          "c": "20 oct; -5 pb en el día, -13 pb en 1 mes",
           "n": "JGB 30 años",
-          "v": "3,95 %"
+          "v": "3,94 %"
         },
         {
           "c": "agosto (TIC), -35.600 M$; 4.ª caída, mínimo desde dic-2024",
@@ -487,7 +503,7 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "20 oct; -0,2 % en el día; Katayama dispuesta a intervenir",
+          "c": "20 oct; -0,2 % en el día; Ueda: inflación subyacente cerca del 2 %",
           "n": "USD/JPY",
           "v": "158,2"
         }
@@ -495,7 +511,7 @@
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Una buena subasta a 20 años y la promesa de Takaichi de controlar la emisión bajan los JGB a mínimos de 6 semanas; el BoJ (1,25 %) mantendría tipos, pero Japón sigue vendiendo Treasuries."
+      "nota": "Los JGB siguen en mínimos de 6 semanas tras la buena subasta a 20 años; Ueda suena más duro, pero el carry trade mantiene el yen débil (158) y Japón sigue vendiendo Treasuries."
     },
     {
       "datos": [
@@ -505,9 +521,9 @@
           "v": "14,00 %"
         },
         {
-          "c": "16 oct; -4 pb en 1 mes",
+          "c": "19 oct; -11 pb en 1 mes",
           "n": "OFZ 10 años",
-          "v": "16,51 %"
+          "v": "16,47 %"
         },
         {
           "c": "supera el plan anual de 3,8 bill.",
@@ -523,10 +539,10 @@
       "estado": "rojo",
       "id": "RU",
       "nombre": "Rusia",
-      "nota": "Inflación del 6,35 % en septiembre con expectativas de los hogares al 14,2 %; déficit desbordado y FNB menguando, y los analistas esperan que el Banco de Rusia mantenga el 14 % el 23 de octubre."
+      "nota": "Inflación del 6,35 % y déficit desbordado con el FNB menguando; los OFZ bajan ligeramente antes de la reunión del 23 de octubre, donde se espera mantener el 14 %."
     }
   ],
-  "riesgo": 51,
+  "riesgo": 50,
   "serie": [
     {
       "riesgo": 64,
@@ -596,6 +612,11 @@
       "burbuja": 70,
       "riesgo": 51,
       "ts": "2026-10-20T06:46:33Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-20T18:46:07Z"
     }
   ]
 }
