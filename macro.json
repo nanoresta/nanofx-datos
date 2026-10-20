@@ -324,9 +324,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-20T07:01:25Z",
+    "actualizado": "2026-10-20T08:02:14Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene en el 15,5 % (mantener 84,0 %, bajar 0,5 %), sin cambios en la última hora. La de diciembre sigue en el 82,5 % (mantener 15,0 %, bajar 2,5 %, tasa implícita 4,11 %), también estable.",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene en el 15,5 % (mantener 84,0 %, bajar 0,5 %), sin cambios respecto a la última hora. La de diciembre sigue en el 82,5 % (mantener 15,0 %, bajar 2,5 %, tasa implícita 4,11 %), también estable.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -865,14 +865,14 @@
       "changeNote": "futuros ES (Dic-26), +0,42 % respecto al cierre de ayer; cierre de contado anterior 7.690,73 (+0,41 %)",
       "changePct": 0.42,
       "claves": [
-        "Call wall en 7.827 (SPY 780), por encima del máximo de ayer (7.726); put wall en 7.526 (SPY 750).",
-        "Régimen de gamma NEGATIVO en -7,48 mil M$ por 1 % (antes -6,36): la cobertura de los creadores de mercado puede amplificar los movimientos.",
-        "Giro de gamma en 7.789 (SPY 776,21), por encima del precio: mientras el mercado cotice por debajo, la gamma negativa sigue vigente.",
+        "Call wall en 7.827 (SPY 780), por encima del put wall en 7.526 (SPY 750).",
+        "Régimen de gamma NEGATIVO en -6,45 mil M$ por 1 % (antes -7,48): algo menos negativo que antes.",
+        "Giro de gamma en 7.784 (SPY 775,78), por encima del precio de referencia; mientras el mercado cotice por debajo, la gamma negativa sigue vigente.",
         "Max pain en 7.726 (SPY 770); put/call de open interest 1,69."
       ],
       "gex": {
         "callWall": 780,
-        "contratos": 1720,
+        "contratos": 1706,
         "escalera": [
           {
             "gex": -122.4,
@@ -1060,11 +1060,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 776.21,
-        "gexTotal": -7.48,
+        "gammaFlip": 775.78,
+        "gexTotal": -6.45,
         "indice": {
           "callWall": 7827,
-          "gammaFlip": 7789,
+          "gammaFlip": 7784,
           "maxPain": 7726,
           "precio": 7694,
           "putWall": 7526
@@ -1097,16 +1097,16 @@
         "vencimientoCercano": "2026-10-20"
       },
       "id": "SPX",
-      "lectura": "Antes de la apertura europea (pre-Londres), los futuros del S&P 500 (ES) suben un 0,42 % hacia 7.736 puntos, por encima del cierre de contado de 7.690,73 (+0,41 % ayer) gracias al rebote de los semiconductores y la vuelta de la confianza en IA. La gamma sigue negativa (-7,48 mil M$ por 1 %) con el call wall en 7.827 como nuevo techo tras subir desde 7.726. El dólar se mantiene firme (DXY cerca de 102, bono a 10 años en 5,14 %), pero el calendario semanal sigue en contra del dólar (-69 ya con el NAHB confirmado en mínimos de 2012) y la Fed mantiene baja la probabilidad de subir tipos el 28 de octubre (15,5 %). Kevin Warsh evita dar señales sobre los tipos y Bessent repite que los precios bajarán cuando acabe la guerra con Irán, lo que sostiene el ánimo comprador, aunque el temor a una sobreinversión en IA que hoy golpea al KOSPI (-2 %, Samsung y SK Hynix) es un riesgo a vigilar en la apertura.",
+      "lectura": "A las 08:21 UTC (09:21 en Canarias, 04:21 hora de Nueva York), los futuros del S&P 500 (ES) siguen subiendo un 0,42 % hacia 7.736 puntos, por encima del cierre de contado de 7.690,73 (+0,41 % ayer), con el rebote de los semiconductores y la vuelta de la confianza en IA aún sosteniendo el ánimo. La gamma se ha suavizado algo: -6,45 mil M$ por 1 % (antes -7,48), con el call wall en 7.827 como techo. El dólar se mantiene firme (DXY cerca de 102, bono a 10 años en 5,14 %) y la Fed mantiene sin cambios su probabilidad de subir tipos el 28 de octubre (15,5 %) y en diciembre (82,5 %). No hay noticias ni declaraciones nuevas de peso en la última hora; el temor a una sobreinversión en IA en Asia (KOSPI) sigue siendo el riesgo a vigilar en la apertura.",
       "levels": {
         "callWall": 7827,
-        "gammaFlip": 7789,
+        "gammaFlip": 7784,
         "maxPain": 7726,
         "precio": 7694,
         "putWall": 7526
       },
       "name": "S&P 500",
-      "netGex": "negativa (-7.48 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-16)",
+      "netGex": "negativa (-6.45 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-16)",
       "regime": "negativa",
       "score": 33,
       "sesgo": "alcista",
@@ -1117,13 +1117,13 @@
       "changePct": 1.11,
       "claves": [
         "Call wall en 30.429 (QQQ 740), por encima del put wall en 28.784 (QQQ 700).",
-        "Régimen de gamma NEGATIVO en -4,35 mil M$ por 1 % (antes -5,40): algo menos negativo que ayer.",
-        "Giro de gamma en 30.352 (QQQ 738,15), por encima del precio.",
+        "Régimen de gamma NEGATIVO en -4,99 mil M$ por 1 % (antes -4,35): algo más negativo que antes.",
+        "Giro de gamma en 30.384 (QQQ 738,91), por encima del precio.",
         "Max pain en 29.606 (QQQ 720); put/call de open interest 1,57."
       ],
       "gex": {
         "callWall": 740,
-        "contratos": 1753,
+        "contratos": 1635,
         "escalera": [
           {
             "gex": -20.6,
@@ -1299,11 +1299,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 738.12,
-        "gexTotal": -4.35,
+        "gammaFlip": 738.91,
+        "gexTotal": -4.99,
         "indice": {
           "callWall": 30429,
-          "gammaFlip": 30351,
+          "gammaFlip": 30384,
           "maxPain": 29606,
           "precio": 29549,
           "putWall": 28784
@@ -1336,16 +1336,16 @@
         "vencimientoCercano": "2026-10-20"
       },
       "id": "NDX",
-      "lectura": "Los futuros del Nasdaq 100 (NQ) suben con fuerza, un 1,11 % hacia 29.719 puntos, ampliando el rebote de los semiconductores (+3,5 % ayer) y la vuelta de la confianza en IA (CoreWeave, Intel) tras el peor tramo del Nasdaq desde junio. La gamma sigue negativa (-4,35 mil M$ por 1 %) con el call wall ahora en 30.429. La Fed mantiene baja la probabilidad de subir tipos el 28 de octubre (15,5 %) y Warsh y Bessent calman los ánimos, lo que sostiene el apetito por el riesgo en tecnología, pero el temor renovado a una sobreinversión en IA golpea esta madrugada al KOSPI (-2 %, Samsung y SK Hynix a la baja) y es el principal riesgo a corto plazo para la apertura europea y estadounidense.",
+      "lectura": "A las 08:21 UTC (09:21 en Canarias, 04:21 hora de Nueva York), los futuros del Nasdaq 100 (NQ) siguen subiendo con fuerza, un 1,11 % hacia 29.719 puntos, ampliando el rebote de los semiconductores y la vuelta de la confianza en IA tras el peor tramo del Nasdaq desde junio. La gamma se ha vuelto algo más negativa: -4,99 mil M$ por 1 % (antes -4,35), con el call wall ahora en 30.429. La Fed mantiene sin cambios su probabilidad de subir tipos el 28 de octubre (15,5 %). No hay noticias ni declaraciones nuevas de peso en la última hora; el temor renovado a una sobreinversión en IA en Asia (KOSPI, Samsung, SK Hynix) sigue siendo el principal riesgo a corto plazo.",
       "levels": {
         "callWall": 30429,
-        "gammaFlip": 30351,
+        "gammaFlip": 30384,
         "maxPain": 29606,
         "precio": 29549,
         "putWall": 28784
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-4.35 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-16)",
+      "netGex": "negativa (-4.99 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-16)",
       "regime": "negativa",
       "score": 37,
       "sesgo": "alcista",
@@ -1353,7 +1353,7 @@
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-20T07:01:25Z",
+    "actualizado": "2026-10-20T08:02:14Z",
     "balance": 6755.6,
     "d4": 7.9,
     "dBalance": 8,
@@ -1860,14 +1860,14 @@
       }
     ]
   },
-  "resumen": "Son las 06:50 UTC (08:50 en Canarias, 02:50 hora de Nueva York) del martes 20 de octubre de 2026, antes de la apertura de Londres. Los futuros de EE. UU. suben con fuerza: el S&P 500 (ES) un 0,42 % hacia 7.736 puntos y el Nasdaq 100 (NQ) un 1,11 % hacia 29.719 puntos, ampliando el rebote de los semiconductores y la vuelta de la confianza en IA tras el cierre de ayer (S&P 500 7.690,73, +0,41 %; Nasdaq Composite 26.430,89, +1,11 %). El dólar se mantiene firme (DXY cerca de 102, bono a 10 años en el 5,14 %), con el oro cediendo hacia 4.076-4.120 $/oz, el euro en torno a 1,1215-1,1220 $ y bitcoin entre 81.500 y 82.000 $ con la toma de beneficios enfriándose, según Glassnode. El petróleo WTI ronda 97-100 $ tras un nuevo ataque con mina a un petrolero en el estrecho de Ormuz (el tercero en cuatro días) y el dato del CENTCOM de que Irán ya no exporta ni importa petróleo por mar (coste estimado de 25.000 millones $), compensado por la relajación de Trump a las sanciones sobre el crudo ruso. La gamma sigue negativa en ambos índices bursátiles (SPX -7,48, NDX -4,35 mil M$ por 1 %), con los call walls subiendo a 7.827 y 30.429. La Fed mantiene sin cambios sus probabilidades para octubre (15,5 %) y diciembre (82,5 %), y el temor a una sobreinversión en IA reaparece en Asia (KOSPI -2 %, Samsung y SK Hynix a la baja), un riesgo a vigilar en la apertura europea.",
+  "resumen": "Son las 08:21 UTC (09:21 en Canarias, 04:21 hora de Nueva York) del martes 20 de octubre de 2026, con Londres ya abierto. Los futuros de EE. UU. siguen al alza: el S&P 500 (ES) un 0,42 % hacia 7.736 puntos y el Nasdaq 100 (NQ) un 1,11 % hacia 29.719 puntos, sin novedades relevantes en la última hora respecto al resumen previo. El dólar se mantiene firme (DXY cerca de 102, bono a 10 años en el 5,14 %), con el oro en la zona de 4.076-4.120 $/oz y bitcoin entre 81.000 y 82.000 $. La gamma se mueve en direcciones opuestas en cada índice: se suaviza en el S&P 500 (-6,45 mil M$ por 1 %, antes -7,48) y se endurece algo en el Nasdaq 100 (-4,99 mil M$ por 1 %, antes -4,35), con los call walls en 7.827 y 30.429 respectivamente. La Fed mantiene sin cambios sus probabilidades para octubre (15,5 %) y diciembre (82,5 %), y el temor a una sobreinversión en IA sigue pesando en Asia (KOSPI -2 %), el principal riesgo a vigilar en la apertura europea y estadounidense.",
   "semana": {
     "activos": [
       {
         "cambio": "Pasa de 30 a 41 (alcista)",
         "expectativa": "El balance del calendario sigue a favor de la renta variable por un dólar más débil; el PMI de servicios y la confianza de Michigan del viernes serán el próximo catalizador real, con los futuros ES subiendo un 0,42 % esta madrugada.",
         "id": "SPX",
-        "narrativa": "El calendario de la semana sigue en contra del dólar (-69 ya confirmado tras el hundimiento del NAHB a 29, mínimo desde 2012), lo que sigue favoreciendo a la renta variable; el peso real llega el viernes (PMI, Michigan) y la semana siguiente con el FOMC (28), el BCE (29) y el PCE (29). La Fed mantiene baja la probabilidad de subir tipos el 28 de octubre (15,5 %) y la liquidez entra sin tensión. En opciones, la gamma sigue negativa (-7,48 mil M$ por 1 %) con el call wall ya en 7.827. Los futuros ES suben un 0,42 % esta madrugada por el rebote de semiconductores, mientras Warsh evita señales sobre los tipos y Bessent calma los ánimos sobre la inflación energética, aunque el temor a una sobreinversión en IA (KOSPI -2 %) es un riesgo a vigilar.",
+        "narrativa": "El calendario de la semana sigue en contra del dólar (-69 ya confirmado tras el hundimiento del NAHB a 29, mínimo desde 2012), lo que sigue favoreciendo a la renta variable; el peso real llega el viernes (PMI, Michigan) y la semana siguiente con el FOMC (28), el BCE (29) y el PCE (29). La Fed mantiene baja la probabilidad de subir tipos el 28 de octubre (15,5 %) y la liquidez entra sin tensión. En opciones, la gamma sigue negativa (-6,45 mil M$ por 1 %) con el call wall ya en 7.827. Los futuros ES suben un 0,42 % esta madrugada por el rebote de semiconductores, mientras Warsh evita señales sobre los tipos y Bessent calma los ánimos sobre la inflación energética, aunque el temor a una sobreinversión en IA (KOSPI -2 %) es un riesgo a vigilar.",
         "score": 41,
         "scoreInicial": -8,
         "sesgo": "alcista"
@@ -1876,7 +1876,7 @@
         "cambio": "Pasa de 28 a 43 (alcista)",
         "expectativa": "El calendario favorece algo a la tecnología por un dólar más débil; los futuros NQ suben un 1,11 % esta madrugada, aunque el temor a una sobreinversión en IA que hoy golpea al KOSPI (Samsung, SK Hynix) es un riesgo a vigilar.",
         "id": "NQ",
-        "narrativa": "El calendario en contra del dólar (-69) sigue apoyando a la tecnología. La gamma continúa negativa (-4,35 mil M$ por 1 %) con el call wall en 30.429. La Fed mantiene baja la probabilidad de octubre (15,5 %) y Warsh y Bessent calman los ánimos, lo que sostiene el sesgo alcista; los futuros NQ suben con fuerza (+1,11 %) esta madrugada ampliando el rebote de semiconductores, aunque el temor renovado a una sobreinversión en IA que hoy golpea al KOSPI (Samsung, SK Hynix) es el principal riesgo a corto plazo.",
+        "narrativa": "El calendario en contra del dólar (-69) sigue apoyando a la tecnología. La gamma continúa negativa (-4,99 mil M$ por 1 %) con el call wall en 30.429. La Fed mantiene baja la probabilidad de octubre (15,5 %) y Warsh y Bessent calman los ánimos, lo que sostiene el sesgo alcista; los futuros NQ suben con fuerza (+1,11 %) esta madrugada ampliando el rebote de semiconductores, aunque el temor renovado a una sobreinversión en IA que hoy golpea al KOSPI (Samsung, SK Hynix) es el principal riesgo a corto plazo.",
         "score": 43,
         "scoreInicial": -16,
         "sesgo": "alcista"
@@ -2130,7 +2130,7 @@
         "previsto": "52,3 (estimación, con cierta incertidumbre entre fuentes)"
       }
     ],
-    "narrativa": "El calendario de la semana sigue en contra del dólar (-70 sobre la base esperada, -69 ya con el NAHB confirmado en mínimos de 2012), con el peso real llegando el viernes (PMI, Michigan) y la semana siguiente (FOMC el 28, BCE el 29, PCE el 29). En tipos, la Fed mantiene baja la probabilidad de subir el 28 de octubre (15,5 %) y sube ligeramente la de diciembre (82,5 %). En opciones, la gamma sigue negativa en ambos índices bursátiles (SPX -7,48, NDX -4,35 mil M$ por 1 %), con los call walls subiendo a 7.827 y 30.429. Los futuros de EE. UU. suben con fuerza esta madrugada (NQ +1,11 %, ES +0,42 %) por el rebote de semiconductores, el dólar se mantiene firme cerca de 102 (oro cediendo hacia 4.076-4.120 $/oz, bono a 10 años en 5,14 %), el petróleo ronda 97-100 $ tras un nuevo ataque con mina en Ormuz y el dato del CENTCOM de que Irán ya no exporta petróleo por mar, y bitcoin ronda los 81.500-82.000 $ con la toma de beneficios enfriándose. El temor a una sobreinversión en IA reaparece en Asia (KOSPI -2 %, Samsung y SK Hynix a la baja), un riesgo a vigilar para el Nasdaq en la apertura europea y estadounidense.",
+    "narrativa": "El calendario de la semana sigue en contra del dólar (-70 sobre la base esperada, -69 ya con el NAHB confirmado en mínimos de 2012), con el peso real llegando el viernes (PMI, Michigan) y la semana siguiente (FOMC el 28, BCE el 29, PCE el 29). En tipos, la Fed mantiene baja la probabilidad de subir el 28 de octubre (15,5 %) y sube ligeramente la de diciembre (82,5 %). En opciones, la gamma sigue negativa en ambos índices bursátiles (SPX -6,45, NDX -4,99 mil M$ por 1 %), con los call walls subiendo a 7.827 y 30.429. Los futuros de EE. UU. suben con fuerza esta madrugada (NQ +1,11 %, ES +0,42 %) por el rebote de semiconductores, el dólar se mantiene firme cerca de 102 (oro cediendo hacia 4.076-4.120 $/oz, bono a 10 años en 5,14 %), el petróleo ronda 97-100 $ tras un nuevo ataque con mina en Ormuz y el dato del CENTCOM de que Irán ya no exporta petróleo por mar, y bitcoin ronda los 81.500-82.000 $ con la toma de beneficios enfriándose. El temor a una sobreinversión en IA reaparece en Asia (KOSPI -2 %, Samsung y SK Hynix a la baja), un riesgo a vigilar para el Nasdaq en la apertura europea y estadounidense.",
     "pesoCalendario": 0.35,
     "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa y la indefinición de Warsh.",
     "rango": "19 a 23 de octubre de 2026",
@@ -2138,5 +2138,5 @@
     "updatedAt": "2026-10-20T06:50:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-20T07:17:52Z"
+  "updatedAt": "2026-10-20T08:21:00Z"
 }
