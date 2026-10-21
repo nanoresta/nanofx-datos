@@ -1,16 +1,16 @@
 {
-  "actualizado": "2026-10-20T18:46:07Z",
+  "actualizado": "2026-10-21T06:47:15Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 6 pb del umbral de atención (5,5 %): -3 pb en el día y +16 pb en un mes (Trading Economics).",
-      "valor": "5,44 % (20 oct)"
+      "nota": "A 6 pb del umbral de atención (5,5 %): +1 pb en el día y +13 pb en un mes (Trading Economics).",
+      "valor": "5,44 % (21 oct)"
     },
     {
       "estado": "verde",
       "nombre": "Subasta 30 años (8 oct)",
-      "nota": "Demanda sólida y pocos dealers (6,8 %). Próxima prueba: 13.000 M$ a 20 años el 21 oct (la de julio salió al 5,163 %). Tail no publicado.",
+      "nota": "Demanda sólida y pocos dealers (6,8 %). Hoy, 21 oct, se subastan 13.000 M$ a 20 años (la de julio salió al 5,163 %): resultado pendiente. Tail no publicado.",
       "valor": "5,618 %; cobertura 2,54 (media 2,41); indirectos 72,3 %"
     },
     {
@@ -71,32 +71,32 @@
         "valor": "Capex IA ~690.000-800.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesan más la sobreinversión en IA con deuda (~500.000 M$ en 2026) y el apalancamiento (margen de 1,48 billones); el miedo extremo en el sentimiento resta algo.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesan más la sobreinversión en IA con deuda (~500.000 M$ en 2026) y el apalancamiento (margen de 1,48 billones); el miedo en el sentimiento resta algo.",
     "nivel": 70,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "20 oct (Trading Economics): en un mes los largos suben ~16 pb y los cortos ~5 pb; la curva sigue empinándose, aunque hoy baja el tramo largo.",
+        "nota": "21 oct (Trading Economics): en un mes los largos suben ~13 pb y los cortos ~5 pb; la curva sigue empinándose poco a poco.",
         "valor": "+64 pb (4,80 % / 5,44 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (20 oct): subida el 28 oct al 14,5 % y en diciembre al 83 %; con el IPP al 6,3 % los tipos reales siguen altos.",
-        "valor": "3,75-4,00 %; 83 % subida en dic."
+        "nota": "Kalshi (21 oct): subida el 28 oct al 13 % y en diciembre al 82,5 %; con el IPP al 6,3 % los tipos reales siguen altos.",
+        "valor": "3,75-4,00 %; 82,5 % subida en dic."
       },
       {
         "estado": "amarillo",
         "n": "Dólar (DXY)",
-        "nota": "20 oct (FXStreet): el DXY cae un 0,3 % a 101,66; algo de debilidad, sin ruptura clara.",
-        "valor": "101,7"
+        "nota": "21 oct (Trading Economics): el DXY se apoya en 101,8 tras tocar el martes su mínimo de 3 semanas (101,55); sin ruptura clara.",
+        "valor": "101,8"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "20 oct (Trading Economics): -0,4 % en el día y ~-5 % en un mes por los tipos altos; lejos del récord de 5.608 $ de enero, pero los bancos centrales siguen comprando.",
-        "valor": "~4.125 $/oz"
+        "nota": "21 oct (Trading Economics): cuarta caída seguida y -5,7 % en un mes por las expectativas de subida de tipos; los bancos centrales siguen comprando.",
+        "valor": "~4.117 $/oz"
       },
       {
         "estado": "amarillo",
@@ -402,19 +402,23 @@
     {
       "nombre": "Defiance AIBN – Financiación de IA 2026 (20 oct)",
       "url": "https://www.financialcontent.com/article/gnwcq-2026-10-20-defiance-launches-aibn-the-first-us-listed-etf-dedicated-to-the-bonds-funding-the-ai-buildout"
+    },
+    {
+      "nombre": "Ideal Investisseur – Diferencial OAT-Bund (20 oct)",
+      "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años baja al 5,44 %, aún a 6 pb del umbral de atención, con intereses de 1,1 billones y déficit de 2 billones. Desde esta mañana, la caída del petróleo por las esperanzas de diálogo con Irán y los malos datos de vivienda bajan los rendimientos en EE. UU., Japón y Alemania, y el riesgo cede a 50; mañana se subasta el bono a 20 años y el jueves decide el Banco de Rusia.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años se estabiliza en el 5,44 %, a 6 pb del umbral de atención, con intereses de 1,1 billones y déficit de 2 billones. Desde anoche casi no hay cambios: el petróleo vuelve a frenar la bajada de rendimientos y el diferencial francés marca máximos (150,8 pb); el riesgo se queda en 50 y hoy se subasta el bono a 20 años.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "20 oct; -1 pb en el día, +17 pb en 1 mes",
+          "c": "21 oct; +1 pb en el día, +16 pb en 1 mes",
           "n": "Bono 10 años",
           "v": "5,13 %"
         },
         {
-          "c": "20 oct; -3 pb en el día, +16 pb en 1 mes",
+          "c": "21 oct; +1 pb en el día, +13 pb en 1 mes",
           "n": "Bono 30 años",
           "v": "5,44 %"
         },
@@ -432,14 +436,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Los rendimientos bajan el martes con el petróleo (WTI ~97,6 $) y la vivienda débil (iniciaciones -5,2 %, ventas pendientes -7,3 % en sept.); el miércoles 21 se subastan 13.000 M$ a 20 años."
+      "nota": "Los rendimientos se estabilizan el miércoles (10 años 5,13 %) porque el petróleo vuelve a preocupar por la inflación y el mercado da un 82,5 % a una subida de la Fed en diciembre; hoy se subastan 13.000 M$ a 20 años."
     },
     {
       "datos": [
         {
-          "c": "20 oct; -4 pb en el día y en 1 mes",
+          "c": "21 oct; +2 pb en el día, -3 pb en 1 mes",
           "n": "Bund 10 años",
-          "v": "3,42 %"
+          "v": "3,43 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -455,7 +459,7 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund baja al 3,42 % como refugio, pero el diferencial francés supera los 150 pb, máximo desde la crisis del euro; el BCE (2,50 %) no tocaría tipos este mes."
+      "nota": "El Bund repunta levemente al 3,43 %, pero el diferencial francés llega a 150,8 pb (20 oct), máximo desde la crisis del euro por la tensión política en Francia; el BCE (2,50 %) no tocaría tipos este mes."
     },
     {
       "datos": [
@@ -470,7 +474,7 @@
           "v": "590.700 M$"
         },
         {
-          "c": "20 oct; 6,6755, -0,1 %; máximo desde jun-2022; fijación PBOC 6,72",
+          "c": "21 oct; +0,05 % en el día, yuan +0,3 % en 1 mes; máximo desde jun-2022",
           "n": "USD/CNY",
           "v": "6,68"
         },
@@ -483,12 +487,12 @@
       "estado": "amarillo",
       "id": "CN",
       "nombre": "China",
-      "nota": "El yuan sube por cuarta sesión a máximos desde 2022 y el PBOC frena la subida con fijaciones más débiles; China sigue saliendo de los Treasuries y comprando oro."
+      "nota": "El yuan se mantiene en máximos desde 2022 (6,68) y el PBOC frena la subida con fijaciones más débiles; China sigue saliendo de los Treasuries y comprando oro."
     },
     {
       "datos": [
         {
-          "c": "20 oct; -1 pb en el día, -9 pb en 1 mes; mínimo de 6 semanas",
+          "c": "21 oct; sin cambios en el día, -9 pb en 1 mes",
           "n": "JGB 10 años",
           "v": "2,90 %"
         },
@@ -503,15 +507,15 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "20 oct; -0,2 % en el día; Ueda: inflación subyacente cerca del 2 %",
+          "c": "21 oct; plano en el día; exportaciones de sept. por debajo de lo esperado",
           "n": "USD/JPY",
-          "v": "158,2"
+          "v": "158,1"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Los JGB siguen en mínimos de 6 semanas tras la buena subasta a 20 años; Ueda suena más duro, pero el carry trade mantiene el yen débil (158) y Japón sigue vendiendo Treasuries."
+      "nota": "Los JGB siguen en mínimos de 6 semanas tras la subasta récord a 20 años; se espera que el BoJ mantenga la semana que viene y suba en diciembre, mientras el yen sigue débil (158) y Japón vende Treasuries."
     },
     {
       "datos": [
@@ -617,6 +621,11 @@
       "burbuja": 70,
       "riesgo": 50,
       "ts": "2026-10-20T18:46:07Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-21T06:47:15Z"
     }
   ]
 }

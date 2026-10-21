@@ -174,7 +174,7 @@
       "anterior": "58,4",
       "anteriorNum": 58.4,
       "divisaSiSube": "+",
-      "evento": "PMI compuesto preliminar S&P Global (octubre)",
+      "evento": "PMI compuesto preliminar (octubre)",
       "fecha": "2026-10-23",
       "horaUtc": "13:45",
       "impacto": "medio",
@@ -324,16 +324,16 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-21T05:55:39Z",
+    "actualizado": "2026-10-21T06:56:30Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre repunta al 13,0 % (mantener 86,5 %, bajar 0,5 %, tasa implícita 3,91 %), frente al 12,0 % de anoche; la probabilidad de subida en diciembre baja al 82,5 % (mantener 15,0 %, bajar 2,5 %, tasa implícita 4,12 %) desde el 84,0 % previo.",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre baja ligeramente al 12,5 % (mantener 87,0 %, bajar 0,5 %, tasa implícita 3,91 %), frente al 13,0 % de la actualización anterior; la probabilidad de subida en diciembre se mantiene en el 82,5 % (mantener 15,0 %, bajar 2,5 %, tasa implícita 4,12 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 86.5,
-        "subir": 13,
+        "mantener": 87,
+        "subir": 12.5,
         "tasaImplicita": 3.91
       },
       {
@@ -910,11 +910,11 @@
   ],
   "indices": [
     {
-      "changeNote": "Cierre oficial de Wall Street (20:00 ET / 00:00 UTC del 21 oct): S&P 500 en 7.712,57 (+0,28 %, +21,84 puntos) frente al cierre del lunes (7.690,73); el Dow avanza un 1,02 % a 52.495,88. El proxy que usa NanoFx vía SPY para la gamma (770,63 → 7.731 convertido) queda unos 18 puntos por encima del índice oficial, dentro de la base habitual SPX/SPY.",
-      "changePct": 0.28,
+      "changeNote": "Antes de la apertura europea (06:51 UTC), los futuros ES del S&P 500 cotizan ligeramente al alza (en torno a +0,2 %, según Yahoo Finance) apoyados por el buen tono de resultados (SpaceX, Super Micro) y un dólar débil (DXY ~101,5-101,8); referencia frente al cierre oficial del martes en 7.712,57. Wall Street aún no ha abierto.",
+      "changePct": 0.24,
       "claves": [
         "Call wall en 7.825 (SPY 780), por encima del precio (7.731).",
-        "Régimen de gamma NEGATIVO en -6,95 mil M$ por 1 %, mucho más fuerte que hace unas horas (-1,55).",
+        "Régimen de gamma NEGATIVO en -6,95 mil M$ por 1 %, igual que al cierre de ayer.",
         "Giro de gamma en 7.794 (SPY 776,92), justo por encima del precio: resistencia técnica inmediata.",
         "Put wall en 7.625 (SPY 760); put/call OI 1,63."
       ],
@@ -1108,7 +1108,7 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 776.92,
+        "gammaFlip": 776.9,
         "gexTotal": -6.95,
         "indice": {
           "callWall": 7825,
@@ -1145,7 +1145,7 @@
         "vencimientoCercano": "2026-10-21"
       },
       "id": "SPX",
-      "lectura": "Wall Street cerró con fuertes subidas (Dow +1,02 %, S&P 500 +0,28 % a 7.712,57) en una sesión marcada por la caída del petróleo hacia 97-107 $ ante la esperanza de diplomacia en Irán y por el retroceso de la probabilidad de que la Fed suba tipos el 28 de octubre, ahora en el 12,0 % (Kevin Warsh sigue sin dar pistas). La gamma negativa se modera con fuerza (-1,55 mil M$ por 1 %, frente a -5,56 hace unas horas) y el proxy de opciones ya roza el giro de gamma en 7.762, lo que reduce el riesgo de movimientos bruscos en cualquier dirección. Pesan en contra el desplome del 7,3 % en las ventas pendientes de vivienda de segunda mano (mínimo histórico) y la amenaza de Irán sobre los cables submarinos del estrecho de Ormuz, aunque Polymarket le da solo un 4 % de probabilidad real. Sesgo del día: neutral, con el PMI de servicios y la confianza de Michigan del viernes como próximo catalizador real.",
+      "lectura": "Antes de la apertura en Londres (06:51 UTC), los futuros del S&P 500 suben levemente apoyados por los buenos resultados de SpaceX y Super Micro Computer (+11 % fuera de hora) y por un dólar que sigue flojo (DXY en mínimos desde el 1 de octubre). La gamma sigue negativa en -6,95 mil M$ por 1 % con el precio por debajo del giro de gamma (7.794): el mercado puede amplificar el movimiento en cualquier dirección si se acerca a ese nivel. Pesa Scott Bessent, que insiste en que \"los precios bajarán\" cuando termine la guerra de Irán, frente a la amenaza de Teherán de mantener cerrado el estrecho de Ormuz tras el nuevo ataque con minas a un petrolero; la probabilidad de que la Fed suba tipos el 28 de octubre repunta algo al 13,0 % sin que Kevin Warsh dé pistas. El PMI de servicios y la confianza de Michigan del viernes siguen siendo el próximo catalizador real. Sesgo: alcista leve.",
       "levels": {
         "callWall": 7825,
         "gammaFlip": 7794,
@@ -1156,16 +1156,16 @@
       "name": "S&P 500",
       "netGex": "negativa (-6,95 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-19)",
       "regime": "negativa",
-      "score": 12,
-      "sesgo": "neutral",
+      "score": 21,
+      "sesgo": "alcista",
       "spot": 7731
     },
     {
-      "changeNote": "Cierre de sesión: el Nasdaq 100 ronda los 29.660-29.690 puntos (en torno a +0,3/+0,6 %, cifra exacta de cierre no confirmada por prensa; el proxy de NanoFx vía QQQ marca 29.666), con los semiconductores recuperando terreno tras el susto de sobreinversión en IA que golpeó a Asia esta mañana (KOSPI -4,3 %).",
+      "changeNote": "Antes de la apertura europea (06:51 UTC), los futuros NQ del Nasdaq 100 suben con más fuerza que el S&P (en torno a +0,6 %) por la continuidad del rebote de semiconductores (Super Micro +11 % fuera de hora) y el ruido de una posible fusión SpaceX-Tesla; referencia frente al cierre del martes en los 29.666 puntos (proxy QQQ). Wall Street aún no ha abierto.",
       "changePct": 0.6,
       "claves": [
         "Call wall en 30.215 (QQQ 735), por encima del precio (29.666).",
-        "Régimen de gamma NEGATIVO en -2,79 mil M$ por 1 %, similar a hace unas horas (-2,93).",
+        "Régimen de gamma NEGATIVO en -2,79 mil M$ por 1 %, igual que al cierre de ayer.",
         "Giro de gamma en 30.174 (QQQ 733,99), justo por encima del precio: resistencia técnica inmediata.",
         "Put wall en 28.777 (QQQ 700); put/call OI 1,63."
       ],
@@ -1351,7 +1351,7 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 733.99,
+        "gammaFlip": 733.98,
         "gexTotal": -2.79,
         "indice": {
           "callWall": 30215,
@@ -1388,7 +1388,7 @@
         "vencimientoCercano": "2026-10-21"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cierra con ganancias moderadas, liderado por la reversión del desplome de semiconductores (SanDisk +7 %) tras el susto de sobreinversión en IA que golpeó a Asia esta mañana (KOSPI -4,3 %, Nikkei -1,4 %). La gamma negativa se modera con fuerza (-2,93 mil M$ por 1 %, frente a -5,13 hace unas horas) y el proxy de opciones se acerca al giro de gamma en 30.148, aunque sigue claramente por debajo, lo que mantiene cierto riesgo de caídas amplificadas si vuelve la aversión al riesgo. Kevin Warsh sigue sin dar señales sobre los tipos de octubre (probabilidad de subida ya en el 12,0 %) y bitcoin recupera terreno hacia 82.000-82.700 $. Sesgo del día: neutral (mejora frente a la sesión anterior), con el PMI de servicios y la confianza de Michigan del viernes como próximos catalizadores reales.",
+      "lectura": "Antes de la apertura en Londres, los futuros del Nasdaq 100 suben con más fuerza que los del S&P 500 (~+0,6 %) gracias al rebote de los semiconductores (Super Micro +11 % fuera de hora tras resultados preliminares) y al comité conjunto que SpaceX y Tesla han creado para estudiar una posible fusión, aunque el temor a la sobreinversión en IA tras el desplome del KOSPI (-4,3 %) sigue limitando el optimismo. La gamma negativa (-2,79 mil M$ por 1 %) con el precio bajo el giro de gamma en 30.174 mantiene el riesgo de movimientos amplificados. Pesa Kevin Warsh, que sigue sin dar pistas sobre el FOMC del 28 de octubre (probabilidad de subida ya en el 13,0 %), y el nuevo ataque con minas a un petrolero en el estrecho de Ormuz, que Scott Bessent intenta restar importancia diciendo que los precios bajarán cuando acabe la guerra. El PMI de servicios S&P Global del viernes es el próximo catalizador real. Sesgo: alcista leve.",
       "levels": {
         "callWall": 30215,
         "gammaFlip": 30174,
@@ -1399,13 +1399,13 @@
       "name": "Nasdaq 100",
       "netGex": "negativa (-2,79 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-19)",
       "regime": "negativa",
-      "score": -10,
-      "sesgo": "neutral",
+      "score": 24,
+      "sesgo": "alcista",
       "spot": 29666
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-20T21:28:53Z",
+    "actualizado": "2026-10-21T06:56:30Z",
     "balance": 6755.6,
     "d4": 7.9,
     "dBalance": 8,
@@ -1538,6 +1538,38 @@
     "tga": 883.4
   },
   "noticias": [
+    {
+      "activos": {
+        "BTC": "bajista",
+        "EURUSD": "neutral",
+        "NQ": "neutral",
+        "SPX": "neutral",
+        "WTI": "neutral",
+        "XAU": "neutral"
+      },
+      "fuente": "Mitrade",
+      "impacto": "medio",
+      "resumen": "Mitrade señala que bitcoin vuelve a correlacionarse con el Nasdaq 100 mientras las presiones macro (dólar, tipos) amenazan el soporte de 82.500 $.",
+      "titular": "Bitcoin pone a prueba el soporte de 82.500 $ y retoma su correlación con el Nasdaq",
+      "ts": "2026-10-21T05:30:00Z",
+      "url": "https://mitrade.com/au/insights/news/live-news/article-3-2178213-20261021"
+    },
+    {
+      "activos": {
+        "BTC": "bajista",
+        "EURUSD": "neutral",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "alcista",
+        "XAU": "alcista"
+      },
+      "fuente": "CBS News",
+      "impacto": "alto",
+      "resumen": "El canciller iraní Araghchi advierte de que Ormuz permanecerá cerrado mientras Washington no acepte las condiciones de Teherán, horas después de que un superpetrolero ardiera tras chocar con una mina al sur del estrecho.",
+      "titular": "Irán insiste en que el estrecho de Ormuz sigue cerrado salvo que EE. UU. acepte sus condiciones, tras un nuevo ataque con minas a un petrolero",
+      "ts": "2026-10-21T02:00:00Z",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-sanctions/"
+    },
     {
       "activos": {
         "BTC": "neutral",
@@ -1745,38 +1777,6 @@
       "titular": "Las ventas pendientes de viviendas de segunda mano se desploman un 7,3 % en septiembre, mínimo histórico",
       "ts": "2026-10-20T14:30:00Z",
       "url": "https://pro.thestreet.com/stock-market-today/2026-10-20#update-wp:22999"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NQ": "neutral",
-        "SPX": "neutral",
-        "WTI": "neutral",
-        "XAU": "neutral"
-      },
-      "fuente": "AOL / 5 Things to Know",
-      "impacto": "medio",
-      "resumen": "Netflix y United Airlines presentarán sus cuentas del tercer trimestre tras el cierre de hoy, en una jornada cargada de resultados.",
-      "titular": "Arranca la temporada de resultados: GM, GE Aerospace y 3M publican antes de la apertura",
-      "ts": "2026-10-20T14:00:00Z",
-      "url": "https://www.aol.com/articles/5-things-know-stock-market-122803000.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "EURUSD": "bajista",
-        "NQ": "bajista",
-        "SPX": "bajista",
-        "WTI": "neutral",
-        "XAU": "bajista"
-      },
-      "fuente": "TheStreet",
-      "impacto": "medio",
-      "resumen": "El rastreador de PIB del Atlanta Fed para el tercer trimestre se modera al +3,5 % anualizado, mientras BofA mantiene una visión más dura que el consenso sobre la inflación.",
-      "titular": "BofA sigue viendo una subida de la Fed en octubre, aunque el mercado solo le da un 20 % de probabilidad",
-      "ts": "2026-10-20T13:30:00Z",
-      "url": "https://pro.thestreet.com/stock-market-today/2026-10-20#update-wp:22999"
     }
   ],
   "odte": {
@@ -1815,7 +1815,7 @@
     "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy, 21 de octubre, por open interest, sin dato de gamma); el put/call de SPX baja a 1,62 (antes 1,61) y el de NDX sube con fuerza a 1,08 (antes 0,64). El max pain 0DTE coincide con el max pain principal en ambos índices (7.715 y 29.599); el rango 0DTE (7.434-7.805 en SPX, 28.777-29.599 en NDX) marca el rango técnico de referencia para la sesión de hoy."
   },
   "politica": {
-    "actualizado": "2026-10-20T21:51:19Z",
+    "actualizado": "2026-10-21T06:51:21Z",
     "ajuste": -2,
     "declaraciones": [
       {
@@ -1860,7 +1860,7 @@
       }
     ],
     "efecto": "mixto",
-    "lectura": "Al cierre de Wall Street, el tono político mejora algo respecto al mediodía: el petróleo sigue cayendo hacia 97-107 $ (WTI/Brent) ante una propuesta no confirmada de Catar y Pakistán para reactivar la diplomacia en Irán, Trump continúa suavizando las sanciones al petróleo ruso para frenar los precios y Bessent repite que los precios bajarán cuando acabe la guerra, mientras la probabilidad de que la Fed suba tipos el 28 de octubre cae al 12,0 % (Warsh sigue sin dar señales). Irán mantiene la amenaza sobre los cables submarinos del estrecho de Ormuz (Polymarket solo da un 4 % de probabilidad real) y Lagarde sigue cauta con la deuda francesa, lo que mantiene el sesgo político en mixto, algo menos bajista que antes.",
+    "lectura": "Antes de la apertura en Londres, el tono político sigue mixto: Irán, por boca de su canciller Araghchi, insiste en que el estrecho de Ormuz seguirá cerrado salvo que Washington acepte sus condiciones, horas después de que un nuevo superpetrolero ardiera tras chocar con una mina al sur del estrecho, mientras Trump continúa suavizando las sanciones al petróleo ruso para añadir oferta y bajar precios y Bessent repite que \"los precios bajarán\" cuando termine la guerra. La probabilidad de que la Fed suba tipos el 28 de octubre repunta ligeramente al 13,0 % (Kevin Warsh sigue sin dar señales) y Lagarde sigue cauta con la deuda francesa de cara a la reunión del BCE del 29 de octubre. El dólar sigue débil (DXY en mínimos desde el 1 de octubre), lo que compensa parte del riesgo geopolítico.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1905,58 +1905,58 @@
       {
         "cargo": "Gobierno de la República Islámica de Irán",
         "efecto": "bajista",
-        "postura": "Amenaza con atacar los 7 cables submarinos de internet del estrecho de Ormuz (20 oct); Polymarket da solo 4 % de probabilidad real.",
+        "postura": "Insiste en que Ormuz sigue cerrado salvo que EE. UU. acepte sus condiciones, tras un nuevo ataque con minas a un petrolero (21 oct).",
         "quien": "Irán",
-        "ts": "2026-10-20T11:45:00Z",
-        "url": "https://www.benzinga.com/markets/equities/26/10/62460028/stock-market-today-dow-jones-futures-rise-nasdaq-100-falls-as-iran-threatens-to-target-undersea-cables-spcx-nflx-stld-in-focus"
+        "ts": "2026-10-21T02:00:00Z",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-sanctions/"
       }
     ]
   },
-  "resumen": "Son las 06:22 UTC (07:22 en Canarias, 02:22 hora de Nueva York) del miércoles 21 de octubre de 2026, con Wall Street cerrado tras la sesión del martes (S&P 500 7.712,57, +0,28 %; Dow +1,02 % a 52.495,88). La probabilidad de que la Fed suba tipos el 28 de octubre repunta ligeramente al 13,0 % (antes 12,0 %) y la de diciembre baja al 82,5 % (antes 84,0 %), sin pistas nuevas de Kevin Warsh. La gamma del nuevo vencimiento de hoy (0DTE 21 de octubre) vuelve a ser claramente más negativa en ambos índices (SPX -6,95 mil M$ por 1 %, NDX -2,79), lo que puede amplificar los movimientos de la sesión. El dólar sigue debilitándose (DXY en 101,55, mínimo desde el 1 de octubre) y el euro sube a 1,1251; el petróleo WTI retrocede hacia 95,65 $ tras superar brevemente los 100 $ el martes. Elon Musk revela que los consejos de SpaceX y Tesla han formado un comité para estudiar una posible fusión, y Super Micro Computer sube un 11 % fuera de hora tras unos resultados preliminares mejores de lo esperado. Bitcoin se mantiene en torno a 82.700-83.000 $. Sesgo del día: pendiente de apertura, con el PMI de servicios de EE. UU. y la confianza de Michigan del viernes como próximos catalizadores.",
+  "resumen": "Son las 06:51 UTC (07:51 en Canarias, 02:51 hora de Nueva York) del miércoles 21 de octubre de 2026, en el tramo pre-Londres, con Wall Street aún cerrado tras el cierre del martes (S&P 500 7.712,57, +0,28 %; Dow +1,02 % a 52.495,88). Los futuros apuntan a una apertura algo más firme: ES (S&P 500) en torno a +0,2 % y NQ (Nasdaq 100) en torno a +0,6 %, impulsados por el rebote de semiconductores (Super Micro +11 % fuera de hora) y el ruido de una posible fusión SpaceX-Tesla. El dólar sigue débil (DXY en mínimos desde el 1 de octubre, EUR/USD en torno a 1,122-1,125), el oro retrocede hacia 4.113-4.125 $ con el apetito por el riesgo, el petróleo WTI oscila entre 95 y 101 $ en plena escalada en el estrecho de Ormuz (Irán insiste en que seguirá cerrado tras un nuevo ataque con minas a un petrolero) y bitcoin se mueve entre 82.000 y 83.100 $. La probabilidad de que la Fed suba tipos el 28 de octubre repunta ligeramente al 13,0 % (frente al 12,0 % de ayer) sin que Kevin Warsh dé pistas, y la gamma de ambos índices sigue negativa (SPX -6,95, NDX -2,79 mil M$ por 1 %), con el precio por debajo del giro de gamma en los dos casos. Sesgo del día: alcista leve en ambos índices, con el PMI de servicios de EE. UU. y la confianza de Michigan del viernes como próximo catalizador real.",
   "semana": {
     "activos": [
       {
-        "cambio": "Sube de 30 a 31: Wall Street cierra con fuerza (Dow +1,02 %, S&P 500 +0,28 %), la gamma negativa se modera con fuerza y la probabilidad de subida de tipos en octubre baja al 12,0 %.",
-        "expectativa": "El calendario sigue a favor de la renta variable por un dólar más débil (-61 confirmado), la Fed se aleja algo más de subir tipos en octubre y la gamma, que se modera con fuerza, reduce el riesgo de movimientos bruscos; el PMI de servicios y la confianza de Michigan del viernes serán el próximo catalizador real.",
+        "cambio": "Sube de 31 a 33: los futuros ES suben levemente antes de la apertura europea apoyados por los resultados de SpaceX y Super Micro y por un dólar que sigue flojo, aunque la gamma negativa y el repunte de la probabilidad de subida de tipos en octubre (12,0%→13,0%) frenan el avance.",
+        "expectativa": "El calendario sigue a favor de la renta variable por un dólar más débil (-61 confirmado, -69 esperado), y la liquidez (balance de la Fed en expansión) sigue dando soporte; el PMI de servicios y la confianza de Michigan del viernes serán el próximo catalizador real, con el FOMC del 28 y el PCE del 29 como citas clave de la semana siguiente.",
         "id": "SPX",
-        "score": 31,
+        "score": 33,
         "scoreInicial": -8,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Sube de 25 a 28: los semiconductores revierten el susto de sobreinversión en IA (SanDisk +7 %) y la gamma negativa sigue moderándose con fuerza, aunque el temor a la IA tras el desplome del KOSPI (-4,3 %) sigue limitando el avance.",
-        "expectativa": "El calendario favorece algo a la tecnología por un dólar más débil, y la gamma, que se modera con fuerza, reduce el riesgo de caídas bruscas; el temor a sobreinversión en IA sigue siendo el principal riesgo a corto plazo.",
+        "cambio": "Sube de 28 a 30: el rebote de los semiconductores (Super Micro +11 % fuera de hora) y el comité SpaceX-Tesla impulsan los futuros NQ (+0,6 %), aunque el temor a la sobreinversión en IA tras el desplome del KOSPI (-4,3 %) sigue limitando el avance.",
+        "expectativa": "El calendario favorece algo a la tecnología por un dólar más débil, y la liquidez ampia sigue dando soporte; el temor a sobreinversión en IA sigue siendo el principal riesgo a corto plazo, con el PMI de servicios del viernes como próximo catalizador.",
         "id": "NQ",
-        "score": 28,
+        "score": 30,
         "scoreInicial": -16,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Baja de 18 a 16 (sigue alcista, al límite): el oro pierde algo más de atractivo como refugio con el apetito por el riesgo sostenido (Wall Street al alza, petróleo cayendo con fuerza hacia 97-107 $) y el dólar firme cerca de 102.",
-        "expectativa": "Mientras persista la escalada en Ormuz el oro mantiene un sesgo de fondo alcista como refugio, pero el alivio en Irán y el buen tono bursátil limitan el avance a corto plazo.",
+        "cambio": "Baja de 16 a 14 (pasa a neutral): el oro retrocede hacia 4.113-4.125 $ (-0,66 % en el día) con el apetito por el riesgo sostenido (futuros bursátiles al alza) y un dólar que, aunque débil en el día, encuentra algo de soporte técnico tras el mínimo de ayer.",
+        "expectativa": "Mientras persista la escalada en Ormuz (Irán insiste en mantener cerrado el estrecho tras el nuevo ataque con minas) el oro mantiene un sesgo de fondo de refugio, pero el buen tono bursátil y la pausa del dólar limitan el avance a corto plazo; vigilar el PCE del 29 de octubre.",
         "id": "XAU",
-        "score": 16,
+        "score": 14,
         "scoreInicial": 50,
-        "sesgo": "alcista"
+        "sesgo": "neutral"
       },
       {
-        "cambio": "Sube de 27 a 30: bitcoin recupera terreno hacia 82.000-82.700 $ con entradas de 526,7 millones $ en ETF el lunes y Strive sumando 1.223 BTC más a su tesorería.",
-        "expectativa": "El calendario y una Fed que se aleja de subir tipos en octubre siguen dando soporte, y las nuevas compras corporativas mejoran el sentimiento, aunque la demanda al contado de los ETF sigue mixta en el cómputo semanal.",
+        "cambio": "Baja de 30 a 28 (sigue alcista): bitcoin se mueve entre 82.000 y 83.100 $ y vuelve a correlacionarse con el Nasdaq según Mitrade, mientras Kazajistán restringe varios exchanges (incluido Coinbase) en su centro financiero AIFC.",
+        "expectativa": "El calendario y una Fed que se aleja de subir tipos en octubre siguen dando soporte, y las entradas de ETF del lunes (526,7 millones $) mejoran el sentimiento, aunque la restricción de Kazajistán y la correlación con la renta variable añaden algo de riesgo a corto plazo.",
         "id": "BTC",
-        "score": 30,
+        "score": 28,
         "scoreInicial": 29,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Sube de -14 a -12 (sigue cerca de bajista): el petróleo sigue cayendo con fuerza hacia 97-107 $ ante la esperanza de diplomacia en Irán y el alivio de las sanciones al petróleo ruso, que añaden oferta al mercado.",
-        "expectativa": "El petróleo sigue perdiendo la prima de riesgo de oferta por la esperanza de diplomacia y la relajación de las sanciones rusas, aunque los ataques con minas en Ormuz siguen activos y podrían revertir el movimiento si la propuesta de paz no se confirma.",
+        "cambio": "Sube de -12 a -9 (sigue neutral, menos bajista): el WTI oscila entre 95 y 101 $ tras el nuevo ataque con minas a un petrolero en Ormuz, pero la esperanza de diplomacia (propuesta de Catar y Pakistán) y la relajación de las sanciones al petróleo ruso siguen añadiendo oferta potencial al mercado.",
+        "expectativa": "El petróleo sigue perdiendo parte de la prima de riesgo de oferta por la esperanza de diplomacia y la relajación de las sanciones rusas, aunque los ataques con minas en Ormuz siguen activos (Irán insiste en mantener el estrecho cerrado) y podrían revertir el movimiento si la propuesta de paz no se confirma.",
         "id": "WTI",
-        "score": -12,
+        "score": -9,
         "scoreInicial": 35,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Sube de 12 a 14 (sigue neutral): el euro se mantiene en 1,1223-1,1237 mientras el dólar sigue sin fuerza (DXY ~101,8), aunque los riesgos fiscales de Francia y la cautela de Lagarde limitan el avance.",
+        "cambio": "Se mantiene en 14 (sigue neutral): el euro cotiza en torno a 1,122-1,125 mientras el dólar sigue débil (DXY en mínimos desde el 1 de octubre), aunque los riesgos fiscales de Francia y la cautela de Lagarde con el BCE limitan el avance.",
         "expectativa": "El euro se mantiene sin dirección clara: el calendario apoya un leve avance por un dólar algo más débil, pero la prudencia de Lagarde con la deuda francesa y el BCE, que se perfila para mantener los tipos en el 2,50 % el 29 de octubre, lo frenan de cara a esa reunión y al FOMC de la semana siguiente.",
         "id": "EURUSD",
         "score": 14,
@@ -1973,7 +1973,7 @@
         "WTI": 30,
         "XAU": 61
       },
-      "actualizado": "2026-10-20T21:51:19Z",
+      "actualizado": "2026-10-21T06:51:21Z",
       "dolar": -61,
       "dolarEsperado": -69,
       "euro": -100
@@ -2176,11 +2176,11 @@
         "previsto": "52,3 (estimación, con cierta incertidumbre entre fuentes)"
       }
     ],
-    "narrativa": "El calendario de la semana sigue claramente en contra del dólar (-61 confirmado, -69 sobre la base esperada): tras un dato de vivienda mixto (viviendas iniciadas y ventas pendientes débiles, permisos casi en línea) y el hundimiento del NAHB a mínimos de más de una década, el peso real llega el viernes (PMI, Michigan) y la semana siguiente (FOMC el 28, BCE el 29, PCE el 29). En tipos, la Fed recorta al cierre la probabilidad de subir el 28 de octubre al 12,0 % (antes 14,0-14,5 %) y sube ligeramente la de diciembre al 84,0 %. En liquidez, la Fed sigue inyectando (balance +8.000 millones $ en la semana) sin tensión en repos. En opciones, la gamma negativa se modera con fuerza en ambos índices bursátiles (SPX -1,55, NDX -2,93 mil M$ por 1 %, frente a -5,56 y -5,13 horas antes), reduciendo el riesgo de movimientos amplificados. Wall Street cerró al alza (Dow +1,02 %, S&P 500 +0,28 %) mientras el petróleo sigue cayendo hacia 97-107 $ ante la esperanza de que una propuesta de Catar y Pakistán reactive la diplomacia para acabar la guerra de Irán; Trump sigue relajando las sanciones al petróleo ruso y Bessent insiste en que los precios bajarán cuando acabe el conflicto, aunque Irán mantiene la amenaza sobre los cables submarinos de Ormuz y Lagarde sigue cauta con la deuda francesa. Bitcoin recupera terreno (82.000-82.700 $) con Strive sumando 1.223 BTC más a su tesorería. Arranca con fuerza la temporada de resultados: GM, GE Aerospace, 3M y RTX ya han publicado, y Netflix y United Airlines lo harán tras el cierre de hoy.",
+    "narrativa": "El calendario de la semana sigue claramente en contra del dólar (-61 confirmado, -69 sobre la base esperada): tras datos de vivienda mixtos (NAHB en mínimos de más de una década, viviendas iniciadas y ventas pendientes débiles, permisos casi en línea), el peso real llega el viernes (PMI, Michigan) y la semana siguiente (FOMC el 28, BCE el 29, PCE el 29). En tipos, la probabilidad de que la Fed suba el 28 de octubre repunta algo al 13,0 % (frente al 12,0 % de ayer) sin que Kevin Warsh dé señales, mientras la de diciembre baja al 82,5 %. En liquidez, la Fed sigue inyectando (balance +8.000 millones $ en la semana, sin tensión en repos). En opciones, la gamma sigue negativa en ambos índices bursátiles (SPX -6,95, NDX -2,79 mil M$ por 1 %), con el precio por debajo del giro de gamma en los dos casos, lo que mantiene el riesgo de movimientos amplificados en cualquier dirección si el mercado se acerca a esos niveles. Los futuros apuntan a una apertura algo más firme en Wall Street (ES +0,2 %, NQ +0,6 %) apoyados por los resultados de SpaceX y Super Micro, mientras el petróleo WTI oscila entre 95 y 101 $ tras un nuevo ataque con minas a un petrolero en el estrecho de Ormuz: Irán (Araghchi) insiste en que el estrecho seguirá cerrado salvo que Washington acepte sus condiciones, aunque Trump sigue relajando las sanciones al petróleo ruso y Bessent repite que los precios bajarán cuando acabe el conflicto. Bitcoin se mueve entre 82.000 y 83.100 $, con Kazajistán restringiendo varios exchanges (incluido Coinbase) en su centro financiero AIFC. Arranca con fuerza la temporada de resultados: Netflix y United Airlines publicaron tras el cierre del martes, con Super Micro adelantando cifras preliminares por encima de lo esperado.",
     "pesoCalendario": 0.35,
-    "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa, la amenaza de Irán a los cables submarinos y la indefinición de Warsh.",
+    "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa, la amenaza de Irán en Ormuz y la indefinición de Warsh.",
     "rango": "19 a 23 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-21T06:22:00Z"
+  "updatedAt": "2026-10-21T07:18:27Z"
 }
