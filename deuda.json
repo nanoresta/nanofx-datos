@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-10-21T06:47:15Z",
+  "actualizado": "2026-10-21T18:45:57Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 6 pb del umbral de atención (5,5 %): +1 pb en el día y +13 pb en un mes (Trading Economics).",
-      "valor": "5,44 % (21 oct)"
+      "nota": "A 9 pb del umbral de atención (5,5 %): -1 pb en el día y +11 pb en un mes (Trading Economics).",
+      "valor": "5,41 % (21 oct)"
     },
     {
-      "estado": "verde",
-      "nombre": "Subasta 30 años (8 oct)",
-      "nota": "Demanda sólida y pocos dealers (6,8 %). Hoy, 21 oct, se subastan 13.000 M$ a 20 años (la de julio salió al 5,163 %): resultado pendiente. Tail no publicado.",
-      "valor": "5,618 %; cobertura 2,54 (media 2,41); indirectos 72,3 %"
+      "estado": "amarillo",
+      "nombre": "Subasta 20 años (21 oct)",
+      "nota": "Resultado en línea: buena cobertura y pocos dealers (10,3 %), pero cola leve y menos demanda extranjera (indirectos 58,2 % frente a media del 65,2 %).",
+      "valor": "5,469 %; cola 0,9 pb; cobertura 2,73 (media 2,62); indirectos 58,2 %"
     },
     {
       "estado": "rojo",
@@ -71,38 +71,38 @@
         "valor": "Capex IA ~690.000-800.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesan más la sobreinversión en IA con deuda (~500.000 M$ en 2026) y el apalancamiento (margen de 1,48 billones); el miedo en el sentimiento resta algo.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesan más la sobreinversión en IA con deuda (~500.000 M$ en 2026) y el apalancamiento (margen de 1,48 billones); el miedo en el sentimiento resta algo, aunque hoy la tecnología rebota.",
     "nivel": 70,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "21 oct (Trading Economics): en un mes los largos suben ~13 pb y los cortos ~5 pb; la curva sigue empinándose poco a poco.",
-        "valor": "+64 pb (4,80 % / 5,44 %)"
+        "nota": "21 oct (Trading Economics): en un mes los largos suben ~11 pb y los cortos ~6 pb; la curva sigue empinándose poco a poco.",
+        "valor": "+61 pb (4,80 % / 5,41 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (21 oct): subida el 28 oct al 13 % y en diciembre al 82,5 %; con el IPP al 6,3 % los tipos reales siguen altos.",
-        "valor": "3,75-4,00 %; 82,5 % subida en dic."
+        "nota": "Kalshi (21 oct): subida el 28 oct al 12,5 % y en diciembre al 81,5 %; con el IPP al 6,3 % los tipos reales siguen altos.",
+        "valor": "3,75-4,00 %; 81,5 % subida en dic."
       },
       {
         "estado": "amarillo",
         "n": "Dólar (DXY)",
-        "nota": "21 oct (Trading Economics): el DXY se apoya en 101,8 tras tocar el martes su mínimo de 3 semanas (101,55); sin ruptura clara.",
-        "valor": "101,8"
+        "nota": "21 oct (Trading Economics): el DXY se estabiliza en 101,7 tras su mínimo de 3 semanas del martes; +1 % en un mes.",
+        "valor": "101,7"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "21 oct (Trading Economics): cuarta caída seguida y -5,7 % en un mes por las expectativas de subida de tipos; los bancos centrales siguen comprando.",
-        "valor": "~4.117 $/oz"
+        "nota": "21 oct (Kitco/Trading Economics): rebota +0,3 % y corta cinco caídas seguidas, pero pierde ~5 % en un mes; los bancos centrales siguen comprando.",
+        "valor": "~4.137 $/oz"
       },
       {
         "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "Tras la semana al 16 oct (Nasdaq 100 -5,5 %, SOX -11 %), el 20 oct los chips borran pérdidas y el S&P sube un 0,3 % (Bloomberg, Motley Fool); el crédito de IA sigue tenso.",
-        "valor": "Nasdaq -5,5 % sem. pasada; CDS CoreWeave en estrés"
+        "nota": "21 oct: SpaceX (+8 %) y Super Micro (+10 %) animan al Nasdaq tras la semana al 16 oct (Nasdaq 100 -5,5 %); el crédito de IA sigue tenso (bonos CoreWeave ~15 %, 19 oct).",
+        "valor": "Tecnología rebota; CDS CoreWeave en estrés"
       }
     ]
   },
@@ -406,21 +406,29 @@
     {
       "nombre": "Ideal Investisseur – Diferencial OAT-Bund (20 oct)",
       "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+    },
+    {
+      "nombre": "Helious – Subasta 20 años (21 oct)",
+      "url": "https://helious.io/news/auc-912810UX4-2026-10-21/20-year-bond-auction-in-line"
+    },
+    {
+      "nombre": "investingLive – Subasta 20 años al 5,469 %",
+      "url": "https://investinglive.com/news/us-treasury-sells-13-billion-of-20-year-bonds-at-a-high-yield-of-5-469/"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años se estabiliza en el 5,44 %, a 6 pb del umbral de atención, con intereses de 1,1 billones y déficit de 2 billones. Desde anoche casi no hay cambios: el petróleo vuelve a frenar la bajada de rendimientos y el diferencial francés marca máximos (150,8 pb); el riesgo se queda en 50 y hoy se subasta el bono a 20 años.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: el bono a 30 años cede al 5,41 %, a 9 pb del umbral de atención, con intereses de 1,1 billones y un déficit de 2 billones. Desde esta mañana, la subasta de 13.000 M$ a 20 años salió en línea (5,469 %, cola de 0,9 pb, cobertura 2,73) y los mercados de deuda siguen tranquilos; el riesgo se mantiene en 50.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "21 oct; +1 pb en el día, +16 pb en 1 mes",
+          "c": "21 oct; plano en el día, +14 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "5,13 %"
+          "v": "5,11 %"
         },
         {
-          "c": "21 oct; +1 pb en el día, +13 pb en 1 mes",
+          "c": "21 oct; -1 pb en el día, +11 pb en 1 mes",
           "n": "Bono 30 años",
-          "v": "5,44 %"
+          "v": "5,41 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -436,14 +444,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Los rendimientos se estabilizan el miércoles (10 años 5,13 %) porque el petróleo vuelve a preocupar por la inflación y el mercado da un 82,5 % a una subida de la Fed en diciembre; hoy se subastan 13.000 M$ a 20 años."
+      "nota": "Los rendimientos ceden ligeramente (10 años 5,11 %) pese al Brent por encima de 110 $; la subasta a 20 años salió en línea con demanda extranjera algo floja (indirectos 58,2 %) y el mercado da un 81,5 % a una subida de la Fed en diciembre."
     },
     {
       "datos": [
         {
-          "c": "21 oct; +2 pb en el día, -3 pb en 1 mes",
+          "c": "21 oct; +3 pb en el día, -3 pb en 1 mes",
           "n": "Bund 10 años",
-          "v": "3,43 %"
+          "v": "3,42 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -459,14 +467,14 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund repunta levemente al 3,43 %, pero el diferencial francés llega a 150,8 pb (20 oct), máximo desde la crisis del euro por la tensión política en Francia; el BCE (2,50 %) no tocaría tipos este mes."
+      "nota": "El Bund se sostiene en el 3,42 % por la demanda refugio, pero el diferencial francés marcó 150,8 pb (20 oct), máximo desde la crisis del euro; Lagarde (FMI, 21 oct) pide una respuesta «medida» al choque del petróleo."
     },
     {
       "datos": [
         {
-          "c": "16 oct",
+          "c": "21 oct; -4 pb en 1 mes, cerca de mínimos desde mayo-2025",
           "n": "Bono 10 años",
-          "v": "1,66 %"
+          "v": "1,65 %"
         },
         {
           "c": "agosto (TIC, 16 oct), -27.300 M$; 3.ª caída, mínimo en ~18 años",
@@ -474,9 +482,9 @@
           "v": "590.700 M$"
         },
         {
-          "c": "21 oct; +0,05 % en el día, yuan +0,3 % en 1 mes; máximo desde jun-2022",
+          "c": "21 oct; plano en el día, yuan +0,4 % en 1 mes; máximo desde jun-2022",
           "n": "USD/CNY",
-          "v": "6,68"
+          "v": "6,67"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -492,7 +500,7 @@
     {
       "datos": [
         {
-          "c": "21 oct; sin cambios en el día, -9 pb en 1 mes",
+          "c": "21 oct; plano en el día, -9 pb en 1 mes",
           "n": "JGB 10 años",
           "v": "2,90 %"
         },
@@ -507,7 +515,7 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "21 oct; plano en el día; exportaciones de sept. por debajo de lo esperado",
+          "c": "21 oct; plano en el día, yen -0,5 % en 1 mes",
           "n": "USD/JPY",
           "v": "158,1"
         }
@@ -525,7 +533,7 @@
           "v": "14,00 %"
         },
         {
-          "c": "19 oct; -11 pb en 1 mes",
+          "c": "19 oct (último dato); -11 pb en 1 mes",
           "n": "OFZ 10 años",
           "v": "16,47 %"
         },
@@ -626,6 +634,11 @@
       "burbuja": 70,
       "riesgo": 50,
       "ts": "2026-10-21T06:47:15Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-21T18:45:57Z"
     }
   ]
 }

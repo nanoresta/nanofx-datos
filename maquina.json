@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-21T06:47:15Z",
+  "actualizado": "2026-10-21T18:45:57Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.56,
-    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 %; la Fed de Warsh (3,75-4,00 %) tiene un 13 % de subir el 28 oct y un 82,5 % en diciembre (Kalshi, 21 oct). Con el empleo frenado (+29.000 en septiembre), la vivienda cayendo (iniciaciones -5,2 %, ventas pendientes -7,3 % en sept.) y el crédito de la IA tensándose, es el patrón clásico de techo del ciclo corto."
+    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 %; la Fed de Warsh (3,75-4,00 %) tiene un 12,5 % de subir el 28 oct y un 81,5 % en diciembre (Kalshi, 21 oct). Con el empleo frenado (+29.000 en septiembre), la vivienda cayendo (iniciaciones -5,2 %, ventas pendientes -7,3 % en sept.) y el crédito de la IA tensándose, es el patrón clásico de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -73,7 +73,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "13 % subida el 28 oct · 82,5 % el 9 dic (Kalshi, 21 oct)",
+      "c": "12,5 % subida el 28 oct · 81,5 % el 9 dic (Kalshi, 21 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -103,19 +103,19 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "21 oct · a 6 pb del umbral de atención",
+      "c": "21 oct · a 9 pb del umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,44 %"
+      "v": "5,41 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,44 % (21 oct), cerca de máximos de casi 20 años, y Japón y China siguen vendiendo Treasuries (TIC de agosto): es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,41 % (21 oct), cerca de máximos de casi 20 años, y Japón y China siguen vendiendo Treasuries (TIC de agosto): es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 82,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos), la vivienda se hunde (ventas pendientes -7,3 %) y el crédito de la IA sigue tenso (bonos de CoreWeave ~15 %). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 81,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos), la vivienda se hunde (ventas pendientes -7,3 %) y el crédito de la IA sigue tenso (bonos de CoreWeave ~15 %). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
   "palancas": [
     {
       "estado": "rojo",
@@ -237,6 +237,11 @@
       "corto": 0.56,
       "largo": 0.76,
       "ts": "2026-10-21T06:47:15Z"
+    },
+    {
+      "corto": 0.56,
+      "largo": 0.76,
+      "ts": "2026-10-21T18:45:57Z"
     }
   ]
 }
