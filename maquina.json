@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-22T06:46:56Z",
+  "actualizado": "2026-10-22T18:46:19Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.56,
-    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 %; la Fed de Warsh (3,75-4,00 %) tiene un 12,5 % de subir el 28 oct y un 81,5 % en diciembre (Kalshi, 21 oct). Con el empleo frenado (+29.000 en septiembre), la vivienda cayendo (iniciaciones -5,2 %, ventas pendientes -7,3 % en sept.) y el crédito de la IA tensándose, es el patrón clásico de techo del ciclo corto."
+    "lectura": "El IPC de septiembre sube al 3,7 % y el IPP al 6,3 %; la Fed de Warsh (3,75-4,00 %) tiene un 6,5 % de subir el 28 oct y un 76,5 % en diciembre (Kalshi, 22 oct). Con el empleo frenado (+29.000 en septiembre), la vivienda cayendo y el crédito de la IA tensándose (CDS de Meta en récord), es el patrón clásico de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -66,6 +66,10 @@
     {
       "nombre": "investingLive · Dalio y el mercado bajista de bonos (22 oct)",
       "url": "https://investinglive.com/stocks/ray-dalio-warns-us-bond-bear-market-has-a-long-way-to-go-as-debt-supply-swamps-demand"
+    },
+    {
+      "nombre": "Shattered/Bloomberg · CDS de Meta en récord (22 oct)",
+      "url": "https://shattered.io/meta-credit-risk-record-high-ai-spending-cds-2026/"
     }
   ],
   "hacia": "Lo normal tras subir tipos con el empleo frenándose es una desaceleración o recesión en los próximos 6-18 meses (fase de recesión del ciclo corto); el IPC caliente y el petróleo por encima de 100 $ lo adelantarían al forzar más subidas. Como la deuda ya es muy alta, la Fed tendrá poco margen: el riesgo es entrar en el desapalancamiento, donde lo más probable en EE. UU. es imprimir dinero (más inflación, dólar débil, oro fuerte) antes que recortar gasto.",
@@ -77,7 +81,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "12,5 % subida el 28 oct · 81,5 % el 9 dic (Kalshi, 21 oct)",
+      "c": "6,5 % subida el 28 oct · 76,5 % el 9 dic (Kalshi, 22 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -107,19 +111,19 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "22 oct · a 12 pb del umbral de atención",
+      "c": "22 oct · -11 pb en el día; a 20 pb del umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,38 %"
+      "v": "5,30 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue alto (5,38 %, 22 oct) y Dalio calcula que el servicio de la deuda ronda el 200 % de los ingresos federales: es la zona donde los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue alto (5,30 %, 22 oct) y Dalio calcula que el servicio de la deuda ronda el 200 % de los ingresos federales: es la zona donde los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 81,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos) y el crédito de la IA sigue tenso (bonos de CoreWeave al 15-16 %). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y Dalio avisa (22 oct) de 2,1 billones de emisión neta del Tesoro este año.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 %) y el mercado da un 76,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos) y el crédito de la IA se tensa (Meta quema caja y su CDS marca récord, 22 oct). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %).",
   "palancas": [
     {
       "estado": "rojo",
@@ -130,7 +134,7 @@
     {
       "estado": "amarillo",
       "n": "Reestructurar o impagar deuda",
-      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa: los CDS de CoreWeave superan los 1.000 pb, récord (16 oct).",
+      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa: CDS de CoreWeave >1.000 pb (16 oct) y de Meta en récord (114,8 pb, 22 oct).",
       "valor": "Leve"
     },
     {
@@ -251,6 +255,11 @@
       "corto": 0.56,
       "largo": 0.76,
       "ts": "2026-10-22T06:46:56Z"
+    },
+    {
+      "corto": 0.56,
+      "largo": 0.76,
+      "ts": "2026-10-22T18:46:19Z"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-10-22T06:46:56Z",
+  "actualizado": "2026-10-22T18:46:19Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 12 pb del umbral de atención (5,5 %): -3 pb en el día y -2 pb en un mes según Trading Economics (22 oct), tras el rebote de los bonos por la caída de la tecnología en Asia.",
-      "valor": "5,38 % (22 oct)"
+      "nota": "A 20 pb del umbral de atención (5,5 %): -11 pb en el día y -10 pb en un mes (Trading Economics, 22 oct) por la huida a la seguridad ante Ormuz y la caída de la tecnología.",
+      "valor": "5,30 % (22 oct)"
     },
     {
       "estado": "amarillo",
@@ -16,8 +16,8 @@
     {
       "estado": "rojo",
       "nombre": "Deuda de IA (hyperscalers y CoreWeave)",
-      "nota": "Goldman prevé 420.000 M$ de emisión de hyperscalers en 2027 y Morgan Stanley ve >3,1 bill. $ de compromisos fuera de balance en 7 tecnológicas (Daily Caller, 21 oct); CoreWeave debe ~50.000 M$.",
-      "valor": "Bonos CoreWeave 15-16 %; 420.000 M$ previstos en 2027"
+      "nota": "Meta (22 oct) pasa a flujo de caja libre negativo en el 3T, sube el suelo de su capex 2026 a 135.000-145.000 M$ y sus compromisos a ~825.000 M$; su CDS a 5 años marca récord y Goldman prevé 420.000 M$ de emisión de hyperscalers en 2027.",
+      "valor": "CDS de Meta 114,8 pb (récord); FCF Meta -2.120 M$"
     },
     {
       "estado": "amarillo",
@@ -43,8 +43,8 @@
       {
         "estado": "rojo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en 5,13 % (20 oct): la bolsa casi no paga extra por su riesgo.",
-        "valor": "Prima de riesgo ≈ 11 pb"
+        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en 4,97 % (22 oct): la bolsa sigue pagando muy poco extra por su riesgo.",
+        "valor": "Prima de riesgo ≈ 27 pb"
       },
       {
         "estado": "amarillo",
@@ -67,42 +67,42 @@
       {
         "estado": "rojo",
         "n": "Sobreinversión por miedo a quedarse fuera",
-        "nota": "S&P Global: Amazon, Microsoft, Alphabet, Oracle, Meta y SpaceX gastarán >7 bill. $ en IA en 2025-2030 y hay >3,1 bill. en compromisos fuera de balance (Morgan Stanley, vía Daily Caller, 21 oct); flujo de caja libre cerca de cero salvo Alphabet y Microsoft (FactSet).",
-        "valor": "Capex IA ~690.000-800.000 M$"
+        "nota": "22 oct: Meta pasa a flujo de caja negativo y eleva compromisos a ~825.000 M$ (desde ~700.000 en julio); S&P Global ve >7 bill. $ de gasto en IA en 2025-2030 y Morgan Stanley >3,1 bill. fuera de balance (21 oct).",
+        "valor": "Meta FCF -2.120 M$; capex 135.000-145.000 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesa más la sobreinversión en IA con deuda (>7 billones de capex previstos hasta 2030 y 420.000 M$ de bonos en 2027); el sentimiento sigue con miedo (AAII 45,8 % bajistas) y hoy Asia vende tecnología.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesa más la sobreinversión en IA con deuda: Meta ya quema caja (-2.120 M$ en el 3T) y su CDS marca récord, mientras el Nasdaq cae más de un 2 % hoy y el sentimiento sigue con miedo.",
     "nivel": 70,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "22 oct (Trading Economics): los largos ceden 3 pb en el día y la curva se aplana algo frente a ayer (+61 pb), aunque sigue positiva.",
-        "valor": "+57 pb (4,81 % / 5,38 %)"
+        "nota": "22 oct (Trading Economics): los cortos bajan más (-15 pb) que los largos (-11 pb) y la curva se empina frente a esta mañana (+57 pb).",
+        "valor": "+64 pb (4,66 % / 5,30 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (21 oct): subida el 28 oct al 12,5 % y en diciembre al 81,5 %; con el IPP al 6,3 % los tipos reales siguen altos.",
-        "valor": "3,75-4,00 %; 81,5 % subida en dic."
+        "nota": "Kalshi (22 oct): subida el 28 oct al 6,5 % y en diciembre al 76,5 %; con el IPP al 6,3 % y el Brent sobre 112 $ los tipos reales siguen altos.",
+        "valor": "3,75-4,00 %; 76,5 % subida en dic."
       },
       {
         "estado": "amarillo",
         "n": "Dólar (DXY)",
-        "nota": "22 oct (Trading Economics): el DXY cede un 0,16 % hasta 101,5 antes de la Fed; +0,4 % en un mes.",
-        "valor": "101,5"
+        "nota": "22 oct (Trading Economics): el DXY cede un 0,2 %, aunque sube un 0,5 % en un mes.",
+        "valor": "101,6"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "22 oct (Trading Economics): cae un 1,2 % por el miedo a la inflación del petróleo y pierde un 4,6 % en un mes; los bancos centrales siguen comprando.",
-        "valor": "~4.092 $/oz"
+        "nota": "22 oct (Trading Economics): cae un 2,4 % por el miedo a más subidas de la Fed con el petróleo alto y pierde un 5,7 % en un mes; no da señal de huida del dólar.",
+        "valor": "~4.042 $/oz"
       },
       {
         "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "22 oct: el Hang Seng cae un 3,1 % (Alibaba -6 %) por las dudas de la inversión en IA, tras un rebote en Wall Street y los buenos resultados de Meta y Tesla.",
-        "valor": "Asia vende tecnología; CoreWeave 15-16 %"
+        "nota": "22 oct (Investing.com): peor sesión desde julio por Meta, los chips y el Brent a 112 $; los inversores huyen a los bonos, sin ventas forzadas aún.",
+        "valor": "Nasdaq -2,5 %; Meta -7 %"
       }
     ]
   },
@@ -426,21 +426,33 @@
     {
       "nombre": "Malay Mail/AFP – Hong Kong cae un 3 % por la tecnología (22 oct)",
       "url": "https://www.malaymail.com/news/money/2026/10/22/hong-kong-stocks-dive-more-than-3pc-in-tech-rout/240155"
+    },
+    {
+      "nombre": "Business Today – Meta: flujo de caja negativo (22 oct)",
+      "url": "https://www.businesstoday.in/markets/stocks/story/meta-shares-slide-7-as-ai-spending-push-drives-capex-higher-free-cash-flow-turns-negative-563170-2026-10-22"
+    },
+    {
+      "nombre": "Shattered/Bloomberg – CDS de Meta en récord (22 oct)",
+      "url": "https://shattered.io/meta-credit-risk-record-high-ai-spending-cds-2026/"
+    },
+    {
+      "nombre": "Investing.com – Nasdaq cae más de un 2 % por Meta (22 oct)",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-4964498"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: deuda negociable de ~32 billones (+8 % en un año), intereses de 1,1 billones y déficit de 2 billones, aunque hoy el bono a 30 años cede al 5,38 % por la huida de la tecnología. Desde ayer, lo nuevo es que el diferencial francés se amplía a 157,5 pb y Goldman prevé 420.000 M$ de deuda de hyperscalers en 2027; el riesgo se mantiene en 50.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: deuda en manos del público de ~32,3 billones, intereses de 1,1 billones y un déficit de 2 billones. Desde esta mañana, la huida a los bonos baja el 30 años al 5,30 % (-11 pb), pero Meta pasa a flujo de caja negativo (-2.120 M$) y su CDS marca récord (114,8 pb), y el diferencial francés llega a 160 pb, máximo desde la crisis del euro; el riesgo se mantiene en 50.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "22 oct; -4 pb en el día, -3 pb en 1 mes",
+          "c": "22 oct; -16 pb en el día, -15 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "5,09 %"
+          "v": "4,97 %"
         },
         {
-          "c": "22 oct; -3 pb en el día, -2 pb en 1 mes",
+          "c": "22 oct; -11 pb en el día, -10 pb en 1 mes",
           "n": "Bono 30 años",
-          "v": "5,38 %"
+          "v": "5,30 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -456,14 +468,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Los rendimientos bajan (10 años 5,09 %) por la huida de la tecnología en Asia; Dalio avisa (22 oct) de que el mercado bajista de bonos «tiene mucho recorrido»: 2,1 bill. $ de emisión neta en 2026 y necesidades de 4,4 bill. en 2027."
+      "nota": "El 10 años baja del 5 % (4,97 %, mínimo de casi un mes) por la huida a la seguridad ante Ormuz y la caída de la tecnología; Dalio avisa (22 oct) de 2,1 bill. $ de emisión neta en 2026 y 4,4 bill. de necesidades en 2027."
     },
     {
       "datos": [
         {
-          "c": "22 oct; +1 pb en el día, -13 pb en 1 mes",
+          "c": "22 oct; -9 pb en el día, -23 pb en 1 mes",
           "n": "Bund 10 años",
-          "v": "3,42 %"
+          "v": "3,32 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -479,7 +491,7 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund se sostiene en el 3,42 % por la demanda refugio, pero el diferencial francés se amplía a 157,5 pb (21 oct, desde 150,8), máximo desde la crisis del euro; el BCE sigue sesgado a subir por el petróleo."
+      "nota": "El Bund baja al 3,32 % como refugio, pero el diferencial francés se amplía a ~160 pb (21 oct, Trading Economics), máximo desde la crisis del euro, y el euro cede hacia 1,12 $; el BCE sigue sesgado a subir por el petróleo."
     },
     {
       "datos": [
@@ -494,7 +506,7 @@
           "v": "590.700 M$"
         },
         {
-          "c": "21 oct; -0,03 % en el día, yuan +0,4 % en 1 mes; máximo desde 2022",
+          "c": "22 oct; -0,02 % en el día, yuan +0,6 % en 1 mes; máximo desde 2022",
           "n": "USD/CNY",
           "v": "6,67"
         },
@@ -512,7 +524,7 @@
     {
       "datos": [
         {
-          "c": "22 oct; -1 pb en el día, -11 pb en 1 mes; mínimo de 6 semanas",
+          "c": "22 oct; -1 pb en el día, -11 pb en 1 mes",
           "n": "JGB 10 años",
           "v": "2,88 %"
         },
@@ -527,15 +539,15 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "22 oct; yen +0,5 % en el día y +0,6 % en 1 mes",
+          "c": "22 oct; yen +0,8 % en el día y +0,9 % en 1 mes",
           "n": "USD/JPY",
-          "v": "157,4"
+          "v": "156,9"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "El JGB a 10 años baja del 2,9 % (mínimo de 6 semanas) y el yen se aprecia a 157,4 antes de la reunión del BoJ de la semana que viene, donde se espera mantener; Japón sigue vendiendo Treasuries."
+      "nota": "El yen sube a 156,9 por la huida al refugio y el JGB a 10 años se queda en 2,88 % tras las garantías de Takaichi sobre la deuda; se espera que el BoJ mantenga la semana que viene y quizá suba en diciembre."
     },
     {
       "datos": [
@@ -563,7 +575,7 @@
       "estado": "rojo",
       "id": "RU",
       "nombre": "Rusia",
-      "nota": "Mañana (23 oct) el Banco de Rusia decide y el consenso es mantener el 14 %; el déficit supera el plan anual y el FNB líquido baja a 45.000 M$."
+      "nota": "Mañana (23 oct) el Banco de Rusia decide y el consenso es mantener el 14 %; el OFZ a 10 años sigue en 16,55 % (21 oct), el déficit supera el plan anual y el FNB líquido baja a 45.000 M$."
     }
   ],
   "riesgo": 50,
@@ -656,6 +668,11 @@
       "burbuja": 70,
       "riesgo": 50,
       "ts": "2026-10-22T06:46:56Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-22T18:46:19Z"
     }
   ]
 }
