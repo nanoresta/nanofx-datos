@@ -393,24 +393,23 @@
       "fecha": "2026-10-30",
       "horaUtc": "10:00",
       "impacto": "alto",
-      "nota": null,
       "pais": "Eurozona",
       "previsto": null,
       "previstoNum": null
     }
   ],
   "fed": {
-    "actualizado": "2026-10-21T19:16:13Z",
+    "actualizado": "2026-10-21T22:16:51Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene en el 12,5 % (mantener 87,0 %, bajar 0,5 %, tasa implícita 3,91 %), sin cambios en la última hora; la de diciembre también se mantiene estable en el 81,5 % (mantener 16,0 %, bajar 2,5 %, tasa implícita 4,11 %). Kevin Warsh sigue sin dar pistas antes del FOMC de la semana que viene.",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre baja ligeramente al 11,5 % (antes 12,5 %; mantener sube al 88,0 %, bajar 0,5 %, tasa implícita 3,90 %). La de diciembre se mantiene sin cambios en el 81,5 % (mantener 16,0 %, bajar 2,5 %, tasa implícita 4,11 %). Para enero de 2027 el mercado ve ahora algo más probable una bajada (6,0 % frente al 5,0 % anterior) y quita probabilidad al escenario de mantener (0 % frente a 1,0 %), con la subida aún en el 94,0 %. Kevin Warsh sigue sin dar pistas antes del FOMC de la semana que viene.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 87,
-        "subir": 12.5,
-        "tasaImplicita": 3.91
+        "mantener": 88,
+        "subir": 11.5,
+        "tasaImplicita": 3.9
       },
       {
         "bajar": 2.5,
@@ -420,9 +419,9 @@
         "tasaImplicita": 4.11
       },
       {
-        "bajar": 5,
+        "bajar": 6,
         "fecha": "2027-01-27",
-        "mantener": 1,
+        "mantener": 0,
         "subir": 94,
         "tasaImplicita": 4.28
       },
@@ -1114,13 +1113,13 @@
   ],
   "indices": [
     {
-      "changeNote": "cierre oficial en Wall Street, 21:00 Canarias",
-      "changePct": 0.6,
+      "changeNote": "futuros ES antes de la apertura europea (pre-Londres), en torno a -1,0 % desde el cierre de ayer (7.757); en vivo, 08:17 Canarias",
+      "changePct": -1,
       "claves": [
-        "Call wall en 7.832 (SPY 780.0). por encima del precio actual (~7.752).",
-        "Régimen de gamma negativa en -3,87 mil M$ por 1 %, de nuevo más negativa que hace una hora (-1,11).",
-        "Giro de gamma en 7.792 (SPY 776.01). por encima del precio en vivo: la resistencia aún no se ha superado.",
-        "Put wall en 7.631 (SPY 760.0); put/call OI 1.56."
+        "Call wall en 7.832 (SPY 780,0), por encima del precio; con los futuros cediendo hacia 7.718 la distancia a la resistencia aumenta.",
+        "Régimen de gamma negativa en -3,87 mil M$ por 1 % (snapshot del motor de ayer, sin datos nuevos esta madrugada), que amplifica los movimientos a la baja.",
+        "Giro de gamma en 7.792 (SPY 776,01), por encima del precio en los dos escenarios; la resistencia técnica no se ha superado.",
+        "Put wall en 7.631 (SPY 760,0); put/call OI 1,56; el dólar débil del calendario (-61 confirmado, -69 esperado) sigue dando soporte de fondo."
       ],
       "gex": {
         "callWall": 780,
@@ -1353,7 +1352,7 @@
         "vencimientoCercano": "2026-10-21"
       },
       "id": "SPX",
-      "lectura": "Al cierre oficial de Wall Street (16:00 hora de Nueva York), el S&P 500 sube un 0,58 % hasta 7.757 puntos, apoyado en el rebote tecnológico y la relajación del petróleo; tras la campana, Tesla y Meta superan ampliamente las previsiones del tercer trimestre, lo que debería dar soporte a los futuros de mañana. La gamma sigue negativa y se amplió con fuerza en la última hora (-3,87 mil M$ por 1 %, antes -1,11), con el precio aún por debajo del giro de gamma en 7.792: la resistencia técnica no se ha superado y añade fragilidad. Pesa más hoy la escalada del IRGC en el estrecho de Ormuz (otros tres petroleros golpeados por minas) y la exigencia de Pezeshkian de levantar sanciones antes de negociar, aunque Trump sigue aliviando las sanciones al petróleo ruso para compensar la oferta y el calendario semanal sigue a favor de un dólar más débil (-61 confirmado, -69 esperado). Kevin Warsh no da pistas de cara al FOMC del 28 de octubre (probabilidad de subida 12,5 %). El PMI de servicios del viernes sigue siendo el próximo catalizador real. Sesgo: alcista.",
+      "lectura": "Son las 06:51 UTC (02:51 hora de Nueva York) del jueves 22 de octubre, en el slot pre-Londres: los futuros del S&P 500 ceden en torno a un -0,5 % desde el cierre de ayer (7.757, +0,58 %) hacia los 7.718, arrastrados por el desplome en Asia (Nikkei -1,6 % con SoftBank -5,6 %; Hang Seng -2,1/-2,7 %; Kospi -2,6 %) ante el temor a la sobreinversión en inteligencia artificial tras los resultados de Meta (eleva gasto y guía) y Tesla (recorta capex) publicados ayer tras el cierre, y por un petróleo elevado (Brent >110 $) en plena tensión en el estrecho de Ormuz. La gamma sigue negativa (-3,87 mil M$ por 1 %, snapshot de ayer a falta de datos nuevos del motor) con el precio por debajo del giro de gamma en 7.792: la resistencia técnica sigue sin superarse y la caída de los futuros amplifica la fragilidad. El dólar sigue débil según el calendario de la semana (-61 confirmado, -69 esperado), lo que da soporte de fondo, y la probabilidad de que la Fed suba tipos el 28 de octubre baja ligeramente al 11,5 % (antes 12,5 %); el Mando Central de EE. UU. (CENTCOM) pone en duda las minas que reporta Irán en Ormuz, lo que templa algo la prima de riesgo geopolítico. Sesgo: neutral, pendiente de si el desplome asiático se traslada a la apertura europea.",
       "levels": {
         "callWall": 7832,
         "gammaFlip": 7792,
@@ -1364,18 +1363,18 @@
       "name": "S&P 500",
       "netGex": "negativa (-3,87 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-19)",
       "regime": "negativa",
-      "score": 33,
-      "sesgo": "alcista",
-      "spot": 7757
+      "score": -8,
+      "sesgo": "neutral",
+      "spot": 7679
     },
     {
-      "changeNote": "cierre oficial en Wall Street, 21:00 Canarias (Nasdaq Composite +1,1 %)",
-      "changePct": 1.1,
+      "changeNote": "futuros NQ antes de la apertura europea (pre-Londres), en torno a -1,5 % desde el cierre de ayer (29.786); en vivo, 08:17 Canarias",
+      "changePct": -1.5,
       "claves": [
-        "Call wall en 30.224 (QQQ 735.0). por encima del precio actual (~29.786).",
-        "Régimen de gamma negativa en -3,54 mil M$ por 1 %, también más negativa que hace una hora (-2,67).",
-        "Giro de gamma en 30.288 (QQQ 736.57). por encima del precio: resistencia algo más lejana que en el S&P.",
-        "Put wall en 29.607 (QQQ 720.0); put/call OI 1.54."
+        "Call wall en 30.224 (QQQ 735,0), muy por encima del precio; con los futuros cediendo hacia 29.460 la distancia a la resistencia crece.",
+        "Régimen de gamma negativa en -3,54 mil M$ por 1 % (snapshot del motor de ayer), que amplifica la caída de los futuros esta madrugada.",
+        "Giro de gamma en 30.288 (QQQ 736,57), por encima del precio; la resistencia técnica sigue sin superarse.",
+        "Put wall en 29.607 (QQQ 720,0); put/call OI 1,54; el desplome en Asia por el temor a la sobreinversión en IA (Nikkei, Hang Seng, Kospi) es hoy el principal factor bajista."
       ],
       "gex": {
         "callWall": 735,
@@ -1596,7 +1595,7 @@
         "vencimientoCercano": "2026-10-21"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 lidera hoy y cierra con un avance en torno al 1,1 % (Nasdaq Composite +1,05 % a 26.702 puntos), apoyado en SpaceX, Super Micro y el rebote de semiconductores (Nvidia, AMD); tras el cierre, Tesla y Meta superan ampliamente las previsiones del tercer trimestre (Meta eleva su guía a 73.000-76.000 millones $ y anuncia un split), lo que debería impulsar a los futuros tecnológicos de mañana. La gamma negativa se amplió también con fuerza a -3,54 mil M$ por 1 % (antes -2,67), con el giro de gamma todavía por encima del precio en 30.288. La escalada de Irán en Ormuz y el tono duro de Pezeshkian compensan en parte el alivio de Trump sobre el petróleo ruso, mientras Warsh sigue sin despejar el FOMC del 28 de octubre. El temor a la sobreinversión en IA sigue siendo el principal riesgo a corto plazo. Sesgo: alcista.",
+      "lectura": "El Nasdaq 100 es el índice más castigado esta madrugada: los futuros ceden en torno a un -1,0/-1,3 % desde el cierre de ayer (Nasdaq Composite +1,05 % a 26.702), arrastrados por el desplome en Asia -Nikkei -1,6 % (SoftBank -5,6 %), Hang Seng -2,1/-2,7 % y Kospi -2,6 %, todos muy expuestos a semiconductores- ante el temor a la sobreinversión en inteligencia artificial: Meta eleva su gasto pese a superar previsiones y Tesla recorta capex, lo que siembra dudas sobre el retorno de las grandes tecnológicas pese a los buenos resultados de SpaceX y Super Micro de ayer. La gamma sigue negativa (-3,54 mil M$ por 1 %, snapshot de ayer) con el precio por debajo del giro de gamma en 30.288: la caída de los futuros amplifica la fragilidad técnica. El dólar débil del calendario (-61/-69) y la menor probabilidad de que la Fed suba tipos el 28 de octubre (11,5 %, antes 12,5 %) son el principal contrapeso. Sesgo: bajista a corto plazo, pendiente de si el desplome asiático se traslada a Europa.",
       "levels": {
         "callWall": 30224,
         "gammaFlip": 30288,
@@ -1607,9 +1606,9 @@
       "name": "Nasdaq 100",
       "netGex": "negativa (-3,54 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-19)",
       "regime": "negativa",
-      "score": 39,
-      "sesgo": "alcista",
-      "spot": 29786
+      "score": -19,
+      "sesgo": "bajista",
+      "spot": 29339
     }
   ],
   "liquidez": {
@@ -1748,6 +1747,66 @@
   "noticias": [
     {
       "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "alcista"
+      },
+      "fuente": "Goodreturns",
+      "impacto": "alto",
+      "resumen": "El Nasdaq 100 cae unos 450 puntos y el S&P 500 en torno a un 1 %, lastrados por el repunte del crudo.",
+      "titular": "Los futuros de EE. UU. se hunden: Nasdaq -450 puntos y S&P 500 en torno a -1 % por el petróleo",
+      "ts": "2026-10-22T06:30:00Z",
+      "url": "https://www.goodreturns.in/news/us-stock-futures-crash-today-nasdaq-futures-fall-dow-jones-s-p-500-trump-xi-putin-us-stock-market-1542973.html"
+    },
+    {
+      "activos": {
+        "EURUSD": "neutral"
+      },
+      "fuente": "Business Recorder",
+      "impacto": "medio",
+      "resumen": "El dólar se mueve sin dirección clara mientras el mercado espera la decisión de tipos de la Fed.",
+      "titular": "El dólar cotiza mixto a la espera de la reunión de la Fed del 28 de octubre",
+      "ts": "2026-10-22T06:10:00Z",
+      "url": "https://www.brecorder.com/news/40445376/dollar-mixed-as-traders-wait-fed-meeting"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "Invezz",
+      "impacto": "alto",
+      "resumen": "Nikkei -1,6 % (SoftBank -5,6 %), Hang Seng -2,1/-2,7 % y Kospi -2,6 % lastrados por las dudas sobre el gasto en IA tras los resultados de Meta y Tesla, arrastrando a los futuros de Wall Street.",
+      "titular": "Las bolsas asiáticas se desploman por el temor a la sobreinversión en IA",
+      "ts": "2026-10-22T06:00:00Z",
+      "url": "https://invezz.com/au/news/2026/10/22/heres-why-kospi-and-nikkei-225-are-crashing-on-oct-22"
+    },
+    {
+      "activos": {
+        "WTI": "alcista",
+        "XAU": "bajista"
+      },
+      "fuente": "Business Recorder",
+      "impacto": "alto",
+      "resumen": "El oro retrocede a 4.094,90 $/oz mientras la subida del petróleo refuerza la idea de tipos altos por más tiempo.",
+      "titular": "El oro cae más de un 1 % hasta 4.095 $, mínimo desde el 14 de octubre",
+      "ts": "2026-10-22T05:30:00Z",
+      "url": "https://www.brecorder.com/news/40445422/gold-drops-over-1-as-oil-rally-reinforces-higher-for-longer-rate-outlook"
+    },
+    {
+      "activos": {
+        "SPX": "alcista",
+        "WTI": "bajista"
+      },
+      "fuente": "gCaptain",
+      "impacto": "medio",
+      "resumen": "El Mando Central de EE. UU. dice que ningún barco ha chocado con minas en Ormuz y acusa a Irán de intimidar al tráfico marítimo; una naviera de seguridad también duda de los ataques con minas reportados por el IRGC.",
+      "titular": "El CENTCOM de EE. UU. pone en duda que haya minas en el estrecho de Ormuz, frente a lo que afirma Irán",
+      "ts": "2026-10-21T23:00:00Z",
+      "url": "https://gcaptain.com/iran-claims-more-tankers-hit-mines-in-hormuz-but-evidence-remains-elusive/"
+    },
+    {
+      "activos": {
         "NQ": "alcista",
         "SPX": "alcista"
       },
@@ -1795,9 +1854,9 @@
       "url": "https://sundayguardianlive.com/business/sp-500-today-live-index-climbs-051-as-tech-stocks-rebound-oil-prices-ease-and-investors-track-netflix-spacex-apple-nvidia-earnings-check-top-gainers-losers-why-sp-500-is-higher-today-309703/"
     },
     {
-      "activos": [
-        "BTC"
-      ],
+      "activos": {
+        "BTC": "alcista"
+      },
       "fuente": "Ad Hoc News (Investing.com)",
       "impacto": "bajo",
       "resumen": "El repunte cripto acompaña el apetito de riesgo de Wall Street en la última hora de sesión.",
@@ -1861,65 +1920,6 @@
       "titular": "El oro rebota a 4.137 $ a media sesión en Wall Street, rompiendo su racha de cinco caídas",
       "ts": "2026-10-21T16:05:00Z",
       "url": "https://www.kitco.com/charts/gold"
-    },
-    {
-      "activos": {
-        "BTC": "alcista"
-      },
-      "fuente": "Bitcoin.com",
-      "impacto": "medio",
-      "resumen": "El bitcoin llega a tocar 84.739 $ en la sesión, con la mayoría de las liquidaciones en posiciones bajistas.",
-      "titular": "Bitcoin supera los 84.000 $ y liquida 188 millones $ en posiciones cortas",
-      "ts": "2026-10-21T15:45:00Z",
-      "url": "https://news.bitcoin.com/market-updates/bitcoin-price-cracks-84k-as-188-million-in-crypto-shorts-get-wiped-out/"
-    },
-    {
-      "activos": {
-        "BTC": "alcista"
-      },
-      "fuente": "The Block",
-      "impacto": "medio",
-      "resumen": "Bitcoin sube un 2,5 % en 24 horas hasta cerca de 83.500 $, su nivel más alto en una semana, apoyado en los resultados de SpaceX y Super Micro.",
-      "titular": "Bitcoin repunta a máximos de una semana, cerca de 83.500 $, con el apetito de riesgo",
-      "ts": "2026-10-21T13:30:00Z",
-      "url": "https://theblock.co/news/markets/2026-10-21-bitcoin-volatility-nears-2026-lows-as-traders-brace-for-fed-decision-and-us-midterms-421524"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista",
-        "WTI": "alcista"
-      },
-      "fuente": "Sunday Guardian Live",
-      "impacto": "medio",
-      "resumen": "Los futuros de Wall Street suben con el Brent por encima de 110 $ mientras el mercado espera los resultados de Tesla y Meta tras el cierre.",
-      "titular": "Los futuros del Dow rondan 52.700 puntos con el petróleo sobre 110 $ y la vista en Tesla y Meta",
-      "ts": "2026-10-21T13:15:00Z",
-      "url": "https://sundayguardianlive.com/business/dow-jones-futures-today-dow-futures-hover-near-52700-as-oil-prices-surge-above-110-ai-stocks-and-tesla-meta-earnings-drive-wall-street-outlook-check-what-investors-should-know-309588/"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista"
-      },
-      "fuente": "Yahoo Finance / KuCoin News",
-      "impacto": "alto",
-      "resumen": "SpaceX ingresó 14.580 millones $ (+161 %) y ganó 4.400 millones $ netos en el tercer trimestre; Musk confirma comités para estudiar una fusión con Tesla.",
-      "titular": "SpaceX dispara ingresos un 161 % en el tercer trimestre y Musk plantea fusionarla con Tesla",
-      "ts": "2026-10-21T13:00:00Z",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-21-dow-sp-500-nasdaq-100000105.html"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista"
-      },
-      "fuente": "Seeking Alpha / FXStreet",
-      "impacto": "medio",
-      "resumen": "SpaceX (+8 %) y Super Micro (+10 %) impulsan los futuros tecnológicos, aunque Netflix (-6 % premercado) limita el avance; Wall Street abre a las 14:30 UTC.",
-      "titular": "Los futuros suben antes de la apertura: ES +0,21 %, NQ +0,74 %, apoyados en resultados de IA",
-      "ts": "2026-10-21T12:30:00Z",
-      "url": "https://www.fxstreet.com/news/dow-jones-futures-rise-on-fed-rate-pause-expectations-ai-tech-rally-202610210812"
     }
   ],
   "odte": {
@@ -1955,11 +1955,11 @@
         "valor": "29.607"
       }
     ],
-    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca (vencimiento de hoy. 21 de octubre. por open interest. sin dato de gamma). El put/call de SPX sube a 1.62 (antes 1.60) y el de NDX baja a 1.06 (igual que antes). El max pain 0DTE coincide con el max pain principal en ambos índices; el rango 0DTE (7.441-7.812 en SPX. 28.785-29.607 en NDX) sigue marcando el rango técnico de referencia de la sesión, con el S&P 500 y el Nasdaq 100 ya por encima de sus respectivos max pain 0DTE."
+    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca correspondientes al vencimiento del 21 de octubre (ayer), por open interest y sin dato de gamma; el motor no ha generado una lectura nueva desde entonces (último cálculo: 21 de octubre, 22:17 UTC), por lo que estos siguen siendo los niveles más recientes disponibles mientras no haya datos para el vencimiento de hoy. El put/call de SPX se mantuvo en 1,62 y el de NDX en 1,06; el max pain 0DTE coincidía con el max pain principal en ambos índices, y el rango 7.441-7.812 en SPX y 28.785-29.607 en NDX sigue sirviendo de referencia técnica mientras no se actualice."
   },
   "politica": {
-    "actualizado": "2026-10-21T21:45:00Z",
-    "ajuste": -3,
+    "actualizado": "2026-10-22T06:51:00Z",
+    "ajuste": -2,
     "declaraciones": [
       {
         "dicho": "Dice que otros tres petroleros golpearon minas en el estrecho de Ormuz.",
@@ -2003,7 +2003,7 @@
       }
     ],
     "efecto": "mixto",
-    "lectura": "Al cierre de la sesión en Nueva York, el tono político sigue mixto: el IRGC insiste en que otros tres petroleros han golpeado minas en Ormuz y el presidente iraní Pezeshkian exige levantar sanciones antes de negociar, lo que prolonga la tensión petrolera; frente a eso, Trump sigue aliviando las sanciones al petróleo ruso para añadir oferta, Bessent mantiene que \"los precios bajarán\" cuando termine la guerra, y el acuerdo comercial EE. UU.-China (tregua ampliada hasta enero de 2027, rebaja arancelaria de 30.000 millones $ por cada lado) sigue siendo un fondo favorable. Kevin Warsh continúa sin dar pistas sobre el FOMC del 28 de octubre (probabilidad de subida: 12,5 %).",
+    "lectura": "En la madrugada previa a la apertura europea, el tono político sigue mixto: el Mando Central de EE. UU. (CENTCOM) pone en duda que haya minas en el estrecho de Ormuz, frente a lo que sostiene el IRGC (que dice haber dañado tres petroleros más el 21 de octubre), lo que templa algo la prima de riesgo geopolítico aunque el presidente iraní Pezeshkian sigue exigiendo levantar sanciones antes de negociar. Trump continúa aliviando las sanciones al petróleo ruso para añadir oferta, Bessent repite que \"los precios bajarán\" cuando termine la guerra, y Kevin Warsh sigue sin dar pistas sobre el FOMC del 28 de octubre (probabilidad de subida: 11,5 %, algo más baja que ayer). El principal factor de hoy no es político sino el desplome bursátil en Asia por el temor a la sobreinversión en IA tras los resultados de Meta y Tesla.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -2055,60 +2055,60 @@
       }
     ]
   },
-  "resumen": "Son las 21:45 UTC (22:45 en Canarias, 17:45 hora de Nueva York) del miércoles 21 de octubre de 2026, tras el cierre de Wall Street y ya con los resultados de Tesla y Meta publicados. El S&P 500 cerró con una subida del 0,58 % hasta 7.757 puntos y el Nasdaq Composite avanzó un 1,05 % hasta 26.702 puntos (Dow Jones +0,69 % a 52.856), apoyados en SpaceX (+8 %) y el rebote de semiconductores, con la sanidad en máximos históricos y GM cayendo cerca de un 8 %. Tras el cierre, Tesla bate previsiones (BPA 0,48 $ frente a 0,44 $ esperado, margen bruto de automóviles del 18,1 %) y estudia fusionarse con SpaceX, mientras Meta también supera expectativas, eleva su guía del cuarto trimestre a 73.000-76.000 millones $ y anuncia un split de acciones; ambos suben un 3-4 % en el after-hours y deberían dar soporte a los futuros de mañana. La gamma sigue negativa y se amplió con fuerza en la última hora de sesión en ambos índices (SPX -3,87 mil M$ por 1 %; NDX -3,54), con el precio aún por debajo del giro de gamma en los dos casos (SPX 7.792; NDX 30.288), lo que añade fragilidad técnica pese al buen tono. La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene en el 12,5 % (sin cambios), con Kevin Warsh sin dar pistas. El IRGC insiste en que otros tres petroleros han golpeado minas en Ormuz y el presidente iraní Pezeshkian exige levantar sanciones antes de negociar, pero el petróleo cede hoy (WTI ~99,25 $; Brent ~110,4 $) ante cierta esperanza de diplomacia y el alivio de Trump a las sanciones rusas; el oro ronda los 4.137 $, el euro cotiza en torno a 1,1222 y bitcoin sube a los 84.500 $ (+2,1 %) con entradas de 526,7 millones $ en ETF. El calendario de la semana sigue a favor de un dólar más débil (-61 confirmado, -69 esperado), lo que da soporte de fondo a la renta variable; el próximo catalizador real es el PMI de servicios y la confianza de Michigan del viernes, con el FOMC del 28 y el PCE del 29 como citas clave de la semana que viene. Sesgo del día: alcista en ambos índices, reforzado por los resultados tecnológicos tras el cierre.",
+  "resumen": "Son las 07:17 UTC (08:17 en Canarias, 03:17 hora de Nueva York) de la madrugada del jueves 22 de octubre de 2026, en el slot pre-Londres, con Wall Street cerrado desde ayer (S&P 500 7.757, +0,58 %; Nasdaq Composite 26.702, +1,05 %; Dow 52.856, +0,69 %) y los futuros agravando la caída de la última hora: ES en torno a -1,0 % (~7.679) y NQ en torno a -1,5 % (~29.339), lastrados por el desplome en Asia (Nikkei -1,6 % con SoftBank -5,6 %; Hang Seng -2,1/-2,7 %; Kospi -2,6 %) ante el temor a la sobreinversión en inteligencia artificial tras los resultados de Meta (eleva gasto y guía) y Tesla (recorta capex, estudia fusión con SpaceX) publicados tras el cierre de ayer, y por la nueva subida del petróleo. El petróleo sigue elevado (WTI ~99,3 $; Brent >110 $) con la tensión en el estrecho de Ormuz sin resolver, aunque el Mando Central de EE. UU. (CENTCOM) pone en duda los ataques con minas que reporta el IRGC, lo que templa algo la prima de riesgo; el oro cae más de un 1 % a mínimos desde el 14 de octubre, en torno a 4.095 $, el euro cotiza en torno a 1,1238 y bitcoin se mueve disperso entre 82.600 y 84.800 $ (≈83.000 $). La gamma sigue negativa en ambos índices (SPX -3,87 mil M$ por 1 %; NDX -3,54), con el precio por debajo del giro de gamma, snapshot del motor de ayer a falta de datos nuevos. La Fed baja ligeramente la probabilidad de subir tipos el 28 de octubre al 11,5 % (antes 12,5 %), con Kevin Warsh aún sin dar pistas; el calendario de la semana sigue a favor de un dólar más débil (-61 confirmado, -69 esperado). Sesgo del día: bajista en ambos índices a corto plazo, con el foco en si el desplome asiático y la subida del petróleo se trasladan a la apertura europea y, más adelante, en los PMI preliminares y la confianza de Michigan del viernes.",
   "semana": {
     "activos": [
       {
-        "cambio": "Sube de 43 a 46: los resultados de Tesla y Meta tras el cierre (ambos superan previsiones, Meta eleva su guía del cuarto trimestre) refuerzan el apetito por el riesgo, compensando la gamma negativa más amplia (-3,87, antes -1,11) y la escalada del IRGC en Ormuz.",
-        "expectativa": "El calendario sigue a favor de la renta variable por un dólar más débil (-61 confirmado, -69 esperado), reforzado ahora por los resultados de Tesla y Meta tras el cierre; el PMI de servicios y la confianza de Michigan del viernes serán el próximo catalizador real, con el FOMC del 28 y el PCE del 29 como citas clave de la semana siguiente.",
+        "cambio": "Baja de 46 a 31: el desplome bursátil en Asia y el temor a la sobreinversión en IA tras Meta y Tesla lastran los futuros (~-0,5 %), pero el dólar débil del calendario (-61/-69) y la menor probabilidad de que la Fed suba tipos (11,5 %, antes 12,5 %) limitan la caída.",
+        "expectativa": "El calendario sigue a favor de la renta variable por el dólar débil, pero el foco a corto plazo pasa a si el miedo a la sobreinversión en IA se consolida; el PMI de servicios de EE. UU. y la confianza de Michigan del viernes serán el próximo catalizador real, con el FOMC el 28 y el PCE el 29 como citas clave de la semana siguiente.",
         "id": "SPX",
-        "narrativa": "El calendario de la semana sigue claramente en contra del dólar (-61 confirmado, -69 sobre la base esperada), lo que da soporte de fondo a la renta variable; el peso real sigue llegando el viernes (PMI de servicios, previsto en 58,0, y confianza de Michigan) y la semana que viene (FOMC el 28, PCE el 29). En tipos, la Fed mantiene baja la probabilidad de subir el 28 de octubre (12,5 %) sin que Kevin Warsh dé señales, y la liquidez sigue entrando. En opciones, la gamma se amplía aún más en negativo en ambos índices (SPX -3,87 mil M$ por 1 %, antes -1,11), con el precio aún por debajo del giro de gamma. El IRGC insiste en nuevos ataques con minas en Ormuz y Pezeshkian exige levantar sanciones antes de negociar, pero Trump alivia las sanciones al petróleo ruso y, tras el cierre, los resultados de Tesla y Meta (ambos muy por encima de lo esperado, Meta eleva su guía) añaden un impulso adicional de cara a mañana.",
-        "score": 46,
+        "narrativa": "El calendario de la semana sigue claramente en contra del dólar (-61 confirmado, -69 esperado), lo que da soporte de fondo a la renta variable; el peso real sigue llegando el viernes (PMI de servicios y confianza de Michigan) y la semana siguiente (FOMC el 28, PCE el 29). En tipos, la Fed baja ligeramente la probabilidad de subir el 28 de octubre al 11,5 % (antes 12,5 %), sin que Warsh dé señales; la liquidez sigue entrando. En opciones, la gamma sigue negativa en ambos índices (SPX -3,87 mil M$ por 1 %, snapshot de ayer), con el precio por debajo del giro de gamma. Esta madrugada el desplome en Asia (Nikkei, Hang Seng, Kospi) por el temor a la sobreinversión en IA, tras los resultados de Meta y Tesla, y el petróleo elevado por la tensión en Ormuz (aunque el CENTCOM pone en duda las minas que reporta Irán) lastran los futuros y moderan el optimismo de ayer.",
+        "score": 31,
         "scoreInicial": 43,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Sube de 49 a 53: los resultados de Tesla y Meta tras el cierre (ambos superan previsiones con fuerza) se suman al liderazgo de SpaceX y los semiconductores, pese a la gamma negativa más amplia (-3,54, antes -2,67).",
-        "expectativa": "El calendario y una Fed que se aleja de subir tipos en octubre siguen dando soporte a la tecnología, reforzado ahora por los resultados de Tesla y Meta tras el cierre; el temor a sobreinversión en IA sigue siendo el principal riesgo a corto plazo, con el PMI de servicios del viernes como próximo catalizador.",
+        "cambio": "Baja de 53 a 25: el desplome en Asia (Nikkei, Hang Seng, Kospi, todos muy expuestos a semiconductores) por el temor a la sobreinversión en IA tras Meta y Tesla golpea con fuerza a los futuros del Nasdaq, aunque el dólar débil y la Fed menos hawkish limitan la caída.",
+        "expectativa": "El calendario y una Fed que se aleja algo más de subir tipos en octubre siguen dando soporte a la tecnología, pero el temor a la sobreinversión en IA, agravado por el desplome asiático de esta madrugada, es ahora el principal riesgo a corto plazo, con el PMI de servicios del viernes como próximo catalizador.",
         "id": "NQ",
-        "narrativa": "El calendario favorece algo a la tecnología por el mismo dólar débil (-61/-69), y la liquidez amplia sigue dando soporte. En tipos, la Fed sin subir en octubre (12,5 %) es un viento de cola para el sector growth. En opciones, la gamma negativa se amplía a -3,54 mil M$ por 1 % (antes -2,67), con el giro de gamma por encima del precio. Los resultados de IA (SpaceX) y el rebote de los semiconductores impulsan con fuerza al Nasdaq 100 (+1,1 % hoy), y tras el cierre Tesla y Meta vuelven a superar previsiones (Meta eleva su guía y anuncia un split), lo que debería extender el impulso a los futuros de mañana, aunque el temor a la sobreinversión en IA sigue siendo el principal riesgo a corto plazo.",
-        "score": 53,
+        "narrativa": "El calendario favorece algo a la tecnología por el mismo dólar débil (-61/-69), y la liquidez amplia sigue dando soporte. En tipos, la Fed alejándose algo más de subir en octubre (11,5 %, antes 12,5 %) es un viento de cola para el growth. En opciones, la gamma sigue negativa (-3,54 mil M$ por 1 %, snapshot de ayer), con el giro de gamma por encima del precio. Pero esta madrugada el desplome en Asia -muy expuesta a semiconductores (Nikkei -1,6 %, SoftBank -5,6 %; Kospi -2,6 %)- por el temor a la sobreinversión en IA tras los resultados de Meta (sube gasto) y Tesla (recorta capex) lastra con fuerza a los futuros del Nasdaq, el índice más golpeado hoy.",
+        "score": 25,
         "scoreInicial": 49,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Se mantiene en 14: el oro sube modestamente (~4.137 $, +0,4 %) apoyado en el dólar débil del calendario, pero el apetito de riesgo tras los resultados de Tesla y Meta y la relajación del petróleo limitan un avance mayor.",
-        "expectativa": "Aunque el calendario sigue a favor del oro por un dólar débil, el apetito de riesgo tras los resultados tecnológicos y el repunte de yields limitan el avance a corto plazo; vigilar el PCE del 29 de octubre y la reunión de la Fed del 28.",
+        "cambio": "Sube de 14 a 28: el desplome de riesgo en Asia por el temor a la sobreinversión en IA reactiva la demanda de refugio en el oro, que se suma al dólar débil del calendario y a una Fed algo menos hawkish (11,5 %, antes 12,5 %).",
+        "expectativa": "El calendario y el apetito por el refugio tras el desplome asiático apoyan al oro a corto plazo, aunque la demanda de refugio podría moderarse si se calma el temor a la sobreinversión en IA; vigilar el PCE del 29 de octubre y la reunión de la Fed del 28.",
         "id": "XAU",
-        "narrativa": "El calendario sigue a favor del oro por un dólar débil (-61 confirmado), y el metal se mantiene cerca de 4.137 $, con una subida modesta en el día. La probabilidad de subida de la Fed se mantiene baja (12,5 %), lo que normalmente apoyaría al oro, y la tensión en Ormuz (IRGC, Pezeshkian) mantiene viva la prima de refugio. Pero el fuerte apetito por el riesgo tras los resultados de Tesla y Meta y la relajación del petróleo hoy siguen limitando un avance mayor; vigilar el PCE del 29 y la reunión de la Fed del 28.",
-        "score": 14,
+        "narrativa": "El calendario sigue a favor del oro por un dólar débil (-61 confirmado), y el metal cotiza en torno a 4.105 $, ligeramente a la baja en el día. La probabilidad de subida de la Fed baja algo más (11,5 %), lo que apoyaría al oro, y el desplome de riesgo en Asia junto con la tensión en Ormuz mantienen viva la demanda de refugio, aunque el CENTCOM pone en duda las minas que reporta Irán, lo que templa algo esa prima.",
+        "score": 28,
         "scoreInicial": 14,
+        "sesgo": "alcista"
+      },
+      {
+        "cambio": "Baja de 50 a 14: el desplome en Asia y las dudas sobre el gasto en IA, dada la correlación creciente con el Nasdaq, lastran a bitcoin (disperso 82.700-84.800 $), aunque el dólar débil del calendario sigue dando soporte de fondo.",
+        "expectativa": "El calendario y una Fed más suave dan soporte de fondo, pero la correlación con el Nasdaq y el temor a la sobreinversión en IA son la variable clave a corto plazo; si el sentimiento tecnológico se enfría más, bitcoin podría seguir cediendo.",
+        "id": "BTC",
+        "narrativa": "El calendario apoya moderadamente a bitcoin por el dólar débil (-61, con un peso del 80 % aplicado a cripto), y una Fed que se aleja algo más de subir tipos el 28 de octubre (11,5 %) es un viento de cola. Pero la correlación cada vez mayor con el Nasdaq pesa hoy: el desplome en Asia por el temor a la sobreinversión en IA arrastra también a bitcoin, que cotiza disperso entre 82.700 y 84.800 $ según la fuente, frente a los 84.500 $ del cierre de ayer.",
+        "score": 14,
+        "scoreInicial": 46,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Sube de 46 a 50: bitcoin repunta a 84.546 $ (+2,1 %) con entradas de 526,7 millones $ en ETF, arrastrado por el apetito de riesgo que refuerzan los resultados de Tesla y Meta.",
-        "expectativa": "El calendario y una Fed que se aleja de subir tipos en octubre dan soporte, junto al tono de riesgo reforzado por los resultados tecnológicos; la correlación con el Nasdaq sigue siendo la variable clave a corto plazo.",
-        "id": "BTC",
-        "narrativa": "El calendario apoya moderadamente a bitcoin por el dólar débil (-61, con un peso del 80 % aplicado a cripto), y una Fed que se aleja de subir tipos el 28 de octubre (12,5 %) es un viento de cola. El fuerte apetito de riesgo de Wall Street, acentuado tras los resultados de Tesla y Meta, arrastra a bitcoin, que sube a 84.546 $ (+2,1 % en 24 horas) con entradas netas de 526,7 millones $ en ETF. La correlación cada vez mayor con el Nasdaq sigue añadiendo riesgo a corto plazo si el sentimiento tecnológico se enfría.",
-        "score": 50,
-        "scoreInicial": 46,
-        "sesgo": "alcista"
-      },
-      {
-        "cambio": "Baja de 42 a 36: el WTI cede a 99,25 $ (-1,8 %) ante la esperanza de diplomacia EE. UU.-Irán y el alivio de Trump a las sanciones rusas, aunque el IRGC mantiene la escalada en Ormuz.",
-        "expectativa": "El tono de diplomacia EE. UU.-Irán alivia hoy el petróleo y el alivio de sanciones rusas de Trump añade oferta, pero el IRGC y Pezeshkian mantienen la escalada en Ormuz; vigilar si se confirma una tregua real o nuevos ataques.",
+        "cambio": "Baja de 36 a 11: el petróleo se mantiene firme por la tensión en Ormuz, pero el CENTCOM pone en duda las minas que reporta Irán y Trump sigue aliviando las sanciones rusas, lo que compensa el soporte del dólar débil del calendario.",
+        "expectativa": "La duda del CENTCOM sobre las minas y el alivio de sanciones rusas de Trump presionan a la baja la prima de riesgo, pero el IRGC y Pezeshkian mantienen la retórica de escalada; vigilar si se confirma una tregua real o nuevos ataques verificados.",
         "id": "WTI",
-        "narrativa": "El calendario apoya solo moderadamente al petróleo por el dólar débil (peso del 50 % aplicado), y hoy el WTI cede hacia 99,25 $ (-1,8 %) ante cierta esperanza de diplomacia entre EE. UU. e Irán. El IRGC insiste en que otros tres petroleros han golpeado minas en Ormuz y Pezeshkian exige levantar sanciones antes de negociar, lo que mantiene viva la prima de riesgo de oferta (Brent ~110,4 $), pero Trump sigue suavizando las sanciones al petróleo ruso para añadir oferta y Bessent repite que \"los precios bajarán\" cuando termine la guerra.",
-        "score": 36,
+        "narrativa": "El calendario apoya solo moderadamente al petróleo por el dólar débil (peso del 50 % aplicado), y el WTI se mantiene firme en torno a 99,3 $ (Brent >110 $) por la tensión en el estrecho de Ormuz. Pero el Mando Central de EE. UU. (CENTCOM) pone en duda que haya minas, lo que templa la prima de riesgo que alimenta el IRGC y Pezeshkian, mientras Trump sigue aliviando las sanciones al petróleo ruso para añadir oferta y Bessent repite que \"los precios bajarán\" cuando termine la guerra.",
+        "score": 11,
         "scoreInicial": 42,
-        "sesgo": "alcista"
+        "sesgo": "neutral"
       },
       {
-        "cambio": "Se mantiene en 9: el euro cotiza plano (1,1222), con el calendario débil de la eurozona compensando un dólar algo más flojo.",
+        "cambio": "Se mantiene en torno a 9-10: el euro cotiza ligeramente al alza (~1,1238, +0,14 %) apoyado en un dólar algo más débil, pero el calendario flojo de la eurozona y la cautela de Lagarde siguen limitando un avance mayor de cara al BCE del 29 de octubre.",
         "expectativa": "El calendario apoya un leve avance del euro por un dólar más débil, pero el diferencial franco-alemán y la cautela de Lagarde con la deuda francesa de cara al BCE del 29 de octubre lo frenan, igual que el FOMC de la semana siguiente.",
         "id": "EURUSD",
-        "narrativa": "El calendario apoya solo un leve avance del euro por el dólar algo más débil, pero el peso ponderado frente al euro (-100 por el flojo ZEW y la confianza de la eurozona) da un resultado casi neutral en el cruce (1,1222, plano hoy). Christine Lagarde reconoce que el shock energético de Irán \"es demasiado grande para ignorar\" pero defiende una respuesta medida del BCE. El FOMC del 28 de octubre y la reunión del BCE del 29, donde se espera que mantenga los tipos en el 2,50 %, añaden volatilidad para el cruce la semana que viene.",
-        "score": 9,
+        "narrativa": "El calendario apoya solo un leve avance del euro por el dólar algo más débil, pero el peso ponderado frente al euro (-100 por el flojo ZEW y la confianza de la eurozona) da un resultado casi neutral en el cruce, que cotiza en torno a 1,1238 (+0,14 % desde el cierre de ayer). Christine Lagarde reconoce que el shock energético de Irán \"es demasiado grande para ignorar\" pero defiende una respuesta medida del BCE. El FOMC del 28 de octubre y la reunión del BCE del 29 añaden volatilidad para el cruce la semana que viene.",
+        "score": 10,
         "scoreInicial": 9,
         "sesgo": "neutral"
       }
@@ -2122,7 +2122,7 @@
         "WTI": 30,
         "XAU": 61
       },
-      "actualizado": "2026-10-21T21:45:00Z",
+      "actualizado": "2026-10-22T06:51:00Z",
       "dolar": -61,
       "dolarEsperado": -69,
       "euro": -100
@@ -2330,5 +2330,5 @@
     "rango": "19 a 23 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-22T06:21:00Z"
+  "updatedAt": "2026-10-22T07:22:28.572534Z"
 }

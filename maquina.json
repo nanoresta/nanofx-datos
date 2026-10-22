@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T18:45:57Z",
+  "actualizado": "2026-10-22T06:46:56Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
@@ -62,6 +62,10 @@
     {
       "nombre": "FXStreet · Vivienda y Treasuries (20 oct)",
       "url": "https://www.fxstreet.com/news/us-treasury-yields-retreat-as-iran-deal-hopes-pull-wti-lower-202610201649"
+    },
+    {
+      "nombre": "investingLive · Dalio y el mercado bajista de bonos (22 oct)",
+      "url": "https://investinglive.com/stocks/ray-dalio-warns-us-bond-bear-market-has-a-long-way-to-go-as-debt-supply-swamps-demand"
     }
   ],
   "hacia": "Lo normal tras subir tipos con el empleo frenándose es una desaceleración o recesión en los próximos 6-18 meses (fase de recesión del ciclo corto); el IPC caliente y el petróleo por encima de 100 $ lo adelantarían al forzar más subidas. Como la deuda ya es muy alta, la Fed tendrá poco margen: el riesgo es entrar en el desapalancamiento, donde lo más probable en EE. UU. es imprimir dinero (más inflación, dólar débil, oro fuerte) antes que recortar gasto.",
@@ -97,25 +101,25 @@
       "v": "+2,2 % anual"
     },
     {
-      "c": "fin AF2026 (CRFB)",
+      "c": "fin AF2026 (CRFB) · deuda negociable ~32 bill. $, +8 % (Dalio, 22 oct)",
       "estado": "rojo",
       "n": "Deuda pública e intereses",
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "21 oct · a 9 pb del umbral de atención",
+      "c": "22 oct · a 12 pb del umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,41 %"
+      "v": "5,38 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB y los intereses ya cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,41 % (21 oct), cerca de máximos de casi 20 años, y Japón y China siguen vendiendo Treasuries (TIC de agosto): es la zona donde, según Dalio, los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue alto (5,38 %, 22 oct) y Dalio calcula que el servicio de la deuda ronda el 200 % de los ingresos federales: es la zona donde los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 81,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos), la vivienda se hunde (ventas pendientes -7,3 %) y el crédito de la IA sigue tenso (bonos de CoreWeave ~15 %). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y el Estado gasta un 6,2 % del PIB más de lo que ingresa.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La inflación vuelve a acelerar (IPC 3,7 %, IPP 6,3 % en septiembre) y el mercado da un 81,5 % a una subida de la Fed en diciembre mientras el empleo se frena (29.000 empleos) y el crédito de la IA sigue tenso (bonos de CoreWeave al 15-16 %). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y Dalio avisa (22 oct) de 2,1 billones de emisión neta del Tesoro este año.",
   "palancas": [
     {
       "estado": "rojo",
@@ -147,7 +151,7 @@
       "dato": "Deuda +5,2 % anual frente a salarios por hora +3,7 %",
       "estado": "rojo",
       "n": "Que la deuda no crezca más que los ingresos",
-      "nota": "La deuda sigue ganando a los ingresos y el déficit federal es del 6,2 % del PIB sin estar en recesión. Si esto sigue, la carga de la deuda aplasta el gasto futuro."
+      "nota": "La deuda sigue ganando a los ingresos y el déficit federal es del 6,2 % del PIB sin estar en recesión; la deuda negociable del Tesoro crece un 8 % anual (Dalio, 22 oct)."
     },
     {
       "dato": "Salarios por hora +3,7 % frente a productividad +2,2 %",
@@ -242,6 +246,11 @@
       "corto": 0.56,
       "largo": 0.76,
       "ts": "2026-10-21T18:45:57Z"
+    },
+    {
+      "corto": 0.56,
+      "largo": 0.76,
+      "ts": "2026-10-22T06:46:56Z"
     }
   ]
 }
