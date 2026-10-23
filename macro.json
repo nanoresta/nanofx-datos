@@ -43,8 +43,8 @@
       "previstoNum": 1.39
     },
     {
-      "actual": null,
-      "actualNum": null,
+      "actual": "28,1",
+      "actualNum": 28.1,
       "anterior": "34,7",
       "anteriorNum": 34.7,
       "divisaSiSube": "+",
@@ -52,10 +52,10 @@
       "fecha": "2026-10-20",
       "horaUtc": "09:00",
       "impacto": "medio",
-      "nota": "No se ha podido confirmar con 2 fuentes independientes el dato real publicado el 20 de octubre; se mantiene pendiente de verificación.",
+      "nota": "Confirmado con Trading Economics y Zonebourse: cayó a 28,1, por debajo de la previsión de consenso (≈30).",
       "pais": "Eurozona",
-      "previsto": "sin consenso publicado",
-      "previstoNum": null
+      "previsto": "30",
+      "previstoNum": 30
     },
     {
       "actual": "194 mil",
@@ -82,7 +82,7 @@
       "fecha": "2026-10-22",
       "horaUtc": "14:00",
       "impacto": "bajo",
-      "nota": "Publicación prevista hoy a las 10:00 ET; no se ha podido confirmar el dato real con 2 fuentes independientes todavía.",
+      "nota": "Publicado el 22 de octubre; no se ha podido confirmar el dato real con 2 fuentes independientes todavía.",
       "pais": "EE. UU.",
       "previsto": "sin consenso publicado",
       "previstoNum": null
@@ -402,9 +402,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-23T05:59:22Z",
+    "actualizado": "2026-10-23T07:00:22Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre sube al 6,5 % (antes 5,5 %; mantener 93,0 %, bajar 0,5 %, tasa implícita 3,89 %), y la de diciembre también repunta ligeramente al 77,5 % (antes 75,5 %; mantener 20,0 %, bajar 2,5 %, tasa implícita 4,09 %); el mercado sigue descontando casi con certeza un mantenimiento la próxima semana, pero el riesgo de subida gana algo de peso tanto a corto como a medio plazo.",
+    "lectura": "La probabilidad de que la Fed suba tipos el 28 de octubre se mantiene en el 6,5 % (mantener 93,0 %, bajar 0,5 %, tasa implícita 3,89 %), sin cambios respecto a la lectura anterior, mientras la de diciembre repunta levemente al 77,0 % (antes 76,0 %; mantener 20,5 %, bajar 2,5 %, tasa implícita 4,09 %); el mercado sigue descontando casi con certeza un mantenimiento la próxima semana, con el riesgo de subida concentrándose algo más en enero de 2027 (93,0 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -417,8 +417,8 @@
       {
         "bajar": 2.5,
         "fecha": "2026-12-09",
-        "mantener": 20,
-        "subir": 77.5,
+        "mantener": 20.5,
+        "subir": 77,
         "tasaImplicita": 4.09
       },
       {
@@ -1220,12 +1220,12 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, cierre, 21:50 UTC",
-      "changePct": -1.27,
+      "changeNote": "futuros ES, pre-londres, 06:58 UTC",
+      "changePct": -1.22,
       "claves": [
         "Call wall en 7.826 (SPY 780,0): resistencia por encima del precio actual.",
         "Régimen de gamma negativa en -8,42 mil M$ por 1 %.",
-        "Giro de gamma en 7.817 (SPY 779,09), por encima del precio: la gamma sigue negativa.",
+        "Giro de gamma en 7.817 (SPY 779,08), por encima del precio: la gamma sigue negativa.",
         "Put wall en 7.625 (SPY 760,0); put/call OI 1,63."
       ],
       "gex": {
@@ -1414,7 +1414,7 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 779.09,
+        "gammaFlip": 779.08,
         "gexTotal": -8.42,
         "indice": {
           "callWall": 7826,
@@ -1451,7 +1451,7 @@
         "vencimientoCercano": "2026-10-23"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cierra la sesión en 7.658,24 puntos (-1,27 % frente al cierre previo, 7.757,17), su peor cierre desde julio, lastrado por la escalada en el estrecho de Ormuz —Irán afirma haber atacado siete petroleros en una sola noche, máximo histórico según NBC News— y el temor a la sobreinversión en IA tras los resultados de Meta y Tesla. La gamma sigue negativa (-11,36 mil M$ por 1 %), con el precio por debajo del giro de gamma en 7.796 y del call wall en 7.726, apoyado por el put wall en 7.625; el 0DTE de hoy deja el max pain en 7.726. Pesa sobre todo la dureza de Pezeshkian, que exige levantar las sanciones antes de negociar, mientras la Fed sube levemente la probabilidad de una subida en diciembre al 75,5 % (antes 75,0 %); el dato del calendario que más pesa hoy son las peticiones de subsidio en mínimo de 3 meses (194.000 frente a 200.000 previstos), que firma algo el dólar y resta soporte a las acciones. Sesgo: bajista.",
+      "lectura": "El S&P 500 cotiza en torno a 7.662 tras cerrar ayer en 7.658,24 (-1,27 %), con los futuros ES casi planos esta madrugada. La gamma sigue negativa (-8,42 mil M$ por 1 %), con el precio por debajo del giro de gamma en 7.817 y del call wall en 7.826, apoyado por el put wall en 7.625; el 0DTE de hoy deja el max pain en 7.726. Pesa la escalada en Ormuz (Pezeshkian exige levantar sanciones antes de negociar) y el temor a la sobreinversión en IA, aunque Bessent resta algo de temor sistémico; el dato del calendario que más pesó ayer fueron las peticiones de subsidio en mínimo de 3 meses (194.000), y hoy el catalizador son los PMI de la eurozona y de EE. UU. junto con la confianza final de Michigan. Sesgo: bajista.",
       "levels": {
         "callWall": 7826,
         "gammaFlip": 7817,
@@ -1462,13 +1462,13 @@
       "netGex": "negativa (-8,42 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-21)",
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -58,
+      "score": -53,
       "sesgo": "bajista",
-      "spot": 7658
+      "spot": 7662
     },
     {
-      "changeNote": "en vivo, cierre, 21:50 UTC",
-      "changePct": -3.06,
+      "changeNote": "futuros NQ, pre-londres, 06:58 UTC",
+      "changePct": -2.63,
       "claves": [
         "Call wall en 29.607 (QQQ 720,0): resistencia por encima del precio actual.",
         "Régimen de gamma negativa en -5,36 mil M$ por 1 %.",
@@ -1686,7 +1686,7 @@
         "vencimientoCercano": "2026-10-23"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cierra en torno a 28.949,70 puntos (-3,06 % frente al cierre previo, 29.822,52), su peor sesión desde junio, con Meta hundiéndose en torno a un 7 % tras disparar su gasto en IA y el desplome de los semiconductores (CoreWeave -10 %). La gamma sigue negativa (-7,41 mil M$ por 1 %), con el precio muy por debajo del giro de gamma en 30.336 y del call wall en 29.607; el 0DTE de hoy fija el max pain en 29.607. Pesa la dureza de Pezeshkian sobre Ormuz y la escalada del petróleo, junto con el leve repunte de la probabilidad de una Fed más dura en diciembre (75,5 %); el dato del calendario que más pesa hoy son las peticiones de subsidio en mínimo de 3 meses (194.000 frente a 200.000), que firma algo el dólar. Sesgo: bajista.",
+      "lectura": "El Nasdaq 100 cotiza en torno a 29.037 tras su peor sesión desde junio (-3,06 % a 28.949,70), con los futuros NQ repuntando ligeramente esta madrugada. La gamma sigue negativa (-5,36 mil M$ por 1 %) y sin giro de gamma claro; el 0DTE de hoy fija el max pain en 29.853. Pesa el desplome de Meta (-7 %) y de los semiconductores por el temor a la sobreinversión en IA, la escalada en Ormuz y el petróleo en máximos de 5 meses, aunque Bessent ha restado algo de temor sistémico sobre el gasto en IA; el catalizador de hoy son los PMI de EE. UU. y la eurozona antes del FOMC del 28 de octubre. Sesgo: bajista.",
       "levels": {
         "callWall": 29607,
         "gammaFlip": null,
@@ -1697,13 +1697,13 @@
       "netGex": "negativa (-5,36 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-21)",
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -68,
+      "score": -63,
       "sesgo": "bajista",
-      "spot": 28950
+      "spot": 29037
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-23T05:59:22Z",
+    "actualizado": "2026-10-23T07:00:22Z",
     "balance": 6753.6,
     "d4": 31.3,
     "dBalance": -2,
@@ -1715,7 +1715,7 @@
     "fecha4": "2026-09-23",
     "fechaPrev": "2026-10-14",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "Semana del 14 al 21 de octubre: salieron unos 70.600 millones $ netos. La Fed, que publicó su balance semanal esta misma tarde (22 de octubre), redujo su balance en 2.000 millones $ (retira liquidez) y la cuenta del Tesoro subió 68.600 millones $ (también retira), mientras el repo inverso no cambió. En las últimas 4 semanas (del 23 de septiembre al 21 de octubre) la liquidez neta sube unos 31.300 millones $: tendencia aún positiva pese al bajón semanal, sin tensión en el repo permanente (1 millón $) ni en el repo inverso (351 millones $, ambos del 22 de octubre).",
+    "lectura": "Semana del 14 al 21 de octubre: salieron unos 70.600 millones $ netos. La Fed redujo su balance en 2.000 millones $ (retira liquidez) y la cuenta del Tesoro subió 68.600 millones $ (también retira), mientras el repo inverso no cambió. En las últimas 4 semanas (del 23 de septiembre al 21 de octubre) la liquidez neta sube unos 31.300 millones $: tendencia aún positiva pese al bajón semanal, sin tensión en el repo permanente (1 millón $) ni en el repo inverso (351 millones $, ambos del 22 de octubre).",
     "neta": 5801.4,
     "repo": 0.001,
     "repoFecha": "2026-10-22",
@@ -1836,6 +1836,41 @@
     "tga": 952
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "neutral",
+        "SPX": "bajista"
+      },
+      "fuente": "Benzinga",
+      "impacto": "medio",
+      "resumen": "Los futuros del S&P 500 caen un 0,14 % y los del Nasdaq 100 un 0,03 % antes de la apertura, tras el fuerte desplome tecnológico de ayer.",
+      "titular": "Los futuros de EE. UU. abren a la baja: S&P 500 -0,14 % y Nasdaq 100 -0,03 % antes del PMI",
+      "ts": "2026-10-23T07:10:00Z",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62551350/stock-market-will-sp-500-open-up-or-down-today-64"
+    },
+    {
+      "activos": {
+        "XAU": "bajista"
+      },
+      "fuente": "FX Leaders",
+      "impacto": "alto",
+      "resumen": "El oro cae hasta unos 4.021 $/oz en la sesión asiática, camino de su peor semana desde junio (-3,5 %), al revivirse el temor a una subida de la Fed por el repunte del petróleo.",
+      "titular": "El oro testea los 4.000 $ mientras la subida del petróleo revive el temor a una Fed más dura",
+      "ts": "2026-10-23T07:00:00Z",
+      "url": "https://www.fxleaders.com/news/2026/10/23/gold-price-forecast-xau-usd-tests-4000-as-oil-surge-revives-fed-hike-fears/"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "Tickmill",
+      "impacto": "medio",
+      "resumen": "Los principales índices de Asia-Pacífico bajan de nuevo este viernes tras el desplome tecnológico en Wall Street, camino de su cuarta semana consecutiva en rojo, la peor racha en 6 meses.",
+      "titular": "Las bolsas asiáticas encaran su cuarta semana seguida en rojo, la peor racha en 6 meses",
+      "ts": "2026-10-23T06:00:00Z",
+      "url": "https://www.tickmill.com/blog/daily-market-outlook-october-23-2026"
+    },
     {
       "activos": {
         "BTC": "bajista",
@@ -2023,11 +2058,11 @@
         "valor": "29.853"
       }
     ],
-    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca del vencimiento de hoy, 23 de octubre (último cálculo: 05:59 UTC), por open interest y sin dato de gamma. El put/call de SPX es 1,35 y el de NDX 1,77; el max pain 0DTE es 7.726 en SPX y 29.853 en NDX, con el rango 7.475-7.926 en SPX y 29.195-30.223 en NDX como referencia técnica para la sesión de hoy."
+    "lectura": "Niveles 0DTE calculados por NanoFx con los contratos de Alpaca del vencimiento de hoy, 23 de octubre (último cálculo: 06:30 UTC), por open interest y sin dato de gamma. El put/call de SPX es 1,35 y el de NDX 1,77; el max pain 0DTE es 7.726 en SPX y 29.853 en NDX, con el rango 7.475-7.926 en SPX y 29.195-30.223 en NDX como referencia técnica para la sesión de hoy."
   },
   "politica": {
-    "actualizado": "2026-10-22T21:50:00Z",
-    "ajuste": -12,
+    "actualizado": "2026-10-23T06:58:00Z",
+    "ajuste": -11,
     "declaraciones": [
       {
         "dicho": "Dice que dañó siete petroleros en una sola noche en el estrecho de Ormuz.",
@@ -2036,6 +2071,14 @@
         "quien": "Guardia Revolucionaria de Irán (IRGC)",
         "ts": "2026-10-22T04:00:00Z",
         "url": "https://thehill.com/policy/defense/6164731-iran-navy-hits-oil-tankers/"
+      },
+      {
+        "dicho": "Descarta un problema sistémico en el boom de inversión en IA.",
+        "efecto": "alcista",
+        "fuente": "Seeking Alpha",
+        "quien": "Scott Bessent",
+        "ts": "2026-10-21T20:00:00Z",
+        "url": "https://seekingalpha.com/news/4655465-there-is-no-systematic-problem-with-the-ai-boom-says-treasury-secretary-scott-bessent"
       },
       {
         "dicho": "Exige levantar sanciones de EE. UU. antes de iniciar negociaciones.",
@@ -2054,14 +2097,6 @@
         "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262223737-us-premarket-oil-falls-trump-eases-russia-sanctions-intel-mu-sndk-memory-stocks-rise-tradingkey"
       },
       {
-        "dicho": "Dice que los precios bajarán al terminar la guerra con Irán: \"llegaremos al otro lado\".",
-        "efecto": "alcista",
-        "fuente": "NBC News (Meet the Press)",
-        "quien": "Scott Bessent",
-        "ts": "2026-10-18T13:00:00Z",
-        "url": "https://www.nbcnews.com/meet-the-press/video/scott-bessent-says-prices-will-come-down-after-iran-war-we-will-get-to-the-other-side-271778885748"
-      },
-      {
         "dicho": "Dice que la estabilidad de precios es la prioridad y evita dar señales sobre los tipos.",
         "efecto": "neutral",
         "fuente": "PBS NewsHour / AP",
@@ -2070,8 +2105,8 @@
         "url": "https://www.pbs.org/newshour/economy/fed-chair-warsh-says-price-stability-is-key-but-shies-away-from-signals-about-rates"
       }
     ],
-    "efecto": "mixto",
-    "lectura": "La escalada en el estrecho de Ormuz sigue intensificándose: Irán afirma haber atacado siete petroleros en una sola noche, un máximo histórico según NBC News, con apenas respuesta militar de EE. UU., mientras el Brent se mantiene por encima de los 111 $. Pezeshkian mantiene sus condiciones para negociar (levantar sanciones antes) y Trump sigue aliviando las sanciones al petróleo ruso para añadir oferta; Bessent repite que los precios bajarán cuando acabe la guerra. Kevin Warsh sigue sin dar pistas claras sobre el FOMC del 28 de octubre, y el motor de datos sube levemente la probabilidad de una subida en diciembre (75,5 %, antes 75,0 %), aunque la de octubre baja al 5,5 %. Lagarde, de cara al BCE del 29 de octubre, sigue advirtiendo que el shock energético de Irán es demasiado grande para ignorar. Hoy domina además el temor a la sobreinversión en inteligencia artificial tras los resultados de Meta y Tesla, que ha hundido al Nasdaq 100 un 3,06 % en su peor sesión desde junio.",
+    "efecto": "bajista",
+    "lectura": "La escalada en el estrecho de Ormuz sigue dominando: el Brent toca máximos de cinco meses (>113 $) tras un nuevo ataque a instalaciones saudíes, mientras Pezeshkian mantiene sus condiciones para negociar (levantar sanciones antes). Trump sigue aliviando las sanciones al petróleo ruso para añadir oferta y Bessent repite que los precios bajarán cuando acabe la guerra, además de restar temor sistémico al boom de inversión en IA tras el desplome de Meta. Kevin Warsh sigue sin dar pistas claras sobre el FOMC del 28 de octubre, y el motor de datos sube levemente la probabilidad de una subida ese día (6,5 %, antes 5,5 %) aunque la baja algo para diciembre (76,0 %, antes 77,5 %). Lagarde, de cara al BCE del 29 de octubre, sigue advirtiendo que el shock energético de Irán es demasiado grande para ignorar.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -2084,7 +2119,7 @@
       {
         "cargo": "Presidente de la Reserva Federal",
         "efecto": "neutral",
-        "postura": "Dice que la estabilidad de precios es clave y no prejuzga el FOMC de octubre (18 oct).",
+        "postura": "Dice que la estabilidad de precios es clave y no da pistas sobre el FOMC de octubre (18 oct).",
         "quien": "Kevin Warsh",
         "ts": "2026-10-18T12:00:00Z",
         "url": "https://www.pbs.org/newshour/economy/fed-chair-warsh-says-price-stability-is-key-but-shies-away-from-signals-about-rates"
@@ -2092,15 +2127,15 @@
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
         "efecto": "alcista",
-        "postura": "Dice que los precios bajarán cuando termine la guerra con Irán: \"llegaremos al otro lado\" (18 oct).",
+        "postura": "Dice que no hay ningún problema sistémico en el actual boom de inversión en IA (21 oct).",
         "quien": "Scott Bessent",
-        "ts": "2026-10-18T13:00:00Z",
-        "url": "https://www.nbcnews.com/meet-the-press/video/scott-bessent-says-prices-will-come-down-after-iran-war-we-will-get-to-the-other-side-271778885748"
+        "ts": "2026-10-21T20:00:00Z",
+        "url": "https://seekingalpha.com/news/4655465-there-is-no-systematic-problem-with-the-ai-boom-says-treasury-secretary-scott-bessent"
       },
       {
         "cargo": "Presidente de Irán",
         "efecto": "bajista",
-        "postura": "Exige levantar sanciones de EE. UU. antes de negociar, mientras la Guardia Revolucionaria intensifica los ataques en Ormuz (20 oct).",
+        "postura": "Exige levantar las sanciones de EE. UU. antes de negociar, mientras Irán intensifica los ataques en Ormuz (20 oct).",
         "quien": "Masoud Pezeshkian",
         "ts": "2026-10-20T00:00:00Z",
         "url": "https://www.foxnews.com/live-news/iran-war-news-trump-israel-russia-october-20"
@@ -2108,67 +2143,67 @@
       {
         "cargo": "Presidenta del Banco Central Europeo",
         "efecto": "neutral",
-        "postura": "Dice que la venta de bonos ralentizará la inflación pero el shock energético de Irán es \"demasiado grande para ignorar\" (17 oct).",
+        "postura": "Dice que la venta de bonos frenará la inflación pero el shock energético de Irán es demasiado grande para ignorar (17 oct).",
         "quien": "Christine Lagarde",
         "ts": "2026-10-17T00:00:00Z",
         "url": "https://www.cnbc.com/amp/2026/10/17/ecbs-lagarde-says-bond-selloff-will-slow-inflation.html"
       }
     ]
   },
-  "resumen": "Son las 06:25 UTC (02:25 hora de Nueva York; 07:25 en Canarias) del viernes 23 de octubre de 2026, antes de la apertura europea y estadounidense. Tras el desplome de ayer en Wall Street (S&P 500 -1,27 % a 7.658,24; Nasdaq 100 -3,06 % a 28.949,70, su peor sesión desde junio), la sesión asiática amplía la tensión: el Brent supera los 113 $ por barril, máximo de cinco meses, tras un nuevo ataque a instalaciones energéticas en Arabia Saudí, mientras el oro cae a mínimos de más de dos meses (en torno a 4.041 $/oz) por la fortaleza del dólar y bitcoin se estabiliza cerca de 81.700 $ tras testear el soporte de 80.000 $ durante la noche. El motor de datos sube levemente la probabilidad de que la Fed suba tipos el 28 de octubre (6,5 %, antes 5,5 %) y también la de diciembre (77,5 %, antes 75,5 %). La gamma sigue negativa en ambos índices (giro de gamma del S&P 500 en 7.817; el del Nasdaq 100 sin dato claro). Hoy se publican los PMI preliminares de la eurozona (08:00 UTC) y los de EE. UU. junto con la confianza de Michigan (13:45-14:00 UTC), antes del FOMC del 28 de octubre.",
+  "resumen": "Son las 07:18 UTC (03:18 hora de Nueva York) del viernes 23 de octubre de 2026, antes de la apertura europea. Wall Street cerró ayer su peor sesión en meses (S&P 500 -1,27 % a 7.658,24; Nasdaq 100 -3,06 % a 28.949,70) por la escalada en el estrecho de Ormuz y el temor a la sobreinversión en IA tras los resultados de Meta y Tesla. En la madrugada asiática el petróleo ha vuelto a subir tras un ataque con drones a la instalación saudí de Shaybah, y el oro ha profundizado su caída hasta testear los 4.000 $/oz (-3,5 % en la semana, su peor semana desde junio) al revivirse el temor a una subida de la Fed. Las bolsas asiáticas encaran su cuarta semana consecutiva en rojo, la peor racha en 6 meses. Los futuros de EE. UU. cotizan ligeramente a la baja (S&P 500 -0,14 %, Nasdaq 100 -0,03 %) antes de los PMI preliminares de la eurozona (08:00 UTC) y los PMI/confianza de Michigan de EE. UU. (13:45-14:00 UTC), con el FOMC del 28 de octubre y el PCE del 29 como próximos catalizadores. La gamma sigue negativa en ambos índices.",
   "semana": {
     "activos": [
       {
-        "cambio": "Baja de -3 a -36: la liquidez semanal pasa a salida neta (-70.600 millones $) y la gamma sigue negativa, mientras el bono a 10 años cae por debajo del 5 % en su mayor caída desde agosto de 2025 por la huida hacia la seguridad, y Wall Street firma su peor sesión desde junio por la escalada en Ormuz y el temor a la sobreinversión en IA.",
-        "expectativa": "El PMI de servicios de EE. UU. y la confianza de Michigan de mañana viernes son el próximo catalizador antes del FOMC del 28 de octubre y el PCE del 29; las previsiones de 58,0 y 46,3 respectivamente dejan poco margen de sorpresa.",
+        "cambio": "Baja de -3 a -28 en la semana, aunque mejora algo respecto al -36 de ayer: el desplome del jueves (gamma negativa, Ormuz, temor a sobreinversión en IA) sigue pesando, pero los futuros abren casi planos y Bessent resta algo de temor sistémico sobre la IA.",
+        "expectativa": "El PMI de servicios de EE. UU. y la confianza final de Michigan de hoy son el próximo catalizador antes del FOMC del 28 de octubre y el PCE del 29; las previsiones de 58,0 y 46,3 respectivamente dejan poco margen de sorpresa.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana deja un balance algo menos bajista para el dólar (-32, con un dólar esperado en -41 si se cumplen las previsiones), con un peso real de solo el 35 % porque faltan las grandes referencias de inflación y empleo hasta la semana que viene; la única sorpresa confirmada, las peticiones de subsidio en mínimos de 3 meses (194.000 frente a 200.000 previstos), favorece algo más al dólar que a las acciones. Pesan mucho más la Fed, que sube levemente la probabilidad de un alza en diciembre al 75,5 %; la liquidez, que esta semana sale en términos netos (-70.600 millones $); el posicionamiento de opciones, con gamma negativa en ambos índices; y, sobre todo, la escalada en el estrecho de Ormuz —Irán afirma haber atacado siete petroleros en una sola noche, un máximo histórico— junto al temor a la sobreinversión en IA tras los resultados de Meta y Tesla, con Pezeshkian endureciendo además sus condiciones para negociar.",
-        "score": -36,
+        "narrativa": "El calendario de esta semana deja un balance bajista para el dólar algo más marcado tras confirmarse el fallo del ZEW alemán (28,1 frente a 30 previsto), con un peso real de solo el 35 % porque faltan las grandes referencias hasta la semana que viene. Pesan mucho más la Fed, con la probabilidad de octubre repuntando ligeramente aunque la de diciembre se modera; la liquidez, que esta semana sale en términos netos (-70.600 millones $); la gamma negativa en ambos índices; y la escalada en el estrecho de Ormuz, con el Brent en máximos de 5 meses, aunque Bessent resta algo de temor sistémico sobre la IA.",
+        "score": -28,
         "scoreInicial": -3,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Baja de -16 a -46: el desplome de Meta (-7 %) y de los semiconductores (CoreWeave -10 %) tras disparar el gasto en IA, unido a la gamma negativa y la escalada en Ormuz, provocan la peor sesión del índice desde junio.",
-        "expectativa": "El temor a la sobreinversión en IA sigue siendo el riesgo dominante; el PMI de servicios de EE. UU. de mañana es el próximo catalizador antes del FOMC del 28 de octubre.",
+        "cambio": "Baja de -16 a -34 en la semana, mejorando algo respecto al -46 de ayer: Bessent resta temor sistémico sobre la IA y los futuros NQ repuntan ligeramente esta madrugada, aunque la gamma sigue muy negativa.",
+        "expectativa": "El temor a la sobreinversión en IA sigue siendo el riesgo dominante; el PMI de servicios de EE. UU. de hoy es el próximo catalizador antes del FOMC del 28 de octubre.",
         "id": "NQ",
-        "narrativa": "El calendario también deja un balance algo menos bajista para el dólar (-32/-41), lo que favorece algo a la tecnología, pero el Nasdaq sigue siendo el índice más golpeado: el hundimiento de Meta (en torno al -7 %) tras disparar su gasto en IA, el derrumbe de los semiconductores (CoreWeave -10 %) y la escalada en Ormuz dominan por completo sobre el balance del calendario. La Fed, con la probabilidad de diciembre subiendo a 75,5 %, y la gamma negativa en el índice (-7,41 mil M$ por 1 %) añaden presión adicional.",
-        "score": -46,
+        "narrativa": "El calendario también deja un balance bajista para el dólar, lo que en teoría favorece algo a la tecnología, pero el Nasdaq sigue siendo el índice más golpeado: el hundimiento de Meta (en torno al -7 %) tras disparar su gasto en IA, el derrumbe de los semiconductores y la escalada en Ormuz dominan por completo. La Fed, con la gamma negativa en el índice (-5,36 mil M$ por 1 %) y sin giro de gamma claro, añade presión adicional, aunque Bessent ha restado algo de temor sistémico sobre el boom de inversión en IA.",
+        "score": -34,
         "scoreInicial": -16,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Baja ligeramente de 38 a 33: el oro cede hacia 4.075-4.100 $/oz al firmarse algo el dólar tras las peticiones de subsidio mejores de lo esperado, aunque la caída del bono a 10 años por debajo del 5 % y la escalada en Ormuz siguen dando soporte de refugio.",
-        "expectativa": "La demanda de refugio por la escalada geopolítica sostiene al oro a corto plazo, aunque una Fed todavía con riesgo de subida en diciembre limita el alcance; vigilar el PCE del 29 de octubre y el FOMC del 28.",
+        "cambio": "Baja de 38 a 21 en la semana, y también respecto al 33 de ayer: el dólar se firma en la sesión asiática y el oro cae a mínimos de más de dos meses pese a la demanda de refugio por Ormuz.",
+        "expectativa": "La demanda de refugio por la escalada geopolítica sostiene al oro a medio plazo, aunque la fortaleza puntual del dólar pesa a corto plazo; vigilar el PCE del 29 de octubre y el FOMC del 28.",
         "id": "XAU",
-        "narrativa": "El calendario sigue a favor del oro por el dólar débil esperado (-32/-41), pero las peticiones de subsidio mejores de lo esperado (194.000) firman algo el dólar hoy y, junto con el repunte de la probabilidad de una Fed más dura en diciembre (75,5 %), frenan el avance del oro, que cede hacia 4.075-4.100 $/oz pese a la demanda de refugio por la escalada en Ormuz y el desplome del bono a 10 años por debajo del 5 %.",
-        "score": 33,
+        "narrativa": "El calendario sigue a favor del oro por el dólar débil esperado, pero la fortaleza puntual del dólar en la sesión asiática (demanda de refugio por Ormuz, pero también repricing de la Fed) ha empujado al oro a mínimos de más de dos meses (~4.025 $/oz). La demanda de refugio por la escalada geopolítica y la caída del bono a 10 años por debajo del 5 % siguen dando soporte de fondo, aunque una Fed todavía con riesgo de subida en octubre limita el alcance a corto plazo.",
+        "score": 21,
         "scoreInicial": 38,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Baja de -9 a -24: el desplome tecnológico y la escalada en Ormuz siguen arrastrando a bitcoin a lo largo de la semana.",
-        "expectativa": "La correlación con el Nasdaq y el temor a la sobreinversión en IA son la variable clave a corto plazo; si el sentimiento tecnológico se enfría más, bitcoin podría seguir cediendo hacia el soporte de 80.000 $.",
+        "cambio": "Baja de -9 a -17 en la semana, con una ligera mejora respecto al -24 de ayer al estabilizarse cerca de 81.700 $ tras testear el soporte de 80.000 $.",
+        "expectativa": "La correlación con el Nasdaq y el temor a la sobreinversión en IA son la variable clave a corto plazo; si el sentimiento tecnológico mejora tras el PMI de hoy, bitcoin podría consolidar por encima de 80.000 $.",
         "id": "BTC",
-        "narrativa": "El calendario apoya moderadamente a bitcoin por el dólar débil esperado (peso del 80 % aplicado a cripto), pero la correlación con el Nasdaq sigue pesando con fuerza: el desplome tecnológico por el temor a la sobreinversión en IA y la escalada en Ormuz arrastran a bitcoin, que ronda los 81.000-83.000 $.",
-        "score": -24,
+        "narrativa": "El calendario apoya moderadamente a bitcoin por el dólar débil esperado, pero la correlación con el Nasdaq sigue pesando: el desplome tecnológico por el temor a la sobreinversión en IA y la escalada en Ormuz arrastraron a bitcoin hasta testear el soporte de 80.000 $, aunque esta madrugada se estabiliza cerca de 81.700 $.",
+        "score": -17,
         "scoreInicial": -9,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Sube de 53 a 54: la escalada en el estrecho de Ormuz se intensifica con nuevos ataques a petroleros, manteniendo el Brent por encima de 111 $ pese al alivio de sanciones al petróleo ruso de Trump.",
-        "expectativa": "La persistencia e intensificación de la tensión en Ormuz mantienen firme al petróleo a corto plazo; vigilar una posible respuesta de EE. UU./Israel o una tregua real, y el efecto de la relajación de sanciones a Rusia sobre la oferta.",
+        "cambio": "Sube de 53 a 61 en la semana, y también respecto al 54 de ayer: el nuevo ataque a infraestructura saudí lleva al Brent a máximos de 5 meses.",
+        "expectativa": "La persistencia e intensificación de la tensión en Ormuz y ahora en Arabia Saudí mantienen firme al petróleo a corto plazo; vigilar una posible respuesta de EE. UU./Israel o una tregua real.",
         "id": "WTI",
-        "narrativa": "El calendario apoya solo moderadamente al petróleo por el dólar débil esperado (peso del 50 % aplicado), pero el factor dominante sigue siendo la fuerte escalada en el estrecho de Ormuz —Irán afirma haber atacado siete petroleros en una sola noche, un máximo histórico—, que mantiene al WTI firme en torno a 98 $ y al Brent por encima de 111 $, pese al alivio de sanciones al petróleo ruso de Trump.",
-        "score": 54,
+        "narrativa": "El calendario apoya solo moderadamente al petróleo por el dólar débil esperado, pero el factor dominante sigue siendo la fuerte escalada en el estrecho de Ormuz y, esta madrugada, un nuevo ataque a instalaciones saudíes que ha llevado al Brent a máximos de cinco meses por encima de 113 $, pese al alivio de sanciones al petróleo ruso de Trump.",
+        "score": 61,
         "scoreInicial": 53,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Baja de -2 a -4: el dólar se firma algo tras las peticiones de subsidio mejores de lo esperado y el leve repunte de la probabilidad de una Fed más dura en diciembre, compensando el riesgo fiscal francés.",
-        "expectativa": "El FOMC del 28 de octubre y la reunión del BCE del 29 añaden volatilidad para el cruce la semana que viene; a corto plazo domina un dólar algo más firme.",
+        "cambio": "Baja de -2 a -8 en la semana: el fallo del ZEW alemán y la demanda de refugio por el dólar compensan el balance casi neutral del calendario.",
+        "expectativa": "Los PMI de la eurozona de hoy (08:00 UTC) son el próximo catalizador; el FOMC del 28 de octubre y el BCE del 29 añaden volatilidad para el cruce la semana que viene.",
         "id": "EURUSD",
-        "narrativa": "El calendario deja un resultado casi neutral en el cruce (dólar -32/-41 frente a euro -33), con un leve sesgo a favor del dólar hoy. El dólar se firma algo por las peticiones de subsidio mejores de lo esperado y el repunte de la probabilidad de una Fed más dura en diciembre (75,5 %), mientras persisten los riesgos fiscales franceses y Lagarde insiste en que el shock energético de Irán es demasiado grande para ignorar de cara al BCE del 29 de octubre.",
-        "score": -4,
+        "narrativa": "El calendario se vuelve algo más negativo para el euro tras confirmarse el fallo del ZEW alemán (28,1 frente a 30 previsto), mientras el dólar se mantiene firme en la sesión asiática por la demanda de refugio ligada a Ormuz. Persisten los riesgos fiscales franceses y Lagarde insiste en que el shock energético de Irán es demasiado grande para ignorar de cara al BCE del 29 de octubre.",
+        "score": -8,
         "scoreInicial": -2,
         "sesgo": "neutral"
       }
@@ -2176,16 +2211,16 @@
     "calendarioSesgo": {
       "activos": {
         "BTC": 26,
-        "EURUSD": 12,
+        "EURUSD": 6,
         "NQ": 32,
         "SPX": 32,
         "WTI": 16,
         "XAU": 32
       },
-      "actualizado": "2026-10-22T21:50:00Z",
+      "actualizado": "2026-10-23T06:58:00Z",
       "dolar": -32,
       "dolarEsperado": -41,
-      "euro": -33
+      "euro": -56
     },
     "escenarios": [
       {
@@ -2230,7 +2265,7 @@
         ],
         "estado": "pendiente",
         "evento": "PMI de servicios preliminar S&P Global (octubre)",
-        "expectativa": "Es el indicador de actividad económica más completo de la semana; tras el frenazo del Philly Fed y el desplome del NAHB a 29 (mínimo desde 2012), el mercado vigila si el sector servicios también se enfría.",
+        "expectativa": "Es el indicador de actividad económica más completo de la semana; tras el frenazo del Philly Fed y el desplome del NAHB a 29, el mercado vigila si el sector servicios también se enfría.",
         "fecha": "2026-10-23",
         "horaUtc": "13:45",
         "impacto": "alto",
@@ -2279,7 +2314,7 @@
         ],
         "estado": "pendiente",
         "evento": "Confianza del consumidor U. Michigan (final, octubre)",
-        "expectativa": "Es el dato final tras el peor preliminar desde mayo; el mercado vigila sobre todo las expectativas de inflación a 1 y 5 años (previsión Investing.com: 4,7 % y 3,5 %).",
+        "expectativa": "Es el dato final tras el peor preliminar desde mayo; el mercado vigila sobre todo las expectativas de inflación a 1 y 5 años.",
         "fecha": "2026-10-23",
         "horaUtc": "14:00",
         "impacto": "alto",
@@ -2323,7 +2358,7 @@
               "WTI": "bajista",
               "XAU": "neutral"
             },
-            "nota": "Eurozona débil: pesa sobre el euro y reaviva la cautela sobre el crecimiento europeo."
+            "nota": "Eurozona débil: pesa sobre el euro y reaviva la cautela sobre el crecimiento europeo (coherente con el fallo del ZEW)."
           }
         ],
         "estado": "pendiente",
@@ -2377,7 +2412,7 @@
         ],
         "estado": "pendiente",
         "evento": "PMI compuesto preliminar (octubre)",
-        "expectativa": "Test clave: si septiembre fue un repunte puntual (máximo de 41 meses) o si el crecimiento de la eurozona se consolida en octubre.",
+        "expectativa": "Test clave: si septiembre fue un repunte puntual (máximo de 41 meses) o si el crecimiento de la eurozona se consolida en octubre, tras el fallo del ZEW de esta semana.",
         "fecha": "2026-10-23",
         "horaUtc": "08:00",
         "impacto": "alto",
@@ -2390,5 +2425,5 @@
     "rango": "19 a 23 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-23T06:25:00.000Z"
+  "updatedAt": "2026-10-23T07:30:00.000Z"
 }
