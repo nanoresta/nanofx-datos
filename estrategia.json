@@ -1,11 +1,11 @@
 {
- "conectada": true,
+ "conectada": false,
  "pasos": [
   {
    "id": "alerta",
    "nombre": "Alerta que envía las órdenes",
-   "ok": true,
-   "detalle": "Activa en los servidores de TradingView, envía las órdenes a PickMyTrade (caduca 2026-11-19)"
+   "ok": false,
+   "detalle": "Falta crear la alerta con webhook"
   },
   {
    "id": "puente",
@@ -17,13 +17,12 @@
  ],
  "grafico": {
   "simbolo": "BATS:ADBE",
-  "temporalidad": "1W",
-  "ultimaSeñal": "2026-10-19T14:14:53Z"
+  "temporalidad": "1W"
  },
  "cuenta": "LucidFlex 50k (evaluación)",
  "riesgo": 500,
  "modo": "auto",
- "comprobado": "2026-10-24T02:16:59Z",
- "actualizado": "2026-10-24T02:16:59Z",
- "huella": "6e58fcbf6c1db4f29576e58b59806f01"
+ "comprobado": "2026-10-24T02:25:41Z",
+ "actualizado": "2026-10-24T02:25:41Z",
+ "huella": "32d86c1f22244c9b4f78cff69ee52a33"
 }
