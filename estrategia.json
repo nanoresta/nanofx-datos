@@ -1,11 +1,11 @@
 {
- "conectada": true,
+ "conectada": false,
  "pasos": [
   {
    "id": "alerta",
    "nombre": "Alerta que envía las órdenes",
-   "ok": true,
-   "detalle": "Activa en los servidores de TradingView, envía las órdenes a PickMyTrade (caduca 2026-11-19)"
+   "ok": false,
+   "detalle": "Falta crear la alerta con webhook"
   },
   {
    "id": "puente",
@@ -17,13 +17,12 @@
  ],
  "grafico": {
   "simbolo": "BLACKBULL:NAS100",
-  "temporalidad": "5",
-  "ultimaSeñal": "2026-10-19T14:14:53Z"
+  "temporalidad": "5"
  },
  "cuenta": "LucidFlex 50k (evaluación)",
  "riesgo": 500,
  "modo": "auto",
- "comprobado": "2026-10-27T12:50:25Z",
- "actualizado": "2026-10-27T12:50:25Z",
- "huella": "fb56d09383f42fca4b50748c49c52b11"
+ "comprobado": "2026-10-27T13:06:06Z",
+ "actualizado": "2026-10-27T13:06:06Z",
+ "huella": "ba93b85902e31ac70cfd092761b55ae5"
 }
