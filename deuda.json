@@ -1,1 +1,687 @@
-{"actualizado": "2026-10-23T06:58:00Z", "alarmas": [{"estado": "amarillo", "nombre": "Bono EE. UU. 30 años", "nota": "A 21 pb del umbral de atención (5,5 %): +1 pb en el día y -19 pb en un mes (Trading Economics, 23 oct) tras la huida a la seguridad de ayer.", "valor": "5,29 % (23 oct)"}, {"estado": "amarillo", "nombre": "Subasta 20 años (21 oct)", "nota": "Resultado en línea: buena cobertura y pocos dealers (10,3 %), pero cola leve y menos demanda extranjera (indirectos 58,2 % frente a media del 65,2 %).", "valor": "5,469 %; cola 0,9 pb; cobertura 2,73 (media 2,62); indirectos 58,2 %"}, {"estado": "rojo", "nombre": "Deuda de IA (hyperscalers y CoreWeave)", "nota": "Meta (22 oct) pasa a flujo de caja libre negativo en el 3T, sube el suelo de su capex 2026 a 135.000-145.000 M$ y sus compromisos a ~825.000 M$; su CDS a 5 años marca récord y Goldman prevé 420.000 M$ de emisión de hyperscalers en 2027.", "valor": "CDS de Meta 114,8 pb (récord); FCF Meta -2.120 M$"}, {"estado": "amarillo", "nombre": "Morosidad hogares (90+ días)", "nota": "2T 2026, ligeramente por encima de hace un año (Fed de Nueva York).", "valor": "Tarjetas 6,97 %; coches 3,00 %"}, {"estado": "amarillo", "nombre": "Tenencia extranjera de Treasuries", "nota": "Dalio (22 oct): 9,3 bill. $ en manos extranjeras frente a ~32 bill. de deuda negociable (+8 % en un año); Japón y China siguen vendiendo (TIC agosto).", "valor": "9,331 bill. $ (agosto)"}], "burbuja": {"indicadores": [{"estado": "rojo", "n": "Precios caros frente a su valor", "nota": "CAPE de Shiller en 41,6 (8 oct, Multpl), cerca del récord de 2000; Buffett indicator en máximo histórico (11 oct); el PER adelantado (19,0, 30 sept) está en su media de 10 años.", "valor": "CAPE 41,6; Buffett 237 %"}, {"estado": "rojo", "n": "El precio ya descuenta subidas rápidas", "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en 4,99 % (23 oct): la bolsa sigue pagando muy poco extra por su riesgo.", "valor": "Prima de riesgo ≈ 25 pb"}, {"estado": "amarillo", "n": "Muchos compradores nuevos", "nota": "Goldman prevé cuadruplicar las OPV en 2026, pero la valoración de la OPV de Anthropic baja de 2 a ~1,5 bill. $ por resistencia inversora (16 oct); los minoristas compraron 66 M$ netos de CoreWeave en la caída (Vanda).", "valor": "OPV récord previstas (160.000 M$)"}, {"estado": "amarillo", "n": "Sentimiento eufórico", "nota": "AAII (semana al 21 oct): bajistas en 45,8 %, muy por encima de su media (31,5 %); Fear & Greed en miedo extremo (18, 16 oct); BofA (oct): chips, la operación más concurrida.", "valor": "AAII 36,9 % alcistas / 45,8 % bajistas"}, {"estado": "rojo", "n": "Compras con mucho apalancamiento", "nota": "FINRA: deuda de margen en 1,48 bill. $ en septiembre, +31 % interanual, cerca del récord de 1,50 bill. de junio; Schwab con margen récord (30 sept).", "valor": "Margen 1,48 bill. $ (sept.)"}, {"estado": "rojo", "n": "Sobreinversión por miedo a quedarse fuera", "nota": "22 oct: Meta pasa a flujo de caja negativo y eleva compromisos a ~825.000 M$; la deuda mundial ligada a la IA llega a ~450.000 M$ a principios de septiembre, más del doble que en 2025 (TokenPost, 13 oct).", "valor": "Meta FCF -2.120 M$; capex 135.000-145.000 M$"}], "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesa más la sobreinversión en IA con deuda: Meta ya quema caja (-2.120 M$ en el 3T) y la deuda ligada a la IA suma ~450.000 M$ en 2026, mientras el Nasdaq 100 cayó un 3,06 % el 22 oct.", "nivel": 70, "pinchazo": [{"estado": "amarillo", "n": "Curva 2 frente a 30 años", "nota": "23 oct (Trading Economics): tras la caída de ayer ambos tramos rebotan levemente (2 años +4 pb, 30 años +1 pb); la curva sigue positiva sin empinarse con fuerza.", "valor": "+61 pb (4,68 % / 5,29 %)"}, {"estado": "rojo", "n": "Fed y tipos reales", "nota": "Kalshi (23 oct): subida el 28 oct al 6,5 % y en diciembre al 77,5 %; con el IPP al 6,3 % y el Brent sobre 113 $ los tipos reales siguen altos.", "valor": "3,75-4,00 %; 77,5 % subida en dic."}, {"estado": "amarillo", "n": "Dólar (DXY)", "nota": "23 oct (Trading Economics): el DXY sube un 0,03 % y un 0,4 % en un mes, cerca de mínimos de tres semanas; sin debilidad clara.", "valor": "101,7"}, {"estado": "amarillo", "n": "Oro", "nota": "23 oct (Trading Economics): cae un 0,1 % y un 5,9 % en un mes, cerca de mínimos de casi tres meses; no da señal de huida del dólar.", "valor": "~4.021 $/oz"}, {"estado": "amarillo", "n": "Necesidad de liquidez", "nota": "22 oct: el Nasdaq 100 cae un 3,06 % (peor sesión desde junio) por Meta, los chips y el Brent; los inversores huyen a los bonos, sin ventas forzadas aún.", "valor": "Nasdaq 100 -3,06 %; Meta -7 %"}]}, "fuentes": [{"nombre": "Trading Economics – Bono 30 años EE. UU.", "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"}, {"nombre": "Vantage Markets – Subastas 10 y 30 años (oct 2026)", "url": "https://www.vantagemarkets.com/market-news/us-treasury-auction-results-10-year-5-30-30-year-5-62-october-9-2026/"}, {"nombre": "CRFB – Déficit AF2026", "url": "https://www.crfb.org/blogs/us-ran-2-trillion-deficit-last-year-we-estimate"}, {"nombre": "Trading Economics – Bund alemán", "url": "https://tradingeconomics.com/germany/government-bond-yield"}, {"nombre": "Eurostat – Deuda pública eurozona", "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"}, {"nombre": "Trading Economics – Bono China 10 años", "url": "https://tradingeconomics.com/china/government-bond-yield"}, {"nombre": "BigGo Finance – Oro del PBOC (sept.)", "url": "https://finance.biggo.com/news/7ec1bcf4-a98b-41f3-9e92-6b875057f0db"}, {"nombre": "Trading Economics – JGB 10 años", "url": "https://tradingeconomics.com/japan/government-bond-yield"}, {"nombre": "Moscow Times – Banco de Rusia mantiene el 14 %", "url": "https://www.themoscowtimes.com/2026/09/11/russian-central-bank-holds-key-rate-at-14-a93688"}, {"nombre": "Moscow Times – Problema presupuestario ruso", "url": "https://www.themoscowtimes.com/2026/09/28/russia-has-a-budget-problem-borrowing-its-way-out-wont-be-so-simple-a93804"}, {"nombre": "Trading Economics – OFZ 10 años", "url": "https://tradingeconomics.com/russia/government-bond-yield"}, {"nombre": "Reuters vía TradingView – FNB líquido", "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N45700I:0-russia-s-national-wealth-fund-liquid-assets-slip-to-45-billion-as-of-october-1/"}, {"nombre": "MLQ – Emisión de bonos de hyperscalers", "url": "https://mlq.ai/news/hyperscaler-bond-issuance-reaches-about-220-billion-as-ai-financing-costs-rise/"}, {"nombre": "Fed de Nueva York – Deuda de hogares 2T 2026", "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811"}, {"nombre": "GuruFocus – CAPE de Shiller", "url": "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio"}, {"nombre": "FactSet – Avance resultados 3T 2026 (PER adelantado)", "url": "https://insight.factset.com/sp-500-earnings-season-preview-q3-2026"}, {"nombre": "Motley Fool – Buffett indicator y Fear & Greed (11 oct)", "url": "https://fool.com/investing/2026/10/11/warren-buffett-s-famous-13-word-rule-has-never-mattered-more-with-stocks-this-expensive"}, {"nombre": "AAII – Encuesta de sentimiento", "url": "https://www.aaii.com/sentimentsurvey"}, {"nombre": "Atrani Capital – Semana 41 (5-9 oct)", "url": "https://atranicapital.substack.com/p/week-41-market-update-for-october-2d6"}, {"nombre": "FactSet – Hyperscalers y financiación externa", "url": "https://insight.factset.com/hyperscalers-tap-external-financing-as-ai-capex-outruns-cash-flow"}, {"nombre": "Crypto Briefing – Dalio en Bloomberg (6 oct)", "url": "https://cryptobriefing.com/ray-dalio-ai-bubble-rising-rates/"}, {"nombre": "Fed – H.15 tipos diarios", "url": "https://www.federalreserve.gov/releases/h15/"}, {"nombre": "DealStreetAsia – Goldman: OPV récord 2026", "url": "https://cdn.dealstreetasia.com/stories/us-ipo-proceeds-goldman-472346"}, {"nombre": "Trading Economics – USD/JPY", "url": "https://tradingeconomics.com/japan/currency"}, {"nombre": "Trading Economics – USD/CNY", "url": "https://tradingeconomics.com/china/currency"}, {"nombre": "MOF Japón – Subasta JGB 30 años (8 oct)", "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20261008.htm"}, {"nombre": "IFR – Bono Meta-BlackRock (Sopaipilla)", "url": "https://www.ifre.com/bonds/2463746/bond-market-begins-to-question-ai-boom-as-beignet-sequel-falls-flat"}, {"nombre": "Trading Economics – Oro", "url": "https://tradingeconomics.com/commodity/gold"}, {"nombre": "investingLive – Encuesta BofA octubre 2026", "url": "https://investinglive.com/news/long-global-semiconductors-remains-the-most-crowded-trade-followed-by-short-us-treasuries-according-to-bank-of-america/"}, {"nombre": "Trading Economics – Bono 10 años EE. UU.", "url": "https://tradingeconomics.com/united-states/government-bond-yield"}, {"nombre": "Trading Economics – Bono 2 años EE. UU.", "url": "https://tradingeconomics.com/united-states/2-year-note-yield"}, {"nombre": "Trading Economics – DXY", "url": "https://tradingeconomics.com/united-states/currency"}, {"nombre": "BigGo Finance – Previsiones de emisión de deuda tecnológica (JPMorgan, Goldman)", "url": "https://finance.biggo.com/news/51d5cb7d-29eb-448c-8b18-50d88f6129c3"}, {"nombre": "Kitco – Oro", "url": "https://www.kitco.com/charts/gold"}, {"nombre": "The Trading Tools – Deuda de margen", "url": "https://www.thetrading.tools/margin-debt"}, {"nombre": "Finnovate – CAPE de Shiller (8 oct)", "url": "https://www.finnovate.in/learn/blog/shiller-cape-ratio-us-stock-market-2026"}, {"nombre": "Yahoo Finance – Bolsa 14 oct", "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-135249729.html"}, {"nombre": "Investing.com – Rendimientos tras el IPC (15 oct)", "url": "https://investing.com/news/economy-news/us-treasury-yields-slide-after-cpidriven-spike-4950530"}, {"nombre": "Irish Times/Reuters – Asia vende la IA (15 oct)", "url": "https://www.irishtimes.com/business/markets/2026/10/15/asian-stocks-sell-off-as-ai-trades-crumble/"}, {"nombre": "Quartz – Chips pierden 1 bill. $ (14 oct)", "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"}, {"nombre": "Trading Economics – JGB 30 años", "url": "https://tradingeconomics.com/japan/30-year-bond-yield"}, {"nombre": "TokenPost – Deuda IA 450.000 M$ (13 oct)", "url": "https://www.tokenpost.com/news/technology/30829"}, {"nombre": "GuruFocus – Treasuries 15 oct", "url": "https://www.gurufocus.com/news/9125559/us-treasury-yields-drop-sharply-impacting-tlt-etf-on-october-15-2026"}, {"nombre": "Investing.com – CoreWeave y la deuda de IA (14 oct)", "url": "https://www.investing.com/news/stock-market-news/coreweave-shares-sink-13-as-musks-yikes-highlights-ai-debt-concerns-4949553"}, {"nombre": "CNBC – Bonos de CoreWeave cerca del 15 %", "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html"}, {"nombre": "BLS – IPP septiembre 2026", "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"}, {"nombre": "CNBC – CDS de CoreWeave en niveles de estrés (15 oct)", "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"}, {"nombre": "24/7 Wall St – Oracle cae casi un 9 % (15 oct)", "url": "https://247wallst.com/investing/2026/10/15/oracle-fell-nearly-9-as-coreweaves-bond-scare-spread/"}, {"nombre": "StockTitan – Margen récord en Schwab (3T 2026)", "url": "https://www.stocktitan.net/articles/schwab-earnings-borrowing-against-stocks-margin-debt"}, {"nombre": "ActionForex – Warsh no da señal para octubre", "url": "https://www.actionforex.com/live-comments/657672-feds-warsh-declines-october-rate-signal-says-fed-will-no-longer-preview-decisions/"}, {"nombre": "Schwab – Mercados 16 oct", "url": "https://www.schwab.com/learn/story/stock-market-update-open"}, {"nombre": "HDFC Sky – Cierre de Wall Street y CDS de CoreWeave", "url": "https://hdfcsky.com/news/us-stock-market-close-dow-sp500-nasdaq-october-16-2026"}, {"nombre": "24/7 Wall St – CoreWeave y la deuda (16 oct)", "url": "https://247wallst.com/investing/2026/10/16/coreweave-drops-6-as-debt-worries-linger-iren-falls-4-nebius-slips/"}, {"nombre": "CNBC – Huida a los bonos (15 oct)", "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html"}, {"nombre": "Treasury Rate Watch – Rendimientos 16 oct", "url": "https://treasuryratewatch.com/daily/"}, {"nombre": "BigGo Finance – TIC agosto 2026", "url": "https://finance.biggo.com/news/12edb8aa-885c-4922-9fe3-ae104799a98a"}, {"nombre": "GuruFocus – Deuda de margen FINRA", "url": "https://www.gurufocus.com/economic_indicators/4264/finra-investor-margin-debt"}, {"nombre": "Investing.com/Reuters – CoreWeave, peor semana", "url": "https://www.investing.com/news/economy-news/coreweave-shares-bonds-headed-for-steep-weekly-losses-as-ai-borrowing-concerns-mount-4953586"}, {"nombre": "Business Recorder – JGB 19 oct", "url": "https://www.brecorder.com/news/40444905/japans-10-year-yield-falls-on-risk-aversion-debt-issuance-pledge"}, {"nombre": "Tradingpedia – Yen 19 oct", "url": "https://www.tradingpedia.com/2026/10/19/yen-trades-near-158-usd-amid-policy-and-intervention-caution/"}, {"nombre": "Izvestia – Previsión tipo Banco de Rusia", "url": "https://en.iz.ru/en/2185325/2026-10-16/economists-predicted-key-rate-would-remain-14"}, {"nombre": "Benzinga – Fear & Greed 31 (15 oct)", "url": "https://www.benzinga.com/markets/market-summary/26/10/62403453/dow-jumps-over-550-points-following-economic-data-investor-sentiment-improves-but-fear-greed-index-remains-in-fear-zone"}, {"nombre": "Investrade – Cierre 16 oct", "url": "https://investrade.com/market-review-october-16-2026/"}, {"nombre": "FXCM – Briefing macro 19 oct 2026", "url": "https://www.fxcm.com/za/insights/global-macro-and-markets-briefing-19-october-2026/"}, {"nombre": "tipInsights – Rendimientos 19 oct", "url": "https://tippinsights.com/treasury-yields-climb-ahead-of-federal-reserves-october-rate-decision/"}, {"nombre": "CNBC – Treasuries 19 oct", "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html"}, {"nombre": "Investing.com – Yuan en máximo de 4 años (20 oct)", "url": "https://uk.investing.com/news/forex-news/asian-currencies-firm-asdollar-retreats-yuan-hits-fouryear-high-4918769"}, {"nombre": "Benzinga – Fear & Greed en miedo extremo (16 oct)", "url": "https://www.benzinga.com/markets/market-summary/26/10/62431244/nasdaq-tumbles-over-2-records-weekly-loss-investor-sentiment-weakens-fear-greed-index-moves-to-extreme-fear-zone"}, {"nombre": "CNBC – Bonos de CoreWeave cerca del 15 % (19 oct)", "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html"}, {"nombre": "TraderFactor – Dólar, oro y rendimientos (20 oct)", "url": "https://traderfactor.com/dollar-near-102-gold-slips-yields-stay-elevated/"}, {"nombre": "FXStreet – Treasuries ceden por Irán (20 oct)", "url": "https://www.fxstreet.com/news/us-treasury-yields-retreat-as-iran-deal-hopes-pull-wti-lower-202610201649"}, {"nombre": "Invezz – Rendimientos y JPMorgan (20 oct)", "url": "https://invezz.com/news/2026/10/20/us-treasury-yields-ease-jpmorgan-sees-year-end-stock-gains-if-yields-remain-stable/"}, {"nombre": "Newsquawk – Subasta 20 años el 21 oct", "url": "https://www.newsquawk.com/headlines/us-treasury-to-sell-usd-13bln-of-20-year-bonds-on-oct-21st-to-settle-oct-22nd-to-sell-usd-26bln-of-5-year-tips-on-oct-22nd-to-settle-october-30th"}, {"nombre": "Defiance AIBN – Financiación de IA 2026 (20 oct)", "url": "https://www.financialcontent.com/article/gnwcq-2026-10-20-defiance-launches-aibn-the-first-us-listed-etf-dedicated-to-the-bonds-funding-the-ai-buildout"}, {"nombre": "Ideal Investisseur – Diferencial OAT-Bund (21 oct)", "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"}, {"nombre": "Helious – Subasta 20 años (21 oct)", "url": "https://helious.io/news/auc-912810UX4-2026-10-21/20-year-bond-auction-in-line"}, {"nombre": "investingLive – Subasta 20 años al 5,469 %", "url": "https://investinglive.com/news/us-treasury-sells-13-billion-of-20-year-bonds-at-a-high-yield-of-5-469/"}, {"nombre": "investingLive – Dalio: el mercado bajista de bonos tiene recorrido (22 oct)", "url": "https://investinglive.com/stocks/ray-dalio-warns-us-bond-bear-market-has-a-long-way-to-go-as-debt-supply-swamps-demand"}, {"nombre": "Daily Caller – Quién tiene la deuda de la IA (21 oct)", "url": "https://dailycaller.com/2026/10/21/wall-streets-ai-boom-faces-growing-questions-over-who-holds-the-debt"}, {"nombre": "Malay Mail/AFP – Hong Kong cae un 3 % por la tecnología (22 oct)", "url": "https://www.malaymail.com/news/money/2026/10/22/hong-kong-stocks-dive-more-than-3pc-in-tech-rout/240155"}, {"nombre": "Business Today – Meta: flujo de caja negativo (22 oct)", "url": "https://www.businesstoday.in/markets/stocks/story/meta-shares-slide-7-as-ai-spending-push-drives-capex-higher-free-cash-flow-turns-negative-563170-2026-10-22"}, {"nombre": "Shattered/Bloomberg – CDS de Meta en récord (22 oct)", "url": "https://shattered.io/meta-credit-risk-record-high-ai-spending-cds-2026/"}, {"nombre": "Investing.com – Nasdaq cae más de un 2 % por Meta (22 oct)", "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-4964498"}, {"nombre": "Trading Economics – tipo Banco de Rusia", "url": "https://tradingeconomics.com/russia/interest-rate"}], "lectura": "EE. UU. sigue siendo lo que más preocupa: deuda en manos del público de ~32,3 billones, intereses de 1,1 billones y un déficit de 2 billones. Desde anoche apenas hay cambios: el 30 años se queda en el 5,29 % y el JGB japonés a 10 años baja al 2,80 %, pero el Brent sube a 113 $ y empuja al ~80 % la probabilidad de una subida de la Fed en diciembre; el riesgo se mantiene en 50.", "regiones": [{"datos": [{"c": "23 oct; +3 pb en el día, -22 pb en 1 mes", "n": "Bono 10 años", "v": "4,99 %"}, {"c": "23 oct; +1 pb en el día, -19 pb en 1 mes", "n": "Bono 30 años", "v": "5,29 %"}, {"c": "fin AF2026 (CRFB, 1 oct)", "n": "Deuda en manos del público", "v": "32,3 bill. $ (~100 % PIB)"}, {"c": "3,4 % y 6,2 % del PIB", "n": "Intereses / déficit AF2026", "v": "1,1 bill. $ / 2,0 bill. $"}], "estado": "amarillo", "id": "US", "nombre": "EE. UU.", "nota": "El 10 años rebota levemente al 4,99 % (23 oct) tras su mayor caída diaria desde agosto de 2025; el mercado da ~80 % a una subida de la Fed en diciembre con el Brent sobre 113 $."}, {"datos": [{"c": "23 oct; sin cambios en el día, -27 pb en 1 mes", "n": "Bund 10 años", "v": "3,34 %"}, {"c": "1T 2026 (Eurostat, 21 jul)", "n": "Deuda/PIB eurozona", "v": "88,9 %"}, {"c": "2 subidas en 4 meses; el mercado descuenta otra en diciembre", "n": "Tipo depósito BCE", "v": "2,50 %"}], "estado": "amarillo", "id": "EU", "nombre": "Eurozona", "nota": "El Bund se estabiliza en el 3,34 % como refugio, pero el diferencial francés sigue en ~160 pb (21 oct, Trading Economics), máximo desde la crisis del euro; se espera que el BCE mantenga la semana que viene."}, {"datos": [{"c": "21 oct; +1 pb en el día, -4 pb en 1 mes", "n": "Bono 10 años", "v": "1,65 %"}, {"c": "agosto (TIC, 16 oct), -27.300 M$; 3.ª caída, mínimo en ~18 años", "n": "Treasuries en manos chinas", "v": "590.700 M$"}, {"c": "23 oct; sin cambios en el día, yuan +0,65 % en 1 mes; máximo desde 2022", "n": "USD/CNY", "v": "6,67"}, {"c": "23.º mes seguido; 2.410 t", "n": "Compras de oro PBOC", "v": "+23 t en sept."}], "estado": "amarillo", "id": "CN", "nombre": "China", "nota": "El yuan sigue en máximos desde 2022 y el PIB del 3T crece un 4,5 %; Hong Kong cae un 3,1 % (22 oct) por el miedo a la IA, y China sigue vendiendo Treasuries y comprando oro."}, {"datos": [{"c": "23 oct; -8 pb en el día, -28 pb en 1 mes", "n": "JGB 10 años", "v": "2,80 %"}, {"c": "23 oct; -6 pb en el día, -33 pb en 1 mes", "n": "JGB 30 años", "v": "3,84 %"}, {"c": "agosto (TIC), -35.600 M$; 4.ª caída, mínimo desde dic-2024", "n": "Treasuries en manos japonesas", "v": "1,068 bill. $"}, {"c": "23 oct; +0,1 % en el día; yen +1,2 % en 1 mes (tocó 156,37)", "n": "USD/JPY", "v": "156,9"}], "estado": "amarillo", "id": "JP", "nombre": "Japón", "nota": "El JGB a 10 años baja al 2,80 % y el de 30 años al 3,84 % (23 oct); el IPC de septiembre sube al 2,1 %, máximo de 9 meses, y se espera que el BoJ (1,25 %) mantenga la semana que viene y quizá suba en diciembre."}, {"datos": [{"c": "decisión hoy 23 oct (10:30 Moscú); consenso: mantener", "n": "Tipo oficial", "v": "14,00 %"}, {"c": "22 oct; -2 pb en el día, -3 pb en 1 mes", "n": "OFZ 10 años", "v": "16,53 %"}, {"c": "supera el plan anual de 3,8 bill.", "n": "Déficit ene-ago", "v": "5,8 bill. rublos (2,5 % PIB)"}, {"c": "1 oct (46.700 M$ en sept.)", "n": "FNB líquido", "v": "45.000 M$"}], "estado": "rojo", "id": "RU", "nombre": "Rusia", "nota": "El Banco de Rusia decide hoy y el consenso es mantener el 14 % por la inflación de los ataques a refinerías; el OFZ a 10 años sigue en 16,53 % (22 oct) y el déficit supera el plan anual."}], "riesgo": 50, "serie": [{"riesgo": 64, "ts": "2026-10-11T11:31:47Z"}, {"burbuja": 71, "riesgo": 64, "ts": "2026-10-11T11:46:58Z"}, {"burbuja": 71, "riesgo": 64, "ts": "2026-10-12T06:46:36Z"}, {"burbuja": 71, "riesgo": 63, "ts": "2026-10-13T18:46:03Z"}, {"burbuja": 71, "riesgo": 63, "ts": "2026-10-14T06:46:42Z"}, {"burbuja": 71, "riesgo": 63, "ts": "2026-10-14T18:46:02Z"}, {"burbuja": 71, "riesgo": 52, "ts": "2026-10-15T06:46:53Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-15T10:00:54Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-15T18:46:03Z"}, {"burbuja": 71, "riesgo": 50, "ts": "2026-10-16T06:46:10Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-16T18:46:31Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-19T06:47:26Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-19T18:46:02Z"}, {"burbuja": 70, "riesgo": 51, "ts": "2026-10-20T06:46:33Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-20T18:46:07Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-21T06:47:15Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-21T18:45:57Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-22T06:46:56Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-22T18:46:19Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-23T06:58:00Z"}]}
+{
+  "actualizado": "2026-10-23T06:58:00Z",
+  "alarmas": [
+    {
+      "estado": "amarillo",
+      "nombre": "Bono EE. UU. 30 años",
+      "nota": "A 21 pb del umbral de atención (5,5 %): +1 pb en el día y -19 pb en un mes (Trading Economics, 23 oct) tras la huida a la seguridad de ayer.",
+      "valor": "5,29 % (23 oct)"
+    },
+    {
+      "estado": "amarillo",
+      "nombre": "Subasta 20 años (21 oct)",
+      "nota": "Resultado en línea: buena cobertura y pocos dealers (10,3 %), pero cola leve y menos demanda extranjera (indirectos 58,2 % frente a media del 65,2 %).",
+      "valor": "5,469 %; cola 0,9 pb; cobertura 2,73 (media 2,62); indirectos 58,2 %"
+    },
+    {
+      "estado": "rojo",
+      "nombre": "Deuda de IA (hyperscalers y CoreWeave)",
+      "nota": "Meta (22 oct) pasa a flujo de caja libre negativo en el 3T, sube el suelo de su capex 2026 a 135.000-145.000 M$ y sus compromisos a ~825.000 M$; su CDS a 5 años marca récord y Goldman prevé 420.000 M$ de emisión de hyperscalers en 2027.",
+      "valor": "CDS de Meta 114,8 pb (récord); FCF Meta -2.120 M$"
+    },
+    {
+      "estado": "amarillo",
+      "nombre": "Morosidad hogares (90+ días)",
+      "nota": "2T 2026, ligeramente por encima de hace un año (Fed de Nueva York).",
+      "valor": "Tarjetas 6,97 %; coches 3,00 %"
+    },
+    {
+      "estado": "amarillo",
+      "nombre": "Tenencia extranjera de Treasuries",
+      "nota": "Dalio (22 oct): 9,3 bill. $ en manos extranjeras frente a ~32 bill. de deuda negociable (+8 % en un año); Japón y China siguen vendiendo (TIC agosto).",
+      "valor": "9,331 bill. $ (agosto)"
+    }
+  ],
+  "burbuja": {
+    "indicadores": [
+      {
+        "estado": "rojo",
+        "n": "Precios caros frente a su valor",
+        "nota": "CAPE de Shiller en 41,6 (8 oct, Multpl), cerca del récord de 2000; Buffett indicator en máximo histórico (11 oct); el PER adelantado (19,0, 30 sept) está en su media de 10 años.",
+        "valor": "CAPE 41,6; Buffett 237 %"
+      },
+      {
+        "estado": "rojo",
+        "n": "El precio ya descuenta subidas rápidas",
+        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en 4,99 % (23 oct): la bolsa sigue pagando muy poco extra por su riesgo.",
+        "valor": "Prima de riesgo ≈ 25 pb"
+      },
+      {
+        "estado": "amarillo",
+        "n": "Muchos compradores nuevos",
+        "nota": "Goldman prevé cuadruplicar las OPV en 2026, pero la valoración de la OPV de Anthropic baja de 2 a ~1,5 bill. $ por resistencia inversora (16 oct); los minoristas compraron 66 M$ netos de CoreWeave en la caída (Vanda).",
+        "valor": "OPV récord previstas (160.000 M$)"
+      },
+      {
+        "estado": "amarillo",
+        "n": "Sentimiento eufórico",
+        "nota": "AAII (semana al 21 oct): bajistas en 45,8 %, muy por encima de su media (31,5 %); Fear & Greed en miedo extremo (18, 16 oct); BofA (oct): chips, la operación más concurrida.",
+        "valor": "AAII 36,9 % alcistas / 45,8 % bajistas"
+      },
+      {
+        "estado": "rojo",
+        "n": "Compras con mucho apalancamiento",
+        "nota": "FINRA: deuda de margen en 1,48 bill. $ en septiembre, +31 % interanual, cerca del récord de 1,50 bill. de junio; Schwab con margen récord (30 sept).",
+        "valor": "Margen 1,48 bill. $ (sept.)"
+      },
+      {
+        "estado": "rojo",
+        "n": "Sobreinversión por miedo a quedarse fuera",
+        "nota": "22 oct: Meta pasa a flujo de caja negativo y eleva compromisos a ~825.000 M$; la deuda mundial ligada a la IA llega a ~450.000 M$ a principios de septiembre, más del doble que en 2025 (TokenPost, 13 oct).",
+        "valor": "Meta FCF -2.120 M$; capex 135.000-145.000 M$"
+      }
+    ],
+    "lectura": "La bolsa de EE. UU. y la IA siguen en zona de burbuja (70/100), por debajo de los ~85 de 2000 y 1929, como dijo Dalio. Pesa más la sobreinversión en IA con deuda: Meta ya quema caja (-2.120 M$ en el 3T) y la deuda ligada a la IA suma ~450.000 M$ en 2026, mientras el Nasdaq 100 cayó un 3,06 % el 22 oct.",
+    "nivel": 70,
+    "pinchazo": [
+      {
+        "estado": "amarillo",
+        "n": "Curva 2 frente a 30 años",
+        "nota": "23 oct (Trading Economics): tras la caída de ayer ambos tramos rebotan levemente (2 años +4 pb, 30 años +1 pb); la curva sigue positiva sin empinarse con fuerza.",
+        "valor": "+61 pb (4,68 % / 5,29 %)"
+      },
+      {
+        "estado": "rojo",
+        "n": "Fed y tipos reales",
+        "nota": "Kalshi (23 oct): subida el 28 oct al 6,5 % y en diciembre al 77,5 %; con el IPP al 6,3 % y el Brent sobre 113 $ los tipos reales siguen altos.",
+        "valor": "3,75-4,00 %; 77,5 % subida en dic."
+      },
+      {
+        "estado": "amarillo",
+        "n": "Dólar (DXY)",
+        "nota": "23 oct (Trading Economics): el DXY sube un 0,03 % y un 0,4 % en un mes, cerca de mínimos de tres semanas; sin debilidad clara.",
+        "valor": "101,7"
+      },
+      {
+        "estado": "amarillo",
+        "n": "Oro",
+        "nota": "23 oct (Trading Economics): cae un 0,1 % y un 5,9 % en un mes, cerca de mínimos de casi tres meses; no da señal de huida del dólar.",
+        "valor": "~4.021 $/oz"
+      },
+      {
+        "estado": "amarillo",
+        "n": "Necesidad de liquidez",
+        "nota": "22 oct: el Nasdaq 100 cae un 3,06 % (peor sesión desde junio) por Meta, los chips y el Brent; los inversores huyen a los bonos, sin ventas forzadas aún.",
+        "valor": "Nasdaq 100 -3,06 %; Meta -7 %"
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "nombre": "Trading Economics – Bono 30 años EE. UU.",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "Vantage Markets – Subastas 10 y 30 años (oct 2026)",
+      "url": "https://www.vantagemarkets.com/market-news/us-treasury-auction-results-10-year-5-30-30-year-5-62-october-9-2026/"
+    },
+    {
+      "nombre": "CRFB – Déficit AF2026",
+      "url": "https://www.crfb.org/blogs/us-ran-2-trillion-deficit-last-year-we-estimate"
+    },
+    {
+      "nombre": "Trading Economics – Bund alemán",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield"
+    },
+    {
+      "nombre": "Eurostat – Deuda pública eurozona",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21072026-ap"
+    },
+    {
+      "nombre": "Trading Economics – Bono China 10 años",
+      "url": "https://tradingeconomics.com/china/government-bond-yield"
+    },
+    {
+      "nombre": "BigGo Finance – Oro del PBOC (sept.)",
+      "url": "https://finance.biggo.com/news/7ec1bcf4-a98b-41f3-9e92-6b875057f0db"
+    },
+    {
+      "nombre": "Trading Economics – JGB 10 años",
+      "url": "https://tradingeconomics.com/japan/government-bond-yield"
+    },
+    {
+      "nombre": "Moscow Times – Banco de Rusia mantiene el 14 %",
+      "url": "https://www.themoscowtimes.com/2026/09/11/russian-central-bank-holds-key-rate-at-14-a93688"
+    },
+    {
+      "nombre": "Moscow Times – Problema presupuestario ruso",
+      "url": "https://www.themoscowtimes.com/2026/09/28/russia-has-a-budget-problem-borrowing-its-way-out-wont-be-so-simple-a93804"
+    },
+    {
+      "nombre": "Trading Economics – OFZ 10 años",
+      "url": "https://tradingeconomics.com/russia/government-bond-yield"
+    },
+    {
+      "nombre": "Reuters vía TradingView – FNB líquido",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_S8N45700I:0-russia-s-national-wealth-fund-liquid-assets-slip-to-45-billion-as-of-october-1/"
+    },
+    {
+      "nombre": "MLQ – Emisión de bonos de hyperscalers",
+      "url": "https://mlq.ai/news/hyperscaler-bond-issuance-reaches-about-220-billion-as-ai-financing-costs-rise/"
+    },
+    {
+      "nombre": "Fed de Nueva York – Deuda de hogares 2T 2026",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260811"
+    },
+    {
+      "nombre": "GuruFocus – CAPE de Shiller",
+      "url": "https://www.gurufocus.com/economic_indicators/56/sp-500-shiller-cape-ratio"
+    },
+    {
+      "nombre": "FactSet – Avance resultados 3T 2026 (PER adelantado)",
+      "url": "https://insight.factset.com/sp-500-earnings-season-preview-q3-2026"
+    },
+    {
+      "nombre": "Motley Fool – Buffett indicator y Fear & Greed (11 oct)",
+      "url": "https://fool.com/investing/2026/10/11/warren-buffett-s-famous-13-word-rule-has-never-mattered-more-with-stocks-this-expensive"
+    },
+    {
+      "nombre": "AAII – Encuesta de sentimiento",
+      "url": "https://www.aaii.com/sentimentsurvey"
+    },
+    {
+      "nombre": "Atrani Capital – Semana 41 (5-9 oct)",
+      "url": "https://atranicapital.substack.com/p/week-41-market-update-for-october-2d6"
+    },
+    {
+      "nombre": "FactSet – Hyperscalers y financiación externa",
+      "url": "https://insight.factset.com/hyperscalers-tap-external-financing-as-ai-capex-outruns-cash-flow"
+    },
+    {
+      "nombre": "Crypto Briefing – Dalio en Bloomberg (6 oct)",
+      "url": "https://cryptobriefing.com/ray-dalio-ai-bubble-rising-rates/"
+    },
+    {
+      "nombre": "Fed – H.15 tipos diarios",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    {
+      "nombre": "DealStreetAsia – Goldman: OPV récord 2026",
+      "url": "https://cdn.dealstreetasia.com/stories/us-ipo-proceeds-goldman-472346"
+    },
+    {
+      "nombre": "Trading Economics – USD/JPY",
+      "url": "https://tradingeconomics.com/japan/currency"
+    },
+    {
+      "nombre": "Trading Economics – USD/CNY",
+      "url": "https://tradingeconomics.com/china/currency"
+    },
+    {
+      "nombre": "MOF Japón – Subasta JGB 30 años (8 oct)",
+      "url": "https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20261008.htm"
+    },
+    {
+      "nombre": "IFR – Bono Meta-BlackRock (Sopaipilla)",
+      "url": "https://www.ifre.com/bonds/2463746/bond-market-begins-to-question-ai-boom-as-beignet-sequel-falls-flat"
+    },
+    {
+      "nombre": "Trading Economics – Oro",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "nombre": "investingLive – Encuesta BofA octubre 2026",
+      "url": "https://investinglive.com/news/long-global-semiconductors-remains-the-most-crowded-trade-followed-by-short-us-treasuries-according-to-bank-of-america/"
+    },
+    {
+      "nombre": "Trading Economics – Bono 10 años EE. UU.",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bono 2 años EE. UU.",
+      "url": "https://tradingeconomics.com/united-states/2-year-note-yield"
+    },
+    {
+      "nombre": "Trading Economics – DXY",
+      "url": "https://tradingeconomics.com/united-states/currency"
+    },
+    {
+      "nombre": "BigGo Finance – Previsiones de emisión de deuda tecnológica (JPMorgan, Goldman)",
+      "url": "https://finance.biggo.com/news/51d5cb7d-29eb-448c-8b18-50d88f6129c3"
+    },
+    {
+      "nombre": "Kitco – Oro",
+      "url": "https://www.kitco.com/charts/gold"
+    },
+    {
+      "nombre": "The Trading Tools – Deuda de margen",
+      "url": "https://www.thetrading.tools/margin-debt"
+    },
+    {
+      "nombre": "Finnovate – CAPE de Shiller (8 oct)",
+      "url": "https://www.finnovate.in/learn/blog/shiller-cape-ratio-us-stock-market-2026"
+    },
+    {
+      "nombre": "Yahoo Finance – Bolsa 14 oct",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-135249729.html"
+    },
+    {
+      "nombre": "Investing.com – Rendimientos tras el IPC (15 oct)",
+      "url": "https://investing.com/news/economy-news/us-treasury-yields-slide-after-cpidriven-spike-4950530"
+    },
+    {
+      "nombre": "Irish Times/Reuters – Asia vende la IA (15 oct)",
+      "url": "https://www.irishtimes.com/business/markets/2026/10/15/asian-stocks-sell-off-as-ai-trades-crumble/"
+    },
+    {
+      "nombre": "Quartz – Chips pierden 1 bill. $ (14 oct)",
+      "url": "https://qz.com/chip-stocks-trillion-ai-selloff-semiconductor-index-101426"
+    },
+    {
+      "nombre": "Trading Economics – JGB 30 años",
+      "url": "https://tradingeconomics.com/japan/30-year-bond-yield"
+    },
+    {
+      "nombre": "TokenPost – Deuda IA 450.000 M$ (13 oct)",
+      "url": "https://www.tokenpost.com/news/technology/30829"
+    },
+    {
+      "nombre": "GuruFocus – Treasuries 15 oct",
+      "url": "https://www.gurufocus.com/news/9125559/us-treasury-yields-drop-sharply-impacting-tlt-etf-on-october-15-2026"
+    },
+    {
+      "nombre": "Investing.com – CoreWeave y la deuda de IA (14 oct)",
+      "url": "https://www.investing.com/news/stock-market-news/coreweave-shares-sink-13-as-musks-yikes-highlights-ai-debt-concerns-4949553"
+    },
+    {
+      "nombre": "CNBC – Bonos de CoreWeave cerca del 15 %",
+      "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html"
+    },
+    {
+      "nombre": "BLS – IPP septiembre 2026",
+      "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"
+    },
+    {
+      "nombre": "CNBC – CDS de CoreWeave en niveles de estrés (15 oct)",
+      "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
+    },
+    {
+      "nombre": "24/7 Wall St – Oracle cae casi un 9 % (15 oct)",
+      "url": "https://247wallst.com/investing/2026/10/15/oracle-fell-nearly-9-as-coreweaves-bond-scare-spread/"
+    },
+    {
+      "nombre": "StockTitan – Margen récord en Schwab (3T 2026)",
+      "url": "https://www.stocktitan.net/articles/schwab-earnings-borrowing-against-stocks-margin-debt"
+    },
+    {
+      "nombre": "ActionForex – Warsh no da señal para octubre",
+      "url": "https://www.actionforex.com/live-comments/657672-feds-warsh-declines-october-rate-signal-says-fed-will-no-longer-preview-decisions/"
+    },
+    {
+      "nombre": "Schwab – Mercados 16 oct",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+      "nombre": "HDFC Sky – Cierre de Wall Street y CDS de CoreWeave",
+      "url": "https://hdfcsky.com/news/us-stock-market-close-dow-sp500-nasdaq-october-16-2026"
+    },
+    {
+      "nombre": "24/7 Wall St – CoreWeave y la deuda (16 oct)",
+      "url": "https://247wallst.com/investing/2026/10/16/coreweave-drops-6-as-debt-worries-linger-iren-falls-4-nebius-slips/"
+    },
+    {
+      "nombre": "CNBC – Huida a los bonos (15 oct)",
+      "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html"
+    },
+    {
+      "nombre": "Treasury Rate Watch – Rendimientos 16 oct",
+      "url": "https://treasuryratewatch.com/daily/"
+    },
+    {
+      "nombre": "BigGo Finance – TIC agosto 2026",
+      "url": "https://finance.biggo.com/news/12edb8aa-885c-4922-9fe3-ae104799a98a"
+    },
+    {
+      "nombre": "GuruFocus – Deuda de margen FINRA",
+      "url": "https://www.gurufocus.com/economic_indicators/4264/finra-investor-margin-debt"
+    },
+    {
+      "nombre": "Investing.com/Reuters – CoreWeave, peor semana",
+      "url": "https://www.investing.com/news/economy-news/coreweave-shares-bonds-headed-for-steep-weekly-losses-as-ai-borrowing-concerns-mount-4953586"
+    },
+    {
+      "nombre": "Business Recorder – JGB 19 oct",
+      "url": "https://www.brecorder.com/news/40444905/japans-10-year-yield-falls-on-risk-aversion-debt-issuance-pledge"
+    },
+    {
+      "nombre": "Tradingpedia – Yen 19 oct",
+      "url": "https://www.tradingpedia.com/2026/10/19/yen-trades-near-158-usd-amid-policy-and-intervention-caution/"
+    },
+    {
+      "nombre": "Izvestia – Previsión tipo Banco de Rusia",
+      "url": "https://en.iz.ru/en/2185325/2026-10-16/economists-predicted-key-rate-would-remain-14"
+    },
+    {
+      "nombre": "Benzinga – Fear & Greed 31 (15 oct)",
+      "url": "https://www.benzinga.com/markets/market-summary/26/10/62403453/dow-jumps-over-550-points-following-economic-data-investor-sentiment-improves-but-fear-greed-index-remains-in-fear-zone"
+    },
+    {
+      "nombre": "Investrade – Cierre 16 oct",
+      "url": "https://investrade.com/market-review-october-16-2026/"
+    },
+    {
+      "nombre": "FXCM – Briefing macro 19 oct 2026",
+      "url": "https://www.fxcm.com/za/insights/global-macro-and-markets-briefing-19-october-2026/"
+    },
+    {
+      "nombre": "tipInsights – Rendimientos 19 oct",
+      "url": "https://tippinsights.com/treasury-yields-climb-ahead-of-federal-reserves-october-rate-decision/"
+    },
+    {
+      "nombre": "CNBC – Treasuries 19 oct",
+      "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html"
+    },
+    {
+      "nombre": "Investing.com – Yuan en máximo de 4 años (20 oct)",
+      "url": "https://uk.investing.com/news/forex-news/asian-currencies-firm-asdollar-retreats-yuan-hits-fouryear-high-4918769"
+    },
+    {
+      "nombre": "Benzinga – Fear & Greed en miedo extremo (16 oct)",
+      "url": "https://www.benzinga.com/markets/market-summary/26/10/62431244/nasdaq-tumbles-over-2-records-weekly-loss-investor-sentiment-weakens-fear-greed-index-moves-to-extreme-fear-zone"
+    },
+    {
+      "nombre": "CNBC – Bonos de CoreWeave cerca del 15 % (19 oct)",
+      "url": "https://www.cnbc.com/2026/10/19/coreweave-oracle-ai-credit-stress.html"
+    },
+    {
+      "nombre": "TraderFactor – Dólar, oro y rendimientos (20 oct)",
+      "url": "https://traderfactor.com/dollar-near-102-gold-slips-yields-stay-elevated/"
+    },
+    {
+      "nombre": "FXStreet – Treasuries ceden por Irán (20 oct)",
+      "url": "https://www.fxstreet.com/news/us-treasury-yields-retreat-as-iran-deal-hopes-pull-wti-lower-202610201649"
+    },
+    {
+      "nombre": "Invezz – Rendimientos y JPMorgan (20 oct)",
+      "url": "https://invezz.com/news/2026/10/20/us-treasury-yields-ease-jpmorgan-sees-year-end-stock-gains-if-yields-remain-stable/"
+    },
+    {
+      "nombre": "Newsquawk – Subasta 20 años el 21 oct",
+      "url": "https://www.newsquawk.com/headlines/us-treasury-to-sell-usd-13bln-of-20-year-bonds-on-oct-21st-to-settle-oct-22nd-to-sell-usd-26bln-of-5-year-tips-on-oct-22nd-to-settle-october-30th"
+    },
+    {
+      "nombre": "Defiance AIBN – Financiación de IA 2026 (20 oct)",
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-10-20-defiance-launches-aibn-the-first-us-listed-etf-dedicated-to-the-bonds-funding-the-ai-buildout"
+    },
+    {
+      "nombre": "Ideal Investisseur – Diferencial OAT-Bund (21 oct)",
+      "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+    },
+    {
+      "nombre": "Helious – Subasta 20 años (21 oct)",
+      "url": "https://helious.io/news/auc-912810UX4-2026-10-21/20-year-bond-auction-in-line"
+    },
+    {
+      "nombre": "investingLive – Subasta 20 años al 5,469 %",
+      "url": "https://investinglive.com/news/us-treasury-sells-13-billion-of-20-year-bonds-at-a-high-yield-of-5-469/"
+    },
+    {
+      "nombre": "investingLive – Dalio: el mercado bajista de bonos tiene recorrido (22 oct)",
+      "url": "https://investinglive.com/stocks/ray-dalio-warns-us-bond-bear-market-has-a-long-way-to-go-as-debt-supply-swamps-demand"
+    },
+    {
+      "nombre": "Daily Caller – Quién tiene la deuda de la IA (21 oct)",
+      "url": "https://dailycaller.com/2026/10/21/wall-streets-ai-boom-faces-growing-questions-over-who-holds-the-debt"
+    },
+    {
+      "nombre": "Malay Mail/AFP – Hong Kong cae un 3 % por la tecnología (22 oct)",
+      "url": "https://www.malaymail.com/news/money/2026/10/22/hong-kong-stocks-dive-more-than-3pc-in-tech-rout/240155"
+    },
+    {
+      "nombre": "Business Today – Meta: flujo de caja negativo (22 oct)",
+      "url": "https://www.businesstoday.in/markets/stocks/story/meta-shares-slide-7-as-ai-spending-push-drives-capex-higher-free-cash-flow-turns-negative-563170-2026-10-22"
+    },
+    {
+      "nombre": "Shattered/Bloomberg – CDS de Meta en récord (22 oct)",
+      "url": "https://shattered.io/meta-credit-risk-record-high-ai-spending-cds-2026/"
+    },
+    {
+      "nombre": "Investing.com – Nasdaq cae más de un 2 % por Meta (22 oct)",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-investors-weigh-tesla-meta-earnings-4964498"
+    },
+    {
+      "nombre": "Trading Economics – tipo Banco de Rusia",
+      "url": "https://tradingeconomics.com/russia/interest-rate"
+    }
+  ],
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: deuda en manos del público de ~32,3 billones, intereses de 1,1 billones y un déficit de 2 billones. Desde anoche apenas hay cambios: el 30 años se queda en el 5,29 % y el JGB japonés a 10 años baja al 2,80 %, pero el Brent sube a 113 $ y empuja al ~80 % la probabilidad de una subida de la Fed en diciembre; el riesgo se mantiene en 50.",
+  "regiones": [
+    {
+      "datos": [
+        {
+          "c": "23 oct; +3 pb en el día, -22 pb en 1 mes",
+          "n": "Bono 10 años",
+          "v": "4,99 %"
+        },
+        {
+          "c": "23 oct; +1 pb en el día, -19 pb en 1 mes",
+          "n": "Bono 30 años",
+          "v": "5,29 %"
+        },
+        {
+          "c": "fin AF2026 (CRFB, 1 oct)",
+          "n": "Deuda en manos del público",
+          "v": "32,3 bill. $ (~100 % PIB)"
+        },
+        {
+          "c": "3,4 % y 6,2 % del PIB",
+          "n": "Intereses / déficit AF2026",
+          "v": "1,1 bill. $ / 2,0 bill. $"
+        }
+      ],
+      "estado": "amarillo",
+      "id": "US",
+      "nombre": "EE. UU.",
+      "nota": "El 10 años rebota levemente al 4,99 % (23 oct) tras su mayor caída diaria desde agosto de 2025; el mercado da ~80 % a una subida de la Fed en diciembre con el Brent sobre 113 $."
+    },
+    {
+      "datos": [
+        {
+          "c": "23 oct; sin cambios en el día, -27 pb en 1 mes",
+          "n": "Bund 10 años",
+          "v": "3,34 %"
+        },
+        {
+          "c": "1T 2026 (Eurostat, 21 jul)",
+          "n": "Deuda/PIB eurozona",
+          "v": "88,9 %"
+        },
+        {
+          "c": "2 subidas en 4 meses; el mercado descuenta otra en diciembre",
+          "n": "Tipo depósito BCE",
+          "v": "2,50 %"
+        }
+      ],
+      "estado": "amarillo",
+      "id": "EU",
+      "nombre": "Eurozona",
+      "nota": "El Bund se estabiliza en el 3,34 % como refugio, pero el diferencial francés sigue en ~160 pb (21 oct, Trading Economics), máximo desde la crisis del euro; se espera que el BCE mantenga la semana que viene."
+    },
+    {
+      "datos": [
+        {
+          "c": "21 oct; +1 pb en el día, -4 pb en 1 mes",
+          "n": "Bono 10 años",
+          "v": "1,65 %"
+        },
+        {
+          "c": "agosto (TIC, 16 oct), -27.300 M$; 3.ª caída, mínimo en ~18 años",
+          "n": "Treasuries en manos chinas",
+          "v": "590.700 M$"
+        },
+        {
+          "c": "23 oct; sin cambios en el día, yuan +0,65 % en 1 mes; máximo desde 2022",
+          "n": "USD/CNY",
+          "v": "6,67"
+        },
+        {
+          "c": "23.º mes seguido; 2.410 t",
+          "n": "Compras de oro PBOC",
+          "v": "+23 t en sept."
+        }
+      ],
+      "estado": "amarillo",
+      "id": "CN",
+      "nombre": "China",
+      "nota": "El yuan sigue en máximos desde 2022 y el PIB del 3T crece un 4,5 %; Hong Kong cae un 3,1 % (22 oct) por el miedo a la IA, y China sigue vendiendo Treasuries y comprando oro."
+    },
+    {
+      "datos": [
+        {
+          "c": "23 oct; -8 pb en el día, -28 pb en 1 mes",
+          "n": "JGB 10 años",
+          "v": "2,80 %"
+        },
+        {
+          "c": "23 oct; -6 pb en el día, -33 pb en 1 mes",
+          "n": "JGB 30 años",
+          "v": "3,84 %"
+        },
+        {
+          "c": "agosto (TIC), -35.600 M$; 4.ª caída, mínimo desde dic-2024",
+          "n": "Treasuries en manos japonesas",
+          "v": "1,068 bill. $"
+        },
+        {
+          "c": "23 oct; +0,1 % en el día; yen +1,2 % en 1 mes (tocó 156,37)",
+          "n": "USD/JPY",
+          "v": "156,9"
+        }
+      ],
+      "estado": "amarillo",
+      "id": "JP",
+      "nombre": "Japón",
+      "nota": "El JGB a 10 años baja al 2,80 % y el de 30 años al 3,84 % (23 oct); el IPC de septiembre sube al 2,1 %, máximo de 9 meses, y se espera que el BoJ (1,25 %) mantenga la semana que viene y quizá suba en diciembre."
+    },
+    {
+      "datos": [
+        {
+          "c": "decisión hoy 23 oct (10:30 Moscú); consenso: mantener",
+          "n": "Tipo oficial",
+          "v": "14,00 %"
+        },
+        {
+          "c": "22 oct; -2 pb en el día, -3 pb en 1 mes",
+          "n": "OFZ 10 años",
+          "v": "16,53 %"
+        },
+        {
+          "c": "supera el plan anual de 3,8 bill.",
+          "n": "Déficit ene-ago",
+          "v": "5,8 bill. rublos (2,5 % PIB)"
+        },
+        {
+          "c": "1 oct (46.700 M$ en sept.)",
+          "n": "FNB líquido",
+          "v": "45.000 M$"
+        }
+      ],
+      "estado": "rojo",
+      "id": "RU",
+      "nombre": "Rusia",
+      "nota": "El Banco de Rusia decide hoy y el consenso es mantener el 14 % por la inflación de los ataques a refinerías; el OFZ a 10 años sigue en 16,53 % (22 oct) y el déficit supera el plan anual."
+    }
+  ],
+  "riesgo": 50,
+  "serie": [
+    {
+      "riesgo": 64,
+      "ts": "2026-10-11T11:31:47Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 64,
+      "ts": "2026-10-11T11:46:58Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 64,
+      "ts": "2026-10-12T06:46:36Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 63,
+      "ts": "2026-10-13T18:46:03Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 63,
+      "ts": "2026-10-14T06:46:42Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 63,
+      "ts": "2026-10-14T18:46:02Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 52,
+      "ts": "2026-10-15T06:46:53Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-15T10:00:54Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-15T18:46:03Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 50,
+      "ts": "2026-10-16T06:46:10Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-16T18:46:31Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-19T06:47:26Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-19T18:46:02Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 51,
+      "ts": "2026-10-20T06:46:33Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-20T18:46:07Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-21T06:47:15Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-21T18:45:57Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-22T06:46:56Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-22T18:46:19Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-23T06:58:00Z"
+    }
+  ]
+}
