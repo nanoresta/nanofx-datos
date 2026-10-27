@@ -343,9 +343,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-27T20:06:36Z",
+    "actualizado": "2026-10-27T21:07:43Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos mañana, 28 de octubre, se mantiene en el 5,5 % (mantener 94,0 %, tasa implícita 3,89 %). La de diciembre sube ligeramente al 87,0 % (mantener 9,5 %, tasa implícita 4,11 %), frente al 86,5 % de la lectura anterior.",
+    "lectura": "La probabilidad de que la Fed suba tipos mañana, 28 de octubre, se mantiene en el 5,5 % (mantener 94,0 %, tasa implícita 3,89 %). La de diciembre baja ligeramente al 85,5 % (mantener 12,0 %, tasa implícita 4,11 %), frente al 87,0 % de la lectura anterior.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -356,10 +356,10 @@
         "tasaImplicita": 3.89
       },
       {
-        "bajar": 3.5,
+        "bajar": 2.5,
         "fecha": "2026-12-09",
-        "mantener": 9.5,
-        "subir": 87,
+        "mantener": 12,
+        "subir": 85.5,
         "tasaImplicita": 4.11
       },
       {
@@ -374,7 +374,7 @@
         "fecha": "2027-03-17",
         "mantener": 4.5,
         "subir": 91.5,
-        "tasaImplicita": 4.44
+        "tasaImplicita": 4.47
       },
       {
         "bajar": 1.5,
@@ -1205,23 +1205,23 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 20:16 Canarias",
+      "changeNote": "cierre, 21:17 Canarias",
       "changePct": 0.6,
       "claves": [
         "Call wall en 7.825 (SPY 780,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -3,90 mil M$ por 1 %, algo más negativa que hace una hora.",
-        "Giro de gamma en 7.776 (SPY 775,12), por encima del precio: la gamma sigue negativa.",
+        "Régimen de gamma negativa en -4,41 mil M$ por 1 %, algo más negativa que hace una hora.",
+        "Giro de gamma en 7.775 (SPY 774,97), por encima del precio: la gamma sigue negativa.",
         "Put wall en 7.574 (SPY 755,0); put/call OI 1,63."
       ],
       "gex": {
         "callWall": 780,
-        "contratos": 1823,
+        "contratos": 1833,
         "etf": "SPY",
-        "gammaFlip": 775.12,
-        "gexTotal": -3.9,
+        "gammaFlip": 774.97,
+        "gexTotal": -4.41,
         "indice": {
           "callWall": 7825,
-          "gammaFlip": 7776,
+          "gammaFlip": 7775,
           "maxPain": 7695,
           "precio": 7720,
           "putWall": 7574
@@ -1254,16 +1254,16 @@
         "vencimientoCercano": "2026-10-27"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cerró la sesión en 7.722,60 (+0,6 %), apoyado por el rebote de los semiconductores y la financiación de Broadcom a Anthropic, mientras Boeing restó tras recortar su objetivo de entregas. La gamma se mantiene negativa (-3,90 mil M$ por 1 %), algo más negativa que hace una hora, con el precio bajo el giro de gamma en 7.776 y el call wall en 7.825. A las 18:00 UTC de mañana la Fed decide con solo un 5,5 % de probabilidad de subida (94,0 % mantener); el jueves llegan el PIB, el PCE y el BCE con Lagarde. El dólar cerca de máximos de dos semanas (índice dólar ≈102,20) y la escalada en el estrecho de Ormuz siguen siendo lo que más pesa. Sesgo: bajista.",
+      "lectura": "El S&P 500 cerró la sesión en 7.722,60 (+0,6 %), apoyado por el rebote de los semiconductores y la financiación de Broadcom a Anthropic, mientras Boeing restó tras recortar su objetivo de entregas. La gamma se mantiene negativa (-4,41 mil M$ por 1 %), algo más negativa que hace una hora, con el precio bajo el giro de gamma en 7.775 y el call wall en 7.825. A las 18:00 UTC de mañana la Fed decide con solo un 5,5 % de probabilidad de subida (94,0 % mantener); el jueves llegan el PIB, el PCE y el BCE con Lagarde. El dólar cerca de máximos de dos semanas (índice dólar ≈102,20) y la escalada en el estrecho de Ormuz siguen siendo lo que más pesa. Sesgo: bajista.",
       "levels": {
         "callWall": 7825,
-        "gammaFlip": 7776,
+        "gammaFlip": 7775,
         "maxPain": 7695,
         "precio": 7720,
         "putWall": 7574
       },
       "name": "S&P 500",
-      "netGex": "negativa (-3,90 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-23)",
+      "netGex": "negativa (-4,41 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-23)",
       "regime": "negativa",
       "regimen": "negativa",
       "score": -32,
@@ -1271,25 +1271,25 @@
       "spot": 7722.6
     },
     {
-      "changeNote": "en vivo (vía QQQ), 20:16 Canarias",
+      "changeNote": "cierre (vía QQQ), 21:17 Canarias",
       "changePct": 1.18,
       "claves": [
         "Call wall en 30.009 (QQQ 730,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -2,58 mil M$ por 1 %, algo más negativa que hace una hora.",
-        "Giro de gamma en 30.095 (QQQ 732,1), por encima del precio: la gamma sigue negativa.",
+        "Régimen de gamma negativa en -2,75 mil M$ por 1 %, algo más negativa que hace una hora.",
+        "Giro de gamma en 30.089 (QQQ 731,95), por encima del precio: la gamma sigue negativa.",
         "Put wall en 28.776 (QQQ 700,0); put/call OI 1,45."
       ],
       "gex": {
         "callWall": 730,
-        "contratos": 1819,
+        "contratos": 1824,
         "etf": "QQQ",
-        "gammaFlip": 732.1,
-        "gexTotal": -2.58,
+        "gammaFlip": 731.95,
+        "gexTotal": -2.75,
         "indice": {
           "callWall": 30009,
-          "gammaFlip": 30095,
+          "gammaFlip": 30089,
           "maxPain": 29392,
-          "precio": 29659,
+          "precio": 29629,
           "putWall": 28776
         },
         "maxPain": 715,
@@ -1312,7 +1312,7 @@
         },
         "oiFecha": "2026-10-23",
         "pcrOI": 1.45,
-        "precio": 721.48,
+        "precio": 720.77,
         "putWall": 700,
         "ratioFecha": "2026-10-26",
         "ratioIndice": 41.108,
@@ -1320,16 +1320,16 @@
         "vencimientoCercano": "2026-10-27"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 ronda los 29.659 puntos al cierre de la sesión (Nasdaq Composite +1,18 % a 26.477,81), impulsado por los semiconductores y la financiación de 63.000 millones $ de Broadcom a Anthropic, con Microsoft, Alphabet y Amazon presentando resultados esta semana. La gamma sigue negativa (-2,58 mil M$ por 1 %), con el call wall en 30.009 y el giro de gamma en 30.095 por encima del precio. El FOMC de mañana (5,5 % de probabilidad de subida) y el riesgo de capex en IA mantienen la cautela, aunque Scott Bessent descarta un problema sistémico en el boom de la IA. Sesgo: bajista.",
+      "lectura": "El Nasdaq 100 ronda los 29.629 puntos al cierre de la sesión (Nasdaq Composite +1,18 % a 26.477,81), impulsado por los semiconductores y la financiación de 63.000 millones $ de Broadcom a Anthropic, con Microsoft, Alphabet y Amazon presentando resultados esta semana. La gamma sigue negativa (-2,75 mil M$ por 1 %), con el call wall en 30.009 y el giro de gamma en 30.089 por encima del precio. El FOMC de mañana (5,5 % de probabilidad de subida) y el riesgo de capex en IA mantienen la cautela, aunque Scott Bessent descarta un problema sistémico en el boom de la IA. Sesgo: bajista.",
       "levels": {
         "callWall": 30009,
-        "gammaFlip": 30095,
+        "gammaFlip": 30089,
         "maxPain": 29392,
-        "precio": 29659,
+        "precio": 29629,
         "putWall": 28776
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-2,58 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-23)",
+      "netGex": "negativa (-2,75 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-23)",
       "regime": "negativa",
       "regimen": "negativa",
       "score": -30,
@@ -1776,7 +1776,7 @@
       }
     ]
   },
-  "resumen": "Son las 20:16 UTC del martes 27 de octubre de 2026, tras el cierre de Wall Street. El S&P 500 cerró con un +0,6 % en 7.722,60 puntos y el Nasdaq Composite con un +1,18 % en 26.477,81, apoyados por el rebote de los semiconductores y la financiación de Broadcom a Anthropic, aunque Boeing restó tras recortar sus entregas. El dólar se mantiene firme cerca de 102,20 (EUR/USD en torno a 1,112-1,117), antes de la decisión de la Fed de mañana (solo un 5,5 % de probabilidad de subida, 94,0 % de mantener) y del BCE del jueves con Lagarde. El petróleo sigue firme por la escalada en el estrecho de Ormuz, el oro ronda los 4.000 $ y bitcoin sigue bajo presión cerca de 80.000 $. La gamma se mantiene negativa en ambos índices, algo más negativa que hace una hora. La probabilidad de subida de la Fed para diciembre sube ligeramente al 87,0 % (antes 86,5 %).",
+  "resumen": "Son las 21:17 UTC del martes 27 de octubre de 2026, tras el cierre de Wall Street. El S&P 500 cerró con un +0,6 % en 7.722,60 puntos y el Nasdaq Composite con un +1,18 % en 26.477,81, apoyados por el rebote de los semiconductores y la financiación de Broadcom a Anthropic, aunque Boeing restó tras recortar sus entregas. El dólar se mantiene firme cerca de 102,20 (EUR/USD por debajo de 1,1200), antes de la decisión de la Fed de mañana (solo un 5,5 % de probabilidad de subida, 94,0 % de mantener) y del BCE del jueves con Lagarde. El petróleo cede algo (WTI cerca de 101 $) por la diplomacia en Oriente Medio, el oro ronda los 4.000-4.060 $ y bitcoin sigue bajo presión cerca de 80.000 $. La gamma se mantiene negativa en ambos índices, algo más negativa que hace una hora. La probabilidad de subida de la Fed para diciembre baja ligeramente al 85,5 % (antes 87,0 %).",
   "semana": {
     "activos": [
       {
@@ -2155,5 +2155,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-27T20:16:15Z"
+  "updatedAt": "2026-10-27T21:17:31Z"
 }
