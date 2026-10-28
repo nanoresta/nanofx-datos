@@ -219,16 +219,17 @@
     {
       "actual": null,
       "actualNum": null,
-      "anterior": "0,6 % t/t",
-      "anteriorNum": 0.6,
+      "anterior": "0,4 % t/t",
+      "anteriorNum": 0.4,
       "divisaSiSube": "+",
       "evento": "PIB (T3 2026, estimación preliminar, trimestral)",
       "fecha": "2026-10-30",
       "horaUtc": "10:00",
       "impacto": "alto",
+      "nota": "Consenso en torno al 0,2 % t/t (Trading Economics, Societe Generale); el dato de Q2 (anterior) fue +0,4 % t/t según Eurostat.",
       "pais": "Eurozona",
-      "previsto": "≈0,1 % t/t",
-      "previstoNum": 0.1
+      "previsto": "≈0,2 % t/t",
+      "previstoNum": 0.2
     },
     {
       "actual": null,
@@ -324,10 +325,10 @@
       "fecha": "2026-11-06",
       "horaUtc": "13:30",
       "impacto": "alto",
-      "nota": "Fecha prevista 6 de noviembre; sujeta a posibles retrasos administrativos.",
+      "nota": "Fecha prevista 6 de noviembre; sujeta a posibles retrasos administrativos. Previsión de Trading Economics ≈40 mil, sin consenso de encuesta oficial todavía.",
       "pais": "EE. UU.",
-      "previsto": "sin consenso confirmado",
-      "previstoNum": null
+      "previsto": "≈40 mil (Trading Economics, sin consenso oficial)",
+      "previstoNum": 40
     },
     {
       "actual": null,
@@ -355,23 +356,16 @@
       "impacto": "alto",
       "nota": "Reunión de dos días, 8-9 de diciembre de 2026; decisión y rueda de prensa el 9 de diciembre.",
       "pais": "EE. UU.",
-      "previsto": "probabilidad de subida 84,5 % según Kalshi (motor de datos)",
+      "previsto": "probabilidad de subida 82,5 % según Kalshi (motor de datos)",
       "previstoNum": null
     }
   ],
   "fed": {
-    "actualizado": "2026-10-28T21:02:36Z",
+    "actualizado": "2026-10-28T21:34:03Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La Fed ya anunció su decisión (mantiene en 3,75-4,00 %, con las disidencias de Cook y Hammack) y Warsh ya dio su rueda de prensa. La probabilidad de subida en la próxima reunión, el 9 de diciembre, se mantiene en el 82,5 % (tasa implícita 4,09 %, frente a 4,08 % antes), tras haber tocado un pico de 84,5 % justo después del comunicado; para enero de 2027 sigue en el 92,5 % con una tasa implícita de 4,39 %.",
-    "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
+    "lectura": "La Fed confirmó hoy que mantiene en 3,75-4,00 % (10-2, con las disidencias hawkish de Cook y Hammack) y Warsh ya dio su rueda de prensa sin comprometerse sobre diciembre. La probabilidad de subida en la próxima reunión, el 9 de diciembre, se mantiene en el 82,5 % (tasa implícita 4,09 %), tras haber tocado un pico de 84,5 % justo después del comunicado; para enero de 2027 sigue en el 92,5 % (tasa implícita 4,39 %) y para marzo de 2027 en el 91,5 % (tasa implícita 4,44 %).",
+    "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
-      {
-        "bajar": 0.5,
-        "fecha": "2026-10-28",
-        "mantener": 95.5,
-        "subir": 4,
-        "tasaImplicita": 3.88
-      },
       {
         "bajar": 1.5,
         "fecha": "2026-12-09",
@@ -391,7 +385,7 @@
         "fecha": "2027-03-17",
         "mantener": 4.5,
         "subir": 91.5,
-        "tasaImplicita": 4.45
+        "tasaImplicita": 4.44
       },
       {
         "bajar": 5.5,
@@ -1318,23 +1312,23 @@
   ],
   "indices": [
     {
-      "changeNote": "implícito, 21:17 Canarias (motor de opciones SPY), tras resultados de Microsoft y Alphabet",
+      "changeNote": "implícito, 21:46 UTC (motor de opciones SPY), tras resultados de Microsoft y Alphabet; cierre oficial en 7.743,98 (+0,28 %)",
       "changePct": -0.26,
       "claves": [
         "Call wall en 7826 (SPY 780,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -4,49 mil M$ por 1 % (antes -3,38): se profundiza.",
-        "Giro de gamma en 7774 (SPY 774,86), por encima del precio: la gamma sigue negativa.",
-        "Put wall sube a 7675 (SPY 765,0); put/call OI 1,63 (antes 1,62)."
+        "Régimen de gamma negativa en -5,22 mil M$ por 1 % (antes -4,49): sigue profundizándose tras los resultados de Microsoft/Alphabet.",
+        "Giro de gamma en 7771 (SPY 774,55), por encima del precio: la gamma sigue negativa.",
+        "Put wall en 7675 (SPY 765,0); put/call OI 1,63."
       ],
       "gex": {
         "callWall": 780,
-        "contratos": 1687,
+        "contratos": 1668,
         "etf": "SPY",
-        "gammaFlip": 774.86,
-        "gexTotal": -4.49,
+        "gammaFlip": 774.55,
+        "gexTotal": -5.22,
         "indice": {
           "callWall": 7826,
-          "gammaFlip": 7774,
+          "gammaFlip": 7771,
           "maxPain": 7696,
           "precio": 7724,
           "putWall": 7675
@@ -1367,41 +1361,41 @@
         "vencimientoCercano": "2026-10-28"
       },
       "id": "SPX",
-      "lectura": "Son las 21:17 UTC del miércoles 28 de octubre de 2026, tras el cierre de Wall Street. El S&P 500 cerró en 7.743,98 puntos (+0,28 %); en el mercado fuera de hora, el motor de opciones implica ahora 7.724 (-0,26 % frente al cierre) tras los resultados mixtos de Microsoft (sube un 4 %, supera previsiones) y Alphabet (cae tras un fallo en ingresos). La gamma se profundiza a -4,49 mil M$ por 1 % (antes -3,38), con el call wall en 7.826 y el put wall subiendo a 7.675 (put/call OI 1,63). El PIB y el PCE de EE. UU. de mañana son el siguiente catalizador. Sesgo: bajista.",
+      "lectura": "Tras el cierre de Wall Street (S&P 500 +0,28 % a 7.743,98, tercera subida consecutiva), el motor de opciones implica 7.724 fuera de hora (-0,26 %) tras Microsoft (+4 %, bate previsiones) y Alphabet (cae por fallo en ingresos). La gamma negativa se profundiza a -5,22 mil M$ por 1 % con el call wall en 7.826 y el put wall en 7.675. Quien más pesa ahora es Kevin Warsh, que dejó pistas sutiles hacia una subida en diciembre sin comprometerse; el dato que más pesa mañana es el PIB y el PCE de EE. UU. (previstos al alza, alto impacto). Sesgo: bajista.",
       "levels": {
         "callWall": 7826,
-        "gammaFlip": 7774,
+        "gammaFlip": 7771,
         "maxPain": 7696,
         "precio": 7724,
         "putWall": 7675
       },
       "name": "S&P 500",
-      "netGex": "negativa (-4,49 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-26)",
+      "netGex": "negativa (-5,22 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-26)",
       "precio": 7724,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -38,
+      "score": -39,
       "sesgo": "bajista",
       "spot": 7724
     },
     {
-      "changeNote": "implícito, 21:17 Canarias (motor de opciones QQQ), tras resultados de Microsoft y Alphabet",
+      "changeNote": "implícito, 21:46 UTC (motor de opciones QQQ), tras resultados de Microsoft y Alphabet; Fortinet también cae fuera de hora",
       "changePct": -0.42,
       "claves": [
-        "Call wall en 29601 (QQQ 720,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -3,67 mil M$ por 1 % (antes -1,87): se profundiza.",
-        "Giro de gamma en 30019 (QQQ 730,15), por encima del precio: la gamma sigue negativa.",
-        "Put wall igualado con el call wall en 29601 (QQQ 720,0); put/call OI 1,42 (antes 1,37)."
+        "Call wall igualado con el put wall en 29601 (QQQ 720,0).",
+        "Régimen de gamma negativa en -3,93 mil M$ por 1 % (antes -3,67): se profundiza.",
+        "Giro de gamma en 29953 (QQQ 728,56), por encima del precio: la gamma sigue negativa.",
+        "Put/call OI 1,42; max pain en 29396."
       ],
       "gex": {
         "callWall": 720,
-        "contratos": 1532,
+        "contratos": 1497,
         "etf": "QQQ",
-        "gammaFlip": 730.15,
-        "gexTotal": -3.67,
+        "gammaFlip": 728.56,
+        "gexTotal": -3.93,
         "indice": {
           "callWall": 29601,
-          "gammaFlip": 30019,
+          "gammaFlip": 29953,
           "maxPain": 29396,
           "precio": 29565,
           "putWall": 29601
@@ -1434,26 +1428,26 @@
         "vencimientoCercano": "2026-10-28"
       },
       "id": "NDX",
-      "lectura": "Son las 21:17 UTC del miércoles 28 de octubre de 2026. El Nasdaq 100 implícito del motor de opciones cae a 29.565 (-0,42 % frente a la lectura anterior) tras los resultados mixtos de Microsoft (+4 % fuera de hora, supera previsiones) y Alphabet (cae tras fallar ligeramente en ingresos y ampliar su déficit de flujo de caja libre). La gamma negativa se profundiza a -3,67 mil M$ por 1 % (antes -1,87), con el call wall en 29.601 y el giro de gamma en 30.019. Amazon presenta resultados mañana. Sesgo: bajista.",
+      "lectura": "El Nasdaq 100 implícito del motor de opciones sigue en 29.565 (-0,42 %) tras los resultados mixtos: Microsoft sube un 4 % fuera de hora, mientras Alphabet y Fortinet caen. La gamma negativa se profundiza a -3,93 mil M$ por 1 %, con el call/put wall en 29.601 y el giro de gamma en 29.953. Quien más pesa es Kevin Warsh (pistas hacia subida en diciembre, presiona valoraciones de riesgo largo); el dato que más pesa es el PCE subyacente de mañana. Amazon presenta resultados este jueves, el próximo catalizador clave. Sesgo: bajista.",
       "levels": {
         "callWall": 29601,
-        "gammaFlip": 30019,
+        "gammaFlip": 29953,
         "maxPain": 29396,
         "precio": 29565,
         "putWall": 29601
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-3,67 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-26)",
+      "netGex": "negativa (-3,93 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-26)",
       "precio": 29565,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -41,
+      "score": -43,
       "sesgo": "bajista",
       "spot": 29565
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-28T19:27:43Z",
+    "actualizado": "2026-10-28T21:34:03Z",
     "balance": 6753.6,
     "d4": 31.3,
     "dBalance": -2,
@@ -1465,7 +1459,7 @@
     "fecha4": "2026-09-23",
     "fechaPrev": "2026-10-14",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "Semana del 14 al 21 de octubre: salieron unos 70.600 millones $ netos. La Fed redujo su balance en 2.000 millones $ (retira liquidez) y la cuenta del Tesoro subió 68.600 millones $ (también retira), mientras el repo inverso no cambió. En las últimas 4 semanas (del 23 de septiembre al 21 de octubre) la liquidez neta sube unos 31.300 millones $: tendencia aún positiva pese al bajón semanal, sin tensión en el repo permanente (2 millones $, 28 de octubre) ni en el repo inverso (176 millones $, 28 de octubre). El próximo dato del balance de la Fed se publica el jueves 29 de octubre a las 22:30 (Canarias/hora peninsular).",
+    "lectura": "Semana del 14 al 21 de octubre: salieron unos 70.600 millones $ netos. La Fed redujo su balance en 2.000 millones $ (retira liquidez) y la cuenta del Tesoro subió 68.600 millones $ (también retira), mientras el repo inverso no cambió. En las últimas 4 semanas (del 23 de septiembre al 21 de octubre) la liquidez neta sube unos 31.300 millones $: tendencia aún positiva pese al bajón semanal, sin tensión en el repo permanente (2 millones $, 28 de octubre) ni en el repo inverso (176 millones $, 28 de octubre). El próximo dato del balance de la Fed se publica el jueves 29 de octubre.",
     "neta": 5801.4,
     "repo": 0.002,
     "repoFecha": "2026-10-28",
@@ -1805,10 +1799,10 @@
         "valor": "29396"
       }
     ],
-    "lectura": "Niveles 0DTE de hoy (vencimiento 28 de octubre, día de la decisión de la Fed y de la rueda de prensa de Warsh, ambas ya conocidas), calculados por NanoFx con los contratos de Alpaca sobre open interest. En el S&P 500 el rango 0DTE va del put wall en 7.435 al call wall en 7.956, con el max pain en 7.696 y un put/call OI de 1,24. En el Nasdaq 100 el rango sigue muy estrecho, entre 29.190 y 29.396, con max pain también en 29.396 y un put/call OI de 0,74, señal de poca cobertura bajista en tecnología para el vencimiento de hoy; atención ahora a los resultados de Microsoft y Alphabet esta tarde y Amazon mañana como siguiente catalizador."
+    "lectura": "Niveles 0DTE de hoy (vencimiento 28 de octubre, día de la decisión de la Fed y de la rueda de prensa de Warsh, ambas ya conocidas), calculados por NanoFx con los contratos de Alpaca sobre open interest. En el S&P 500 el rango 0DTE va del put wall en 7.435 al call wall en 7.956, con el max pain en 7.696 y un put/call OI de 1,24. En el Nasdaq 100 el rango sigue muy estrecho, entre 29.190 y 29.396, con max pain también en 29.396 y un put/call OI de 0,74, señal de poca cobertura bajista en tecnología para el vencimiento de hoy. Sin cambios en estos niveles desde la última actualización (contratos OI del 26 de octubre); atención ahora a Amazon, que presenta resultados el jueves tras el cierre."
   },
   "politica": {
-    "actualizado": "2026-10-28T19:51:39Z",
+    "actualizado": "2026-10-28T21:46:00Z",
     "ajuste": -14,
     "declaraciones": [
       {
@@ -1853,7 +1847,7 @@
       }
     ],
     "efecto": "bajista",
-    "lectura": "En la rueda de prensa de las 18:30 UTC, Warsh dio pistas sutiles hacia una subida en diciembre (82,5 % ya en precio tras tocar 84,5 % justo después del comunicado) y propuso reducir el número de reuniones anuales de la Fed, insistiendo en que la política no influyó en la decisión de hoy. Irán sigue escalando en Ormuz y ahora los hutíes reivindican un ataque con misil contra la refinería saudí de Ras Tanura, empujando al petróleo al alza; Bessent defiende el dominio del dólar vía stablecoins.",
+    "lectura": "La Fed ya anunció que mantiene (10-2, con disidencias de Cook y Hammack a favor de subir) y Warsh, en su rueda de prensa de las 18:30 UTC, dio pistas sutiles hacia una subida en diciembre (82,5 % ya en precio) y propuso reducir el número de reuniones anuales de la Fed. Irán sigue escalando en Ormuz y ahora los hutíes reivindican un ataque con misil contra la refinería saudí de Ras Tanura, empujando al petróleo al alza; Bessent defiende el dominio del dólar vía stablecoins mientras el euro sigue cerca de mínimos de 17 meses antes del BCE de mañana.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1905,59 +1899,59 @@
       }
     ]
   },
-  "resumen": "Son las 21:17 UTC (21:17 Canarias) del miércoles 28 de octubre de 2026, tras el cierre de Wall Street y los resultados de Microsoft y Alphabet. La Fed mantuvo el tipo en 3,75-4,00 % (votación 10-2, con Cook y Hammack a favor de subir) y Warsh, en su rueda de prensa, dio pistas sutiles hacia una subida en diciembre sin comprometerse. El S&P 500 cerró en 7.743,98 puntos (+0,28 %); fuera de hora, el motor de opciones implica ahora 7.724 (-0,26 %) y el Nasdaq 100 29.565 (-0,42 %), tras un resultado mixto: Microsoft sube un 4 % al superar previsiones, mientras Alphabet cae por un fallo en ingresos y un mayor déficit de flujo de caja libre. La gamma se profundiza en negativo en ambos índices (SPX -4,49 mil M$ por 1 %, NDX -3,67). El petróleo sigue firme tras el ataque hutí reivindicado contra la refinería saudí de Ras Tanura (WTI ~101,7 $), el oro cae hacia 4.050 $/oz y bitcoin se mantiene sobre los 81.000 $. El PIB y el PCE de EE. UU., junto a la decisión del BCE, son los próximos catalizadores clave de mañana.",
+  "resumen": "Son las 21:46 UTC (21:46 Canarias) del miércoles 28 de octubre de 2026, tras el cierre de Wall Street. La Fed mantuvo el tipo en 3,75-4,00 % (votación 10-2, con Cook y Hammack a favor de subir) y Warsh, en su rueda de prensa, dio pistas sutiles hacia una subida en diciembre sin comprometerse y planteó reducir el número de reuniones anuales de la Fed. El S&P 500 cerró en 7.743,98 puntos (+0,28 %, tercera subida consecutiva) y el Nasdaq Composite en 26.549,85 (+0,27 %); fuera de hora el motor de opciones sigue implicando 7.724 en el S&P 500 y 29.565 en el Nasdaq 100, tras un resultado mixto de resultados: Microsoft sube un 4 % al superar previsiones, Alphabet y Fortinet caen. La gamma negativa se ha profundizado algo más en ambos índices (SPX -5,22 mil M$ por 1 %, NDX -3,93). El petróleo sigue firme tras el ataque hutí reivindicado contra la refinería saudí de Ras Tanura (WTI ~101-102 $), el oro cotiza en torno a 4.050 $/oz y bitcoin se mantiene sobre los 81.000 $. Amazon presenta resultados este jueves tras el cierre, y el PIB, el PCE de EE. UU. y la decisión del BCE de mañana son los próximos catalizadores clave.",
   "semana": {
     "activos": [
       {
-        "cambio": "La Fed ya anunció su decisión y Warsh ya dio su rueda de prensa: mantiene en 3,75-4,00 %, con dos disidencias a favor de subir, y pistas sutiles hacia diciembre sin comprometerse ni dar más orientación, además de plantear menos reuniones anuales de la Fed. El S&P 500 sube un +0,08 % implícito; Boeing y Xylem lastran al Dow. La gamma negativa se profundiza a -3,38 mil M$ por 1 % (antes -2,80), y los hutíes reivindican un ataque a la refinería saudí de Ras Tanura, añadiendo riesgo geopolítico.",
-        "expectativa": "El PIB avanzado del T3 (previsto ≈3,2 % frente al 2,2 % anterior) y el PCE de septiembre (previsto al alza) son los datos que más explican el sesgo bajista: una economía e inflación que no dan margen para relajar la política, sosteniendo un dólar firme justo cuando la Fed ya decidió mantener.",
+        "cambio": "Tras el cierre (S&P 500 +0,28 % a 7.743,98), la gamma negativa se profundiza algo más (-5,22 mil M$ por 1 %, antes -4,49) tras los resultados mixtos de Microsoft y Alphabet; sin cambios de fondo en política o calendario en la última media hora.",
+        "expectativa": "El PIB avanzado del T3 (previsto ≈3,2 % frente al 2,2 % anterior) y el PCE de mañana (previsto al alza) son los datos que más explican el sesgo bajista: una economía e inflación que no dan margen para relajar la política, sosteniendo un dólar firme justo cuando la Fed ya decidió mantener con dos disidencias hawkish.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+52): la fuerte sorpresa al alza en confianza del consumidor, pedidos de bienes duraderos y viviendas nuevas, junto al PIB y el PCE de mañana previstos al alza, son lo que más pesa. La Fed ya decidió mantener, con dos disidencias hawkish (Cook y Hammack) y Warsh dando pistas sutiles hacia diciembre sin comprometerse; la liquidez salió en términos netos la semana pasada y la gamma sigue negativa (-3,38 mil M$ por 1 %). El nuevo ataque hutí a la refinería saudí de Ras Tanura añade presión de riesgo geopolítico sobre el crudo, mientras Boeing y Xylem lastran al Dow tras resultados flojos.",
-        "score": -38,
+        "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+52): la fuerte sorpresa al alza en confianza del consumidor, pedidos de bienes duraderos y viviendas nuevas, junto al PIB y el PCE de mañana previstos al alza, son lo que más pesa. La Fed ya decidió mantener, con dos disidencias hawkish (Cook y Hammack) y Warsh dando pistas sutiles hacia diciembre sin comprometerse; la liquidez salió en términos netos la semana pasada y la gamma sigue negativa, profundizándose a -5,22 mil M$ por 1 % tras los resultados de Microsoft y Alphabet. El ataque hutí a la refinería saudí de Ras Tanura añade presión de riesgo geopolítico sobre el crudo, mientras Amazon presenta resultados mañana como siguiente catalizador.",
+        "score": -39,
         "scoreInicial": -40,
         "sesgo": "bajista"
       },
       {
-        "cambio": "La Fed ya anunció su decisión y Warsh ya dio su rueda de prensa: mantiene, con dos disidencias a favor de subir; el Nasdaq 100 sube un +0,11 % implícito con los semiconductores aún firmes tras SK Hynix, mientras Microsoft y Alphabet publican resultados esta tarde y Amazon mañana. La gamma negativa se profundiza algo a -1,87 mil M$ por 1 % (antes -1,68).",
+        "cambio": "La gamma negativa se profundiza a -3,93 mil M$ por 1 % (antes -3,67) tras Microsoft (+4 % fuera de hora) y Alphabet (cae por fallo en ingresos); Fortinet también cae. Amazon presenta resultados el jueves.",
         "expectativa": "El PCE subyacente (previsto ≈3,1 % frente al 3,0 % anterior) y el PIB avanzado son el filtro macro, pero esta semana el Nasdaq cotiza sobre todo los resultados de las grandes tecnológicas y el riesgo de capex en IA, no el calendario.",
         "id": "NQ",
-        "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+52), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo el resultado de Microsoft y Alphabet esta tarde y Amazon mañana, y el riesgo de capex en IA. La gamma negativa en el índice (-1,87 mil M$ por 1 %), la señal hawkish de las dos disidencias y las pistas de Warsh sobre diciembre, y la liquidez saliente añaden presión, aunque SK Hynix y los semiconductores lideran el rebote.",
-        "score": -41,
+        "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+52), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo la temporada de resultados: Microsoft bate previsiones y sube un 4 % fuera de hora, mientras Alphabet y Fortinet caen. La gamma negativa en el índice se profundiza a -3,93 mil M$ por 1 %, la señal hawkish de las dos disidencias y las pistas de Warsh sobre diciembre, y la liquidez saliente añaden presión; Amazon presenta resultados el jueves tras el cierre como siguiente catalizador clave.",
+        "score": -43,
         "scoreInicial": -47,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El oro cae a unos 4.050 $/oz (-0,3 %), presionado por el dólar en máximos de dos semanas (>102) y la subida del petróleo tras el ataque hutí a Ras Tanura; la Fed ya anunció que mantiene tipos y Warsh dejó pistas sutiles hacia diciembre, reforzando el sesgo de dólar fuerte.",
+        "cambio": "El oro se mantiene en torno a 4.050 $/oz, presionado por el dólar firme tras la Fed y la subida del petróleo; sin cambios relevantes en la última media hora.",
         "expectativa": "El PCE de septiembre y el PIB de mañana son el riesgo bajista a vigilar: si confirman una economía fuerte, el dólar se refuerza y el oro pierde parte de su soporte, aunque Ormuz y Ras Tanura ponen un suelo a corto plazo.",
         "id": "XAU",
-        "narrativa": "El calendario deja un balance de dólar fuerte (+52) que a corto plazo presiona al oro, reforzado por los datos de esta semana que batieron expectativas y por la señal hawkish de las dos disidencias y de Warsh en el FOMC de hoy. El oro cotiza en torno a 4.050 $/oz (-0,3 %), su nivel más bajo en varias sesiones, con el dólar en máximos de dos semanas. El ataque hutí a Ras Tanura y la escalada en Ormuz dan algo de soporte de refugio, pero de momento no basta para compensar la fortaleza del dólar antes del PCE/PIB de mañana y el BCE.",
+        "narrativa": "El calendario deja un balance de dólar fuerte (+52) que a corto plazo presiona al oro, reforzado por los datos de esta semana que batieron expectativas y por la señal hawkish de las dos disidencias y de Warsh en el FOMC de hoy. El oro cotiza en torno a 4.050 $/oz, con el dólar sostenido tras la decisión de la Fed. El ataque hutí a Ras Tanura y la escalada en Ormuz dan algo de soporte de refugio, que compensa buena parte de la presión del dólar antes del PCE/PIB de mañana y el BCE.",
         "score": -18,
         "scoreInicial": 15,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Bitcoin recupera los 81.000 $ tras confirmarse que la Fed mantiene tipos, mejorando algo frente a los mínimos de la noche cercanos a 79.000-80.000 $; las pistas de Warsh sobre diciembre siguen pesando, pero las entradas de ETF alivian parte de la presión bajista.",
+        "cambio": "Bitcoin se mantiene sobre los 81.000 $ tras confirmarse que la Fed mantiene tipos; sin cambios relevantes en la última media hora.",
         "expectativa": "Un PCE o un PIB más fuertes de lo previsto reforzarían el dólar y añadirían presión bajista adicional sobre bitcoin, dada su correlación actual con el riesgo tecnológico.",
         "id": "BTC",
-        "narrativa": "El calendario apoya un dólar fuerte esta semana (+52), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA. Tras tocar mínimos cercanos a 79.000-80.000 $ antes de la decisión, bitcoin recupera los 81.000 $ al confirmarse que la Fed mantiene tipos, con entradas netas de ETF. La señal hawkish de las dos disidencias y las pistas de Warsh sobre diciembre siguen siendo el principal lastre de fondo.",
+        "narrativa": "El calendario apoya un dólar fuerte esta semana (+52), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA. Tras tocar mínimos cercanos a 79.000-80.000 $ antes de la decisión, bitcoin se mantiene sobre los 81.000 $ con entradas netas de ETF. La señal hawkish de las dos disidencias y las pistas de Warsh sobre diciembre siguen siendo el principal lastre de fondo.",
         "score": -30,
         "scoreInicial": -34,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El petróleo acelera al alza (WTI +1,8 % hacia 101,7 $, Brent cerca de 115 $) tras la reivindicación hutí de un ataque con misil a la refinería saudí de Ras Tanura, sin cambios de fondo tras la decisión de la Fed (mantiene, dos disidencias hawkish, Warsh sin comprometerse sobre diciembre).",
+        "cambio": "El petróleo se mantiene firme (WTI ~101-102 $) tras la reivindicación hutí del ataque a Ras Tanura, sin cambios de fondo tras la decisión de la Fed.",
         "expectativa": "Cualquier confirmación de daños en Ras Tanura o nueva escalada en Ormuz sería el principal catalizador alcista a corto plazo; una tregua real o la confirmación de que no hubo daños serían el principal riesgo bajista.",
         "id": "WTI",
-        "narrativa": "El calendario apunta a un dólar fuerte esta semana, lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el Golfo: los hutíes afirman haber atacado con un misil balístico la refinería saudí de Ras Tanura (550.000 barriles/día), la mayor de Arabia Saudí, sin confirmación oficial de daños. El WTI sube hacia 101,7 $ (+1,8 %) y el Brent roza 115 $, sumándose a la tensión ya existente en el estrecho de Ormuz.",
+        "narrativa": "El calendario apunta a un dólar fuerte esta semana, lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el Golfo: los hutíes afirman haber atacado con un misil balístico la refinería saudí de Ras Tanura (550.000 barriles/día), la mayor de Arabia Saudí, sin confirmación oficial de daños. El WTI se mantiene en torno a 101-102 $, sumándose a la tensión ya existente en el estrecho de Ormuz.",
         "score": 30,
         "scoreInicial": 27,
         "sesgo": "alcista"
       },
       {
-        "cambio": "El euro se mantiene cerca de mínimos de 17 meses en torno a 1,1134, con el índice dólar por encima de 102; la Fed ya anunció que mantiene tipos, con dos disidencias hawkish y Warsh sin dar orientación sobre diciembre, antes del BCE de mañana.",
-        "expectativa": "El PIB de la eurozona de mañana es el dato que más pesa: una confirmación de la desaceleración reforzaría la caída del euro, mientras que un BCE más duro de lo esperado podría dar un respiro puntual.",
+        "cambio": "El euro se mantiene cerca de mínimos de 17 meses en torno a 1,1134, con el índice dólar por encima de 102 tras la Fed; sin cambios relevantes en la última media hora.",
+        "expectativa": "El PIB de la eurozona de mañana (previsto ≈0,2 % t/t frente al 0,4 % anterior) es el dato que más pesa: una confirmación de la desaceleración reforzaría la caída del euro, mientras que un BCE más duro de lo esperado podría dar un respiro puntual.",
         "id": "EURUSD",
-        "narrativa": "El calendario deja un balance algo menos negativo para el euro que a principios de semana (-9, por el IFO alemán mejor de lo esperado), pero el PIB preliminar del T3 de la eurozona (previsto muy por debajo del anterior, ≈0,1 % frente a 0,6 % t/t), la señal hawkish de las dos disidencias y de Warsh en el FOMC de hoy, y el BCE de mañana con Lagarde cautelosa, mantienen la presión bajista. El par cotiza en torno a 1,1134, cerca de su mínimo de 17 meses en 1,1113, con el índice dólar por encima de 102.",
+        "narrativa": "El calendario deja un balance algo menos negativo para el euro que a principios de semana (-9, por el IFO alemán mejor de lo esperado), pero el PIB preliminar del T3 de la eurozona (previsto ≈0,2 % frente a 0,4 % t/t anterior), la señal hawkish de las dos disidencias y de Warsh en el FOMC de hoy, y el BCE de mañana con Lagarde cautelosa, mantienen la presión bajista. El par cotiza en torno a 1,1134, cerca de su mínimo de 17 meses en 1,1113, con el índice dólar por encima de 102.",
         "score": -38,
         "scoreInicial": -30,
         "sesgo": "bajista"
@@ -1972,7 +1966,7 @@
         "WTI": -26,
         "XAU": -52
       },
-      "actualizado": "2026-10-28T19:51:39Z",
+      "actualizado": "2026-10-28T21:46:13Z",
       "dolar": 52,
       "dolarEsperado": 45,
       "euro": -9
@@ -2025,7 +2019,7 @@
         "fecha": "2026-10-28",
         "horaUtc": "18:00",
         "impacto": "alto",
-        "lectura": "La Fed mantuvo los tipos en 3,75-4,00 %, como esperaba el mercado, pero con dos disidencias —Cook y Hammack— que pedían subir 25 pb: la señal hawkish más fuerte de este ciclo. El comunicado describe la actividad económica como 'en expansión fuerte' (antes 'sólida') y mantiene que 'la inflación sigue elevada'. En la rueda de prensa de las 18:30 UTC, Warsh dio pistas sutiles hacia una subida en diciembre, propuso reducir el número de reuniones anuales de la Fed, rechazó dar más orientación y dijo que la política no influyó en la decisión; la probabilidad de subida en diciembre se sitúa en el 82,5 % tras tocar un pico de 84,5 % justo después del comunicado.",
+        "lectura": "La Fed mantuvo los tipos en 3,75-4,00 %, como esperaba el mercado, pero con dos disidencias —Cook y Hammack— que pedían subir 25 pb: la señal hawkish más fuerte de este ciclo. En la rueda de prensa, Warsh dio pistas sutiles hacia una subida en diciembre, propuso reducir el número de reuniones anuales de la Fed y rechazó dar más orientación; la probabilidad de subida en diciembre se mantiene en el 82,5 % tras tocar un pico de 84,5 % justo después del comunicado.",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "Mantener en 3,75-4,00 % (muy probable)"
@@ -2236,10 +2230,10 @@
       },
       {
         "actual": null,
-        "anterior": "0,6 % t/t",
+        "anterior": "0,4 % t/t",
         "casos": [
           {
-            "condicion": "Por encima de lo previsto (>0,1 %)",
+            "condicion": "Por encima de lo previsto (>0,2 %)",
             "impactos": {
               "BTC": "alcista",
               "EURUSD": "alcista",
@@ -2251,7 +2245,7 @@
             "nota": "Eurozona resiliente: alivio global."
           },
           {
-            "condicion": "En línea (≈0,1 %)",
+            "condicion": "En línea (≈0,2 %)",
             "impactos": {
               "BTC": "neutral",
               "EURUSD": "neutral",
@@ -2277,19 +2271,19 @@
         ],
         "estado": "pendiente",
         "evento": "PIB (T3 2026, estimación preliminar, eurozona)",
-        "expectativa": "Se espera una desaceleración marcada frente al trimestre anterior, coherente con el fallo reciente del ZEW y los PMI; confirma o desmiente el enfriamiento del crecimiento europeo.",
+        "expectativa": "Se espera una desaceleración frente al trimestre anterior, con consenso de Trading Economics y Societe Generale en torno al 0,2 % t/t (1,1 % a/a); confirma o desmiente el enfriamiento del crecimiento europeo.",
         "fecha": "2026-10-30",
         "horaUtc": "10:00",
         "impacto": "alto",
         "ocurrido": false,
         "pais": "Eurozona",
-        "previsto": "≈0,1 % t/t"
+        "previsto": "≈0,2 % t/t"
       }
     ],
     "pesoCalendario": 0.35,
     "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa, la amenaza de Irán en Ormuz y la indefinición de Warsh.",
     "rango": "26 a 30 de octubre de 2026"
   },
-  "slot": "rapida",
-  "updatedAt": "2026-10-28T21:17:06Z"
+  "slot": "cierre",
+  "updatedAt": "2026-10-28T21:46:13Z"
 }
