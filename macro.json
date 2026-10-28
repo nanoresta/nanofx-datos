@@ -358,24 +358,24 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-28T15:23:58Z",
+    "actualizado": "2026-10-28T15:54:25Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos hoy, 28 de octubre, se mantiene en el 5,5 % (mantener 94,0 %, tasa implícita 3,89 %), con la decisión a las 18:00 UTC (dentro de unas 2 horas y media) y la rueda de prensa de Kevin Warsh a las 18:30 UTC. La probabilidad de una subida en diciembre baja ligeramente al 80,5 % (antes 81,0 %; mantener 17,0 %, tasa implícita 4,09 %).",
+    "lectura": "La probabilidad de que la Fed suba tipos hoy, 28 de octubre, baja al 4,5 % (antes 5,5 %; mantener 95,0 %, tasa implícita 3,89 %), con la decisión a las 18:00 UTC (dentro de aproximadamente 1 hora y 45 minutos) y la rueda de prensa de Kevin Warsh a las 18:30 UTC. La probabilidad de una subida en diciembre sube al 82,0 % (antes 80,5 %; mantener 15,5 %, tasa implícita 4,10 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-10-28",
-        "mantener": 94,
-        "subir": 5.5,
+        "mantener": 95,
+        "subir": 4.5,
         "tasaImplicita": 3.89
       },
       {
         "bajar": 2.5,
         "fecha": "2026-12-09",
-        "mantener": 17,
-        "subir": 80.5,
-        "tasaImplicita": 4.09
+        "mantener": 15.5,
+        "subir": 82,
+        "tasaImplicita": 4.1
       },
       {
         "bajar": 6,
@@ -389,7 +389,7 @@
         "fecha": "2027-03-17",
         "mantener": 4.5,
         "subir": 91.5,
-        "tasaImplicita": 4.43
+        "tasaImplicita": 4.47
       },
       {
         "bajar": 1.5,
@@ -1240,29 +1240,57 @@
     {
       "nombre": "InvestingLive · FOMC Preview: a hawkish hold as markets watch for signals",
       "url": "https://investinglive.com/central-banks/fomc-preview-a-hawkish-hold-as-markets-watch-for-signals-about-timing-and-extent-of-further-tightening/"
+    },
+    {
+      "nombre": "Upstox · US markets today: Nasdaq 100, Dow Jones and S&P 500 trade on the flat line ahead of Fed decision; SK Hynix soars 10% (28 oct)",
+      "url": "https://upstox.com/news/market-news/us-stocks/us-markets-today-nasdaq-100-dow-jones-and-s-and-p-500-trade-on-the-flat-line-ahead-of-fed-decision-sk-hynix-soars-10/article-202577/"
+    },
+    {
+      "nombre": "CNBC · Fed meeting live updates: No hike expected, but investors watching Warsh for what's next (28 oct)",
+      "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
+    },
+    {
+      "nombre": "InvestingLive · European session wrap: Stocks tread cautiously as Fed decision and big tech earnings loom (28 oct)",
+      "url": "https://investinglive.com/news/investinglive-european-fx-news-wrap-28-oct/"
+    },
+    {
+      "nombre": "Fortune · Current price of gold: October 28, 2026",
+      "url": "https://fortune.com/article/current-price-of-gold-10-28-2026/"
+    },
+    {
+      "nombre": "Fortune · Current price of Bitcoin for Oct. 28, 2026",
+      "url": "https://fortune.com/article/price-of-bitcoin-10-28-2026"
+    },
+    {
+      "nombre": "Worldoilmonitor · WTI Crude Oil Price Today (28 oct, ~101,97 $)",
+      "url": "https://worldoilmonitor.com/wti"
+    },
+    {
+      "nombre": "NordFX · Market Pulse, October 28 2026",
+      "url": "https://nordfx.com/market-news/market-pulse-october-28-2026"
     }
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 15:24 UTC (implícito del motor de opciones SPY, frente al cierre de ayer en 7.722,60); mercado de EE. UU. en sesión, a la espera de la decisión de la Fed a las 18:00 UTC",
-      "changePct": 0.21,
+      "changeNote": "en vivo, 16:16 UTC (implícito del motor de opciones SPY, frente al cierre de ayer en 7.722,60); mercado de EE. UU. en sesión (abrió +0,17 % a 7.735,56 según Reuters), con SK Hynix (+10 %) impulsando a los semiconductores, a la espera de la decisión de la Fed a las 18:00 UTC",
+      "changePct": 0.17,
       "claves": [
         "Call wall en 7826 (SPY 780,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -2,68 mil M$ por 1 %.",
-        "Giro de gamma en 7776 (SPY 775,03), por encima del precio: la gamma sigue negativa.",
+        "Régimen de gamma negativa en -3,00 mil M$ por 1 %.",
+        "Giro de gamma en 7776 (SPY 774,98), por encima del precio: la gamma sigue negativa.",
         "Put wall en 7525 (SPY 750,0); put/call OI 1,59."
       ],
       "gex": {
         "callWall": 780,
-        "contratos": 1754,
+        "contratos": 1760,
         "etf": "SPY",
-        "gammaFlip": 775.03,
-        "gexTotal": -2.68,
+        "gammaFlip": 774.98,
+        "gexTotal": -3,
         "indice": {
           "callWall": 7826,
           "gammaFlip": 7776,
           "maxPain": 7696,
-          "precio": 7739,
+          "precio": 7736,
           "putWall": 7525
         },
         "maxPain": 767,
@@ -1285,7 +1313,7 @@
         },
         "oiFecha": "2026-10-26",
         "pcrOI": 1.59,
-        "precio": 771.3,
+        "precio": 771.02,
         "putWall": 750,
         "ratioFecha": "2026-10-27",
         "ratioIndice": 10.0333,
@@ -1293,43 +1321,43 @@
         "vencimientoCercano": "2026-10-28"
       },
       "id": "SPX",
-      "lectura": "Son las 15:25 UTC (15:25 Canarias) del miércoles 28 de octubre de 2026, con el S&P 500 implícito en 7.739 puntos (+0,21 % frente al cierre de ayer en 7.722,60) y el mercado de EE. UU. en sesión. Quedan unas 2 horas y media para la decisión de la Fed (18:00 UTC), con la probabilidad de subida hoy en el 5,5 % y la de diciembre en el 80,5 % (antes 81,0 %). La gamma negativa se ha moderado algo a -2,68 mil M$ por 1 % (antes -3,20), con el precio bajo el giro de gamma en 7.776 y el call wall en 7.826 limitando el rebote; el put wall está en 7.525 con un put/call OI de 1,59. Lo que más pesa hoy: el FOMC de esta tarde y el riesgo de disidencia halcón de Hammack, Kashkari y Logan, con el PIB y el PCE de mañana como siguiente catalizador. Sesgo: bajista, moderado por la proximidad de la decisión.",
+      "lectura": "Son las 16:16 UTC (16:16 Canarias) del miércoles 28 de octubre de 2026, con el S&P 500 implícito en 7.736 puntos (+0,17 % frente al cierre de ayer en 7.722,60), en línea con la apertura real de 7.735,56 según Reuters, y el mercado de EE. UU. en sesión mientras los semiconductores suben con fuerza tras los resultados de SK Hynix. Quedan aproximadamente 1 hora y 45 minutos para la decisión de la Fed (18:00 UTC) y 2 horas y 15 minutos para la rueda de prensa de Warsh, con la probabilidad de subida hoy bajando al 4,5 % y la de diciembre subiendo al 82,0 %. La gamma sigue negativa en -3,00 mil M$ por 1 %, con el precio bajo el giro de gamma en 7.776 y el call wall en 7.826 limitando el rebote; el put wall está en 7.525 con un put/call OI de 1,59. Lo que más pesa hoy: el riesgo de disidencia halcón de Hammack, Kashkari y Logan en el FOMC, el dólar cerca de máximos de dos semanas y el PIB/PCE de mañana como siguiente catalizador. Sesgo: bajista, moderado por la proximidad de la decisión y el tono casi plano de la sesión.",
       "levels": {
         "callWall": 7826,
         "gammaFlip": 7776,
         "maxPain": 7696,
-        "precio": 7739,
+        "precio": 7736,
         "putWall": 7525
       },
       "name": "S&P 500",
-      "netGex": "negativa (-2,68 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-26)",
-      "precio": 7739,
+      "netGex": "negativa (-3,00 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-26)",
+      "precio": 7736,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -28,
+      "score": -25,
       "sesgo": "bajista",
-      "spot": 7739
+      "spot": 7736
     },
     {
-      "changeNote": "en vivo, 15:24 UTC (implícito del motor de opciones QQQ, frente a la lectura de las 14:23 UTC); mercado de EE. UU. en sesión, con foco en resultados de Microsoft y Alphabet esta tarde",
-      "changePct": 0.12,
+      "changeNote": "en vivo, 16:16 UTC (implícito del motor de opciones QQQ); mercado de EE. UU. en sesión, con SK Hynix (+10 %) impulsando a los semiconductores y foco en resultados de Microsoft y Alphabet esta tarde",
+      "changePct": 0.08,
       "claves": [
         "Call wall en 29601 (QQQ 720,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -1,88 mil M$ por 1 %.",
-        "Giro de gamma en 30018 (QQQ 730,14), por encima del precio: la gamma sigue negativa.",
+        "Régimen de gamma negativa en -1,99 mil M$ por 1 %.",
+        "Giro de gamma en 30011 (QQQ 729,96), por encima del precio: la gamma sigue negativa.",
         "Put wall en 29601 (QQQ 720,0), igualado con el call wall; put/call OI 1,37."
       ],
       "gex": {
         "callWall": 720,
-        "contratos": 1763,
+        "contratos": 1761,
         "etf": "QQQ",
-        "gammaFlip": 730.14,
-        "gexTotal": -1.88,
+        "gammaFlip": 729.96,
+        "gexTotal": -1.99,
         "indice": {
           "callWall": 29601,
-          "gammaFlip": 30018,
+          "gammaFlip": 30011,
           "maxPain": 29396,
-          "precio": 29692,
+          "precio": 29679,
           "putWall": 29601
         },
         "maxPain": 715,
@@ -1352,7 +1380,7 @@
         },
         "oiFecha": "2026-10-26",
         "pcrOI": 1.37,
-        "precio": 722.21,
+        "precio": 721.89,
         "putWall": 720,
         "ratioFecha": "2026-10-27",
         "ratioIndice": 41.1129,
@@ -1360,22 +1388,22 @@
         "vencimientoCercano": "2026-10-28"
       },
       "id": "NDX",
-      "lectura": "Son las 15:25 UTC (15:25 Canarias) del miércoles 28 de octubre de 2026; el Nasdaq 100 implícito del motor de opciones está en 29.692 puntos (+0,12 % frente a la lectura de las 14:23 UTC), con el mercado de EE. UU. en sesión. Microsoft y Alphabet presentan resultados esta tarde y Amazon mañana, con el riesgo de capex en IA como principal catalizador de la semana. La gamma negativa se ha moderado a -1,88 mil M$ por 1 % (antes -2,20), con el call wall en 29.601 y el giro de gamma en 30.018 por encima del precio; el put wall ha subido hasta igualarse con el call wall en 29.601. Quedan unas 2 horas y media para el anuncio de la Fed (18:00 UTC), con la probabilidad de subida hoy en el 5,5 % y de diciembre en el 80,5 % (antes 81,0 %). Sesgo: bajista, moderado por el dato de alto impacto de hoy y los resultados tecnológicos de esta tarde.",
+      "lectura": "Son las 16:16 UTC (16:16 Canarias) del miércoles 28 de octubre de 2026; el Nasdaq 100 implícito del motor de opciones está en 29.679 puntos (+0,08 %), con el mercado de EE. UU. en sesión mientras SK Hynix dispara un 10 % y arrastra a los semiconductores al alza. Microsoft y Alphabet presentan resultados esta tarde y Amazon mañana, con el riesgo de capex en IA como principal catalizador de la semana. La gamma negativa se mantiene en -1,99 mil M$ por 1 %, con el call wall en 29.601 y el giro de gamma en 30.011 por encima del precio; el put wall sigue igualado con el call wall en 29.601. Quedan aproximadamente 1 hora y 45 minutos para el anuncio de la Fed (18:00 UTC). Sesgo: bajista, moderado por el dato de alto impacto de hoy y la fortaleza de los semiconductores.",
       "levels": {
         "callWall": 29601,
-        "gammaFlip": 30018,
+        "gammaFlip": 30011,
         "maxPain": 29396,
-        "precio": 29692,
+        "precio": 29679,
         "putWall": 29601
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-1,88 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-26)",
-      "precio": 29692,
+      "netGex": "negativa (-1,99 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-26)",
+      "precio": 29679,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -30,
+      "score": -27,
       "sesgo": "bajista",
-      "spot": 29692
+      "spot": 29679
     }
   ],
   "liquidez": {
@@ -1514,6 +1542,18 @@
   "noticias": [
     {
       "activos": {
+        "NQ": "alcista",
+        "SPX": "neutral"
+      },
+      "fuente": "Upstox / CNBC",
+      "impacto": "medio",
+      "resumen": "A media sesión el S&P 500 ronda los 7.730-7.735 puntos (+0,1-0,2 %) y el Nasdaq 100 los 29.650 puntos, con el Dow mixto, mientras los resultados de SK Hynix impulsan a los semiconductores a la espera de la decisión de la Fed a las 18:00 UTC y los resultados de Microsoft y Alphabet esta tarde.",
+      "titular": "El S&P 500 y el Nasdaq cotizan casi planos antes de la Fed; SK Hynix dispara los chips un 10 %",
+      "ts": "2026-10-28T15:10:00Z",
+      "url": "https://upstox.com/news/market-news/us-stocks/us-markets-today-nasdaq-100-dow-jones-and-s-and-p-500-trade-on-the-flat-line-ahead-of-fed-decision-sk-hynix-soars-10/article-202577/"
+    },
+    {
+      "activos": {
         "EURUSD": "bajista"
       },
       "fuente": "FXStreet",
@@ -1634,7 +1674,7 @@
       },
       "fuente": "Investing.com",
       "impacto": "alto",
-      "resumen": "El Brent sube a 111 $ (+1,5 %) y el WTI a 101,5 $ (+1,6 %) tras informes de que Washington pidió a países del Golfo prepararse para una posible nueva campaña contra Irán tras las elecciones de mitad de mandato.",
+      "resumen": "El Brent sube a 111 $ (+1,5 %) y el WTI a 101,5-102 $ (+1,6-2 %) tras informes de que Washington pidió a países del Golfo prepararse para una posible nueva campaña contra Irán tras las elecciones de mitad de mandato.",
       "titular": "El petróleo sube con fuerza ante una posible nueva ofensiva de EE. UU. contra Irán",
       "ts": "2026-10-28T05:10:00Z",
       "url": "https://investing.com/analysis/oil-keeps-pushing-gold-slides-bitcoin-struggles-200630885"
@@ -1671,17 +1711,6 @@
       "titular": "Los ETF de bitcoin cortan dos días de salidas con entradas netas de 110 millones $",
       "ts": "2026-10-28T04:45:00Z",
       "url": "https://whyitmoved.substack.com/p/daily-market-report-wednesday-october-880"
-    },
-    {
-      "activos": {
-        "XAU": "alcista"
-      },
-      "fuente": "Kitco",
-      "impacto": "medio",
-      "resumen": "El oro cotiza por encima de 4.050 $/oz y Wall Street cierra al alza antes del anuncio de la Fed de hoy.",
-      "titular": "El oro supera los 4.050 $/oz mientras Wall Street sube antes de la decisión de la Fed",
-      "ts": "2026-10-27T21:38:00Z",
-      "url": "https://kitco.com/news/article/2026-10-27/gold-climbs-above-4050-wall-street-rallies-ahead-fed-decision-kitco-pm"
     }
   ],
   "odte": {
@@ -1717,10 +1746,10 @@
         "valor": "29396"
       }
     ],
-    "lectura": "Niveles 0DTE de hoy (vencimiento 28 de octubre, día de la decisión de la Fed), calculados por NanoFx con los contratos de Alpaca sobre open interest. En el S&P 500 el rango 0DTE va del put wall en 7.435 al call wall en 7.956, con el max pain en 7.696 y un put/call OI de 1,24. En el Nasdaq 100 el rango es muy estrecho, entre 29.190 y 29.396, con max pain también en 29.396 y un put/call OI de 0,73 (predominio de calls), señal de poca cobertura bajista en tecnología para el vencimiento de hoy, con todo el movimiento de la tarde (FOMC a las 18:00 UTC, dentro de unas 2 horas y media) por decidir."
+    "lectura": "Niveles 0DTE de hoy (vencimiento 28 de octubre, día de la decisión de la Fed), calculados por NanoFx con los contratos de Alpaca sobre open interest. En el S&P 500 el rango 0DTE va del put wall en 7.435 al call wall en 7.956, con el max pain en 7.696 y un put/call OI de 1,24. En el Nasdaq 100 el rango es muy estrecho, entre 29.190 y 29.396, con max pain también en 29.396 y un put/call OI de 0,73 (predominio de calls), señal de poca cobertura bajista en tecnología para el vencimiento de hoy, con todo el movimiento de la tarde (FOMC a las 18:00 UTC, dentro de unas 2 horas) por decidir."
   },
   "politica": {
-    "actualizado": "2026-10-28T12:50:00Z",
+    "actualizado": "2026-10-28T15:55:00Z",
     "ajuste": -7,
     "declaraciones": [
       {
@@ -1765,7 +1794,7 @@
       }
     ],
     "efecto": "mixto",
-    "lectura": "La Fed decide hoy con la probabilidad de subida más baja del ciclo (3,5 %, sin cambios), mientras el mercado mantiene el 82,5 % en precio para diciembre (frente al 87,0 % de hace unos días); faltan unas 5 horas y 10 minutos para el anuncio (18:00 UTC) y la rueda de prensa de Warsh (18:30 UTC). Irán sigue escalando en Ormuz (otro petrolero incendiado el 27 de octubre) mientras Bessent defiende el dominio del dólar vía stablecoins y Trump resta importancia al riesgo inflacionario de los aranceles.",
+    "lectura": "La Fed decide hoy con la probabilidad de subida más baja del ciclo (5,5 %, sin cambios), mientras el mercado mantiene el 80,5 % en precio para diciembre; faltan unas 2 horas para el anuncio (18:00 UTC) y 2 horas y media para la rueda de prensa de Warsh. Irán sigue escalando en Ormuz, con informes de que Washington pidió a países del Golfo prepararse para una posible nueva ofensiva tras los comicios de mitad de mandato, mientras Bessent defiende el dominio del dólar vía stablecoins y Trump resta importancia al riesgo inflacionario de los aranceles.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1817,60 +1846,60 @@
       }
     ]
   },
-  "resumen": "Son las 15:25 UTC (15:25 Canarias) del miércoles 28 de octubre de 2026, con el mercado de EE. UU. en sesión (11:25 hora de Nueva York) y la decisión de la Fed a las 18:00 UTC, dentro de unas 2 horas y media. El S&P 500 implícito del motor de opciones está en 7.739 puntos (+0,21 % frente al cierre de ayer en 7.722,60) y el Nasdaq 100 en 29.692 puntos. La probabilidad de una subida hoy se mantiene en el 5,5 % (mantener 94,0 %) y la de diciembre baja ligeramente al 80,5 % (antes 81,0 %), con el dólar cerca de máximos de dos semanas y el euro en mínimos de 17 meses en torno a 1,1113-1,1134 ante el riesgo fiscal francés y el BCE de mañana. El oro sigue por debajo de 4.100 $/oz, el petróleo se mantiene firme por la escalada en Oriente Medio y bitcoin ronda los 81.000 $. La gamma negativa se ha moderado algo en el S&P 500 (-2,68 mil M$ por 1 %) y en el Nasdaq 100 (-1,88 mil M$ por 1 %), con Microsoft y Alphabet publicando resultados esta tarde y Amazon mañana.",
+  "resumen": "Son las 16:16 UTC (16:16 Canarias) del miércoles 28 de octubre de 2026, con el mercado de EE. UU. en sesión (12:16 hora de Nueva York) y la decisión de la Fed a las 18:00 UTC, dentro de aproximadamente 1 hora y 45 minutos. El S&P 500 implícito del motor de opciones está en 7.736 puntos (+0,17 % frente al cierre de ayer), en línea con la apertura real de 7.735,56 según Reuters, y el Nasdaq 100 en 29.679 puntos (+0,08 %), con ambos índices cotizando casi planos mientras SK Hynix (+10 %) impulsa a los semiconductores antes de los resultados de Microsoft y Alphabet esta tarde. La probabilidad de una subida hoy baja al 4,5 % (mantener 95,0 %) y la de diciembre sube al 82,0 %, con el dólar cerca de máximos de dos semanas (índice dólar ~102,5) y el euro en torno a 1,1119-1,1134 ante el riesgo fiscal francés y el BCE de mañana. El oro se mantiene por debajo de 4.100 $/oz (en torno a 4.030-4.060 $), el petróleo WTI sigue fuerte hacia 100-102 $ (Brent ~111 $) por la escalada en Ormuz, y bitcoin ronda los 80.000-81.500 $. La gamma sigue negativa en el S&P 500 (-3,00 mil M$ por 1 %) y en el Nasdaq 100 (-1,99 mil M$ por 1 %).",
   "semana": {
     "activos": [
       {
-        "cambio": "Sin cambios de fondo a media tarde europea: la probabilidad de subida en diciembre baja ligeramente al 81,0 % (antes 83,5 %) y la gamma negativa se intensifica algo (-3,20 mil M$ por 1 %), con la decisión de la Fed ya a unas 3 horas y media.",
+        "cambio": "A media sesión el S&P 500 cotiza casi plano (en torno a +0,1-0,2 %) y los semiconductores suben con fuerza tras SK Hynix (+10 %); sin cambios de fondo, con la decisión de la Fed ya a unas 2 horas.",
         "expectativa": "El PIB avanzado del T3 (previsto ≈3,2 % frente al 2,2 % anterior) y el PCE de septiembre (previsto al alza) son los datos que más explican el sesgo bajista: una economía e inflación que no dan margen para relajar la política, sosteniendo un dólar firme justo cuando la Fed decide.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+52, algo más que el +50 de ayer): la fuerte sorpresa al alza en confianza del consumidor (91,7 frente a 81,2 previsto), pedidos de bienes duraderos (+1,8 % frente a +1,2 %) y viviendas nuevas, junto al PIB y el PCE del jueves previstos al alza, son lo que más pesa. La Fed decide hoy (82,5 % ya en precio para diciembre, frente al 87,0 % de ayer, con riesgo de disidencia halcón de Hammack, Kashkari y Logan), la liquidez salió en términos netos la semana pasada y la gamma sigue negativa en el índice. Irán, con otro petrolero incendiado el 27 de octubre en Ormuz, sigue pesando más que el alivio de Bessent sobre el boom de la IA.",
-        "score": -38,
+        "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+52): la fuerte sorpresa al alza en confianza del consumidor (91,7 frente a 81,2 previsto), pedidos de bienes duraderos (+1,8 % frente a +1,2 %) y viviendas nuevas, junto al PIB y el PCE de mañana previstos al alza, son lo que más pesa. La Fed decide hoy (80,5 % ya en precio para diciembre, con riesgo de disidencia halcón de Hammack, Kashkari y Logan), la liquidez salió en términos netos la semana pasada y la gamma sigue negativa en el índice. Irán, con informes de que Washington prepara a los países del Golfo para una posible nueva ofensiva, sigue pesando más que el alivio de Bessent sobre el boom de la IA.",
+        "score": -37,
         "scoreInicial": -40,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Sin cambios de fondo: la gamma negativa se intensifica (-2,20 mil M$ por 1 %) de cara a los resultados de Microsoft y Alphabet esta tarde, con la probabilidad de subida en diciembre bajando ligeramente al 81,0 % (antes 83,5 %).",
+        "cambio": "El Nasdaq 100 se mantiene casi plano pese al rally de SK Hynix (+10 %), con Microsoft y Alphabet publicando resultados esta tarde y Amazon mañana; la gamma negativa no ha cambiado (-1,88 mil M$ por 1 %).",
         "expectativa": "El PCE subyacente (previsto ≈3,1 % frente al 3,0 % anterior) y el PIB avanzado son el filtro macro, pero esta semana el Nasdaq cotiza sobre todo los resultados de las grandes tecnológicas y el riesgo de capex en IA, no el calendario.",
         "id": "NQ",
-        "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+52), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo el estrés de financiación de la IA tras los resultados de Microsoft y Alphabet esta tarde y Amazon mañana. La gamma negativa en el índice, el FOMC de hoy (con riesgo de disidencia halcón) y la liquidez saliente añaden presión, aunque Bessent descarta un problema sistémico en el boom de la IA y los semiconductores siguen liderando el rebote.",
-        "score": -40,
+        "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+52), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo el estrés de financiación de la IA tras los resultados de Microsoft y Alphabet esta tarde y Amazon mañana. La gamma negativa en el índice, el FOMC de hoy (con riesgo de disidencia halcón) y la liquidez saliente añaden presión, aunque SK Hynix y los semiconductores lideran el rebote y Bessent descarta un problema sistémico en el boom de la IA.",
+        "score": -39,
         "scoreInicial": -47,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Se mantiene neutral: el dólar fuerte antes de la Fed sigue compensando el soporte geopolítico de Ormuz.",
+        "cambio": "El oro se mantiene por debajo de 4.100 $/oz (en torno a 4.030-4.060 $ según fuentes), presionado por el dólar en máximos de dos semanas, sin cambios de fondo.",
         "expectativa": "El PCE de septiembre y el PIB de mañana son el riesgo bajista a vigilar: si confirman una economía fuerte, el dólar se refuerza y el oro pierde parte de su soporte, aunque Ormuz pone un suelo a corto plazo.",
         "id": "XAU",
-        "narrativa": "El calendario deja un balance de dólar fuerte (+52) que a corto plazo presiona al oro, y los datos de ayer (confianza del consumidor, pedidos de bienes duraderos) batieron expectativas con fuerza, reforzando esa lectura. Pero la escalada geopolítica en Ormuz (otro petrolero incendiado el 27 de octubre) sigue sosteniendo la demanda de refugio, y la incertidumbre sobre el FOMC de hoy y el BCE de mañana deja a los inversores con cobertura ante cualquier sorpresa.",
-        "score": -2,
+        "narrativa": "El calendario deja un balance de dólar fuerte (+52) que a corto plazo presiona al oro, reforzado por los datos de esta semana (confianza del consumidor, pedidos de bienes duraderos) que batieron expectativas. Pero la escalada geopolítica en Ormuz, con los informes de una posible nueva ofensiva de EE. UU. contra Irán, sigue sosteniendo la demanda de refugio, y la incertidumbre sobre el FOMC de hoy y el BCE de mañana deja a los inversores con cobertura ante cualquier sorpresa.",
+        "score": -5,
         "scoreInicial": 15,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Sin cambios relevantes: bitcoin se mantiene estable cerca de 80.800 $ a la espera del FOMC de esta tarde.",
+        "cambio": "Bitcoin se mantiene en torno a 80.000-81.400 $, con entradas netas de ETF de 110 millones $ cortando dos días de salidas, pero con ballenas moviendo cerca de 500 millones $ a Coinbase Prime durante la noche.",
         "expectativa": "Un PCE o un PIB más fuertes de lo previsto reforzarían el dólar y añadirían presión bajista adicional sobre bitcoin, dada su correlación actual con el riesgo tecnológico.",
         "id": "BTC",
-        "narrativa": "El calendario apoya un dólar fuerte esta semana (+52), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA: cotiza en torno a 80.000-81.000 $, con salidas de ETF recientes. El FOMC de hoy es el próximo catalizador, y Bessent defendiendo el dominio del dólar vía stablecoins añade un matiz mixto para el activo.",
+        "narrativa": "El calendario apoya un dólar fuerte esta semana (+52), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA: cotiza en torno a 80.000-81.400 $, con flujos de ETF mixtos (entradas netas de 110 millones $ tras dos días de salidas, pero ballenas moviendo fondos a exchanges). El FOMC de hoy es el próximo catalizador, y Bessent defendiendo el dominio del dólar vía stablecoins añade un matiz mixto para el activo.",
         "score": -34,
         "scoreInicial": -34,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Sin cambios de fondo: la escalada en Ormuz y la posible nueva ofensiva de EE. UU. contra Irán siguen dominando sobre el dólar fuerte del calendario.",
-        "expectativa": "Cualquier nueva escalada en Ormuz sería el principal catalizador alcista a corto plazo; una tregua real o más alivio de sanciones rusas serían el principal riesgo bajista.",
+        "cambio": "El petróleo intensifica su subida (WTI en torno a 100-102 $, Brent ~111 $) tras informes de que Washington pidió a países del Golfo prepararse ante una posible nueva ofensiva de EE. UU. contra Irán tras las elecciones de mitad de mandato.",
+        "expectativa": "Cualquier nueva escalada en Ormuz o confirmación de una ofensiva de EE. UU. sería el principal catalizador alcista a corto plazo; una tregua real o más alivio de sanciones rusas serían el principal riesgo bajista.",
         "id": "WTI",
-        "narrativa": "El calendario apunta a un dólar fuerte esta semana, lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el estrecho de Ormuz (otro petrolero incendiado el 27 de octubre). El WTI cotiza en torno a 100-102 $, con la OPEP+ manteniendo sin cambios su producción de noviembre y Trump aliviando sanciones al petróleo ruso para añadir oferta.",
-        "score": 18,
+        "narrativa": "El calendario apunta a un dólar fuerte esta semana, lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el estrecho de Ormuz, ahora con informes de que Washington prepara a los países del Golfo para una posible nueva ofensiva contra Irán. El WTI cotiza en torno a 100-102 $, con la OPEP+ manteniendo sin cambios su producción de noviembre.",
+        "score": 25,
         "scoreInicial": 27,
         "sesgo": "alcista"
       },
       {
-        "cambio": "Se mantiene bajista: el dólar toca máximos de dos semanas antes de la Fed y el BCE de mañana.",
+        "cambio": "El euro marca un nuevo mínimo de 17 meses en 1,1113 antes de recuperar algo hacia 1,1119-1,1134, con el dólar en máximos de dos semanas antes de la Fed y el BCE de mañana.",
         "expectativa": "El PIB de la eurozona de mañana es el dato que más pesa: una confirmación de la desaceleración reforzaría la caída del euro, mientras que un BCE más duro de lo esperado podría dar un respiro puntual.",
         "id": "EURUSD",
-        "narrativa": "El calendario deja un balance algo menos negativo para el euro que ayer (-9 frente a -50 en el cálculo anterior, por el IFO alemán mejor de lo esperado), pero el PIB preliminar del T3 de la eurozona (previsto muy por debajo del dato anterior, ≈0,1 % frente a 0,6 % t/t) y el BCE de mañana, con Lagarde cautelosa, mantienen la presión bajista. El par cotiza en torno a 1,111-1,115.",
-        "score": -27,
+        "narrativa": "El calendario deja un balance algo menos negativo para el euro que a principios de semana (-9, por el IFO alemán mejor de lo esperado), pero el PIB preliminar del T3 de la eurozona (previsto muy por debajo del dato anterior, ≈0,1 % frente a 0,6 % t/t) y el BCE de mañana, con Lagarde cautelosa, mantienen la presión bajista. El par marcó hoy un nuevo mínimo de 17 meses en 1,1113 antes de estabilizarse algo.",
+        "score": -34,
         "scoreInicial": -30,
         "sesgo": "bajista"
       }
@@ -1884,7 +1913,7 @@
         "WTI": -26,
         "XAU": -52
       },
-      "actualizado": "2026-10-28T06:50:00Z",
+      "actualizado": "2026-10-28T15:55:00Z",
       "dolar": 52,
       "dolarEsperado": 45,
       "euro": -9
@@ -1932,7 +1961,7 @@
         ],
         "estado": "pendiente",
         "evento": "Decisión de tipos del FOMC",
-        "expectativa": "El mercado asigna solo un 5,5 % de probabilidad a una subida y un 94,0 % a mantener; el verdadero riesgo está en el tono de Warsh sobre diciembre (83,5 % de probabilidad de subida ya en precio).",
+        "expectativa": "El mercado asigna solo un 5,5 % de probabilidad a una subida y un 94,0 % a mantener; el verdadero riesgo está en el tono de Warsh sobre diciembre (80,5 % de probabilidad de subida ya en precio).",
         "fecha": "2026-10-28",
         "horaUtc": "18:00",
         "impacto": "alto",
@@ -2196,5 +2225,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-28T15:36:00.000000Z"
+  "updatedAt": "2026-10-28T16:17:30.000000Z"
 }
