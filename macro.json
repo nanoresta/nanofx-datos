@@ -358,9 +358,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-28T14:23:04Z",
+    "actualizado": "2026-10-28T15:23:58Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos hoy, 28 de octubre, se mantiene en el 5,5 % (mantener 94,0 %, tasa implícita 3,89 %), con la decisión a las 18:00 UTC (dentro de unas 3 horas y media) y la rueda de prensa de Kevin Warsh a las 18:30 UTC. La probabilidad de una subida en diciembre baja ligeramente al 81,0 % (antes 83,5 %; mantener 16,5 %, tasa implícita 4,10 %).",
+    "lectura": "La probabilidad de que la Fed suba tipos hoy, 28 de octubre, se mantiene en el 5,5 % (mantener 94,0 %, tasa implícita 3,89 %), con la decisión a las 18:00 UTC (dentro de unas 2 horas y media) y la rueda de prensa de Kevin Warsh a las 18:30 UTC. La probabilidad de una subida en diciembre baja ligeramente al 80,5 % (antes 81,0 %; mantener 17,0 %, tasa implícita 4,09 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; sin cambios desde entonces. El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -373,9 +373,9 @@
       {
         "bajar": 2.5,
         "fecha": "2026-12-09",
-        "mantener": 16.5,
-        "subir": 81,
-        "tasaImplicita": 4.1
+        "mantener": 17,
+        "subir": 80.5,
+        "tasaImplicita": 4.09
       },
       {
         "bajar": 6,
@@ -1244,25 +1244,25 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 14:23 UTC (implícito del motor de opciones SPY); mercado de EE. UU. en sesión, a la espera de la decisión de la Fed a las 18:00 UTC",
-      "changePct": 0.13,
+      "changeNote": "en vivo, 15:24 UTC (implícito del motor de opciones SPY, frente al cierre de ayer en 7.722,60); mercado de EE. UU. en sesión, a la espera de la decisión de la Fed a las 18:00 UTC",
+      "changePct": 0.21,
       "claves": [
         "Call wall en 7826 (SPY 780,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -3,20 mil M$ por 1 %.",
-        "Giro de gamma en 7776 (SPY 775,07), por encima del precio: la gamma sigue negativa.",
-        "Put wall en 7525 (SPY 750,0); put/call OI 1,62."
+        "Régimen de gamma negativa en -2,68 mil M$ por 1 %.",
+        "Giro de gamma en 7776 (SPY 775,03), por encima del precio: la gamma sigue negativa.",
+        "Put wall en 7525 (SPY 750,0); put/call OI 1,59."
       ],
       "gex": {
         "callWall": 780,
-        "contratos": 1759,
+        "contratos": 1754,
         "etf": "SPY",
-        "gammaFlip": 775.07,
-        "gexTotal": -3.2,
+        "gammaFlip": 775.03,
+        "gexTotal": -2.68,
         "indice": {
           "callWall": 7826,
           "gammaFlip": 7776,
           "maxPain": 7696,
-          "precio": 7733,
+          "precio": 7739,
           "putWall": 7525
         },
         "maxPain": 767,
@@ -1284,8 +1284,8 @@
           "vencimiento": "2026-10-28"
         },
         "oiFecha": "2026-10-26",
-        "pcrOI": 1.62,
-        "precio": 770.76,
+        "pcrOI": 1.59,
+        "precio": 771.3,
         "putWall": 750,
         "ratioFecha": "2026-10-27",
         "ratioIndice": 10.0333,
@@ -1293,44 +1293,44 @@
         "vencimientoCercano": "2026-10-28"
       },
       "id": "SPX",
-      "lectura": "Son las 14:30 UTC (14:30 Canarias) del miércoles 28 de octubre de 2026, con el S&P 500 implícito en 7.733 puntos (+0,13 % frente al cierre de ayer en 7.722,60) y el mercado de EE. UU. en sesión. Quedan unas 3 horas y media para la decisión de la Fed (18:00 UTC), con la probabilidad de subida hoy en el 5,5 % y la de diciembre en el 81,0 % (antes 83,5 %). La gamma negativa se ha intensificado ligeramente a -3,20 mil M$ por 1 % (antes -2,19), con el precio bajo el giro de gamma en 7.776 y el call wall en 7.826 limitando el rebote; el put wall está en 7.525 con un put/call OI de 1,62. Lo que más pesa hoy: el FOMC de esta tarde y el riesgo de disidencia halcón de Hammack, Kashkari y Logan, con el PIB y el PCE de mañana como siguiente catalizador. Sesgo: bajista, moderado por la proximidad de la decisión.",
+      "lectura": "Son las 15:25 UTC (15:25 Canarias) del miércoles 28 de octubre de 2026, con el S&P 500 implícito en 7.739 puntos (+0,21 % frente al cierre de ayer en 7.722,60) y el mercado de EE. UU. en sesión. Quedan unas 2 horas y media para la decisión de la Fed (18:00 UTC), con la probabilidad de subida hoy en el 5,5 % y la de diciembre en el 80,5 % (antes 81,0 %). La gamma negativa se ha moderado algo a -2,68 mil M$ por 1 % (antes -3,20), con el precio bajo el giro de gamma en 7.776 y el call wall en 7.826 limitando el rebote; el put wall está en 7.525 con un put/call OI de 1,59. Lo que más pesa hoy: el FOMC de esta tarde y el riesgo de disidencia halcón de Hammack, Kashkari y Logan, con el PIB y el PCE de mañana como siguiente catalizador. Sesgo: bajista, moderado por la proximidad de la decisión.",
       "levels": {
         "callWall": 7826,
         "gammaFlip": 7776,
         "maxPain": 7696,
-        "precio": 7733,
+        "precio": 7739,
         "putWall": 7525
       },
       "name": "S&P 500",
-      "netGex": "negativa (-3.2 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-26)",
-      "precio": 7733,
+      "netGex": "negativa (-2,68 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-26)",
+      "precio": 7739,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -28,
       "sesgo": "bajista",
-      "spot": 7733
+      "spot": 7739
     },
     {
-      "changeNote": "en vivo, 14:23 UTC (implícito del motor de opciones QQQ, frente a la lectura de las 14:00 UTC); mercado de EE. UU. en sesión, con foco en resultados de Microsoft y Alphabet esta tarde",
-      "changePct": -0.31,
+      "changeNote": "en vivo, 15:24 UTC (implícito del motor de opciones QQQ, frente a la lectura de las 14:23 UTC); mercado de EE. UU. en sesión, con foco en resultados de Microsoft y Alphabet esta tarde",
+      "changePct": 0.12,
       "claves": [
         "Call wall en 29601 (QQQ 720,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -2,20 mil M$ por 1 %.",
-        "Giro de gamma en 30036 (QQQ 730,57), por encima del precio: la gamma sigue negativa.",
-        "Put wall en 28779 (QQQ 700,0); put/call OI 1,41."
+        "Régimen de gamma negativa en -1,88 mil M$ por 1 %.",
+        "Giro de gamma en 30018 (QQQ 730,14), por encima del precio: la gamma sigue negativa.",
+        "Put wall en 29601 (QQQ 720,0), igualado con el call wall; put/call OI 1,37."
       ],
       "gex": {
         "callWall": 720,
-        "contratos": 1748,
+        "contratos": 1763,
         "etf": "QQQ",
-        "gammaFlip": 730.57,
-        "gexTotal": -2.2,
+        "gammaFlip": 730.14,
+        "gexTotal": -1.88,
         "indice": {
           "callWall": 29601,
-          "gammaFlip": 30036,
+          "gammaFlip": 30018,
           "maxPain": 29396,
-          "precio": 29655,
-          "putWall": 28779
+          "precio": 29692,
+          "putWall": 29601
         },
         "maxPain": 715,
         "odte": {
@@ -1346,40 +1346,40 @@
             "putWall": 29190
           },
           "maxPain": 715,
-          "pcrOI": 0.74,
+          "pcrOI": 0.73,
           "putWall": 710,
           "vencimiento": "2026-10-28"
         },
         "oiFecha": "2026-10-26",
-        "pcrOI": 1.41,
-        "precio": 721.3,
-        "putWall": 700,
+        "pcrOI": 1.37,
+        "precio": 722.21,
+        "putWall": 720,
         "ratioFecha": "2026-10-27",
         "ratioIndice": 41.1129,
         "regimen": "negativa",
         "vencimientoCercano": "2026-10-28"
       },
       "id": "NDX",
-      "lectura": "Son las 14:30 UTC (14:30 Canarias) del miércoles 28 de octubre de 2026; el Nasdaq 100 implícito del motor de opciones está en 29.655 puntos (-0,31 % frente a la lectura de las 14:00 UTC), con el mercado de EE. UU. en sesión. Microsoft y Alphabet presentan resultados esta tarde y Amazon mañana, con el riesgo de capex en IA como principal catalizador de la semana. La gamma negativa se ha intensificado a -2,20 mil M$ por 1 % (antes -0,82), con el call wall en 29.601 y el giro de gamma en 30.036 por encima del precio. Quedan unas 3 horas y media para el anuncio de la Fed (18:00 UTC), con la probabilidad de subida hoy en el 5,5 % y de diciembre en el 81,0 % (antes 83,5 %). Sesgo: bajista, moderado por el dato de alto impacto de hoy y los resultados tecnológicos de esta tarde.",
+      "lectura": "Son las 15:25 UTC (15:25 Canarias) del miércoles 28 de octubre de 2026; el Nasdaq 100 implícito del motor de opciones está en 29.692 puntos (+0,12 % frente a la lectura de las 14:23 UTC), con el mercado de EE. UU. en sesión. Microsoft y Alphabet presentan resultados esta tarde y Amazon mañana, con el riesgo de capex en IA como principal catalizador de la semana. La gamma negativa se ha moderado a -1,88 mil M$ por 1 % (antes -2,20), con el call wall en 29.601 y el giro de gamma en 30.018 por encima del precio; el put wall ha subido hasta igualarse con el call wall en 29.601. Quedan unas 2 horas y media para el anuncio de la Fed (18:00 UTC), con la probabilidad de subida hoy en el 5,5 % y de diciembre en el 80,5 % (antes 81,0 %). Sesgo: bajista, moderado por el dato de alto impacto de hoy y los resultados tecnológicos de esta tarde.",
       "levels": {
         "callWall": 29601,
-        "gammaFlip": 30036,
+        "gammaFlip": 30018,
         "maxPain": 29396,
-        "precio": 29655,
-        "putWall": 28779
+        "precio": 29692,
+        "putWall": 29601
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-2.2 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-26)",
-      "precio": 29655,
+      "netGex": "negativa (-1,88 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-26)",
+      "precio": 29692,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -30,
       "sesgo": "bajista",
-      "spot": 29655
+      "spot": 29692
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-28T08:02:37Z",
+    "actualizado": "2026-10-28T15:23:58Z",
     "balance": 6753.6,
     "d4": 31.3,
     "dBalance": -2,
@@ -1514,6 +1514,17 @@
   "noticias": [
     {
       "activos": {
+        "EURUSD": "bajista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El EUR/USD ronda 1,1134 tras tocar un mínimo de 17 meses en 1,1113, lastrado por la crisis fiscal francesa antes de la Fed y el BCE de mañana.",
+      "titular": "El euro toca mínimos de 17 meses a la espera del veredicto de la Fed",
+      "ts": "2026-10-28T14:01:00Z",
+      "url": "https://www.fxstreet.com/news/euro-steadies-near-17-month-lows-ahead-of-fed-rate-verdict-202610281401"
+    },
+    {
+      "activos": {
         "NQ": "alcista",
         "SPX": "alcista"
       },
@@ -1523,6 +1534,17 @@
       "titular": "El Dow duda pero S&P 500 y Nasdaq suben antes de la Fed y resultados de Microsoft y Alphabet",
       "ts": "2026-10-28T13:05:00Z",
       "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-big-tech-earnings-130508769.html"
+    },
+    {
+      "activos": {
+        "XAU": "bajista"
+      },
+      "fuente": "Yahoo Finance",
+      "impacto": "medio",
+      "resumen": "El oro cotiza por debajo de 4.100 $/oz, presionado por el dólar fuerte y la subida del petróleo antes del anuncio de la Fed de esta tarde.",
+      "titular": "El oro sigue bajo los 4.100 $/oz a la espera de la decisión de la Fed",
+      "ts": "2026-10-28T11:07:00Z",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-october-28-2026-gold-prices-remain-below-4100-ahead-of-the-fed-rate-decision-110708338.html"
     },
     {
       "activos": {
@@ -1660,30 +1682,6 @@
       "titular": "El oro supera los 4.050 $/oz mientras Wall Street sube antes de la decisión de la Fed",
       "ts": "2026-10-27T21:38:00Z",
       "url": "https://kitco.com/news/article/2026-10-27/gold-climbs-above-4050-wall-street-rallies-ahead-fed-decision-kitco-pm"
-    },
-    {
-      "activos": {
-        "NQ": "neutral",
-        "SPX": "neutral"
-      },
-      "fuente": "Kitco",
-      "impacto": "alto",
-      "resumen": "Hammack, Kashkari y Logan podrían repetir su disidencia de julio pidiendo subir tipos ya, lo que reforzaría las expectativas de un diciembre más duro.",
-      "titular": "La decisión de la Fed podría marcar el regreso de los disidentes halcones, clave para diciembre",
-      "ts": "2026-10-27T21:00:00Z",
-      "url": "https://www.kitco.com/news/article/2026-10-27/fomc-rate-decision-could-mark-return-dissenters-offer-clues-december"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista"
-      },
-      "fuente": "CNBC",
-      "impacto": "alto",
-      "resumen": "El S&P 500 cerró en 7.722,60 puntos, el Dow en 52.377,57 (+0,03 %) y el Nasdaq Composite en 26.477,81 (+1,18 %), con los semiconductores liderando.",
-      "titular": "Wall Street cierra con subidas: S&P 500 +0,6 %, Nasdaq Composite +1,18 % antes de la Fed",
-      "ts": "2026-10-27T20:00:00Z",
-      "url": "https://www.cnbc.com/2026/10/26/stock-market-today-live-updates.html"
     }
   ],
   "odte": {
@@ -1705,7 +1703,7 @@
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-10-28 (hoy), por open interest (QQQ 715,0). Put/call OI: 0,74.",
+        "nota": "Vencimiento 2026-10-28 (hoy), por open interest (QQQ 715,0). Put/call OI: 0,73.",
         "valor": "29396"
       },
       {
@@ -1719,7 +1717,7 @@
         "valor": "29396"
       }
     ],
-    "lectura": "Niveles 0DTE de hoy (vencimiento 28 de octubre, día de la decisión de la Fed), calculados por NanoFx con los contratos de Alpaca sobre open interest. En el S&P 500 el rango 0DTE va del put wall en 7.435 al call wall en 7.956, con el max pain en 7.696 y un put/call OI de 1,24. En el Nasdaq 100 el rango es muy estrecho, entre 29.190 y 29.396, con max pain también en 29.396 y un put/call OI de 0,74 (predominio de calls), señal de poca cobertura bajista en tecnología para el vencimiento de hoy, con todo el movimiento de la tarde (FOMC a las 18:00 UTC) por decidir."
+    "lectura": "Niveles 0DTE de hoy (vencimiento 28 de octubre, día de la decisión de la Fed), calculados por NanoFx con los contratos de Alpaca sobre open interest. En el S&P 500 el rango 0DTE va del put wall en 7.435 al call wall en 7.956, con el max pain en 7.696 y un put/call OI de 1,24. En el Nasdaq 100 el rango es muy estrecho, entre 29.190 y 29.396, con max pain también en 29.396 y un put/call OI de 0,73 (predominio de calls), señal de poca cobertura bajista en tecnología para el vencimiento de hoy, con todo el movimiento de la tarde (FOMC a las 18:00 UTC, dentro de unas 2 horas y media) por decidir."
   },
   "politica": {
     "actualizado": "2026-10-28T12:50:00Z",
@@ -1819,7 +1817,7 @@
       }
     ]
   },
-  "resumen": "Son las 14:30 UTC (14:30 Canarias) del miércoles 28 de octubre de 2026, con el mercado de EE. UU. ya en sesión (10:30 hora de Nueva York). El S&P 500 implícito del motor de opciones está en 7.733 puntos (+0,13 % frente al cierre de ayer en 7.722,60) y el Nasdaq 100 en 29.655 puntos, mientras el mercado espera la decisión de la Fed a las 18:00 UTC (dentro de unas 3 horas y media) y la rueda de prensa de Kevin Warsh a las 18:30 UTC. La probabilidad de una subida hoy se mantiene en el 5,5 % (mantener 94,0 %) y la de diciembre baja ligeramente al 81,0 % (antes 83,5 %), con el dólar cerca de máximos de dos semanas (índice dólar en torno a 102,4) y el euro presionado en 1,112-1,115 ante el riesgo fiscal francés y el BCE de mañana. El oro cotiza en torno a 4.038-4.055 $/oz, el WTI en torno a 100-102 $ por la escalada en el estrecho de Ormuz, y bitcoin ronda los 80.800-81.000 $. La gamma negativa se ha intensificado en el S&P 500 (-3,20 mil M$ por 1 %) y en el Nasdaq 100 (-2,20 mil M$ por 1 %), con Microsoft y Alphabet publicando resultados esta tarde y Amazon mañana. Irán continúa la escalada en Ormuz mientras Bessent defiende el dominio del dólar vía stablecoins y Trump insiste en que los aranceles generan riqueza y no inflación.",
+  "resumen": "Son las 15:25 UTC (15:25 Canarias) del miércoles 28 de octubre de 2026, con el mercado de EE. UU. en sesión (11:25 hora de Nueva York) y la decisión de la Fed a las 18:00 UTC, dentro de unas 2 horas y media. El S&P 500 implícito del motor de opciones está en 7.739 puntos (+0,21 % frente al cierre de ayer en 7.722,60) y el Nasdaq 100 en 29.692 puntos. La probabilidad de una subida hoy se mantiene en el 5,5 % (mantener 94,0 %) y la de diciembre baja ligeramente al 80,5 % (antes 81,0 %), con el dólar cerca de máximos de dos semanas y el euro en mínimos de 17 meses en torno a 1,1113-1,1134 ante el riesgo fiscal francés y el BCE de mañana. El oro sigue por debajo de 4.100 $/oz, el petróleo se mantiene firme por la escalada en Oriente Medio y bitcoin ronda los 81.000 $. La gamma negativa se ha moderado algo en el S&P 500 (-2,68 mil M$ por 1 %) y en el Nasdaq 100 (-1,88 mil M$ por 1 %), con Microsoft y Alphabet publicando resultados esta tarde y Amazon mañana.",
   "semana": {
     "activos": [
       {
@@ -2198,5 +2196,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-28T14:30:06Z"
+  "updatedAt": "2026-10-28T15:36:00.000000Z"
 }
