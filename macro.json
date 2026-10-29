@@ -362,36 +362,36 @@
       "impacto": "alto",
       "nota": "Reunión de dos días, 8-9 de diciembre de 2026; decisión y rueda de prensa el 9 de diciembre.",
       "pais": "EE. UU.",
-      "previsto": "probabilidad de subida 78,5 % según Kalshi (motor de datos)",
+      "previsto": "probabilidad de subida 79,0 % según Kalshi (motor de datos)",
       "previstoNum": null
     }
   ],
   "fed": {
-    "actualizado": "2026-10-29T15:18:53Z",
+    "actualizado": "2026-10-29T16:19:48Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida en la próxima reunión de la Fed, el 9 de diciembre, baja al 78,5 % (antes 79,5 %), con la tasa implícita en el 4,08 %; la de enero de 2027 se mantiene en el 91,5 % y la de abril de 2027 cae con fuerza al 76 % (antes 88 %).",
+    "lectura": "La probabilidad de subida en la reunión del 9 de diciembre sube ligeramente al 79,5 % (antes 79,0 %), con la tasa implícita sin cambios en el 4,08 %; la de enero de 2027 se mantiene en el 91,5 % aunque la tasa implícita baja a 4,34 % (antes 4,40 %), y la de marzo de 2027 sigue en el 92,5 % de subida, pero el mercado da ahora más peso a una bajada (7,0 % frente al 3,0 % anterior).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 1.5,
         "fecha": "2026-12-09",
-        "mantener": 20,
-        "subir": 78.5,
+        "mantener": 19,
+        "subir": 79.5,
         "tasaImplicita": 4.08
       },
       {
-        "bajar": 5.5,
+        "bajar": 4,
         "fecha": "2027-01-27",
-        "mantener": 3,
+        "mantener": 4.5,
         "subir": 91.5,
-        "tasaImplicita": 4.4
+        "tasaImplicita": 4.34
       },
       {
-        "bajar": 2.5,
+        "bajar": 7,
         "fecha": "2027-03-17",
-        "mantener": 4.5,
-        "subir": 93,
-        "tasaImplicita": 4.31
+        "mantener": 0.5,
+        "subir": 92.5,
+        "tasaImplicita": 4.25
       },
       {
         "bajar": 5,
@@ -1398,211 +1398,211 @@
   ],
   "indices": [
     {
-      "changeNote": "Derivado de SPY vía Alpaca (motor NanoFx), sesión de Nueva York abierta, 15:19 UTC; cambio calculado frente al cierre oficial del 28 de octubre (7.743,98).",
-      "changePct": -0.3,
+      "changeNote": "derivado de SPY vía Alpaca (motor NanoFx), 16:20 Canarias; cambio frente al cierre oficial del 28 de octubre (7.743,98).",
+      "changePct": -0.4,
       "claves": [
-        "Call wall en 7.721 (SPY 770,0), sin cambios; sigue muy cerca del precio.",
-        "Régimen de gamma negativa en -3,85 mil M$ por 1 % (antes -4,1): se suaviza algo más.",
-        "Giro de gamma en 7.763 (SPY 774,14), por encima del precio: la gamma sigue negativa.",
-        "Put wall en 7.671 (SPY 765,0); put/call OI 1,54 (sin cambios)."
+        "Call wall en 7721 (SPY 770,0); put wall en 7671 (SPY 765,0),",
+        "Régimen de gamma negativa en -4,31 mil M$ por 1 % de movimiento,",
+        "Giro de gamma (gamma flip) en 7759 (SPY 773,77), por encima del precio: la gamma sigue negativa,",
+        "Max pain en 7701 (SPY 768,0); put/call OI 1,54,"
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1631,
+        "contratos": 1667,
         "escalera": [
           {
-            "gex": -33.7,
+            "gex": -32.3,
             "strike": 747
           },
           {
-            "gex": -75,
+            "gex": -62.2,
             "strike": 748
           },
           {
-            "gex": -33.7,
+            "gex": -32.2,
             "strike": 749
           },
           {
-            "gex": -1297.9,
+            "gex": -1315.6,
             "strike": 750
           },
           {
-            "gex": -44.7,
+            "gex": -44.1,
             "strike": 751
           },
           {
-            "gex": -65.7,
+            "gex": -67.2,
             "strike": 752
           },
           {
-            "gex": -93.5,
+            "gex": -95.9,
             "strike": 753
           },
           {
-            "gex": -52.6,
+            "gex": -53.3,
             "strike": 754
           },
           {
-            "gex": -493,
+            "gex": -490.1,
             "strike": 755
           },
           {
-            "gex": -69.4,
+            "gex": -71,
             "strike": 756
           },
           {
-            "gex": -122.8,
+            "gex": -129.7,
             "strike": 757
           },
           {
-            "gex": -73.8,
+            "gex": -75.8,
             "strike": 758
           },
           {
-            "gex": -96.8,
+            "gex": -101.8,
             "strike": 759
           },
           {
-            "gex": -848,
+            "gex": -884.4,
             "strike": 760
           },
           {
-            "gex": -71.2,
+            "gex": -75.4,
             "strike": 761
           },
           {
-            "gex": -86.1,
+            "gex": -91.2,
             "strike": 762
           },
           {
-            "gex": -20.6,
+            "gex": -22.4,
             "strike": 763
           },
           {
-            "gex": -81.1,
+            "gex": -85.8,
             "strike": 764
           },
           {
-            "gex": -1296.5,
+            "gex": -1417.7,
             "strike": 765
           },
           {
-            "gex": -228.6,
+            "gex": -250.1,
             "strike": 766
           },
           {
-            "gex": -256.2,
+            "gex": -274.7,
             "strike": 767
           },
           {
-            "gex": -25.5,
+            "gex": -28.8,
             "strike": 768
           },
           {
-            "gex": -95.1,
+            "gex": -108.8,
             "strike": 769
           },
           {
-            "gex": 161.8,
+            "gex": 169.6,
             "strike": 770
           },
           {
-            "gex": -1.6,
+            "gex": -7.3,
             "strike": 771
           },
           {
-            "gex": 70.6,
+            "gex": 70.8,
             "strike": 772
           },
           {
-            "gex": 13.3,
+            "gex": 11.7,
             "strike": 773
           },
           {
-            "gex": 39.3,
+            "gex": 36.3,
             "strike": 774
           },
           {
-            "gex": 370.2,
+            "gex": 354.9,
             "strike": 775
           },
           {
-            "gex": 95.1,
+            "gex": 89.5,
             "strike": 776
           },
           {
-            "gex": 105.4,
+            "gex": 95.1,
             "strike": 777
           },
           {
-            "gex": 139.6,
+            "gex": 146,
             "strike": 778
           },
           {
-            "gex": 40.6,
+            "gex": 34.5,
             "strike": 779
           },
           {
-            "gex": 680.9,
+            "gex": 666.9,
             "strike": 780
           },
           {
-            "gex": 114.3,
+            "gex": 110.6,
             "strike": 781
           },
           {
-            "gex": 96.5,
+            "gex": 81.9,
             "strike": 782
           },
           {
-            "gex": 146.1,
+            "gex": 156.2,
             "strike": 783
           },
           {
-            "gex": 57.2,
+            "gex": 44.9,
             "strike": 784
           },
           {
-            "gex": 147.8,
+            "gex": 144.6,
             "strike": 785
           },
           {
-            "gex": 40.3,
+            "gex": 37,
             "strike": 786
           },
           {
-            "gex": 39.7,
+            "gex": 34.4,
             "strike": 787
           },
           {
-            "gex": 90.3,
+            "gex": 88.8,
             "strike": 788
           },
           {
-            "gex": 62.3,
+            "gex": 64.7,
             "strike": 789
           },
           {
-            "gex": 253.2,
+            "gex": 245,
             "strike": 790
           },
           {
-            "gex": 52.5,
+            "gex": 50.3,
             "strike": 791
           },
           {
-            "gex": 69.1,
+            "gex": 67.2,
             "strike": 792
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 774.14,
-        "gexTotal": -3.85,
+        "gammaFlip": 773.77,
+        "gexTotal": -4.31,
         "indice": {
           "callWall": 7721,
-          "gammaFlip": 7763,
+          "gammaFlip": 7759,
           "maxPain": 7701,
-          "precio": 7719,
+          "precio": 7714,
           "putWall": 7671
         },
         "maxPain": 768,
@@ -1625,7 +1625,7 @@
         },
         "oiFecha": "2026-10-27",
         "pcrOI": 1.54,
-        "precio": 769.8,
+        "precio": 769.26,
         "putWall": 765,
         "ratioFecha": "2026-10-28",
         "ratioIndice": 10.0274,
@@ -1633,61 +1633,61 @@
         "vencimientoCercano": "2026-10-29"
       },
       "id": "SPX",
-      "lectura": "A las 15:19 UTC, el S&P 500 cotiza en torno a 7.719 puntos (-0,3 % frente al cierre de ayer), con el BCE ya confirmado manteniendo tipos en el 2,50 % (dimisión de Lagarde de fondo) y el euro cerca de mínimos desde mayo. La gamma negativa se suaviza a -3,85 mil M$ por 1 %, con el call wall en 7.721 aún muy cerca del precio y el put wall en 7.671. La Fed baja ligeramente al 78,5 % la probabilidad de una subida en diciembre (antes 79,5 %). Sesgo: bajista.",
+      "lectura": "A las 16:20 UTC, el S&P 500 ronda los 7.714 puntos (-0,4 % frente al cierre de ayer, 7.743,98), con la Fed situando en el 79,5 % la probabilidad de una subida de tipos el 9 de diciembre y el BCE manteniendo tipos en el 2,50 % tras la dimisión de Christine Lagarde. La gamma negativa se sitúa en -4,31 mil M$ por 1 %, con el call wall en 7.721 muy cerca del precio y el giro de gamma en 7.759. La Guardia Revolucionaria de Irán mantiene su reivindicación de minas navales contra petroleros en el estrecho de Ormuz (EE. UU. lo niega), sosteniendo el petróleo. Sesgo: bajista.",
       "levels": {
         "callWall": 7721,
-        "gammaFlip": 7763,
+        "gammaFlip": 7759,
         "maxPain": 7701,
         "putWall": 7671
       },
       "name": "S&P 500",
-      "netGex": "negativa (-3,85 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-27)",
-      "precio": 7719,
+      "netGex": "negativa (-4,31 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-27)",
+      "precio": 7714,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -38,
+      "score": -42,
       "sesgo": "bajista",
-      "spot": 7719
+      "spot": 7714
     },
     {
-      "changeNote": "Derivado de QQQ vía Alpaca (motor NanoFx), sesión de Nueva York abierta, 15:19 UTC; cambio estimado por la trayectoria intradía del motor.",
-      "changePct": -1.4,
+      "changeNote": "derivado de QQQ vía Alpaca (motor NanoFx), 16:20 Canarias; cambio frente al cierre estimado del 28 de octubre.",
+      "changePct": -1.5,
       "claves": [
-        "Call wall en 29.583 (QQQ 720,0), sin cambios.",
-        "Régimen de gamma negativa en -4,21 mil M$ por 1 % (antes -4,06): se intensifica ligeramente.",
-        "Giro de gamma en 29.954 (QQQ 729,02), por encima del precio.",
-        "Put wall sube hasta 29.583 (QQQ 720,0), igualándose al call wall; put/call OI 1,59 (antes 1,60)."
+        "Call wall en 29583 (QQQ 720,0); put wall en 28762 (QQQ 700,0),",
+        "Régimen de gamma negativa en -4,49 mil M$ por 1 % de movimiento,",
+        "Giro de gamma en 29989 (QQQ 729,86), por encima del precio,",
+        "Max pain en 29542 (QQQ 719,0); put/call OI 1,60,"
       ],
       "gex": {
         "callWall": 720,
-        "contratos": 1670,
+        "contratos": 1653,
         "escalera": [
           {
-            "gex": -260.6,
+            "gex": -265.4,
             "strike": 695
           },
           {
-            "gex": -85.2,
+            "gex": -84,
             "strike": 696
           },
           {
-            "gex": -16.5,
+            "gex": -17,
             "strike": 697
           },
           {
-            "gex": -21.4,
+            "gex": -22.3,
             "strike": 698
           },
           {
-            "gex": -26.1,
+            "gex": -26.8,
             "strike": 699
           },
           {
-            "gex": -749.6,
+            "gex": -774.6,
             "strike": 700
           },
           {
-            "gex": -68.5,
+            "gex": -70.7,
             "strike": 701
           },
           {
@@ -1695,155 +1695,155 @@
             "strike": 702
           },
           {
-            "gex": -34.3,
+            "gex": -35.4,
             "strike": 703
           },
           {
-            "gex": -17.3,
+            "gex": -17.7,
             "strike": 704
           },
           {
-            "gex": -336.4,
+            "gex": -345.5,
             "strike": 705
           },
           {
-            "gex": -15.3,
+            "gex": -15.7,
             "strike": 706
           },
           {
-            "gex": -29.6,
+            "gex": -30.8,
             "strike": 707
           },
           {
-            "gex": -68.9,
+            "gex": -71,
             "strike": 708
           },
           {
-            "gex": -3.4,
+            "gex": -3.2,
             "strike": 709
           },
           {
-            "gex": -432,
+            "gex": -452.1,
             "strike": 710
           },
           {
-            "gex": -28.5,
+            "gex": -29.3,
             "strike": 711
           },
           {
-            "gex": -159.3,
+            "gex": -166,
             "strike": 712
           },
           {
-            "gex": -480.3,
+            "gex": -485.9,
             "strike": 713
           },
           {
-            "gex": -127.2,
+            "gex": -130.7,
             "strike": 714
           },
           {
-            "gex": -285.7,
+            "gex": -283.2,
             "strike": 715
           },
           {
-            "gex": -79.2,
+            "gex": -77.9,
             "strike": 716
           },
           {
-            "gex": -130.3,
+            "gex": -133.7,
             "strike": 717
           },
           {
-            "gex": -22.2,
+            "gex": -21.6,
             "strike": 718
           },
           {
-            "gex": -22,
+            "gex": -22.4,
             "strike": 719
           },
           {
-            "gex": -266.5,
+            "gex": -256.9,
             "strike": 720
           },
           {
-            "gex": -3.5,
+            "gex": -3,
             "strike": 721
           },
           {
-            "gex": -16.2,
+            "gex": -15.9,
             "strike": 722
           },
           {
-            "gex": -38.8,
+            "gex": -36.6,
             "strike": 723
           },
           {
-            "gex": 56.2,
+            "gex": 54.5,
             "strike": 724
           },
           {
-            "gex": -165.3,
+            "gex": -153.4,
             "strike": 725
           },
           {
-            "gex": -7.3,
+            "gex": -7,
             "strike": 726
           },
           {
-            "gex": 30,
+            "gex": 29.2,
             "strike": 727
           },
           {
-            "gex": 12.5,
+            "gex": 10.9,
             "strike": 728
           },
           {
-            "gex": 122.9,
+            "gex": 109.6,
             "strike": 729
           },
           {
-            "gex": 143.7,
+            "gex": 141.6,
             "strike": 730
           },
           {
-            "gex": 29.6,
+            "gex": 26.4,
             "strike": 731
           },
           {
-            "gex": 16.1,
+            "gex": 15.3,
             "strike": 732
           },
           {
-            "gex": 51,
+            "gex": 49.8,
             "strike": 733
           },
           {
-            "gex": 16.7,
+            "gex": 12.4,
             "strike": 734
           },
           {
-            "gex": 90,
+            "gex": 44,
             "strike": 735
           },
           {
-            "gex": 13.1,
+            "gex": 12,
             "strike": 736
           },
           {
-            "gex": 16.3,
+            "gex": 18.3,
             "strike": 737
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 729.02,
-        "gexTotal": -4.21,
+        "gammaFlip": 729.86,
+        "gexTotal": -4.49,
         "indice": {
           "callWall": 29583,
-          "gammaFlip": 29954,
+          "gammaFlip": 29989,
           "maxPain": 29542,
-          "precio": 29432,
-          "putWall": 29583
+          "precio": 29402,
+          "putWall": 28762
         },
         "maxPain": 719,
         "odte": {
@@ -1864,34 +1864,34 @@
           "vencimiento": "2026-10-29"
         },
         "oiFecha": "2026-10-27",
-        "pcrOI": 1.59,
-        "precio": 716.32,
-        "putWall": 720,
+        "pcrOI": 1.6,
+        "precio": 715.59,
+        "putWall": 700,
         "ratioFecha": "2026-10-28",
         "ratioIndice": 41.0882,
         "regimen": "negativa",
         "vencimientoCercano": "2026-10-29"
       },
       "id": "NDX",
-      "lectura": "A las 15:19 UTC, el Nasdaq 100 cotiza en torno a 29.432 puntos (-1,4 % frente al cierre de ayer), con Alphabet lastrando el índice tras revelar que gastó 9.100 millones $ más en capex de lo que ingresó, mientras Fortinet (-26 %) y ServiceNow (-18 %) también presionan a la baja y Microsoft y Oracle suben por sus perspectivas de nube. La gamma negativa se intensifica ligeramente a -4,21 mil M$ por 1 %, con el call wall en 29.583 y el giro de gamma en 29.954. Sesgo: bajista.",
+      "lectura": "A las 16:20 UTC, el Nasdaq 100 ronda los 29.402 puntos (-1,5 %), lastrado por el fallo de ingresos de Alphabet (9.100 millones $ más de capex que ingresos), Fortinet (-26 %) y ServiceNow (-18 %), mientras Microsoft y Oracle suben por sus perspectivas de nube. La gamma negativa se sitúa en -4,49 mil M$ por 1 %, con el call wall en 29.583 y el giro de gamma en 29.989. La Fed sitúa en el 79,5 % la probabilidad de una subida en diciembre, lo que añade presión sobre la valoración tecnológica. Sesgo: bajista.",
       "levels": {
         "callWall": 29583,
-        "gammaFlip": 29954,
+        "gammaFlip": 29989,
         "maxPain": 29542,
-        "putWall": 29583
+        "putWall": 28762
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-4,21 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-27)",
-      "precio": 29432,
+      "netGex": "negativa (-4,49 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-27)",
+      "precio": 29402,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -48,
+      "score": -52,
       "sesgo": "bajista",
-      "spot": 29432
+      "spot": 29402
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-29T13:47:34Z",
+    "actualizado": "2026-10-29T15:49:19Z",
     "balance": 6753.6,
     "d4": 31.3,
     "dBalance": -2,
@@ -2024,6 +2024,31 @@
     "tga": 952
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "alcista",
+        "XAU": "alcista"
+      },
+      "fuente": "Gulf News / CENTCOM",
+      "impacto": "alto",
+      "resumen": "La Guardia Revolucionaria iraní afirma que 3 petroleros chocaron con minas navales en el estrecho; CENTCOM rechaza la versión y dice que las rutas principales están despejadas, aunque el tráfico sigue en mínimos históricos (≈7 % de lo normal).",
+      "titular": "Irán reivindica minas navales contra 3 petroleros en Ormuz; EE. UU. lo niega",
+      "ts": "2026-10-29T15:30:00Z",
+      "url": "https://gulfnews.com/world/mena/us-military-rejects-iranian-mine-strike-claims-says-hormuz-transit-lanes-remain-clear-1.500727648"
+    },
+    {
+      "activos": {
+        "EURUSD": "neutral"
+      },
+      "fuente": "Reuters / The Print",
+      "impacto": "medio",
+      "resumen": "Tras el anuncio de dimisión de Lagarde, efectiva el 7 de febrero de 2027, el expresidente del Banco de Holanda, Klaas Knot, y el exgobernador del Banco de España, Pablo Hernández de Cos, aparecen como favoritos para sucederla.",
+      "titular": "Klaas Knot y Pablo Hernández de Cos, principales candidatos a sucedir a Lagarde en el BCE",
+      "ts": "2026-10-29T15:10:00Z",
+      "url": "https://theprint.in/world/ecb-president-lagarde-resigns-at-a-time-of-mounting-challenges-for-europe/3085295/"
+    },
     {
       "activos": {
         "NQ": "bajista",
@@ -2174,29 +2199,6 @@
     },
     {
       "activos": {
-        "EURUSD": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "El euro se mantiene débil antes de la decisión del BCE a las 13:15 UTC, con el índice dólar cerca de 102.",
-      "titular": "El euro cotiza en 1,113-1,114 en Asia, cerca de mínimos, a la espera del BCE de hoy",
-      "ts": "2026-10-29T05:30:00Z",
-      "url": "https://www.fxstreet.com/news/euro-remains-under-pressure-ahead-of-ecb-rate-decision-202610290148"
-    },
-    {
-      "activos": {
-        "BTC": "alcista",
-        "XAU": "alcista"
-      },
-      "fuente": "Kucoin / FXStreet",
-      "impacto": "medio",
-      "resumen": "Bitcoin toca 81.500 $ tras el mantenimiento de tipos de la Fed, mientras el oro se acerca a 4.100 $/oz.",
-      "titular": "Bitcoin supera los 81.500 $ y el oro avanza hacia los 4.100 $ en la sesión asiática",
-      "ts": "2026-10-29T04:30:00Z",
-      "url": "https://kucoin.com/news/flash/bitcoin-price-surpasses-81-500-amid-fed-s-rate-decision"
-    },
-    {
-      "activos": {
         "NQ": "bajista",
         "SPX": "bajista"
       },
@@ -2241,11 +2243,11 @@
         "valor": "29542"
       }
     ],
-    "lectura": "Niveles 0DTE de hoy (vencimiento 29 de octubre), calculados por NanoFx con los contratos de Alpaca sobre open interest, sin cambios respecto a la hora anterior: en el S&P 500 el call wall 0DTE en 7.922, el put wall en 7.601 y el max pain en 7.701 (put/call OI 2,11); en el Nasdaq 100 el call wall 0DTE en 29.789, el put wall en 27.118 y el max pain en 29.542 (put/call OI 1,18). El PIB, el PCE y la decisión del BCE (mantiene en 2,50 %, con la dimisión de Lagarde como foco) ya están resueltos."
+    "lectura": "Niveles 0DTE de hoy (vencimiento 29 de octubre), calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE en 7.922, el put wall en 7.601 y el max pain en 7.701 (put/call OI 2,11); en el Nasdaq 100 el call wall 0DTE en 29.789, el put wall en 27.118 y el max pain en 29.542 (put/call OI 1,18). El PIB, el PCE y la decisión del BCE de hoy ya están resueltos; la atención del mercado se centra ahora en la escalada en el estrecho de Ormuz (minas navales reivindicadas por Irán, negadas por EE. UU.)."
   },
   "politica": {
-    "actualizado": "2026-10-29T14:09:54Z",
-    "ajuste": -14,
+    "actualizado": "2026-10-29T16:05:21Z",
+    "ajuste": -16,
     "declaraciones": [
       {
         "dicho": "Anuncia su dimisión como presidenta del BCE, efectiva el 7 de febrero de 2027.",
@@ -2256,6 +2258,14 @@
         "url": "https://www.cnn.com/2026/10/29/business/christine-lagarde-ecb-president-resigns-intl"
       },
       {
+        "dicho": "Reivindica minas navales contra 3 petroleros en Ormuz; EE. UU. lo niega.",
+        "efecto": "bajista",
+        "fuente": "Gulf News / CENTCOM",
+        "quien": "Guardia Revolucionaria de Irán",
+        "ts": "2026-10-29T06:00:00Z",
+        "url": "https://gulfnews.com/world/mena/us-military-rejects-iranian-mine-strike-claims-says-hormuz-transit-lanes-remain-clear-1.500727648"
+      },
+      {
         "dicho": "Dice que los acuerdos comerciales están \"prácticamente cerrados\", salvo México y Canadá.",
         "efecto": "alcista",
         "fuente": "CNBC (Closing Bell: Overtime)",
@@ -2264,12 +2274,12 @@
         "url": "https://www.cnbc.com/amp/2026/10/28/cnbc-exclusive-transcript-us-treasury-secretary-scott-bessent-speaks-with-cnbcs-brian-sullivan-on-closing-bell-overtime-today.html"
       },
       {
-        "dicho": "Da pistas hacia una subida en diciembre y propone reducir las reuniones anuales de la Fed.",
+        "dicho": "No da pistas explícitas sobre diciembre; propone reducir las reuniones anuales de la Fed.",
         "efecto": "bajista",
-        "fuente": "CNN / CNBC / PBS",
+        "fuente": "FXStreet / CNN / PBS",
         "quien": "Kevin Warsh",
         "ts": "2026-10-28T18:30:00Z",
-        "url": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+        "url": "https://www.fxstreet.com/analysis/fed-holds-rates-as-warsh-offers-no-explicit-signal-on-december-202610291159"
       },
       {
         "dicho": "Mantiene el tipo en 3,75-4,00 %; dos disidencias (Cook y Hammack) piden subir 25 pb.",
@@ -2278,18 +2288,10 @@
         "quien": "Reserva Federal (FOMC)",
         "ts": "2026-10-28T18:02:00Z",
         "url": "https://finance.yahoo.com/news/fed-holds-rates-steady-expected-180457728.html"
-      },
-      {
-        "dicho": "Dice en un mitin que los aranceles no causan inflación, sino riqueza; resta importancia a los precios.",
-        "efecto": "neutral",
-        "fuente": "The Motley Fool",
-        "quien": "Trump",
-        "ts": "2026-10-25T20:00:00Z",
-        "url": "https://www.fool.com/investing/2026/10/25/donald-trump-proclaimed-tariffs-dont-cause-inflation-they-cause-wealth-federal-reserve-economists/"
       }
     ],
     "efecto": "bajista",
-    "lectura": "La Fed ya confirmó que mantiene (10-2, con las disidencias hawkish de Cook y Hammack) y el mercado asigna hoy un 79,5 % de probabilidad a una subida en diciembre (antes 81,5 %), tras que Warsh evitara comprometerse y propusiera reducir el número de reuniones anuales. El PIB del tercer trimestre sorprendió al alza (3,4 % frente al 3,2 % esperado) y el PCE llegó en línea (3,6 % general, 3,1 % subyacente), sin cambiar el diagnóstico hawkish; las peticiones de subsidio (194.000) confirman un mercado laboral firme. Bessent, el 28 de octubre, dijo que los acuerdos comerciales están \"prácticamente cerrados\" salvo México y Canadá, lo que reduce el riesgo de nueva escalada arancelaria a corto plazo. La presidenta del BCE, Christine Lagarde, anunció hoy su dimisión (efectiva el 7 de febrero de 2027) horas antes de la decisión de tipos de la eurozona (13:15 UTC), cuyo resultado no se ha podido confirmar todavía con fuentes fiables. Irán sigue presionando en el Golfo: los hutíes reivindican un ataque con misil contra la refinería saudí de Ras Tanura, con indicios (imágenes satelitales) de que una unidad de craqueo fue alcanzada, lo que mantiene el WTI en 101-103 $ y el Brent cerca de 114-115 $.",
+    "lectura": "La Fed ya confirmó que mantiene (10-2, con las disidencias hawkish de Cook y Hammack) y el mercado sitúa hoy en el 79,0 % la probabilidad de una subida en diciembre, tras que Warsh evitara comprometerse en su rueda de prensa del 28 de octubre y propusiera reducir el número de reuniones anuales. El PIB del tercer trimestre sorprendió al alza (3,4 % frente al 3,2 % esperado) y el PCE llegó en línea (3,6 % general, 3,1 % subyacente), sin cambiar el diagnóstico hawkish. Bessent, el 28 de octubre, dijo que los acuerdos comerciales están \"prácticamente cerrados\" salvo México y Canadá, lo que reduce el riesgo de nueva escalada arancelaria a corto plazo. La presidenta del BCE, Christine Lagarde, anunció su dimisión (efectiva el 7 de febrero de 2027), con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla. Irán escala en el Golfo: la Guardia Revolucionaria reivindica minas navales contra 3 petroleros en el estrecho de Ormuz, que EE. UU. (CENTCOM) niega, mientras el tráfico de petroleros sigue en mínimos históricos (≈7 % de lo normal) tras el ataque hutí a la refinería saudí de Ras Tanura, lo que mantiene el WTI en 101-102 $ y el Brent cerca de 114-115 $.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -2302,10 +2304,10 @@
       {
         "cargo": "Presidente de la Reserva Federal",
         "efecto": "bajista",
-        "postura": "Rechaza comprometerse con diciembre, sin orientación futura; mercado ya en 79,5 % de probabilidad de subida (28 oct).",
+        "postura": "No da pistas explícitas sobre diciembre tras mantener tipos; probabilidad de subida ya en el 79-85 % (28 oct).",
         "quien": "Kevin Warsh",
         "ts": "2026-10-28T18:30:00Z",
-        "url": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+        "url": "https://www.fxstreet.com/analysis/fed-holds-rates-as-warsh-offers-no-explicit-signal-on-december-202610291159"
       },
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
@@ -2316,20 +2318,20 @@
         "url": "https://www.cnbc.com/amp/2026/10/28/cnbc-exclusive-transcript-us-treasury-secretary-scott-bessent-speaks-with-cnbcs-brian-sullivan-on-closing-bell-overtime-today.html"
       },
       {
-        "cargo": "Presidenta del Banco Central Europeo",
+        "cargo": "Presidenta del BCE (dimisión anunciada)",
         "efecto": "neutral",
-        "postura": "Anuncia su dimisión como presidenta del BCE, efectiva el 7 de febrero de 2027, horas antes de la decisión de tipos de hoy.",
+        "postura": "Anuncia su dimisión, efectiva el 7-feb-2027, en plena crisis de deuda francesa; Knot y Hernández de Cos, principales candidatos a sucederla (29 oct).",
         "quien": "Christine Lagarde",
         "ts": "2026-10-29T09:00:00Z",
         "url": "https://www.cnn.com/2026/10/29/business/christine-lagarde-ecb-president-resigns-intl"
       },
       {
-        "cargo": "Presidente de Irán",
+        "cargo": "Fuerzas armadas de Irán (IRGC)",
         "efecto": "bajista",
-        "postura": "Su Armada mantiene presión en Ormuz; los hutíes alineados con Irán reivindican el ataque a la refinería saudí de Ras Tanura (27 oct).",
-        "quien": "Masoud Pezeshkian",
-        "ts": "2026-10-27T00:00:00Z",
-        "url": "https://aa.com.tr/en/middle-east/iran-says-oil-tanker-catches-fire-after-hitting-naval-mine-east-of-strait-of-hormuz/4102560"
+        "postura": "Afirma que 3 petroleros chocaron con minas navales en Ormuz; EE. UU. (CENTCOM) niega minas y dice que las rutas están despejadas (29 oct).",
+        "quien": "Guardia Revolucionaria de Irán",
+        "ts": "2026-10-29T06:00:00Z",
+        "url": "https://gulfnews.com/world/mena/us-military-rejects-iranian-mine-strike-claims-says-hormuz-transit-lanes-remain-clear-1.500727648"
       },
       {
         "cargo": "Gobernador del Banco de Japón",
@@ -2341,60 +2343,60 @@
       }
     ]
   },
-  "resumen": "Son las 15:44 UTC (15:44 en Canarias) del jueves 29 de octubre de 2026, con la sesión de Nueva York abierta. El S&P 500 cotiza en torno a 7.719 puntos (-0,3 % frente al cierre de ayer) y el Nasdaq 100 en torno a 29.432 (-1,4 %), lastrado por el fallo de ingresos de Alphabet, que gastó 9.100 millones $ más en capex de lo que ingresó, y por los desplomes de Fortinet (-26 %) y ServiceNow (-18 %), mientras Microsoft y Oracle suben por sus perspectivas de nube. El BCE mantuvo tipos en el 2,50 %, en una reunión marcada por la dimisión de su presidenta, Christine Lagarde (efectiva el 7 de febrero de 2027); el euro cotiza cerca de mínimos desde mayo, en torno a 1,11. La Fed baja ligeramente al 78,5 % la probabilidad de una subida en diciembre (antes 79,5 %). La gamma sigue negativa en ambos índices, algo menos intensa en el S&P 500 y algo más en el Nasdaq. El petróleo se mantiene firme (Brent en torno a 114-115 $, WTI en torno a 102 $) por la tensión en el Golfo, mientras el oro ronda los 4.063 $/oz y bitcoin los 81.500 $.",
+  "resumen": "Son las 16:05 UTC (16:05 en Canarias) del jueves 29 de octubre de 2026, con la sesión de Nueva York abierta (12:05 hora de Nueva York). El S&P 500 cotiza en torno a 7.716 puntos (-0,4 % frente al cierre de ayer, 7.743,98) y el Nasdaq 100 en torno a 29.439 (-1,4 %), lastrados por el fallo de ingresos de Alphabet (gastó 9.100 millones $ más en capex de lo que ingresó) y los desplomes de Fortinet (-26 %) y ServiceNow (-18 %), mientras Microsoft y Oracle suben por sus perspectivas de nube. El oro ronda los 4.035 $/oz (retrocediendo cerca de un 1 %), bitcoin los 81.300 $ y el petróleo WTI los 101-102 $ (Brent 114-115 $), con el estrecho de Ormuz prácticamente cerrado (tráfico de petroleros en mínimos históricos, ≈7 % de lo normal) tras el ataque hutí a la refinería saudí de Ras Tanura y la reivindicación de la Guardia Revolucionaria de Irán de minas navales contra 3 petroleros, que EE. UU. (CENTCOM) niega. El euro cotiza en torno a 1,114, cerca de mínimos desde mayo, tras la dimisión de la presidenta del BCE, Christine Lagarde (efectiva el 7 de febrero de 2027, con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla), y con la Fed situando en el 79,0 % la probabilidad de una subida de tipos el 9 de diciembre.",
   "semana": {
     "activos": [
       {
-        "cambio": "A las 15:19 UTC, el S&P 500 cotiza en torno a 7.719 puntos (-0,3 %), con el BCE ya confirmado manteniendo tipos en el 2,50 % (dimisión de Lagarde de fondo); la gamma negativa se suaviza algo más a -3,85 mil M$ por 1 %.",
-        "expectativa": "El PIB y el PCE de hoy, resueltos sin sorpresa que alivie a la Fed, mantienen el balance de dólar fuerte (+50) como lo que más pesa esta semana en el calendario.",
+        "cambio": "A las 16:05 UTC, el S&P 500 cotiza en torno a 7.716 puntos (-0,4 %), con el BCE confirmado manteniendo tipos en el 2,50 % (dimisión de Lagarde de fondo) y la Guardia Revolucionaria de Irán reivindicando minas navales contra 3 petroleros en Ormuz, que EE. UU. niega; la gamma negativa se mantiene en -4,11 mil M$ por 1 %.",
+        "expectativa": "El PIB y el PCE de hoy, resueltos sin sorpresa que alivie a la Fed, mantienen el balance de dólar fuerte (+50) como lo que más pesa esta semana en el calendario; la escalada en Ormuz añade presión adicional.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+50): el PIB bate expectativas (3,4 % frente a 3,2 %) y el PCE llega en línea, junto a la sorpresa al alza en confianza del consumidor, pedidos de bienes duraderos y viviendas nuevas de días atrás. La Fed ya decidió mantener, con dos disidencias hawkish (Cook y Hammack) y Warsh dando pistas sutiles hacia diciembre (78,5 % de probabilidad, antes 82,5 %); los comentarios de Bessent sobre acuerdos comerciales \"prácticamente cerrados\" alivian algo el riesgo arancelario. La gamma sigue negativa con el call wall (7.721) ya muy cerca del precio, y la dimisión de Lagarde como presidenta del BCE junto al ataque hutí a Ras Tanura añaden ruido político y geopolítico.",
-        "score": -38,
+        "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+50): el PIB bate expectativas (3,4 % frente a 3,2 %) y el PCE llega en línea, junto a la sorpresa al alza en confianza del consumidor, pedidos de bienes duraderos y viviendas nuevas de días atrás. La Fed ya decidió mantener, con dos disidencias hawkish (Cook y Hammack) y Warsh sin dar pistas sobre diciembre (probabilidad de subida en el 79,0 %, según el motor de datos); los comentarios de Bessent sobre acuerdos comerciales \"prácticamente cerrados\" alivian algo el riesgo arancelario. La gamma sigue negativa con el call wall (7.721) muy cerca del precio, y la dimisión de Lagarde como presidenta del BCE, junto a la reivindicación iraní de minas navales contra 3 petroleros en el estrecho de Ormuz (que EE. UU. niega), añaden ruido político y geopolítico.",
+        "score": -42,
         "scoreInicial": -40,
         "sesgo": "bajista"
       },
       {
-        "cambio": "A las 15:19 UTC, el Nasdaq 100 cotiza en torno a 29.432 puntos (-1,4 %), con Alphabet (que gastó 9.100 millones $ más en capex de lo que ingresó), Fortinet (-26 %) y ServiceNow (-18 %) lastrando el índice, mientras Microsoft y Oracle suben por sus perspectivas de nube; la gamma negativa se intensifica ligeramente a -4,21 mil M$ por 1 %.",
+        "cambio": "A las 16:05 UTC, el Nasdaq 100 cotiza en torno a 29.439 puntos (-1,4 %), con Alphabet (que gastó 9.100 millones $ más en capex de lo que ingresó), Fortinet (-26 %) y ServiceNow (-18 %) lastrando el índice, mientras Microsoft y Oracle suben por sus perspectivas de nube; la gamma negativa se mantiene en -4,13 mil M$ por 1 %.",
         "expectativa": "El PCE subyacente (3,1 %, en línea) y el PIB fuerte (3,4 %) son el filtro macro, pero esta semana el Nasdaq cotiza sobre todo los resultados de las grandes tecnológicas y el riesgo de capex en IA, no el calendario.",
         "id": "NQ",
-        "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+50), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo la temporada de resultados: Alphabet decepciona con fuerza (-1,4 % en el índice) mientras Microsoft bate previsiones. La gamma negativa se intensifica a -4,21 mil M$ por 1 %, la señal hawkish de las dos disidencias y las pistas de Warsh sobre diciembre (78,5 %) añaden presión; el PIB y el PCE de hoy, resueltos sin sorpresas, no cambian el diagnóstico.",
-        "score": -48,
+        "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+50), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo la temporada de resultados: Alphabet decepciona con fuerza mientras Microsoft y Oracle bate previsiones. La gamma negativa se mantiene en -4,13 mil M$ por 1 %, la señal hawkish de las dos disidencias y la falta de pistas de Warsh sobre diciembre (79,0 %) añaden presión; el PIB y el PCE de hoy, resueltos sin sorpresas, no cambian el diagnóstico.",
+        "score": -52,
         "scoreInicial": -47,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El oro ronda los 4.063 $/oz, retrocediendo algo al recuperar los bonos del Tesoro su papel de refugio, con el BCE ya resuelto (mantiene en 2,50 %) y el Brent cediendo hacia 113,9 $ por los esfuerzos diplomáticos para rebajar la tensión con Irán.",
-        "expectativa": "El PIB y el PCE de hoy, al no sorprender a la baja, refuerzan el dólar y restan parte del soporte al oro, aunque Ormuz y Ras Tanura ponen un suelo a corto plazo.",
+        "cambio": "El oro ronda los 4.035 $/oz, retrocediendo cerca de un 1 % al recuperar los bonos del Tesoro su papel de refugio, con el BCE ya resuelto (mantiene en 2,50 %) y el petróleo firme por la escalada en Ormuz (reivindicación iraní de minas navales contra 3 petroleros, que EE. UU. niega).",
+        "expectativa": "El PIB y el PCE de hoy, al no sorprender a la baja, refuerzan el dólar y restan parte del soporte al oro, aunque la escalada en Ormuz y Ras Tanura ponen un suelo a corto plazo.",
         "id": "XAU",
-        "narrativa": "El calendario deja un balance de dólar fuerte (+50) que presiona al oro, reforzado por un PIB que bate expectativas (3,4 % frente a 3,2 %) y un PCE en línea que no da argumentos a la Fed para suavizar el tono. El oro cotiza en torno a 4.024-4.066 $/oz, con el dólar sostenido tras la Fed y los datos de hoy. El ataque hutí a Ras Tanura (con indicios satelitales de daño real) y la escalada en Ormuz, que mantienen al WTI por encima de 101 $, dan soporte de refugio, compensando buena parte de la presión del dólar mientras se espera confirmación del resultado del BCE.",
-        "score": -16,
+        "narrativa": "El calendario deja un balance de dólar fuerte (+50) que presiona al oro, reforzado por un PIB que bate expectativas (3,4 % frente a 3,2 %) y un PCE en línea que no da argumentos a la Fed para suavizar el tono. El oro cotiza en torno a 4.035 $/oz, con el dólar sostenido tras la Fed y los datos de hoy. La reivindicación iraní de minas navales contra 3 petroleros en Ormuz (que EE. UU. niega) y el ataque hutí a Ras Tanura dan soporte de refugio, compensando parte de la presión del dólar.",
+        "score": -18,
         "scoreInicial": 15,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Bitcoin ronda los 81.500 $, retrocediendo desde la madrugada al recuperar los Treasuries su papel de refugio, con el BCE ya resuelto y la Fed bajando ligeramente al 78,5 % la probabilidad de subida en diciembre.",
+        "cambio": "Bitcoin ronda los 81.300 $, relativamente estable tras tocar los 81.700 $ y retroceder hacia los 80.000 $ durante la madrugada, con la Fed situando en el 79,0 % la probabilidad de una subida en diciembre.",
         "expectativa": "Un PCE o un PIB más fuertes de lo previsto reforzarían el dólar y añadirían presión bajista adicional sobre bitcoin; hoy ambos han salido en línea o algo fuertes, lo que mantiene la presión.",
         "id": "BTC",
-        "narrativa": "El calendario apoya un dólar fuerte esta semana (+50), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA (hoy acentuado por el fallo de Alphabet). El PIB bate expectativas y el PCE llega en línea, sin aliviar la presión de fondo. La señal hawkish de las dos disidencias y las pistas de Warsh sobre diciembre siguen siendo el principal lastre, con bitcoin retrocediendo desde los 81.500 $ de la madrugada hacia 80.000-80.200 $.",
-        "score": -32,
+        "narrativa": "El calendario apoya un dólar fuerte esta semana (+50), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA (hoy acentuado por el fallo de Alphabet). El PIB bate expectativas y el PCE llega en línea, sin aliviar la presión de fondo. La señal hawkish de las dos disidencias y la falta de pistas de Warsh sobre diciembre siguen siendo el principal lastre.",
+        "score": -30,
         "scoreInicial": -34,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El Brent cede hacia 113,9-114 $ por los esfuerzos diplomáticos para rebajar la tensión con Irán, aunque el daño en la refinería saudí de Ras Tanura sigue sin confirmación oficial.",
-        "expectativa": "Cualquier confirmación oficial de daños en Ras Tanura o nueva escalada en Ormuz sería el principal catalizador alcista a corto plazo; una tregua real sería el principal riesgo bajista.",
+        "cambio": "El WTI se mantiene en torno a 101-102 $ (Brent 114-115 $) tras la reivindicación de la Guardia Revolucionaria de Irán de haber dañado con minas navales a 3 petroleros en el estrecho de Ormuz, que EE. UU. (CENTCOM) niega; el tráfico de petroleros por Ormuz sigue en mínimos históricos (≈7 % de lo normal).",
+        "expectativa": "Cualquier confirmación oficial de daños a petroleros o nueva escalada en Ormuz sería el principal catalizador alcista a corto plazo; una desescalada o reapertura real del tráfico sería el principal riesgo bajista.",
         "id": "WTI",
-        "narrativa": "El calendario apunta a un dólar fuerte esta semana (+50), lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el Golfo: los hutíes afirman haber atacado con un misil balístico la refinería saudí de Ras Tanura (550.000 barriles/día), y nuevas imágenes satelitales sugieren que una unidad de craqueo fue alcanzada y que la planta dejó de quemar gas de forma rutinaria, sin confirmación oficial saudí. El WTI se mantiene en torno a 101-103 $ y el Brent en 113-115 $, sumándose a la tensión ya existente en el estrecho de Ormuz.",
-        "score": 22,
+        "narrativa": "El calendario apunta a un dólar fuerte esta semana (+50), lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el Golfo: los hutíes atacaron la refinería saudí de Ras Tanura (550.000 barriles/día) y la Guardia Revolucionaria de Irán reivindica minas navales contra 3 petroleros, que EE. UU. niega. El WTI se mantiene en torno a 101-102 $ y el Brent en 114-115 $, con el tráfico por Ormuz en mínimos históricos.",
+        "score": 25,
         "scoreInicial": 27,
         "sesgo": "alcista"
       },
       {
-        "cambio": "El euro cotiza cerca de mínimos desde mayo (en torno a 1,11) tras conocerse que el BCE mantiene tipos en el 2,50 % en una reunión marcada por la dimisión de Lagarde y la subida de la rentabilidad de la deuda francesa a máximos desde 2002.",
-        "expectativa": "El PIB de la eurozona de mañana (previsto ≈0,2 % t/t) y el tono de quien suceda el foco mediático de Lagarde son el riesgo a vigilar; un PIB de EE. UU. fuerte como el de hoy ya refuerza la presión bajista sobre el par.",
+        "cambio": "El euro cotiza en torno a 1,114, cerca de mínimos desde mayo, tras la dimisión de Christine Lagarde como presidenta del BCE (efectiva el 7 de febrero de 2027) y con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla.",
+        "expectativa": "El PIB de la eurozona de mañana (previsto ≈0,2 % t/t) y el tono de la carrera sucesoria en el BCE son el riesgo a vigilar; un PIB de EE. UU. fuerte como el de hoy ya refuerza la presión bajista sobre el par.",
         "id": "EURUSD",
-        "narrativa": "El calendario deja un balance de dólar fuerte (+50) que mantiene la presión sobre el euro: el PIB de EE. UU. bate expectativas (3,4 % frente a 3,2 %) y el PCE llega en línea, mientras el balance de la eurozona (-9) sigue siendo menos negativo gracias al IFO alemán. La dimisión de Lagarde como presidenta del BCE, anunciada hoy horas antes de la decisión de tipos, añade incertidumbre sobre la sucesión; las posiciones cortas en euro están en máximos de una década. El par cotiza en torno a 1,11-1,112, cerca de su mínimo desde mayo, con el índice dólar sostenido tras los datos de hoy.",
-        "score": -34,
+        "narrativa": "El calendario deja un balance de dólar fuerte (+50) que mantiene la presión sobre el euro: el PIB de EE. UU. bate expectativas (3,4 % frente a 3,2 %) y el PCE llega en línea, mientras el balance de la eurozona sigue siendo menos negativo gracias al IFO alemán. La dimisión de Lagarde, con Knot y Hernández de Cos como favoritos a sucederla, añade incertidumbre sobre la sucesión; las posiciones cortas en euro están en máximos de una década. El par cotiza en torno a 1,114, cerca de su mínimo desde mayo.",
+        "score": -36,
         "scoreInicial": -30,
         "sesgo": "bajista"
       }
@@ -2408,7 +2410,7 @@
         "WTI": -25,
         "XAU": -50
       },
-      "actualizado": "2026-10-29T14:43:00Z",
+      "actualizado": "2026-10-29T16:05:21Z",
       "dolar": 50,
       "dolarEsperado": 45,
       "euro": -8
@@ -2452,7 +2454,7 @@
               "WTI": "bajista",
               "XAU": "bajista"
             },
-            "nota": "Escenario minoritario (5,5 %) pero muy bajista para el riesgo."
+            "nota": "Escenario minoritario pero muy bajista para el riesgo."
           }
         ],
         "estado": "publicado",
@@ -2461,7 +2463,7 @@
         "fecha": "2026-10-28",
         "horaUtc": "18:00",
         "impacto": "alto",
-        "lectura": "La Fed mantuvo los tipos en 3,75-4,00 %, como esperaba el mercado, pero con dos disidencias —Cook y Hammack— que pedían subir 25 pb: la señal hawkish más fuerte de este ciclo. En la rueda de prensa, Warsh dio pistas sutiles hacia una subida en diciembre, propuso reducir el número de reuniones anuales de la Fed y rechazó dar más orientación; la probabilidad de subida en diciembre bajó hoy al 78,5 % (desde el 82,5 % tras la Fed).",
+        "lectura": "La Fed mantuvo los tipos en 3,75-4,00 %, como esperaba el mercado, pero con dos disidencias —Cook y Hammack— que pedían subir 25 pb: la señal hawkish más fuerte de este ciclo. En la rueda de prensa, Warsh dio pistas sutiles hacia una subida en diciembre, propuso reducir el número de reuniones anuales de la Fed y rechazó dar más orientación; la probabilidad de subida en diciembre se sitúa hoy en el 79,0 %.",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "Mantener en 3,75-4,00 % (muy probable)"
@@ -2504,7 +2506,7 @@
               "WTI": "alcista",
               "XAU": "alcista"
             },
-            "nota": "Dato débil: dólar más débil, Fed con más margen para no subir en diciembre."
+            "nota": "Dato débil: dólar más débil, Fed con más margen."
           }
         ],
         "estado": "publicado",
@@ -2513,7 +2515,7 @@
         "fecha": "2026-10-29",
         "horaUtc": "12:30",
         "impacto": "alto",
-        "lectura": "El PIB avanzado del T3 sorprendió al alza con un 3,4 % anualizado (frente al 3,2 % esperado y el 2,2 % del T2), con un índice de precios del PIB más suave (2,2 % frente al 3,5 % esperado). Confirma una economía fuerte, lo que sostiene el argumento de la Fed para no apresurarse a bajar tipos, aunque el deflactor más suave matiza algo la lectura hawkish.",
+        "lectura": "El PIB avanzado del T3 sorprendió al alza con un 3,4 % anualizado (frente al 3,2 % esperado y el 2,2 % del T2), con un índice de precios del PIB más suave (2,2 % frente al 3,5 % esperado). Confirma una economía fuerte, lo que sostiene el argumento de la Fed para no apresurarse a bajar tipos.",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "≈3,2 % anualizado"
@@ -2565,7 +2567,7 @@
         "fecha": "2026-10-29",
         "horaUtc": "12:30",
         "impacto": "alto",
-        "lectura": "El PCE general subió un 3,6 % interanual, en línea con lo esperado (frente al 3,4 % anterior), sin sorpresas relevantes para la Fed.",
+        "lectura": "El PCE general subió un 3,6 % interanual, en línea con lo esperado, sin sorpresas relevantes para la Fed.",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "≈3,6 % a/a"
@@ -2617,7 +2619,7 @@
         "fecha": "2026-10-29",
         "horaUtc": "12:30",
         "impacto": "alto",
-        "lectura": "El PCE subyacente subió un 3,1 % interanual, en línea con lo esperado (frente al 3,0 % anterior); confirma que la inflación núcleo no cede, apoyando la probabilidad de una subida en diciembre (78,5 %), pero sin una sorpresa que la dispare más.",
+        "lectura": "El PCE subyacente subió un 3,1 % interanual, en línea con lo esperado; confirma que la inflación núcleo no cede, apoyando la probabilidad de una subida en diciembre (79,0 %), pero sin una sorpresa que la dispare más.",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "≈3,1 % a/a"
@@ -2669,7 +2671,7 @@
         "fecha": "2026-10-29",
         "horaUtc": "13:15",
         "impacto": "alto",
-        "lectura": "El BCE mantuvo los tipos en el 2,50 %, como esperaba el mercado, en una reunión marcada por el anuncio de dimisión de Christine Lagarde (efectiva el 7 de febrero de 2027) horas antes. El euro cae y la rentabilidad de la deuda francesa a 10 años sube a máximos desde 2002, mientras el mercado sigue descontando una posible subida de la Fed en diciembre (78,5 %).",
+        "lectura": "El BCE mantuvo los tipos en el 2,50 %, como esperaba el mercado, en una reunión marcada por el anuncio de dimisión de Christine Lagarde (efectiva el 7 de febrero de 2027) horas antes. El euro cae y la rentabilidad de la deuda francesa a 10 años sube a máximos desde 2002.",
         "ocurrido": true,
         "pais": "Eurozona",
         "previsto": "Mantener en 2,50 %"
@@ -2731,5 +2733,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-29T15:44:46Z"
+  "updatedAt": "2026-10-29T16:29:50.107Z"
 }
