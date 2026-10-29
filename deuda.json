@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-29T07:46:43Z",
+  "actualizado": "2026-10-29T19:46:06Z",
   "alarmas": [
     {
       "estado": "amarillo",
@@ -8,15 +8,15 @@
       "valor": "5,33 % (29 oct)"
     },
     {
-      "estado": "amarillo",
-      "nombre": "Subasta 7 años (hoy, 29 oct)",
-      "nota": "Hoy se subastan 44.000 M$ a 7 años (19:00 h, hora española); la de septiembre fue floja (cobertura en el percentil 8). La de 5 años (27 oct) salió en línea con cola de 0,4 pb e indirectos del 60 %.",
-      "valor": "Sept.: 5,085 %; cobertura 2,42; indirectos 57,2 %"
+      "estado": "verde",
+      "nombre": "Subasta 7 años (29 oct)",
+      "nota": "44.000 M$ colocados en línea, sin cola (media de cobertura 2,49); los indirectos quedan por debajo de su media (63,7 %) y los directos suben al 32,8 % (Helious, 29 oct).",
+      "valor": "4,894 %; cobertura 2,46; indirectos 57,8 %"
     },
     {
       "estado": "rojo",
       "nombre": "Deuda de IA (hyperscalers, Broadcom, Anthropic)",
-      "nota": "Alphabet emitió 28.700 M$ en bonos y 12.400 M$ en acciones en el 3T y su deuda a largo plazo pasó de 46.500 M$ (dic-2025) a 125.100 M$; intereses trimestrales de 967 M$ (antes 143 M$) (ppc.land, 29 oct).",
+      "nota": "Alphabet emitió 28.700 M$ en bonos y 12.400 M$ en acciones en el 3T, con flujo de caja libre de -9.100 M$ y caída de ~11 % en bolsa (29 oct); Meta también tuvo FCF negativo (-2.120 M$) y prevé 135.000-145.000 M$ de capex en 2026.",
       "valor": "Alphabet: deuda LP 125.100 M$ (30 sept)"
     },
     {
@@ -43,8 +43,8 @@
       {
         "estado": "rojo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en 5,01 % (29 oct): la bolsa casi no paga extra por su riesgo.",
-        "valor": "Prima de riesgo ≈ 23 pb"
+        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en 4,98 % (29 oct): la bolsa apenas paga extra por su riesgo.",
+        "valor": "Prima de riesgo ≈ 26 pb"
       },
       {
         "estado": "amarillo",
@@ -67,36 +67,36 @@
       {
         "estado": "rojo",
         "n": "Sobreinversión por miedo a quedarse fuera",
-        "nota": "Alphabet (28 oct): capex del 3T +114 %, igual al 121 % de su caja operativa, segundo trimestre con flujo de caja libre negativo y 28.700 M$ de bonos nuevos; Microsoft sí genera caja (+18.600 M$) con capex de 45.200 M$.",
+        "nota": "Alphabet (28 oct): capex de 51.300 M$, FCF -9.100 M$ por 2.º trimestre y 28.700 M$ en bonos; cae ~11 % el 29 oct. Microsoft: capex 45.200 M$ (>50.000 M$ el próximo trimestre) con FCF +18.600 M$.",
         "valor": "Alphabet: FCF -9.100 M$; capex 51.400 M$"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en 72/100 de burbuja, aún por debajo de los ~85 de 2000 y 1929. Lo que más pesa es la sobreinversión en IA a crédito: Alphabet quema 9.100 M$ de caja en el trimestre y cae un ~9 % fuera de hora (28 oct), mientras Microsoft aguanta.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en 72/100 de burbuja, por debajo de los ~85 de 2000 y 1929. Lo que más pesa es la sobreinversión en IA a crédito: Alphabet cae ~11 % (29 oct) tras quemar 9.100 M$ de caja, mientras Microsoft aguanta con caja positiva.",
     "nivel": 72,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "29 oct (Trading Economics): 2 años en ~4,70 % y 30 años en 5,33 %; la curva se mantiene empinada tras la Fed.",
-        "valor": "+62 pb (4,70 % / 5,33 %)"
+        "nota": "29 oct (Trading Economics): el 2 años baja 6 pb y el 30 años 2 pb tras el PIB y el PCE; la curva sigue empinada.",
+        "valor": "+68 pb (4,65 % / 5,33 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "La Fed mantuvo el 28 oct con dos votos por subir; tras Warsh, Kalshi baja la subida de diciembre al 81,5 % (29 oct) desde el 84,5 %; tipos reales altos.",
-        "valor": "3,75-4,00 %; 81,5 % subida en dic."
+        "nota": "La Fed mantuvo el 28 oct con dos votos por subir; Kalshi da un 79,5 % a la subida del 9 dic (29 oct) y el PCE sube al 3,6 %; tipos reales altos.",
+        "valor": "3,75-4,00 %; 79,5 % subida en dic."
       },
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "29 oct: +0,05 % en el día y +0,8 % en un mes; sin debilidad del dólar.",
-        "valor": "102,2"
+        "nota": "29 oct: -0,15 % en el día y +0,6 % en un mes; sin debilidad del dólar.",
+        "valor": "102,0"
       },
       {
         "estado": "verde",
         "n": "Oro",
-        "nota": "29 oct: -0,9 % en el día y -3,1 % en un mes, cerca de mínimos de tres meses; no hay huida hacia el oro.",
-        "valor": "~4.030 $/oz"
+        "nota": "29 oct: -1,35 % en el día y -3,5 % en un mes; no hay huida hacia el oro (máximo de 5.608 $ en enero).",
+        "valor": "~4.013 $/oz"
       },
       {
         "estado": "amarillo",
@@ -530,16 +530,32 @@
     {
       "nombre": "Newsquawk – Cierre Treasuries 27 oct",
       "url": "https://www.newsquawk.com/headlines/treasury-wrap-t-note-futures-z6-settle-2-ticks-lower-at-106-01"
+    },
+    {
+      "nombre": "Helious – Subasta 7 años (29 oct)",
+      "url": "https://helious.io/news/auc-91282CRV5-2026-10-29/7-year-note-auction-in-line"
+    },
+    {
+      "nombre": "24/7 Wall St – Alphabet cae un 11 % (29 oct)",
+      "url": "https://247wallst.com/investing/2026/10/29/alphabet-sinks-11-as-ai-spending-pushes-cash-flow-negative-again-microsoft-and-meta-edge-higher-amazon-slips/"
+    },
+    {
+      "nombre": "Pomegra – BCE mantiene el 2,50 % (29 oct)",
+      "url": "https://pomegra.io/news/ecb-policy-rate-held-at-250-as-december-hike-looms"
+    },
+    {
+      "nombre": "Reuters vía 93.3 – JGB antes del BoJ (29 oct)",
+      "url": "https://www.933thedrive.com/2026/10/29/japan-bonds-steady-ahead-of-boj-decision-strong-auction-lends-support/"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: deuda en manos del público de ~32,3 billones, intereses de 1,1 billones y un 30 años al 5,33 % (29 oct), a 17 pb del umbral de atención. Desde anoche, Alphabet ha mostrado el coste de la IA a crédito: flujo de caja libre de -9.100 M$, capex de 51.400 M$ y deuda a largo plazo de 125.100 M$ (casi el triple que en diciembre). Hoy hay subasta de 7 años y BCE, y mañana BoJ; el riesgo se queda en 50.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: deuda de ~32,3 billones, intereses de 1,1 billones y un 30 años al 5,33 % (29 oct), a 17 pb del umbral de atención. Desde esta mañana: el PIB del 3T sorprende (3,4 %) pero el PCE sube al 3,6 %, la subasta a 7 años sale en línea (4,894 %) y el 10 años baja al 4,98 %; en Europa, el BCE mantiene el 2,50 % y Lagarde dimite con la deuda francesa en máximos desde 2002. Mañana decide el BoJ; el riesgo se queda en 50.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "29 oct; -1 pb en el día, -28 pb en 1 mes",
+          "c": "29 oct; -5 pb en el día, -32 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "5,01 %"
+          "v": "4,98 %"
         },
         {
           "c": "29 oct; -2 pb en el día, -31 pb en 1 mes",
@@ -560,14 +576,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "La Fed mantuvo el 3,75-4,00 % (28 oct) con dos votos a favor de subir; el 10 años sigue sobre el 5 % y Kalshi da un 81,5 % a una subida el 9 de diciembre (antes 84,5 %)."
+      "nota": "El PIB del 3T crece un 3,4 % anualizado y el PCE sube al 3,6 % (subyacente 3,1 %) (29 oct); la Fed mantuvo el 3,75-4,00 % con dos votos por subir y Kalshi da un 79,5 % a una subida el 9 de diciembre."
     },
     {
       "datos": [
         {
-          "c": "29 oct; -3 pb en el día, -26 pb en 1 mes; +74 pb en 1 año",
+          "c": "29 oct; -3 pb en el día, -22 pb en 1 mes; +72 pb en 1 año",
           "n": "Bund 10 años",
-          "v": "3,35 %"
+          "v": "3,36 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -575,15 +591,20 @@
           "v": "88,9 %"
         },
         {
-          "c": "decide hoy, 29 oct (13:15 UTC); se espera mantener",
+          "c": "mantenido el 29 oct; IPC eurozona 3,8 % (sept.); >80 % de subida el 18 dic",
           "n": "Tipo depósito BCE",
           "v": "2,50 %"
+        },
+        {
+          "c": "28 oct; OAT 10 años 4,94 %",
+          "n": "Prima Francia (OAT-Bund)",
+          "v": "157 pb"
         }
       ],
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El euro sigue cerca de mínimos de 17 meses (1,113-1,114 $, 29 oct) por la crisis fiscal francesa; el mercado ya descuenta posibles subidas del BCE en diciembre."
+      "nota": "El BCE mantuvo tipos el 29 oct y Lagarde dimite (efectiva el 7 feb 2027); la deuda francesa sigue en máximos desde 2002 y el euro ronda 1,114 $, cerca de mínimos de 17 meses."
     },
     {
       "datos": [
@@ -598,7 +619,7 @@
           "v": "590.700 M$"
         },
         {
-          "c": "29 oct; -0,02 %; yuan +0,7 % en 1 mes y +6,3 % en 1 año",
+          "c": "29 oct; -0,04 %; yuan +0,7 % en 1 mes y +6,3 % en 1 año",
           "n": "USD/CNY",
           "v": "6,66"
         },
@@ -616,12 +637,12 @@
     {
       "datos": [
         {
-          "c": "29 oct; +1 pb en el día, -22 pb en 1 mes; +120 pb en 1 año",
+          "c": "29 oct; +1 pb en el día, -23 pb en 1 mes; +119 pb en 1 año",
           "n": "JGB 10 años",
-          "v": "2,85 %"
+          "v": "2,84 %"
         },
         {
-          "c": "29 oct; +2 pb en el día, -25 pb en 1 mes; +86 pb en 1 año",
+          "c": "29 oct; +2 pb en el día, -25 pb en 1 mes; récord 4,25 % en octubre",
           "n": "JGB 30 años",
           "v": "3,90 %"
         },
@@ -631,15 +652,15 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "29 oct; +0,06 %; yen -0,3 % en 1 mes",
+          "c": "29 oct; +0,07 %; yen -0,3 % en 1 mes",
           "n": "USD/JPY",
-          "v": "157,9"
+          "v": "157,95"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Los JGB se mantienen firmes antes del BoJ de mañana (30 oct), con buena subasta a 2 años (cobertura 4,03); Reuters espera que mantenga el 1,25 % y suba 25 pb en diciembre."
+      "nota": "JGB estables antes del BoJ de mañana (30 oct) tras una buena subasta a 2 años (cobertura 4,03); Reuters espera que mantenga el 1,25 % y suba 25 pb en diciembre."
     },
     {
       "datos": [
@@ -790,6 +811,11 @@
       "burbuja": 72,
       "riesgo": 50,
       "ts": "2026-10-29T07:46:43Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-10-29T19:46:06Z"
     }
   ]
 }

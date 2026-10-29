@@ -1398,8 +1398,8 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo (Yahoo Finance), hacia las 16:00 Canarias; cambio frente al cierre oficial del 28 de octubre (7.743,98).",
-      "changePct": -0.63,
+      "changeNote": "en vivo (Yahoo Finance), hacia las 19:45 UTC (sesión de Nueva York abierta); cambio frente al cierre oficial del 28 de octubre (7.743,98).",
+      "changePct": -0.59,
       "claves": [
         "Call wall en 7721 (SPY 770,0); put wall en 7671 (SPY 765,0),",
         "Régimen de gamma negativa en -4,31 mil M$ por 1 % de movimiento,",
@@ -1633,7 +1633,7 @@
         "vencimientoCercano": "2026-10-29"
       },
       "id": "SPX",
-      "lectura": "A las 16:00 UTC, el S&P 500 ronda los 7.695 puntos (-0,63 % frente al cierre de ayer, 7.743,98), ampliando la caida de la mañana con el dólar fuerte tras la Fed (probabilidad de subida en diciembre en el 79,5-83 %) y el BCE manteniendo tipos tras la dimisión de Lagarde. La gamma negativa se mantiene en -4,31 mil M$ por 1 %, con el call wall en 7.721 muy cerca del precio. La Guardia Revolucionaria de Irán mantiene su reivindicación de minas navales contra petroleros en el estrecho de Ormuz (EE. UU. lo niega), sosteniendo el petróleo. Sesgo: bajista.",
+      "lectura": "A las 19:45 UTC, el S&P 500 ronda los 7.698 puntos (-0,59 % frente al cierre de ayer, 7.743,98), tras un PIB del T3 que bate expectativas (3,4 % frente a 3,2 %) y un PCE en línea (3,6 % general, 3,1 % subyacente) que no alivian el tono hawkish de la Fed (probabilidad de subida en diciembre en el 79,5 %, según Kalshi). El BCE mantuvo tipos y Christine Lagarde anunció su dimisión como presidenta (efectiva el 7 de febrero de 2027). La gamma negativa se mantiene en -4,31 mil M$ por 1 %, con el call wall en 7.721 muy cerca del precio. La Guardia Revolucionaria de Irán mantiene su reivindicación de minas navales contra petroleros en el estrecho de Ormuz (EE. UU. lo niega), sosteniendo el petróleo y el dólar. Sesgo: bajista.",
       "levels": {
         "callWall": 7721,
         "gammaFlip": 7759,
@@ -1642,16 +1642,16 @@
       },
       "name": "S&P 500",
       "netGex": "negativa (-4,31 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-27)",
-      "precio": 7695,
+      "precio": 7698,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -42,
       "sesgo": "bajista",
-      "spot": 7695
+      "spot": 7698
     },
     {
-      "changeNote": "derivado de QQQ vía Alpaca (motor NanoFx), 16:20 Canarias; cambio frente al cierre estimado del 28 de octubre.",
-      "changePct": -1.5,
+      "changeNote": "derivado de QQQ vía Alpaca (motor NanoFx), hacia las 19:45 UTC; cambio frente al cierre estimado del 28 de octubre.",
+      "changePct": -1.46,
       "claves": [
         "Call wall en 29583 (QQQ 720,0); put wall en 28762 (QQQ 700,0),",
         "Régimen de gamma negativa en -4,49 mil M$ por 1 % de movimiento,",
@@ -1873,7 +1873,7 @@
         "vencimientoCercano": "2026-10-29"
       },
       "id": "NDX",
-      "lectura": "A las 16:20 UTC, el Nasdaq 100 ronda los 29.402 puntos (-1,5 %), lastrado por el fallo de ingresos de Alphabet (9.100 millones $ más de capex que ingresos), Fortinet (-26 %) y ServiceNow (-18 %), mientras Microsoft y Oracle suben por sus perspectivas de nube. La gamma negativa se sitúa en -4,49 mil M$ por 1 %, con el call wall en 29.583 y el giro de gamma en 29.989. La Fed sitúa en el 79,5 % la probabilidad de una subida en diciembre, lo que añade presión sobre la valoración tecnológica. Sesgo: bajista.",
+      "lectura": "A las 19:45 UTC, el Nasdaq 100 ronda los 29.390 puntos (-1,46 %), lastrado por el fallo de ingresos de Alphabet (9.100 millones $ más de capex que ingresos), Fortinet (-26 %) y ServiceNow (-18 %), mientras Microsoft y Oracle suben por sus perspectivas de nube. La gamma negativa se sitúa en -4,49 mil M$ por 1 %, con el call wall en 29.583 y el giro de gamma en 29.989. La Fed sitúa en el 79,5 % la probabilidad de una subida en diciembre, lo que añade presión sobre la valoración tecnológica. Sesgo: bajista.",
       "levels": {
         "callWall": 29583,
         "gammaFlip": 29989,
@@ -1882,16 +1882,16 @@
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-4,49 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-27)",
-      "precio": 29402,
+      "precio": 29390,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -52,
       "sesgo": "bajista",
-      "spot": 29402
+      "spot": 29390
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-29T15:49:19Z",
+    "actualizado": "2026-10-29T16:19:48Z",
     "balance": 6753.6,
     "d4": 31.3,
     "dBalance": -2,
@@ -2243,10 +2243,10 @@
         "valor": "29542"
       }
     ],
-    "lectura": "Niveles 0DTE de hoy (vencimiento 29 de octubre), calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE en 7.922, el put wall en 7.601 y el max pain en 7.701 (put/call OI 2,11); en el Nasdaq 100 el call wall 0DTE en 29.789, el put wall en 27.118 y el max pain en 29.542 (put/call OI 1,18). El PIB, el PCE y la decisión del BCE de hoy ya están resueltos; la atención del mercado se centra ahora en la escalada en el estrecho de Ormuz (minas navales reivindicadas por Irán, negadas por EE. UU.)."
+    "lectura": "Niveles 0DTE de hoy (vencimiento 29 de octubre), calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE en 7.922, el put wall en 7.601 y el max pain en 7.701 (put/call OI 2,11); en el Nasdaq 100 el call wall 0DTE en 29.789, el put wall en 27.118 y el max pain en 29.542 (put/call OI 1,18). El PIB, el PCE y la decisión del BCE de hoy ya están resueltos; a las 19:45 UTC la atención del mercado sigue en la escalada en el estrecho de Ormuz (minas navales reivindicadas por Irán, negadas por EE. UU.) y en el fallo de ingresos de Alphabet."
   },
   "politica": {
-    "actualizado": "2026-10-29T16:05:21Z",
+    "actualizado": "2026-10-29T19:50:00Z",
     "ajuste": -16,
     "declaraciones": [
       {
@@ -2343,11 +2343,11 @@
       }
     ]
   },
-  "resumen": "Son las 19:20 UTC (19:20 en Canarias) del jueves 29 de octubre de 2026, con la sesión de Nueva York abierta (15:20 hora de Nueva York). El S&P 500 cotiza en torno a 7.695 puntos (-0,63 % frente al cierre de ayer, 7.743,98) y el Nasdaq 100 en torno a 29.439 (-1,4 %), lastrados por el fallo de ingresos de Alphabet (gastó 9.100 millones $ más en capex de lo que ingresó) y los desplomes de Fortinet (-26 %) y ServiceNow (-18 %), mientras Microsoft y Oracle suben por sus perspectivas de nube. El oro ronda los 4.035 $/oz (retrocediendo cerca de un 1 %), bitcoin los 81.300 $ y el petróleo WTI los 101-102 $ (Brent 114-115 $), con el estrecho de Ormuz prácticamente cerrado (tráfico de petroleros en mínimos históricos, ≈7 % de lo normal) tras el ataque hutí a la refinería saudí de Ras Tanura y la reivindicación de la Guardia Revolucionaria de Irán de minas navales contra 3 petroleros, que EE. UU. (CENTCOM) niega. El euro cotiza en torno a 1,114, cerca de mínimos desde mayo, tras la dimisión de la presidenta del BCE, Christine Lagarde (efectiva el 7 de febrero de 2027, con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla), y con la Fed situando en el 79,0 % la probabilidad de una subida de tipos el 9 de diciembre.",
+  "resumen": "Son las 19:50 UTC (19:50 en Canarias, 15:50 en Nueva York) del jueves 29 de octubre de 2026, con la sesión de Nueva York abierta. El S&P 500 cotiza en torno a 7.698 puntos (-0,59 % frente al cierre de ayer, 7.743,98) y el Nasdaq 100 en torno a 29.390 (-1,46 %), lastrados por el fallo de ingresos de Alphabet (gastó 9.100 millones $ más en capex de lo que ingresó) y los desplomes de Fortinet (-26 %) y ServiceNow (-18 %), mientras Microsoft y Oracle suben por sus perspectivas de nube. El oro ronda los 4.008 $/oz (-1,47 %), bitcoin los 80.800 $ y el petróleo WTI los 102-103 $ (Brent 114-115 $), con el estrecho de Ormuz prácticamente cerrado (tráfico de petroleros en mínimos históricos, ≈7 % de lo normal) tras el ataque hutí a la refinería saudí de Ras Tanura y la reivindicación de la Guardia Revolucionaria de Irán de minas navales contra 3 petroleros, que EE. UU. (CENTCOM) niega. El euro cotiza en torno a 1,113, cerca de mínimos desde mayo, tras la dimisión de la presidenta del BCE, Christine Lagarde (efectiva el 7 de febrero de 2027, con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla), y con la Fed situando en el 79,5 % la probabilidad de una subida de tipos el 9 de diciembre tras el hold hawkish (10-2, disidencias de Cook y Hammack) y la rueda de prensa sin pistas de Kevin Warsh. Gamma negativa en ambos índices (SPX -4,31 mil M$ por 1 %; NDX -4,49 mil M$ por 1 %), con el call wall del S&P 500 (7.721) muy cerca del precio. Sesgo del día: bajista en SPX y NDX.",
   "semana": {
     "activos": [
       {
-        "cambio": "A las 16:05 UTC, el S&P 500 cotiza en torno a 7.716 puntos (-0,4 %), con el BCE confirmado manteniendo tipos en el 2,50 % (dimisión de Lagarde de fondo) y la Guardia Revolucionaria de Irán reivindicando minas navales contra 3 petroleros en Ormuz, que EE. UU. niega; la gamma negativa se mantiene en -4,11 mil M$ por 1 %.",
+        "cambio": "A las 19:45 UTC, el S&P 500 cotiza en torno a 7.698 puntos (-0,59 %), con el BCE confirmado manteniendo tipos en el 2,50 % (dimisión de Lagarde de fondo) y la Guardia Revolucionaria de Irán reivindicando minas navales contra 3 petroleros en Ormuz, que EE. UU. niega; la gamma negativa se mantiene en -4,31 mil M$ por 1 %.",
         "expectativa": "El PIB y el PCE de hoy, resueltos sin sorpresa que alivie a la Fed, mantienen el balance de dólar fuerte (+50) como lo que más pesa esta semana en el calendario; la escalada en Ormuz añade presión adicional.",
         "id": "SPX",
         "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+50): el PIB bate expectativas (3,4 % frente a 3,2 %) y el PCE llega en línea, junto a la sorpresa al alza en confianza del consumidor, pedidos de bienes duraderos y viviendas nuevas de días atrás. La Fed ya decidió mantener, con dos disidencias hawkish (Cook y Hammack) y Warsh sin dar pistas sobre diciembre (probabilidad de subida en el 79,0 %, según el motor de datos); los comentarios de Bessent sobre acuerdos comerciales \"prácticamente cerrados\" alivian algo el riesgo arancelario. La gamma sigue negativa con el call wall (7.721) muy cerca del precio, y la dimisión de Lagarde como presidenta del BCE, junto a la reivindicación iraní de minas navales contra 3 petroleros en el estrecho de Ormuz (que EE. UU. niega), añaden ruido político y geopolítico.",
@@ -2356,7 +2356,7 @@
         "sesgo": "bajista"
       },
       {
-        "cambio": "A las 16:05 UTC, el Nasdaq 100 cotiza en torno a 29.439 puntos (-1,4 %), con Alphabet (que gastó 9.100 millones $ más en capex de lo que ingresó), Fortinet (-26 %) y ServiceNow (-18 %) lastrando el índice, mientras Microsoft y Oracle suben por sus perspectivas de nube; la gamma negativa se mantiene en -4,13 mil M$ por 1 %.",
+        "cambio": "A las 19:45 UTC, el Nasdaq 100 cotiza en torno a 29.390 puntos (-1,46 %), con Alphabet (que gastó 9.100 millones $ más en capex de lo que ingresó), Fortinet (-26 %) y ServiceNow (-18 %) lastrando el índice, mientras Microsoft y Oracle suben por sus perspectivas de nube; la gamma negativa se mantiene en -4,49 mil M$ por 1 %.",
         "expectativa": "El PCE subyacente (3,1 %, en línea) y el PIB fuerte (3,4 %) son el filtro macro, pero esta semana el Nasdaq cotiza sobre todo los resultados de las grandes tecnológicas y el riesgo de capex en IA, no el calendario.",
         "id": "NQ",
         "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+50), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo la temporada de resultados: Alphabet decepciona con fuerza mientras Microsoft y Oracle bate previsiones. La gamma negativa se mantiene en -4,13 mil M$ por 1 %, la señal hawkish de las dos disidencias y la falta de pistas de Warsh sobre diciembre (79,0 %) añaden presión; el PIB y el PCE de hoy, resueltos sin sorpresas, no cambian el diagnóstico.",
@@ -2365,7 +2365,7 @@
         "sesgo": "bajista"
       },
       {
-        "cambio": "El oro ronda los 4.035 $/oz, retrocediendo cerca de un 1 % al recuperar los bonos del Tesoro su papel de refugio, con el BCE ya resuelto (mantiene en 2,50 %) y el petróleo firme por la escalada en Ormuz (reivindicación iraní de minas navales contra 3 petroleros, que EE. UU. niega).",
+        "cambio": "El oro ronda los 4.008 $/oz (-1,47 % según Trading Economics), retrocediendo al recuperar los bonos del Tesoro su papel de refugio, con el BCE ya resuelto (mantiene en 2,50 %) y el petróleo firme por la escalada en Ormuz (reivindicación iraní de minas navales contra 3 petroleros, que EE. UU. niega).",
         "expectativa": "El PIB y el PCE de hoy, al no sorprender a la baja, refuerzan el dólar y restan parte del soporte al oro, aunque la escalada en Ormuz y Ras Tanura ponen un suelo a corto plazo.",
         "id": "XAU",
         "narrativa": "El calendario deja un balance de dólar fuerte (+50) que presiona al oro, reforzado por un PIB que bate expectativas (3,4 % frente a 3,2 %) y un PCE en línea que no da argumentos a la Fed para suavizar el tono. El oro cotiza en torno a 4.035 $/oz, con el dólar sostenido tras la Fed y los datos de hoy. La reivindicación iraní de minas navales contra 3 petroleros en Ormuz (que EE. UU. niega) y el ataque hutí a Ras Tanura dan soporte de refugio, compensando parte de la presión del dólar.",
@@ -2374,7 +2374,7 @@
         "sesgo": "bajista"
       },
       {
-        "cambio": "Bitcoin ronda los 81.300 $, relativamente estable tras tocar los 81.700 $ y retroceder hacia los 80.000 $ durante la madrugada, con la Fed situando en el 79,0 % la probabilidad de una subida en diciembre.",
+        "cambio": "Bitcoin ronda los 80.800 $, relativamente estable tras tocar los 81.700 $ y retroceder durante la sesión, con la Fed situando en el 79,5 % la probabilidad de una subida en diciembre.",
         "expectativa": "Un PCE o un PIB más fuertes de lo previsto reforzarían el dólar y añadirían presión bajista adicional sobre bitcoin; hoy ambos han salido en línea o algo fuertes, lo que mantiene la presión.",
         "id": "BTC",
         "narrativa": "El calendario apoya un dólar fuerte esta semana (+50), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA (hoy acentuado por el fallo de Alphabet). El PIB bate expectativas y el PCE llega en línea, sin aliviar la presión de fondo. La señal hawkish de las dos disidencias y la falta de pistas de Warsh sobre diciembre siguen siendo el principal lastre.",
@@ -2383,7 +2383,7 @@
         "sesgo": "bajista"
       },
       {
-        "cambio": "El WTI se mantiene en torno a 101-102 $ (Brent 114-115 $) tras la reivindicación de la Guardia Revolucionaria de Irán de haber dañado con minas navales a 3 petroleros en el estrecho de Ormuz, que EE. UU. (CENTCOM) niega; el tráfico de petroleros por Ormuz sigue en mínimos históricos (≈7 % de lo normal).",
+        "cambio": "El WTI se mantiene en torno a 102-103 $ (Brent 114-115 $) tras la reivindicación de la Guardia Revolucionaria de Irán de haber dañado con minas navales a 3 petroleros en el estrecho de Ormuz, que EE. UU. (CENTCOM) niega; el tráfico de petroleros por Ormuz sigue en mínimos históricos (≈7 % de lo normal).",
         "expectativa": "Cualquier confirmación oficial de daños a petroleros o nueva escalada en Ormuz sería el principal catalizador alcista a corto plazo; una desescalada o reapertura real del tráfico sería el principal riesgo bajista.",
         "id": "WTI",
         "narrativa": "El calendario apunta a un dólar fuerte esta semana (+50), lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el Golfo: los hutíes atacaron la refinería saudí de Ras Tanura (550.000 barriles/día) y la Guardia Revolucionaria de Irán reivindica minas navales contra 3 petroleros, que EE. UU. niega. El WTI se mantiene en torno a 101-102 $ y el Brent en 114-115 $, con el tráfico por Ormuz en mínimos históricos.",
@@ -2392,7 +2392,7 @@
         "sesgo": "alcista"
       },
       {
-        "cambio": "El euro cotiza en torno a 1,114, cerca de mínimos desde mayo, tras la dimisión de Christine Lagarde como presidenta del BCE (efectiva el 7 de febrero de 2027) y con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla.",
+        "cambio": "El euro cotiza en torno a 1,113, cerca de mínimos desde mayo, tras la dimisión de Christine Lagarde como presidenta del BCE (efectiva el 7 de febrero de 2027) y con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla.",
         "expectativa": "El PIB de la eurozona de mañana (previsto ≈0,2 % t/t) y el tono de la carrera sucesoria en el BCE son el riesgo a vigilar; un PIB de EE. UU. fuerte como el de hoy ya refuerza la presión bajista sobre el par.",
         "id": "EURUSD",
         "narrativa": "El calendario deja un balance de dólar fuerte (+50) que mantiene la presión sobre el euro: el PIB de EE. UU. bate expectativas (3,4 % frente a 3,2 %) y el PCE llega en línea, mientras el balance de la eurozona sigue siendo menos negativo gracias al IFO alemán. La dimisión de Lagarde, con Knot y Hernández de Cos como favoritos a sucederla, añade incertidumbre sobre la sucesión; las posiciones cortas en euro están en máximos de una década. El par cotiza en torno a 1,114, cerca de su mínimo desde mayo.",
@@ -2410,7 +2410,7 @@
         "WTI": -25,
         "XAU": -50
       },
-      "actualizado": "2026-10-29T16:05:21Z",
+      "actualizado": "2026-10-29T19:50:00Z",
       "dolar": 50,
       "dolarEsperado": 45,
       "euro": -8
@@ -2733,5 +2733,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-29T19:20:00.000Z"
+  "updatedAt": "2026-10-29T20:18:00.000000Z"
 }
