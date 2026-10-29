@@ -361,9 +361,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-29T07:09:01Z",
+    "actualizado": "2026-10-29T07:56:47Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida en la próxima reunión, el 9 de diciembre, bajó ligeramente al 81,5 % (tasa implícita 4,08 %) desde el 82,5 % de ayer tras la rueda de prensa de Warsh; para enero de 2027 también retrocedió, al 90,5 % (tasa implícita 4,39 %) desde el 92,5 %, mientras marzo de 2027 subió al 93,0 % (tasa implícita 4,22 %) desde el 91,5 %.",
+    "lectura": "La probabilidad de subida en la reunión del 9 de diciembre se mantiene en el 81,5 % (tasa implícita 4,08 %), sin cambios desde la lectura de esta mañana; enero de 2027 continúa en el 90,5 % (4,39 %) y marzo de 2027 en el 93,0 % (4,22 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -1360,8 +1360,8 @@
   ],
   "indices": [
     {
-      "changeNote": "futuros, -0,5 % de madrugada tras Alphabet; 06:55 UTC, antes de Londres",
-      "changePct": -0.5,
+      "changeNote": "futuros, -0,32 % en la sesión europea; 08:16 UTC, antes de Londres",
+      "changePct": -0.32,
       "claves": [
         "Call wall en 7826 (SPY 780.0).",
         "Régimen de gamma negativa en -1.23 mil M$ por 1 % (antes -1,25): prácticamente sin cambios.",
@@ -1595,7 +1595,7 @@
         "vencimientoCercano": "2026-10-29"
       },
       "id": "SPX",
-      "lectura": "Antes de la apertura de Londres (06:55 UTC), los futuros del S&P 500 siguen un 0,5 % por debajo del cierre tras el fallo en ingresos de Alphabet, que reavivó el temor al gasto en IA, aunque Microsoft (+4 % fuera de hora) limita el daño. Con el vencimiento 0DTE de ayer ya fuera, la gamma se modera a -1,25 mil M$ por 1 % (antes -5,22), con el call wall en 7.826 y el put wall ahora en 7.525. Pesan más Kevin Warsh (pistas hacia una subida en diciembre, ya con 83-85 % de probabilidad) y el PIB/PCE de EE. UU. de hoy (12:30 UTC), seguidos de la decisión del BCE. Sesgo: bajista.",
+      "lectura": "A las 08:16 UTC, antes de Londres, los futuros del S&P 500 mejoran algo a -0,32 % (antes -0,5 %) tras el fallo en ingresos de Alphabet, con Microsoft (+3-4 % fuera de hora) limitando el daño. La gamma se mantiene en -1,23 mil M$ por 1 % con el call wall en 7.826 y el put wall en 7.525. Hoy son clave el PIB y el PCE de EE. UU. (12:30 UTC) y la decisión del BCE (13:15 UTC); Amazon e Intel presentan resultados esta tarde. Sesgo: bajista.",
       "levels": {
         "callWall": 7826,
         "gammaFlip": 7775,
@@ -1610,16 +1610,16 @@
       "regimen": "negativa",
       "score": -39,
       "sesgo": "bajista",
-      "spot": 7705
+      "spot": 7719
     },
     {
-      "changeNote": "futuros, -1,6 % de madrugada tras Alphabet; 06:55 UTC, antes de Londres",
-      "changePct": -1.6,
+      "changeNote": "futuros, -1,14 % en la sesión europea; 08:16 UTC, antes de Londres",
+      "changePct": -1.14,
       "claves": [
-        "Call wall ahora en 30424 (QQQ 740.0, antes 29601): sube con fuerza al renovarse el open interest.",
-        "Régimen de gamma negativa en -4.39 mil M$ por 1 % (antes -4,11): se profundiza ligeramente.",
-        "Giro de gamma en 30081 (QQQ 731.67), por encima del precio: la gamma sigue negativa.",
-        "Put wall en 29601 (QQQ 720.0, igual que antes); put/call OI 1.46."
+        "Call wall en 30424 (QQQ 740.0).",
+        "Régimen de gamma negativa en -4.39 mil M$ por 1 % (sin cambios).",
+        "Giro de gamma en 30076 (QQQ 731.55), por encima del precio: la gamma sigue negativa.",
+        "Put wall en 29601 (QQQ 720.0); put/call OI 1.46."
       ],
       "gex": {
         "callWall": 740,
@@ -1799,11 +1799,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 731.67,
+        "gammaFlip": 731.55,
         "gexTotal": -4.39,
         "indice": {
           "callWall": 30424,
-          "gammaFlip": 30081,
+          "gammaFlip": 30076,
           "maxPain": 29560,
           "precio": 29565,
           "putWall": 29601
@@ -1836,10 +1836,10 @@
         "vencimientoCercano": "2026-10-29"
       },
       "id": "NDX",
-      "lectura": "Antes de la apertura de Londres, los futuros del Nasdaq 100 siguen un 1,6 % por debajo del cierre tras el fallo en ingresos de Alphabet (capex de IA en el foco), mientras Microsoft sostiene el conjunto. La gamma se mantiene en -4,11 mil M$ por 1 % con el call/put wall igualados en 29.601 y el giro de gamma en 29.928. El PCE subyacente de hoy (12:30 UTC) y las pistas de Warsh hacia diciembre son la referencia clave; Amazon presenta resultados esta tarde. Sesgo: bajista.",
+      "lectura": "A las 08:16 UTC, los futuros del Nasdaq 100 mejoran a -1,14 % (antes -1,6 %) tras el fallo en ingresos de Alphabet (cae más de un 10 % fuera de hora por el capex de IA), mientras Microsoft sostiene el conjunto. La gamma negativa se mantiene en -4,39 mil M$ por 1 %, con el giro de gamma ahora en 30.076 (antes 30.081). El PCE subyacente de hoy (12:30 UTC) y Amazon/Intel, que presentan resultados esta tarde, son las referencias clave. Sesgo: bajista.",
       "levels": {
         "callWall": 30424,
-        "gammaFlip": 30081,
+        "gammaFlip": 30076,
         "maxPain": 29560,
         "precio": 29565,
         "putWall": 29601
@@ -1851,7 +1851,7 @@
       "regimen": "negativa",
       "score": -43,
       "sesgo": "bajista",
-      "spot": 29092
+      "spot": 29228
     }
   ],
   "liquidez": {
@@ -2305,11 +2305,11 @@
       }
     ]
   },
-  "resumen": "Son las 06:55 UTC (07:55 Canarias) del jueves 29 de octubre de 2026, en la sesión europea, antes de la apertura de Londres. Los futuros de EE. UU. siguen presionados tras el fallo en ingresos de Alphabet: S&P 500 en torno a 7.705 (-0,5 %) y Nasdaq-100 en torno a 29.092 (-1,6 %), mientras Microsoft sostiene las tecnológicas tras batir previsiones. La gamma del S&P 500 se modera a -1,25 mil M$ por 1 % (antes -5,22) con el vencimiento 0DTE de ayer ya fuera; en el Nasdaq 100 se mantiene en -4,11. El oro cotiza cerca de 4.050-4.090 $/oz y bitcoin se mantiene sobre los 81.000 $ tras confirmarse el mantenimiento de la Fed (10-2, con Cook y Hammack pidiendo subir); el mercado ya descuenta un 83-85 % de probabilidad de subida en diciembre. El euro sigue cerca de mínimos de 17 meses en 1,113-1,114 y el WTI firme en torno a 102 $ tras el ataque hutí reivindicado contra la refinería saudí de Ras Tanura. Hoy son claves el PIB y el PCE de EE. UU. y la decisión del BCE (12:30 y 13:15 UTC), con Lagarde de fondo por la crisis fiscal francesa y el shock energético.",
+  "resumen": "Son las 08:16 UTC (08:16 Canarias) del jueves 29 de octubre de 2026, en la sesión europea, antes de la apertura de Londres. Los futuros de EE. UU. mejoran algo tras el susto inicial por Alphabet: S&P 500 en torno a 7.719 (-0,32 %) y Nasdaq-100 en torno a 29.228 (-1,14 %), con Microsoft sosteniendo las tecnológicas. La gamma del S&P 500 sigue en -1,23 mil M$ por 1 % y la del Nasdaq 100 en -4,39. El oro cotiza en torno a 4.050 $/oz y bitcoin se mantiene sobre los 81.000 $ tras el mantenimiento de la Fed (10-2, con Cook y Hammack pidiendo subir); el mercado sigue en 81,5-85 % de probabilidad de subida en diciembre. El euro ronda 1,113-1,114 y el WTI en torno a 102 $ tras el repunte por el ataque a Ras Tanura. Hoy son claves el PIB y el PCE de EE. UU. y la decisión del BCE (12:30 y 13:15 UTC), y esta tarde Amazon e Intel presentan resultados.",
   "semana": {
     "activos": [
       {
-        "cambio": "Antes de Londres (06:55 UTC): futuros -0,5 %, gamma moderada a -1,25 mil M$ por 1 % tras renovarse el 0DTE; Bessent da algo de alivio arancelario (acuerdos \"prácticamente cerrados\").",
+        "cambio": "A las 08:16 UTC: futuros mejoran a -0,32 % (antes -0,5 %); gamma estable en -1,23 mil M$ por 1 %. Bessent da algo de alivio arancelario (acuerdos \"prácticamente cerrados\").",
         "expectativa": "El PIB avanzado del T3 (previsto ≈3,2 % frente al 2,2 % anterior) y el PCE de mañana (previsto al alza) son los datos que más explican el sesgo bajista: una economía e inflación que no dan margen para relajar la política, sosteniendo un dólar firme justo cuando la Fed ya decidió mantener con dos disidencias hawkish.",
         "id": "SPX",
         "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+52): la fuerte sorpresa al alza en confianza del consumidor, pedidos de bienes duraderos y viviendas nuevas, junto al PIB y el PCE de mañana previstos al alza, son lo que más pesa. La Fed ya decidió mantener, con dos disidencias hawkish (Cook y Hammack) y Warsh dando pistas sutiles hacia diciembre sin comprometerse; la liquidez salió en términos netos la semana pasada y la gamma sigue negativa, profundizándose a -5,22 mil M$ por 1 % tras los resultados de Microsoft y Alphabet. El ataque hutí a la refinería saudí de Ras Tanura añade presión de riesgo geopolítico sobre el crudo, mientras Amazon presenta resultados mañana como siguiente catalizador.",
@@ -2318,7 +2318,7 @@
         "sesgo": "bajista"
       },
       {
-        "cambio": "Antes de Londres: futuros -1,6 % tras Alphabet, gamma estable en -4,11 mil M$ por 1 %; Amazon presenta resultados esta tarde.",
+        "cambio": "A las 08:16 UTC: futuros mejoran a -1,14 % (antes -1,6 %); gamma estable en -4,39 mil M$ por 1 %. Amazon e Intel presentan resultados esta tarde.",
         "expectativa": "El PCE subyacente (previsto ≈3,1 % frente al 3,0 % anterior) y el PIB avanzado son el filtro macro, pero esta semana el Nasdaq cotiza sobre todo los resultados de las grandes tecnológicas y el riesgo de capex en IA, no el calendario.",
         "id": "NQ",
         "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+52), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo la temporada de resultados: Microsoft bate previsiones y sube un 4 % fuera de hora, mientras Alphabet y Fortinet caen. La gamma negativa en el índice se profundiza a -3,93 mil M$ por 1 %, la señal hawkish de las dos disidencias y las pistas de Warsh sobre diciembre, y la liquidez saliente añaden presión; Amazon presenta resultados el jueves tras el cierre como siguiente catalizador clave.",
@@ -2691,5 +2691,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-29T07:20:24Z"
+  "updatedAt": "2026-10-29T08:16:32Z"
 }
