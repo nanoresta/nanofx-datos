@@ -1312,138 +1312,138 @@
   ],
   "indices": [
     {
-      "changeNote": "implícito, 21:46 UTC (motor de opciones SPY), tras resultados de Microsoft y Alphabet; cierre oficial en 7.743,98 (+0,28 %)",
-      "changePct": -0.26,
+      "changeNote": "futuros, -0,5 % de madrugada tras Alphabet, 06:18 Canarias",
+      "changePct": -0.5,
       "claves": [
-        "Call wall en 7826 (SPY 780,0): resistencia por encima del precio actual.",
-        "Régimen de gamma negativa en -5,22 mil M$ por 1 % (antes -4,49): sigue profundizándose tras los resultados de Microsoft/Alphabet.",
-        "Giro de gamma en 7771 (SPY 774,55), por encima del precio: la gamma sigue negativa.",
-        "Put wall en 7675 (SPY 765,0); put/call OI 1,63."
+        "Call wall en 7826 (SPY 780,0): resistencia por encima del precio.",
+        "Régimen de gamma negativa en -1,25 mil M$ por 1 % (antes -5,22): se modera con fuerza al renovarse el vencimiento 0DTE.",
+        "Giro de gamma en 7765 (SPY 773,92), por encima del precio: la gamma sigue negativa.",
+        "Put wall ahora en 7525 (SPY 750,0, antes 765,0); put/call OI 1,66."
       ],
       "gex": {
         "callWall": 780,
-        "contratos": 1668,
+        "contratos": 1661,
         "etf": "SPY",
-        "gammaFlip": 774.55,
-        "gexTotal": -5.22,
+        "gammaFlip": 773.92,
+        "gexTotal": -1.25,
         "indice": {
           "callWall": 7826,
-          "gammaFlip": 7771,
-          "maxPain": 7696,
+          "gammaFlip": 7765,
+          "maxPain": 7685,
           "precio": 7724,
-          "putWall": 7675
+          "putWall": 7525
         },
-        "maxPain": 767,
+        "maxPain": 766,
         "odte": {
-          "base": "open interest",
-          "callWall": 793,
+          "base": "gamma",
+          "callWall": 768,
           "esHoy": true,
           "gammaFlip": null,
-          "gexTotal": null,
+          "gexTotal": 0.1,
           "indice": {
-            "callWall": 7956,
+            "callWall": 7706,
             "gammaFlip": null,
-            "maxPain": 7696,
-            "putWall": 7435
+            "maxPain": 7685,
+            "putWall": 7605
           },
-          "maxPain": 767,
-          "pcrOI": 1.24,
-          "putWall": 741,
-          "vencimiento": "2026-10-28"
+          "maxPain": 766,
+          "pcrOI": 2.59,
+          "putWall": 758,
+          "vencimiento": "2026-10-29"
         },
         "oiFecha": "2026-10-26",
-        "pcrOI": 1.63,
+        "pcrOI": 1.66,
         "precio": 769.8,
-        "putWall": 765,
+        "putWall": 750,
         "ratioFecha": "2026-10-27",
         "ratioIndice": 10.0333,
         "regimen": "negativa",
-        "vencimientoCercano": "2026-10-28"
+        "vencimientoCercano": "2026-10-29"
       },
       "id": "SPX",
-      "lectura": "Tras el cierre de Wall Street (S&P 500 +0,28 % a 7.743,98, tercera subida consecutiva), el motor de opciones implica 7.724 fuera de hora (-0,26 %) tras Microsoft (+4 %, bate previsiones) y Alphabet (cae por fallo en ingresos). La gamma negativa se profundiza a -5,22 mil M$ por 1 % con el call wall en 7.826 y el put wall en 7.675. Quien más pesa ahora es Kevin Warsh, que dejó pistas sutiles hacia una subida en diciembre sin comprometerse; el dato que más pesa mañana es el PIB y el PCE de EE. UU. (previstos al alza, alto impacto). Sesgo: bajista.",
+      "lectura": "Antes de la apertura europea (06:18 UTC), los futuros del S&P 500 caen hasta un 0,5 % tras el fallo de Alphabet en ingresos, que reavivó el temor al gasto en IA. Con el vencimiento 0DTE de ayer ya fuera, la gamma se modera a -1,25 mil M$ por 1 % (antes -5,22), con el call wall en 7.826 y un nuevo put wall en 7.525. Hoy son clave el PIB y el PCE de EE. UU. (12:30 UTC) y la decisión del BCE (13:15 UTC). Sesgo: bajista.",
       "levels": {
         "callWall": 7826,
-        "gammaFlip": 7771,
-        "maxPain": 7696,
+        "gammaFlip": 7765,
+        "maxPain": 7685,
         "precio": 7724,
-        "putWall": 7675
+        "putWall": 7525
       },
       "name": "S&P 500",
-      "netGex": "negativa (-5,22 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-26)",
+      "netGex": "negativa (-1,25 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-26)",
       "precio": 7724,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -39,
       "sesgo": "bajista",
-      "spot": 7724
+      "spot": 7705
     },
     {
-      "changeNote": "implícito, 21:46 UTC (motor de opciones QQQ), tras resultados de Microsoft y Alphabet; Fortinet también cae fuera de hora",
-      "changePct": -0.42,
+      "changeNote": "futuros, -1,6 % de madrugada tras Alphabet, 06:18 Canarias",
+      "changePct": -1.6,
       "claves": [
         "Call wall igualado con el put wall en 29601 (QQQ 720,0).",
-        "Régimen de gamma negativa en -3,93 mil M$ por 1 % (antes -3,67): se profundiza.",
-        "Giro de gamma en 29953 (QQQ 728,56), por encima del precio: la gamma sigue negativa.",
-        "Put/call OI 1,42; max pain en 29396."
+        "Régimen de gamma negativa en -4,11 mil M$ por 1 % (antes -3,93): se profundiza ligeramente.",
+        "Giro de gamma en 29928 (QQQ 727,95), por encima del precio: la gamma sigue negativa.",
+        "Put/call OI 1,46; max pain en 29478."
       ],
       "gex": {
         "callWall": 720,
-        "contratos": 1497,
+        "contratos": 1491,
         "etf": "QQQ",
-        "gammaFlip": 728.56,
-        "gexTotal": -3.93,
+        "gammaFlip": 727.95,
+        "gexTotal": -4.11,
         "indice": {
           "callWall": 29601,
-          "gammaFlip": 29953,
-          "maxPain": 29396,
+          "gammaFlip": 29928,
+          "maxPain": 29478,
           "precio": 29565,
           "putWall": 29601
         },
-        "maxPain": 715,
+        "maxPain": 717,
         "odte": {
-          "base": "open interest",
-          "callWall": 715,
+          "base": "gamma",
+          "callWall": 725,
           "esHoy": true,
           "gammaFlip": null,
-          "gexTotal": null,
+          "gexTotal": -0.03,
           "indice": {
-            "callWall": 29396,
+            "callWall": 29807,
             "gammaFlip": null,
-            "maxPain": 29396,
-            "putWall": 29190
+            "maxPain": 29478,
+            "putWall": 29519
           },
-          "maxPain": 715,
-          "pcrOI": 0.74,
-          "putWall": 710,
-          "vencimiento": "2026-10-28"
+          "maxPain": 717,
+          "pcrOI": 0.67,
+          "putWall": 718,
+          "vencimiento": "2026-10-29"
         },
         "oiFecha": "2026-10-26",
-        "pcrOI": 1.42,
+        "pcrOI": 1.46,
         "precio": 719.12,
         "putWall": 720,
         "ratioFecha": "2026-10-27",
         "ratioIndice": 41.1129,
         "regimen": "negativa",
-        "vencimientoCercano": "2026-10-28"
+        "vencimientoCercano": "2026-10-29"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 implícito del motor de opciones sigue en 29.565 (-0,42 %) tras los resultados mixtos: Microsoft sube un 4 % fuera de hora, mientras Alphabet y Fortinet caen. La gamma negativa se profundiza a -3,93 mil M$ por 1 %, con el call/put wall en 29.601 y el giro de gamma en 29.953. Quien más pesa es Kevin Warsh (pistas hacia subida en diciembre, presiona valoraciones de riesgo largo); el dato que más pesa es el PCE subyacente de mañana. Amazon presenta resultados este jueves, el próximo catalizador clave. Sesgo: bajista.",
+      "lectura": "Antes de la apertura europea, los futuros del Nasdaq 100 caen hasta un 1,6 % tras el fallo en ingresos de Alphabet, que reavivó el temor al gasto en capex de IA. La gamma se profundiza ligeramente a -4,11 mil M$ por 1 % (antes -3,93), con el call/put wall igualados en 29.601 y el giro de gamma en 29.928. El PCE subyacente de hoy (12:30 UTC) es la referencia macro clave; Amazon presenta resultados esta tarde. Sesgo: bajista.",
       "levels": {
         "callWall": 29601,
-        "gammaFlip": 29953,
-        "maxPain": 29396,
+        "gammaFlip": 29928,
+        "maxPain": 29478,
         "precio": 29565,
         "putWall": 29601
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-3,93 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-26)",
+      "netGex": "negativa (-4,11 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-26)",
       "precio": 29565,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -43,
       "sesgo": "bajista",
-      "spot": 29565
+      "spot": 29092
     }
   ],
   "liquidez": {
@@ -1582,6 +1582,41 @@
   "noticias": [
     {
       "activos": {
+        "EURUSD": "bajista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El euro se mantiene débil antes de la decisión del BCE a las 13:15 UTC, con el índice dólar cerca de 102.",
+      "titular": "El euro cotiza en 1,113-1,114 en Asia, cerca de mínimos, a la espera del BCE de hoy",
+      "ts": "2026-10-29T05:30:00Z",
+      "url": "https://www.fxstreet.com/news/euro-remains-under-pressure-ahead-of-ecb-rate-decision-202610290148"
+    },
+    {
+      "activos": {
+        "BTC": "alcista",
+        "XAU": "alcista"
+      },
+      "fuente": "Kucoin / FXStreet",
+      "impacto": "medio",
+      "resumen": "Bitcoin toca 81.500 $ tras el mantenimiento de tipos de la Fed, mientras el oro se acerca a 4.100 $/oz.",
+      "titular": "Bitcoin supera los 81.500 $ y el oro avanza hacia los 4.100 $ en la sesión asiática",
+      "ts": "2026-10-29T04:30:00Z",
+      "url": "https://kucoin.com/news/flash/bitcoin-price-surpasses-81-500-amid-fed-s-rate-decision"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "Yahoo Finance",
+      "impacto": "alto",
+      "resumen": "S&P 500 cae hasta un 0,5 % y Nasdaq-100 hasta un 1,6 % en futuros, por el temor a un exceso de gasto en IA.",
+      "titular": "Los futuros de EE. UU. se hunden de madrugada: Nasdaq-100 cae hasta un 1,6 % tras el fallo de Alphabet",
+      "ts": "2026-10-29T02:30:00Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-022520144.html"
+    },
+    {
+      "activos": {
         "NQ": "alcista",
         "SPX": "alcista"
       },
@@ -1632,26 +1667,24 @@
         "NQ": "neutral",
         "SPX": "neutral"
       },
+      "fuente": "Yahoo Finance",
+      "impacto": "medio",
+      "resumen": "El S&P 500 mantiene una pequeña subida tras la rueda de prensa, pero el índice equiponderado y las small caps cotizan en rojo mientras suben los rendimientos a largo plazo.",
+      "titular": "Wall Street cotiza errático tras la Fed: el S&P 500 sube poco pero el mercado en general cae",
+      "ts": "2026-10-28T18:40:00Z",
+      "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html"
+    },
+    {
+      "activos": {
+        "NQ": "neutral",
+        "SPX": "neutral"
+      },
       "fuente": "AP / PBS NewsHour",
       "impacto": "medio",
       "resumen": "En la rueda de prensa, el presidente de la Fed propone depender menos de la orientación futura y recortar el calendario de reuniones de política monetaria, sin comprometerse sobre diciembre.",
       "titular": "Warsh plantea reducir el número de reuniones anuales de la Fed",
       "ts": "2026-10-28T18:35:00Z",
       "url": "https://okcfox.com/news/nation-world/kevin-warsh-floats-fewer-fed-meetings-to-reduce-market-dependence-federal-reserve-central-bank-interest-rate-decisions"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista",
-        "WTI": "alcista",
-        "XAU": "alcista"
-      },
-      "fuente": "Qz / FX Empire / The National",
-      "impacto": "alto",
-      "resumen": "El movimiento hutí de Yemen reivindica un ataque con misil balístico contra la mayor refinería de Arabia Saudí (550.000 barriles/día); Riad no confirma daños, pero el WTI sube un 1,8 % hacia 101,7 $ y el Brent roza 115 $.",
-      "titular": "Los hutíes afirman haber atacado con un misil la refinería saudí de Ras Tanura; el petróleo sube hacia 102 $",
-      "ts": "2026-10-28T08:30:00Z",
-      "url": "https://qz.com/oil-prices-houthis-ras-tanura-refinery-strike-102826"
     },
     {
       "activos": {
@@ -1670,18 +1703,6 @@
     },
     {
       "activos": {
-        "NQ": "neutral",
-        "SPX": "neutral"
-      },
-      "fuente": "Yahoo Finance",
-      "impacto": "medio",
-      "resumen": "El S&P 500 mantiene una pequeña subida tras la rueda de prensa, pero el índice equiponderado y las small caps cotizan en rojo mientras suben los rendimientos a largo plazo.",
-      "titular": "Wall Street cotiza errático tras la Fed: el S&P 500 sube poco pero el mercado en general cae",
-      "ts": "2026-10-28T18:40:00Z",
-      "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html"
-    },
-    {
-      "activos": {
         "BTC": "bajista",
         "EURUSD": "bajista",
         "NQ": "neutral",
@@ -1690,7 +1711,7 @@
       },
       "fuente": "CNBC / Yahoo Finance / Fox Business",
       "impacto": "alto",
-      "resumen": "La Fed mantiene el tipo en 3,75-4,00 % como esperaba el mercado, pero Lisa Cook y Beth Hammack votaron en contra pidiendo subir 25 pb; el comunicado describe la economía en ‘expansión fuerte’.",
+      "resumen": "La Fed mantiene el tipo en 3,75-4,00 % como esperaba el mercado, pero Lisa Cook y Beth Hammack votaron en contra pidiendo subir 25 pb; el comunicado describe la economía en 'expansión fuerte'.",
       "titular": "La Fed mantiene tipos pero con dos disidencias a favor de subir, la señal más dura del ciclo",
       "ts": "2026-10-28T18:02:00Z",
       "url": "https://finance.yahoo.com/news/fed-holds-rates-steady-expected-180457728.html"
@@ -1729,77 +1750,42 @@
       "titular": "El Dow duda pero S&P 500 y Nasdaq suben antes de la Fed y resultados de Microsoft y Alphabet",
       "ts": "2026-10-28T13:05:00Z",
       "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-big-tech-earnings-130508769.html"
-    },
-    {
-      "activos": {
-        "SPX": "bajista"
-      },
-      "fuente": "Yahoo Finance",
-      "impacto": "medio",
-      "resumen": "Boeing cae un 10,69 % por una pérdida ajustada mayor de lo esperado en el T3 y el retraso en el ritmo de producción del 737, mientras Xylem se hunde un 14,21 % tras recortar su previsión, lastrando al Dow antes de la Fed.",
-      "titular": "Boeing se desploma un 10,7 % y Xylem un 14,2 % tras fallar en resultados, lastrando al Dow",
-      "ts": "2026-10-28T13:00:00Z",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-121406952.html"
-    },
-    {
-      "activos": {
-        "XAU": "bajista"
-      },
-      "fuente": "Yahoo Finance",
-      "impacto": "medio",
-      "resumen": "El oro cotiza por debajo de 4.100 $/oz, presionado por el dólar fuerte y la subida del petróleo antes del anuncio de la Fed de esta tarde.",
-      "titular": "El oro sigue bajo los 4.100 $/oz a la espera de la decisión de la Fed",
-      "ts": "2026-10-28T11:07:00Z",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-october-28-2026-gold-prices-remain-below-4100-ahead-of-the-fed-rate-decision-110708338.html"
-    },
-    {
-      "activos": {
-        "EURUSD": "bajista",
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "El índice dólar sube hasta 102,491 mientras los futuros del Dow Jones bajan antes del anuncio de tipos de la Fed de hoy y los resultados de Microsoft y Alphabet.",
-      "titular": "El Dow cae en futuros y el índice dólar sube a 102,49 antes de la decisión de la Fed",
-      "ts": "2026-10-28T08:56:00Z",
-      "url": "https://www.fxstreet.com/news/dow-jones-futures-decline-ahead-of-fed-decision-big-tech-earnings-202610280856"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-10-28 (hoy), por open interest (SPY 793,0). Put/call OI: 1,24.",
-        "valor": "7956"
+        "nota": "Vencimiento 2026-10-29 (hoy), por gamma (SPY 768,0). Put/call OI: 2,59.",
+        "valor": "7706"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "SPY 741,0.",
-        "valor": "7435"
+        "nota": "SPY 758,0.",
+        "valor": "7605"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "SPY 767,0.",
-        "valor": "7696"
+        "nota": "SPY 766,0.",
+        "valor": "7685"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-10-28 (hoy), por open interest (QQQ 715,0). Put/call OI: 0,74.",
-        "valor": "29396"
+        "nota": "Vencimiento 2026-10-29 (hoy), por gamma (QQQ 725,0). Put/call OI: 0,67.",
+        "valor": "29807"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "QQQ 710,0.",
-        "valor": "29190"
+        "nota": "QQQ 718,0.",
+        "valor": "29519"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "QQQ 715,0.",
-        "valor": "29396"
+        "nota": "QQQ 717,0.",
+        "valor": "29478"
       }
     ],
-    "lectura": "Niveles 0DTE de hoy (vencimiento 28 de octubre, día de la decisión de la Fed y de la rueda de prensa de Warsh, ambas ya conocidas), calculados por NanoFx con los contratos de Alpaca sobre open interest. En el S&P 500 el rango 0DTE va del put wall en 7.435 al call wall en 7.956, con el max pain en 7.696 y un put/call OI de 1,24. En el Nasdaq 100 el rango sigue muy estrecho, entre 29.190 y 29.396, con max pain también en 29.396 y un put/call OI de 0,74, señal de poca cobertura bajista en tecnología para el vencimiento de hoy. Sin cambios en estos niveles desde la última actualización (contratos OI del 26 de octubre); atención ahora a Amazon, que presenta resultados el jueves tras el cierre."
+    "lectura": "Niveles 0DTE de hoy (vencimiento 29 de octubre, día del PIB, el PCE y la decisión del BCE), calculados por NanoFx con los contratos de Alpaca sobre gamma. En el S&P 500 el rango 0DTE va del put wall en 7.605 al call wall en 7.706, con el max pain en 7.685 y un put/call OI de 2,59 (fuerte cobertura bajista). En el Nasdaq 100 el rango es mucho más amplio, entre el put wall en 29.519 y el call wall en 29.807, con el max pain en 29.478 y un put/call OI de 0,67, señal de poca cobertura bajista en tecnología. Atención a la reacción a los datos macro de las 12:30 UTC y a la decisión del BCE a las 13:15 UTC."
   },
   "politica": {
     "actualizado": "2026-10-28T21:46:00Z",
@@ -1899,7 +1885,7 @@
       }
     ]
   },
-  "resumen": "Son las 21:46 UTC (21:46 Canarias) del miércoles 28 de octubre de 2026, tras el cierre de Wall Street. La Fed mantuvo el tipo en 3,75-4,00 % (votación 10-2, con Cook y Hammack a favor de subir) y Warsh, en su rueda de prensa, dio pistas sutiles hacia una subida en diciembre sin comprometerse y planteó reducir el número de reuniones anuales de la Fed. El S&P 500 cerró en 7.743,98 puntos (+0,28 %, tercera subida consecutiva) y el Nasdaq Composite en 26.549,85 (+0,27 %); fuera de hora el motor de opciones sigue implicando 7.724 en el S&P 500 y 29.565 en el Nasdaq 100, tras un resultado mixto de resultados: Microsoft sube un 4 % al superar previsiones, Alphabet y Fortinet caen. La gamma negativa se ha profundizado algo más en ambos índices (SPX -5,22 mil M$ por 1 %, NDX -3,93). El petróleo sigue firme tras el ataque hutí reivindicado contra la refinería saudí de Ras Tanura (WTI ~101-102 $), el oro cotiza en torno a 4.050 $/oz y bitcoin se mantiene sobre los 81.000 $. Amazon presenta resultados este jueves tras el cierre, y el PIB, el PCE de EE. UU. y la decisión del BCE de mañana son los próximos catalizadores clave.",
+  "resumen": "Son las 06:18 UTC (06:18 Canarias) del jueves 29 de octubre de 2026, en la sesión europea antes de la apertura de EE. UU. Los futuros caen con fuerza de madrugada (S&P 500 -0,5 %, Nasdaq-100 -1,6 %) tras el fallo en ingresos de Alphabet, que reavivó el temor al gasto en IA, aunque Microsoft sube un 4 % tras batir previsiones. La gamma se modera en el S&P 500 a -1,25 mil M$ por 1 % (antes -5,22) con el vencimiento de ayer ya fuera, mientras en el Nasdaq 100 se profundiza algo a -4,11. Bitcoin toca 81.500 $ y el oro avanza hacia 4.100 $/oz; el euro sigue cerca de mínimos de 17 meses en 1,113-1,114 antes del BCE de las 13:15 UTC. Hoy son clave el PIB y el PCE de EE. UU. (12:30 UTC), la decisión del BCE y Amazon presenta resultados esta tarde tras el cierre.",
   "semana": {
     "activos": [
       {
@@ -2284,6 +2270,6 @@
     "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa, la amenaza de Irán en Ormuz y la indefinición de Warsh.",
     "rango": "26 a 30 de octubre de 2026"
   },
-  "slot": "cierre",
-  "updatedAt": "2026-10-28T21:46:13Z"
+  "slot": "rapida",
+  "updatedAt": "2026-10-29T06:18:46Z"
 }
