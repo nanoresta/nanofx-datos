@@ -1,54 +1,50 @@
 {
- "generado": "2026-10-29T20:22:04Z",
+ "generado": "2026-10-30T07:49:37Z",
  "errores": [],
  "fed": [
   {
    "fecha": "2026-12-09",
-   "subir": 76.5,
+   "subir": 73.5,
    "bajar": 1.5,
-   "mantener": 22.0,
-   "tasaImplicita": 4.07
+   "mantener": 25.0,
+   "tasaImplicita": 4.06
   },
   {
    "fecha": "2027-01-27",
    "subir": 91.5,
    "bajar": 6.0,
    "mantener": 2.5,
-   "tasaImplicita": 4.33
+   "tasaImplicita": 4.35
   },
   {
    "fecha": "2027-03-17",
    "subir": 92.5,
    "bajar": 7.0,
    "mantener": 0.5,
-   "tasaImplicita": 4.25
+   "tasaImplicita": 4.22
   }
  ],
  "liquidez": {
-  "fecha": "2026-10-21",
-  "fechaPrev": "2026-10-14",
-  "fecha4": "2026-09-23",
+  "fecha": "2026-10-28",
+  "fechaPrev": "2026-10-21",
+  "fecha4": "2026-09-30",
   "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-  "neta": 5801.4,
-  "dNeta": -70.6,
-  "d4": 31.3,
-  "balance": 6753.6,
-  "dBalance": -2.0,
-  "tga": 952.0,
-  "dTga": 68.6,
+  "neta": 5745.7,
+  "dNeta": -55.7,
+  "d4": -37.1,
+  "balance": 6745.6,
+  "dBalance": -8.0,
+  "tga": 999.7,
+  "dTga": 47.7,
   "rrp": 0.2,
   "dRrp": 0.0,
-  "reservas": 2962.6,
-  "dReservas": -59.5,
+  "reservas": 2893.8,
+  "dReservas": -68.8,
   "repo": 0.011,
   "repoFecha": "2026-10-29",
   "rrpHoy": 0.353,
   "rrpFecha": "2026-10-29",
   "serie": [
-   {
-    "fecha": "2026-04-22",
-    "neta": 5700.9
-   },
    {
     "fecha": "2026-04-29",
     "neta": 5717.3
@@ -152,456 +148,460 @@
    {
     "fecha": "2026-10-21",
     "neta": 5801.4
+   },
+   {
+    "fecha": "2026-10-28",
+    "neta": 5745.7
    }
   ]
  },
  "opciones": {
   "SPX": {
    "etf": "SPY",
-   "precio": 769.49,
-   "oiFecha": "2026-10-27",
-   "contratos": 1573,
+   "precio": 765.26,
+   "oiFecha": "2026-10-28",
+   "contratos": 1435,
    "ratioIndice": 10.0274,
    "ratioFecha": "2026-10-28",
    "regimen": "negativa",
-   "gexTotal": -7.21,
-   "pcrOI": 1.54,
-   "callWall": 770.0,
-   "putWall": 765.0,
-   "gammaFlip": 773.47,
-   "maxPain": 768.0,
-   "vencimientoCercano": "2026-10-29",
+   "gexTotal": -2.29,
+   "pcrOI": 1.62,
+   "callWall": 800.0,
+   "putWall": 750.0,
+   "gammaFlip": 775.82,
+   "maxPain": 767.0,
+   "vencimientoCercano": "2026-10-30",
    "escalera": [
     {
+     "strike": 743.0,
+     "gex": -24.9
+    },
+    {
+     "strike": 744.0,
+     "gex": -34.3
+    },
+    {
+     "strike": 745.0,
+     "gex": -247.1
+    },
+    {
+     "strike": 746.0,
+     "gex": -34.7
+    },
+    {
      "strike": 747.0,
-     "gex": -38.9
+     "gex": -26.6
     },
     {
      "strike": 748.0,
-     "gex": -91.6
+     "gex": -44.0
     },
     {
      "strike": 749.0,
-     "gex": -39.8
+     "gex": -93.5
     },
     {
      "strike": 750.0,
-     "gex": -1550.7
+     "gex": -1082.2
     },
     {
      "strike": 751.0,
-     "gex": -54.2
+     "gex": -38.9
     },
     {
      "strike": 752.0,
-     "gex": -87.4
+     "gex": -48.2
     },
     {
      "strike": 753.0,
-     "gex": -116.3
+     "gex": -84.3
     },
     {
      "strike": 754.0,
-     "gex": -78.5
+     "gex": -42.6
     },
     {
      "strike": 755.0,
-     "gex": -708.1
+     "gex": -293.5
     },
     {
      "strike": 756.0,
-     "gex": -107.9
+     "gex": -43.5
     },
     {
      "strike": 757.0,
-     "gex": -173.6
+     "gex": -94.5
     },
     {
      "strike": 758.0,
-     "gex": -112.2
+     "gex": -70.7
     },
     {
      "strike": 759.0,
-     "gex": -139.3
+     "gex": -101.0
     },
     {
      "strike": 760.0,
-     "gex": -1137.3
+     "gex": -538.5
     },
     {
      "strike": 761.0,
-     "gex": -104.0
+     "gex": -22.2
     },
     {
      "strike": 762.0,
-     "gex": -70.9
+     "gex": -99.7
     },
     {
      "strike": 763.0,
-     "gex": 15.3
+     "gex": -52.9
     },
     {
      "strike": 764.0,
-     "gex": -88.7
+     "gex": -30.9
     },
     {
      "strike": 765.0,
-     "gex": -1679.4
+     "gex": -186.4
     },
     {
      "strike": 766.0,
-     "gex": -242.2
+     "gex": -26.5
     },
     {
      "strike": 767.0,
-     "gex": -244.1
+     "gex": -260.6
     },
     {
      "strike": 768.0,
-     "gex": 2.3
+     "gex": 19.0
     },
     {
      "strike": 769.0,
-     "gex": -74.9
+     "gex": 22.0
     },
     {
      "strike": 770.0,
-     "gex": 218.0
+     "gex": 85.4
     },
     {
      "strike": 771.0,
-     "gex": 6.6
+     "gex": 30.3
     },
     {
      "strike": 772.0,
-     "gex": 57.8
+     "gex": 47.7
     },
     {
      "strike": 773.0,
-     "gex": 15.8
-    },
-    {
-     "strike": 774.0,
-     "gex": 19.9
-    },
-    {
-     "strike": 775.0,
-     "gex": 195.2
-    },
-    {
-     "strike": 776.0,
-     "gex": 38.0
-    },
-    {
-     "strike": 777.0,
-     "gex": 15.0
-    },
-    {
-     "strike": 778.0,
-     "gex": 100.2
-    },
-    {
-     "strike": 779.0,
-     "gex": 22.8
-    },
-    {
-     "strike": 780.0,
-     "gex": 369.9
-    },
-    {
-     "strike": 781.0,
-     "gex": 66.5
-    },
-    {
-     "strike": 782.0,
-     "gex": 58.0
-    },
-    {
-     "strike": 783.0,
-     "gex": 119.8
-    },
-    {
-     "strike": 784.0,
-     "gex": 37.7
-    },
-    {
-     "strike": 785.0,
      "gex": 89.2
     },
     {
+     "strike": 774.0,
+     "gex": 53.8
+    },
+    {
+     "strike": 775.0,
+     "gex": 138.0
+    },
+    {
+     "strike": 776.0,
+     "gex": 68.4
+    },
+    {
+     "strike": 777.0,
+     "gex": 37.0
+    },
+    {
+     "strike": 778.0,
+     "gex": 156.7
+    },
+    {
+     "strike": 779.0,
+     "gex": 48.0
+    },
+    {
+     "strike": 780.0,
+     "gex": 540.3
+    },
+    {
+     "strike": 781.0,
+     "gex": 67.6
+    },
+    {
+     "strike": 782.0,
+     "gex": 59.5
+    },
+    {
+     "strike": 783.0,
+     "gex": 80.0
+    },
+    {
+     "strike": 784.0,
+     "gex": 45.3
+    },
+    {
+     "strike": 785.0,
+     "gex": 138.3
+    },
+    {
      "strike": 786.0,
-     "gex": 22.7
+     "gex": 37.2
     },
     {
      "strike": 787.0,
-     "gex": 19.8
+     "gex": 40.7
     },
     {
      "strike": 788.0,
-     "gex": 59.6
-    },
-    {
-     "strike": 789.0,
-     "gex": 45.8
-    },
-    {
-     "strike": 790.0,
-     "gex": 164.0
-    },
-    {
-     "strike": 791.0,
-     "gex": 38.2
-    },
-    {
-     "strike": 792.0,
-     "gex": 43.5
+     "gex": 76.8
     }
    ],
    "indice": {
-    "precio": 7716,
-    "callWall": 7721,
-    "putWall": 7671,
-    "gammaFlip": 7756,
-    "maxPain": 7701
+    "precio": 7674,
+    "callWall": 8022,
+    "putWall": 7521,
+    "gammaFlip": 7779,
+    "maxPain": 7691
    },
    "odte": {
-    "vencimiento": "2026-10-29",
+    "vencimiento": "2026-10-30",
     "esHoy": true,
     "base": "open interest",
     "gexTotal": null,
-    "callWall": 790.0,
-    "putWall": 758.0,
+    "callWall": 800.0,
+    "putWall": 735.0,
     "gammaFlip": null,
-    "maxPain": 768.0,
-    "pcrOI": 2.11,
+    "maxPain": 767.0,
+    "pcrOI": 1.57,
     "indice": {
-     "callWall": 7922,
-     "putWall": 7601,
+     "callWall": 8022,
+     "putWall": 7370,
      "gammaFlip": null,
-     "maxPain": 7701
+     "maxPain": 7691
     }
    }
   },
   "NDX": {
    "etf": "QQQ",
-   "precio": 705.67,
-   "oiFecha": "2026-10-27",
-   "contratos": 1524,
+   "precio": 707.35,
+   "oiFecha": "2026-10-28",
+   "contratos": 1396,
    "ratioIndice": 41.0882,
    "ratioFecha": "2026-10-28",
    "regimen": "negativa",
-   "gexTotal": -6.49,
-   "pcrOI": 2.03,
+   "gexTotal": -4.33,
+   "pcrOI": 1.9,
    "callWall": 720.0,
    "putWall": 700.0,
-   "gammaFlip": 729.16,
-   "maxPain": 719.0,
-   "vencimientoCercano": "2026-10-29",
+   "gammaFlip": 738.91,
+   "maxPain": 723.0,
+   "vencimientoCercano": "2026-10-30",
    "escalera": [
     {
-     "strike": 685.0,
-     "gex": -287.4
-    },
-    {
-     "strike": 686.0,
-     "gex": -15.4
-    },
-    {
      "strike": 687.0,
-     "gex": -22.8
+     "gex": -6.1
     },
     {
      "strike": 688.0,
-     "gex": -15.8
-    },
-    {
-     "strike": 689.0,
-     "gex": -22.2
-    },
-    {
-     "strike": 690.0,
-     "gex": -845.8
-    },
-    {
-     "strike": 691.0,
-     "gex": -96.2
-    },
-    {
-     "strike": 692.0,
-     "gex": -28.5
-    },
-    {
-     "strike": 693.0,
-     "gex": -138.9
-    },
-    {
-     "strike": 694.0,
-     "gex": -26.0
-    },
-    {
-     "strike": 695.0,
-     "gex": -400.7
-    },
-    {
-     "strike": 696.0,
-     "gex": -164.2
-    },
-    {
-     "strike": 697.0,
-     "gex": -28.9
-    },
-    {
-     "strike": 698.0,
-     "gex": -32.9
-    },
-    {
-     "strike": 699.0,
-     "gex": -40.0
-    },
-    {
-     "strike": 700.0,
-     "gex": -1046.2
-    },
-    {
-     "strike": 701.0,
-     "gex": -111.8
-    },
-    {
-     "strike": 702.0,
-     "gex": -16.3
-    },
-    {
-     "strike": 703.0,
-     "gex": -47.6
-    },
-    {
-     "strike": 704.0,
-     "gex": -18.8
-    },
-    {
-     "strike": 705.0,
-     "gex": -369.0
-    },
-    {
-     "strike": 706.0,
-     "gex": -15.5
-    },
-    {
-     "strike": 707.0,
-     "gex": -29.9
-    },
-    {
-     "strike": 708.0,
-     "gex": -61.7
-    },
-    {
-     "strike": 709.0,
-     "gex": 6.6
-    },
-    {
-     "strike": 710.0,
-     "gex": -359.3
-    },
-    {
-     "strike": 711.0,
-     "gex": -21.0
-    },
-    {
-     "strike": 712.0,
-     "gex": -128.7
-    },
-    {
-     "strike": 713.0,
-     "gex": -413.7
-    },
-    {
-     "strike": 714.0,
-     "gex": -89.7
-    },
-    {
-     "strike": 715.0,
-     "gex": -162.8
-    },
-    {
-     "strike": 716.0,
-     "gex": -45.5
-    },
-    {
-     "strike": 717.0,
-     "gex": -97.1
-    },
-    {
-     "strike": 718.0,
-     "gex": -12.6
-    },
-    {
-     "strike": 719.0,
-     "gex": -11.9
-    },
-    {
-     "strike": 720.0,
-     "gex": -187.7
-    },
-    {
-     "strike": 721.0,
-     "gex": 0.2
-    },
-    {
-     "strike": 722.0,
      "gex": -11.2
     },
     {
+     "strike": 689.0,
+     "gex": -15.1
+    },
+    {
+     "strike": 690.0,
+     "gex": -418.3
+    },
+    {
+     "strike": 691.0,
+     "gex": -93.5
+    },
+    {
+     "strike": 692.0,
+     "gex": -11.2
+    },
+    {
+     "strike": 693.0,
+     "gex": -141.1
+    },
+    {
+     "strike": 694.0,
+     "gex": -7.6
+    },
+    {
+     "strike": 695.0,
+     "gex": -302.6
+    },
+    {
+     "strike": 696.0,
+     "gex": -32.4
+    },
+    {
+     "strike": 697.0,
+     "gex": -8.7
+    },
+    {
+     "strike": 698.0,
+     "gex": -15.0
+    },
+    {
+     "strike": 699.0,
+     "gex": -16.9
+    },
+    {
+     "strike": 700.0,
+     "gex": -595.2
+    },
+    {
+     "strike": 701.0,
+     "gex": -22.2
+    },
+    {
+     "strike": 702.0,
+     "gex": -11.1
+    },
+    {
+     "strike": 703.0,
+     "gex": -91.4
+    },
+    {
+     "strike": 704.0,
+     "gex": -11.9
+    },
+    {
+     "strike": 705.0,
+     "gex": -209.6
+    },
+    {
+     "strike": 706.0,
+     "gex": -9.3
+    },
+    {
+     "strike": 707.0,
+     "gex": -43.8
+    },
+    {
+     "strike": 708.0,
+     "gex": -91.0
+    },
+    {
+     "strike": 709.0,
+     "gex": -15.1
+    },
+    {
+     "strike": 710.0,
+     "gex": -264.9
+    },
+    {
+     "strike": 711.0,
+     "gex": -16.5
+    },
+    {
+     "strike": 712.0,
+     "gex": -64.1
+    },
+    {
+     "strike": 713.0,
+     "gex": -485.2
+    },
+    {
+     "strike": 714.0,
+     "gex": -35.6
+    },
+    {
+     "strike": 715.0,
+     "gex": -96.1
+    },
+    {
+     "strike": 716.0,
+     "gex": -10.4
+    },
+    {
+     "strike": 717.0,
+     "gex": -91.4
+    },
+    {
+     "strike": 718.0,
+     "gex": -15.2
+    },
+    {
+     "strike": 719.0,
+     "gex": -8.0
+    },
+    {
+     "strike": 720.0,
+     "gex": -198.7
+    },
+    {
+     "strike": 721.0,
+     "gex": 1.9
+    },
+    {
+     "strike": 722.0,
+     "gex": -7.3
+    },
+    {
      "strike": 723.0,
-     "gex": -27.9
+     "gex": -18.0
     },
     {
      "strike": 724.0,
-     "gex": 16.4
+     "gex": 4.8
     },
     {
      "strike": 725.0,
-     "gex": -156.3
+     "gex": -30.5
     },
     {
      "strike": 726.0,
-     "gex": -7.6
+     "gex": 0.3
+    },
+    {
+     "strike": 727.0,
+     "gex": 0.9
+    },
+    {
+     "strike": 728.0,
+     "gex": -4.9
     }
    ],
    "indice": {
-    "precio": 28995,
+    "precio": 29064,
     "callWall": 29583,
     "putWall": 28762,
-    "gammaFlip": 29960,
-    "maxPain": 29542
+    "gammaFlip": 30360,
+    "maxPain": 29707
    },
    "odte": {
-    "vencimiento": "2026-10-29",
+    "vencimiento": "2026-10-30",
     "esHoy": true,
     "base": "open interest",
     "gexTotal": null,
-    "callWall": 725.0,
-    "putWall": 660.0,
+    "callWall": 740.0,
+    "putWall": 690.0,
     "gammaFlip": null,
-    "maxPain": 719.0,
-    "pcrOI": 1.28,
+    "maxPain": 723.0,
+    "pcrOI": 1.9,
     "indice": {
-     "callWall": 29789,
-     "putWall": 27118,
+     "callWall": 30405,
+     "putWall": 28351,
      "gammaFlip": null,
-     "maxPain": 29542
+     "maxPain": 29707
     }
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-10-29T20:22:25Z"
+  "calculado": "2026-10-30T07:49:50Z"
  },
  "ciclo": {
-  "actualizado": "2026-10-29T20:22:41Z",
-  "total": 63,
+  "actualizado": "2026-10-30T07:49:57Z",
+  "total": 62,
   "fase": "Expansión fuerte",
-  "cambio4": 1,
-  "cambio13": -20,
-  "lectura": "Expansión fuerte (+63). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: bonos basura: tendencia.",
+  "cambio4": 0,
+  "cambio13": -21,
+  "lectura": "Expansión fuerte (+62). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: reservas de los bancos.",
   "indicadores": [
    {
     "id": "pib_bono",
@@ -620,27 +620,27 @@
     "score": 66,
     "valor": "Fed 3,88 % · PIB nominal 5,9 %",
     "nota": "La recesión la provocan los bancos centrales: si el tipo de la Fed supera al PIB nominal, la política ahoga. Hoy el tipo está por debajo: no ahoga.",
-    "fecha": "2026-10-27",
+    "fecha": "2026-10-28",
     "frec": "cada trimestre (PIB) y a diario (Fed)"
    },
    {
     "id": "balance",
     "n": "Balance de la Fed (3 meses)",
     "peso": 2,
-    "score": 9,
-    "valor": "6,75 billones $ · 0,09 % en 13 semanas",
-    "nota": "Si la Fed reduce el balance, retira dinero y puede provocar la recesión. Ahora está estable.",
-    "fecha": "2026-10-21",
+    "score": 11,
+    "valor": "6,75 billones $ · 0,11 % en 13 semanas",
+    "nota": "Si la Fed reduce el balance, retira dinero y puede provocar la recesión. Ahora lo amplía: entra liquidez.",
+    "fecha": "2026-10-28",
     "frec": "cada semana (jueves)"
    },
    {
     "id": "reservas",
     "n": "Reservas de los bancos",
     "peso": 1,
-    "score": 16,
-    "valor": "2,96 billones $",
+    "score": -2,
+    "valor": "2,89 billones $",
     "nota": "Lo que les sobra a los bancos. Con unos 3 billones, sobra dinero en el sistema.",
-    "fecha": "2026-10-21",
+    "fecha": "2026-10-28",
     "frec": "cada semana (jueves)"
    },
    {
@@ -648,7 +648,7 @@
     "n": "Prima de riesgo de los bonos basura",
     "peso": 3,
     "score": 91,
-    "valor": "3,14 % (+0,30 en 3 meses)",
+    "valor": "3,14 % (+0,29 en 3 meses)",
     "nota": "Si falta dinero, la burbuja pincha primero en los bonos basura. Prima baja = tranquilidad; si se dispara, alarma.",
     "fecha": "2026-10-28",
     "frec": "a diario"
@@ -718,17 +718,13 @@
     "n": "Petróleo (WTI)",
     "peso": 1,
     "score": 100,
-    "valor": "104,27 $ · +27,7 % sobre su media de 1 año",
+    "valor": "109,72 $ · +34,0 % sobre su media de 1 año",
     "nota": "Petróleo firme = demanda. (Un pico muy brusco también puede frenar el consumo.)",
-    "fecha": "2026-10-22",
+    "fecha": "2026-10-23",
     "frec": "a diario"
    }
   ],
   "serie": [
-   {
-    "fecha": "2023-10-27",
-    "v": 11
-   },
    {
     "fecha": "2023-11-03",
     "v": 20
@@ -1354,8 +1350,8 @@
     "v": 61
    },
    {
-    "fecha": "2026-10-29",
-    "v": 63
+    "fecha": "2026-10-30",
+    "v": 62
    }
   ],
   "fuente": "FRED (Reserva Federal de St. Louis): GDP, DGS10, DFF, WALCL, WRESBAL, BAMLH0A0HYM2, BAMLHYH0A0HYM2TRIV, SP500, CP, TOTBKCR, FYFSGDA188S, PCOPPUSDM, DCOILWTICO",
