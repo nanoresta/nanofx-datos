@@ -339,13 +339,14 @@
     {
       "actual": null,
       "actualNum": null,
-      "anterior": null,
-      "anteriorNum": null,
+      "anterior": "4,2 %",
+      "anteriorNum": 4.2,
       "divisaSiSube": "-",
       "evento": "Tasa de paro (octubre)",
       "fecha": "2026-11-06",
       "horaUtc": "13:30",
       "impacto": "alto",
+      "nota": "Anterior corresponde a septiembre de 2026 (subió desde 4,1 %, con nóminas de solo +29 mil).",
       "pais": "EE. UU.",
       "previsto": null,
       "previstoNum": null
@@ -2022,6 +2023,28 @@
   "noticias": [
     {
       "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "CNBC",
+      "impacto": "alto",
+      "resumen": "El bitcoin baja más de un 4 %, a 77.994,96 $, mientras Binance suspende depósitos y retiros por una posible brecha de seguridad.",
+      "titular": "Bitcoin cae por debajo de 78.000 $ tras un fallo de seguridad en Binance",
+      "ts": "2026-10-30T04:30:00Z",
+      "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html"
+    },
+    {
+      "activos": {
+        "EURUSD": "alcista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El EUR/USD sube por tercer día consecutivo hacia 1,1200, apoyado por la pausa dura del BCE y la caída de la rentabilidad de los bonos de EE. UU.",
+      "titular": "El euro extiende su rebote tras el BCE y recupera el nivel de 1,1200 frente al dólar",
+      "ts": "2026-10-30T01:55:00Z",
+      "url": "https://fxstreet.com/news/euro-extends-post-ecb-recovery-from-ytd-low-and-retakes-11200-vs-weak-usd-202610300155"
+    },
+    {
+      "activos": {
         "NQ": "bajista",
         "SPX": "bajista"
       },
@@ -2180,17 +2203,6 @@
       "titular": "Fortinet se desploma un 26 % y ServiceNow un 18 % tras sus previsiones, lastrando al Nasdaq",
       "ts": "2026-10-29T11:30:00Z",
       "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
-    },
-    {
-      "activos": [
-        "EURUSD"
-      ],
-      "fuente": "CNN",
-      "impacto": "alto",
-      "resumen": "Lagarde anuncia su salida antes de que acabe su mandato (octubre de 2027), horas antes de la decisión de tipos de hoy; el mercado reacciona con calma y se abre la carrera por la sucesión (Klaas Knot y Pablo Hernández de Cos, principales candidatos).",
-      "titular": "Christine Lagarde dimite como presidenta del BCE, efectiva el 7 de febrero de 2027",
-      "ts": "2026-10-29T09:00:00Z",
-      "url": "https://www.cnn.com/2026/10/29/business/christine-lagarde-ecb-president-resigns-intl"
     }
   ],
   "odte": {
@@ -2715,6 +2727,6 @@
     "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa, la amenaza de Irán en Ormuz y la indefinición de Warsh.",
     "rango": "26 a 30 de octubre de 2026"
   },
-  "slot": "cierre",
-  "updatedAt": "2026-10-29T21:51:43.000000Z"
+  "slot": "rapida",
+  "updatedAt": "2026-10-30T06:30:00.000000Z"
 }
