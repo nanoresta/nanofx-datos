@@ -371,31 +371,31 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-29T20:22:04Z",
+    "actualizado": "2026-10-30T07:49:37Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida en la reunión del 9 de diciembre baja al 76,5 % (antes 79,5 %), con la tasa implícita casi plana en el 4,07 % (antes 4,08 %); la de enero de 2027 se mantiene en el 91,5 % (tasa implícita 4,33 %, antes 4,34 %), y la de marzo de 2027 sigue en el 92,5 % de subida.",
+    "lectura": "La probabilidad de subida en la próxima reunión, que es también la de diciembre (9 de diciembre), baja al 73,5 % (antes 76,5 %), con la tasa implícita casi plana en el 4,06 % (antes 4,07 %); la de enero de 2027 se mantiene en el 91,5 % (tasa implícita 4,35 %, antes 4,33 %), y la de marzo de 2027 sigue en el 92,5 % de subida (tasa implícita 4,22 %, antes 4,25 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 1.5,
         "fecha": "2026-12-09",
-        "mantener": 22,
-        "subir": 76.5,
-        "tasaImplicita": 4.07
+        "mantener": 25,
+        "subir": 73.5,
+        "tasaImplicita": 4.06
       },
       {
         "bajar": 6,
         "fecha": "2027-01-27",
         "mantener": 2.5,
         "subir": 91.5,
-        "tasaImplicita": 4.33
+        "tasaImplicita": 4.35
       },
       {
         "bajar": 7,
         "fecha": "2027-03-17",
         "mantener": 0.5,
         "subir": 92.5,
-        "tasaImplicita": 4.25
+        "tasaImplicita": 4.22
       },
       {
         "bajar": 5,
@@ -549,247 +549,247 @@
       "changeNote": "Cierre confirmado del 29 de octubre (24/7 Wall St, CNBC): 7.706,63 puntos; frente al cierre del 28 de octubre (7.743,98). El futuro ES (dic-26) cotiza en torno a 7.679 puntos (-0,97 %) a las 06:46 UTC del 30 de octubre (pre-Londres), según Yahoo Finance.",
       "changePct": -0.97,
       "claves": [
-        "Call wall en 7721 (SPY 770,0); put wall en 7671 (SPY 765,0),",
-        "Régimen de gamma negativa en -7,21 mil M$ por 1 % de movimiento (antes -4,31 mil M$),",
-        "Giro de gamma (gamma flip) en 7756 (SPY 773,47), por encima del precio: la gamma sigue negativa,",
-        "Max pain en 7701 (SPY 768,0); put/call OI 1,54,"
+        "Call wall en 8022 (SPY 800,0); put wall en 7521 (SPY 750,0),",
+        "Régimen de gamma negativa en -2,29 mil M$ por 1 % de movimiento (antes -7,21 mil M$),",
+        "Giro de gamma (gamma flip) en 7779 (SPY 775,82), por encima del precio: la gamma sigue negativa,",
+        "Max pain en 7691 (SPY 767,0); put/call OI 1,62,"
       ],
       "gex": {
-        "callWall": 770,
-        "contratos": 1573,
+        "callWall": 800,
+        "contratos": 1435,
         "escalera": [
           {
-            "gex": -38.9,
+            "gex": -24.9,
+            "strike": 743
+          },
+          {
+            "gex": -34.3,
+            "strike": 744
+          },
+          {
+            "gex": -247.1,
+            "strike": 745
+          },
+          {
+            "gex": -34.7,
+            "strike": 746
+          },
+          {
+            "gex": -26.6,
             "strike": 747
           },
           {
-            "gex": -91.6,
+            "gex": -44,
             "strike": 748
           },
           {
-            "gex": -39.8,
+            "gex": -93.5,
             "strike": 749
           },
           {
-            "gex": -1550.7,
+            "gex": -1082.2,
             "strike": 750
           },
           {
-            "gex": -54.2,
+            "gex": -38.9,
             "strike": 751
           },
           {
-            "gex": -87.4,
+            "gex": -48.2,
             "strike": 752
           },
           {
-            "gex": -116.3,
+            "gex": -84.3,
             "strike": 753
           },
           {
-            "gex": -78.5,
+            "gex": -42.6,
             "strike": 754
           },
           {
-            "gex": -708.1,
+            "gex": -293.5,
             "strike": 755
           },
           {
-            "gex": -107.9,
+            "gex": -43.5,
             "strike": 756
           },
           {
-            "gex": -173.6,
+            "gex": -94.5,
             "strike": 757
           },
           {
-            "gex": -112.2,
+            "gex": -70.7,
             "strike": 758
           },
           {
-            "gex": -139.3,
+            "gex": -101,
             "strike": 759
           },
           {
-            "gex": -1137.3,
+            "gex": -538.5,
             "strike": 760
           },
           {
-            "gex": -104,
+            "gex": -22.2,
             "strike": 761
           },
           {
-            "gex": -70.9,
+            "gex": -99.7,
             "strike": 762
           },
           {
-            "gex": 15.3,
+            "gex": -52.9,
             "strike": 763
           },
           {
-            "gex": -88.7,
+            "gex": -30.9,
             "strike": 764
           },
           {
-            "gex": -1679.4,
+            "gex": -186.4,
             "strike": 765
           },
           {
-            "gex": -242.2,
+            "gex": -26.5,
             "strike": 766
           },
           {
-            "gex": -244.1,
+            "gex": -260.6,
             "strike": 767
           },
           {
-            "gex": 2.3,
+            "gex": 19,
             "strike": 768
           },
           {
-            "gex": -74.9,
+            "gex": 22,
             "strike": 769
           },
           {
-            "gex": 218,
+            "gex": 85.4,
             "strike": 770
           },
           {
-            "gex": 6.6,
+            "gex": 30.3,
             "strike": 771
           },
           {
-            "gex": 57.8,
+            "gex": 47.7,
             "strike": 772
           },
           {
-            "gex": 15.8,
+            "gex": 89.2,
             "strike": 773
           },
           {
-            "gex": 19.9,
+            "gex": 53.8,
             "strike": 774
           },
           {
-            "gex": 195.2,
+            "gex": 138,
             "strike": 775
           },
           {
-            "gex": 38,
+            "gex": 68.4,
             "strike": 776
           },
           {
-            "gex": 15,
+            "gex": 37,
             "strike": 777
           },
           {
-            "gex": 100.2,
+            "gex": 156.7,
             "strike": 778
           },
           {
-            "gex": 22.8,
+            "gex": 48,
             "strike": 779
           },
           {
-            "gex": 369.9,
+            "gex": 540.3,
             "strike": 780
           },
           {
-            "gex": 66.5,
+            "gex": 67.6,
             "strike": 781
           },
           {
-            "gex": 58,
+            "gex": 59.5,
             "strike": 782
           },
           {
-            "gex": 119.8,
+            "gex": 80,
             "strike": 783
           },
           {
-            "gex": 37.7,
+            "gex": 45.3,
             "strike": 784
           },
           {
-            "gex": 89.2,
+            "gex": 138.3,
             "strike": 785
           },
           {
-            "gex": 22.7,
+            "gex": 37.2,
             "strike": 786
           },
           {
-            "gex": 19.8,
+            "gex": 40.7,
             "strike": 787
           },
           {
-            "gex": 59.6,
+            "gex": 76.8,
             "strike": 788
-          },
-          {
-            "gex": 45.8,
-            "strike": 789
-          },
-          {
-            "gex": 164,
-            "strike": 790
-          },
-          {
-            "gex": 38.2,
-            "strike": 791
-          },
-          {
-            "gex": 43.5,
-            "strike": 792
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 773.47,
-        "gexTotal": -7.21,
+        "gammaFlip": 775.82,
+        "gexTotal": -2.29,
         "indice": {
-          "callWall": 7721,
-          "gammaFlip": 7756,
-          "maxPain": 7701,
-          "precio": 7716,
-          "putWall": 7671
+          "callWall": 8022,
+          "gammaFlip": 7779,
+          "maxPain": 7691,
+          "precio": 7674,
+          "putWall": 7521
         },
-        "maxPain": 768,
+        "maxPain": 767,
         "odte": {
           "base": "open interest",
-          "callWall": 790,
-          "esHoy": false,
+          "callWall": 800,
+          "esHoy": true,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 7922,
+            "callWall": 8022,
             "gammaFlip": null,
-            "maxPain": 7701,
-            "putWall": 7601
+            "maxPain": 7691,
+            "putWall": 7370
           },
-          "maxPain": 768,
-          "pcrOI": 2.11,
-          "putWall": 758,
-          "vencimiento": "2026-10-29"
+          "maxPain": 767,
+          "pcrOI": 1.57,
+          "putWall": 735,
+          "vencimiento": "2026-10-30"
         },
-        "oiFecha": "2026-10-27",
-        "pcrOI": 1.54,
-        "precio": 769.49,
-        "putWall": 765,
+        "oiFecha": "2026-10-28",
+        "pcrOI": 1.62,
+        "precio": 765.26,
+        "putWall": 750,
         "ratioFecha": "2026-10-28",
         "ratioIndice": 10.0274,
         "regimen": "negativa",
-        "vencimientoCercano": "2026-10-29"
+        "vencimientoCercano": "2026-10-30"
       },
       "id": "SPX",
       "lectura": "El S&P 500 cerró confirmado en 7.706,63 puntos (-0,49 %), lastrado por el desplome de Alphabet (-12,6 %) compensado en parte por Eli Lilly, y presionado también por Caterpillar; tras el cierre, Intel y Amazon cayeron en el after-hours. El futuro ES (dic-26) extiende las pérdidas esta madrugada hasta 7.679 puntos (-0,97 % frente al cierre), según Yahoo Finance. La gamma sigue muy negativa (-7,21 mil M$ por 1 %) con el call wall (7.721) prácticamente pegado al precio, lo que amplifica el movimiento. El dato más reciente del motor de opciones (OI del 27 de octubre, cálculo del 29 a las 20:22 UTC) ya tiene más de 3 horas de antigüedad a esta hora (pre-Londres, 06:46 UTC del 30 de octubre); se conservan estos niveles como la mejor referencia disponible, señalando su fecha. Pesan además el sesgo de Kevin Warsh hacia tipos más altos (CNBC, 29 de octubre) y la escalada en el estrecho de Ormuz. Sesgo: bajista.",
       "levels": {
-        "callWall": 7721,
-        "gammaFlip": 7756,
-        "maxPain": 7701,
-        "putWall": 7671
+        "callWall": 8022,
+        "gammaFlip": 7779,
+        "maxPain": 7691,
+        "putWall": 7521
       },
       "name": "S&P 500",
-      "netGex": "negativa (-7,21 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-27)",
+      "netGex": "negativa (-2,29 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-28)",
       "precio": 7679,
       "regime": "negativa",
       "regimen": "negativa",
@@ -802,230 +802,230 @@
       "changePct": -2.27,
       "claves": [
         "Call wall en 29583 (QQQ 720,0); put wall en 28762 (QQQ 700,0),",
-        "Régimen de gamma negativa en -6,49 mil M$ por 1 % de movimiento (antes -4,49 mil M$),",
-        "Giro de gamma en 29960 (QQQ 729,16), por encima del precio,",
-        "Max pain en 29542 (QQQ 719,0); put/call OI 2,03,"
+        "Régimen de gamma negativa en -4,33 mil M$ por 1 % de movimiento (antes -6,49 mil M$),",
+        "Giro de gamma en 30360 (QQQ 738,91), por encima del precio,",
+        "Max pain en 29707 (QQQ 723,0); put/call OI 1,90,"
       ],
       "gex": {
         "callWall": 720,
-        "contratos": 1524,
+        "contratos": 1396,
         "escalera": [
           {
-            "gex": -287.4,
-            "strike": 685
-          },
-          {
-            "gex": -15.4,
-            "strike": 686
-          },
-          {
-            "gex": -22.8,
+            "gex": -6.1,
             "strike": 687
           },
           {
-            "gex": -15.8,
+            "gex": -11.2,
             "strike": 688
           },
           {
-            "gex": -22.2,
+            "gex": -15.1,
             "strike": 689
           },
           {
-            "gex": -845.8,
+            "gex": -418.3,
             "strike": 690
           },
           {
-            "gex": -96.2,
+            "gex": -93.5,
             "strike": 691
           },
           {
-            "gex": -28.5,
+            "gex": -11.2,
             "strike": 692
           },
           {
-            "gex": -138.9,
+            "gex": -141.1,
             "strike": 693
           },
           {
-            "gex": -26,
+            "gex": -7.6,
             "strike": 694
           },
           {
-            "gex": -400.7,
+            "gex": -302.6,
             "strike": 695
           },
           {
-            "gex": -164.2,
+            "gex": -32.4,
             "strike": 696
           },
           {
-            "gex": -28.9,
+            "gex": -8.7,
             "strike": 697
           },
           {
-            "gex": -32.9,
+            "gex": -15,
             "strike": 698
           },
           {
-            "gex": -40,
+            "gex": -16.9,
             "strike": 699
           },
           {
-            "gex": -1046.2,
+            "gex": -595.2,
             "strike": 700
           },
           {
-            "gex": -111.8,
+            "gex": -22.2,
             "strike": 701
           },
           {
-            "gex": -16.3,
+            "gex": -11.1,
             "strike": 702
           },
           {
-            "gex": -47.6,
+            "gex": -91.4,
             "strike": 703
           },
           {
-            "gex": -18.8,
+            "gex": -11.9,
             "strike": 704
           },
           {
-            "gex": -369,
+            "gex": -209.6,
             "strike": 705
           },
           {
-            "gex": -15.5,
+            "gex": -9.3,
             "strike": 706
           },
           {
-            "gex": -29.9,
+            "gex": -43.8,
             "strike": 707
           },
           {
-            "gex": -61.7,
+            "gex": -91,
             "strike": 708
           },
           {
-            "gex": 6.6,
+            "gex": -15.1,
             "strike": 709
           },
           {
-            "gex": -359.3,
+            "gex": -264.9,
             "strike": 710
           },
           {
-            "gex": -21,
+            "gex": -16.5,
             "strike": 711
           },
           {
-            "gex": -128.7,
+            "gex": -64.1,
             "strike": 712
           },
           {
-            "gex": -413.7,
+            "gex": -485.2,
             "strike": 713
           },
           {
-            "gex": -89.7,
+            "gex": -35.6,
             "strike": 714
           },
           {
-            "gex": -162.8,
+            "gex": -96.1,
             "strike": 715
           },
           {
-            "gex": -45.5,
+            "gex": -10.4,
             "strike": 716
           },
           {
-            "gex": -97.1,
+            "gex": -91.4,
             "strike": 717
           },
           {
-            "gex": -12.6,
+            "gex": -15.2,
             "strike": 718
           },
           {
-            "gex": -11.9,
+            "gex": -8,
             "strike": 719
           },
           {
-            "gex": -187.7,
+            "gex": -198.7,
             "strike": 720
           },
           {
-            "gex": 0.2,
+            "gex": 1.9,
             "strike": 721
           },
           {
-            "gex": -11.2,
+            "gex": -7.3,
             "strike": 722
           },
           {
-            "gex": -27.9,
+            "gex": -18,
             "strike": 723
           },
           {
-            "gex": 16.4,
+            "gex": 4.8,
             "strike": 724
           },
           {
-            "gex": -156.3,
+            "gex": -30.5,
             "strike": 725
           },
           {
-            "gex": -7.6,
+            "gex": 0.3,
             "strike": 726
+          },
+          {
+            "gex": 0.9,
+            "strike": 727
+          },
+          {
+            "gex": -4.9,
+            "strike": 728
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 729.16,
-        "gexTotal": -6.49,
+        "gammaFlip": 738.91,
+        "gexTotal": -4.33,
         "indice": {
           "callWall": 29583,
-          "gammaFlip": 29960,
-          "maxPain": 29542,
-          "precio": 28995,
+          "gammaFlip": 30360,
+          "maxPain": 29707,
+          "precio": 29064,
           "putWall": 28762
         },
-        "maxPain": 719,
+        "maxPain": 723,
         "odte": {
           "base": "open interest",
-          "callWall": 725,
-          "esHoy": false,
+          "callWall": 740,
+          "esHoy": true,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 29789,
+            "callWall": 30405,
             "gammaFlip": null,
-            "maxPain": 29542,
-            "putWall": 27118
+            "maxPain": 29707,
+            "putWall": 28351
           },
-          "maxPain": 719,
-          "pcrOI": 1.28,
-          "putWall": 660,
-          "vencimiento": "2026-10-29"
+          "maxPain": 723,
+          "pcrOI": 1.9,
+          "putWall": 690,
+          "vencimiento": "2026-10-30"
         },
-        "oiFecha": "2026-10-27",
-        "pcrOI": 2.03,
-        "precio": 705.67,
+        "oiFecha": "2026-10-28",
+        "pcrOI": 1.9,
+        "precio": 707.35,
         "putWall": 700,
         "ratioFecha": "2026-10-28",
         "ratioIndice": 41.0882,
         "regimen": "negativa",
-        "vencimientoCercano": "2026-10-29"
+        "vencimientoCercano": "2026-10-30"
       },
       "id": "NDX",
       "lectura": "El Nasdaq 100 cerró con una caída aproximada del 1,57 % (proxy Nasdaq Composite), lastrado por el desplome de Alphabet (-12,6 %) y, tras el cierre, por Intel y Amazon en el after-hours. El futuro NQ (dic-26) profundiza las pérdidas esta madrugada hasta 28.891 puntos (-2,27 % frente al cierre), según CNBC. La gamma negativa se ha profundizado a -6,49 mil M$ por 1 % de movimiento, con el call wall en 29.583 muy cerca del precio. El dato de opciones del motor (OI del 27 de octubre) ya tiene más de 3 horas de antigüedad; se conserva como mejor referencia disponible. La probabilidad de una subida de la Fed en diciembre se mantiene alta (76,5 %), y el sesgo de Warsh hacia tipos más altos (CNBC, 29 de octubre) no alivia la presión sobre la valoración tecnológica tras el aviso de capex de Alphabet. Sesgo: bajista.",
       "levels": {
         "callWall": 29583,
-        "gammaFlip": 29960,
-        "maxPain": 29542,
+        "gammaFlip": 30360,
+        "maxPain": 29707,
         "putWall": 28762
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-6,49 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-27)",
+      "netGex": "negativa (-4,33 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-28)",
       "precio": 28891,
       "regime": "negativa",
       "regimen": "negativa",
@@ -1035,31 +1035,27 @@
     }
   ],
   "liquidez": {
-    "actualizado": "2026-10-29T20:22:04Z",
-    "balance": 6753.6,
-    "d4": 31.3,
-    "dBalance": -2,
-    "dNeta": -70.6,
-    "dReservas": -59.5,
+    "actualizado": "2026-10-30T07:49:37Z",
+    "balance": 6745.6,
+    "d4": -37.1,
+    "dBalance": -8,
+    "dNeta": -55.7,
+    "dReservas": -68.8,
     "dRrp": 0,
-    "dTga": 68.6,
-    "fecha": "2026-10-21",
-    "fecha4": "2026-09-23",
-    "fechaPrev": "2026-10-14",
+    "dTga": 47.7,
+    "fecha": "2026-10-28",
+    "fecha4": "2026-09-30",
+    "fechaPrev": "2026-10-21",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "En la semana del 14 al 21 de octubre, la liquidez neta bajó 70.600 millones de $ hasta 5,80 billones, con el Tesoro como principal drenaje (la TGA sube 68.600 millones hasta 952.000 millones) y el balance de la Fed retrocediendo ligeramente (-2.000 millones, QT continuo); las reservas bancarias cayeron 59.500 millones hasta 2,96 billones, mientras el RRP se mantuvo prácticamente sin cambios. La tendencia de las últimas cuatro semanas (desde el 23 de septiembre) sigue siendo positiva: +31.300 millones netos. El uso del repo permanente sigue siendo mínimo (11 millones $ el 29 de octubre) y el RRP también bajo (353 millones $), sin señales de tensión de liquidez.",
-    "neta": 5801.4,
+    "lectura": "En la semana del 21 al 28 de octubre, la liquidez neta bajó 55.700 millones $ hasta 5,75 billones $, con el Tesoro como principal drenaje (la TGA sube 47.700 millones $ hasta 999.700 millones $) y el balance de la Fed retrocediendo también (-8.000 millones $, QT continuo); las reservas bancarias cayeron 68.800 millones $ hasta 2,89 billones $, mientras el RRP se mantuvo sin cambios. La tendencia de las últimas cuatro semanas (desde el 30 de septiembre) es negativa: -37.100 millones $ netos. El uso del repo permanente sigue siendo mínimo (11 millones $ el 29 de octubre) y el RRP también bajo (353 millones $), sin señales de tensión de liquidez.",
+    "neta": 5745.7,
     "repo": 0.011,
     "repoFecha": "2026-10-29",
-    "reservas": 2962.6,
+    "reservas": 2893.8,
     "rrp": 0.2,
     "rrpFecha": "2026-10-29",
     "rrpHoy": 0.353,
     "serie": [
-      {
-        "fecha": "2026-04-22",
-        "neta": 5700.9
-      },
       {
         "fecha": "2026-04-29",
         "neta": 5717.3
@@ -1163,9 +1159,13 @@
       {
         "fecha": "2026-10-21",
         "neta": 5801.4
+      },
+      {
+        "fecha": "2026-10-28",
+        "neta": 5745.7
       }
     ],
-    "tga": 952
+    "tga": 999.7
   },
   "noticias": [
     {
@@ -1353,36 +1353,36 @@
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-10-29 (ya cerrado), por open interest (SPY 790,0). Put/call OI: 2,11.",
-        "valor": "7922"
+        "nota": "Vencimiento 2026-10-30 (hoy), por open interest (SPY 800.0). Put/call OI: 1,57.",
+        "valor": "8022"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "SPY 758,0.",
-        "valor": "7601"
+        "nota": "SPY 735.0.",
+        "valor": "7370"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "SPY 768,0.",
-        "valor": "7701"
+        "nota": "SPY 767.0.",
+        "valor": "7691"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-10-29 (ya cerrado), por open interest (QQQ 725,0). Put/call OI: 1,28.",
-        "valor": "29789"
+        "nota": "Vencimiento 2026-10-30 (hoy), por open interest (QQQ 740.0). Put/call OI: 1,9.",
+        "valor": "30405"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "QQQ 660,0.",
-        "valor": "27118"
+        "nota": "QQQ 690.0.",
+        "valor": "28351"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "QQQ 719,0.",
-        "valor": "29542"
+        "nota": "QQQ 723.0.",
+        "valor": "29707"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento del 29 de octubre (ya cerrado), calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE quedó en 7.922, el put wall en 7.601 y el max pain en 7.701 (put/call OI 2,11); en el Nasdaq 100 el call wall 0DTE en 29.789, el put wall en 27.118 y el max pain en 29.542 (put/call OI 1,28). El motor de datos aún no ha publicado los niveles 0DTE del vencimiento del 30 de octubre a esta hora (06:46 UTC, pre-Londres); estos niveles del cierre del 29 de octubre son la mejor referencia disponible."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 30 de octubre, calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE está en 8022, el put wall en 7370 y el max pain en 7691 (put/call OI 1,57); en el Nasdaq 100 el call wall 0DTE en 30405, el put wall en 28351 y el max pain en 29707 (put/call OI 1,9). Datos calculados por el motor a las 07:49 UTC del 30 de octubre, con open interest del 28 de octubre."
   },
   "politica": {
     "actualizado": "2026-10-30T06:46:25Z",
@@ -1482,7 +1482,7 @@
       }
     ]
   },
-  "resumen": "Son las 06:46 UTC (07:46 en Canarias, 02:46 en Nueva York) del viernes 30 de octubre de 2026, en la franja pre-Londres, con la sesión de Nueva York aún cerrada pero los futuros ya operando a la baja: el futuro ES (S&P 500, dic-26) cotiza en torno a 7.679 puntos (-0,97 %) y el futuro NQ (Nasdaq 100, dic-26) en torno a 28.891 puntos (-2,27 %), ambos extendiendo el cierre bajista del jueves (S&P 500 -0,49 % a 7.706,63; Nasdaq Composite -1,57 %), lastrado por el hundimiento de Alphabet (-12,6 %, unos 500.000 millones $ de valor perdido) por el gasto en IA sin retorno claro, y agravado tras el cierre por las caídas de Intel y Amazon en el after-hours (fuentes: Yahoo Finance, CNBC). El Banco de Japón mantuvo esta madrugada su tipo en el 1,25 % (voto 8-1, con Takata pidiendo subir), una pausa calificada de 'hawkish' que deja abierta una subida hacia fin de año. Bitcoin se desploma a unos 76.000-78.500 $ (en torno a -4 % a -6 %) después de que Binance suspendiera depósitos y retiros por un posible hackeo de hasta 6.300 millones $ (CoinDesk, CNBC), el mayor de la historia según varias fuentes, con más de 1.000 millones $ liquidados en futuros apalancados. El oro ronda los 3.992-3.997 $/oz (Investing.com), por debajo de 4.000 $, el WTI cotiza en torno a 102-103 $ (Brent 111-116 $, CNBC/marketalleys.com) con el estrecho de Ormuz tenso tras la reivindicación iraní de minas navales contra 3 petroleros (que EE. UU./CENTCOM niega), y el EUR/USD cotiza en torno a 1,1180-1,1182 (DailyForex), cerca de mínimos de 17 meses pese al rebote de los últimos días. La gamma sigue muy negativa en ambos índices (SPX -7,21 mil M$ por 1 %; NDX -6,49 mil M$ por 1 %; datos de ayer, los más recientes que ofrece el motor). Un análisis de CNBC del 29 de octubre confirma que el sesgo actual del presidente de la Fed, Kevin Warsh, es hacia tipos más altos, sin comprometerse con diciembre (76,5 % de probabilidad, según el motor de datos). Hoy el foco pasa al PIB preliminar y la tasa de paro de la eurozona (10:00 UTC) y al índice de costes laborales de EE. UU. (12:30 UTC). Sesgo del día: bajista en SPX y NDX.",
+  "resumen": "Son las 06:46 UTC (07:46 en Canarias, 02:46 en Nueva York) del viernes 30 de octubre de 2026, en la franja pre-Londres, con la sesión de Nueva York aún cerrada pero los futuros ya operando a la baja: el futuro ES (S&P 500, dic-26) cotiza en torno a 7.679 puntos (-0,97 %) y el futuro NQ (Nasdaq 100, dic-26) en torno a 28.891 puntos (-2,27 %), ambos extendiendo el cierre bajista del jueves (S&P 500 -0,49 % a 7.706,63; Nasdaq Composite -1,57 %), lastrado por el hundimiento de Alphabet (-12,6 %, unos 500.000 millones $ de valor perdido) por el gasto en IA sin retorno claro, y agravado tras el cierre por las caídas de Intel y Amazon en el after-hours (fuentes: Yahoo Finance, CNBC). El Banco de Japón mantuvo esta madrugada su tipo en el 1,25 % (voto 8-1, con Takata pidiendo subir), una pausa calificada de 'hawkish' que deja abierta una subida hacia fin de año. Bitcoin se desploma a unos 76.000-78.500 $ (en torno a -4 % a -6 %) después de que Binance suspendiera depósitos y retiros por un posible hackeo de hasta 6.300 millones $ (CoinDesk, CNBC), el mayor de la historia según varias fuentes, con más de 1.000 millones $ liquidados en futuros apalancados. El oro ronda los 3.992-3.997 $/oz (Investing.com), por debajo de 4.000 $, el WTI cotiza en torno a 102-103 $ (Brent 111-116 $, CNBC/marketalleys.com) con el estrecho de Ormuz tenso tras la reivindicación iraní de minas navales contra 3 petroleros (que EE. UU./CENTCOM niega), y el EUR/USD cotiza en torno a 1,1180-1,1182 (DailyForex), cerca de mínimos de 17 meses pese al rebote de los últimos días. La gamma sigue negativa en ambos índices, aunque algo menos extrema que ayer (SPX -2,29 mil M$ por 1 %; NDX -4,33 mil M$ por 1 %), con datos del motor ya actualizados a hoy (OI del 28 de octubre, cálculo de las 07:49 UTC). Un análisis de CNBC del 29 de octubre confirma que el sesgo actual del presidente de la Fed, Kevin Warsh, es hacia tipos más altos, sin comprometerse con diciembre (76,5 % de probabilidad, según el motor de datos). Hoy el foco pasa al PIB preliminar y la tasa de paro de la eurozona (10:00 UTC) y al índice de costes laborales de EE. UU. (12:30 UTC). Sesgo del día: bajista en SPX y NDX.",
   "semana": {
     "activos": [
       {
@@ -1872,5 +1872,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-30T07:30:00Z"
+  "updatedAt": "2026-10-30T08:16:05Z"
 }

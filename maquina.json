@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-10-29T19:46:06Z",
+  "actualizado": "2026-10-30T07:47:05Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.58,
-    "lectura": "El PIB acelera al 3,4 % en el 3T y el PCE sube al 3,6 % (subyacente 3,1 %) (29 oct); la Fed mantuvo el 3,75-4,00 % el 28 oct con dos votos por subir y Kalshi da un 79,5 % a una subida en diciembre. Con el empleo frenado (+29.000 en septiembre), es el patrón de techo del ciclo corto."
+    "lectura": "El PIB acelera al 3,4 % en el 3T y el PCE sube al 3,6 % (subyacente 3,1 %) (29 oct); la Fed mantuvo el 3,75-4,00 % con dos votos por subir y Kalshi da un 76,5 % a una subida en diciembre. Con el empleo frenado (+29.000 en septiembre), es el patrón de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -85,7 +85,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct (10-2, dos votos por subir) · 79,5 % subida el 9 dic (Kalshi, 29 oct)",
+      "c": "mantenidos el 28 oct (10-2, dos votos por subir) · 76,5 % subida el 9 dic (Kalshi, 29 oct)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -115,19 +115,19 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "29 oct · a 17 pb del umbral de atención",
+      "c": "30 oct · a 21 pb del umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,33 %"
+      "v": "5,29 %"
     }
   ],
   "largo": {
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue alto (5,33 %, 29 oct) y Dalio calcula que el servicio de la deuda ronda el 200 % de los ingresos federales: es la zona donde los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue alto (5,29 %, 30 oct) y Dalio calcula que el servicio de la deuda ronda el 200 % de los ingresos federales: es la zona donde los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La economía sigue caliente (PIB del 3T +3,4 %, PCE 3,6 %, 29 oct) y la Fed mantuvo tipos con dos votos por subir (79,5 % de subida en diciembre) aunque el empleo se frena (29.000 en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %).",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La economía sigue caliente (PIB del 3T +3,4 %, PCE 3,6 %, 29 oct) y la Fed mantuvo tipos con dos votos por subir (76,5 % de subida en diciembre) aunque el empleo se frena (29.000 en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y las grandes tecnológicas ya se endeudan para invertir en IA.",
   "palancas": [
     {
       "estado": "rojo",
@@ -138,7 +138,7 @@
     {
       "estado": "amarillo",
       "n": "Reestructurar o impagar deuda",
-      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa: CDS de CoreWeave >1.000 pb (16 oct) y de Meta en récord (22 oct); sin impagos grandes.",
+      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa (CDS de CoreWeave >1.000 pb, Meta en récord; Amazon +48.100 M$ de deuda en el 3T); sin impagos grandes.",
       "valor": "Leve"
     },
     {
@@ -294,6 +294,11 @@
       "corto": 0.58,
       "largo": 0.76,
       "ts": "2026-10-29T19:46:06Z"
+    },
+    {
+      "corto": 0.58,
+      "largo": 0.76,
+      "ts": "2026-10-30T07:47:05Z"
     }
   ]
 }
