@@ -546,8 +546,8 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 10:21 Canarias (futuro ES dic-26, estable desde la madrugada)",
-      "changePct": -0.97,
+      "changeNote": "en vivo, 11:25 Canarias (futuro ES dic-26, la caída premercado se acentúa, Bloomberg)",
+      "changePct": -1.1,
       "claves": [
         "Call wall en 8022 (SPY 800,0); put wall en 7521 (SPY 750,0),",
         "Régimen de gamma negativa en -7,0 mil M$ por 1 % de movimiento (antes -2,29 mil M$),",
@@ -781,7 +781,7 @@
         "vencimientoCercano": "2026-10-30"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cerró confirmado el jueves en 7.706,63 puntos (-0,49 %), lastrado por Alphabet; el futuro ES (dic-26) se mantiene esta mañana en 7.679 puntos (-0,97 % frente al cierre), con la presión añadida de Intel (hasta -25 %, su peor caída en años) y Amazon (-7,3 % en el after-hours, flujo de caja libre negativo de 42.400 millones $). La gamma se ha reforzado a -7,0 mil M$ por 1 % (antes -2,29 mil M$), con el call wall en 8.022 y el giro de gamma en 7.800, ambos por encima del precio: el régimen de gamma negativa amplifica los movimientos. Datos de opciones del motor actualizados a las 08:51 UTC (OI del 28 de octubre). Pesa también la probabilidad de subida de la Fed en diciembre (73,5 %, motor de datos, sin cambios) y la escalada en el estrecho de Ormuz. Sesgo: bajista.",
+      "lectura": "El S&P 500 cerró confirmado el jueves en 7.706,63 puntos (-0,49 %), lastrado por Alphabet; el futuro ES (dic-26) profundiza la caída esta mañana hasta unos 7.623 puntos (-1,1 % frente al cierre), con la presión añadida de Intel (hasta -25 %, su peor caída en años) y Amazon (-7,3 % en el after-hours, flujo de caja libre negativo de 42.400 millones $). La gamma se ha reforzado a -7,0 mil M$ por 1 % (antes -2,29 mil M$), con el call wall en 8.022 y el giro de gamma en 7.800, ambos por encima del precio: el régimen de gamma negativa amplifica los movimientos. Datos de opciones del motor actualizados a las 08:51 UTC (OI del 28 de octubre). Pesa también la probabilidad de subida de la Fed en diciembre (73,5 %, motor de datos, sin cambios) y la escalada en el estrecho de Ormuz. Sesgo: bajista.",
       "levels": {
         "callWall": 8022,
         "gammaFlip": 7800,
@@ -790,16 +790,16 @@
       },
       "name": "S&P 500",
       "netGex": "negativa (-7,0 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-28)",
-      "precio": 7679,
+      "precio": 7623,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -50,
       "sesgo": "bajista",
-      "spot": 7679
+      "spot": 7623
     },
     {
-      "changeNote": "en vivo, 10:21 Canarias (futuro NQ dic-26, estable desde la madrugada)",
-      "changePct": -2.27,
+      "changeNote": "en vivo, 11:25 Canarias (futuro NQ dic-26, la caída premercado se acentúa, Bloomberg)",
+      "changePct": -2.4,
       "claves": [
         "Call wall en 29583 (QQQ 720,0); put wall en 28762 (QQQ 700,0),",
         "Régimen de gamma negativa en -4,76 mil M$ por 1 % de movimiento (antes -4,33 mil M$),",
@@ -1017,7 +1017,7 @@
         "vencimientoCercano": "2026-10-30"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cerró el jueves con una caída aproximada del 1,57 % (proxy Nasdaq Composite); el futuro NQ (dic-26) se mantiene esta mañana en 28.891 puntos (-2,27 % frente al cierre), tras el desplome de Intel (hasta -25 %, su peor caída en años, por una previsión floja de PC) y Amazon (-7,3 % en el after-hours, flujo de caja libre negativo de 42.400 millones $), que se suman al aviso de capex de Alphabet. La gamma negativa se mantiene intensa en -4,76 mil M$ por 1 % (antes -4,33 mil M$), con el call wall en 29.583 y el giro de gamma en 30.172, ambos por encima del precio. Datos de opciones del motor actualizados a las 08:51 UTC (OI del 28 de octubre). Sesgo: bajista.",
+      "lectura": "El Nasdaq 100 cerró el jueves con una caída aproximada del 1,57 % (proxy Nasdaq Composite); el futuro NQ (dic-26) profundiza la caída esta mañana hasta unos 28.854 puntos (-2,4 % frente al cierre), tras el desplome de Intel (hasta -25 %, su peor caída en años, por una previsión floja de PC) y Amazon (-7,3 % en el after-hours, flujo de caja libre negativo de 42.400 millones $), que se suman al aviso de capex de Alphabet. La gamma negativa se mantiene intensa en -4,76 mil M$ por 1 % (antes -4,33 mil M$), con el call wall en 29.583 y el giro de gamma en 30.172, ambos por encima del precio. El VIX sube a 17,20. Datos de opciones del motor actualizados a las 08:51 UTC (OI del 28 de octubre). Sesgo: bajista.",
       "levels": {
         "callWall": 29583,
         "gammaFlip": 30172,
@@ -1026,12 +1026,12 @@
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-4,76 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-28)",
-      "precio": 28891,
+      "precio": 28854,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -58,
       "sesgo": "bajista",
-      "spot": 28891
+      "spot": 28854
     }
   ],
   "liquidez": {
@@ -1168,6 +1168,19 @@
     "tga": 999.7
   },
   "noticias": [
+    {
+      "activos": {
+        "BTC": "bajista",
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "Bloomberg",
+      "impacto": "medio",
+      "resumen": "El VIX sube a 17,20; Amazon e Intel profundizan la caída tras resultados y crecen las dudas sobre el gasto en IA, mientras bitcoin cede tras el hackeo de Binance.",
+      "titular": "La caída premercado se acentúa: Nasdaq 100 -2,4 %, S&P 500 -1,1 %",
+      "ts": "2026-10-30T11:00:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates"
+    },
     {
       "activos": {
         "EURUSD": "alcista"
@@ -1318,29 +1331,6 @@
       "titular": "Irán reivindica minas navales contra 3 petroleros en Ormuz; EE. UU. lo niega",
       "ts": "2026-10-29T15:30:00Z",
       "url": "https://gulfnews.com/world/mena/us-military-rejects-iranian-mine-strike-claims-says-hormuz-transit-lanes-remain-clear-1.500727648"
-    },
-    {
-      "activos": {
-        "EURUSD": "neutral"
-      },
-      "fuente": "Reuters / The Print",
-      "impacto": "medio",
-      "resumen": "Tras el anuncio de dimisión de Lagarde, efectiva el 7 de febrero de 2027, el expresidente del Banco de Holanda, Klaas Knot, y el exgobernador del Banco de España, Pablo Hernández de Cos, aparecen como favoritos para sucederla.",
-      "titular": "Klaas Knot y Pablo Hernández de Cos, principales candidatos a sucedir a Lagarde en el BCE",
-      "ts": "2026-10-29T15:10:00Z",
-      "url": "https://theprint.in/world/ecb-president-lagarde-resigns-at-a-time-of-mounting-challenges-for-europe/3085295/"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "neutral"
-      },
-      "fuente": "StockTitan",
-      "impacto": "alto",
-      "resumen": "Primer fallo de ingresos y beneficios de Alphabet en casi 4 años, con una inversión en propiedad y equipo que supera su flujo de caja.",
-      "titular": "Alphabet gastó 9.100 millones $ más en capex de lo que ingresó en el trimestre, reaviva el miedo a una burbuja de IA",
-      "ts": "2026-10-29T14:00:00Z",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
     }
   ],
   "odte": {
@@ -1476,7 +1466,7 @@
       }
     ]
   },
-  "resumen": "Son las 09:21 UTC (10:21 en Canarias, 05:21 en Nueva York) del viernes 30 de octubre de 2026; Londres ya cotiza y Nueva York sigue cerrada, con los futuros estables desde la madrugada: el futuro ES (S&P 500, dic-26) sigue en 7.679 puntos (-0,97 % frente al cierre) y el futuro NQ (Nasdaq 100, dic-26) en 28.891 puntos (-2,27 %), tras el desplome de Intel (hasta -25 %, su peor caída en años) y Amazon (-7,3 % en el after-hours, flujo de caja libre negativo de 42.400 millones $), que se suman al golpe de Alphabet del jueves. La gamma del motor se ha reforzado claramente desde el cálculo anterior: en el S&P 500 pasa a -7,0 mil M$ por 1 % (antes -2,29 mil M$) y en el Nasdaq 100 a -4,76 mil M$ por 1 % (antes -4,33 mil M$), con el open interest ya del 28 de octubre. Bitcoin rebota algo desde el mínimo de 76.301 $ hasta unos 78.600 $ tras el hackeo de Binance (6.300 millones $, el mayor de la historia), con cerca de 1.500 millones $ en liquidaciones. El euro retrocede a 1,1188 al rebotar el dólar, tras haber tocado 1,1215, a la espera del IPC alemán; la eurozona publica a las 10:00 UTC el PIB preliminar del T3 y la tasa de paro de septiembre. La probabilidad de subida de la Fed en diciembre se mantiene sin cambios en el 73,5 % (motor de datos). Sesgo del día: bajista en SPX y NDX.",
+  "resumen": "Son las 11:25 UTC (11:25 en Canarias, 12:25 en Madrid, 07:25 en Nueva York) del viernes 30 de octubre de 2026; Londres ya cotiza y Nueva York sigue cerrada. El motor de datos no ha publicado cifras nuevas de tipos, liquidez ni opciones desde las 08:50-08:51 UTC (siguen vigentes: probabilidad de subida de la Fed en diciembre 73,5 %; liquidez neta 5,75 billones $; gamma negativa en ambos índices). En el mercado, la caída premercado se ha acentuado desde la última hora: según Bloomberg, el futuro ES (S&P 500, dic-26) baja ya a unos 7.623 puntos (-1,1 % frente al cierre del jueves de 7.706,63) y el futuro NQ (Nasdaq 100, dic-26) a unos 28.854 puntos (-2,4 %), con el VIX subiendo a 17,20, por el desplome de Intel y Amazon tras resultados y las dudas sobre el gasto en IA. Bitcoin sigue inestable tras el hackeo de Binance, en torno a 78.000 $. No hay declaraciones nuevas de Trump, Warsh o Bessent ni publicaciones nuevas del calendario económico desde la última actualización (la tasa de paro de la eurozona de septiembre, prevista a las 10:00 UTC, aún no aparece confirmada en las fuentes). Sesgo del día: bajista en SPX y NDX.",
   "semana": {
     "activos": [
       {
@@ -1867,5 +1857,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-30T10:24:00.000000Z"
+  "updatedAt": "2026-10-30T11:25:00.000000Z"
 }
