@@ -373,16 +373,16 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-10-30T13:52:48Z",
+    "actualizado": "2026-10-30T14:53:36Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida en la próxima reunión, que es también la de diciembre (9 de diciembre), sube al 74,5 % (tasa implícita 4,06 %), un punto más que en la actualización anterior (73,5 %); la de enero de 2027 se mantiene en el 91,5 % (tasa implícita 4,35 %) y la de marzo de 2027 en el 92,5 % (tasa implícita 4,22 %).",
+    "lectura": "La probabilidad de subida en la próxima reunión, que es también la de diciembre (9 de diciembre), baja al 73,5 % (tasa implícita 4,06 %), un punto menos que en la actualización anterior (74,5 %); la de enero de 2027 se mantiene en el 91,5 % (tasa implícita 4,35 %) y la de marzo de 2027 en el 92,5 % (tasa implícita 4,22 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 1.5,
         "fecha": "2026-12-09",
-        "mantener": 24,
-        "subir": 74.5,
+        "mantener": 25,
+        "subir": 73.5,
         "tasaImplicita": 4.06
       },
       {
@@ -588,8 +588,8 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 14:24 Canarias",
-      "changePct": -0.6,
+      "changeNote": "en vivo, 15:17 Canarias",
+      "changePct": -1.3,
       "claves": [
         "Call wall en 8022 (SPY 800,0); put wall en 7521 (SPY 750,0),",
         "Régimen de gamma negativa en -7,05 mil M$ por 1 % de movimiento,",
@@ -832,16 +832,16 @@
       },
       "name": "S&P 500",
       "netGex": "negativa (-7.05 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-28)",
-      "precio": 7658,
+      "precio": 7607,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -55,
       "sesgo": "bajista",
-      "spot": 7658
+      "spot": 7607
     },
     {
-      "changeNote": "en vivo, 14:24 Canarias",
-      "changePct": -1.6,
+      "changeNote": "en vivo, 15:17 Canarias",
+      "changePct": -2.8,
       "claves": [
         "Call wall en 29591 (QQQ 720,0); put wall en 27947 (QQQ 680,0),",
         "Régimen de gamma negativa en -4,88 mil M$ por 1 % de movimiento,",
@@ -1068,12 +1068,12 @@
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-4.88 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-28)",
-      "precio": 28628,
+      "precio": 28275,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -60,
       "sesgo": "bajista",
-      "spot": 28628
+      "spot": 28275
     }
   ],
   "liquidez": {
@@ -1212,15 +1212,14 @@
   "noticias": [
     {
       "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
+        "EURUSD": "bajista"
       },
-      "fuente": "TheStreet",
-      "impacto": "alto",
-      "resumen": "El Nasdaq cae un 1,38 % y el S&P 500 un 1,2 % en la apertura, mientras el Russell 2000 de small caps sube cerca de un 1 %.",
-      "titular": "La apertura confirma el desplome: Nasdaq -1,38 %, S&P 500 -1,2 %, pero el Russell 2000 sube",
-      "ts": "2026-10-30T13:30:00Z",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El dólar rebota y borra parte de la subida del euro, pese al buen dato de PIB del T3 y los comentarios restrictivos de Lagarde.",
+      "titular": "El euro retrocede a pesar del PIB fuerte de la eurozona y el tono duro del BCE",
+      "ts": "2026-10-30T14:07:00Z",
+      "url": "https://fxstreet.com/news/euro-retreats-despite-stronger-gdp-and-hawkish-ecb-signals-202610301407"
     },
     {
       "activos": {
@@ -1233,6 +1232,18 @@
       "titular": "Wall Street abre a la baja: el S&P 500 ronda los 7.633 puntos y el Nasdaq profundiza la caída tecnológica",
       "ts": "2026-10-30T13:46:00Z",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "TheStreet",
+      "impacto": "alto",
+      "resumen": "El Nasdaq cae un 1,38 % y el S&P 500 un 1,2 % en la apertura, mientras el Russell 2000 de small caps sube cerca de un 1 %.",
+      "titular": "La apertura confirma el desplome: Nasdaq -1,38 %, S&P 500 -1,2 %, pero el Russell 2000 sube",
+      "ts": "2026-10-30T13:30:00Z",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
     },
     {
       "activos": {
@@ -1262,6 +1273,18 @@
       "titular": "El índice de costes laborales de EE. UU. sube un 0,8 % en el tercer trimestre, en línea con lo previsto",
       "ts": "2026-10-30T12:30:00Z",
       "url": "https://investinglive.com/news/us-employment-cost-index-for-q3-0-8-vs-0-8-expected/"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "Bloomberg",
+      "impacto": "alto",
+      "resumen": "Sin resultados propios desde el jueves, estos valores caen entre el 7,68 % y el 9,49 % contagiados por las dudas sobre el retorno de la inversión en inteligencia artificial.",
+      "titular": "El desplome tecnológico se extiende: HP, Dell, AMD y Semtech caen hasta un 9,5 % por miedo al gasto en IA",
+      "ts": "2026-10-30T11:30:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/us-stock-futures-today-amazon-intel-mondelez-reddit-stryker"
     },
     {
       "activos": {
@@ -1364,28 +1387,6 @@
       "titular": "Bitcoin rebota a unos 78.600 $ desde el mínimo de 76.301 $ tras el hackeo de Binance",
       "ts": "2026-10-30T07:30:00Z",
       "url": "https://invezz.com/news/2026/10/30/bitcoin-price-crash-binance-hack-crypto-liquidations/"
-    },
-    {
-      "activos": {
-        "BTC": "bajista"
-      },
-      "fuente": "CNBC",
-      "impacto": "alto",
-      "resumen": "Binance atribuye el ataque al ordenador comprometido de un ingeniero de DevOps y promete compensar íntegramente a los afectados.",
-      "titular": "Binance confirma un hackeo de 6.300 millones $; congela 3.000 millones y cubrirá las pérdidas",
-      "ts": "2026-10-30T07:05:00Z",
-      "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista"
-      },
-      "fuente": "ABC News (Australia)",
-      "impacto": "medio",
-      "resumen": "El bitcoin retrocede cerca de un 2 %, hasta 77.646 $, su nivel más bajo en seis semanas, por el hackeo de Binance, mientras la bolsa australiana (ASX) sube.",
-      "titular": "Bitcoin cae a un mínimo de 6 semanas tras el ciberataque global, mientras el ASX australiano sube",
-      "ts": "2026-10-30T07:00:00Z",
-      "url": "https://abc.net.au/news/2026-10-30/asx-markets-business-live-news-oct-30/107326558"
     }
   ],
   "odte": {
@@ -1521,7 +1522,7 @@
       }
     ]
   },
-  "resumen": "Son las 14:24 UTC (14:24 en Canarias, 15:24 en Madrid, 10:24 en Nueva York) del viernes 30 de octubre de 2026. El S&P 500 recorta algo la caída inicial y cotiza en torno a 7.658 puntos (-0,6 % frente al cierre confirmado del jueves de 7.706,63) y el Nasdaq 100 en torno a 28.600-28.700 puntos (≈-1,6 %), lastrados por Intel (-25 %) y Amazon (-7,3 % en el after-hours); el Russell 2000 de small caps, en cambio, sube cerca de un 1 %. La gamma sigue negativa en ambos índices (SPX -7,05 mil M$ por 1 %; NDX -4,88 mil M$ por 1 %), con los call wall muy por encima del precio. El WTI se mantiene firme cerca de 104 $ tras el ataque confirmado por la UKMTO contra un petrolero en Ormuz; el oro ronda los 3.975-4.020 $/oz tras perder los 4.000 $ por primera vez desde julio; bitcoin sigue débil en torno a 77.000-78.000 $ tras el hackeo de Binance. En la Fed, la probabilidad de subida en diciembre sube al 74,5 % (desde el 73,5 %) según el motor/Kalshi, tras la rueda de prensa de Warsh del 28 de octubre sin orientación explícita sobre el mes. Sesgo del día: bajista en SPX y NDX, alcista en WTI.",
+  "resumen": "Son las 15:17 UTC (15:17 en Canarias, 16:17 en Madrid, 11:17 en Nueva York) del viernes 30 de octubre de 2026. La caída tecnológica se intensifica: el S&P 500 ronda los 7.607 puntos (-1,3 % frente al cierre confirmado del jueves de 7.706,63) y el Nasdaq 100 cae con fuerza hacia los 28.275 puntos (≈-2,8 %), lastrados por Intel (-25 %) y Amazon (-7,3 % en el after-hours), con el pesimismo sobre el gasto en IA extendiéndose ya a HP, Dell, AMD y Semtech (-7,7 % a -9,5 %); el Russell 2000 de small caps, en cambio, sigue al alza. La gamma sigue negativa en ambos índices, con los call wall muy por encima del precio. El WTI se mantiene firme cerca de 104 $ tras el ataque confirmado por la UKMTO contra un petrolero en Ormuz; el oro ronda los 3.975-4.020 $/oz tras perder los 4.000 $ por primera vez desde julio; bitcoin sigue débil en torno a 77.000-78.000 $ tras el hackeo de Binance. En la Fed, la probabilidad de subida en diciembre baja ligeramente al 73,5 % (desde el 74,5 %) según el motor/Kalshi. Sesgo del día: bajista en SPX y NDX, alcista en WTI.",
   "semana": {
     "activos": [
       {
@@ -1912,5 +1913,5 @@
     "rango": "26 a 30 de octubre de 2026"
   },
   "slot": "rapida",
-  "updatedAt": "2026-10-30T14:24:09Z"
+  "updatedAt": "2026-10-30T15:19:00.000000Z"
 }
