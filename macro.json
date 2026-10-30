@@ -494,6 +494,10 @@
       "url": "https://gulfnews.com/world/mena/us-military-rejects-iranian-mine-strike-claims-says-hormuz-transit-lanes-remain-clear-1.500727648"
     },
     {
+      "nombre": "OMFIF · Outside candidate may emerge as Lagarde successor (sep 2026)",
+      "url": "https://www.omfif.org/2026/09/outside-candidate-may-emerge-as-lagarde-successor/"
+    },
+    {
       "nombre": "CNBC · Bitcoin, ether price: Binance security scare rattles crypto markets (30 oct)",
       "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html"
     },
@@ -584,6 +588,22 @@
     {
       "nombre": "Trading Economics · United States Stock Market Index (apertura 30 oct)",
       "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "nombre": "Fox News · Trump says Iran wants to talk, predicts conflict will end 'very soon' (30 oct)",
+      "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+    },
+    {
+      "nombre": "CNBC · Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks from war (30 oct)",
+      "url": "https://www.cnbc.com/amp/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html"
+    },
+    {
+      "nombre": "MarketScreener · December WTI crude settles at $104.12/barrel (30 oct)",
+      "url": "https://marketscreener.com/news/energy-up-after-exxon-chevron-earnings-energy-roundup-ce785fdbd08ef223"
+    },
+    {
+      "nombre": "USAGOLD · Daily precious metals market report, gold tumbles 3% to $3,897 (30 oct)",
+      "url": "https://www.usagold.com/daily-precious-metals-market-report-october-30-2026/"
     }
   ],
   "indices": [
@@ -819,22 +839,22 @@
         "vencimientoCercano": "2026-10-30"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cierra la sesión en 7.581 puntos (-1,8 % frente al cierre del jueves de 7.706,63), su tercera semana consecutiva en rojo, con una recuperación parcial desde los mínimos intradía (7.560). La gamma del motor se mantiene negativa en -7,92 mil M$ por 1 %, con el call wall en 8.027 y el giro de gamma en 7.806, ambos por encima del precio: el régimen sigue amplificando los movimientos. La probabilidad de subida de la Fed en diciembre baja ligeramente al 72,5 %, mientras el hackeo de Binance (6.300 millones $, atribuido a un ordenador comprometido de un ingeniero DevOps) y el desplome de Alphabet (-12,6 % el jueves) siguen pesando sobre el apetito por el riesgo. Sesgo: bajista.",
+      "lectura": "El S&P 500 cierra la sesión en 7.580 puntos (-1,82 % frente al cierre del jueves de 7.706,63), su tercera semana consecutiva en rojo, con una recuperación parcial desde los mínimos intradía (7.560). La gamma del motor se mantiene negativa en -7,92 mil M$ por 1 %, con el call wall en 8.027 y el giro de gamma en 7.806, ambos por encima del precio: el régimen sigue amplificando los movimientos. La probabilidad de subida de la Fed en diciembre baja ligeramente al 72,5 %, Trump amplía los aranceles a Canadá y dice que la guerra con Irán terminará \"muy pronto\" aunque no descarta atacar tras las midterms, mientras el hackeo de Binance y el desplome de Alphabet (-12,6 %) siguen pesando sobre el apetito por el riesgo. Sesgo: bajista.",
       "levels": {
         "callWall": 8027,
         "gammaFlip": 7806,
         "maxPain": 7685,
-        "precio": 7585,
+        "precio": 7580,
         "putWall": 7525
       },
       "name": "S&P 500",
       "netGex": "negativa (-7,92 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-28)",
-      "precio": 7581,
+      "precio": 7580,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -56,
       "sesgo": "bajista",
-      "spot": 7581
+      "spot": 7580
     },
     {
       "changeNote": "en vivo (cierre, Bloomberg), 21:15 Canarias",
@@ -1052,7 +1072,7 @@
         "vencimientoCercano": "2026-10-30"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 profundiza la caída hasta unos 28.071 puntos (-3,5 % frente al cierre del jueves), rozando la corrección técnica según Bloomberg, lastrado por el desplome histórico de Alphabet (-12,6 %) y los resultados de Intel (-25/30 %) y Amazon (-7,3 % en el after-hours). La gamma negativa se mantiene en -4,94 mil M$ por 1 %, con el put/call OI subiendo a 3,08. El hackeo de Binance, ahora atribuido a un ordenador comprometido de un ingeniero DevOps, añade presión sobre el sentimiento de riesgo; el Kospi surcoreano se desplomó por contagio tecnológico. Sesgo: bajista.",
+      "lectura": "El Nasdaq 100 profundiza la caída hasta unos 28.071 puntos (-3,5 % frente al cierre del jueves), rozando la corrección técnica según Bloomberg, lastrado por el desplome histórico de Alphabet (-12,6 %) y los resultados de Intel (-25/30 %) y Amazon (-7,3 % en el after-hours). La gamma negativa se mantiene en -4,94 mil M$ por 1 %, con el put/call OI subiendo a 3,08. El hackeo de Binance y la escalada en el estrecho de Ormuz (WTI en máximos de 5 meses) añaden presión sobre el sentimiento de riesgo; el Kospi surcoreano se desplomó por contagio tecnológico. Sesgo: bajista.",
       "levels": {
         "callWall": 29591,
         "gammaFlip": null,
@@ -1206,6 +1226,29 @@
   "noticias": [
     {
       "activos": {
+        "WTI": "mixto",
+        "XAU": "mixto"
+      },
+      "fuente": "Fox News",
+      "impacto": "medio",
+      "resumen": "En una entrevista radiofónica (KCMO) dice que Irán \"está en muchos problemas\" y quiere hablar, pero no descarta atacar \"muy duro\" tras las midterms del 3 de noviembre.",
+      "titular": "Trump dice que la guerra con Irán terminará \"muy pronto\" si hay garantías nucleares",
+      "ts": "2026-10-30T16:00:00Z",
+      "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+    },
+    {
+      "activos": {
+        "WTI": "alcista"
+      },
+      "fuente": "MarketScreener / CNBC",
+      "impacto": "medio",
+      "resumen": "El contrato de diciembre sube un 2,1 % tras el nuevo ataque a un petrolero en Ormuz y las dudas sobre nuevos ataques de EE. UU. a Irán tras las midterms.",
+      "titular": "El WTI cierra en máximos de 5 meses, cerca de 104,12 $, camino de su cuarto mes alcista",
+      "ts": "2026-10-30T21:00:00Z",
+      "url": "https://www.cnbc.com/amp/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html"
+    },
+    {
+      "activos": {
         "BTC": "bajista"
       },
       "fuente": "CoinDesk",
@@ -1321,17 +1364,6 @@
     },
     {
       "activos": {
-        "EURUSD": "neutral"
-      },
-      "fuente": "The Local",
-      "impacto": "bajo",
-      "resumen": "Xi Jinping y el presidente suizo Guy Parmelin firman la actualización; China retira aranceles al 97,3 % de las exportaciones agrícolas suizas.",
-      "titular": "China y Suiza amplían su acuerdo comercial y eliminan aranceles a casi todas las exportaciones suizas",
-      "ts": "2026-10-30T15:10:00Z",
-      "url": "https://www.thelocal.ch/20261030/chinese-swiss-leaders-hail-deal-removing-trade-tariffs"
-    },
-    {
-      "activos": {
         "EURUSD": "bajista"
       },
       "fuente": "FXStreet",
@@ -1364,22 +1396,6 @@
       "titular": "La apertura confirma el desplome: Nasdaq -1,38 %, S&P 500 -1,2 %, pero el Russell 2000 sube",
       "ts": "2026-10-30T13:30:00Z",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
-    },
-    {
-      "activos": {
-        "BTC": "neutral",
-        "EURUSD": "neutral",
-        "NQ": "bajista",
-        "SPX": "bajista",
-        "WTI": "alcista",
-        "XAU": "alcista"
-      },
-      "fuente": "The Globe and Mail / Reuters",
-      "impacto": "alto",
-      "resumen": "Un artefacto explosivo lanzado desde una embarcación alcanzó un petrolero; el WTI toca máximos intradía desde mediados de septiembre, en torno a 103-106 $.",
-      "titular": "La UKMTO confirma un ataque con explosivos a un petrolero en el estrecho de Ormuz",
-      "ts": "2026-10-30T13:00:00Z",
-      "url": "https://www.theglobeandmail.com/investing/article-oil-set-for-fourth-monthly-gain-as-hormuz-tanker-attack-highlights/"
     }
   ],
   "odte": {
@@ -1418,16 +1434,16 @@
     "lectura": "Niveles 0DTE del vencimiento de hoy, 30 de octubre, calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE está en 8.027, el put wall en 7.374 y el max pain en 7.685 (put/call OI 1,71); en el Nasdaq 100 el call wall 0DTE en 30.413, el put wall en 28.358 y el max pain en 29.673 (put/call OI 2,79). Datos calculados por el motor a las 20:20 UTC del 30 de octubre, con open interest del 28 de octubre."
   },
   "politica": {
-    "actualizado": "2026-10-30T19:50:00Z",
+    "actualizado": "2026-10-30T21:55:00Z",
     "ajuste": -18,
     "declaraciones": [
       {
-        "dicho": "Amplía los aranceles del 50 % a más categorías canadienses desde medianoche, con 22 exenciones.",
-        "efecto": "bajista",
-        "fuente": "Hashtag Investing",
+        "dicho": "En una entrevista radiofónica dice que la guerra con Irán terminará \"muy pronto\" si hay garantías nucleares.",
+        "efecto": "mixto",
+        "fuente": "Fox News",
         "quien": "Trump",
-        "ts": "2026-10-30T04:01:00Z",
-        "url": "https://www.hashtaginvesting.com/blog/trumps-50-tariff-list-expands-to-100-more-canadian-product-categories-at-midnight-as-22-get-relief"
+        "ts": "2026-10-30T16:00:00Z",
+        "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
       },
       {
         "dicho": "Dice ante el Congreso que sabe enviar 5.000 $ a cada estadounidense sin subir la deuda, pero no lo explica.",
@@ -1463,15 +1479,15 @@
       }
     ],
     "efecto": "bajista",
-    "lectura": "Trump amplió a medianoche los aranceles del 50 % a más categorías de productos canadienses bajo la Sección 338, aunque eximió 22 partidas (madera contrachapada, cartón, embalaje plástico, papel y equipos de refrigeración), confirmado por un comunicado de la Casa Blanca del 30 de octubre; en un mitin del 27 de octubre ya había advertido de una \"depresión al estilo de 1929\" si los demócratas ganan las midterms. Bessent, el 29 de octubre, dijo ante el Congreso que sabe cómo enviar 5.000 $ a cada estadounidense sin aumentar la deuda, pero se negó a explicar el mecanismo, con la deuda pública superando los 40 billones $. En la Fed, Kevin Warsh evitó dar orientación explícita sobre diciembre en la rueda de prensa del 28 de octubre (\"no creo en la orientación futura, salvo circunstancias excepcionales o una crisis\", según FXStreet), tras mantener tipos con dos disidencias hawkish (Cook y Hammack); el mercado ya descuenta en torno a un 85 % de probabilidad de subida en diciembre (73,5 % según el motor/Kalshi). El Banco de Japón mantuvo tipos en el 1,25 % esta madrugada en una pausa calificada de 'hawkish'. La presidenta del BCE, Christine Lagarde, anunció su dimisión (efectiva el 7 de febrero de 2027), con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla. Irán sigue escalando en el Golfo: la Guardia Revolucionaria reivindica minas navales contra petroleros en el estrecho de Ormuz, que EE. UU. (CENTCOM) niega, lo que mantiene firme al WTI. Balance: bajista para SPX/NDX. Como contrapunto moderadamente alcista de fondo, EE. UU. y China confirman la extensión de la tregua arancelaria hasta el 10 de enero (Bessent) y China firma una ampliación de su acuerdo comercial con Suiza; no compensa el lastre tecnológico ni la indefinición de Warsh sobre diciembre.",
+    "lectura": "Trump dijo hoy en una entrevista radiofónica (KCMO) que la guerra con Irán \"va a terminar muy pronto\" si Teherán da garantías de que no tendrá armas nucleares, aunque mantiene abierta la puerta a atacar \"muy duro\" tras las midterms del 3 de noviembre; horas antes, un ataque con explosivos a un petrolero en el estrecho de Ormuz (reivindicado como mina naval por la Guardia Revolucionaria iraní, negado por EE. UU./CENTCOM) llevó al WTI a máximos de 5 meses. A medianoche amplió además los aranceles del 50 % a más categorías de productos canadienses bajo la Sección 338, con 22 exenciones, y en un mitin del 27 de octubre ya había advertido de una \"depresión al estilo de 1929\" si los demócratas ganan las midterms. Bessent, el 29 de octubre, dijo ante el Congreso que sabe cómo enviar 5.000 $ a cada estadounidense sin aumentar la deuda, pero se negó a explicar el mecanismo, con la deuda pública superando los 40 billones $. En la Fed, Kevin Warsh evitó dar orientación explícita sobre diciembre en la rueda de prensa del 28 de octubre (\"no creo en la orientación futura, salvo circunstancias excepcionales o una crisis\"), tras mantener tipos con dos disidencias hawkish (Cook y Hammack); el mercado descuenta en torno a un 85 % de probabilidad de subida en diciembre (72,5 % según el motor/Kalshi). El Banco de Japón mantuvo tipos en el 1,25 % el 30 de octubre en una pausa calificada de 'hawkish'. La presidenta del BCE, Christine Lagarde, anunció su dimisión (efectiva el 7 de febrero de 2027), con Klaas Knot y Pablo Hernández de Cos como principales candidatos a sucederla. Balance: bajista para SPX/NDX, con el único contrapunto alcista de fondo en la tregua arancelaria EE. UU.-China extendida hasta el 10 de enero.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
-        "efecto": "bajista",
-        "postura": "Amplía los aranceles del 50 % a más categorías canadienses desde la medianoche, con 22 exenciones (30 oct).",
+        "efecto": "mixto",
+        "postura": "Dice que la guerra con Irán acabará \"muy pronto\", pero no descarta atacar tras las midterms (3 nov).",
         "quien": "Trump",
-        "ts": "2026-10-30T04:01:00Z",
-        "url": "https://www.hashtaginvesting.com/blog/trumps-50-tariff-list-expands-to-100-more-canadian-product-categories-at-midnight-as-22-get-relief"
+        "ts": "2026-10-30T16:00:00Z",
+        "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
       },
       {
         "cargo": "Presidente de la Reserva Federal",
@@ -1515,14 +1531,14 @@
       }
     ]
   },
-  "resumen": "Son las 21:15 UTC (21:15 en Canarias, 22:15 en Madrid, 17:15 en Nueva York) del viernes 30 de octubre de 2026. Wall Street cierra con fuertes pérdidas: el S&P 500 termina en 7.581 puntos (-1,8 % frente al cierre del jueves), su tercera semana consecutiva en rojo, y el Nasdaq 100 cae un 3,5 % hasta unos 28.071 puntos, rozando la corrección técnica, en una sesión dominada por el desplome histórico de Alphabet (-12,6 % el jueves) y los resultados de Intel (-25/30 %) y Amazon (-7,3 % en el after-hours); Eli Lilly (+6,6 %) y Merck (+3,8 %) destacan al alza. Octubre deja la segunda caída mensual consecutiva, con el índice bajando más de un 12 % en el mes según Investrade. La gamma del motor sigue negativa en ambos índices (-7,92 mil M$ por 1 % en SPX, -4,94 mil M$ en NDX). El oro se mantiene por debajo de los 3.900 $/oz por el dólar fuerte, mientras bitcoin cae a unos 76.500-77.000 $ tras el hackeo de Binance (6.300 millones $, atribuido a un ordenador comprometido de un ingeniero DevOps) y BNB se desploma un 6 %. El WTI se mantiene firme cerca de 104 $ por la tensión en el estrecho de Ormuz, y el euro cotiza en torno a 1,1190-1,1203. El Kospi surcoreano se desplomó por contagio tecnológico. En la Fed, la probabilidad de subida en diciembre baja ligeramente al 72,5 % según el motor/Kalshi, sin orientación explícita de Kevin Warsh. Sesgo del día: bajista en SPX, NDX, oro y BTC; alcista en WTI.",
+  "resumen": "Son las 21:58 UTC (21:58 en Canarias, 22:58 en Madrid, 17:58 en Nueva York) del viernes 30 de octubre de 2026, tras el cierre de Wall Street. El S&P 500 terminó en 7.580 puntos (-1,82 % frente al cierre del jueves), su tercera semana consecutiva en rojo, y el Nasdaq 100 cayó un 3,5 % hasta unos 28.071 puntos, rozando la corrección técnica, en una sesión dominada por el desplome histórico de Alphabet (-12,6 % el jueves) y los resultados de Intel (-25 %) y Amazon (-7,3 % en el after-hours); Eli Lilly (+6,6 %) y Merck (+3,8 %) destacaron al alza. Octubre deja la segunda caída mensual consecutiva, con el índice bajando más de un 12 % en el mes. La gamma del motor sigue negativa en ambos índices (-7,92 mil M$ por 1 % en SPX, -4,94 mil M$ en NDX). El oro cotiza en torno a 3.881-3.897 $/oz (-3,4 %), mínimo desde agosto, mientras bitcoin cae a 76.000-77.000 $ tras el hackeo de Binance (6.300 millones $). El WTI cierra en máximos de 5 meses, cerca de 104,12 $ (+2,1 %), tras un nuevo ataque a un petrolero en el estrecho de Ormuz; Trump dijo hoy que la guerra con Irán \"terminará muy pronto\" pero no descarta atacar tras las midterms del 3 de noviembre. El euro cotiza en torno a 1,1180-1,1200. En la Fed, la probabilidad de subida en diciembre baja ligeramente al 72,5 % según el motor/Kalshi, sin orientación explícita de Kevin Warsh. Sesgo del día: bajista en SPX, NDX, oro y BTC; alcista en WTI.",
   "semana": {
     "activos": [
       {
-        "cambio": "El S&P 500 cierra la sesión en 7.581 puntos (-1,8 % frente al cierre confirmado del jueves de 7.706,63), con una recuperación parcial desde los mínimos intradía (7.560) pero marcando su tercera semana consecutiva a la baja.",
+        "cambio": "El S&P 500 cierra la sesión en 7.580 puntos (-1,82 % frente al cierre confirmado del jueves de 7.706,63), con una recuperación parcial desde los mínimos intradía (7.560) pero marcando su tercera semana consecutiva a la baja.",
         "expectativa": "El balance del dólar del calendario se mantiene fuerte (+48, cerca del +45 ya esperado): el PIB bate expectativas y el PCE y el índice de costes laborales llegan en línea, sin dar argumentos a la Fed para suavizar el tono.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+48, muy cerca del +45 que ya se esperaba antes de los datos): el PIB bate expectativas (3,4 % frente a 3,2 %), el PCE llega en línea y el índice de costes laborales confirma el patrón sin sorpresas (0,8 % t/t). La Fed mantuvo con dos disidencias hawkish y Warsh evitó dar orientación explícita sobre diciembre (\"no creo en la orientación futura, salvo crisis\"), con el mercado descontando ≈85 % de probabilidad de subida; la liquidez neta sigue drenando (-55.700 millones $ en la semana). Trump amplía los aranceles del 50 % a más categorías canadienses (con 22 exenciones) y Bessent evita concretar cómo financiaría cheques de 5.000 $. La gamma sigue negativa con el call wall (8.022) muy por encima del precio, ya en sesión de contado.",
+        "narrativa": "El calendario de esta semana deja un balance de dólar fuerte (+48, muy cerca del +45 que ya se esperaba antes de los datos): el PIB bate expectativas (3,4 % frente a 3,2 %), el PCE llega en línea y el índice de costes laborales confirma el patrón sin sorpresas (0,8 % t/t). La Fed mantuvo con dos disidencias hawkish y Warsh evitó dar orientación explícita sobre diciembre, con el mercado descontando ≈85 % de probabilidad de subida; la liquidez neta sigue drenando (-55.700 millones $ en la semana). Trump amplía los aranceles del 50 % a más categorías canadienses y dice que la guerra con Irán terminará \"muy pronto\" aunque no descarta atacar tras las midterms, mientras Bessent evita concretar cómo financiaría cheques de 5.000 $. La gamma sigue negativa con el call wall (8.027) muy por encima del precio, ya en el cierre de contado.",
         "score": -56,
         "scoreInicial": -40,
         "sesgo": "bajista"
@@ -1531,40 +1547,40 @@
         "cambio": "El Nasdaq 100 cierra con una caída del 3,5 % hasta unos 28.071 puntos, rozando la corrección técnica según Bloomberg, lastrado por el desplome histórico de Alphabet y los resultados de Intel y Amazon.",
         "expectativa": "El dólar fuerte del calendario (+48) no ayuda a la tecnología, y el riesgo dominante sigue siendo la temporada de resultados y las dudas sobre el capex en IA.",
         "id": "NQ",
-        "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+48), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo la temporada de resultados: Alphabet decepcionó con fuerza y, tras el cierre, Intel (-25 %) y Amazon (-7,3 % en el after-hours, flujo de caja libre negativo de 42.400 millones $) se suman a las dudas sobre el gasto en IA; la sesión de contado confirma la caída. La gamma negativa se mantiene en -4,35 mil M$ por 1 %, y la falta de orientación de Warsh sobre diciembre añade presión.",
+        "narrativa": "El calendario también apunta a un dólar fuerte esta semana (+48), lo que en teoría no ayuda a la tecnología, pero el verdadero riesgo para el Nasdaq sigue siendo la temporada de resultados: Alphabet decepcionó con fuerza y, tras el cierre, Intel (-25 %) y Amazon (-7,3 % en el after-hours, flujo de caja libre negativo de 42.400 millones $) se suman a las dudas sobre el gasto en IA; la sesión de contado confirma la caída al cierre. La gamma negativa se mantiene en -4,94 mil M$ por 1 %, y la falta de orientación de Warsh sobre diciembre añade presión.",
         "score": -66,
         "scoreInicial": -47,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El oro profundiza la caída y pierde los 3.900 $/oz (en torno a 3.886 $, -3,4 % en el día), mínimo desde agosto, por el dólar fuerte y la falta de orientación dovish de Warsh.",
-        "expectativa": "El dólar fuerte del calendario (+48) sigue siendo el principal lastre, pero la tensión en Ormuz da algo de soporte de refugio que explica la recuperación parcial sobre los 4.000 $.",
+        "cambio": "El oro profundiza la caída y pierde los 3.900 $/oz (en torno a 3.881-3.897 $, -3,4 % en el día), mínimo desde agosto, por el dólar fuerte y la falta de orientación dovish de Warsh.",
+        "expectativa": "El dólar fuerte del calendario (+48) sigue siendo el principal lastre, pero la tensión en Ormuz da algo de soporte de refugio que limita la caída.",
         "id": "XAU",
-        "narrativa": "El calendario deja un balance de dólar fuerte (+48) que presiona al oro, reforzado por un PIB que bate expectativas y la falta de orientación dovish de Warsh; aun así, el oro recupera algo de terreno hacia 4.015-4.020 $/oz tras tocar mínimos de 3.975 $, apoyado por la escalada iraní en el estrecho de Ormuz, que mantiene la demanda de refugio.",
+        "narrativa": "El calendario deja un balance de dólar fuerte (+48) que presiona al oro, reforzado por un PIB que bate expectativas y la falta de orientación dovish de Warsh; aun así, el oro mantiene algo de soporte en los 3.880-3.900 $/oz, apoyado por la escalada iraní en el estrecho de Ormuz (nuevo ataque con explosivos a un petrolero) y la retórica de Trump sobre Irán, que mantiene la demanda de refugio.",
         "score": -33,
         "scoreInicial": 15,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Bitcoin cae a unos 76.500-77.000 $ tras conocerse que Binance atribuye su hackeo de 6.300 millones $ a un ordenador comprometido de un ingeniero DevOps; BNB se desploma un 6 %.",
+        "cambio": "Bitcoin cae a unos 76.000-77.000 $ tras conocerse que Binance atribuye su hackeo de 6.300 millones $ a un ordenador comprometido de un ingeniero DevOps; BNB se desploma un 6 %.",
         "expectativa": "El dólar fuerte del calendario (+48) y la correlación con el Nasdaq siguen siendo el lastre de fondo; el foco sigue en si Binance logra contener el impacto del hackeo.",
         "id": "BTC",
-        "narrativa": "El calendario apoya un dólar fuerte esta semana (+48), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA. El hackeo de Binance (6.300 millones $, con 3.000 millones congelados) mantiene el precio por debajo de 78.000 $, con liquidaciones apalancadas de casi 1.500 millones $.",
+        "narrativa": "El calendario apoya un dólar fuerte esta semana (+48), lo que pesa sobre los activos de riesgo, y bitcoin sigue muy correlacionado con el Nasdaq y el estrés de financiación de la IA. El hackeo de Binance (6.300 millones $, con 3.000 millones congelados) mantiene el precio por debajo de 78.000 $, con liquidaciones apalancadas de casi 1.600 millones $.",
         "score": -49,
         "scoreInicial": -34,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El WTI se mantiene firme cerca de 104 $ (contrato de diciembre), sostenido por la escalada en el estrecho de Ormuz.",
-        "expectativa": "Cualquier confirmación oficial de más daños a petroleros o nueva escalada en Ormuz sería el principal catalizador alcista; una desescalada sería el principal riesgo bajista.",
+        "cambio": "El WTI cierra cerca de 104,12 $ (contrato de diciembre, +2,1 % en el día), en máximos de 5 meses, sostenido por la escalada en el estrecho de Ormuz.",
+        "expectativa": "Cualquier confirmación oficial de más daños a petroleros o nueva escalada en Ormuz sería el principal catalizador alcista; una desescalada, tras los comentarios de Trump de que la guerra \"terminará muy pronto\", sería el principal riesgo bajista.",
         "id": "WTI",
-        "narrativa": "El calendario apunta a un dólar fuerte esta semana (+48), lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el Golfo: la UKMTO confirma un nuevo ataque con un artefacto explosivo contra un petrolero en Ormuz, y la Guardia Revolucionaria de Irán ya había reivindicado minas navales contra otros tres petroleros (que EE. UU. niega). El WTI sube hacia 104 $, con el tráfico por Ormuz en mínimos históricos.",
+        "narrativa": "El calendario apunta a un dólar fuerte esta semana (+48), lo que en teoría pesa algo sobre el petróleo, pero el factor dominante sigue siendo la escalada en el Golfo: la UKMTO confirma un nuevo ataque con un artefacto explosivo contra un petrolero en Ormuz, y la Guardia Revolucionaria de Irán ya había reivindicado minas navales contra otros tres petroleros (que EE. UU. niega). Trump dijo hoy que la guerra con Irán \"terminará muy pronto\", pero no descarta atacar tras las midterms, lo que mantiene la prima de riesgo. El WTI sube a 104,12 $, con el tráfico por Ormuz en mínimos históricos.",
         "score": 21,
         "scoreInicial": 27,
         "sesgo": "alcista"
       },
       {
-        "cambio": "El euro cotiza en torno a 1,1170-1,1180, con el dólar fuerte del calendario y la dimisión de Lagarde como contrapesos.",
+        "cambio": "El euro cotiza en torno a 1,1180-1,1200, con el dólar fuerte del calendario y la dimisión de Lagarde como contrapesos.",
         "expectativa": "El dólar fuerte del calendario (+48, frente a un euro neutro 0) sigue siendo el lastre principal; la sucesión de Lagarde en el BCE añade incertidumbre.",
         "id": "EURUSD",
         "narrativa": "El calendario deja un balance de dólar fuerte (+48) que presiona al euro, aunque el balance de la propia eurozona es neutro (0): el PIB del T3 bate expectativas (0,4 % frente a 0,2 %) pero la tasa de paro de septiembre sorprende al alza (6,5 % frente al 6,4 % esperado). La falta de orientación dovish de Warsh sigue siendo un contrapeso bajista, y la dimisión de Lagarde añade incertidumbre sobre el BCE.",
@@ -1582,7 +1598,7 @@
         "WTI": -24,
         "XAU": -48
       },
-      "actualizado": "2026-10-30T21:15:00Z",
+      "actualizado": "2026-10-30T21:55:00Z",
       "dolar": 48,
       "dolarEsperado": 45,
       "euro": 0
@@ -1635,7 +1651,7 @@
         "fecha": "2026-10-28",
         "horaUtc": "18:00",
         "impacto": "alto",
-        "lectura": "La Fed mantuvo los tipos en 3,75-4,00 %, como esperaba el mercado, pero con dos disidencias —Cook y Hammack— que pedían subir 25 pb: la señal hawkish más fuerte de este ciclo. En la rueda de prensa, Warsh dio pistas sutiles hacia una subida en diciembre, propuso reducir el número de reuniones anuales de la Fed y rechazó dar más orientación; un análisis de CNBC del 29 de octubre confirma que su sesgo actual es hacia tipos más altos. La probabilidad de subida en diciembre se sitúa hoy en el 73,5 %.",
+        "lectura": "La Fed mantuvo los tipos en 3,75-4,00 %, como esperaba el mercado, pero con dos disidencias —Cook y Hammack— que pedían subir 25 pb: la señal hawkish más fuerte de este ciclo. En la rueda de prensa, Warsh dio pistas sutiles hacia una subida en diciembre, propuso reducir el número de reuniones anuales de la Fed y rechazó dar más orientación. La probabilidad de subida en diciembre se sitúa hoy en el 72,5 % según el motor.",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "Mantener en 3,75-4,00 % (muy probable)"
@@ -1791,7 +1807,7 @@
         "fecha": "2026-10-29",
         "horaUtc": "12:30",
         "impacto": "alto",
-        "lectura": "El PCE subyacente subió un 3,1 % interanual, en línea con lo esperado; confirma que la inflación núcleo no cede, apoyando la probabilidad de una subida en diciembre (73,5 %), pero sin una sorpresa que la dispare más.",
+        "lectura": "El PCE subyacente subió un 3,1 % interanual, en línea con lo esperado; confirma que la inflación núcleo no cede, apoyando la probabilidad de una subida en diciembre, pero sin una sorpresa que la dispare más.",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "≈3,1 % a/a"
@@ -1843,7 +1859,7 @@
         "fecha": "2026-10-29",
         "horaUtc": "13:15",
         "impacto": "alto",
-        "lectura": "El BCE mantuvo los tipos en el 2,50 %, como esperaba el mercado, en una reunión marcada por el anuncio de dimisión de Christine Lagarde (efectiva el 7 de febrero de 2027) horas antes. El euro cayó inicialmente y la rentabilidad de la deuda francesa a 10 años subió a máximos desde 2002, aunque el euro ha rebotado después hacia 1,1200.",
+        "lectura": "El BCE mantuvo los tipos en el 2,50 %, como esperaba el mercado, en una reunión marcada por el anuncio de dimisión de Christine Lagarde (efectiva el 7 de febrero de 2027) horas antes. El euro cayó inicialmente y la rentabilidad de la deuda francesa a 10 años subió a máximos desde 2002, aunque el euro ha rebotado después hacia 1,1190-1,1200.",
         "ocurrido": true,
         "pais": "Eurozona",
         "previsto": "Mantener en 2,50 %"
@@ -1905,6 +1921,6 @@
     "pesoMotivo": "Semana sin grandes referencias de inflación o empleo —el peso real llega la semana siguiente con el FOMC, el BCE y el PCE—; esta semana predominan datos de peso medio (PMI, vivienda, Michigan) con casi la mitad sin consenso publicado, así que domina el resto: el estrés de financiación de la IA, la gamma negativa, la amenaza de Irán en Ormuz y la indefinición de Warsh.",
     "rango": "26 a 30 de octubre de 2026"
   },
-  "slot": "rapida",
-  "updatedAt": "2026-10-30T21:15:41Z"
+  "slot": "cierre",
+  "updatedAt": "2026-10-30T21:58:00Z"
 }
