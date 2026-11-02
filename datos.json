@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T08:29:14Z",
+ "generado": "2026-11-02T08:59:38Z",
  "errores": [],
  "fed": [
   {
@@ -161,8 +161,8 @@
    "precio": 756.0,
    "oiFecha": "2026-10-29",
    "contratos": 1339,
-   "ratioIndice": 10.0331,
-   "ratioFecha": "2026-10-29",
+   "ratioIndice": null,
+   "ratioFecha": null,
    "regimen": "negativa",
    "gexTotal": -4.22,
    "pcrOI": 1.91,
@@ -354,11 +354,11 @@
     }
    ],
    "indice": {
-    "precio": 7585,
-    "callWall": 7726,
-    "putWall": 7525,
-    "gammaFlip": 7765,
-    "maxPain": 7746
+    "precio": null,
+    "callWall": null,
+    "putWall": null,
+    "gammaFlip": null,
+    "maxPain": null
    },
    "odte": {
     "vencimiento": "2026-11-02",
@@ -371,10 +371,10 @@
     "maxPain": 772.0,
     "pcrOI": 1.7,
     "indice": {
-     "callWall": 7766,
-     "putWall": 7776,
+     "callWall": null,
+     "putWall": null,
      "gammaFlip": null,
-     "maxPain": 7746
+     "maxPain": null
     }
    }
   },
@@ -589,10 +589,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-02T08:29:27Z"
+  "calculado": "2026-11-02T08:59:50Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-02T08:29:34Z",
+  "actualizado": "2026-11-02T08:59:57Z",
   "total": 61,
   "fase": "Expansión fuerte",
   "cambio4": -7,
@@ -663,10 +663,10 @@
     "id": "spx_m50",
     "n": "S&P 500 frente a su media de 50 semanas",
     "peso": 2,
-    "score": 80,
-    "valor": "7.720 · +6,4 % sobre la media",
+    "score": 84,
+    "valor": "7.744 · +6,7 % sobre la media",
     "nota": "Regla de largo plazo: por encima de la media exponencial de 50 semanas, tranquilidad; si la pierde, señal de salida.",
-    "fecha": "2026-10-29",
+    "fecha": "2026-10-28",
     "frec": "a diario"
    },
    {
