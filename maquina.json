@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-11-02T07:46:17Z",
+  "actualizado": "2026-11-03T19:46:03Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento → giro",
     "fase": 0.58,
-    "lectura": "El PIB acelera al 3,4 % en el 3T y el PCE sube al 3,6 % (subyacente 3,1 %) (29 oct); la Fed mantuvo el 3,75-4,00 % con dos votos por subir y Kalshi da un 71,5 % a una subida en diciembre (1 nov). Con el empleo frenado (+29.000 en septiembre; consenso de octubre 55.000, el 6 nov) y la tecnológica cayendo (Nasdaq -2,86 % el 30 oct), es el patrón de techo del ciclo corto."
+    "lectura": "El PIB acelera al 3,4 % en el 3T y el PCE sube al 3,6 % (subyacente 3,1 %) (29 oct); la Fed mantuvo el 3,75-4,00 % con dos votos por subir y Kalshi da un 76 % a una subida en diciembre (3 nov). Con el empleo frenado (+29.000 en septiembre; el dato de octubre llega el 6 nov) pese a un JOLTS fuerte, es el patrón de techo del ciclo corto."
   },
   "fuentes": [
     {
@@ -89,7 +89,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct (10-2, dos votos por subir) · 71,5 % subida el 9 dic (Kalshi, 1 nov)",
+      "c": "mantenidos el 28 oct (10-2, dos votos por subir) · 76 % subida el 9 dic (Kalshi, 3 nov)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -119,10 +119,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "2 nov · a 20 pb del umbral de atención; -36 pb en 1 mes",
+      "c": "3 nov · a 18 pb del umbral de atención; -34 pb en 1 mes",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,30 %"
+      "v": "5,32 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -135,9 +135,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue alto (5,30 %, 2 nov) y Dalio calcula que el servicio de la deuda ronda el 200 % de los ingresos federales: es la zona donde los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue alto (5,32 %, 3 nov) y las grandes tecnológicas se suman al endeudamiento (Meta ≥20.000 M$ y Oracle 10.000 M$ esta semana): es la zona donde los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La economía sigue caliente (PIB del 3T +3,4 %, PCE 3,6 %) y la Fed mantuvo tipos con dos votos por subir (71,5 % de subida en diciembre) aunque el empleo se frena (29.000 en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y las grandes tecnológicas ya se endeudan para invertir en IA.",
+  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La economía sigue caliente (PIB del 3T +3,4 %, PCE 3,6 %) y la Fed mantuvo tipos con dos votos por subir (76 % de subida en diciembre) aunque el empleo se frena (29.000 en septiembre). La deuda total crece al 5,2 % anual, más que los salarios (3,7 %), y las grandes tecnológicas ya se endeudan para invertir en IA.",
   "palancas": [
     {
       "estado": "rojo",
@@ -148,7 +148,7 @@
     {
       "estado": "amarillo",
       "n": "Reestructurar o impagar deuda",
-      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa (CDS de CoreWeave >1.000 pb, Meta en récord; Amazon +48.100 M$ y Microsoft 25.000 M$ en deuda nueva); sin impagos grandes.",
+      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa (CDS de CoreWeave >1.000 pb, Meta en récord; Meta busca ≥20.000 M$ y Oracle 10.000 M$ en bonos, 3 nov); sin impagos grandes.",
       "valor": "Leve"
     },
     {
@@ -319,6 +319,11 @@
       "corto": 0.58,
       "largo": 0.76,
       "ts": "2026-11-02T07:46:17Z"
+    },
+    {
+      "corto": 0.58,
+      "largo": 0.76,
+      "ts": "2026-11-03T19:46:03Z"
     }
   ]
 }
