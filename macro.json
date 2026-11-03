@@ -25,6 +25,7 @@
       "fecha": "2026-11-03",
       "horaUtc": "15:00",
       "impacto": "medio",
+      "nota": "Hora de publicación ya pasada; sin dato real confirmado con 2 fuentes todavía.",
       "pais": "EE. UU.",
       "previsto": "sin consenso confirmado",
       "previstoNum": null
@@ -206,9 +207,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-03T15:41:09Z",
+    "actualizado": "2026-11-03T16:42:20Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida en la próxima reunión del FOMC (9 de diciembre) sube ligeramente al 76,5 % (tasa implícita 4,07 %), frente al 76,0 % de hace media hora, en el día de las elecciones de medio mandato; la de marzo de 2027 se mantiene estable en el 93,0 %, confirmando que el mercado no espera subidas de tipos más allá de esa fecha.",
+    "lectura": "La probabilidad de subida en la próxima reunión del FOMC (9 de diciembre) se mantiene estable en el 76,5 % (tasa implícita 4,07 %), sin cambios frente a la última actualización, en plena jornada de elecciones de medio mandato; la de marzo de 2027 también se mantiene en el 93,0 %, confirmando que el mercado sigue sin esperar subidas de tipos más allá de esa fecha.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -237,7 +238,7 @@
         "fecha": "2027-04-28",
         "mantener": 73.5,
         "subir": 23,
-        "tasaImplicita": 4.3
+        "tasaImplicita": 4.29
       },
       {
         "bajar": 1,
@@ -461,25 +462,25 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 16:16 Canarias",
-      "changePct": 0.5,
+      "changeNote": "en vivo, 17:15 Canarias",
+      "changePct": 0.4,
       "claves": [
         "Call wall en 7723 (SPY 770); put wall en 7523 (SPY 750),",
-        "Régimen de gamma negativa en -8,23 mil M$ por 1 % de movimiento,",
-        "Giro de gamma (gamma flip) en 7759 (SPY 773,62), por encima del precio: la gamma sigue negativa,",
-        "Max pain en 7583 (SPY 756); put/call OI 1,82,"
+        "Régimen de gamma negativa en -8,68 mil M$ por 1 % de movimiento,",
+        "Giro de gamma (gamma flip) en 7763 (SPY 773,94), por encima del precio: la gamma sigue negativa,",
+        "Max pain en 7583 (SPY 756); put/call OI 1,85,"
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1404,
+        "contratos": 1408,
         "etf": "SPY",
-        "gammaFlip": 773.62,
-        "gexTotal": -8.23,
+        "gammaFlip": 773.94,
+        "gexTotal": -8.68,
         "indice": {
           "callWall": 7723,
-          "gammaFlip": 7759,
+          "gammaFlip": 7763,
           "maxPain": 7583,
-          "precio": 7584,
+          "precio": 7573,
           "putWall": 7523
         },
         "maxPain": 756,
@@ -495,13 +496,13 @@
             "putWall": 7382
           },
           "maxPain": 756,
-          "pcrOI": 1.05,
+          "pcrOI": 1.06,
           "putWall": 736,
           "vencimiento": "2026-11-03"
         },
         "oiFecha": "2026-10-30",
-        "pcrOI": 1.82,
-        "precio": 756.09,
+        "pcrOI": 1.85,
+        "precio": 754.99,
         "putWall": 750,
         "ratioFecha": "2026-10-30 (conservado; el motor no trajo ratio fresco hoy)",
         "ratioIndice": 10.0303,
@@ -509,34 +510,35 @@
         "vencimientoCercano": "2026-11-03"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cotiza en torno a 7.584 puntos en sesión (+0,5 %), con el Dow lastrado por Apple (-200 puntos aprox.) mientras arrancan las votaciones de las elecciones de medio mandato. La gamma del motor (calculada a las 16:11 UTC) sigue negativa en -8,23 mil M$ por 1 % (call wall 7.723, giro de gamma en 7.759 por encima del precio, max pain 7.583); el put/call OI baja ligeramente a 1,82. Pesan la incertidumbre electoral (75-80 % de probabilidad de Congreso demócrata según los mercados de predicción, JPMorgan ve un riesgo de hasta -0,5 % si se confirma) y el tropiezo de márgenes de Apple, aunque la tregua con China y el avance Catar-Irán en Ormuz dan soporte. Sesgo: bajista. Nota: el motor sigue sin devolver una conversión SPY→SPX fresca; los niveles del índice usan el último ratio calculado por el motor (10,0303, del 30 de octubre).",
+      "lectura": "El S&P 500 cotiza en torno a 7.573 puntos (+0,4 %) hacia el mediodía en Nueva York, con el Dow todavía lastrado por Apple mientras avanza la votación de las elecciones de medio mandato. La gamma del motor (calculada a las 16:42 UTC) se vuelve algo más negativa, en -8,68 mil M$ por 1 % (antes -8,23 mil M$), con el call wall en 7.723, el giro de gamma en 7.763 por encima del precio y el max pain en 7.583; el put/call OI sube a 1,85, reflejando un posicionamiento algo más defensivo. Saxo Bank confirma que el Nasdaq 100 cerró el lunes en corrección técnica (-10 % desde su máximo) y que el VIX subió a 21,15, telón de fondo de volatilidad elevada. Pesan la incertidumbre electoral (75-80 % de probabilidad de Congreso demócrata según los mercados de predicción, JPMorgan ve un riesgo de hasta -0,5 % si se confirma) y el tropiezo de márgenes de Apple; dan soporte la tregua con China y el avance Catar-Irán en Ormuz. AMD presenta resultados tras el cierre de hoy, con un movimiento implícito de ±10,8 %. Sesgo: bajista. Nota: el motor sigue sin devolver una conversión SPY→SPX fresca; los niveles del índice usan el último ratio calculado por el motor (10,0303, del 30 de octubre).",
       "levels": {
         "callWall": 7723,
-        "gammaFlip": 7759,
+        "gammaFlip": 7763,
         "maxPain": 7583,
         "putWall": 7523
       },
       "name": "S&P 500",
-      "netGex": "negativa (-8,23 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-30)",
-      "precio": 7584,
+      "netGex": "negativa (-8,68 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-30)",
+      "odte": null,
+      "precio": 7573,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -33,
       "sesgo": "bajista",
-      "spot": 7584
+      "spot": 7573
     },
     {
-      "changeNote": "en vivo, 16:16 Canarias",
-      "changePct": 0.8,
+      "changeNote": "en vivo, 17:15 Canarias",
+      "changePct": 0.5,
       "claves": [
         "Call wall en 28761 (QQQ 700); put wall en 27940 (QQQ 680),",
         "Régimen de gamma negativa en -4,66 mil M$ por 1 % de movimiento,",
         "Giro de gamma no disponible en el cálculo actual del motor,",
-        "Max pain en 28638 (QQQ 697); put/call OI 2,57,"
+        "Max pain en 28638 (QQQ 697); put/call OI 2,62,"
       ],
       "gex": {
         "callWall": 700,
-        "contratos": 1184,
+        "contratos": 1156,
         "etf": "QQQ",
         "gammaFlip": null,
         "gexTotal": -4.66,
@@ -544,7 +546,7 @@
           "callWall": 28761,
           "gammaFlip": null,
           "maxPain": 28638,
-          "precio": 28252,
+          "precio": 28172,
           "putWall": 27940
         },
         "maxPain": 697,
@@ -560,13 +562,13 @@
             "putWall": 26091
           },
           "maxPain": 697,
-          "pcrOI": 1.35,
+          "pcrOI": 1.37,
           "putWall": 635,
           "vencimiento": "2026-11-03"
         },
         "oiFecha": "2026-10-30",
-        "pcrOI": 2.57,
-        "precio": 687.61,
+        "pcrOI": 2.62,
+        "precio": 685.65,
         "putWall": 680,
         "ratioFecha": "2026-11-02",
         "ratioIndice": 41.0878,
@@ -574,7 +576,7 @@
         "vencimientoCercano": "2026-11-03"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cotiza en torno a 28.252 puntos (+0,8 %), impulsado por los fabricantes de chips, mientras el mercado espera los resultados de AMD tras el cierre y Apple sigue cayendo. La gamma del motor sigue negativa (-4,66 mil M$ por 1 %, call wall 28.761, sin giro de gamma calculable, max pain 28.638); el put/call OI baja a 2,57, todavía muy defensivo. Sesgo: bajista, con la resaca de resultados tecnológicos y la incertidumbre electoral pesando más que el calendario macro.",
+      "lectura": "El Nasdaq 100 cotiza en torno a 28.172 puntos (+0,5 %), apoyado por los fabricantes de chips, con AMD presentando resultados tras el cierre de hoy (movimiento implícito de ±10,8 %) y Apple todavía cayendo. Saxo Bank confirma que el índice cerró el lunes en corrección técnica (más de un 10 % por debajo de su máximo histórico) con el VIX en 21,15. La gamma del motor sigue negativa (-4,66 mil M$ por 1 %, call wall 28.761, sin giro de gamma calculable, max pain 28.638); el put/call OI sube ligeramente a 2,62, todavía muy defensivo. Sesgo: bajista, con la resaca de resultados tecnológicos, la corrección técnica confirmada y la incertidumbre electoral pesando más que el calendario macro.",
       "levels": {
         "callWall": 28761,
         "gammaFlip": null,
@@ -583,16 +585,17 @@
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-4,66 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-30)",
-      "precio": 28252,
+      "odte": null,
+      "precio": 28172,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -36,
       "sesgo": "bajista",
-      "spot": 28252
+      "spot": 28172
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-03T15:41:09Z",
+    "actualizado": "2026-11-03T16:42:20Z",
     "balance": 6745.6,
     "d4": -37.1,
     "dBalance": -8,
@@ -604,7 +607,7 @@
     "fecha4": "2026-09-30",
     "fechaPrev": "2026-10-21",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "En la semana del 21 al 28 de octubre, la liquidez neta bajó 55.700 millones $ hasta 5,75 billones $, con el Tesoro como principal drenaje (la TGA sube 47.700 millones $ hasta 999.700 millones $) y el balance de la Fed retrocediendo también (-8.000 millones $, QT continuo); las reservas bancarias cayeron 68.800 millones $ hasta 2,89 billones $. La tendencia de las últimas cuatro semanas (desde el 30 de septiembre) sigue siendo negativa: -37.100 millones $ netos. El uso del repo permanente sigue siendo prácticamente nulo (2 millones $ el 2 de noviembre) y el RRP diario sube a 5.087 millones $, sin señales de tensión de liquidez. Sin cambios en los datos semanales desde la última actualización; la próxima publicación del balance (H.4.1) será el jueves 5 de noviembre a las 22:30 (Canarias).",
+    "lectura": "Sin cambios desde la última actualización: en la semana del 21 al 28 de octubre la liquidez neta bajó 55.700 millones $ hasta 5,75 billones $, con el Tesoro como principal drenaje (la TGA sube 47.700 millones $ hasta 999.700 millones $) y el balance de la Fed retrocediendo también (-8.000 millones $, QT continuo); las reservas bancarias cayeron 68.800 millones $ hasta 2,89 billones $. La tendencia de las últimas cuatro semanas (desde el 30 de septiembre) sigue siendo negativa: -37.100 millones $ netos. El uso del repo permanente sigue siendo prácticamente nulo (2 millones $ el 2 de noviembre) y el RRP diario está en 5.087 millones $, sin señales de tensión de liquidez. La próxima publicación del balance (H.4.1) será el jueves 5 de noviembre a las 22:30 (Canarias).",
     "neta": 5745.7,
     "repo": 0.002,
     "repoFecha": "2026-11-02",
@@ -830,6 +833,18 @@
     },
     {
       "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "Saxo Bank",
+      "impacto": "alto",
+      "resumen": "Saxo Bank confirma que el Nasdaq 100 cerró el lunes más de un 10 % por debajo de su máximo histórico, entrando en corrección técnica, mientras el índice de volatilidad VIX sube a 21,15.",
+      "titular": "El Nasdaq 100 confirma corrección técnica tras caer un 1,4 % el lunes; el VIX sube a 21,15",
+      "ts": "2026-11-03T07:30:00Z",
+      "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---us-mid-term-elections-today-the-focus---3-november-2026-03112026"
+    },
+    {
+      "activos": {
         "WTI": "bajista"
       },
       "fuente": "CNBC",
@@ -887,26 +902,13 @@
       "titular": "La tregua arancelaria entre EE. UU. y China se extendió hasta el 10 de enero de 2027, según Bessent",
       "ts": "2026-11-02T15:55:00Z",
       "url": "https://www.outlookbusiness.com/news/us-and-china-agree-to-extend-trade-truce-by-2-months-bessent"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista",
-        "WTI": "bajista"
-      },
-      "fuente": "TheStreet / Yahoo Finance",
-      "impacto": "alto",
-      "resumen": "Las bolsas de EE. UU. extienden la recuperación tras el batacazo tecnológico de la semana pasada, mientras el crudo cae con fuerza ante el avance de las conversaciones Qatar-Irán sobre el estrecho de Ormuz.",
-      "titular": "Wall Street amplía el rebote: Dow +0,8 %, S&P 500 +0,5 % y Nasdaq +0,6 % en la apertura, con el petróleo cayendo por la diplomacia con Irán",
-      "ts": "2026-11-02T15:30:00Z",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-11-03, por open interest (SPY 750). Put/call OI: 1,05.",
+        "nota": "Vencimiento 2026-11-03, por open interest (SPY 750). Put/call OI: 1,06.",
         "valor": "7523"
       },
       {
@@ -921,7 +923,7 @@
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-11-03, por open interest (QQQ 710). Put/call OI: 1,35.",
+        "nota": "Vencimiento 2026-11-03, por open interest (QQQ 710). Put/call OI: 1,37.",
         "valor": "29172"
       },
       {
@@ -935,7 +937,7 @@
         "valor": "28638"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 3 de noviembre, calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE está en 7.523, el put wall en 7.382 y el max pain en 7.583 (put/call OI 1,05, equilibrado); en el Nasdaq 100 el call wall 0DTE en 29.172, el put wall en 26.091 y el max pain en 28.638 (put/call OI 1,35). Con el precio del S&P 500 (≈7.584) y el del Nasdaq 100 (≈28.252) ambos entre su put wall y su max pain 0DTE, el mercado de opciones de hoy no muestra una zona de atracción extrema en ningún lado; datos calculados por el motor a las 16:11 UTC del 3 de noviembre con open interest del 30 de octubre."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 3 de noviembre, calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE está en 7.523, el put wall en 7.382 y el max pain en 7.583 (put/call OI 1,06, equilibrado); en el Nasdaq 100 el call wall 0DTE en 29.172, el put wall en 26.091 y el max pain en 28.638 (put/call OI 1,37). Con el precio del S&P 500 (≈7.573) y el del Nasdaq 100 (≈28.172) ambos entre su put wall y su max pain 0DTE, el mercado de opciones de hoy sigue sin mostrar una zona de atracción extrema en ningún lado; datos calculados por el motor a las 16:42 UTC del 3 de noviembre con open interest del 30 de octubre."
   },
   "politica": {
     "actualizado": "2026-11-03T15:53:00Z",
@@ -1035,7 +1037,7 @@
       }
     ]
   },
-  "resumen": "Son las 16:16 UTC (16:16 en Canarias, 17:16 en Madrid y Fráncfort, 11:16 en Nueva York) del martes 3 de noviembre de 2026, día de las elecciones de medio mandato en EE. UU., con las urnas ya abiertas. El Dow Jones cae cerca de 200 puntos lastrado por Apple, mientras el S&P 500 sube a unos 7.584 puntos (+0,5 %) y el Nasdaq 100 a unos 28.252 (+0,8 %), impulsado por los fabricantes de chips; el mercado también espera los resultados de AMD tras el cierre. Apple vuelve a caer tras guiar un margen bruto débil (45-46 % para el trimestre de diciembre, frente al 47,9 % anterior). En China, el índice tecnológico Star 50 cae un 3,8 % tras un recorte de tipos del banco central chino, borrando el rally del lunes. El oro ronda los 3.900 $/oz y el petróleo WTI los 98 $/barril, presionados por el avance de las conversaciones Catar-Irán sobre el estrecho de Ormuz. Los mercados de predicción siguen dando un 75-80 % de probabilidad a que los demócratas controlen el Congreso; JPMorgan estima un impacto de hasta -0,5 % en el S&P 500 si se confirma. La gamma del motor (calculada a las 16:11 UTC) sigue negativa en ambos índices (SPX -8,23 mil M$ por 1 %; NDX -4,66 mil M$ por 1 %), y la Fed (Kalshi) mantiene la probabilidad de subida en diciembre en el 76,5 %. Sesgo del día: bajista en ambos índices, pendiente del resultado electoral y de los resultados de AMD.",
+  "resumen": "Son las 17:15 UTC (17:15 en Canarias, 18:15 en Madrid y Fráncfort, 12:15 en Nueva York) del martes 3 de noviembre de 2026, con las urnas de las elecciones de medio mandato de EE. UU. todavía abiertas. El S&P 500 sube a unos 7.573 puntos (+0,4 %) y el Nasdaq 100 a unos 28.172 (+0,5 %), apoyado en los fabricantes de chips, mientras el Dow sigue lastrado por Apple tras su guía de margen bruto débil. Saxo Bank confirma que el Nasdaq 100 cerró el lunes en corrección técnica (más de un 10 % por debajo de su máximo histórico) con el VIX en 21,15, reflejo de la volatilidad elevada de la semana. AMD presenta resultados tras el cierre de hoy, con un movimiento implícito de alrededor del ±10,8 %. En China, el índice tecnológico Star 50 sigue lastrado por el recorte de tipos del banco central chino. El oro ronda los 3.900 $/oz y el petróleo WTI los 98 $/barril, presionados por el avance de las conversaciones Catar-Irán sobre el estrecho de Ormuz. Los mercados de predicción siguen dando un 75-80 % de probabilidad a que los demócratas controlen el Congreso; JPMorgan estima un impacto de hasta -0,5 % en el S&P 500 si se confirma. La gamma del motor (calculada a las 16:42 UTC) sigue negativa en ambos índices y algo más acusada en el S&P 500 (-8,68 mil M$ por 1 %; NDX -4,66 mil M$ por 1 %), y la Fed (Kalshi) mantiene sin cambios la probabilidad de subida en diciembre en el 76,5 %. Sesgo del día: bajista en ambos índices, pendiente del resultado electoral y de los resultados de AMD.",
   "semana": {
     "activos": [
       {
@@ -1350,5 +1352,5 @@
     "updatedAt": "2026-11-02T16:17:47Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-03T16:19:00.000Z"
+  "updatedAt": "2026-11-03T17:16:00Z"
 }
