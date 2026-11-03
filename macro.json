@@ -207,9 +207,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-03T20:01:19Z",
+    "actualizado": "2026-11-03T21:02:17Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida en la próxima reunión del FOMC (9 de diciembre) sube ligeramente al 77,0 % (desde el 76,0 % anterior), con la tasa implícita en el 4,07 %; la de marzo de 2027 se mantiene en el 92,5 %.",
+    "lectura": "La probabilidad de subida en la próxima reunión del FOMC (9 de diciembre) se mantiene en el 77,0 % (sin cambios respecto a la actualización anterior), con la tasa implícita en el 4,07 %; la de marzo de 2027 también se mantiene en el 92,5 %.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -231,7 +231,7 @@
         "fecha": "2027-03-17",
         "mantener": 4.5,
         "subir": 92.5,
-        "tasaImplicita": 4.16
+        "tasaImplicita": 4.15
       },
       {
         "bajar": 3.5,
@@ -354,26 +354,26 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 20:15 Canarias (cierre anterior 7.541,40)",
-      "changePct": 0.29,
+      "changeNote": "cierre de Wall Street, 21:00 Canarias (S&P 500 +0,36 %, en 7.568,92 puntos)",
+      "changePct": 0.36,
       "claves": [
-        "Call wall en 7723 (SPY 770); put wall en 7523 (SPY 750),",
-        "Régimen de gamma negativa en -9,13 mil M$ por 1 % de movimiento,",
-        "Giro de gamma (gamma flip) en 7762 (SPY 773,81), por encima del precio: la gamma sigue negativa,",
-        "Max pain en 7583 (SPY 756); put/call OI 1,88,"
+        "Call wall en 7722 (SPY 770); put wall en 7521 (SPY 750),",
+        "Régimen de gamma negativa en -9,0 mil M$ por 1 % de movimiento,",
+        "Giro de gamma (gamma flip) en 7760 (SPY 773,84), por encima del precio: la gamma sigue negativa,",
+        "Max pain en 7581 (SPY 756); put/call OI 1,85,"
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1382,
+        "contratos": 1392,
         "etf": "SPY",
-        "gammaFlip": 773.81,
-        "gexTotal": -9.13,
+        "gammaFlip": 773.84,
+        "gexTotal": -9,
         "indice": {
-          "callWall": 7723,
-          "gammaFlip": 7762,
-          "maxPain": 7583,
-          "precio": 7563,
-          "putWall": 7523
+          "callWall": 7722,
+          "gammaFlip": 7760,
+          "maxPain": 7581,
+          "precio": 7565,
+          "putWall": 7521
         },
         "maxPain": 756,
         "odte": {
@@ -382,63 +382,63 @@
           "esHoy": true,
           "gammaFlip": null,
           "indice": {
-            "callWall": 7523,
+            "callWall": 7521,
             "gammaFlip": null,
-            "maxPain": 7583,
-            "putWall": 7382
+            "maxPain": 7581,
+            "putWall": 7381
           },
           "maxPain": 756,
-          "pcrOI": 1.07,
+          "pcrOI": 1.06,
           "putWall": 736,
           "vencimiento": "2026-11-03"
         },
         "oiFecha": "2026-10-30",
-        "pcrOI": 1.88,
-        "precio": 753.85,
+        "pcrOI": 1.85,
+        "precio": 754.38,
         "putWall": 750,
-        "ratioFecha": "2026-10-30 (conservado; el motor no trajo ratio fresco hoy)",
-        "ratioIndice": 10.0303,
+        "ratioFecha": "2026-11-02",
+        "ratioIndice": 10.0279,
         "regimen": "negativa",
         "vencimientoCercano": "2026-11-03"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 ronda los 7.563 puntos (+0,29 %) a media sesión en Nueva York, con el Nasdaq liderando gracias al rally de los chips (Nvidia recupera el título de empresa más valiosa del mundo por delante de Apple) mientras el Dow sigue lastrado por Apple, cuya pérdida de valor se modera a unos 130.000 millones $ desde los 202.000 millones $ del premercado, y por Palantir, que cae a pesar de superar expectativas. El JOLTS de septiembre sigue sorprendiendo al alza (7,52 millones frente a 7,10 millones esperados), reforzando junto al buen ISM manufacturero del lunes el argumento de una Fed más dura en diciembre (Kalshi sube al 77,0 % desde el 76,0 % anterior). La gamma del motor (recalculada a las 20:01 UTC) sigue negativa en -9,13 mil M$ por 1 %, con el call wall en 7.723, el giro de gamma en 7.762 por encima del precio y el max pain en 7.583; el put/call OI sube a 1,88. Las urnas de las midterms siguen escrutándose (JPMorgan rebaja al 66 % la probabilidad de un Congreso totalmente demócrata) y AMD presenta resultados tras el cierre de hoy. Sesgo: bajista, con el JOLTS y la falta de claridad de Warsh pesando más que las esperanzas de acuerdo entre Trump e Irán sobre Ormuz.",
+      "lectura": "El S&P 500 cierra la sesión del martes en 7.568,92 puntos (+0,36 %), rompiendo una racha de tres días a la baja, con el Nasdaq Composite subiendo un 0,83 % hasta 25.372,01 gracias al rally de los chips (Nvidia recupera el título de empresa más valiosa del mundo por delante de Apple), mientras el Dow Jones cae un 0,38 % hasta 51.786,72 lastrado por Apple (cuya pérdida de valor se modera a unos 130.000 millones $ desde los 202.000 millones $ del premercado) y por Palantir, que cae a pesar de superar expectativas. El JOLTS de septiembre sigue sorprendiendo al alza (7,52 millones frente a 7,10 millones esperados), reforzando junto al buen ISM manufacturero del lunes el argumento de una Fed más dura en diciembre (Kalshi se mantiene en el 77,0 %). La gamma del motor (recalculada a las 21:02 UTC) sigue negativa en -9,0 mil M$ por 1 %, con el call wall en 7.722, el giro de gamma en 7.760 por encima del precio y el max pain en 7.581; el put/call OI baja ligeramente a 1,85. Las urnas de las midterms siguen escrutándose (JPMorgan rebaja al 66 % la probabilidad de un Congreso totalmente demócrata) y AMD presenta resultados tras el cierre de hoy. Sesgo: bajista, con el JOLTS y la falta de claridad de Warsh pesando más que las esperanzas de acuerdo entre Trump e Irán sobre Ormuz.",
       "levels": {
-        "callWall": 7723,
-        "gammaFlip": 7762,
-        "maxPain": 7583,
-        "putWall": 7523
+        "callWall": 7722,
+        "gammaFlip": 7760,
+        "maxPain": 7581,
+        "putWall": 7521
       },
       "name": "S&P 500",
-      "netGex": "negativa (-9,13 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-30)",
+      "netGex": "negativa (-9,0 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-30)",
       "odte": null,
-      "precio": 7563,
+      "precio": 7568.92,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -28,
       "sesgo": "bajista",
-      "spot": 7563
+      "spot": 7568.92
     },
     {
-      "changeNote": "en vivo, 20:15 Canarias (Nasdaq Composite sube ~1,1 %; NDX no confirmado por separado)",
-      "changePct": 1.1,
+      "changeNote": "cierre de Wall Street, 21:00 Canarias (Nasdaq Composite +0,83 %; NDX no confirmado por separado)",
+      "changePct": 0.83,
       "claves": [
         "Call wall en 28761 (QQQ 700); put wall en 27940 (QQQ 680),",
-        "Régimen de gamma negativa en -4,82 mil M$ por 1 % de movimiento,",
+        "Régimen de gamma negativa en -4,64 mil M$ por 1 % de movimiento,",
         "Giro de gamma no disponible en el cálculo actual del motor,",
-        "Max pain en 28638 (QQQ 697); put/call OI 2,90,"
+        "Max pain en 28638 (QQQ 697); put/call OI 2,63,"
       ],
       "gex": {
         "callWall": 700,
-        "contratos": 1133,
+        "contratos": 1146,
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -4.82,
+        "gexTotal": -4.64,
         "indice": {
           "callWall": 28761,
           "gammaFlip": null,
           "maxPain": 28638,
-          "precio": 28111,
+          "precio": 28167,
           "putWall": 27940
         },
         "maxPain": 697,
@@ -454,13 +454,13 @@
             "putWall": 26091
           },
           "maxPain": 697,
-          "pcrOI": 1.48,
+          "pcrOI": 1.39,
           "putWall": 635,
           "vencimiento": "2026-11-03"
         },
         "oiFecha": "2026-10-30",
-        "pcrOI": 2.9,
-        "precio": 684.16,
+        "pcrOI": 2.63,
+        "precio": 685.53,
         "putWall": 680,
         "ratioFecha": "2026-11-02",
         "ratioIndice": 41.0878,
@@ -468,7 +468,7 @@
         "vencimientoCercano": "2026-11-03"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 ronda los 28.111 puntos según el motor (QQQ 684,16 $), con Nvidia recuperando hoy el título de empresa más valiosa del mundo por delante de Apple gracias al rally de los fabricantes de chips, que lidera la subida del Nasdaq Composite (~+1,1 %) a pesar de la caída de Apple y Palantir tras sus resultados. AMD presenta cuentas tras el cierre de hoy. La gamma del motor sigue negativa, en -4,82 mil M$ por 1 % (ligeramente más negativa), con el call wall en 28.761, sin giro de gamma calculable, y el max pain en 28.638; el put/call OI sube a 2,90. Sesgo: bajista, con el índice todavía en corrección técnica tras el mínimo de ayer y la incertidumbre electoral pesando más que el buen dato de JOLTS.",
+      "lectura": "El Nasdaq 100 ronda los 28.167 puntos según el motor (QQQ 685,53 $), con el Nasdaq Composite cerrando la sesión en 25.372,01 puntos (+0,83 %) gracias al rally de los fabricantes de chips liderado por Nvidia, que recupera el título de empresa más valiosa del mundo por delante de Apple, a pesar de la caída de Apple y Palantir tras sus resultados. AMD presenta cuentas tras el cierre de hoy. La gamma del motor sigue negativa, en -4,64 mil M$ por 1 % (ligeramente menos negativa), con el call wall en 28.761, sin giro de gamma calculable, y el max pain en 28.638; el put/call OI baja a 2,63. Sesgo: bajista, con el índice todavía en corrección técnica tras el mínimo reciente y la incertidumbre electoral pesando más que el buen dato de JOLTS.",
       "levels": {
         "callWall": 28761,
         "gammaFlip": null,
@@ -476,14 +476,14 @@
         "putWall": 27940
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-4,82 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-30)",
+      "netGex": "negativa (-4,64 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-30)",
       "odte": null,
-      "precio": 28111,
+      "precio": 28167,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -24,
       "sesgo": "bajista",
-      "spot": 28111
+      "spot": 28167
     }
   ],
   "liquidez": {
@@ -620,6 +620,18 @@
     "tga": 999.7
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "CNBC / Yahoo Finance",
+      "impacto": "alto",
+      "resumen": "El S&P 500 rompe una racha de tres días a la baja y cierra en 7.568,92 puntos (+0,36 %), el Nasdaq Composite sube un 0,83 % a 25.372,01 y el Dow cae un 0,38 % a 51.786,72, lastrado por Apple.",
+      "titular": "Wall Street cierra con el S&P 500 rompiendo su racha bajista gracias al rally de los chips",
+      "ts": "2026-11-03T21:00:00Z",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+    },
     {
       "activos": {
         "BTC": "bajista"
@@ -779,40 +791,28 @@
       "titular": "Apple se desploma un 4 % en premercado y pierde 202.000 millones $ de valor",
       "ts": "2026-11-03T12:00:00Z",
       "url": "https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "alcista"
-      },
-      "fuente": "CNBC",
-      "impacto": "alto",
-      "resumen": "Los mercados de predicción asignan un 73 % a que los demócratas tomen el Congreso (80 % según modelos de encuestas), y Citigroup advierte que perder la Cámara pero mantener el Senado sería un 'viento de cola' alcista para las acciones antes de fin de año.",
-      "titular": "Wall Street vota hoy en las midterms sin descontar una oleada demócrata total; Citigroup ve alcista un Congreso dividido",
-      "ts": "2026-11-03T11:00:00Z",
-      "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-11-03, por open interest (SPY 750). Put/call OI: 1,07.",
-        "valor": "7523"
+        "nota": "Vencimiento 2026-11-03, por open interest (SPY 750). Put/call OI: 1,06.",
+        "valor": "7521"
       },
       {
         "nombre": "Put wall 0DTE SPX",
         "nota": "SPY 736.",
-        "valor": "7382"
+        "valor": "7381"
       },
       {
         "nombre": "Max pain 0DTE SPX",
         "nota": "SPY 756.",
-        "valor": "7583"
+        "valor": "7581"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-11-03, por open interest (QQQ 710). Put/call OI: 1,48.",
+        "nota": "Vencimiento 2026-11-03, por open interest (QQQ 710). Put/call OI: 1,39.",
         "valor": "29172"
       },
       {
@@ -826,7 +826,7 @@
         "valor": "28638"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 3 de noviembre, calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE está en 7.523, el put wall en 7.382 y el max pain en 7.583 (put/call OI 1,07, ligeramente más alto); en el Nasdaq 100 el call wall 0DTE en 29.172, el put wall en 26.091 y el max pain en 28.638 (put/call OI 1,48, sin cambios). Con el precio del S&P 500 (≈7.563) y el del Nasdaq 100 (≈28.111) ambos entre su put wall y su max pain 0DTE, el mercado de opciones de hoy sigue sin mostrar una zona de atracción extrema en ningún lado; datos calculados por el motor a las 20:01 UTC del 3 de noviembre con open interest del 30 de octubre."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 3 de noviembre, calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE está en 7.521, el put wall en 7.381 y el max pain en 7.581 (put/call OI 1,06, ligeramente más bajo); en el Nasdaq 100 el call wall 0DTE en 29.172, el put wall en 26.091 y el max pain en 28.638 (put/call OI 1,39, sin cambios). Con el S&P 500 cerrando en 7.568,92 y el Nasdaq 100 en torno a 28.167, ambos cerca de su max pain 0DTE, el mercado de opciones de hoy sigue sin mostrar una zona de atracción extrema en ningún lado; datos calculados por el motor a las 21:02 UTC del 3 de noviembre con open interest del 30 de octubre."
   },
   "politica": {
     "actualizado": "2026-11-03T19:52:00Z",
@@ -926,7 +926,7 @@
       }
     ]
   },
-  "resumen": "Son las 20:15 UTC (20:15 en Canarias, 21:15 en Madrid y Fráncfort, 15:15 en Nueva York) del martes 3 de noviembre de 2026, con las urnas de las elecciones de medio mandato de EE. UU. todavía escrutándose (JPMorgan rebaja al 66 % la probabilidad de un Congreso totalmente demócrata, frente al 75-80 % que daban esta mañana los mercados de predicción). El S&P 500 ronda los 7.563 puntos (+0,29 %) y el Nasdaq 100 los 28.111, con el Nasdaq Composite subiendo ~1,1 % gracias a Nvidia, que recupera el puesto de empresa más valiosa del mundo por delante de Apple, mientras el Dow sigue lastrado por Apple (su pérdida de valor se modera a unos 130.000 millones $ desde los 202.000 millones $ del premercado) y Palantir (desaceleración en nuevos contratos pese a batir expectativas). El informe JOLTS de septiembre sigue sorprendiendo al alza (7,52 millones frente a 7,10 millones esperados), reforzando el argumento de una Fed más dura en diciembre (Kalshi sube al 77,0 % desde el 76,0 % anterior), igual que el ISM manufacturero del lunes (55,5 frente a 54,7). AMD presenta resultados tras el cierre de hoy. El oro cotiza en torno a 3.920 $/oz (-0,6 %) y el petróleo WTI en 95,83 $/barril, su segunda sesión a la baja, mientras avanza la diplomacia entre EE. UU. e Irán sobre el estrecho de Ormuz. El bitcoin ronda los 77.100 $ (-0,9 % en 24 h), presionado por nuevas salidas de los ETF al contado (398,6 millones $ el lunes), y el euro cotiza cerca de 1,118 $. La gamma del motor (recalculada a las 20:01 UTC) sigue negativa en ambos índices (SPX -9,13 mil M$ por 1 %; NDX -4,82 mil M$ por 1 %), y la Fed (Kalshi) sube al 77,0 % la probabilidad de subida en diciembre. Sesgo del día: bajista en ambos índices, pendiente del resultado electoral y de los resultados de AMD.",
+  "resumen": "Son las 21:16 UTC (21:16 en Canarias, 22:16 en Madrid y Fráncfort, 16:16 en Nueva York) del martes 3 de noviembre de 2026. Wall Street ha cerrado la sesión con el S&P 500 rompiendo una racha de tres días a la baja: +0,36 % hasta 7.568,92 puntos, con el Nasdaq Composite subiendo un 0,83 % hasta 25.372,01 gracias al rally de los chips (Nvidia recupera el título de empresa más valiosa del mundo por delante de Apple), mientras el Dow cae un 0,38 % hasta 51.786,72 lastrado por Apple (su pérdida de valor se modera a unos 130.000 millones $ desde los 202.000 millones $ del premercado) y por Palantir. El informe JOLTS de septiembre sigue sorprendiendo al alza (7,52 millones frente a 7,10 millones esperados), reforzando el argumento de una Fed más dura en diciembre (Kalshi se mantiene en el 77,0 %). AMD presenta resultados tras el cierre de hoy y las urnas de las midterms siguen escrutándose (JPMorgan rebaja al 66 % la probabilidad de un Congreso totalmente demócrata). La gamma del motor (recalculada a las 21:02 UTC) sigue negativa en ambos índices (SPX -9,0 mil M$ por 1 %; NDX -4,64 mil M$ por 1 %). Sesgo del día: bajista en ambos índices, pendiente del resultado electoral y de los resultados de AMD.",
   "semana": {
     "activos": [
       {
@@ -1241,5 +1241,5 @@
     "updatedAt": "2026-11-02T16:17:47Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-03T20:21:19.000000Z"
+  "updatedAt": "2026-11-03T21:16:03.000000Z"
 }
