@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-04T07:46:53Z",
+  "actualizado": "2026-11-04T19:45:55Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 19 pb del umbral de atención (5,5 %); -35 pb en un mes y -2 pb el 4 nov por demanda de refugio tras el barrido demócrata (Trading Economics).",
-      "valor": "5,31 % (4 nov)"
+      "nota": "A 21 pb del umbral de atención (5,5 %); -37 pb en un mes y -4 pb el 4 nov por refugio tras las midterms y un refunding sin sorpresas (Trading Economics).",
+      "valor": "5,29 % (4 nov)"
     },
     {
       "estado": "verde",
-      "nombre": "Subasta 7 años (29 oct)",
-      "nota": "Última subasta larga colocada en línea, sin cola. Hoy el refunding: se esperan 125.000 M$ sin cambios (58.000 M$ a 3 años el 9, 42.000 M$ a 10 años el 10 y 25.000 M$ a 30 años el 12 nov) y recompras de hasta 6.000 M$ (IndexBox/Reuters, 2 nov; Seoul Economic Daily, 3 nov).",
-      "valor": "4,894 %; cobertura 2,46; indirectos 57,8 %"
+      "nombre": "Refunding y subastas",
+      "nota": "4 nov: el Tesoro mantiene las subastas de bonos durante varios trimestres y rebaja 10.000 M$ la necesidad del 4T; la última subasta larga (7 años, 29 oct: 4,894 %, cobertura 2,46, indirectos 57,8 %) salió sin cola. Próximas: 10 años el 10 y 30 años el 12 nov.",
+      "valor": "Tamaños sin cambios; 4T: 618.000 M$"
     },
     {
       "estado": "rojo",
@@ -67,36 +67,36 @@
       {
         "estado": "rojo",
         "n": "Sobreinversión por miedo a quedarse fuera",
-        "nota": "Más de 60.000 M$ en bonos de Big Tech en una semana (Meta ≥20.000 M$, Oracle 10.000 M$, 3 nov) y ~4,5 bill. $ de inversión prevista en tres años (Bloomberg Intelligence); el 4 nov el barrido demócrata amenaza la construcción de centros de datos y CoreWeave cae ~4 % (Pomegra).",
+        "nota": "Más de 60.000 M$ en bonos de Big Tech en una semana (Meta ≥20.000 M$, Oracle 10.000 M$, 3 nov) y ~4,5 bill. $ de inversión prevista en tres años (Bloomberg Intelligence); el 4 nov Comfort Systems cae un 13,7 % por dudas sobre el capex en centros de datos y analistas prevén más escrutinio del Congreso demócrata (TheStreet).",
         "valor": "Meta ≥20.000 M$ + Oracle 10.000 M$ en bonos"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en 72/100 de burbuja, por debajo de los ~85 de 2000 y 1929. Lo que más pesa es la sobreinversión en IA a crédito y el margen récord; el barrido demócrata (4 nov) añade un primer golpe político a los centros de datos y los futuros del Nasdaq llegaron a caer un 2,2 %.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en 72/100 de burbuja, por debajo de los ~85 de 2000 y 1929. Lo que más pesa es la sobreinversión en IA a crédito y el margen récord; el 4 nov la bolsa rebota (S&P +1,9 % a media sesión) pero el oro sube un 3,3 % y el dólar cae: primeras señales de pinchazo.",
     "nivel": 72,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "4 nov: el 2 años cae 6 pb a ~4,55 % (Pomegra) y el 30 años 2 pb a 5,31 % (Trading Economics): la curva se empina un poco porque bajan más los cortos.",
-        "valor": "+76 pb (4,55 % / 5,31 %)"
+        "nota": "4 nov: el 2 años cae ~6 pb a 4,58 % y el 30 años 4 pb a 5,29 % (Trading Economics); curva todavía empinada.",
+        "valor": "+71 pb (4,58 % / 5,29 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi 4 nov: 78 % de subida el 9 dic y 93 % hasta marzo; PCE 3,6 %, tipos reales altos.",
-        "valor": "3,75-4,00 %; 78 % subida en dic."
+        "nota": "Kalshi 4 nov: 81,5 % de subida el 9 dic y 92,5 % hasta marzo; PCE 3,6 %, tipos reales altos.",
+        "valor": "3,75-4,00 %; 81,5 % subida en dic."
       },
       {
         "estado": "amarillo",
         "n": "Dólar (DXY)",
-        "nota": "4 nov: el índice del dólar cae hasta un 0,61 %, a mínimos de más de un mes, tras el barrido demócrata (Seoul Economic Daily); primera debilidad clara.",
-        "valor": "-0,6 % (4 nov)"
+        "nota": "4 nov: el índice del dólar cae a mínimos de 5 semanas (llegó a 101,3) por el barrido demócrata (Trading Economics).",
+        "valor": "101,58 (-0,3 %)"
       },
       {
-        "estado": "verde",
+        "estado": "amarillo",
         "n": "Oro",
-        "nota": "4 nov: el oro se mantiene firme en torno a 3.945 $ tras tocar mínimos de varios meses (Goodreturns); sin huida hacia el oro.",
-        "valor": "~3.945 $/oz"
+        "nota": "4 nov: el oro se dispara un 3,3 % y vuelve por encima de 4.000 $ con la caída del dólar (Trading Economics); la plata sube casi un 5 % (TheStreet).",
+        "valor": "~4.061 $/oz (+3,3 %)"
       },
       {
         "estado": "amarillo",
@@ -286,21 +286,33 @@
     {
       "nombre": "Seoul Economic Daily – El Tesoro acortaría plazos (3 nov)",
       "url": "https://en.sedaily.com/international/2026/11/03/us-treasury-seen-shifting-debt-mix-toward-shorter-maturities"
+    },
+    {
+      "nombre": "Trading Economics · Oro (4 nov)",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "nombre": "Trading Economics · Índice del dólar (4 nov)",
+      "url": "https://tradingeconomics.com/united-states/currency"
+    },
+    {
+      "nombre": "TheStreet · Mercados 4 nov",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: deuda de ~32,3 billones, intereses de 1,1 billones y un 30 años en el 5,31 % (4 nov), a 19 pb del umbral de atención. Desde ayer: los demócratas ganan todo el Congreso, el dinero se refugia en bonos (10 años ~4,90 %), el dólar cae hasta un 0,6 % y el yen sube; hoy el Tesoro anuncia su refunding. El riesgo se queda en 50.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: deuda de ~32,3 billones, intereses de 1,1 billones y un 30 años en el 5,29 % (4 nov), a 21 pb del umbral de atención. Desde esta mañana: el refunding sale sin sorpresas (subastas sin cambios y 10.000 M$ menos de deuda en el 4T), el 10 años baja al 4,89 % y el dólar a mínimos de 5 semanas mientras el oro salta un 3,3 %; en Europa la inflación sube al 4 %. El riesgo se queda en 50.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "4 nov; -4 pb en el día por refugio tras las midterms (llegó a ~4,90 %), -38 pb en 1 mes (Trading Economics)",
+          "c": "4 nov; -8 pb en el día (llegó por debajo del 4,9 %), -42 pb en 1 mes (Trading Economics)",
           "n": "Bono 10 años",
-          "v": "4,93 %"
+          "v": "4,89 %"
         },
         {
-          "c": "4 nov; -2 pb en el día, -35 pb en 1 mes; +57 pb en 1 año (Trading Economics)",
+          "c": "4 nov; -4 pb en el día, -37 pb en 1 mes; +56 pb en 1 año (Trading Economics)",
           "n": "Bono 30 años",
-          "v": "5,31 %"
+          "v": "5,29 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -316,14 +328,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Los demócratas ganan Senado y Cámara en las midterms: el dinero busca refugio en bonos (10 años ~4,90 %) y el dólar cae hasta un 0,6 %. Hoy (4 nov) el Tesoro anuncia el refunding: se esperan 125.000 M$ sin cambios (3, 10 y 30 años los días 9, 10 y 12) y señales de menos bonos largos en 2027; Kalshi: 78 % de subida de la Fed el 9 dic."
+      "nota": "El refunding del 4 nov mantiene el tamaño de las subastas de bonos «durante los próximos trimestres», pasa el 7 años a formato trimestral y estima 618.000 M$ de endeudamiento en el 4T (10.000 M$ menos de lo previsto) (Trading Economics). Tras el barrido demócrata el 10 años baja al 4,89 % y el dólar a mínimos de 5 semanas; Kalshi: 81,5 % de subida de la Fed el 9 dic."
     },
     {
       "datos": [
         {
-          "c": "3 nov; +2 pb en el día, -18 pb en 1 mes; rebota desde mínimos de dos meses (Trading Economics)",
+          "c": "4 nov; -3 pb en el día, -21 pb en 1 mes (Trading Economics)",
           "n": "Bund 10 años",
-          "v": "3,31 %"
+          "v": "3,28 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -331,7 +343,7 @@
           "v": "88,9 %"
         },
         {
-          "c": "mantenido el 29 oct; IPC eurozona 3,8 % (sept.); >80 % de subida el 18 dic",
+          "c": "mantenido el 29 oct; IPC eurozona 4,0 % en octubre (preliminar, 4 nov), máximo desde sept-2023",
           "n": "Tipo depósito BCE",
           "v": "2,50 %"
         },
@@ -344,12 +356,12 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund se mantiene en el 3,31 % con el BCE inclinado a subir en diciembre (IPC eurozona 3,8 % en septiembre; hoy sale el dato preliminar de octubre); Lagarde dejará el BCE el 7 de febrero de 2027 y la prima francesa sigue en ~157 pb."
+      "nota": "La inflación de la eurozona sube al 4,0 % en octubre (preliminar, 4 nov; 3,8 % en septiembre), lo que refuerza la subida del BCE en diciembre; aun así el Bund baja al 3,28 % arrastrado por los Treasuries y la prima francesa sigue en ~157 pb."
     },
     {
       "datos": [
         {
-          "c": "4 nov; -1 pb en el día, -8 pb en 1 mes; mínimo desde febrero de 2025 (Trading Economics)",
+          "c": "4 nov; estable, -8 pb en 1 mes; mínimo desde 2025 (Trading Economics)",
           "n": "Bono 10 años",
           "v": "1,62 %"
         },
@@ -359,7 +371,7 @@
           "v": "590.700 M$"
         },
         {
-          "c": "4 nov; +0,30 % en el día tras máximos del yuan de 4 años; -0,54 % en 1 mes (Trading Economics)",
+          "c": "4 nov; +0,02 % en el día, -0,48 % en 1 mes; el yuan offshore en mínimos de 2 semanas (~6,68) (Trading Economics)",
           "n": "USD/CNY",
           "v": "6,67"
         },
@@ -377,14 +389,14 @@
     {
       "datos": [
         {
-          "c": "4 nov; +4 pb en el día, -28 pb en 1 mes; +115 pb en 1 año (Trading Economics)",
+          "c": "4 nov; +5 pb en el día, -28 pb en 1 mes (Trading Economics)",
           "n": "JGB 10 años",
           "v": "2,82 %"
         },
         {
-          "c": "4 nov; estable en el día, -36 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
+          "c": "4 nov; +5 pb en el día, -31 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
           "n": "JGB 30 años",
-          "v": "3,88 %"
+          "v": "3,93 %"
         },
         {
           "c": "agosto (TIC), -35.600 M$; 4.ª caída, mínimo desde dic-2024",
@@ -392,15 +404,15 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "4 nov; -0,37 % en el día (llegó a ~157,5), +0,12 % en 1 mes (Trading Economics)",
+          "c": "4 nov; -0,16 % en el día (tocó ~157,5), +0,34 % en 1 mes (Trading Economics)",
           "n": "USD/JPY",
-          "v": "158,10"
+          "v": "158,44"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "El yen se aprecia hasta ~157,5-158 por la caída del dólar tras las midterms, y el Nikkei se hunde entre un 3,6 % y un 4,5 % por la venta de chips e IA; el BoJ (1,25 %) deja abierta una subida en diciembre."
+      "nota": "Los JGB largos repuntan 5 pb (30 años en 3,93 %) mientras el yen se aprecia algo por la caída del dólar; el BoJ (1,25 %) deja abierta una subida en diciembre y Japón sigue vendiendo Treasuries (TIC agosto)."
     },
     {
       "datos": [
@@ -581,6 +593,11 @@
       "burbuja": 72,
       "riesgo": 50,
       "ts": "2026-11-04T07:46:53Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-11-04T19:45:55Z"
     }
   ]
 }
