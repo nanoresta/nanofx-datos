@@ -202,21 +202,21 @@
       "impacto": "alto",
       "nota": "Reunión de dos días, 8-9 de diciembre de 2026; decisión y rueda de prensa el 9 de diciembre.",
       "pais": "EE. UU.",
-      "previsto": "probabilidad de subida 76,0 % según Kalshi (motor de datos)",
+      "previsto": "probabilidad de subida 77,5 % según Kalshi (motor de datos)",
       "previstoNum": null
     }
   ],
   "fed": {
-    "actualizado": "2026-11-03T21:32:44Z",
+    "actualizado": "2026-11-04T05:55:15Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida en la próxima reunión del FOMC (9 de diciembre) baja ligeramente al 76,0 % (desde el 77,0 % de la actualización anterior), con la tasa implícita en el 4,07 %; la de marzo de 2027 se mantiene en el 92,5 % y la de abril de 2027 sube algo al 23,0 %.",
+    "lectura": "La probabilidad de subida en la reunión del FOMC del 9 de diciembre sube ligeramente al 77,5 % (desde el 76,0 % de la actualización anterior), con la tasa implícita en el 4,07 %; la de marzo de 2027 se mantiene en el 92,5 % y la de abril de 2027 también se mantiene en el 23,0 %.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
         "bajar": 1.5,
         "fecha": "2026-12-09",
-        "mantener": 22.5,
-        "subir": 76,
+        "mantener": 21,
+        "subir": 77.5,
         "tasaImplicita": 4.07
       },
       {
@@ -234,9 +234,9 @@
         "tasaImplicita": 4.15
       },
       {
-        "bajar": 4,
+        "bajar": 3.5,
         "fecha": "2027-04-28",
-        "mantener": 73,
+        "mantener": 73.5,
         "subir": 23,
         "tasaImplicita": 4.26
       },
@@ -350,63 +350,64 @@
   ],
   "indices": [
     {
-      "changeNote": "cierre de Wall Street (S&P 500 +0,36 %, en 7.568,92 puntos), rompiendo una racha de tres sesiones a la baja",
+      "changeNote": "cierre de Wall Street (S&P 500 +0,36 %, en 7.568,92 puntos), antes de la apertura europea",
       "changePct": 0.36,
       "claves": [
         "Call wall en 7722 (SPY 770); put wall en 7521 (SPY 750),",
-        "Régimen de gamma negativa en -8,0 mil M$ por 1 % de movimiento,",
-        "Giro de gamma (gamma flip) en 7748 (SPY 772,64), por encima del precio: la gamma sigue negativa,",
-        "Max pain en 7581 (SPY 756); put/call OI 1,85,"
+        "Régimen de gamma negativa en -7,7 mil M$ por 1 % de movimiento,",
+        "Giro de gamma (gamma flip) en 7778 (SPY 775,65), por encima del precio: la gamma sigue negativa,",
+        "Max pain en 7691 (SPY 767); put/call OI 1,90,"
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1349,
+        "contratos": 1284,
         "etf": "SPY",
-        "gammaFlip": 772.64,
-        "gexTotal": -8.02,
+        "gammaFlip": 775.65,
+        "gexTotal": -7.74,
         "indice": {
           "callWall": 7722,
-          "gammaFlip": 7748,
-          "maxPain": 7581,
+          "gammaFlip": 7778,
+          "maxPain": 7691,
           "precio": 7564,
           "putWall": 7521
         },
-        "maxPain": 756,
+        "maxPain": 767,
         "odte": {
           "base": "open interest",
-          "callWall": 750,
+          "callWall": 780,
           "esHoy": true,
           "gammaFlip": null,
+          "gexTotal": null,
           "indice": {
-            "callWall": 7521,
+            "callWall": 7822,
             "gammaFlip": null,
-            "maxPain": 7581,
-            "putWall": 7381
+            "maxPain": 7691,
+            "putWall": 7421
           },
-          "maxPain": 756,
-          "pcrOI": 1.06,
-          "putWall": 736,
-          "vencimiento": "2026-11-03"
+          "maxPain": 767,
+          "pcrOI": 2.96,
+          "putWall": 740,
+          "vencimiento": "2026-11-04"
         },
         "oiFecha": "2026-10-30",
-        "pcrOI": 1.85,
+        "pcrOI": 1.9,
         "precio": 754.29,
         "putWall": 750,
         "ratioFecha": "2026-11-02",
         "ratioIndice": 10.0279,
         "regimen": "negativa",
-        "vencimientoCercano": "2026-11-03"
+        "vencimientoCercano": "2026-11-04"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cierra en 7.568,92 puntos (+0,36 %), rompiendo tres sesiones consecutivas a la baja, apoyado por el rally de los chips. El JOLTS de septiembre vuelve a batir el consenso (7,52 millones frente a 7,10 millones), reforzando junto al buen ISM manufacturero del lunes el argumento de una Fed más dura en diciembre (Kalshi baja ligeramente al 76,0 %, con Kevin Warsh sin despejar su postura desde el 28 de octubre). La gamma del motor sigue negativa en -8,0 mil M$ por 1 %, con el call wall en 7.722, el giro de gamma en 7.748 por encima del precio y el max pain en 7.581 (prácticamente en el cierre); el put/call OI se mantiene en 1,85. Las urnas de las midterms siguen escrutándose (JPMorgan rebaja al 66 % la probabilidad de un Congreso totalmente demócrata) y el optimismo de Trump sobre un acuerdo con Irán, junto a la oferta de Araghchi de reabrir Ormuz en 48 horas, resta algo de tensión geopolítica. Sesgo: bajista, con el JOLTS y la falta de claridad de Warsh pesando más que el rebote técnico de hoy.",
+      "lectura": "Son las primeras horas del miércoles 4 de noviembre, antes de la apertura europea; el S&P 500 cerró ayer en 7.568,92 puntos (+0,36 %) tras romper tres sesiones bajistas. Durante la madrugada se confirma que los demócratas logran el control del Senado (con vuelcos en Maine, Iowa, Ohio, Carolina del Norte y Texas) y, según las proyecciones de Fox News, también de la Cámara de Representantes: el Congreso queda bajo control demócrata total, el escenario que JPMorgan cifraba en un riesgo de hasta el 0,5 % para el S&P 500 por la mayor vigilancia regulatoria sobre la IA. La probabilidad de subida de tipos en diciembre (Kalshi) sube ligeramente al 77,5 % tras el buen dato de JOLTS. La gamma del motor sigue negativa en -7,7 mil M$ por 1 %, con el call wall en 7.722, el giro de gamma en 7.778 (por encima del precio) y el max pain en 7.691; el put/call OI sube a 1,90. Sesgo: bajista, con el vuelco demócrata completo del Congreso como principal novedad de la madrugada.",
       "levels": {
         "callWall": 7722,
-        "gammaFlip": 7748,
-        "maxPain": 7581,
+        "gammaFlip": 7778,
+        "maxPain": 7691,
         "putWall": 7521
       },
       "name": "S&P 500",
-      "netGex": "negativa (-8,0 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-30)",
+      "netGex": "negativa (-7,7 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-10-30)",
       "odte": null,
       "precio": 7568.92,
       "regime": "negativa",
@@ -416,63 +417,64 @@
       "spot": 7568.92
     },
     {
-      "changeNote": "cierre de Wall Street (Nasdaq 100 +0,70 %, en 28.180,26 puntos; Nasdaq Composite +0,83 % hasta 25.372,01), aún en corrección técnica",
+      "changeNote": "cierre de Wall Street (Nasdaq 100 +0,70 %, en 28.180,26 puntos), antes de la apertura europea",
       "changePct": 0.7,
       "claves": [
         "Call wall en 28761 (QQQ 700); put wall en 27940 (QQQ 680),",
-        "Régimen de gamma negativa en -4,11 mil M$ por 1 % de movimiento,",
+        "Régimen de gamma negativa en -4,1 mil M$ por 1 % de movimiento,",
         "Giro de gamma no disponible en el cálculo actual del motor,",
-        "Max pain en 28638 (QQQ 697); put/call OI 2,57,"
+        "Max pain en 28761 (QQQ 700); put/call OI 2,69,"
       ],
       "gex": {
         "callWall": 700,
-        "contratos": 1167,
+        "contratos": 901,
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -4.11,
+        "gexTotal": -4.12,
         "indice": {
           "callWall": 28761,
           "gammaFlip": null,
-          "maxPain": 28638,
-          "precio": 28263,
+          "maxPain": 28761,
+          "precio": 28274,
           "putWall": 27940
         },
-        "maxPain": 697,
+        "maxPain": 700,
         "odte": {
           "base": "open interest",
-          "callWall": 710,
+          "callWall": 740,
           "esHoy": true,
           "gammaFlip": null,
+          "gexTotal": null,
           "indice": {
-            "callWall": 29172,
+            "callWall": 30405,
             "gammaFlip": null,
-            "maxPain": 28638,
-            "putWall": 26091
+            "maxPain": 28761,
+            "putWall": 27940
           },
-          "maxPain": 697,
-          "pcrOI": 1.35,
-          "putWall": 635,
-          "vencimiento": "2026-11-03"
+          "maxPain": 700,
+          "pcrOI": 1.36,
+          "putWall": 680,
+          "vencimiento": "2026-11-04"
         },
         "oiFecha": "2026-10-30",
-        "pcrOI": 2.57,
-        "precio": 687.88,
+        "pcrOI": 2.69,
+        "precio": 688.14,
         "putWall": 680,
         "ratioFecha": "2026-11-02",
         "ratioIndice": 41.0878,
         "regimen": "negativa",
-        "vencimientoCercano": "2026-11-03"
+        "vencimientoCercano": "2026-11-04"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cierra en 28.180,26 puntos (+0,70 %), aún en corrección técnica, con el Nasdaq Composite subiendo un 0,83 % gracias al rally de los fabricantes de chips liderado por Nvidia, que recupera el título de empresa más valiosa del mundo por delante de Apple. Tras el cierre, AMD presenta un trimestre récord en ingresos de IA y bate el consenso de BPA (1,37 $), pero sus acciones caen con fuerza en el after-hours (en torno a un 8 %) por dudas sobre márgenes e inventario, un riesgo para la apertura de mañana. La gamma del motor sigue negativa en -4,11 mil M$ por 1 %, con el call wall en 28.761, sin giro de gamma calculable, y el max pain en 28.638; el put/call OI baja a 2,57. Sesgo: bajista, con la reacción a AMD y el escrutinio de las midterms pesando más que el buen dato de JOLTS.",
+      "lectura": "El Nasdaq 100 cerró ayer en 28.180,26 puntos (+0,70 %), aún en corrección técnica, con Nvidia recuperando el título de empresa más valiosa del mundo. Durante la noche se confirma el vuelco demócrata completo del Congreso (Senado y, según Fox News, también la Cámara), el escenario que más preocupa a los valores de IA por el riesgo regulatorio que apuntaba JPMorgan. Tras el cierre, AMD bate expectativas pero cae con fuerza en el after-hours por dudas sobre márgenes e inventario, un lastre para la apertura de hoy. La gamma del motor sigue negativa en -4,1 mil M$ por 1 %, con el call wall en 28.761 (igual que el max pain) y sin giro de gamma calculable; el put/call OI baja a 2,69. Sesgo: bajista, con el vuelco demócrata y la resaca de AMD como focos de la sesión.",
       "levels": {
         "callWall": 28761,
         "gammaFlip": null,
-        "maxPain": 28638,
+        "maxPain": 28761,
         "putWall": 27940
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-4,11 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-30)",
+      "netGex": "negativa (-4,1 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-10-30)",
       "odte": null,
       "precio": 28180.26,
       "regime": "negativa",
@@ -616,6 +618,18 @@
     "tga": 999.7
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "CBS News",
+      "impacto": "alto",
+      "resumen": "Los demócratas se hacen con el Senado (vuelcos en Maine, Iowa, Ohio, Carolina del Norte y Texas) y, según Fox News Decision Desk, también con la Cámara de Representantes.",
+      "titular": "Los demócratas logran el control total del Congreso en las midterms de EE. UU.",
+      "ts": "2026-11-04T05:30:00Z",
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+    },
     {
       "activos": {
         "NQ": "bajista"
@@ -780,36 +794,36 @@
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-11-03, por open interest (SPY 750). Put/call OI: 1,06.",
-        "valor": "7521"
+        "nota": "Vencimiento 2026-11-04, por open interest (SPY 780). Put/call OI: 2,96.",
+        "valor": "7822"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "SPY 736.",
-        "valor": "7381"
+        "nota": "SPY 740.",
+        "valor": "7421"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "SPY 756.",
-        "valor": "7581"
+        "nota": "SPY 767.",
+        "valor": "7691"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-11-03, por open interest (QQQ 710). Put/call OI: 1,35.",
-        "valor": "29172"
+        "nota": "Vencimiento 2026-11-04, por open interest (QQQ 740). Put/call OI: 1,36.",
+        "valor": "30405"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "QQQ 635.",
-        "valor": "26091"
+        "nota": "QQQ 680.",
+        "valor": "27940"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "QQQ 697.",
-        "valor": "28638"
+        "nota": "QQQ 700.",
+        "valor": "28761"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 3 de noviembre, calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE está en 7.521, el put wall en 7.381 y el max pain en 7.581 (put/call OI 1,06); en el Nasdaq 100 el call wall 0DTE en 29.172, el put wall en 26.091 y el max pain en 28.638 (put/call OI 1,35, algo más bajo que antes). El S&P 500 cierra en 7.568,92, prácticamente sobre su max pain 0DTE (7.581), mientras el Nasdaq 100 cierra en 28.180, por debajo de su max pain (28.638) y bien dentro del rango put/call wall; niveles calculados por el motor a las 21:32 UTC del 3 de noviembre con open interest del 30 de octubre."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 4 de noviembre, calculados por NanoFx con los contratos de Alpaca sobre open interest: en el S&P 500 el call wall 0DTE está en 7.822, el put wall en 7.421 y el max pain en 7.691 (put/call OI 2,96, muy sesgado a puts); en el Nasdaq 100 el call wall 0DTE en 30.405, el put wall en 27.940 y el max pain en 28.761 (put/call OI 1,36). El cierre de ayer del S&P 500 (7.568,92) queda por debajo de su max pain 0DTE (7.691) y el del Nasdaq 100 (28.180,26) también por debajo del suyo (28.761); niveles calculados por el motor a las 05:55 UTC del 4 de noviembre con open interest del 30 de octubre."
   },
   "politica": {
     "actualizado": "2026-11-03T21:49:00Z",
@@ -909,23 +923,23 @@
       }
     ]
   },
-  "resumen": "Son las 21:49 UTC (21:49 en Canarias, 22:49 en Madrid y Fráncfort, 16:49 en Nueva York) del martes 3 de noviembre de 2026. Wall Street cierra la sesión electoral con el S&P 500 rompiendo su racha de tres días a la baja: +0,36 % hasta 7.568,92 puntos; el Nasdaq 100 sube un 0,70 % hasta 28.180,26 (aún en corrección técnica) y el Nasdaq Composite un 0,83 % hasta 25.372,01, con Nvidia recuperando el título de empresa más valiosa del mundo por delante de Apple gracias al rally de los chips; el Dow cae un 0,38 % hasta 51.786,72 lastrado por Apple y Palantir. El JOLTS de septiembre vuelve a sorprender al alza (7,52 millones frente a 7,10 millones esperados), reforzando junto al ISM manufacturero del lunes el argumento de una Fed más dura en diciembre (Kalshi baja ligeramente al 76,0 %). Tras el cierre, AMD presenta un trimestre récord en ingresos de IA y bate expectativas de BPA (1,37 $), pero sus acciones caen con fuerza en el after-hours (en torno a un 8 %) por dudas sobre márgenes e inventario, lo que puede pesar sobre el Nasdaq en la apertura de mañana. Las urnas de las midterms siguen cerrando y empiezan a escrutarse (JPMorgan rebaja al 66 % la probabilidad de un Congreso totalmente demócrata), mientras el petróleo WTI extiende su caída hacia los 95-96 $/barril y el oro se mantiene cerca de 3.930 $/oz ante el avance de la diplomacia entre EE. UU. e Irán sobre la reapertura del estrecho de Ormuz. La gamma del motor sigue negativa en ambos índices (SPX -8,0 mil M$ por 1 %; NDX -4,1 mil M$ por 1 %). Sesgo del día: bajista en ambos índices, con la reacción de AMD y el recuento electoral como focos para la sesión de mañana.",
+  "resumen": "Son las 06:16 UTC (06:16 en Canarias, 07:16 en Madrid y Fráncfort, 01:16 en Nueva York) del miércoles 4 de noviembre de 2026, antes de la apertura europea. Lo más relevante de la madrugada: se confirma que los demócratas logran el control del Senado (con vuelcos en Maine, Iowa, Ohio, Carolina del Norte y Texas) y, según las proyecciones de Fox News, también de la Cámara de Representantes, haciéndose con el Congreso al completo; es el escenario que JPMorgan cifraba en un riesgo de hasta el 0,5 % para el S&P 500 por la mayor vigilancia regulatoria sobre la IA. La probabilidad de que la Fed suba tipos en la reunión del 9 de diciembre (Kalshi) repunta ligeramente al 77,5 % (desde el 76,0 %), con la tasa implícita en el 4,07 %. La gamma del motor sigue negativa en ambos índices (SPX -7,7 mil M$ por 1 %, con el call wall en 7.722 y el giro de gamma en 7.778; NDX -4,1 mil M$ por 1 %, con el call wall y el max pain coincidiendo en 28.761). El S&P 500 cerró ayer en 7.568,92 (+0,36 %) y el Nasdaq 100 en 28.180,26 (+0,70 %); tras el cierre, AMD bate expectativas pero cae con fuerza en el after-hours por dudas sobre márgenes, un lastre para la apertura de hoy. Hoy se publican el ISM de servicios y el ADP de EE. UU., además del IPC preliminar de la eurozona. Sesgo: bajista en ambos índices, con el vuelco demócrata completo del Congreso como principal novedad de la madrugada.",
   "semana": {
     "activos": [
       {
         "cambio": 17,
         "expectativa": "El ISM de servicios del miércoles (consenso 54,8) y, sobre todo, el empleo del viernes (consenso 63 mil) son las referencias que de verdad pueden mover la semana; con el dólar ya reforzado por el JOLTS, una nueva sorpresa alcista en el empleo reforzaría el argumento de una Fed más dura en diciembre.",
         "id": "SPX",
-        "narrativa": "El calendario de EE. UU. mantiene el balance del dólar en +36 tras el sorpaso al alza de JOLTS (7,52 millones frente a 7,10 millones), que se suma al buen ISM manufacturero del lunes; la Fed (Kalshi) baja ligeramente al 76,0 % de probabilidad de subida en diciembre sin que Warsh aclare su postura, y la liquidez sigue drenando (-55.700 millones $ en la última semana). La gamma del motor sigue negativa (-8,0 mil M$ por 1 %) con el precio cerca del giro de gamma (7.748). El rally de los chips (Nvidia supera a Apple) y las esperanzas de acuerdo entre Trump e Irán sobre Ormuz dan soporte, pero AMD cae con fuerza tras el cierre y las midterms siguen escrutándose.",
+        "narrativa": "El calendario de EE. UU. mantiene el balance del dólar en +36 tras el sorpaso al alza de JOLTS (7,52 millones frente a 7,10 millones), que se suma al buen ISM manufacturero del lunes; la Fed (Kalshi) sube ligeramente al 77,5 % de probabilidad de subida en diciembre, y la liquidez sigue drenando (-55.700 millones $ en la última semana). La gamma del motor sigue negativa (-7,7 mil M$ por 1 %) con el precio por debajo del giro de gamma (7.778). Durante la madrugada se confirma el vuelco demócrata completo del Congreso (Senado y, según Fox News, también la Cámara), el escenario que JPMorgan cifraba en un riesgo de hasta el 0,5 % para el S&P 500 por la mayor vigilancia regulatoria; el rally de los chips (Nvidia supera a Apple) y las esperanzas de acuerdo entre Trump e Irán sobre Ormuz dan algo de soporte, pero AMD cae con fuerza tras el cierre.",
         "score": -22,
         "scoreInicial": -39,
         "sesgo": "bajista"
       },
       {
         "cambio": 23,
-        "expectativa": "La reacción a los resultados de AMD marcará el tono de los semiconductores al abrir mañana; el empleo del viernes es la siguiente referencia clave para el conjunto del Nasdaq.",
+        "expectativa": "La reacción a los resultados de AMD marcará el tono de los semiconductores al abrir hoy; el empleo del viernes es la siguiente referencia clave para el conjunto del Nasdaq.",
         "id": "NQ",
-        "narrativa": "El balance del dólar en el calendario se mantiene en +36 tras el JOLTS, que bate de lejos el consenso y refuerza el ISM manufacturero del lunes. Apple decepciona con su guía de margen y Palantir cae pese a batir previsiones, pero Nvidia recupera el título de empresa más valiosa del mundo y lidera un rally de chips que impulsa al Nasdaq (+0,70 %). Tras el cierre, AMD bate expectativas de ingresos y BPA gracias a la demanda de IA, pero sus acciones caen con fuerza (en torno a un 8 %) por dudas sobre márgenes e inventario, un riesgo claro para la apertura de mañana. La gamma sigue negativa (-4,11 mil M$ por 1 %) y el posicionamiento muy defensivo (put/call OI 2,57); las midterms en escrutinio y la tregua con China hasta enero de 2027 completan el cuadro.",
+        "narrativa": "El balance del dólar en el calendario se mantiene en +36 tras el JOLTS, que bate de lejos el consenso y refuerza el ISM manufacturero del lunes. Apple decepciona con su guía de margen y Palantir cae pese a batir previsiones, pero Nvidia recupera el título de empresa más valiosa del mundo y lidera un rally de chips que impulsa al Nasdaq (+0,70 %). Tras el cierre, AMD bate expectativas de ingresos y BPA gracias a la demanda de IA, pero sus acciones caen con fuerza (en torno a un 8 %) por dudas sobre márgenes e inventario, un riesgo claro para la apertura de hoy. Durante la madrugada se confirma además el vuelco demócrata completo del Congreso, el escenario que más preocupa a los valores de IA por el riesgo regulatorio que apuntaba JPMorgan. La gamma sigue negativa (-4,1 mil M$ por 1 %) y el posicionamiento muy defensivo (put/call OI 2,69).",
         "score": -18,
         "scoreInicial": -41,
         "sesgo": "bajista"
@@ -934,16 +948,16 @@
         "cambio": -1,
         "expectativa": "El empleo del viernes es el dato que más puede mover el oro si sorprende con fuerza en cualquier dirección; una ruptura de las conversaciones sobre Ormuz revertiría la caída con rapidez.",
         "id": "XAU",
-        "narrativa": "El calendario mantiene el balance del dólar en +36 tras el JOLTS, muy por encima del consenso, lo que sigue presionando al oro, hoy en torno a 3.930 $/oz, cerca de su mínimo de un año aunque rebotando desde el mínimo intradía de 3.870 $. El avance de la diplomacia entre EE. UU. e Irán sobre Ormuz —con la oferta de Araghchi de reabrir el estrecho en 48 horas y el optimismo de Trump— resta prima de refugio adicional. La falta de orientación de Warsh sobre diciembre y la incertidumbre de las midterms en escrutinio sostienen una demanda de refugio moderada, insuficiente por ahora para frenar la caída.",
+        "narrativa": "El calendario mantiene el balance del dólar en +36 tras el JOLTS, muy por encima del consenso, lo que sigue presionando al oro, hoy en torno a 3.930 $/oz, cerca de su mínimo de un año aunque rebotando desde el mínimo intradía de 3.870 $. El avance de la diplomacia entre EE. UU. e Irán sobre Ormuz —con la oferta de Araghchi de reabrir el estrecho en 48 horas y el optimismo de Trump— resta prima de refugio adicional. La falta de orientación de Warsh sobre diciembre y el vuelco demócrata completo del Congreso sostienen una demanda de refugio moderada, insuficiente por ahora para frenar la caída.",
         "score": -26,
         "scoreInicial": -25,
         "sesgo": "bajista"
       },
       {
         "cambio": 2,
-        "expectativa": "El empleo del viernes es el catalizador clave; una confirmación de los resultados electorales en las próximas horas podría generar volatilidad adicional.",
+        "expectativa": "El empleo del viernes es el catalizador clave; una confirmación adicional de los resultados electorales podría generar volatilidad adicional.",
         "id": "BTC",
-        "narrativa": "El dólar fuerte tras el JOLTS (balance del calendario en +36) sigue pesando sobre bitcoin, hoy en torno a 76.800 $, probando mínimos de seis semanas, con las salidas de los ETF al contado acelerándose (398,6 millones $ el lunes). La gamma negativa en NDX y la falta de orientación de la Fed sobre diciembre siguen de fondo, aunque la correlación con un Nasdaq que rebota por el rally de los chips frena algo la caída; las midterms en escrutinio siguen siendo la principal fuente de incertidumbre a corto plazo.",
+        "narrativa": "El dólar fuerte tras el JOLTS (balance del calendario en +36) sigue pesando sobre bitcoin, hoy en torno a 76.800 $, probando mínimos de seis semanas, con las salidas de los ETF al contado acelerándose (398,6 millones $ el lunes). La gamma negativa en NDX y la falta de orientación de la Fed sobre diciembre siguen de fondo, y el vuelco demócrata completo del Congreso, ya confirmado, añade algo de cautela adicional sobre el riesgo regulatorio.",
         "score": -18,
         "scoreInicial": -20,
         "sesgo": "bajista"
@@ -959,9 +973,9 @@
       },
       {
         "cambio": -15,
-        "expectativa": "El IPC de la eurozona de mañana y el empleo de EE. UU. del viernes son las referencias clave; una sorpresa alcista en la inflación europea reforzaría al euro frente a un dólar que hoy gana algo de terreno.",
+        "expectativa": "El IPC de la eurozona de hoy y el empleo de EE. UU. del viernes son las referencias clave; una sorpresa alcista en la inflación europea reforzaría al euro frente a un dólar que hoy gana algo de terreno.",
         "id": "EURUSD",
-        "narrativa": "El JOLTS de septiembre bate con holgura el consenso en EE. UU., lo que mantiene algo reforzado al dólar en el calendario (+36), pero el euro se mantiene estable en torno a 1,1198 (+0,1 %), con el IPC preliminar de la eurozona de mañana (consenso 3,9 %) como próxima referencia y la carrera de sucesión de Lagarde en el BCE como telón de fondo.",
+        "narrativa": "El JOLTS de septiembre bate con holgura el consenso en EE. UU., lo que mantiene algo reforzado al dólar en el calendario (+36), pero el euro se mantiene estable en torno a 1,1198 (+0,1 %), con el IPC preliminar de la eurozona de hoy (consenso 3,9 %) como próxima referencia y la carrera de sucesión de Lagarde en el BCE como telón de fondo.",
         "score": 3,
         "scoreInicial": 18,
         "sesgo": "neutral"
@@ -1218,11 +1232,11 @@
       }
     ],
     "pesoCalendario": 0.3,
-    "pesoMotivo": "Semana cargada en el papel (ISM manufacturero y de servicios, nóminas, paro, Michigan, IPC de la eurozona) pero con casi todos los consensos todavía sin publicar un domingo antes de la semana: de los 11 datos de EE. UU. y la eurozona, solo las nóminas tienen previsión frente al dato anterior. Con la expectativa tan poco respaldada, mandan más el resto de factores: la gamma negativa, la liquidez drenando, el hackeo de Binance, el batacazo de resultados tecnológicos y la escalada en Ormuz.",
+    "pesoMotivo": "Semana cargada en el papel (ISM manufacturero y de servicios, nóminas, paro, Michigan, IPC de la eurozona) pero con casi todos los consensos todavía sin publicar un domingo antes de la semana: de los 11 datos de EE. UU. y la eurozona, solo las nóminas tienen previsión frente al dato anterior. Con la expectativa tan poco respaldada, mandan más el resto de factores: la gamma negativa, la liquidez drenando, el vuelco demócrata del Congreso ya confirmado, el batacazo de resultados tecnológicos y la escalada en Ormuz.",
     "rango": "2 a 6 de noviembre de 2026",
     "slot": "semanal",
     "updatedAt": "2026-11-02T16:17:47Z"
   },
-  "slot": "cierre",
-  "updatedAt": "2026-11-03T21:49:03.000000Z"
+  "slot": "rapida",
+  "updatedAt": "2026-11-04T06:16:15Z"
 }
