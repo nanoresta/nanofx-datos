@@ -207,9 +207,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-04T07:57:15Z",
+    "actualizado": "2026-11-04T08:58:44Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de subida en la reunión del FOMC del 9 de diciembre sube ligeramente al 78,5 % (desde el 78,0 % de la actualización anterior), con la tasa implícita en el 4,07 %; la de marzo de 2027 sube al 93,5 % (antes 93,0 %) y la de abril de 2027 se mantiene en el 23,0 %.",
+    "lectura": "La probabilidad de subida en la reunión del FOMC del 9 de diciembre se mantiene en el 78,5 % (sin cambios desde la última actualización), con la tasa implícita en el 4,07 %; la de marzo de 2027 también se mantiene en el 93,5 %. No hay movimientos nuevos esta hora.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -238,7 +238,7 @@
         "fecha": "2027-04-28",
         "mantener": 73.5,
         "subir": 23,
-        "tasaImplicita": 4.28
+        "tasaImplicita": 4.29
       },
       {
         "bajar": 1,
@@ -350,12 +350,12 @@
   ],
   "indices": [
     {
-      "changeNote": "futuros ES -0,4 % (tras tocar -1,4 % durante la noche), sobre el cierre de Wall Street de 7.568,92 puntos (+0,36 %)",
-      "changePct": -0.4,
+      "changeNote": "futuros ES +0,2 % (recuperación completa tras tocar -1,4 % durante la noche), sobre el cierre de Wall Street de 7.568,92 puntos (+0,36 %); en vivo, 09:15 Canarias",
+      "changePct": 0.2,
       "claves": [
         "Call wall en 7722 (SPY 770); put wall en 7521 (SPY 750),",
         "Régimen de gamma negativa en -8,9 mil M$ por 1 % de movimiento,",
-        "Giro de gamma (gamma flip) en 7773 (SPY 775.17), por encima del precio: la gamma sigue negativa,",
+        "Giro de gamma (gamma flip) en 7772 (SPY 775.03), por encima del precio: la gamma sigue negativa,",
         "Max pain en 7641 (SPY 762); put/call OI 1,95,"
       ],
       "gex": {
@@ -544,11 +544,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 775.17,
+        "gammaFlip": 775.03,
         "gexTotal": -8.92,
         "indice": {
           "callWall": 7722,
-          "gammaFlip": 7773,
+          "gammaFlip": 7772,
           "maxPain": 7641,
           "precio": 7564,
           "putWall": 7521
@@ -581,10 +581,10 @@
         "vencimientoCercano": "2026-11-04"
       },
       "id": "SPX",
-      "lectura": "Son las primeras horas del miércoles 4 de noviembre (07:16 UTC), antes de la apertura europea. Queda confirmado el barrido demócrata completo del Congreso (Senado y Cámara, según NBC y Fox News Decision Desk); Trump dice que aceptará el resultado pero lo atribuye a los candidatos republicanos. La probabilidad de subida de tipos en diciembre (Kalshi) se mantiene en el 78,0 %. La gamma del motor, recalculada con el open interest del 2 de noviembre, baja a -8,9 mil M$ por 1 % (antes -7,7): el call wall se mantiene en 7.722, el giro de gamma baja ligeramente a 7.773 (antes 7.778) y el max pain baja a 7.641 (antes 7.691); el put/call OI sube a 1,95 (antes 1,90). El petróleo sigue retrocediendo hacia 96 $/barril pese a las señales encontradas de Irán sobre Ormuz. Sesgo: bajista.",
+      "lectura": "Son las 09:16 UTC (09:16 en Canarias) del miércoles 4 de noviembre, antes de la apertura europea. Los futuros del S&P 500 amplían la recuperación y pasan a positivo (+0,2 %), tras haber llegado a caer un 1,4 % durante la noche por el barrido demócrata en el Congreso (confirmado por NBC y Fox News Decision Desk); Trump acepta el resultado. La probabilidad de subida de tipos en diciembre (Kalshi) se mantiene en el 78,5 %. La gamma del motor, con el open interest del 2 de noviembre, sigue negativa en -8,9 mil M$ por 1 %: el call wall se mantiene en 7.722, el giro de gamma baja ligeramente a 7.772 (antes 7.773) y el max pain en 7.641; el put/call OI en 1,95. El petróleo WTI repunta ligeramente hacia 96,35 $/barril. Sesgo: bajista, aunque la recuperación de los futuros suaviza el tono a corto plazo.",
       "levels": {
         "callWall": 7722,
-        "gammaFlip": 7773,
+        "gammaFlip": 7772,
         "maxPain": 7641,
         "putWall": 7521
       },
@@ -598,12 +598,12 @@
       "spot": 7568.92
     },
     {
-      "changeNote": "futuros NQ -0,5 % (tras tocar -2,4 % durante la noche), sobre el cierre de 28.180,26 puntos (+0,70 %)",
-      "changePct": -0.5,
+      "changeNote": "futuros NQ +0,3 % (recuperación completa tras tocar -2,4 % durante la noche), sobre el cierre de 28.180,26 puntos (+0,70 %); en vivo, 09:15 Canarias",
+      "changePct": 0.3,
       "claves": [
         "Call wall en 29378 (QQQ 715); put wall en 27940 (QQQ 680),",
         "Régimen de gamma negativa en -4,2 mil M$ por 1 % de movimiento,",
-        "Giro de gamma (gamma flip) en 29827 (QQQ 725.94), por encima del precio: la gamma sigue negativa,",
+        "Giro de gamma (gamma flip) en 29817 (QQQ 725.68), por encima del precio: la gamma sigue negativa,",
         "Max pain en 28556 (QQQ 695); put/call OI 2,24,"
       ],
       "gex": {
@@ -776,11 +776,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 725.94,
+        "gammaFlip": 725.68,
         "gexTotal": -4.15,
         "indice": {
           "callWall": 29378,
-          "gammaFlip": 29827,
+          "gammaFlip": 29817,
           "maxPain": 28556,
           "precio": 28274,
           "putWall": 27940
@@ -813,10 +813,10 @@
         "vencimientoCercano": "2026-11-04"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cerró ayer en 28.180,26 puntos (+0,70 %), aún en corrección técnica. La gamma del motor, recalculada con el open interest del 2 de noviembre, baja a -4,2 mil M$ por 1 % (antes -4,1), y calcula el giro de gamma en 29.827 (antes 29.838) (por encima del precio: la gamma sigue negativa); el call wall sube a 29.378 (antes 28.761, que coincidía con el max pain) y el max pain baja a 28.556; el put/call OI baja a 2,24 (antes 2,69). AMD cae con fuerza en el after-hours por dudas sobre márgenes e inventario pese a batir expectativas, mientras Nvidia mantiene el título de empresa más valiosa del mundo. Sesgo: bajista.",
+      "lectura": "Los futuros del Nasdaq 100 amplían la recuperación y pasan a positivo (+0,3 %), tras haber llegado a caer un 2,4 % durante la noche. La gamma del motor sigue negativa en -4,2 mil M$ por 1 %, con el giro de gamma ajustándose a 29.817 (antes 29.827); el call wall se mantiene en 29.378 y el max pain en 28.556; el put/call OI en 2,24. AMD sigue bajo presión tras caer con fuerza en el after-hours por dudas sobre márgenes, mientras Nvidia mantiene el título de empresa más valiosa del mundo. Sesgo: bajista, aunque la recuperación de los futuros suaviza el tono a corto plazo.",
       "levels": {
         "callWall": 29378,
-        "gammaFlip": 29827,
+        "gammaFlip": 29817,
         "maxPain": 28556,
         "putWall": 27940
       },
@@ -964,6 +964,18 @@
     "tga": 999.7
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "Bloomberg",
+      "impacto": "medio",
+      "resumen": "Tras llegar a caer hasta un 1,4 % y un 2,4 % durante la noche por el barrido demócrata en el Congreso, los futuros pasan a terreno positivo.",
+      "titular": "Los futuros de Wall Street amplían la recuperación: S&P 500 +0,2 % y Nasdaq 100 +0,3 %",
+      "ts": "2026-11-04T08:48:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-03/stock-market-today-dow-s-p-live-updates"
+    },
     {
       "activos": {
         "BTC": "alcista",
@@ -1129,17 +1141,6 @@
       "titular": "Los mercados de predicción dan un 75-80 % a un vuelco demócrata en el Congreso; JPMorgan ve un riesgo del 0,5 % para el S&P 500",
       "ts": "2026-11-03T14:00:00Z",
       "url": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html"
-    },
-    {
-      "activos": {
-        "WTI": "bajista"
-      },
-      "fuente": "CNBC / Investing.com",
-      "impacto": "alto",
-      "resumen": "El WTI cae 63 centavos hasta 95,83 $ y el Brent retrocede a 103,18 $, su segunda sesión consecutiva a la baja, mientras avanzan las conversaciones indirectas entre EE. UU. e Irán sobre la reapertura del estrecho de Ormuz.",
-      "titular": "El petróleo extiende su caída a 95,83 $/barril por segunda sesión ante el avance de la diplomacia sobre Ormuz",
-      "ts": "2026-11-03T13:30:00Z",
-      "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
     }
   ],
   "odte": {
@@ -1275,7 +1276,7 @@
       }
     ]
   },
-  "resumen": "Son las 08:16 UTC (08:16 en Canarias, 09:16 en Madrid y Fráncfort, 03:16 en Nueva York) del miércoles 4 de noviembre de 2026, antes de la apertura europea. Queda confirmado el barrido demócrata completo del Congreso (Senado y Cámara, según NBC y Fox News Decision Desk); Trump dice que aceptará el resultado, aunque atribuye las derrotas republicanas a los propios candidatos. El dólar afloja hacia 101,7 puntos (EUR/USD sube a 1,121) tras digerir el resultado electoral. La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) sube ligeramente al 78,5 % (tasa implícita 4,07 %). La gamma del motor, recalculada con el open interest del 2 de noviembre, sigue negativa en ambos índices: en el S&P 500 se mantiene en -8,9 mil M$ por 1 %, con el call wall en 7.722 y el giro de gamma en 7.773; en el Nasdaq 100 se mantiene en -4,2 mil M$ por 1 %, con el giro de gamma ajustándose levemente a 29.827 (antes 29.838). El petróleo WTI sigue retrocediendo hacia 96 $/barril pese a que Irán califica de «no satisfactoria» la respuesta de EE. UU. sobre la reapertura del estrecho de Ormuz; el oro se mantiene firme en torno a 3.945 $/oz y el bitcoin en torno a 77.500 $. Hoy se publican el IPC preliminar de la eurozona (10:00 UTC), el ADP y el ISM de servicios de EE. UU. Sesgo: bajista en ambos índices.",
+  "resumen": "Son las 09:16 UTC (09:16 en Canarias, 10:16 en Madrid y Fráncfort, 04:16 en Nueva York) del miércoles 4 de noviembre de 2026, antes de la apertura europea. Los futuros de Wall Street amplían la recuperación y pasan a terreno positivo (S&P 500 +0,2 %, Nasdaq 100 +0,3 %), tras haber llegado a caer hasta un 1,4 % y un 2,4 % durante la noche por el barrido demócrata completo del Congreso (confirmado por NBC y Fox News Decision Desk); Trump dice que aceptará el resultado, aunque lo atribuye a los propios candidatos republicanos. El dólar sigue flojo tras el resultado electoral. La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) se mantiene en el 78,5 % (tasa implícita 4,07 %), sin cambios respecto a la hora anterior. La gamma del motor sigue negativa en ambos índices: en el S&P 500 en -8,9 mil M$ por 1 %, con el giro de gamma bajando levemente a 7.772; en el Nasdaq 100 en -4,2 mil M$ por 1 %, con el giro de gamma en 29.817. El petróleo WTI repunta ligeramente hacia 96,35 $/barril; el oro se mantiene firme en torno a 3.950-3.960 $/oz y el bitcoin ronda los 76.000-77.000 $. Hoy se publican el IPC preliminar de la eurozona (10:00 UTC), el ADP y el ISM de servicios de EE. UU., aún pendientes. Sesgo: bajista en ambos índices, aunque la recuperación de los futuros suaviza el tono a corto plazo.",
   "semana": {
     "activos": [
       {
@@ -1590,5 +1591,5 @@
     "updatedAt": "2026-11-04T06:51:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-04T08:16:19Z"
+  "updatedAt": "2026-11-04T09:16:12Z"
 }
