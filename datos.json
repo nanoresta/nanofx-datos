@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-04T19:18:37Z",
+ "generado": "2026-11-04T19:49:05Z",
  "errores": [],
  "fed": [
   {
    "fecha": "2026-12-09",
-   "subir": 80.5,
+   "subir": 81.5,
    "bajar": 1.5,
-   "mantener": 18.0,
+   "mantener": 17.0,
    "tasaImplicita": 4.08
   },
   {
@@ -19,8 +19,8 @@
   {
    "fecha": "2027-04-28",
    "subir": 23.0,
-   "bajar": 4.0,
-   "mantener": 73.0,
+   "bajar": 5.0,
+   "mantener": 72.0,
    "tasaImplicita": 4.3
   }
  ],
@@ -158,107 +158,111 @@
  "opciones": {
   "SPX": {
    "etf": "SPY",
-   "precio": 768.19,
+   "precio": 768.04,
    "oiFecha": "2026-11-02",
-   "contratos": 1253,
+   "contratos": 1249,
    "ratioIndice": 10.0333,
    "ratioFecha": "2026-11-03",
    "regimen": "negativa",
-   "gexTotal": -2.26,
-   "pcrOI": 1.7,
+   "gexTotal": -2.34,
+   "pcrOI": 1.71,
    "callWall": 770.0,
    "putWall": 750.0,
-   "gammaFlip": 772.1,
+   "gammaFlip": 771.96,
    "maxPain": 762.0,
    "vencimientoCercano": "2026-11-04",
    "escalera": [
     {
+     "strike": 745.0,
+     "gex": -708.4
+    },
+    {
      "strike": 746.0,
-     "gex": -33.7
+     "gex": -32.9
     },
     {
      "strike": 747.0,
-     "gex": -38.0
+     "gex": -37.4
     },
     {
      "strike": 748.0,
-     "gex": -50.9
+     "gex": -51.1
     },
     {
      "strike": 749.0,
-     "gex": -74.0
+     "gex": -71.6
     },
     {
      "strike": 750.0,
-     "gex": -884.5
+     "gex": -901.1
     },
     {
      "strike": 751.0,
-     "gex": -42.6
+     "gex": -42.0
     },
     {
      "strike": 752.0,
-     "gex": -64.4
+     "gex": -65.2
     },
     {
      "strike": 753.0,
-     "gex": -74.6
+     "gex": -75.4
     },
     {
      "strike": 754.0,
-     "gex": -56.3
+     "gex": -60.0
     },
     {
      "strike": 755.0,
-     "gex": -316.9
+     "gex": -327.6
     },
     {
      "strike": 756.0,
-     "gex": -44.9
+     "gex": -45.7
     },
     {
      "strike": 757.0,
-     "gex": -324.5
+     "gex": -328.2
     },
     {
      "strike": 758.0,
-     "gex": -42.9
+     "gex": -43.1
     },
     {
      "strike": 759.0,
-     "gex": -7.5
+     "gex": -5.8
     },
     {
      "strike": 760.0,
-     "gex": -396.4
+     "gex": -401.7
     },
     {
      "strike": 761.0,
-     "gex": -75.7
+     "gex": -77.1
     },
     {
      "strike": 762.0,
-     "gex": -121.3
+     "gex": -123.1
     },
     {
      "strike": 763.0,
-     "gex": -32.1
+     "gex": -31.3
     },
     {
      "strike": 764.0,
-     "gex": -7.3
+     "gex": -8.6
     },
     {
      "strike": 765.0,
-     "gex": 32.8
+     "gex": 35.4
     },
     {
      "strike": 766.0,
-     "gex": 90.3
+     "gex": 91.6
     },
     {
      "strike": 767.0,
-     "gex": 49.7
+     "gex": 48.9
     },
     {
      "strike": 768.0,
@@ -266,102 +270,102 @@
     },
     {
      "strike": 769.0,
-     "gex": 37.8
+     "gex": 40.0
     },
     {
      "strike": 770.0,
-     "gex": 450.7
+     "gex": 451.1
     },
     {
      "strike": 771.0,
-     "gex": -47.7
+     "gex": -48.2
     },
     {
      "strike": 772.0,
-     "gex": -20.8
+     "gex": -23.2
     },
     {
      "strike": 773.0,
-     "gex": 62.9
+     "gex": 61.7
     },
     {
      "strike": 774.0,
-     "gex": 23.4
+     "gex": 24.6
     },
     {
      "strike": 775.0,
-     "gex": 468.6
+     "gex": 468.8
     },
     {
      "strike": 776.0,
-     "gex": 330.8
+     "gex": 330.4
     },
     {
      "strike": 777.0,
-     "gex": 33.5
+     "gex": 31.2
     },
     {
      "strike": 778.0,
-     "gex": 116.8
+     "gex": 115.3
     },
     {
      "strike": 779.0,
-     "gex": 44.1
+     "gex": 43.7
     },
     {
      "strike": 780.0,
-     "gex": 635.6
+     "gex": 605.8
     },
     {
      "strike": 781.0,
-     "gex": 101.6
+     "gex": 98.8
     },
     {
      "strike": 782.0,
-     "gex": 66.6
+     "gex": 65.0
     },
     {
      "strike": 783.0,
-     "gex": 62.9
+     "gex": 60.4
     },
     {
      "strike": 784.0,
-     "gex": 53.4
+     "gex": 50.8
     },
     {
      "strike": 785.0,
-     "gex": 209.8
+     "gex": 208.0
     },
     {
      "strike": 786.0,
-     "gex": 39.7
+     "gex": 39.4
     },
     {
      "strike": 787.0,
-     "gex": 41.4
+     "gex": 40.8
     },
     {
      "strike": 788.0,
-     "gex": 67.6
+     "gex": 67.3
     },
     {
      "strike": 789.0,
-     "gex": 57.5
+     "gex": 57.0
     },
     {
      "strike": 790.0,
-     "gex": 265.2
+     "gex": 264.0
     },
     {
      "strike": 791.0,
-     "gex": 42.9
+     "gex": 42.1
     }
    ],
    "indice": {
-    "precio": 7707,
+    "precio": 7706,
     "callWall": 7726,
     "putWall": 7525,
-    "gammaFlip": 7747,
+    "gammaFlip": 7745,
     "maxPain": 7645
    },
    "odte": {
@@ -384,119 +388,123 @@
   },
   "NDX": {
    "etf": "QQQ",
-   "precio": 694.39,
+   "precio": 693.43,
    "oiFecha": "2026-11-02",
-   "contratos": 1143,
+   "contratos": 1130,
    "ratioIndice": 41.1199,
    "ratioFecha": "2026-11-03",
    "regimen": "negativa",
-   "gexTotal": -4.93,
-   "pcrOI": 1.88,
+   "gexTotal": -5.07,
+   "pcrOI": 2.06,
    "callWall": 700.0,
    "putWall": 680.0,
-   "gammaFlip": 722.15,
+   "gammaFlip": 724.97,
    "maxPain": 695.0,
    "vencimientoCercano": "2026-11-04",
    "escalera": [
+    {
+     "strike": 673.0,
+     "gex": -0.0
+    },
     {
      "strike": 674.0,
      "gex": -0.7
     },
     {
      "strike": 675.0,
-     "gex": -515.2
+     "gex": -533.8
     },
     {
      "strike": 676.0,
-     "gex": -62.6
+     "gex": -65.7
     },
     {
      "strike": 677.0,
-     "gex": -20.7
+     "gex": -21.3
     },
     {
      "strike": 678.0,
-     "gex": -45.9
+     "gex": -48.1
     },
     {
      "strike": 679.0,
-     "gex": -8.8
+     "gex": -9.2
     },
     {
      "strike": 680.0,
-     "gex": -914.2
+     "gex": -943.8
     },
     {
      "strike": 681.0,
-     "gex": -45.3
+     "gex": -46.6
     },
     {
      "strike": 682.0,
-     "gex": -104.8
+     "gex": -110.1
     },
     {
      "strike": 683.0,
-     "gex": -0.6
+     "gex": 0.6
     },
     {
      "strike": 684.0,
-     "gex": -14.3
+     "gex": -15.0
     },
     {
      "strike": 685.0,
-     "gex": -499.0
+     "gex": -513.2
     },
     {
      "strike": 686.0,
-     "gex": -30.1
+     "gex": -31.8
     },
     {
      "strike": 687.0,
-     "gex": -17.2
+     "gex": -17.9
     },
     {
      "strike": 688.0,
-     "gex": -20.9
+     "gex": -21.7
     },
     {
      "strike": 689.0,
-     "gex": -27.3
+     "gex": -28.6
     },
     {
      "strike": 690.0,
-     "gex": -505.8
+     "gex": -511.9
     },
     {
      "strike": 691.0,
-     "gex": -228.5
+     "gex": -238.6
     },
     {
      "strike": 692.0,
-     "gex": -13.4
+     "gex": -14.0
     },
     {
      "strike": 693.0,
-     "gex": -233.3
+     "gex": -237.8
     },
     {
      "strike": 694.0,
-     "gex": -13.0
+     "gex": -13.8
     },
     {
      "strike": 695.0,
-     "gex": -175.2
+     "gex": -180.2
     },
     {
      "strike": 696.0,
-     "gex": -16.9
+     "gex": -17.5
     },
     {
      "strike": 697.0,
-     "gex": -5.4
+     "gex": -5.8
     },
     {
      "strike": 698.0,
-     "gex": -53.4
+     "gex": -54.6
     },
     {
      "strike": 699.0,
@@ -504,31 +512,31 @@
     },
     {
      "strike": 700.0,
-     "gex": -267.6
+     "gex": -259.3
     },
     {
      "strike": 701.0,
-     "gex": -10.5
+     "gex": -10.7
     },
     {
      "strike": 702.0,
-     "gex": 0.2
+     "gex": -0.0
     },
     {
      "strike": 703.0,
-     "gex": 3.1
+     "gex": 2.8
     },
     {
      "strike": 704.0,
-     "gex": -1.3
+     "gex": -1.2
     },
     {
      "strike": 705.0,
-     "gex": -88.6
+     "gex": -91.7
     },
     {
      "strike": 706.0,
-     "gex": 11.5
+     "gex": 10.7
     },
     {
      "strike": 707.0,
@@ -536,42 +544,38 @@
     },
     {
      "strike": 708.0,
-     "gex": -70.0
+     "gex": -57.1
     },
     {
      "strike": 709.0,
-     "gex": -3.9
+     "gex": -4.0
     },
     {
      "strike": 710.0,
-     "gex": -37.0
+     "gex": -22.7
     },
     {
      "strike": 711.0,
-     "gex": -0.9
+     "gex": -1.4
     },
     {
      "strike": 712.0,
-     "gex": -56.4
+     "gex": -41.5
     },
     {
      "strike": 713.0,
-     "gex": -252.9
+     "gex": -180.2
     },
     {
      "strike": 714.0,
-     "gex": -1.2
-    },
-    {
-     "strike": 715.0,
-     "gex": 152.9
+     "gex": -15.2
     }
    ],
    "indice": {
-    "precio": 28553,
+    "precio": 28514,
     "callWall": 28784,
     "putWall": 27962,
-    "gammaFlip": 29695,
+    "gammaFlip": 29811,
     "maxPain": 28578
    },
    "odte": {
@@ -583,7 +587,7 @@
     "putWall": 685.0,
     "gammaFlip": null,
     "maxPain": 695.0,
-    "pcrOI": 1.3,
+    "pcrOI": 1.32,
     "indice": {
      "callWall": 29195,
      "putWall": 28167,
@@ -593,10 +597,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-04T19:18:52Z"
+  "calculado": "2026-11-04T19:49:20Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-04T19:19:00Z",
+  "actualizado": "2026-11-04T19:49:28Z",
   "total": 55,
   "fase": "Expansión fuerte",
   "cambio4": -13,
