@@ -1,20 +1,20 @@
 {
- "generado": "2026-11-06T17:17:18Z",
+ "generado": "2026-11-06T20:31:33Z",
  "errores": [],
  "fed": [
   {
    "fecha": "2026-12-09",
-   "subir": 78.5,
-   "bajar": 1.0,
-   "mantener": 20.5,
-   "tasaImplicita": 4.07
+   "subir": 77.5,
+   "bajar": 1.5,
+   "mantener": 21.0,
+   "tasaImplicita": 4.06
   },
   {
    "fecha": "2027-01-27",
    "subir": 93.5,
    "bajar": 6.0,
    "mantener": 0.5,
-   "tasaImplicita": 4.29
+   "tasaImplicita": 4.13
   },
   {
    "fecha": "2027-04-28",
@@ -41,9 +41,9 @@
   "reservas": 2930.1,
   "dReservas": 36.3,
   "repo": 0.0,
-  "repoFecha": "2026-11-05",
-  "rrpHoy": 0.125,
-  "rrpFecha": "2026-11-05",
+  "repoFecha": "2026-11-06",
+  "rrpHoy": 0.15,
+  "rrpFecha": "2026-11-06",
   "serie": [
    {
     "fecha": "2026-05-06",
@@ -158,206 +158,202 @@
  "opciones": {
   "SPX": {
    "etf": "SPY",
-   "precio": 739.03,
+   "precio": 737.83,
    "oiFecha": "2026-11-04",
-   "contratos": 1935,
+   "contratos": 1872,
    "ratioIndice": 10.0265,
    "ratioFecha": "2026-11-05",
    "regimen": "negativa",
-   "gexTotal": -10.59,
-   "pcrOI": 2.71,
-   "callWall": 770.0,
+   "gexTotal": -10.93,
+   "pcrOI": 2.73,
+   "callWall": 760.0,
    "putWall": 740.0,
-   "gammaFlip": 780.3,
+   "gammaFlip": null,
    "maxPain": 765.0,
    "vencimientoCercano": "2026-11-06",
    "escalera": [
     {
+     "strike": 716.0,
+     "gex": -118.6
+    },
+    {
      "strike": 717.0,
-     "gex": -35.0
+     "gex": -36.3
     },
     {
      "strike": 718.0,
-     "gex": -191.7
+     "gex": -197.5
     },
     {
      "strike": 719.0,
-     "gex": -19.9
+     "gex": -20.4
     },
     {
      "strike": 720.0,
-     "gex": -543.7
+     "gex": -562.8
     },
     {
      "strike": 721.0,
-     "gex": -23.1
+     "gex": -24.0
     },
     {
      "strike": 722.0,
-     "gex": -209.2
+     "gex": -215.1
     },
     {
      "strike": 723.0,
-     "gex": -48.2
+     "gex": -49.3
     },
     {
      "strike": 724.0,
-     "gex": -142.5
+     "gex": -146.6
     },
     {
      "strike": 725.0,
-     "gex": -807.9
+     "gex": -844.8
     },
     {
      "strike": 726.0,
-     "gex": -136.0
+     "gex": -138.6
     },
     {
      "strike": 727.0,
-     "gex": -177.6
+     "gex": -182.9
     },
     {
      "strike": 728.0,
-     "gex": -332.7
+     "gex": -338.1
     },
     {
      "strike": 729.0,
-     "gex": -94.9
+     "gex": -98.4
     },
     {
      "strike": 730.0,
-     "gex": -766.0
+     "gex": -799.1
     },
     {
      "strike": 731.0,
-     "gex": -32.4
+     "gex": -33.7
     },
     {
      "strike": 732.0,
-     "gex": -114.8
+     "gex": -118.9
     },
     {
      "strike": 733.0,
-     "gex": -164.4
+     "gex": -167.8
     },
     {
      "strike": 734.0,
-     "gex": -140.4
+     "gex": -144.1
     },
     {
      "strike": 735.0,
-     "gex": -290.8
+     "gex": -305.9
     },
     {
      "strike": 736.0,
-     "gex": -230.6
+     "gex": -239.7
     },
     {
      "strike": 737.0,
-     "gex": -51.0
+     "gex": -52.4
     },
     {
      "strike": 738.0,
-     "gex": -101.9
+     "gex": -106.8
     },
     {
      "strike": 739.0,
-     "gex": -177.6
+     "gex": -179.8
     },
     {
      "strike": 740.0,
-     "gex": -1261.7
+     "gex": -1284.4
     },
     {
      "strike": 741.0,
-     "gex": -49.7
+     "gex": -51.5
     },
     {
      "strike": 742.0,
-     "gex": -83.0
+     "gex": -86.7
     },
     {
      "strike": 743.0,
-     "gex": -52.3
+     "gex": -54.0
     },
     {
      "strike": 744.0,
-     "gex": -63.6
+     "gex": -64.8
     },
     {
      "strike": 745.0,
-     "gex": -741.8
+     "gex": -757.8
     },
     {
      "strike": 746.0,
-     "gex": -42.4
+     "gex": -42.6
     },
     {
      "strike": 747.0,
-     "gex": -57.7
+     "gex": -58.0
     },
     {
      "strike": 748.0,
-     "gex": -73.4
+     "gex": -73.3
     },
     {
      "strike": 749.0,
-     "gex": -40.3
+     "gex": -40.1
     },
     {
      "strike": 750.0,
-     "gex": -814.4
+     "gex": -789.1
     },
     {
      "strike": 751.0,
-     "gex": -45.8
+     "gex": -45.6
     },
     {
      "strike": 752.0,
-     "gex": -57.9
+     "gex": -57.8
     },
     {
      "strike": 753.0,
-     "gex": -66.1
+     "gex": -65.9
     },
     {
      "strike": 754.0,
-     "gex": -24.1
+     "gex": -21.4
     },
     {
      "strike": 755.0,
-     "gex": -340.6
+     "gex": -252.3
     },
     {
      "strike": 756.0,
-     "gex": -27.7
+     "gex": -29.0
     },
     {
      "strike": 757.0,
-     "gex": -189.5
+     "gex": -187.3
     },
     {
      "strike": 758.0,
-     "gex": -51.1
+     "gex": -41.3
     },
     {
      "strike": 759.0,
-     "gex": -11.1
-    },
-    {
-     "strike": 760.0,
-     "gex": -207.5
-    },
-    {
-     "strike": 761.0,
-     "gex": -23.6
+     "gex": -8.3
     }
    ],
    "indice": {
-    "precio": 7410,
-    "callWall": 7720,
+    "precio": 7398,
+    "callWall": 7620,
     "putWall": 7420,
-    "gammaFlip": 7824,
+    "gammaFlip": null,
     "maxPain": 7670
    },
    "odte": {
@@ -369,7 +365,7 @@
     "putWall": 750.0,
     "gammaFlip": null,
     "maxPain": 765.0,
-    "pcrOI": 1.92,
+    "pcrOI": 1.93,
     "indice": {
      "callWall": 7821,
      "putWall": 7520,
@@ -380,13 +376,13 @@
   },
   "NDX": {
    "etf": "QQQ",
-   "precio": 659.02,
+   "precio": 658.92,
    "oiFecha": "2026-11-04",
-   "contratos": 1224,
+   "contratos": 1213,
    "ratioIndice": 41.0922,
    "ratioFecha": "2026-11-05",
    "regimen": "negativa",
-   "gexTotal": -3.52,
+   "gexTotal": -3.57,
    "pcrOI": 4.38,
    "callWall": 700.0,
    "putWall": 680.0,
@@ -396,131 +392,131 @@
    "escalera": [
     {
      "strike": 640.0,
-     "gex": -164.8
+     "gex": -167.4
     },
     {
      "strike": 645.0,
-     "gex": -92.2
+     "gex": -95.5
     },
     {
      "strike": 650.0,
-     "gex": -383.4
+     "gex": -403.1
     },
     {
      "strike": 651.0,
-     "gex": -8.2
+     "gex": -8.7
     },
     {
      "strike": 652.0,
-     "gex": -4.4
+     "gex": -4.8
     },
     {
      "strike": 653.0,
-     "gex": -6.9
+     "gex": -7.5
     },
     {
      "strike": 654.0,
-     "gex": -4.6
+     "gex": -5.1
     },
     {
      "strike": 655.0,
-     "gex": -109.2
+     "gex": -113.6
     },
     {
      "strike": 656.0,
-     "gex": -3.7
+     "gex": -4.0
     },
     {
      "strike": 657.0,
-     "gex": -3.3
+     "gex": -3.6
     },
     {
      "strike": 658.0,
-     "gex": -14.9
+     "gex": -15.7
     },
     {
      "strike": 659.0,
-     "gex": -6.3
+     "gex": -6.6
     },
     {
      "strike": 660.0,
-     "gex": -182.0
+     "gex": -189.3
     },
     {
      "strike": 661.0,
-     "gex": -5.4
+     "gex": -5.9
     },
     {
      "strike": 662.0,
-     "gex": -5.2
+     "gex": -5.7
     },
     {
      "strike": 663.0,
-     "gex": -5.1
+     "gex": -5.6
     },
     {
      "strike": 664.0,
-     "gex": -3.9
+     "gex": -4.2
     },
     {
      "strike": 665.0,
-     "gex": -96.5
+     "gex": -101.3
     },
     {
      "strike": 666.0,
-     "gex": -5.1
+     "gex": -5.5
     },
     {
      "strike": 667.0,
-     "gex": -5.3
+     "gex": -5.8
     },
     {
      "strike": 668.0,
-     "gex": -6.7
+     "gex": -7.3
     },
     {
      "strike": 669.0,
-     "gex": -7.2
+     "gex": -7.6
     },
     {
      "strike": 670.0,
-     "gex": -267.5
+     "gex": -278.5
     },
     {
      "strike": 671.0,
-     "gex": -13.3
+     "gex": -13.9
     },
     {
      "strike": 672.0,
-     "gex": -6.0
+     "gex": -6.2
     },
     {
      "strike": 673.0,
-     "gex": -3.4
+     "gex": -3.5
     },
     {
      "strike": 674.0,
-     "gex": -10.3
+     "gex": -10.8
     },
     {
      "strike": 675.0,
-     "gex": -286.4
+     "gex": -288.8
     },
     {
      "strike": 676.0,
-     "gex": -15.4
+     "gex": -15.7
     },
     {
      "strike": 677.0,
-     "gex": -18.9
+     "gex": -19.0
     },
     {
      "strike": 678.0,
-     "gex": -10.7
+     "gex": -11.0
     }
    ],
    "indice": {
-    "precio": 27081,
+    "precio": 27076,
     "callWall": 28765,
     "putWall": 27943,
     "gammaFlip": null,
@@ -545,10 +541,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-06T17:17:33Z"
+  "calculado": "2026-11-06T20:31:49Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-06T17:17:43Z",
+  "actualizado": "2026-11-06T20:31:56Z",
   "total": 49,
   "fase": "Expansión",
   "cambio4": -19,
