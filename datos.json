@@ -1,27 +1,27 @@
 {
- "generado": "2026-11-07T12:23:31Z",
+ "generado": "2026-11-07T15:52:58Z",
  "errores": [],
  "fed": [
   {
    "fecha": "2026-12-09",
-   "subir": 77.5,
+   "subir": 76.5,
    "bajar": 1.5,
-   "mantener": 21.0,
+   "mantener": 22.0,
    "tasaImplicita": 4.06
-  },
-  {
-   "fecha": "2027-01-27",
-   "subir": 94.5,
-   "bajar": 5.5,
-   "mantener": 0.0,
-   "tasaImplicita": 4.3
   },
   {
    "fecha": "2027-04-28",
    "subir": 95.0,
-   "bajar": 3.5,
-   "mantener": 1.5,
+   "bajar": 3.0,
+   "mantener": 2.0,
    "tasaImplicita": 4.56
+  },
+  {
+   "fecha": "2027-07-28",
+   "subir": 0.0,
+   "bajar": 100.0,
+   "mantener": 0,
+   "tasaImplicita": 3.72
   }
  ],
  "liquidez": {
@@ -168,7 +168,7 @@
    "pcrOI": 2.19,
    "callWall": 750.0,
    "putWall": 725.0,
-   "gammaFlip": 769.62,
+   "gammaFlip": 769.36,
    "maxPain": 747.0,
    "vencimientoCercano": "2026-11-09",
    "escalera": [
@@ -357,7 +357,7 @@
     "precio": 7380,
     "callWall": 7520,
     "putWall": 7269,
-    "gammaFlip": 7717,
+    "gammaFlip": 7714,
     "maxPain": 7490
    },
    "odte": {
@@ -561,10 +561,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-07T12:23:45Z"
+  "calculado": "2026-11-07T15:53:13Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-07T12:23:53Z",
+  "actualizado": "2026-11-07T15:53:22Z",
   "total": 49,
   "fase": "Expansión",
   "cambio4": -18,
