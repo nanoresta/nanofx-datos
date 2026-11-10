@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-11-06T07:46:45Z",
+  "actualizado": "2026-11-10T19:46:15Z",
   "corto": {
     "etapa": 2,
-    "etiqueta": "Calentamiento → giro",
-    "fase": 0.61,
-    "lectura": "El PIB creció un 3,4 % en el 3T y el PCE está en el 3,6 %; la Fed mantiene el 3,75-4,00 % y Kalshi da un 65,5 % a una subida el 9 dic (6 nov, desde 81,5 %). Pero el S&P 500 cayó un 4,36 % el 5 nov, el ADP de octubre fue de solo +86.000 y el empleo de septiembre +29.000: el techo empieza a girar."
+    "etiqueta": "Calentamiento",
+    "fase": 0.57,
+    "lectura": "El empleo de octubre sorprende al alza (+165.000, paro 4,1 %), el ISM manufacturero sube a 55,5 y el IPC de octubre avanza un 0,4 % mensual (subyacente +0,3 %); la Fed (3,75-4,00 %) tiene ya un 96,5 % de probabilidad de subir el 9 dic (Kalshi, 10 nov). La economía se recalienta en vez de girar."
   },
   "fuentes": [
     {
@@ -56,10 +56,6 @@
       "url": "https://money.usnews.com/investing/news/articles/2026-10-19/us-homebuilder-sentiment-tumbles-to-near-14-1-2-year-low-in-october"
     },
     {
-      "nombre": "Trading Economics · Bono 30 años EE. UU.",
-      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
-    },
-    {
       "nombre": "FXStreet · Vivienda y Treasuries (20 oct)",
       "url": "https://www.fxstreet.com/news/us-treasury-yields-retreat-as-iran-deal-hopes-pull-wti-lower-202610201649"
     },
@@ -94,9 +90,25 @@
     {
       "nombre": "Trading Economics · Bono 10 años EE. UU. (6 nov)",
       "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "nombre": "CBS News · IPC de octubre (10 nov)",
+      "url": "https://www.cbsnews.com/news/october-cpi-report-elevated-inflation/"
+    },
+    {
+      "nombre": "Trading Economics · Bono 30 años EE. UU. (10 nov)",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "Helious · Subasta de 10 años (10 nov)",
+      "url": "https://helious.io/news/auc-91282CRX1-2026-11-10/10-year-note-auction-in-line"
+    },
+    {
+      "nombre": "CoinDesk · La Fed subirá en diciembre (10 nov)",
+      "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
     }
   ],
-  "hacia": "Lo normal tras subir tipos con el empleo frenándose es una desaceleración o recesión en 6-18 meses; el desplome de la IA (efecto riqueza, menos inversión y crédito más caro) la adelantaría, y un IPC caliente o el petróleo por Irán (WTI ~90 $) forzarían más subidas. El empleo de octubre (hoy, consenso +63.000) es la próxima pista. Con la deuda tan alta, la salida más probable en una crisis sería imprimir dinero antes que recortar gasto.",
+  "hacia": "El patrón sigue siendo que la Fed sube hasta que algo se rompe y llega la desaceleración o recesión en 6-18 meses; una subida de 50 pb, un bono a 30 años por encima del 5,5 % o un pinchazo de la IA la adelantarían, y la caída del petróleo (Brent <92 $) podría retrasarla al enfriar la inflación. Con la deuda tan alta, la salida más probable en una crisis sería imprimir dinero antes que recortar gasto.",
   "indicadores": [
     {
       "c": "2T 2026 · Fed (Z.1)",
@@ -105,22 +117,22 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct (10-2, dos votos por subir) · 65,5 % subida el 9 dic (Kalshi, 6 nov)",
+      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (Kalshi, 10 nov); Waller abierto a 50 pb",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
     },
     {
-      "c": "septiembre (BLS, 14 oct) · subyacente 2,6 % · PCE 3,6 % y subyacente 3,1 % (29 oct)",
+      "c": "BLS 10 nov · subyacente +0,3 % · sin tasa anual por el cierre de 2025; septiembre 3,7 % a/a",
       "estado": "rojo",
       "n": "Inflación (IPC)",
-      "v": "3,7 %"
+      "v": "+0,4 % mensual (oct.)"
     },
     {
-      "c": "septiembre · ADP octubre +86.000 · peticiones de paro 189.000 (5 nov); octubre sale hoy 6 nov (consenso +63.000)",
-      "estado": "amarillo",
+      "c": "octubre (BLS, 6 nov) · consenso +63.000 · septiembre +29.000",
+      "estado": "verde",
       "n": "Empleo",
-      "v": "+29.000 · paro 4,2 %"
+      "v": "+165.000 · paro 4,1 %"
     },
     {
       "c": "3T 2026 · 1.ª estimación (BEA, 29 oct) · 2T: 2,2 %",
@@ -135,10 +147,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "6 nov · a 25 pb del umbral de atención; -42 pb en 1 mes (Trading Economics)",
+      "c": "10 nov · +9 pb en el día, a 13 pb del umbral de atención (Trading Economics)",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,25 %"
+      "v": "5,37 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -151,9 +163,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue alto (5,25 %, 6 nov) pese a la huida hacia los bonos, y el crédito de la IA se tensa (CDS de CoreWeave en récord): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años vuelve al 5,37 % (10 nov) con la Fed a punto de subir, y la subasta de 10 años muestra menos demanda extranjera (61,2 % de indirectos): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está al final de un ciclo corto y muy arriba en el ciclo largo. La economía sigue caliente (PIB +3,4 %, PCE 3,6 %) y la Fed tiene sesgo a subir, pero el desplome del 5 nov (S&P 500 -4,36 %, Nasdaq en corrección) endurece las condiciones financieras y rebaja la subida de diciembre al 65,5 %. La deuda total crece al 5,2 % anual, más que los salarios (3,7 %).",
+  "lectura": "EE. UU. está en la parte alta de un ciclo corto que se recalienta y muy arriba en el ciclo largo. El empleo de octubre (+165.000, paro 4,1 %) y el IPC (+0,4 % mensual) obligan a la Fed a subir tipos en diciembre (96,5 %), algo que encarece una deuda que ya crece al 5,2 % anual, más que los salarios (3,7 %).",
   "palancas": [
     {
       "estado": "rojo",
@@ -164,7 +176,7 @@
     {
       "estado": "amarillo",
       "n": "Reestructurar o impagar deuda",
-      "nota": "Sube la morosidad de los hogares (tarjetas 6,97 %, coches 3,0 %) y el crédito de la IA se tensa: CDS de CoreWeave en récord y ajustes de margen el 5-6 nov (Reuters); sin impagos grandes.",
+      "nota": "La morosidad de los hogares sigue alta (tarjetas 6,97 %, coches 3,0 %, 2T) y el crédito de la IA se encarece (prima de emisión de 12 pb frente a 2,25 pb en 2025); sin impagos grandes.",
       "valor": "Leve"
     },
     {
@@ -176,7 +188,7 @@
     {
       "estado": "amarillo",
       "n": "Imprimir dinero",
-      "nota": "La Fed mantiene sesgo a subir, pero el desplome del 5 nov rebaja la probabilidad de subida (65,5 %) y Trump presiona tras 'uno de los peores días de la historia': es la salida más probable si llega la crisis.",
+      "nota": "Hoy la Fed va en sentido contrario (96,5 % de subida en diciembre), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si llega la crisis, sigue siendo la salida más probable.",
       "valor": "Riesgo"
     }
   ],
@@ -365,6 +377,11 @@
       "corto": 0.61,
       "largo": 0.76,
       "ts": "2026-11-06T07:46:45Z"
+    },
+    {
+      "corto": 0.57,
+      "largo": 0.76,
+      "ts": "2026-11-10T19:46:15Z"
     }
   ]
 }
