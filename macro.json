@@ -547,8 +547,8 @@
   ],
   "indices": [
     {
-      "changeNote": "En vivo aprox. (20:00 Canarias / 15:00 Nueva York): el S&P 500 recorta algo la caida de la tarde y cede cerca de un 0,65% intradia, tras el IPC (incluido el subyacente) y el giro hawkish de Waller, con el bono a 2 anos cerca del 4,75-4,76%.",
-      "changePct": -0.65,
+      "changeNote": "cierre oficial, 21:00 UTC (21:00 Canarias / 16:00 Nueva York)",
+      "changePct": -0.38,
       "claves": [
         "Niveles del indice sin recalcular esta hora (sin ratio de conversion SPY-S&P 500): se mantienen el call wall en 7720, el put wall en 7420, el giro de gamma en 7824 y el max pain en 7670 (referencia del 6 de noviembre).",
         "A nivel del ETF (SPY), hoy el call wall esta en 750,0 $, el put wall en 730,0 $, el giro de gamma en 763,76 $ y el max pain en 740,0 $.",
@@ -778,7 +778,7 @@
         "vencimientoCercano": "2026-11-10"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 recorta parte de la caida de la tarde y cede cerca de un 0,65 % hacia el cierre, tras el IPC de octubre (+0,4 % mensual, con el subyacente tambien por encima del consenso en +0,3 %) y el giro hawkish del gobernador de la Fed Waller, que se abre a una subida de hasta 50 puntos basicos en diciembre: la probabilidad de hike (Kalshi) se mantiene en el 96,5 %. La investigacion de la junta de Nvidia sobre Jensen Huang (-6,3 % hoy, el mayor lastre del indice) sigue pesando sobre las tecnologicas, aunque el Russell 2000 destaca con una subida superior al 3 %. La gamma del motor para el SPY sigue negativa (-8,62 mil M$ por 1 %, open interest del 6 de noviembre, con mas de 4 horas de antiguedad); sin ratio de conversion esta hora, se mantienen como referencia el call wall en 7720 y el put wall en 7420 del indice.",
+      "lectura": "El S&P 500 cerro la sesion en 7.520,93 puntos, un 0,38 % menos, tras el IPC de octubre (+0,4 % mensual, con el subyacente tambien por encima del consenso en +0,3 %) y el giro hawkish del gobernador de la Fed Waller, que se abre a una subida de hasta 50 puntos basicos en diciembre: la probabilidad de hike (Kalshi) se mantiene en el 96,5 %. La investigacion de la junta de Nvidia sobre Jensen Huang (-6,3 % hoy, el mayor lastre del indice) sigue pesando sobre las tecnologicas, aunque el Russell 2000 destaca con una subida superior al 3 %. La gamma del motor para el SPY sigue negativa (-8,62 mil M$ por 1 %, open interest del 6 de noviembre, con mas de 5 horas de antiguedad); sin ratio de conversion esta hora, se mantienen como referencia el call wall en 7720 y el put wall en 7420 del indice.",
       "levels": {
         "callWall": 7720,
         "gammaFlip": 7824,
@@ -787,15 +787,15 @@
       },
       "name": "S&P 500",
       "netGex": "negativa (-6,87 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-06)",
-      "precio": 7501.3,
+      "precio": 7520.93,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -55,
       "sesgo": "bajista",
-      "spot": 7501.3
+      "spot": 7520.93
     },
     {
-      "changeNote": "En vivo aprox. (20:00 Canarias / 15:00 Nueva York): el Nasdaq 100 recorta algo la caida de la tarde a cerca del 1,15%, con Nvidia -6,3% (el mayor lastre) y Microsoft bajo presion por la OPV de Anthropic y sus herramientas que rivalizan con Office.",
+      "changeNote": "ultima lectura fiable aprox. 20:00 UTC (21:00 Canarias); cierre oficial del NDX todavia sin confirmar por fuentes consultadas, el Nasdaq Composite cerro con una caida cercana al 0,7 %",
       "changePct": -1.15,
       "claves": [
         "Call wall en 28781 (QQQ 700,0); put wall en 27958 (QQQ 680,0).",
@@ -1006,7 +1006,7 @@
         "vencimientoCercano": "2026-11-10"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 sigue siendo el indice mas castigado hoy, con una caida que se modera a cerca del 1,15 % hacia el cierre: a la subida de tipos casi descontada en diciembre (96,5 %, Kalshi, tras el IPC y los comentarios hawkish de Waller) se suma la investigacion de la junta de Nvidia sobre posibles vinculos de Jensen Huang con inteligencia china (Nvidia cae un 6,3 %, el mayor lastre del indice) y la presion sobre Microsoft por la OPV de Anthropic y sus nuevas herramientas que rivalizan con Office. La gamma del motor sigue negativa (-2,24 mil M$ por 1 %, open interest del 6 de noviembre, con mas de 4 horas de antiguedad), con el call wall en 28781, el put wall en 27958 y el giro de gamma en 28684.",
+      "lectura": "El Nasdaq 100 sigue siendo el indice mas castigado hoy, con una caida que se modera a cerca del 1,15 % hacia el cierre: a la subida de tipos casi descontada en diciembre (96,5 %, Kalshi, tras el IPC y los comentarios hawkish de Waller) se suma la investigacion de la junta de Nvidia sobre posibles vinculos de Jensen Huang con inteligencia china (Nvidia cae un 6,3 %, el mayor lastre del indice) y la presion sobre Microsoft por la OPV de Anthropic y sus nuevas herramientas que rivalizan con Office. El Nasdaq Composite cerro con una caida cercana al 0,7 %; el cierre oficial del NDX no se ha podido confirmar con fuentes fiables esta hora. La gamma del motor sigue negativa (-2,24 mil M$ por 1 %, open interest del 6 de noviembre, con mas de 5 horas de antiguedad), con el call wall en 28781, el put wall en 27958 y el giro de gamma en 28684.",
       "levels": {
         "callWall": 28781,
         "gammaFlip": 28684,
@@ -1162,6 +1162,18 @@
         "NQ": "bajista",
         "SPX": "bajista"
       },
+      "fuente": "CNBC / Kiplinger",
+      "impacto": "medio",
+      "resumen": "El S&P 500 cerro en 7.520,93 puntos, un 0,38 % menos, tras el IPC de octubre y el giro hawkish de Waller.",
+      "titular": "Wall Street cierra con perdidas moderadas: el S&P 500 cae un 0,38 % y el Nasdaq Composite un 0,7 %",
+      "ts": "2026-11-10T21:00:00Z",
+      "url": "https://www.kiplinger.com/investing/stocks/stocks-drop-as-rate-hike-worries-rise-stock-market-today"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
       "fuente": "TheStreet / Google Finance",
       "impacto": "medio",
       "resumen": "Tras ampliar la caida al 0,83% (S&P) y 1,5% (Nasdaq 100) a primera hora de la tarde, los indices recortan parte de las perdidas; el Russell 2000 destaca con una subida superior al 3%, y el bono a 2 anos se mantiene cerca del 4,75-4,76%.",
@@ -1216,6 +1228,18 @@
     {
       "activos": {
         "BTC": "bajista",
+        "XAU": "bajista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "alto",
+      "resumen": "El oro ronda los 4.100 $/oz y bitcoin cae por debajo de 74.000 $ mientras el mercado refuerza las apuestas de una Fed mas dura.",
+      "titular": "El oro cae cerca de un 2 % y bitcoin pierde los 74.000 $ tras el IPC de octubre",
+      "ts": "2026-11-10T15:41:00Z",
+      "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-vs-gold-outlook-btc-and-xau-pull-back-as-us-inflation-rises-in-october-202611101541"
+    },
+    {
+      "activos": {
+        "BTC": "bajista",
         "EURUSD": "neutral",
         "NQ": "bajista",
         "SPX": "bajista"
@@ -1251,10 +1275,22 @@
     },
     {
       "activos": {
+        "EURUSD": "bajista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "alto",
+      "resumen": "El indice dolar sube cerca de un 0,3 % hasta 102, mientras el EUR/USD retrocede a unos 1,1190 tras el IPC de octubre.",
+      "titular": "El dolar se refuerza tras el IPC: el EUR/USD cae hacia 1,1190",
+      "ts": "2026-11-10T14:05:00Z",
+      "url": "https://fxstreet.com/news/euro-slips-below-11200-as-hotter-us-inflation-fuels-fed-rate-hike-bets-202611101405"
+    },
+    {
+      "activos": {
         "BTC": "bajista",
         "EURUSD": "bajista",
-        "NQ": "neutral",
-        "SPX": "bajista"
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "XAU": "bajista"
       },
       "fuente": "Yahoo Finance",
       "impacto": "alto",
@@ -1319,42 +1355,6 @@
       "titular": "La junta de Nvidia abre una investigación sobre Jensen Huang por presuntos vínculos con inteligencia china",
       "ts": "2026-11-10T13:00:00Z",
       "url": "https://www.digitalcitizen.life/nvidia-board-independent-investigation-jensen-huang-foreign-intelligence/"
-    },
-    {
-      "activos": {
-        "SPX": "alcista",
-        "WTI": "bajista",
-        "XAU": "neutral"
-      },
-      "fuente": "Oilprice.com / LBC",
-      "impacto": "alto",
-      "resumen": "El WTI baja hacia la media alta de los 80 $ y el Brent pierde los 92 $ mientras avanzan las conversaciones sobre Ormuz, con Catar e Iran acercando posiciones en un plan de reapertura del estrecho.",
-      "titular": "El petroleo cae a minimos de dos meses: Trump dice que nuevos ataques a Iran son “poco probables”",
-      "ts": "2026-11-10T09:00:00Z",
-      "url": "https://www.lbc.co.uk/article/439654de81084e8bb0b4d81de19e3b75-5Hjdm9p_2/"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "XAU": "bajista"
-      },
-      "fuente": "CoinDesk",
-      "impacto": "medio",
-      "resumen": "Los ETF spot de bitcoin registran fuertes salidas netas mientras el mercado descuenta ya una Fed más dura en diciembre.",
-      "titular": "Bitcoin cae a 74.000-75.000 $ con salidas de ETF por más de 1.000 millones $ antes del IPC",
-      "ts": "2026-11-10T08:00:00Z",
-      "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
-    },
-    {
-      "activos": {
-        "WTI": "bajista"
-      },
-      "fuente": "Saxo Bank",
-      "impacto": "alto",
-      "resumen": "El crudo acumula una caída semanal cercana al 16% ante señales de avance diplomático sobre Ormuz y las conversaciones Rusia-Ucrania.",
-      "titular": "El petróleo se desploma: el Brent cae por debajo de 92 $ por las esperanzas de acuerdo EE. UU.-Irán",
-      "ts": "2026-11-10T07:00:00Z",
-      "url": "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---wall-street-rebounds-and-brent-slides-below-usd-92---10-november-2026-10112026"
     }
   ],
   "odte": {
@@ -1490,7 +1490,7 @@
       }
     ]
   },
-  "resumen": "Son las 20:00 UTC (20:00 en Canarias, 21:00 en Madrid, 15:00 en Nueva York) del martes 10 de noviembre de 2026, hacia el cierre de la sesion de Wall Street. El IPC de octubre (+0,4 % mensual y el subyacente +0,3 %, ambos por encima del consenso, sin tasa interanual por el cierre de la Administracion) y el giro hawkish del gobernador de la Fed Waller, que se abre a una subida de hasta 50 puntos basicos en diciembre, han desatado las ventas: el S&P 500 recorta algo la caida de la tarde y cede cerca de un 0,65 %, mientras el Nasdaq 100 sigue mas castigado, en torno al 1,15 %, lastrado por Nvidia (-6,3 % tras la investigacion de su junta sobre Jensen Huang) y por la presion sobre Microsoft (OPV de Anthropic). La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi, motor de datos) se mantiene en el 96,5 %. El oro ronda los 4.120 $/oz (aprox., -0,3 % hoy), bitcoin ha perdido los 73.000 $ por primera vez desde agosto (en torno a 72.500-73.000 $, con salidas de ETF superiores a 1.280 millones $), el petroleo WTI sigue cerca de minimos de dos meses (entorno a los 84-85 $) por los avances diplomaticos sobre el estrecho de Ormuz, y el EUR/USD cotiza cerca de 1,1450, con el dolar firme tras el IPC. La gamma del motor (ultimo calculo a las 15:52 UTC, con mas de 4 horas de antiguedad) seguia en regimen negativo en ambos indices.",
+  "resumen": "Son las 21:16 UTC (21:16 en Canarias, 22:16 en Madrid, 16:16 en Nueva York) del martes 10 de noviembre de 2026, tras el cierre de Wall Street. El S&P 500 cerro en 7.520,93 puntos, un 0,38 % menos, y el Nasdaq Composite cedio cerca de un 0,7 %, lastrados por el IPC de octubre (+0,4 % mensual, con el subyacente tambien en +0,3 %, ambos por encima del consenso, sin tasa interanual por el cierre de la Administracion) y el giro hawkish del gobernador de la Fed Waller, que se abre a una subida de hasta 50 puntos basicos en diciembre. La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi, motor de datos) se mantiene en el 96,5 %. Nvidia se desplomo un 6,3 % tras la investigacion de su junta sobre Jensen Huang, el mayor lastre de las tecnologicas, mientras el Russell 2000 subio mas de un 3 %. El oro ronda los 4.100 $/oz (en torno a -1/-2 % hoy) y bitcoin cotiza por debajo de los 74.000 $ (en torno a 73.000-74.000 $, con salidas de ETF superiores a 1.280 millones $). El petroleo WTI sigue cerca de minimos de dos meses (entorno a los 84-85 $) por los avances diplomaticos sobre el estrecho de Ormuz. El dolar se refuerza tras el IPC: el indice dolar sube cerca de un 0,3 % hasta 102 y el EUR/USD retrocede a unos 1,1190 (se corrige el nivel de 1,1450 de la actualizacion anterior). La gamma del motor (ultimo calculo a las 15:52 UTC, con mas de 5 horas de antiguedad) seguia en regimen negativo en ambos indices.",
   "semana": {
     "activos": [
       {
@@ -1995,5 +1995,5 @@
     "updatedAt": "2026-11-10T19:20:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-10T20:16:05.000000Z"
+  "updatedAt": "2026-11-10T21:16:08.000000Z"
 }
