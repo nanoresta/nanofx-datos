@@ -509,8 +509,8 @@
   ],
   "indices": [
     {
-      "changeNote": "En vivo aprox. (17:17 Canarias / 12:17 Nueva York), tras el salto del bono a 2 años al 4,75 % (Bloomberg): S&P 500 -0,8 % intradia frente al cierre del lunes de 7.549,94.",
-      "changePct": -0.8,
+      "changeNote": "En vivo aprox. (18:16 Canarias / 13:16 Nueva York): el S&P 500 amplia la caida a cerca del 0,9% intradia tras el IPC y el giro hawkish de Waller, con el bono a 2 anos en el 4,76%.",
+      "changePct": -0.9,
       "claves": [
         "Niveles del indice sin recalcular esta hora (sin ratio de conversion SPY-S&P 500): se mantienen el call wall en 7720, el put wall en 7420, el giro de gamma en 7824 y el max pain en 7670 (referencia del 6 de noviembre).",
         "A nivel del ETF (SPY), hoy el call wall esta en 750,0 $, el put wall en 730,0 $, el giro de gamma en 763,76 $ y el max pain en 740,0 $.",
@@ -754,11 +754,11 @@
       "regimen": "negativa",
       "score": -58,
       "sesgo": "bajista",
-      "spot": 7489.5
+      "spot": 7486.6
     },
     {
-      "changeNote": "En vivo aprox. (17:17 Canarias / 12:17 Nueva York): Nasdaq 100 -1,1 % intradia (Yahoo Finance), lastrado por el IPC, Waller y la investigacion sobre Nvidia, tras el +3,40 % del lunes.",
-      "changePct": -1.1,
+      "changeNote": "En vivo aprox. (18:16 Canarias / 13:16 Nueva York): el Nasdaq 100 profundiza su caida a cerca del 1,3%, con Nvidia -3,1% y Microsoft -3% (tras el anuncio de herramientas de Claude de Anthropic que rivalizan con Office).",
+      "changePct": -1.3,
       "claves": [
         "Call wall en 28781 (QQQ 700,0); put wall en 27958 (QQQ 680,0).",
         "Regimen de gamma negativa, en -1,79 mil M$ por 1 % de movimiento (antes -2,07).",
@@ -982,7 +982,7 @@
       "regimen": "negativa",
       "score": -60,
       "sesgo": "bajista",
-      "spot": 27680
+      "spot": 27633
     }
   ],
   "liquidez": {
@@ -1151,16 +1151,14 @@
     },
     {
       "activos": {
-        "SPX": "alcista",
-        "WTI": "bajista",
-        "XAU": "neutral"
+        "NQ": "bajista"
       },
-      "fuente": "Oilprice.com / LBC",
-      "impacto": "alto",
-      "resumen": "El WTI baja hacia la media alta de los 80 $ y el Brent pierde los 92 $ mientras avanzan las conversaciones sobre Ormuz, con Catar e Iran acercando posiciones en un plan de reapertura del estrecho.",
-      "titular": "El petroleo cae a minimos de dos meses: Trump dice que nuevos ataques a Iran son “poco probables”",
-      "ts": "2026-11-10T09:00:00Z",
-      "url": "https://www.lbc.co.uk/article/439654de81084e8bb0b4d81de19e3b75-5Hjdm9p_2/"
+      "fuente": "Bloomberg / Yahoo Finance",
+      "impacto": "medio",
+      "resumen": "Las acciones de Microsoft bajan un 3% despues de que Anthropic presentara nuevas herramientas de Claude para el entorno de trabajo que compiten con Office.",
+      "titular": "Microsoft cae un 3% tras el anuncio de herramientas de Claude de Anthropic que rivalizan con Office",
+      "ts": "2026-11-10T15:10:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates"
     },
     {
       "activos": {
@@ -1220,6 +1218,19 @@
     },
     {
       "activos": {
+        "SPX": "alcista",
+        "WTI": "bajista",
+        "XAU": "neutral"
+      },
+      "fuente": "Oilprice.com / LBC",
+      "impacto": "alto",
+      "resumen": "El WTI baja hacia la media alta de los 80 $ y el Brent pierde los 92 $ mientras avanzan las conversaciones sobre Ormuz, con Catar e Iran acercando posiciones en un plan de reapertura del estrecho.",
+      "titular": "El petroleo cae a minimos de dos meses: Trump dice que nuevos ataques a Iran son “poco probables”",
+      "ts": "2026-11-10T09:00:00Z",
+      "url": "https://www.lbc.co.uk/article/439654de81084e8bb0b4d81de19e3b75-5Hjdm9p_2/"
+    },
+    {
+      "activos": {
         "BTC": "bajista",
         "XAU": "bajista"
       },
@@ -1251,6 +1262,17 @@
       "titular": "Los mercados asiáticos repuntan con fuerza: el Nikkei sube un 2,9% y el Kospi un 4,4%",
       "ts": "2026-11-10T06:30:00Z",
       "url": "https://www.cp24.com/news/money/2026/11/10/world-shares-rise-after-technology-shares-advance-on-wall-street-ahead-of-us-inflation-data/"
+    },
+    {
+      "activos": {
+        "EURUSD": "bajista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El EUR/USD retrocede mientras el dolar se fortalece, a pesar de las crecientes expectativas de un acuerdo diplomatico entre EE. UU. e Iran.",
+      "titular": "El euro cede frente al dolar pese a las apuestas de un acuerdo EE. UU.-Iran",
+      "ts": "2026-11-10T01:04:00Z",
+      "url": "https://www.fxstreet.com/news/euro-weakens-as-us-dollar-gains-despite-rising-us-iran-deal-bets-202611100104"
     },
     {
       "activos": {
@@ -1398,7 +1420,7 @@
       }
     ]
   },
-  "resumen": "Son las 17:17 UTC (17:17 en Canarias, 18:17 en Madrid, 12:17 en Nueva York) del martes 10 de noviembre de 2026, en plena sesion de Wall Street. El IPC de octubre (+0,4 % mensual, por encima del 0,3 % esperado, sin tasa interanual por el cierre de la Administracion) y el giro hawkish del gobernador de la Fed Waller, que se abre a una subida de hasta 50 puntos basicos en diciembre, han ampliado las ventas: el bono a 2 años salta 19 puntos basicos hasta el 4,75 % y el mercado ya descuenta al menos dos subidas de la Fed para mediados de 2027. El S&P 500 cede ahora un 0,8 % hasta unos 7.490 puntos y el Nasdaq 100 un 1,1 % hasta unos 27.680 puntos, lastrado ademas por la investigacion de la junta de Nvidia sobre Jensen Huang. La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi, motor de datos) se mantiene en el 96,5 %. El dolar se mantiene firme, el oro ronda los 4.127 $/oz (-0,4 %), bitcoin cotiza cerca de 74.200 $ (-0,8 %) con salidas de ETF, y el petroleo WTI se mantiene cerca de minimos de dos meses (Brent bajo 92 $) ante los avances diplomaticos sobre el estrecho de Ormuz y las conversaciones Rusia-Ucrania. El EUR/USD cotiza en torno a 1,1210. La gamma del motor sigue en regimen negativo en ambos indices.",
+  "resumen": "Son las 18:16 UTC (18:16 en Canarias, 19:16 en Madrid, 13:16 en Nueva York) del martes 10 de noviembre de 2026, en plena sesion de Wall Street. El IPC de octubre (+0,4 % mensual, por encima del 0,3 % esperado, sin tasa interanual por el cierre de la Administracion) y el giro hawkish del gobernador de la Fed Waller, que se abre a una subida de hasta 50 puntos basicos en diciembre, mantienen las ventas: el bono a 2 anos esta en el 4,76 % y la probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi, motor de datos) se mantiene en el 96,5 %. El S&P 500 cede ahora cerca de un 0,9 % hasta unos 7.487 puntos y el Nasdaq 100 un 1,3 % hasta unos 27.630 puntos, lastrado por Nvidia (-3,1 %, tras la investigacion de su junta sobre Jensen Huang) y Microsoft (-3 %, tras el anuncio de herramientas de Claude de Anthropic que rivalizan con Office). El dolar se mantiene firme, el oro ronda los 4.127 $/oz, bitcoin cotiza cerca de 74.300 $ con salidas de ETF, y el petroleo WTI se mantiene cerca de minimos de dos meses ante los avances diplomaticos sobre el estrecho de Ormuz. La gamma del motor sigue en regimen negativo en ambos indices.",
   "semana": {
     "activos": [
       {
@@ -1857,5 +1879,5 @@
     "updatedAt": "2026-11-10T16:18:55Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-10T17:17:30Z"
+  "updatedAt": "2026-11-10T18:20:00Z"
 }
