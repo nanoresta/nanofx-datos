@@ -151,8 +151,8 @@
       "previstoNum": 4.2
     },
     {
-      "actual": null,
-      "actualNum": null,
+      "actual": "51,0",
+      "actualNum": 51,
       "anterior": "48,0",
       "anteriorNum": 48,
       "divisaSiSube": "+",
@@ -160,13 +160,13 @@
       "fecha": "2026-11-06",
       "horaUtc": "15:00",
       "impacto": "medio",
-      "nota": "Anterior: 48,0 final de octubre (mínimo de 5 meses).",
+      "nota": "Dato publicado: 51,0, muy por encima del consenso (47,8) y del 48,0 de octubre; máximo de tres meses. Expectativas de inflación a un año bajan a 4,3 % desde 4,7 %.",
       "pais": "EE. UU.",
       "previsto": "47,8 (consenso Investing.com)",
       "previstoNum": 47.8
     },
     {
-      "actual": null,
+      "actual": "sin dato anual (ver nota)",
       "actualNum": null,
       "anterior": "3,7 % a/a",
       "anteriorNum": 3.7,
@@ -175,10 +175,25 @@
       "fecha": "2026-11-10",
       "horaUtc": "13:30",
       "impacto": "alto",
-      "nota": "Semana siguiente (9-13 nov).",
+      "nota": "La BLS no pudo calcular la tasa interanual de octubre por falta de datos de octubre de 2025 (cierre de la Administración). Ver fila separada del IPC mensual.",
       "pais": "EE. UU.",
       "previsto": "3,7 % a/a (nowcast Cleveland Fed / Polymarket)",
       "previstoNum": 3.7
+    },
+    {
+      "actual": "0,4 %",
+      "actualNum": 0.4,
+      "anterior": "0,6 %",
+      "anteriorNum": 0.6,
+      "divisaSiSube": "+",
+      "evento": "IPC (mensual, octubre)",
+      "fecha": "2026-11-10",
+      "horaUtc": "13:30",
+      "impacto": "alto",
+      "nota": "Dato publicado: por encima del consenso (0,3 %); sin tasa interanual publicada este mes por el cierre de la Administración.",
+      "pais": "EE. UU.",
+      "previsto": "0,3 % (consenso)",
+      "previstoNum": 0.3
     },
     {
       "actual": null,
@@ -190,7 +205,7 @@
       "fecha": "2026-11-12",
       "horaUtc": "13:30",
       "impacto": "medio",
-      "nota": "Semana siguiente (9-13 nov); consenso todavía no publicado.",
+      "nota": "Semana del 9-13 de noviembre; consenso todavía no publicado.",
       "pais": "EE. UU.",
       "previsto": "sin consenso confirmado",
       "previstoNum": null
@@ -205,7 +220,7 @@
       "fecha": "2026-11-13",
       "horaUtc": "13:30",
       "impacto": "alto",
-      "nota": "Semana siguiente (9-13 nov).",
+      "nota": "Semana del 9-13 de noviembre; consenso todavía no publicado.",
       "pais": "EE. UU.",
       "previsto": "sin consenso confirmado",
       "previstoNum": null
@@ -220,7 +235,7 @@
       "fecha": "2026-11-13",
       "horaUtc": "10:00",
       "impacto": "alto",
-      "nota": "Estimación avanzada del tercer trimestre de 2026, referencia frente al +1,0 % a/a del segundo trimestre; semana siguiente (9-13 nov).",
+      "nota": "Estimación avanzada del tercer trimestre de 2026, referencia frente al +1,0 % a/a del segundo trimestre; semana del 9-13 de noviembre.",
       "pais": "Eurozona",
       "previsto": "sin consenso confirmado",
       "previstoNum": null
@@ -237,22 +252,22 @@
       "impacto": "alto",
       "nota": "Reunión de dos días, 8-9 de diciembre de 2026; decisión y rueda de prensa el 9 de diciembre.",
       "pais": "EE. UU.",
-      "previsto": "probabilidad de subida 77,5 % según Kalshi (motor de datos)",
+      "previsto": "probabilidad de subida 91,5 % según Kalshi (motor de datos)",
       "previstoNum": null
     }
   ],
   "fed": {
-    "actualizado": "2026-11-06T16:46:03Z",
+    "actualizado": "2026-11-10T12:28:31Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) se mantiene en el 77,5 % (tasa implícita 4,06 %), sin cambios respecto a la hora anterior. Para la reunión de enero de 2027 también se mantiene en el 93,5 % (4,29 %).",
+    "lectura": "La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) salta al 91,5 % (tasa implícita 4,10 %), desde el 78,5 % de la última actualización, tras un IPC de octubre más caliente de lo esperado (+0,4 % mensual frente al +0,3 % previsto) y los comentarios del gobernador Waller a favor de una subida. Para marzo de 2027 la probabilidad se mantiene muy alta, en el 94,0 % (tasa implícita 4,24 %).",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
-        "bajar": 1,
+        "bajar": 1.5,
         "fecha": "2026-12-09",
-        "mantener": 21.5,
-        "subir": 77.5,
-        "tasaImplicita": 4.06
+        "mantener": 7,
+        "subir": 91.5,
+        "tasaImplicita": 4.1
       },
       {
         "bajar": 6,
@@ -262,18 +277,18 @@
         "tasaImplicita": 4.29
       },
       {
-        "bajar": 3.5,
+        "bajar": 5.5,
         "fecha": "2027-03-17",
-        "mantener": 2,
-        "subir": 94.5,
-        "tasaImplicita": 4.25
+        "mantener": 0.5,
+        "subir": 94,
+        "tasaImplicita": 4.24
       },
       {
-        "bajar": 4.5,
+        "bajar": 4,
         "fecha": "2027-04-28",
-        "mantener": 0.5,
-        "subir": 95,
-        "tasaImplicita": 4.55
+        "mantener": 10,
+        "subir": 86,
+        "tasaImplicita": 4.33
       },
       {
         "bajar": 1,
@@ -425,210 +440,214 @@
   ],
   "indices": [
     {
-      "changeNote": "En vivo (mercado abierto), 17:16 Canarias: S&P 500 sube en torno a un 1,0 % (TheStreet/CNBC).",
-      "changePct": 1,
+      "changeNote": "Cierre del lunes 9 de noviembre (TheStreet): Wall Street sube un 2,4 %, su mejor sesión desde abril; sin cotización en vivo del martes en esta actualización.",
+      "changePct": 2.4,
       "claves": [
         "Call wall en 7720 (SPY 770,0); put wall en 7420 (SPY 740,0).",
-        "Régimen de gamma negativa, en -10,5 mil M$ por 1 % de movimiento.",
-        "Giro de gamma (gamma flip) en 7816 (SPY 779,55).",
-        "Max pain en 7670 (SPY 765,0); put/call OI en 2,67."
+        "Régimen de gamma negativa, en -10,6 mil M$ por 1 % de movimiento.",
+        "Giro de gamma (gamma flip) en 7824 (SPY 780,3).",
+        "Max pain en 7670 (SPY 765,0); put/call OI en 2,71."
       ],
       "gex": {
         "callWall": 770,
-        "contratos": 1932,
+        "contratos": 1935,
         "escalera": [
           {
-            "gex": -189.8,
+            "gex": -35,
+            "strike": 717
+          },
+          {
+            "gex": -191.7,
             "strike": 718
           },
           {
-            "gex": -19.5,
+            "gex": -19.9,
             "strike": 719
           },
           {
-            "gex": -537.1,
+            "gex": -543.7,
             "strike": 720
           },
           {
-            "gex": -22.6,
+            "gex": -23.1,
             "strike": 721
           },
           {
-            "gex": -209.1,
+            "gex": -209.2,
             "strike": 722
           },
           {
-            "gex": -47.3,
+            "gex": -48.2,
             "strike": 723
           },
           {
-            "gex": -141.1,
+            "gex": -142.5,
             "strike": 724
           },
           {
-            "gex": -806.5,
+            "gex": -807.9,
             "strike": 725
           },
           {
-            "gex": -133.8,
+            "gex": -136,
             "strike": 726
           },
           {
-            "gex": -177,
+            "gex": -177.6,
             "strike": 727
           },
           {
-            "gex": -329.8,
+            "gex": -332.7,
             "strike": 728
           },
           {
-            "gex": -93.8,
+            "gex": -94.9,
             "strike": 729
           },
           {
-            "gex": -759.1,
+            "gex": -766,
             "strike": 730
           },
           {
-            "gex": -32,
+            "gex": -32.4,
             "strike": 731
           },
           {
-            "gex": -113.8,
+            "gex": -114.8,
             "strike": 732
           },
           {
-            "gex": -161.9,
+            "gex": -164.4,
             "strike": 733
           },
           {
-            "gex": -139.3,
+            "gex": -140.4,
             "strike": 734
           },
           {
-            "gex": -287.1,
+            "gex": -290.8,
             "strike": 735
           },
           {
-            "gex": -232.1,
+            "gex": -230.6,
             "strike": 736
           },
           {
-            "gex": -50.6,
+            "gex": -51,
             "strike": 737
           },
           {
-            "gex": -101.1,
+            "gex": -101.9,
             "strike": 738
           },
           {
-            "gex": -175.7,
+            "gex": -177.6,
             "strike": 739
           },
           {
-            "gex": -1247.3,
+            "gex": -1261.7,
             "strike": 740
           },
           {
-            "gex": -49.5,
+            "gex": -49.7,
             "strike": 741
           },
           {
-            "gex": -82.8,
+            "gex": -83,
             "strike": 742
           },
           {
-            "gex": -52.2,
+            "gex": -52.3,
             "strike": 743
           },
           {
-            "gex": -63.7,
+            "gex": -63.6,
             "strike": 744
           },
           {
-            "gex": -741.2,
+            "gex": -741.8,
             "strike": 745
           },
           {
-            "gex": -42.3,
+            "gex": -42.4,
             "strike": 746
           },
           {
-            "gex": -58.4,
+            "gex": -57.7,
             "strike": 747
           },
           {
-            "gex": -72.4,
+            "gex": -73.4,
             "strike": 748
           },
           {
-            "gex": -40.9,
+            "gex": -40.3,
             "strike": 749
           },
           {
-            "gex": -807.5,
+            "gex": -814.4,
             "strike": 750
           },
           {
-            "gex": -47.1,
+            "gex": -45.8,
             "strike": 751
           },
           {
-            "gex": -58.5,
+            "gex": -57.9,
             "strike": 752
           },
           {
-            "gex": -68.6,
+            "gex": -66.1,
             "strike": 753
           },
           {
-            "gex": -25.5,
+            "gex": -24.1,
             "strike": 754
           },
           {
-            "gex": -354.7,
+            "gex": -340.6,
             "strike": 755
           },
           {
-            "gex": -28.8,
+            "gex": -27.7,
             "strike": 756
           },
           {
-            "gex": -193,
+            "gex": -189.5,
             "strike": 757
           },
           {
-            "gex": -55.4,
+            "gex": -51.1,
             "strike": 758
           },
           {
-            "gex": -10.3,
+            "gex": -11.1,
             "strike": 759
           },
           {
-            "gex": -228.8,
+            "gex": -207.5,
             "strike": 760
           },
           {
-            "gex": -23.5,
+            "gex": -23.6,
             "strike": 761
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 779.55,
-        "gexTotal": -10.5,
+        "gammaFlip": 780.3,
+        "gexTotal": -10.59,
         "indice": {
           "callWall": 7720,
-          "gammaFlip": 7816,
+          "gammaFlip": 7824,
           "maxPain": 7670,
-          "precio": 7414,
+          "precio": 7410,
           "putWall": 7420
         },
         "maxPain": 765,
         "odte": {
           "base": "open interest",
           "callWall": 780,
-          "esHoy": true,
+          "esHoy": false,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
@@ -638,13 +657,13 @@
             "putWall": 7520
           },
           "maxPain": 765,
-          "pcrOI": 1.9,
+          "pcrOI": 1.92,
           "putWall": 750,
           "vencimiento": "2026-11-06"
         },
         "oiFecha": "2026-11-04",
-        "pcrOI": 2.67,
-        "precio": 739.46,
+        "pcrOI": 2.71,
+        "precio": 739.03,
         "putWall": 740,
         "ratioFecha": "2026-11-05",
         "ratioIndice": 10.0265,
@@ -652,221 +671,257 @@
         "vencimientoCercano": "2026-11-06"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 consolida el rebote con el mercado abierto (en torno a +1,0 %) tras el informe de empleo de octubre (165.000 frente a 63-65 mil; paro al 4,1 %), que mantiene la probabilidad de una subida de la Fed en diciembre en el 77,5 % (Kalshi), sin cambios en la última hora. La gamma del motor sigue negativa (-10,5 mil M$ por 1 %, open interest del 4 de noviembre), con el call wall en 7720, el put wall en 7420 y el giro de gamma (gamma flip) en 7816. El Dow sigue rezagado (-0,2 %) por la subida de las rentabilidades del Tesoro y el dólar, que se dispara tras el dato de empleo.",
+      "lectura": "El S&P 500 cerró el lunes con su mejor sesión desde abril (+2,4 %, hasta 7.549,94), pero el IPC de octubre complica el panorama: el dato mensual bate el consenso (+0,4 % frente a +0,3 %) y la Oficina de Estadísticas Laborales no pudo publicar la tasa interanual por falta de datos de octubre de 2025 (cierre de la Administración). El gobernador de la Fed, Waller, se muestra abierto a una subida en diciembre, y la probabilidad de hike (Kalshi, motor de datos) salta al 91,5 % desde el 78,5 % anterior. La gamma del motor para el S&P 500 no se ha podido recalcular esta hora (sin ratio de conversión del ETF); se mantienen los niveles del 6 de noviembre: call wall en 7720, put wall en 7420 y giro de gamma en 7824.",
       "levels": {
         "callWall": 7720,
-        "gammaFlip": 7816,
+        "gammaFlip": 7824,
         "maxPain": 7670,
         "putWall": 7420
       },
       "name": "S&P 500",
-      "netGex": "negativa (-10,5 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-04)",
-      "precio": 7383,
+      "netGex": "negativa (-10,59 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-04)",
+      "precio": 7549.94,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -31,
+      "score": -35,
       "sesgo": "bajista",
-      "spot": 7383
+      "spot": 7549.94
     },
     {
-      "changeNote": "En vivo (mercado abierto), 17:16 Canarias: rebote liderado por tecnológicas de IA (Nasdaq Composite +1,9 %, TheStreet).",
-      "changePct": 1.6,
+      "changeNote": "Precio aproximado vía motor (QQQ × ratio, 12:28 UTC); el Nasdaq Composite cerró el lunes con un +2,74 %, su mejor sesión desde abril (cotización en vivo del NDX no disponible esta hora).",
+      "changePct": 2.7,
       "claves": [
-        "Call wall en 28765 (QQQ 700,0); put wall en 27943 (QQQ 680,0).",
-        "Régimen de gamma negativa, en -3,52 mil M$ por 1 % de movimiento.",
-        "Giro de gamma (gamma flip) no determinado hoy por el motor; régimen de gamma negativa estructural.",
-        "Max pain en 28765 (QQQ 700,0); put/call OI en 4,38."
+        "Call wall en 28787 (QQQ 700,0); put wall en 27964 (QQQ 680,0).",
+        "Régimen de gamma negativa, en -1,80 mil M$ por 1 % de movimiento.",
+        "Giro de gamma (gamma flip) en 28683 (QQQ 697,47).",
+        "Max pain en 27471 (QQQ 668,0); put/call OI en 1,34."
       ],
       "gex": {
         "callWall": 700,
-        "contratos": 1223,
+        "contratos": 1788,
         "escalera": [
           {
-            "gex": -162.6,
-            "strike": 640
-          },
-          {
-            "gex": -91.5,
-            "strike": 645
-          },
-          {
-            "gex": -381.9,
-            "strike": 650
-          },
-          {
-            "gex": -8,
-            "strike": 651
-          },
-          {
-            "gex": -4.3,
-            "strike": 652
-          },
-          {
-            "gex": -6.8,
-            "strike": 653
-          },
-          {
-            "gex": -4.5,
-            "strike": 654
-          },
-          {
-            "gex": -107.6,
-            "strike": 655
-          },
-          {
-            "gex": -3.7,
-            "strike": 656
-          },
-          {
-            "gex": -3.3,
-            "strike": 657
-          },
-          {
-            "gex": -15.1,
-            "strike": 658
-          },
-          {
-            "gex": -6.3,
-            "strike": 659
-          },
-          {
-            "gex": -180.2,
+            "gex": -147,
             "strike": 660
           },
           {
-            "gex": -5.5,
+            "gex": -4.6,
             "strike": 661
           },
           {
-            "gex": -5.3,
+            "gex": 0.2,
             "strike": 662
           },
           {
-            "gex": -5.2,
+            "gex": 1.9,
             "strike": 663
           },
           {
-            "gex": -3.9,
+            "gex": 3.8,
             "strike": 664
           },
           {
-            "gex": -97.1,
+            "gex": -25,
             "strike": 665
           },
           {
-            "gex": -5.1,
+            "gex": 1.2,
             "strike": 666
           },
           {
-            "gex": -5.2,
+            "gex": 3.2,
             "strike": 667
           },
           {
-            "gex": -6.9,
+            "gex": 1.4,
             "strike": 668
           },
           {
-            "gex": -7.3,
+            "gex": -1.4,
             "strike": 669
           },
           {
-            "gex": -277.4,
+            "gex": -146.5,
             "strike": 670
           },
           {
-            "gex": -13.5,
+            "gex": 7.4,
             "strike": 671
           },
           {
-            "gex": -6.1,
+            "gex": 1.3,
             "strike": 672
           },
           {
-            "gex": -3.5,
+            "gex": 6.9,
             "strike": 673
           },
           {
-            "gex": -10.6,
+            "gex": -7.8,
             "strike": 674
           },
           {
-            "gex": -279.3,
+            "gex": -255.9,
             "strike": 675
           },
           {
-            "gex": -15.7,
+            "gex": -13.7,
             "strike": 676
           },
           {
-            "gex": -19,
+            "gex": -17,
             "strike": 677
           },
           {
-            "gex": -10.9,
+            "gex": -6.1,
             "strike": 678
           },
           {
-            "gex": -6.2,
+            "gex": -8.5,
             "strike": 679
+          },
+          {
+            "gex": -455.6,
+            "strike": 680
+          },
+          {
+            "gex": -9.9,
+            "strike": 681
+          },
+          {
+            "gex": -26,
+            "strike": 682
+          },
+          {
+            "gex": 31.5,
+            "strike": 683
+          },
+          {
+            "gex": 7.1,
+            "strike": 684
+          },
+          {
+            "gex": -325.3,
+            "strike": 685
+          },
+          {
+            "gex": -6.3,
+            "strike": 686
+          },
+          {
+            "gex": -5.6,
+            "strike": 687
+          },
+          {
+            "gex": 2.2,
+            "strike": 688
+          },
+          {
+            "gex": -0.3,
+            "strike": 689
+          },
+          {
+            "gex": -189.4,
+            "strike": 690
+          },
+          {
+            "gex": -21.2,
+            "strike": 691
+          },
+          {
+            "gex": 8.4,
+            "strike": 692
+          },
+          {
+            "gex": 14.2,
+            "strike": 693
+          },
+          {
+            "gex": -2.6,
+            "strike": 694
+          },
+          {
+            "gex": -3.9,
+            "strike": 695
+          },
+          {
+            "gex": -3.7,
+            "strike": 696
+          },
+          {
+            "gex": 13.7,
+            "strike": 697
+          },
+          {
+            "gex": 36.3,
+            "strike": 698
+          },
+          {
+            "gex": -0.2,
+            "strike": 699
+          },
+          {
+            "gex": 103.8,
+            "strike": 700
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": null,
-        "gexTotal": -3.52,
+        "gammaFlip": 697.47,
+        "gexTotal": -1.8,
         "indice": {
-          "callWall": 28765,
-          "gammaFlip": null,
-          "maxPain": 28765,
-          "precio": 27108,
-          "putWall": 27943
+          "callWall": 28787,
+          "gammaFlip": 28683,
+          "maxPain": 27471,
+          "precio": 27954,
+          "putWall": 27964
         },
-        "maxPain": 700,
+        "maxPain": 668,
         "odte": {
           "base": "open interest",
-          "callWall": 705,
+          "callWall": 710,
           "esHoy": true,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 28970,
+            "callWall": 29198,
             "gammaFlip": null,
-            "maxPain": 28765,
-            "putWall": 27737
+            "maxPain": 27471,
+            "putWall": 26319
           },
-          "maxPain": 700,
-          "pcrOI": 3.33,
-          "putWall": 675,
-          "vencimiento": "2026-11-06"
+          "maxPain": 668,
+          "pcrOI": 0.57,
+          "putWall": 640,
+          "vencimiento": "2026-11-10"
         },
-        "oiFecha": "2026-11-04",
-        "pcrOI": 4.38,
-        "precio": 659.69,
+        "oiFecha": "2026-11-06",
+        "pcrOI": 1.34,
+        "precio": 679.76,
         "putWall": 680,
-        "ratioFecha": "2026-11-05",
-        "ratioIndice": 41.0922,
+        "ratioFecha": "2026-11-06",
+        "ratioIndice": 41.1238,
         "regimen": "negativa",
-        "vencimientoCercano": "2026-11-06"
+        "vencimientoCercano": "2026-11-10"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 consolida el rebote tras el desplome del jueves, liderado por las grandes tecnológicas de IA, con el mercado abierto y el Nasdaq Composite subiendo cerca de un 1,9 % (TheStreet). El informe de empleo (165.000 frente a 63-65 mil; paro al 4,1 %) mantiene la probabilidad de una Fed más dura en diciembre en el 77,5 % (Kalshi), sin cambios en la última hora, mientras el dólar se fortalece con fuerza tras el dato. La gamma del motor sigue negativa (-3,52 mil M$ por 1 %, open interest del 4 de noviembre).",
+      "lectura": "El Nasdaq 100 (vía QQQ, ≈27.954 puntos) se apoya en el rebote tecnológico del lunes (Nasdaq Composite +2,74 %, su mejor sesión desde abril), aunque el IPC de octubre (+0,4 % mensual, sin tasa interanual publicada por falta de datos) y los comentarios hawkish de Waller elevan al 91,5 % la probabilidad de una Fed más dura en diciembre. La gamma del motor sigue negativa (-1,80 mil M$ por 1 %, open interest del 6 de noviembre), con el call wall en 28787, el put wall en 27964 y el giro de gamma en 28683.",
       "levels": {
-        "callWall": 28765,
-        "gammaFlip": null,
-        "maxPain": 28765,
-        "putWall": 27943
+        "callWall": 28787,
+        "gammaFlip": 28683,
+        "maxPain": 27471,
+        "putWall": 27964
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-3,52 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-04)",
-      "precio": 26990,
+      "netGex": "negativa (-1,80 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-06)",
+      "precio": 27954,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -26,
+      "score": -30,
       "sesgo": "bajista",
-      "spot": 26990
+      "spot": 27954
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-06T16:46:03Z",
+    "actualizado": "2026-11-10T12:28:31Z",
     "balance": 6748.1,
     "d4": -74.3,
     "dBalance": 2.5,
@@ -878,14 +933,14 @@
     "fecha4": "2026-10-07",
     "fechaPrev": "2026-10-28",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "En la semana del 28 de octubre al 4 de noviembre, la liquidez neta subió 45.000 millones $ hasta 5,79 billones $, con el Tesoro como principal inyector (la cuenta del Tesoro, TGA, bajó 42.500 millones $ hasta 957.200 millones $) y el balance de la Fed prácticamente plano (+2.500 millones $, QT casi detenido esta semana); las reservas bancarias subieron 36.300 millones $ hasta 2,93 billones $. Pese a este repunte semanal, la tendencia de las últimas cuatro semanas (desde el 7 de octubre) sigue siendo negativa: -74.300 millones $ netos. El repo permanente del 5 de noviembre sigue sin uso (0 millones $) y el RRP diario se mantiene en 125 millones $, sin señales de tensión de liquidez. Próximo dato: jueves 12 de noviembre, 22:30 Canarias (balance H.4.1).",
+    "lectura": "En la semana del 28 de octubre al 4 de noviembre, la liquidez neta subió 45.000 millones $ hasta 5,79 billones $, con el Tesoro como principal inyector (la cuenta del Tesoro, TGA, bajó 42.500 millones $ hasta 957.200 millones $) y el balance de la Fed prácticamente plano (+2.500 millones $, QT casi detenido esa semana); las reservas bancarias subieron 36.300 millones $ hasta 2,93 billones $. Pese a este repunte semanal, la tendencia de las últimas cuatro semanas (desde el 7 de octubre) sigue siendo negativa: -74.300 millones $ netos. El repo permanente del 9 de noviembre sigue casi sin uso (3 millones $) y el RRP diario sube a 252 millones $, sin señales de tensión de liquidez. Próximo dato: jueves 12 de noviembre, 22:30 Canarias (balance H.4.1).",
     "neta": 5790.7,
-    "repo": 0,
-    "repoFecha": "2026-11-05",
+    "repo": 0.003,
+    "repoFecha": "2026-11-09",
     "reservas": 2930.1,
     "rrp": 0.2,
-    "rrpFecha": "2026-11-05",
-    "rrpHoy": 0.125,
+    "rrpFecha": "2026-11-09",
+    "rrpHoy": 0.252,
     "serie": [
       {
         "fecha": "2026-05-06",
@@ -1003,27 +1058,65 @@
       "activos": {
         "BTC": "bajista",
         "EURUSD": "bajista",
-        "NQ": "neutral",
-        "SPX": "neutral",
+        "NQ": "bajista",
+        "SPX": "bajista",
         "XAU": "bajista"
       },
-      "fuente": "FXStreet",
+      "fuente": "StockTitan",
       "impacto": "alto",
-      "resumen": "El índice dólar (DXY) sube cerca de un 0,73 % hasta 102,33 tras el sorprendente dato de nóminas de octubre, borrando las ganancias semanales del euro.",
-      "titular": "El dólar se dispara tras el informe de empleo y el euro borra las ganancias semanales",
-      "ts": "2026-11-06T14:22:00Z",
-      "url": "https://www.fxstreet.com/news/euro-erases-weekly-gains-upbeat-us-jobs-data-fuel-dollar-rally-202611061422"
+      "resumen": "Tras el IPC de octubre, Waller se inclina por respaldar un alza en la reunión del 9 de diciembre.",
+      "titular": "El gobernador de la Fed Waller se abre a apoyar una subida de tipos en diciembre",
+      "ts": "2026-11-10T13:35:00Z",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026"
     },
     {
       "activos": {
-        "BTC": "bajista"
+        "BTC": "bajista",
+        "EURUSD": "bajista",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "XAU": "bajista"
+      },
+      "fuente": "BLS / CBS News",
+      "impacto": "alto",
+      "resumen": "La BLS no pudo calcular la variación interanual de octubre por la falta de datos de 2025 debido al cierre de la Administración.",
+      "titular": "El IPC de octubre sube un 0,4% mensual, por encima del 0,3% esperado, sin tasa interanual",
+      "ts": "2026-11-10T13:30:00Z",
+      "url": "https://www.cbsnews.com/news/october-cpi-report-elevated-inflation/"
+    },
+    {
+      "activos": {
+        "BTC": "bajista",
+        "XAU": "bajista"
       },
       "fuente": "CoinDesk",
       "impacto": "medio",
-      "resumen": "Más de 1.000 millones $ en posiciones alcistas se liquidaron en 24 horas mientras los ETF spot de bitcoin no logran frenar la caída del mercado.",
-      "titular": "Liquidaciones cripto superan los 1.000 millones $ y los ETF de bitcoin no ofrecen alivio",
-      "ts": "2026-11-06T12:00:00Z",
-      "url": "https://coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
+      "resumen": "Los ETF spot de bitcoin registran fuertes salidas netas mientras el mercado descuenta ya una Fed más dura en diciembre.",
+      "titular": "Bitcoin cae a 74.000-75.000 $ con salidas de ETF por más de 1.000 millones $ antes del IPC",
+      "ts": "2026-11-10T08:00:00Z",
+      "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
+    },
+    {
+      "activos": {
+        "WTI": "bajista"
+      },
+      "fuente": "Saxo Bank",
+      "impacto": "alto",
+      "resumen": "El crudo acumula una caída semanal cercana al 16% ante señales de avance diplomático sobre Ormuz y las conversaciones Rusia-Ucrania.",
+      "titular": "El petróleo se desploma: el Brent cae por debajo de 92 $ por las esperanzas de acuerdo EE. UU.-Irán",
+      "ts": "2026-11-10T07:00:00Z",
+      "url": "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---wall-street-rebounds-and-brent-slides-below-usd-92---10-november-2026-10112026"
+    },
+    {
+      "activos": {
+        "NQ": "alcista"
+      },
+      "fuente": "CP24 / AP",
+      "impacto": "medio",
+      "resumen": "El rebote tecnológico impulsa a Japón y Corea del Sur tras el fuerte cierre de Wall Street del lunes.",
+      "titular": "Los mercados asiáticos repuntan con fuerza: el Nikkei sube un 2,9% y el Kospi un 4,4%",
+      "ts": "2026-11-10T06:30:00Z",
+      "url": "https://www.cp24.com/news/money/2026/11/10/world-shares-rise-after-technology-shares-advance-on-wall-street-ahead-of-us-inflation-data/"
     },
     {
       "activos": {
@@ -1032,187 +1125,59 @@
       },
       "fuente": "TheStreet",
       "impacto": "alto",
-      "resumen": "Wall Street extiende el rebote tras el informe de empleo: S&P 500 +1 %, Nasdaq Composite +1,9 %, Dow -0,2 % en la apertura.",
-      "titular": "El S&P 500 sube un 1 % y el Nasdaq Composite un 1,9 % al abrir, pese al rezago del Dow",
-      "ts": "2026-11-06T15:35:00Z",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-06-2026"
-    },
-    {
-      "activos": {
-        "BTC": "alcista"
-      },
-      "fuente": "CoinDesk / cryptoticker.io",
-      "impacto": "medio",
-      "resumen": "BTC rebota por encima de 76.000 $ el viernes tras el desplome ligado a la corrección tecnológica del jueves, aunque los ETF spot siguen con salidas netas.",
-      "titular": "Bitcoin recupera los 76.000 $ tras tocar mínimos desde septiembre en 75.208 $",
-      "ts": "2026-11-06T14:45:00Z",
-      "url": "https://cryptoticker.io/en/bitcoin-price-jobs-report-100-day-line"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista"
-      },
-      "fuente": "Bloomberg",
-      "impacto": "medio",
-      "resumen": "Los futuros del S&P 500 (+0,2 %) y el Nasdaq 100 (+1,3 %) repuntan el viernes, con inversores comprando la caída tras el desplome de los chips de IA del jueves.",
-      "titular": "Los futuros de Wall Street suben con los compradores en la caída tras el desplome de la IA",
-      "ts": "2026-11-06T14:10:00Z",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-stock-futures-rise-as-dip-buyers-emerge-after-ai-selloff"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "neutral"
-      },
-      "fuente": "Yahoo Finance / CNBC",
-      "impacto": "alto",
-      "resumen": "El Nasdaq 100 prolonga las ganancias de la mañana liderado por el rebote tecnológico, mientras el Dow Jones y el S&P 500 avanzan con mucha más cautela, lastrados por la subida de las rentabilidades del Tesoro tras el sorpresón de empleo.",
-      "titular": "El Nasdaq extiende el rebote pese a la subida de rentabilidades tras el informe de empleo",
-      "ts": "2026-11-06T13:40:00Z",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "EURUSD": "bajista",
-        "NQ": "neutral",
-        "SPX": "neutral",
-        "XAU": "bajista"
-      },
-      "fuente": "CNBC / BLS",
-      "impacto": "alto",
-      "resumen": "Las nóminas no agrícolas suben 165.000 en octubre frente a 63-65 mil esperados, con la revisión de septiembre al alza (29 mil a 60 mil); la tasa de paro baja al 4,1 % (frente al 4,2 % esperado) y los salarios suben un 3,1 % interanual.",
-      "titular": "El informe de empleo de EE. UU. pulveriza las previsiones: 165.000 puestos en octubre y paro al 4,1 %",
-      "ts": "2026-11-06T13:31:00Z",
-      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
-    },
-    {
-      "activos": {
-        "BTC": "alcista",
-        "EURUSD": "alcista",
-        "NQ": "neutral",
-        "SPX": "neutral",
-        "XAU": "alcista"
-      },
-      "fuente": "TraderFactor / FXStreet",
-      "impacto": "medio",
-      "resumen": "El oro firma su mayor subida diaria desde mediados de agosto y el dólar se debilita hacia mínimos de un mes antes del informe de empleo de EE. UU.",
-      "titular": "El dólar cae a mínimos de un mes y el oro recupera los 4.100 $ antes de las nóminas",
-      "ts": "2026-11-06T11:00:00Z",
-      "url": "https://traderfactor.com/forex-market-today-nfp-in-focus-as-dollar-weakens/"
-    },
-    {
-      "activos": {
-        "NQ": "neutral",
-        "SPX": "neutral"
-      },
-      "fuente": "EBC / CME FedWatch",
-      "impacto": "medio",
-      "resumen": "El CME FedWatch Tool reduce la probabilidad de una subida de tipos el 9 de diciembre del 82,7 % al 69,1 % tras los datos de empleo de esta semana; Kalshi, la fuente del motor de datos de NanoFx, la mantiene en el 65,5 %.",
-      "titular": "El mercado de futuros CME rebaja al 69 % la probabilidad de una subida de la Fed en diciembre",
-      "ts": "2026-11-06T10:00:00Z",
-      "url": "https://www.ebc.com/forex/non-farm-payrolls-nfp-employment-for-october-2026-previous-29k-forecast-65k"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "neutral"
-      },
-      "fuente": "CNBC",
-      "impacto": "medio",
-      "resumen": "Los futuros del Nasdaq suben con fuerza en el premarket tras el desplome del jueves, con las grandes tecnológicas de IA liderando el rebote antes del informe de empleo.",
-      "titular": "El Nasdaq rebota tras su peor sesión en 19 meses; las tecnológicas de IA lideran la recuperación",
-      "ts": "2026-11-06T09:30:00Z",
-      "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista"
-      },
-      "fuente": "TipRanks",
-      "impacto": "medio",
-      "resumen": "Los futuros del Nasdaq 100 suben un 1,35 % y los del S&P 500 un 0,27 %, mientras los del Dow caen un 0,82 %, antes del informe de empleo de EE. UU.",
-      "titular": "Los futuros rebotan tras el desplome tecnológico: Nasdaq +1,35 %, S&P 500 +0,27 %, Dow -0,82 %",
-      "ts": "2026-11-06T09:30:00Z",
-      "url": "https://www.tipranks.com/news/stock-market-today-nov-6-futures-mixed-as-nasdaq-futures-rebound-after-tech-selloff"
-    },
-    {
-      "activos": {
-        "EURUSD": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "ING (Chris Turner) describe el movimiento como una rotación hacia el efectivo y no hacia fuera del dólar, que se mantiene firme antes de las nóminas.",
-      "titular": "El dólar aguanta firme pese al desplome bursátil; ING habla de rotación hacia el efectivo",
-      "ts": "2026-11-06T09:01:00Z",
-      "url": "https://www.fxstreet.com/analysis/fx-daily-tech-collapses-fx-shrugs-202611060901"
-    },
-    {
-      "activos": {
-        "NQ": "neutral",
-        "SPX": "bajista"
-      },
-      "fuente": "TipRanks",
-      "impacto": "alto",
-      "resumen": "Los futuros del Dow caen hasta un 1,3 % mientras el Nasdaq 100 sube hasta un 1 % antes del informe de empleo de octubre.",
-      "titular": "Los futuros de Wall Street cotizan mixtos; la semana se encamina a pérdidas de hasta un 4,4 % en el Nasdaq",
-      "ts": "2026-11-06T08:30:00Z",
-      "url": "https://www.tipranks.com/news/u-s-stock-futures-mixed-after-nasdaq-enters-correction-territory"
-    },
-    {
-      "activos": {
-        "WTI": "alcista",
-        "XAU": "bajista"
-      },
-      "fuente": "Business Recorder",
-      "impacto": "medio",
-      "resumen": "El oro retrocede a unos 4.044 $/oz, aunque encamina su mejor semana desde agosto, mientras el petróleo sube y el mercado espera el informe de empleo.",
-      "titular": "El oro cae más de un 1 % por el repunte del petróleo antes de las nóminas",
-      "ts": "2026-11-06T08:00:00Z",
-      "url": "https://www.brecorder.com/news/40447728/gold-drops-over-1-on-higher-oil-prices-us-payrolls-data-in-focus"
+      "resumen": "El rebote generalizado liderado por tecnológicas deja al Nasdaq con un avance del 2,74% el lunes.",
+      "titular": "Wall Street firma su mejor sesión desde abril: el S&P 500 sube un 2,4% hasta 7.549,94",
+      "ts": "2026-11-09T21:00:00Z",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento 2026-11-06, por open interest (SPY 780,0). Put/call OI: 1,9.",
+        "nota": "Vencimiento 2026-11-06, por open interest (SPY 780,0). Put/call OI: 1,92. Sin recalcular esta hora (sin conversión al índice).",
         "valor": "7821"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "SPY 750,0.",
+        "nota": "SPY 750,0. Sin recalcular esta hora.",
         "valor": "7520"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "SPY 765,0.",
+        "nota": "SPY 765,0. Sin recalcular esta hora.",
         "valor": "7670"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento 2026-11-06, por open interest (QQQ 705,0). Put/call OI: 3,33.",
-        "valor": "28970"
+        "nota": "Vencimiento 2026-11-10, por open interest (QQQ 710,0). Put/call OI: 0,57.",
+        "valor": "29198"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "QQQ 675,0.",
-        "valor": "27737"
+        "nota": "QQQ 640,0.",
+        "valor": "26319"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "QQQ 700,0.",
-        "valor": "28765"
+        "nota": "QQQ 668,0.",
+        "valor": "27471"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 6 de noviembre, calculados por el motor con open interest del 4 de noviembre. En el S&P 500: call wall 0DTE en 7821, put wall en 7520 y max pain en 7670, put/call OI en 1,9. En el Nasdaq 100: call wall 0DTE en 28970, put wall en 27737 y max pain en 28765, put/call OI en 3,33. Con el informe de empleo ya digerido, el dólar fortaleciéndose con fuerza y el mercado en modo de rebote técnico liderado por la IA, estos niveles son la referencia de corto plazo para el resto de la sesión del viernes."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 10 de noviembre. En el Nasdaq 100 (datos frescos del motor, open interest del 6 de noviembre): call wall 0DTE en 29198, put wall en 26319 y max pain en 27471, put/call OI en 0,57. Para el S&P 500 el motor no ha podido recalcular la conversión al índice esta hora; se mantienen los niveles 0DTE del 6 de noviembre (call wall 7821, put wall 7520, max pain 7670, put/call OI 1,92). Con el IPC de octubre ya publicado (sin tasa interanual, dato mensual por encima del consenso) y Waller abriéndose a una subida en diciembre, estos niveles son la referencia de corto plazo para la sesión del martes."
   },
   "politica": {
-    "actualizado": "2026-11-06T13:52:08Z",
-    "ajuste": -11,
+    "actualizado": "2026-11-10T14:20:37Z",
+    "ajuste": -14,
     "declaraciones": [
+      {
+        "dicho": "Se inclina por apoyar una subida de tipos en diciembre tras el IPC de octubre más caliente de lo esperado.",
+        "efecto": "bajista",
+        "fuente": "StockTitan",
+        "quien": "Waller",
+        "ts": "2026-11-10T13:35:00Z",
+        "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026"
+      },
       {
         "dicho": "Culpa a los demócratas del desplome y dice a los votantes que se culpen a sí mismos.",
         "efecto": "neutral",
@@ -1244,18 +1209,10 @@
         "quien": "Christine Lagarde",
         "ts": "2026-10-29T13:00:00Z",
         "url": "https://www.euronews.com/business/2026/02/05/ecb-rates-unchanged-lagarde-inflation-is-in-a-good-place"
-      },
-      {
-        "dicho": "La Fed mantiene tipos (10-2) sin pistas claras sobre diciembre.",
-        "efecto": "bajista",
-        "fuente": "FXStreet",
-        "quien": "Kevin Warsh",
-        "ts": "2026-10-28T18:30:00Z",
-        "url": "https://fxstreet.com/analysis/fed-holds-rates-as-warsh-offers-no-explicit-signal-on-december-202610291159"
       }
     ],
     "efecto": "mixto",
-    "lectura": "El informe de empleo de octubre bate con claridad el consenso (165.000 frente a 63-65 mil; paro al 4,1 %), reforzando el argumento de una Fed más dura en diciembre (77,5 % según Kalshi), mientras Bessent sostiene la demanda de deuda larga y el petróleo sigue firme por la escalada en Ormuz; el Nasdaq rebota pese a todo, liderado por las tecnológicas de IA.",
+    "lectura": "El gobernador de la Fed, Waller, se muestra dispuesto a apoyar una subida en diciembre tras un IPC de octubre más caliente de lo esperado en su componente mensual, elevando al 91,5 % la probabilidad de hike (Kalshi); en paralelo, las esperanzas de una vía diplomática en Ormuz y en las conversaciones Rusia-Ucrania alivian la tensión en el petróleo, y la tregua comercial con China sigue intacta.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1268,7 +1225,7 @@
       {
         "cargo": "Presidente de la Reserva Federal",
         "efecto": "bajista",
-        "postura": "Mantuvo tipos el 28-oct (voto 10-2) sin comprometerse con diciembre; probabilidad de subida 65,5 % (Kalshi).",
+        "postura": "Mantuvo tipos el 28-oct (voto 10-2) sin comprometerse con diciembre; la probabilidad de subida (Kalshi) ya está en el 91,5 %.",
         "quien": "Kevin Warsh",
         "ts": "2026-10-28T18:30:00Z",
         "url": "https://fxstreet.com/analysis/fed-holds-rates-as-warsh-offers-no-explicit-signal-on-december-202610291159"
@@ -1290,95 +1247,95 @@
         "url": "https://www.chinadaily.com.cn/a/202610/26/WS68fe0685a310f735438b7015.html"
       },
       {
-        "cargo": "Ministro de Asuntos Exteriores de Irán",
-        "efecto": "bajista",
-        "postura": "Nuevo ataque de EE. UU. a un buque cerca de Ormuz eleva el riesgo de escalada; Doha sigue sin acuerdo.",
-        "quien": "Abbas Araghchi",
-        "ts": "2026-11-05T05:30:00Z",
-        "url": "https://abcnews.com/International/us-carries-defensive-airstrikes-irans-qeshm-island-officials/story?id=137792518"
-      },
-      {
         "cargo": "Presidenta del Banco Central Europeo",
         "efecto": "mixto",
         "postura": "Mantuvo tipos por unanimidad el 29-oct, avisa de riesgos de inflación al alza; deja el BCE el 7-feb-2027.",
         "quien": "Christine Lagarde",
         "ts": "2026-10-29T13:00:00Z",
         "url": "https://www.euronews.com/business/2026/02/05/ecb-rates-unchanged-lagarde-inflation-is-in-a-good-place"
+      },
+      {
+        "cargo": "Gobernador de la Reserva Federal",
+        "efecto": "bajista",
+        "postura": "Se muestra abierto a apoyar una subida de tipos en diciembre tras el IPC de octubre, más caliente de lo esperado (+0,4 % mensual).",
+        "quien": "Waller",
+        "ts": "2026-11-10T13:35:00Z",
+        "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026"
       }
     ]
   },
-  "resumen": "Son las 17:16 UTC (17:16 en Canarias, 18:16 en Madrid, 12:16 en Nueva York) del viernes 6 de noviembre de 2026, con el mercado de EE. UU. abierto tras el informe de empleo de octubre (165.000 puestos frente a 63-65 mil esperados; paro al 4,1 %). La Fed se mantiene con una probabilidad del 77,5 % (Kalshi, motor de datos) de subir tipos el 9 de diciembre, sin cambios en la última hora. En bolsa, el rebote se consolida: el S&P 500 sube en torno a un 1 % y el Nasdaq avanza con fuerza (Nasdaq Composite +1,9 %), mientras el Dow se mantiene en rojo (-0,2 %). El dólar se dispara tras el dato de empleo (DXY en torno a 102,33, +0,73 %), presionando al euro, que borra sus ganancias semanales, y al oro, mientras bitcoin ronda los 76.000 $ con liquidaciones cripto superiores a 1.000 millones $. La gamma del motor sigue negativa en ambos índices.",
+  "resumen": "Son las 14:20 UTC (15:20 en Canarias, 16:20 en Madrid, 09:20 en Nueva York) del martes 10 de noviembre de 2026. Wall Street cerró el lunes con su mejor sesión desde abril (S&P 500 +2,4 % hasta 7.549,94; Nasdaq Composite +2,74 %), y hoy el mercado digiere el IPC de octubre: el dato mensual sube un 0,4 % (frente al 0,3 % esperado), pero la Oficina de Estadísticas Laborales no pudo publicar la tasa interanual por la falta de datos de octubre de 2025 (cierre de la Administración). El gobernador de la Fed, Waller, se muestra abierto a una subida en diciembre, y la probabilidad de hike del 9 de diciembre (Kalshi, motor de datos) salta al 91,5 % desde el 78,5 % de la última actualización. El petróleo se desploma (Brent por debajo de 92 $, -16 % semanal) ante esperanzas de un acuerdo diplomático EE. UU.-Irán, el oro cae un 0,69 % hasta 4.086 $/oz y bitcoin ronda los 74.000-75.000 $ con fuertes salidas de ETF. La gamma del motor sigue negativa en ambos índices.",
   "semana": {
     "activos": [
       {
-        "cambio": 8,
-        "expectativa": "El próximo catalizador es el IPC de EE. UU. de la semana que viene (9-13 nov), antes de la decisión de la Fed del 9 de diciembre; una sorpresa de inflación al alza reforzaría aún más el tono duro.",
+        "cambio": 14,
+        "expectativa": "El IPP y el PIB de la eurozona del 13 de noviembre son la siguiente referencia; sin tasa interanual del IPC, el mercado vigila el próximo dato de inflación para confirmar el tono duro de la Fed.",
         "id": "SPX",
-        "narrativa": "El balance del dólar del calendario sube a +29 (dólar esperado antes de sorpresas: +12): las nóminas de octubre (165.000 frente a 63-65 mil) y la tasa de paro (4,1 % frente al 4,2 % esperado) batieron con claridad, elevando al 77,5 % (desde 72,5 %, Kalshi) la probabilidad de una Fed más dura en diciembre. La gamma del motor sigue negativa (-9,0 mil M$ por 1 %, Alpaca SPY, OI del 4 de noviembre) y la liquidez, aunque repuntó la última semana (+45.000 millones $), mantiene tendencia negativa a 4 semanas (-74.300 millones $). Bessent sostiene la demanda de deuda larga duplicando recompras, pero Warsh sigue sin comprometerse con diciembre y el petróleo repunta por la escalada en Ormuz.",
-        "score": -31,
+        "narrativa": "El IPC de octubre no pudo publicar su tasa interanual (datos de 2025 no disponibles por el cierre de la Administración), pero el dato mensual bate el consenso (+0,4 % frente a +0,3 %) y el gobernador Waller se muestra abierto a una subida en diciembre: la probabilidad de hike (Kalshi) salta al 91,5 % desde el 78,5 %. Aun así, Wall Street cerró el lunes con su mejor sesión desde abril (+2,4 %) y las esperanzas de acuerdo diplomático en Ormuz alivian algo la tensión geopolítica, lo que suaviza el sesgo bajista de fondo.",
+        "score": -18,
         "scoreInicial": -39,
         "sesgo": "bajista"
       },
       {
-        "cambio": 15,
-        "expectativa": "El IPC de la semana que viene es la siguiente referencia para la Fed, pero en el muy corto plazo el rebote tecnológico sigue pesando más que los datos macro para el Nasdaq.",
+        "cambio": 12,
+        "expectativa": "El rebote tecnológico (Nikkei +2,9 %, Kospi +4,4 % hoy) sigue marcando el corto plazo; el IPP del viernes es la siguiente cita macro relevante.",
         "id": "NQ",
-        "narrativa": "El balance del dólar del calendario sube a +29 tras el fuerte dato de empleo, que eleva al 77,5 % (Kalshi) la probabilidad de una Fed más dura en diciembre. Pese a ello, los futuros del Nasdaq 100 rebotan con fuerza (en torno a +1 a +1,6 %) tras el desplome del jueves, liderados por el repunte de las grandes tecnológicas de IA. La gamma del motor sigue negativa (-2,36 mil M$ por 1 %, Alpaca QQQ) y la tregua comercial con China (He Lifeng) sigue dando soporte limitado, mientras la liquidez mantiene tendencia de fondo negativa.",
-        "score": -26,
+        "narrativa": "Igual que el S&P 500, el Nasdaq 100 encaja el IPC de octubre sin tasa interanual pero con un dato mensual más caliente de lo esperado y un Waller abierto a subir en diciembre (probabilidad del 91,5 %, Kalshi). El fuerte rebote tecnológico del lunes (Nasdaq Composite +2,74 %) y el contagio alcista a los mercados asiáticos esta madrugada compensan parte de la presión de una Fed más dura.",
+        "score": -15,
         "scoreInicial": -41,
         "sesgo": "bajista"
       },
       {
-        "cambio": 20,
-        "expectativa": "Una confirmación de escalada en Ormuz o una nueva caída bursátil reforzaría la demanda de refugio; el IPC de la semana que viene es clave para el próximo movimiento del dólar.",
+        "cambio": 6,
+        "expectativa": "Una confirmación de acuerdo diplomático en Ormuz reduciría más la demanda de refugio; un giro más duro de la Fed en el IPP del viernes podría presionar de nuevo al oro.",
         "id": "XAU",
-        "narrativa": "El balance del dólar del calendario sube con fuerza a +29 tras el sorpresón de empleo, lo que presiona al oro a la baja en el día (cae más de un 1 %, hacia 4.057-4.085 $/oz, tras el recorte de previsión de Goldman Sachs a 4.150 $ citando el tono más duro de Warsh). Aun así, la demanda de refugio por la escalada en Ormuz y la tendencia de fondo de liquidez negativa (-74.300 millones $ en 4 semanas) limitan la caída, dejando el sesgo cerca de neutral.",
-        "score": -5,
+        "narrativa": "El oro cae un 0,69 % hoy hasta 4.086 $/oz con el dólar firme antes del IPC y el giro hawkish de Waller, pero las esperanzas de una vía diplomática en Ormuz y en las conversaciones Rusia-Ucrania, junto con la demanda de refugio residual, limitan la caída y dejan el sesgo cerca de neutral.",
+        "score": 0,
         "scoreInicial": -25,
         "sesgo": "neutral"
       },
       {
-        "cambio": -11,
-        "expectativa": "El apetito por el riesgo depende de si el mercado estabiliza la lectura hawkish de hoy; el IPC de la semana que viene es el siguiente catalizador para el dólar.",
+        "cambio": 12,
+        "expectativa": "El IPP del viernes es la siguiente referencia para el dólar; mientras persistan las salidas de ETF, el rebote de bitcoin seguirá limitado.",
         "id": "BTC",
-        "narrativa": "El balance del dólar del calendario sube a +29 tras el dato de empleo, que refuerza el apetito por un dólar fuerte y pesa sobre los activos de riesgo. Bitcoin cotiza en torno a 75.500-76.200 $ (-5 a -6 % en 24 h), con liquidaciones cripto por más de 1.250 millones $ y salidas netas en ETF spot, sin un rebote claro tras el desplome ligado a la corrección tecnológica. La gamma negativa del Nasdaq y la Fed, ahora con un 77,5 % de probabilidad de subida en diciembre (Kalshi), siguen pesando.",
-        "score": -31,
+        "narrativa": "Bitcoin cotiza en torno a 74.000-75.000 $, lejos de los máximos recientes cercanos a 81.000 $, con salidas netas de ETF spot superiores a 1.000 millones $ en la semana. El mercado ya descuenta una Fed más dura en diciembre (91,5 %, Kalshi) tras el IPC y los comentarios de Waller, lo que sigue pesando sobre el activo pese al rebote generalizado en renta variable.",
+        "score": -20,
         "scoreInicial": -20,
         "sesgo": "bajista"
       },
       {
-        "cambio": 59,
-        "expectativa": "Una confirmación de nuevos ataques cerca de Ormuz reforzaría la subida; un avance hacia la reapertura revertiría el repunte con fuerza.",
+        "cambio": -44,
+        "expectativa": "Una confirmación de acuerdo EE. UU.-Irán aceleraría la caída; un repunte de la tensión en Ormuz revertiría el movimiento con fuerza.",
         "id": "WTI",
-        "narrativa": "El balance del dólar del calendario (+29) pesa en teoría sobre el petróleo, pero el riesgo geopolítico domina con claridad: el WTI sube con fuerza (en torno a 90-92 $/barril) tras un nuevo ataque cerca del estrecho de Ormuz, con Irán (Araghchi) sin acuerdo en Doha. El fuerte dato de empleo de hoy reduce algo el temor a una menor demanda por desaceleración, compensando parcialmente la presión del dólar fuerte.",
-        "score": 20,
+        "narrativa": "Fuerte giro bajista: el crudo se desploma (Brent por debajo de 92 $, -5,85 % el lunes y -16 % en la semana) ante las esperanzas de una vía diplomática EE. UU.-Irán sobre el estrecho de Ormuz y los avances en las conversaciones Rusia-Ucrania, que reducen con fuerza la prima de riesgo geopolítica que sostenía el precio desde hace semanas.",
+        "score": -25,
         "scoreInicial": -39,
-        "sesgo": "alcista"
+        "sesgo": "bajista"
       },
       {
-        "cambio": -22,
-        "expectativa": "El IPC de EE. UU. de la semana que viene es la referencia clave para el dólar; el tono del BCE en la transición hacia la salida de Lagarde sigue vigilado.",
+        "cambio": 5,
+        "expectativa": "El PIB preliminar de la eurozona del 13 de noviembre es la siguiente referencia para el euro; el IPC de EE. UU. sin tasa interanual deja al dólar sin una dirección clara de corto plazo.",
         "id": "EURUSD",
-        "narrativa": "El balance del dólar del calendario se dispara a +29 tras el informe de empleo, mientras el balance del euro se mantiene en +67 por la sorpresa alcista del IPC de la eurozona (4,0 % frente al 3,9 % esperado). El resultado neto deja el par cerca de neutral, cotizando en torno a 1,1180-1,1220, con Lagarde manteniendo un tono algo más atento a la inflación antes de su salida anticipada del BCE en febrero de 2027.",
-        "score": -4,
+        "narrativa": "El par se mantiene cerca de neutral (en torno a 1,122) con el dólar firme antes del IPC de octubre pero sin una dirección clara tras un dato parcial (sin tasa interanual); el euro sigue sin catalizadores propios esta semana, a la espera del PIB preliminar del 13 de noviembre.",
+        "score": 0,
         "scoreInicial": 18,
         "sesgo": "neutral"
       }
     ],
     "calendarioSesgo": {
       "activos": {
-        "BTC": -23,
-        "EURUSD": 0,
-        "NQ": -29,
-        "SPX": -29,
-        "WTI": -14,
-        "XAU": -29
+        "BTC": 16,
+        "EURUSD": 20,
+        "NQ": 20,
+        "SPX": 20,
+        "WTI": 10,
+        "XAU": 20
       },
-      "actualizado": "2026-11-06T13:52:08Z",
-      "dolar": 29,
-      "dolarEsperado": 12,
-      "euro": 67,
-      "nota": "Tras el informe de empleo (165.000 frente a 63-65 mil esperados; paro al 4,1 % frente al 4,2 % esperado), el balance del dólar del calendario sube con fuerza a +29 (desde +20), muy por encima del dolarEsperado antes de sorpresas (+12). El balance del euro se mantiene en +67 por la sorpresa alcista del IPC de la eurozona (4,0 % frente al 3,9 % esperado)."
+      "actualizado": "2026-11-10T14:20:37.000000Z",
+      "dolar": -20,
+      "dolarEsperado": -50,
+      "euro": 0,
+      "nota": "El IPC de octubre no pudo publicar tasa interanual (datos de 2025 no disponibles por el cierre de la Administración); el dato mensual (+0,4 %) bate el consenso (+0,3 %), pero como la expectativa previa apuntaba a una moderación frente al dato anterior (0,6 % → 0,3 %), el balance neto del calendario esta semana queda ligeramente a favor de un dólar algo más débil (-20) una vez incorporada la sorpresa al alza."
     },
     "escenarios": [
       {
@@ -1627,6 +1584,7 @@
         "previsto": "4,2 % (consenso Reuters / Trading Economics)"
       },
       {
+        "actual": "sin dato anual (ver nota)",
         "anterior": "3,7 % a/a",
         "casos": [
           {
@@ -1666,12 +1624,14 @@
             "nota": "Inflación más fría: abre la puerta a una Fed más suave, dólar débil."
           }
         ],
-        "estado": "pendiente",
+        "estado": "publicado",
         "evento": "IPC (anual, octubre)",
-        "expectativa": "Semana siguiente (9-13 nov). El nowcast de la Fed de Cleveland apunta a una lectura estable en el 3,7 % interanual; una sorpresa al alza reavivaría el argumento de una Fed más dura antes de la reunión del 9 de diciembre.",
+        "expectativa": "El nowcast de la Fed de Cleveland apuntaba a una lectura estable en el 3,7 % interanual, pero la BLS no pudo calcularla por la falta de datos de octubre de 2025.",
         "fecha": "2026-11-10",
         "horaUtc": "13:30",
         "impacto": "alto",
+        "lectura": "La BLS no pudo calcular la tasa interanual de octubre por falta de datos de octubre de 2025 (cierre de la Administración); el dato mensual sí se publicó (+0,4 % frente al +0,3 % esperado), reforzando el argumento de una Fed más dura: Waller se abre a una subida y la probabilidad de hike del 9 de diciembre (Kalshi) salta al 91,5 % desde el 78,5 %.",
+        "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "3,7 % a/a (nowcast Cleveland Fed / Polymarket)"
       },
@@ -1714,7 +1674,7 @@
         ],
         "estado": "pendiente",
         "evento": "IPP (anual, octubre)",
-        "expectativa": "Semana siguiente (9-13 nov); todavía sin consenso confirmado en las fuentes consultadas.",
+        "expectativa": "Semana del 9-13 de noviembre; todavía sin consenso confirmado en las fuentes consultadas.",
         "fecha": "2026-11-13",
         "horaUtc": "13:30",
         "impacto": "alto",
@@ -1760,8 +1720,8 @@
     "pesoMotivo": "Semana cargada en el papel (ISM manufacturero y de servicios, nóminas, paro, Michigan, IPC de la eurozona) pero con casi todos los consensos todavía sin publicar un domingo antes de la semana: de los 11 datos de EE. UU. y la eurozona, solo las nóminas tenían previsión frente al dato anterior. Con la expectativa tan poco respaldada, mandan más el resto de factores: la gamma negativa, la liquidez drenando, el vuelco demócrata del Congreso ya confirmado, el batacazo de resultados tecnológicos y la escalada en Ormuz.",
     "rango": "2 a 6 de noviembre de 2026",
     "slot": "pre-ny",
-    "updatedAt": "2026-11-06T13:52:08Z"
+    "updatedAt": "2026-11-10T14:20:37.000000Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-06T17:16:00.000000Z"
+  "updatedAt": "2026-11-10T14:20:37.000000Z"
 }
