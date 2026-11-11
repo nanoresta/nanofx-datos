@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-11-10T19:46:15Z",
+  "actualizado": "2026-11-11T07:46:30Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 13 pb del umbral de atención (5,5 %); +12 pb desde el 6 nov tras el IPC caliente y Waller, aunque aún -22 pb en un mes (Trading Economics).",
-      "valor": "5,37 % (10 nov)"
+      "nota": "A 14 pb del umbral de atención (5,5 %); +7 pb el 10 nov tras el IPC y Waller, -23 pb en un mes (Trading Economics). Mercado cerrado el 11 nov; subasta de 30 años el 12 nov.",
+      "valor": "5,36 % (10 nov)"
     },
     {
       "estado": "amarillo",
@@ -49,19 +49,19 @@
       {
         "estado": "amarillo",
         "n": "Muchos compradores nuevos",
-        "nota": "10 nov: Anthropic fija el rango de su OPV en 70-78 $ (Yahoo Finance) tras la venta de hasta 95.000 M$ en acciones de Meta (26 oct): mucha oferta nueva de papel, aunque los ETF de bitcoin pierden 1.280 M$.",
+        "nota": "10 nov: Anthropic fija el rango de su OPV en 70-78 $ (Yahoo Finance) tras rebajar su objetivo de 2 a ~1,5 bill. $ por las reticencias de los grandes fondos (KuCoin, 6 nov): mucha oferta nueva de papel, pero con menos apetito.",
         "valor": "OPV de Anthropic a 70-78 $/acción"
       },
       {
         "estado": "verde",
         "n": "Sentimiento eufórico",
-        "nota": "El Fear & Greed de CNN sale del miedo extremo (20 el 5 nov) a la zona de miedo tras el rebote del Dow (+1.100 puntos, Benzinga, nov); el 10 nov Nvidia cae un 6,3 %: no hay euforia.",
+        "nota": "El Fear & Greed de CNN sigue en la zona de miedo (Benzinga, nov); Nvidia cae un 6,3 % el 10 nov por la investigación del FBI a Jensen Huang, aunque los futuros rebotan el 11 nov (Nasdaq +1 %): no hay euforia.",
         "valor": "Fear & Greed en zona de miedo"
       },
       {
         "estado": "rojo",
         "n": "Compras con mucho apalancamiento",
-        "nota": "FINRA: deuda de margen en 1,48 bill. $ en septiembre, +31 % interanual, cerca del récord (dato de octubre aún no localizado); el 5-6 nov hubo ajustes de margen y liquidaciones forzosas (Reuters).",
+        "nota": "FINRA: deuda de margen en 1,48 bill. $ en septiembre, +31,4 % interanual, cerca del récord de junio (1,50 bill.); el dato de octubre sale el 28 nov (YCharts).",
         "valor": "Margen 1,48 bill. $ (sept.)"
       },
       {
@@ -71,14 +71,14 @@
         "valor": "296.000 M$ en bonos de hyperscalers (2026)"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA marcan 69/100 de burbuja, por debajo de los ~85 de 2000 y 1929; sube 1 punto porque el miedo extremo se ha moderado y la OPV de Anthropic llega esta semana. Lo que más pesa sigue siendo la sobreinversión en IA a crédito (296.000 M$ en bonos este año), y la Fed a punto de subir tipos es ahora el principal riesgo de pinchazo.",
+    "lectura": "La bolsa de EE. UU. y la IA marcan 69/100 de burbuja, por debajo de los ~85 de 2000 y 1929; sin cambios porque el rebote de los futuros compensa la caída de Nvidia y la OPV de Anthropic llega con menos apetito. Lo que más pesa sigue siendo la sobreinversión en IA a crédito (296.000 M$ en bonos este año), y la Fed a punto de subir es el principal riesgo de pinchazo.",
     "nivel": 69,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "10 nov: el 2 años sube 18 pb y el 30 años 9 pb tras el IPC; la curva se aplana (desde +79 pb el 6 nov) porque manda la Fed, no el miedo a la deuda (Trading Economics).",
-        "valor": "+62 pb (4,75 % / 5,37 %)"
+        "nota": "10 nov: el 2 años sube 18 pb y el 30 años 7 pb tras el IPC; la curva se aplana (desde +79 pb el 6 nov) porque manda la Fed, no el miedo a la deuda (Trading Economics).",
+        "valor": "+61 pb (4,75 % / 5,36 %)"
       },
       {
         "estado": "rojo",
@@ -89,24 +89,40 @@
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "10 nov: el dólar sube tras el IPC y el tono duro de Waller y Logan, aunque cede un 0,33 % en un mes (Trading Economics): no hay huida del dólar.",
-        "valor": "102,25 (+0,59 %)"
+        "nota": "11 nov: el dólar sigue firme por la Fed dura, aunque cede un 0,25 % en un mes (Trading Economics): no hay huida del dólar.",
+        "valor": "102,35 (+0,1 %)"
       },
       {
         "estado": "verde",
         "n": "Oro",
-        "nota": "10 nov: el oro cae por debajo de 4.060 $ por la posible subida de 50 pb; -3,5 % en un mes (Trading Economics): no señala huida del dinero papel.",
-        "valor": "~4.028 $/oz (-2,7 %)"
+        "nota": "11 nov: el oro rebota tras caer por debajo de 4.060 $, pero pierde un 2,6 % en un mes (Trading Economics): no señala huida del dinero papel.",
+        "valor": "~4.062 $/oz (+0,75 %)"
       },
       {
         "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "10 nov: bitcoin pierde los 73.000 $ por primera vez desde agosto (CoinDesk); la liquidez neta de la Fed sube 45.000 M$ en la semana pero cae 74.300 M$ en cuatro (H.4.1, 4 nov).",
+        "nota": "11 nov: bitcoin ronda los 73.500 $ tras perder la media de 200 sesiones; la liquidez neta de la Fed cae 74.300 M$ en cuatro semanas (H.4.1, 4 nov).",
         "valor": "Bitcoin <73.000 $; ETF -1.280 M$"
       }
     ]
   },
   "fuentes": [
+    {
+      "nombre": "KuCoin – Reticencias a la valoración de Anthropic (6 nov)",
+      "url": "https://www.kucoin.com/blog/anthropic-ipo-valuation-pushback-market-selloff"
+    },
+    {
+      "nombre": "YCharts – Deuda de margen FINRA (sept.)",
+      "url": "https://ycharts.com/indicators/finra_margin_debt"
+    },
+    {
+      "nombre": "Trading Economics – Bund: Lagarde y BCE (9 nov)",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield/news/599553"
+    },
+    {
+      "nombre": "Trading Economics – Bund 10 años (11 nov)",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield"
+    },
     {
       "nombre": "Trading Economics – Bono 10 años EE. UU. (10 nov)",
       "url": "https://tradingeconomics.com/united-states/government-bond-yield"
@@ -128,35 +144,31 @@
       "url": "https://huggingnews.com/us-markets/hyperscalers-raise-271b-in-global-debt-this-year-to-fund-ai-spending-f34c1d98"
     },
     {
-      "nombre": "Trading Economics – JGB 10 años (10 nov)",
+      "nombre": "Trading Economics – JGB 10 años (11 nov)",
       "url": "https://tradingeconomics.com/japan/government-bond-yield"
     },
     {
-      "nombre": "Trading Economics – JGB 30 años (10 nov)",
+      "nombre": "Trading Economics – JGB 30 años (11 nov)",
       "url": "https://tradingeconomics.com/japan/30-year-bond-yield"
     },
     {
-      "nombre": "Trading Economics – USD/JPY (10 nov)",
+      "nombre": "Trading Economics – USD/JPY (11 nov)",
       "url": "https://tradingeconomics.com/japan/currency"
     },
     {
-      "nombre": "Trading Economics – USD/CNY (10 nov)",
+      "nombre": "Trading Economics – USD/CNY (11 nov)",
       "url": "https://tradingeconomics.com/china/currency"
     },
     {
-      "nombre": "Trading Economics – Bono 10 años China (10 nov)",
+      "nombre": "Trading Economics – Bono 10 años China (11 nov)",
       "url": "https://tradingeconomics.com/china/government-bond-yield"
     },
     {
-      "nombre": "Trading Economics – Bund 10 años (10 nov)",
-      "url": "https://tradingeconomics.com/germany/government-bond-yield"
-    },
-    {
-      "nombre": "Trading Economics – Índice del dólar (10 nov)",
+      "nombre": "Trading Economics – Índice del dólar (11 nov)",
       "url": "https://tradingeconomics.com/united-states/currency"
     },
     {
-      "nombre": "Trading Economics – Oro (10 nov)",
+      "nombre": "Trading Economics – Oro (11 nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
@@ -288,19 +300,19 @@
       "url": "https://rallies.ai/news/jgb-yields-pare-declines-yen-holds-gains-after-boj-stands-pat-as-expected-3b71149544fe9456"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el IPC de octubre (+0,4 % mensual) y el giro duro de Waller disparan el 2 años al 4,75 % y devuelven el 10 años al 4,99 % y el 30 años al 5,37 % (10 nov), a 13 pb del umbral de atención. Desde el 6 nov los bonos han devuelto la huida hacia la calidad (+12 pb el 30 años), la subasta de 10 años salió con poca demanda extranjera (61,2 % de indirectos frente a una media del 76,7 %) y los hyperscalers ya suman 296.000 M$ en bonos este año. Japón sigue en segundo lugar con el BoJ apuntando a subir en diciembre y el yen en 158,8; el riesgo de deuda se queda en 50.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: tras el IPC caliente y el giro duro de Waller, el 30 años cerró en el 5,36 % (10 nov), a 14 pb del umbral de atención, y el mercado de bonos descansa el 11 nov antes de la subasta de 30 años del jueves. Japón sube de tono: el JGB a 10 años salta 10 pb al 2,79 % y el yen roza 159; en Europa, la salida anticipada de Lagarde añade incertidumbre. El riesgo de deuda se queda en 50.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "10 nov; +10 pb en el día, -24 pb en 1 mes (Trading Economics)",
+          "c": "10 nov (último cierre; mercado cerrado el 11 nov por el Día de los Veteranos); -25 pb en 1 mes (Trading Economics)",
           "n": "Bono 10 años",
           "v": "4,99 %"
         },
         {
-          "c": "10 nov; +9 pb en el día, -22 pb en 1 mes (Trading Economics)",
+          "c": "10 nov (último cierre; cerrado el 11 nov); +7 pb en el día, -23 pb en 1 mes (Trading Economics)",
           "n": "Bono 30 años",
-          "v": "5,37 %"
+          "v": "5,36 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -316,14 +328,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "El IPC de octubre (+0,4 % mensual, subyacente +0,3 %) y Waller (abierto a subir hasta 50 pb) llevan la subida del 9 dic al 96,5 % (Kalshi) y el 2 años al 4,75 % (+18 pb); la subasta de 10 años (42.000 M$, 5,020 %) cubrió 2,46 veces. Subasta de 30 años el 12 nov."
+      "nota": "El IPC de octubre (+0,4 % mensual, subyacente +0,3 %), Waller (abierto a 50 pb) y Logan (al menos dos subidas más) dejan la subida del 9 dic en el 96,5 % (Kalshi) y el 2 años en el 4,75 %. El mercado de bonos cierra el 11 nov; la subasta de 30 años del 12 nov es la prueba clave."
     },
     {
       "datos": [
         {
-          "c": "10 nov; +4 pb en el día, -17 pb en 1 mes (Trading Economics)",
+          "c": "11 nov; plano en el día, -17 pb en 1 mes (Trading Economics)",
           "n": "Bund 10 años",
-          "v": "3,31 %"
+          "v": "3,30 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -331,7 +343,7 @@
           "v": "88,9 %"
         },
         {
-          "c": "mantenido el 29 oct; Lane (10 nov) dice que quizá haga falta otra subida en diciembre; IPC eurozona 4,0 % (oct, preliminar)",
+          "c": "mantenido el 29 oct; mercado da ~66 % a subir en diciembre y febrero descontado (LSEG, 9 nov); Lane (10 nov) ve posible otra subida; IPC 4,0 % (oct.)",
           "n": "Tipo depósito BCE",
           "v": "2,50 %"
         },
@@ -344,14 +356,14 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund sube al 3,31 % contagiado por el IPC de EE. UU. y por Lane, que abre la puerta a subir en diciembre con la inflación en el 4,0 %; la prima francesa (157 pb, 28 oct) sigue siendo el punto débil."
+      "nota": "El Bund se estabiliza en el 3,30 % con un BCE que apunta a subir en diciembre y nueva incertidumbre por la salida anticipada anunciada por Lagarde (Trading Economics, 9 nov); la prima francesa (157 pb, 28 oct) sigue siendo el punto débil."
     },
     {
       "datos": [
         {
-          "c": "10 nov; +1 pb en el día, -8 pb en 1 mes; cerca de mínimos históricos (Trading Economics)",
+          "c": "11 nov; +1 pb en el día, -8 pb en 1 mes; cerca de mínimos históricos (Trading Economics)",
           "n": "Bono 10 años",
-          "v": "1,60 %"
+          "v": "1,61 %"
         },
         {
           "c": "agosto (TIC, 16 oct), -27.300 M$; 3.ª caída, mínimo en ~18 años",
@@ -359,9 +371,9 @@
           "v": "590.700 M$"
         },
         {
-          "c": "10 nov; +0,13 % en el día, yuan +0,25 % en 1 mes (Trading Economics)",
+          "c": "11 nov; -0,05 % en el día, yuan +0,32 % en 1 mes; fijación del PBOC en 6,7191, la más débil desde el 22 oct",
           "n": "USD/CNY",
-          "v": "6,68"
+          "v": "6,67"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -372,19 +384,19 @@
       "estado": "amarillo",
       "id": "CN",
       "nombre": "China",
-      "nota": "Exportaciones de octubre +35,2 % y superávit comercial del año por encima del billón de dólares sostienen el yuan; EE. UU. y China amplían dos meses la tregua comercial, pero Bessent exige cumplir ya lo pactado en Busan (6 nov). China sigue vendiendo Treasuries (TIC agosto) y comprando oro."
+      "nota": "El PBOC frena la subida del yuan (sube el coeficiente de reservas en divisas del 4 % al 6 % desde el 15 nov) y Bessent anuncia un alivio arancelario de 30.000 M$ para bienes no sensibles (10 nov), lo que reduce tensión; China sigue vendiendo Treasuries (TIC agosto) y comprando oro."
     },
     {
       "datos": [
         {
-          "c": "10 nov; +2 pb en el día, -32 pb en 1 mes (Trading Economics)",
+          "c": "11 nov; +10 pb en el día, -23 pb en 1 mes (Trading Economics)",
           "n": "JGB 10 años",
-          "v": "2,70 %"
+          "v": "2,79 %"
         },
         {
-          "c": "10 nov; +3 pb en el día, -19 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
+          "c": "11 nov; +5 pb en el día, -14 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
           "n": "JGB 30 años",
-          "v": "3,88 %"
+          "v": "3,92 %"
         },
         {
           "c": "agosto (TIC), -35.600 M$; 4.ª caída, mínimo desde dic-2024",
@@ -392,15 +404,15 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "10 nov; +0,56 % en el día, +0,12 % en 1 mes (Trading Economics)",
+          "c": "11 nov; +0,08 % en el día, +0,17 % en 1 mes; cerca de 159, mínimo de dos meses del yen (Trading Economics)",
           "n": "USD/JPY",
-          "v": "158,79"
+          "v": "158,88"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Los JGB rebotan desde mínimos de cuatro meses porque el BoJ (1,25 %) apunta a subir en diciembre y a seguir en 2027, pero el yen se debilita a 158,8 pese a ello (tras la intervención récord de julio, ~15,4 bill. de yenes); Nikkei +2,9 % el 10 nov."
+      "nota": "Los JGB suben con fuerza (10 años +10 pb) siguiendo a los Treasuries y porque el BoJ (1,25 %) señala una subida en diciembre, pero el yen roza 159 por la Fed dura, cerca de la zona de la intervención récord de julio (~15,4 bill. de yenes)."
     },
     {
       "datos": [
@@ -412,7 +424,7 @@
         {
           "c": "9 nov; plano en 1 mes (Trading Economics)",
           "n": "OFZ 10 años",
-          "v": "16,67 %"
+          "v": "16,64 %"
         },
         {
           "c": "estimación de septiembre; ene-sept 5,19 bill. (2,2 % PIB); plan inicial 3,79 bill.",
@@ -428,7 +440,7 @@
       "estado": "rojo",
       "id": "RU",
       "nombre": "Rusia",
-      "nota": "El tipo sigue en el 14 % (23 oct) con inflación del 6,8 %; el déficit previsto para 2026 casi duplica el plan y Hacienda depende de colocar OFZ al 16-17 %; el petróleo cae a mínimos de dos meses (Brent <92 $, 10 nov)."
+      "nota": "El tipo sigue en el 14 % (23 oct) con inflación del 6,8 %; el déficit previsto para 2026 casi duplica el plan y Hacienda depende de colocar OFZ al 16-17 %; el Brent pierde los 90 $ (11 nov) por la distensión en Ormuz, lo que recorta ingresos."
     }
   ],
   "riesgo": 50,
@@ -606,6 +618,11 @@
       "burbuja": 69,
       "riesgo": 50,
       "ts": "2026-11-10T19:46:15Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 50,
+      "ts": "2026-11-11T07:46:30Z"
     }
   ]
 }
