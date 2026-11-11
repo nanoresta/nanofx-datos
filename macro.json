@@ -682,15 +682,39 @@
     {
       "nombre": "SCMP · US-China trade chiefs hold call ahead of Trump-Xi summit in Shenzhen",
       "url": "https://www.scmp.com/news/us/economy-trade-business/article/3373616/us-china-trade-chiefs-hold-call-ahead-trump-xi-summit-shenzhen"
+    },
+    {
+      "nombre": "TheStreet · Stock Market Today (Nov. 11, 2026): Nasdaq, S&P 500 whipsaws higher as CoreWeave lifts AI trade",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+    },
+    {
+      "nombre": "CNBC · The price of gold today, Nov. 11, 2026",
+      "url": "https://www.cnbc.com/select/the-price-of-gold-today-nov-11-2026/"
+    },
+    {
+      "nombre": "USAGold · Daily precious metals market report, 11 de noviembre de 2026",
+      "url": "https://www.usagold.com/daily-precious-metals-market-report-november-11-2026/"
+    },
+    {
+      "nombre": "Fortune · Current price of Bitcoin, 11 de noviembre de 2026",
+      "url": "https://fortune.com/article/price-of-bitcoin-11-11-2026/"
+    },
+    {
+      "nombre": "The Coin Republic · Bitcoin Price Today Falls Below $73K as CPI Fuels 50-Bps Fed Hike Bets",
+      "url": "https://www.thecoinrepublic.com/2026/11/11/bitcoin-price-falls-below-74k-as-cpi-fuels-50-bps-fed-hike-bets/"
+    },
+    {
+      "nombre": "FXStreet · WTI Oil steadies above $85 as hopes of Middle East peace agreement fades",
+      "url": "https://fxstreet.com/news/wti-oil-steadies-above-85-as-hopes-of-a-middle-east-peace-agreement-start-to-fade-202611111206"
     }
   ],
   "indices": [
     {
-      "changeNote": "en vivo (motor de datos, Alpaca), 17:16 UTC / 17:16 Canarias",
-      "changePct": 1.34,
+      "changeNote": "en vivo (motor de datos, Alpaca), 19:45 UTC",
+      "changePct": 1.42,
       "claves": [
         "Call wall en 7622 (SPY 760,0 $); put wall en 7522 (SPY 750,0 $).",
-        "Giro de gamma (gamma flip) en 7655 (SPY 763,26 $): el índice cotiza por debajo, en zona de gamma negativa.",
+        "Giro de gamma (gamma flip) en 7655 (SPY 763,26 $): el índice cotiza justo por debajo, probando el call wall.",
         "Max pain en 7522, coincidiendo con el put wall.",
         "Régimen de gamma negativa, en -1,9 mil M$ por 1 %, put/call OI 1,35, open interest del 2026-11-09."
       ],
@@ -886,7 +910,7 @@
           "callWall": 7622,
           "gammaFlip": 7655,
           "maxPain": 7522,
-          "precio": 7622,
+          "precio": 7628,
           "putWall": 7522
         },
         "maxPain": 750,
@@ -917,7 +941,7 @@
         "vencimientoCercano": "2026-11-11"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 sube a 7.622 puntos (+1.34 % sobre el cierre de ayer, 7.520,93), apoyado en el resultado de CoreWeave (ingresos del Q3 de 3.660 millones $ frente a 3.560 millones esperados, guía anual elevada a 13.000-13.300 millones $) y en la distensión de Trump sobre Irán y el alivio arancelario de Bessent con China antes de la cumbre APEC de Shenzhen (18-19 de noviembre). Pesa en contra el deterioro de Nvidia, rebajada hoy por Baird (precio objetivo a 200 $ desde 500 $) y retirada por Morgan Stanley de su lista Top Pick tras caer un 10 % en dos sesiones, y el tono cada vez más duro de la Fed: Waller abre la puerta a una subida de hasta 50 pb en diciembre tras el IPC del 10 de noviembre, con la probabilidad de hike en Kalshi en el 96,5 % y el bono a 10 años cerca del 5 %. La gamma del motor sigue en régimen negativo (-1,9 mil M$ por 1 %), con el índice por debajo del gamma flip (7655) y del call wall (7622); put wall y max pain coinciden en 7522, soporte cercano. Score del día: -14 (neutral).",
+      "lectura": "El S&P 500 sube a 7.628 puntos (+1,42 % sobre el cierre de ayer, 7.520,93), apoyado en el resultado de CoreWeave (ingresos del Q3 por encima del consenso, guía anual elevada) y en la distensión de Trump sobre Irán y el alivio arancelario de Bessent con China antes de la cumbre APEC de Shenzhen (18-19 de noviembre). Pesa en contra el deterioro de Nvidia (rebajada por Baird y retirada por Morgan Stanley de su Top Pick) y, sobre todo, el tono cada vez más duro de la Fed: el gobernador Waller abre la puerta a una subida de hasta 50 pb en diciembre tras el IPC del 10 de noviembre (+0,4 % m/m, por encima del consenso), con la probabilidad de hike en Kalshi en el 96,5 % y el bono a 10 años cerca del 5 %. La gamma del motor sigue en régimen negativo (-1,9 mil M$ por 1 %), con el índice probando el call wall (7622) por debajo del gamma flip (7655); put wall y max pain coinciden en 7522, soporte cercano. Score del día: -11 (neutral); pesan más Waller y el IPC del 10-nov.",
       "levels": {
         "callWall": 7622,
         "gammaFlip": 7655,
@@ -926,19 +950,19 @@
       },
       "name": "S&P 500",
       "netGex": "negativa (-1,9 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-09)",
-      "precio": 7622,
+      "precio": 7628,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -14,
+      "score": -11,
       "sesgo": "neutral",
       "spot": 7520.93
     },
     {
-      "changeNote": "en vivo (motor de datos, Alpaca), 17:16 UTC / 17:16 Canarias",
-      "changePct": 2.88,
+      "changeNote": "en vivo (motor de datos, Alpaca), 19:45 UTC",
+      "changePct": 3,
       "claves": [
         "Call wall en 28776 (QQQ 700,0 $); put wall en 27954 (QQQ 680,0 $).",
-        "Giro de gamma (gamma flip) en 28480 (QQQ 692,79 $): el índice cotiza justo por debajo, en zona de gamma negativa pero casi plana.",
+        "Giro de gamma (gamma flip) en 28480 (QQQ 692,79 $): el índice cotiza justo por encima, en el límite de la gamma negativa.",
         "Max pain en 27748.",
         "Régimen de gamma negativa, en 0,09 mil M$ por 1 %, put/call OI 1,09, open interest del 2026-11-09."
       ],
@@ -1122,7 +1146,7 @@
           "callWall": 28776,
           "gammaFlip": 28480,
           "maxPain": 27748,
-          "precio": 28478,
+          "precio": 28509,
           "putWall": 27954
         },
         "maxPain": 675,
@@ -1153,7 +1177,7 @@
         "vencimientoCercano": "2026-11-11"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 se dispara a 28.478 puntos (+2.88 % sobre el cierre de ayer, 27.680), liderado por el resultado de CoreWeave (+19 %, ingresos del Q3 por encima del consenso) y el rebote generalizado de la IA (Micron y Broadcom +5,6 %), que compensa el deterioro de Nvidia tras las rebajas de Baird y Morgan Stanley y la investigación del FBI sobre Jensen Huang confirmada por Trump. La gamma del motor sigue en negativo (0,09 mil M$ por 1 %) pero casi plana, con el índice justo por debajo del gamma flip (28.480) y del call wall (28.776); put wall en 27.954 y max pain en 27.748. El tono hawkish de la Fed (Waller, IPC del 10 de noviembre) limita el sesgo de fondo. Score del día: -1 (neutral).",
+      "lectura": "El Nasdaq 100 se dispara a 28.509 puntos (+3,0 % sobre el cierre de ayer, 27.680), liderado por el resultado de CoreWeave (+19 %, ingresos del Q3 por encima del consenso) y el rebote generalizado de la IA (Micron y Broadcom +5,6 %), que compensa el deterioro de Nvidia tras las rebajas de Baird y Morgan Stanley y la investigación del FBI sobre Jensen Huang confirmada por Trump. La gamma del motor sigue en negativo (0,09 mil M$ por 1 %) pero casi plana, con el índice justo por encima del gamma flip (28.480) y por debajo del call wall (28.776); put wall en 27.954 y max pain en 27.748. El tono hawkish de la Fed (Waller, IPC del 10-nov) limita el sesgo de fondo. Score del día: +3 (neutral); pesan más Waller y el IPC del 10-nov.",
       "levels": {
         "callWall": 28776,
         "gammaFlip": 28480,
@@ -1162,16 +1186,16 @@
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (0,09 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-09)",
-      "precio": 28478,
+      "precio": 28509,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -1,
+      "score": 3,
       "sesgo": "neutral",
       "spot": 27680
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-11T16:08:17Z",
+    "actualizado": "2026-11-11T17:10:41Z",
     "balance": 6748.1,
     "d4": -74.3,
     "dBalance": 2.5,
@@ -1304,6 +1328,19 @@
     "tga": 957.2
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista",
+        "WTI": "bajista"
+      },
+      "fuente": "Agregado (TheStreet, stocksetups, USAGold, Fortune, FXStreet)",
+      "impacto": "medio",
+      "resumen": "Hacia las 14:45 de Nueva York, S&P 500 +1,4 % en 7.628, Nasdaq 100 +3,0 % en 28.509, oro en 3.990-4.000 $/oz (-1 %), bitcoin en 73.500-74.000 $ (-1,4 %), WTI en 86,4 $ (+0,4 %) y el índice dólar cerca de máximos de 12 sesiones (102,46).",
+      "titular": "Wall Street amplía las ganancias de media sesión; dólar y bono a 10 años siguen firmes",
+      "ts": "2026-11-11T19:30:00Z",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+    },
     {
       "activos": {
         "NQ": "bajista",
@@ -1466,17 +1503,6 @@
       "titular": "Bitcoin ronda los 73.850 dolares con el indice de miedo y codicia en 29 tras nuevas salidas de ETF",
       "ts": "2026-11-11T05:30:00Z",
       "url": "https://www.kucoin.com/news/flash/bitcoin-price-rebounds-on-nov-11-2026-amid-etf-outflows-and-market-volatility"
-    },
-    {
-      "activos": {
-        "BTC": "bajista"
-      },
-      "fuente": "Mitrade",
-      "impacto": "medio",
-      "resumen": "Las salidas de capital empezaron tres sesiones antes del IPC de octubre; bitcoin cotiza en torno a 73.500 $ mientras el mercado refuerza las apuestas de una Fed mas dura en diciembre.",
-      "titular": "Bitcoin pierde la media de 200 sesiones por primera vez en meses",
-      "ts": "2026-11-11T03:00:00Z",
-      "url": "https://www.mitrade.com/insights/crypto-analysis/bitcoin/btc-double-top-neckline-20261111J1122"
     }
   ],
   "odte": {
@@ -1515,7 +1541,7 @@
     "lectura": "Niveles 0DTE de la sesión de hoy, 11 de noviembre (vencimiento de hoy, base open interest del 9 de noviembre): en el S&P 500, call wall en 7722, put wall en 7221 y max pain en 7522, con un put/call OI de 1,02 (ligero predominio de calls). En el Nasdaq 100, call wall en 28776, y put wall y max pain coinciden en 27748, con un put/call OI de 0,92 (leve predominio de calls). Ambos índices cotizan cómodamente dentro de la banda 0DTE, sin presión inmediata de pinning hacia el max pain."
   },
   "politica": {
-    "actualizado": "2026-11-11T15:46:33Z",
+    "actualizado": "2026-11-11T19:45:00Z",
     "ajuste": -4,
     "declaraciones": [
       {
@@ -1560,7 +1586,7 @@
       }
     ],
     "efecto": "mixto",
-    "lectura": "El saldo político se suaviza un poco más (-4 frente a -6 de hace unas horas): la distensión de Trump sobre Irán y el alivio arancelario y el diálogo sobre IA de Bessent con China, antes de la cumbre APEC de Shenzhen (18-19 de noviembre, donde China confirma a Xi Jinping como anfitrión y Bessent no descarta la asistencia de Trump), siguen compensando buena parte del tono cada vez más duro de la Fed (Waller abre la puerta a hasta 50 pb en diciembre) y de la investigación del FBI sobre los vínculos de Jensen Huang (Nvidia) con una presunta espía china. Lagarde, en una entrevista con el Yomiuri publicada el 7 de noviembre, reconoce que la inflación energética (20,8 % interanual) podría acercar una subida del BCE, lo que resta apoyo adicional al euro.",
+    "lectura": "El saldo político se mantiene en -4 (mixto): la distensión de Trump sobre Irán y el alivio arancelario y el diálogo sobre IA de Bessent con China, antes de la cumbre APEC de Shenzhen (18-19 de noviembre, con Xi Jinping como anfitrión y Bessent viajando con Trump), siguen compensando buena parte del tono cada vez más duro de la Fed (Waller abre la puerta a hasta 50 pb en diciembre tras el IPC del 10-nov) y de la investigación del FBI sobre los vínculos de Jensen Huang (Nvidia) con una presunta espía china. Lagarde, en una entrevista con el Yomiuri publicada el 7 de noviembre, reconoce que la inflación energética (20,8 % interanual) podría acercar una subida del BCE, lo que resta apoyo adicional al euro; He Lifeng mantiene el tono conciliador tras extender la tregua arancelaria hasta el 10 de enero de 2027.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1587,14 +1613,6 @@
         "url": "https://cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html"
       },
       {
-        "cargo": "Gobernador de la Reserva Federal",
-        "efecto": "bajista",
-        "postura": "Se inclina por 25 pb en diciembre desde Londres, pero defiende valorar 50 pb si la inflacion sigue caliente.",
-        "quien": "Christopher Waller",
-        "ts": "2026-11-10T14:40:00Z",
-        "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
-      },
-      {
         "cargo": "Viceprimer ministro de China (comercio)",
         "efecto": "alcista",
         "postura": "Pide confianza y cooperacion tras cerrar la ronda comercial con EE. UU.; tregua arancelaria extendida hasta el 10 de enero de 2027.",
@@ -1612,61 +1630,61 @@
       }
     ]
   },
-  "resumen": "Son las 17:16 UTC (12:16 en Nueva York, 17:16 en Canarias, 18:16 en Madrid) del miércoles 11 de noviembre de 2026, Día de los Veteranos en EE. UU. (bono y oficinas federales cerrados; la bolsa opera con normalidad, sin datos económicos hoy). Wall Street cerró ayer con pérdidas (S&P 500 -0,38 %, en 7.520,93; Nasdaq 100 en torno a -0,6 %) tras el IPC de octubre y el tono hawkish de Waller, con el bono a 10 años llegando a tocar el 4,98-4,99 %. En sesión, el S&P 500 sube a 7.622 puntos (+1.34 %) y el Nasdaq 100 se dispara a 28.478 (+2.88 %), impulsados por el resultado de CoreWeave (ingresos del Q3 por encima del consenso, guía anual elevada a 13.000-13.300 millones $) y el rebote de la IA, aunque Nvidia sigue bajo presión tras ser rebajada hoy por Baird y retirada por Morgan Stanley de su lista Top Pick. El dólar se mantiene firme y el euro cotiza en mínimos de dos semanas, en torno a 1,112-1,116. El oro ronda los 4.020-4.050 $/oz, presionado por el dólar fuerte y el tono hawkish de la Fed; bitcoin sigue débil, en torno a 73.500-74.000 $, con los ETF acumulando su mayor salida semanal desde junio (1.280 millones $). El petróleo WTI sigue cediendo, en torno a 86-87 $, lastrado por la distensión en el estrecho de Ormuz. La probabilidad de hike en diciembre (Kalshi) se mantiene en el 96,5 %. La gamma del motor permanece en régimen negativo en ambos índices (SPX -1,9 mil M$ por 1 %; NDX 0,09, casi plana).",
+  "resumen": "Son las 19:45 UTC (14:45 en Nueva York, 19:45 en Canarias, 20:45 en Madrid) del miércoles 11 de noviembre de 2026, Día de los Veteranos en EE. UU. (bono y oficinas federales cerrados; la bolsa opera con normalidad, sin datos económicos hoy). Wall Street cerró ayer con pérdidas (S&P 500 -0,38 %, en 7.520,93; Nasdaq 100 en torno a -0,6 %) tras el IPC de octubre y el tono hawkish de Waller, con el bono a 10 años llegando a tocar el 4,98-4,99 %. En sesión, el S&P 500 sube a 7.628 puntos (+1,42 %) y el Nasdaq 100 se dispara a 28.509 (+3,0 %), impulsados por el resultado de CoreWeave (ingresos del Q3 por encima del consenso, guía anual elevada a 13.000-13.300 millones $) y el rebote de la IA, aunque Nvidia sigue bajo presión tras ser rebajada por Baird y retirada por Morgan Stanley de su lista Top Pick. El dólar se mantiene firme cerca de máximos de 12 sesiones (índice dólar ~102,46) y el euro cotiza en mínimos de dos semanas, en torno a 1,112-1,114. El oro ronda los 3.990-4.000 $/oz, presionado por el dólar fuerte y el tono hawkish de la Fed; bitcoin sigue débil, en torno a 73.500-74.000 $, con los ETF acumulando su mayor salida semanal desde junio (1.280 millones $). El petróleo WTI se mantiene en torno a 86-87 $, lastrado por la distensión en el estrecho de Ormuz. La probabilidad de hike en diciembre (Kalshi) se mantiene en el 96,5 %. La gamma del motor permanece en régimen negativo en ambos índices (SPX -1,9 mil M$ por 1 %; NDX 0,09, casi plana).",
   "semana": {
     "activos": [
       {
-        "cambio": 54,
+        "cambio": 4,
         "expectativa": "El IPP de octubre (viernes 13, previsto +0,4% m/m / 6,6% a/a) y el PIB preliminar de la eurozona son los próximos catalizadores; el desenlace de la investigación sobre Nvidia sigue siendo el principal riesgo idiosincrático.",
         "id": "SPX",
-        "narrativa": "El balance del calendario de esta semana se inclina a un dolar algo mas debil (-23 sobre -45 de pura expectativa), con el IPP del viernes (previsto +0,4% m/m / 6,6% a/a) y el PIB preliminar de la eurozona como proximas referencias. Pero el mercado de tipos sigue descontando con fuerza una subida de la Fed en diciembre (Kalshi: 96,5%) tras el IPC del 10-nov y el tono hawkish de Waller (hasta 50 pb), con el bono a 10 años cerca del 5%; la liquidez mantiene una tendencia de cuatro semanas negativa (-74.300 M$) pese al repunte semanal, y la gamma del motor sigue en regimen negativo en ambos indices. Trump (distension con Iran) y Bessent (alivio arancelario y dialogo IA con China antes de la cumbre APEC de Shenzhen) impulsan el rebote de hoy (+0,9%), compensando el golpe de la investigacion del FBI sobre Nvidia.",
+        "narrativa": "El balance del calendario de esta semana se inclina a un dólar algo más débil (-23 sobre -45 de pura expectativa), con el IPP del viernes (previsto +0,4% m/m / 6,6% a/a) y el PIB preliminar de la eurozona como próximas referencias. Pero el mercado de tipos sigue descontando con fuerza una subida de la Fed en diciembre (Kalshi: 96,5%) tras el IPC del 10-nov y el tono hawkish de Waller (hasta 50 pb), con el bono a 10 años cerca del 5%; la liquidez mantiene una tendencia de cuatro semanas negativa (-74.300 M$) pese al repunte semanal, y la gamma del motor sigue en régimen negativo (-1,9 mil M$ por 1%) con el índice probando el call wall. Trump (distensión con Irán) y Bessent (alivio arancelario y diálogo IA con China antes de la cumbre APEC de Shenzhen) sostienen el rebote de hoy (+1,4%), pero no bastan para cambiar el sesgo de fondo, que sigue siendo neutral.",
         "score": 15,
-        "scoreInicial": -39,
+        "scoreInicial": 15,
         "sesgo": "alcista"
       },
       {
-        "cambio": 61,
+        "cambio": 4,
         "expectativa": "El IPP del viernes es la siguiente referencia macro; el desenlace de la investigación del FBI sobre Jensen Huang (Nvidia) sigue siendo el principal riesgo idiosincrático de corto plazo para el índice.",
         "id": "NQ",
-        "narrativa": "Igual que el S&P 500, el Nasdaq 100 se apoya en el balance del calendario hacia un dolar algo mas debil (-23) y en la distension de Trump sobre Iran y de Bessent sobre China, que ayudan a compensar el golpe especifico de la investigacion del FBI sobre Jensen Huang (Nvidia). El tono hawkish de Waller y la probabilidad de hike en diciembre (96,5%) siguen limitando el rebote de fondo, pero el resultado de CoreWeave (+19%) dispara hoy al indice (+2,2%), con la gamma del motor negativa pero casi plana.",
+        "narrativa": "Igual que el S&P 500, el Nasdaq 100 se apoya en el balance del calendario hacia un dólar algo más débil (-23) y en la distensión de Trump sobre Irán y de Bessent sobre China, que ayudan a compensar el golpe específico de la investigación del FBI sobre Jensen Huang (Nvidia). El tono hawkish de Waller y la probabilidad de hike en diciembre (96,5%) siguen limitando el rebote de fondo, pero el resultado de CoreWeave (+19%) dispara hoy al índice (+3,0%), con la gamma del motor negativa pero casi plana y el índice ya por encima del gamma flip.",
         "score": 20,
-        "scoreInicial": -41,
+        "scoreInicial": 20,
         "sesgo": "alcista"
       },
       {
-        "cambio": 21,
+        "cambio": 4,
         "expectativa": "El IPP del viernes es la siguiente referencia para el dólar y la Fed; una confirmación del acuerdo diplomático en Ormuz seguiría restando demanda de refugio al oro.",
         "id": "XAU",
-        "narrativa": "El balance del calendario sigue apuntando a un dolar algo mas debil esta semana (-23) por el IPP y el PIB de la eurozona del viernes, lo que en teoria daria soporte al oro, pero el dolar cotiza en maximos de varias sesiones tras el IPC del 10-nov y el tono hawkish de Waller (hasta 50 pb en diciembre), y el oro cede a 4.020-4.040 $/oz. La distension de Trump sobre Iran resta ademas demanda de refugio.",
+        "narrativa": "El balance del calendario sigue apuntando a un dólar algo más débil esta semana (-23) por el IPP y el PIB de la eurozona del viernes, lo que en teoría daría soporte al oro, pero el dólar cotiza cerca de máximos de 12 sesiones tras el IPC del 10-nov y el tono hawkish de Waller (hasta 50 pb en diciembre), y el oro cede a 3.990-4.000 $/oz. La distensión de Trump sobre Irán resta además demanda de refugio.",
         "score": -4,
-        "scoreInicial": -25,
+        "scoreInicial": -4,
         "sesgo": "neutral"
       },
       {
-        "cambio": 8,
+        "cambio": 4,
         "expectativa": "El IPP del viernes es la siguiente referencia para el dólar; mientras persistan las salidas de ETF y la Fed mantenga el tono duro, el rebote de bitcoin seguirá limitado.",
         "id": "BTC",
-        "narrativa": "Bitcoin sigue por debajo de su media de 200 sesiones, en torno a 73.500-73.600 $ (-1,6% en 24h), con salidas de ETF por tercera sesion consecutiva y un dolar firme que no ayuda; el indice de miedo y codicia permanece en zona de miedo. El balance del calendario hacia un dolar algo mas debil (-23) ofrece algo de soporte potencial, y el rebote de los futuros tecnologicos (NQ +2,2%) limita las perdidas, pero el tono hawkish de la Fed domina el sesgo de corto plazo.",
+        "narrativa": "Bitcoin sigue por debajo de su media de 200 sesiones, en torno a 73.500-74.000 $ (-1,4% en 24h), con salidas de ETF acumulando 1.280 millones $ en la semana y un dólar firme que no ayuda; el índice de miedo y codicia permanece en zona de miedo. El balance del calendario hacia un dólar algo más débil (-23) ofrece algo de soporte potencial, y el rebote de los futuros tecnológicos (NQ +3,0%) limita las pérdidas, pero el tono hawkish de la Fed domina el sesgo de corto plazo.",
         "score": -12,
-        "scoreInicial": -20,
+        "scoreInicial": -12,
         "sesgo": "neutral"
       },
       {
-        "cambio": 22,
+        "cambio": 4,
         "expectativa": "Una confirmación del plan de distensión en Ormuz aceleraría la caída; un repunte de la tensión con Irán o un fracaso de las negociaciones revertiría el movimiento con fuerza.",
         "id": "WTI",
-        "narrativa": "El petroleo (WTI, en torno a 86-87 $) se mantiene cerca de minimos de varios meses, presionado por la distension en el estrecho de Ormuz y los comentarios de Trump que rebajan hoy mismo el riesgo de una escalada militar con Iran. El balance del calendario (-23, dolar algo mas debil) ofrece un ligero soporte, insuficiente frente a la distension geopolitica que domina el precio esta semana.",
+        "narrativa": "El petróleo (WTI, en torno a 86-87 $) se mantiene cerca de mínimos de varios meses, presionado por la distensión en el estrecho de Ormuz y los comentarios de Trump que rebajan el riesgo de una escalada militar con Irán. El balance del calendario (-23, dólar algo más débil) ofrece un ligero soporte, insuficiente frente a la distensión geopolítica que domina el precio esta semana.",
         "score": -17,
-        "scoreInicial": -39,
+        "scoreInicial": -17,
         "sesgo": "bajista"
       },
       {
-        "cambio": -36,
+        "cambio": 4,
         "expectativa": "El PIB preliminar de la eurozona del 13 de noviembre (previsto +0,4% t/t) es la siguiente referencia para el euro; el tono cada vez más duro de la Fed deja al dólar con sesgo de fortalecerse a corto plazo.",
         "id": "EURUSD",
-        "narrativa": "El dolar se mantiene firme, en maximos de varias sesiones, y el euro cotiza en minimos de dos semanas, en torno a 1,112-1,114, lastrado por el tono cada vez mas duro de la Fed (Waller abre la puerta a 50 pb en diciembre). El PIB preliminar de la eurozona del viernes se espera que modere a +0,4% t/t desde el +0,6% final del T2 (balance euro -100), lo que resta apoyo adicional al euro. Lagarde, en su entrevista con el Yomiuri (7-nov), admite que la inflacion energetica podria acercar una subida del BCE, pero no evita hoy la caida del euro frente al dolar.",
+        "narrativa": "El dólar se mantiene firme, cerca de máximos de 12 sesiones, y el euro cotiza en mínimos de dos semanas, en torno a 1,112-1,114, lastrado por el tono cada vez más duro de la Fed (Waller abre la puerta a 50 pb en diciembre). El PIB preliminar de la eurozona del viernes se espera que modere a +0,4% t/t desde el +0,6% final del T2 (balance euro -100), lo que resta apoyo adicional al euro. Lagarde, en su entrevista con el Yomiuri (7-nov), admite que la inflación energética podría acercar una subida del BCE, pero no evita hoy la caída del euro frente al dólar.",
         "score": -18,
-        "scoreInicial": 18,
+        "scoreInicial": -18,
         "sesgo": "bajista"
       }
     ],
@@ -1679,11 +1697,11 @@
         "WTI": 12,
         "XAU": 23
       },
-      "actualizado": "2026-11-11T15:46:33Z",
+      "actualizado": "2026-11-11T19:45:00Z",
       "dolar": -23,
       "dolarEsperado": -45,
       "euro": -100,
-      "nota": "El balance se mueve a -23 (dolar algo mas debil) tras incorporar el consenso del IPP (6,6% a/a, 0,4% m/m) y el PIB preliminar de la eurozona (previsto +0,4% t/t frente al +0,6% final del T2, balance euro -100). La pura expectativa previa a los datos (dolar esperado) se situa en -45."
+      "nota": "El balance se mueve a -23 (dólar algo más débil) tras incorporar el consenso del IPP (6,6% a/a, 0,4% m/m) y el PIB preliminar de la eurozona (previsto +0,4% t/t frente al +0,6% final del T2, balance euro -100). La pura expectativa previa a los datos (dólar esperado) se situa en -45."
     },
     "escenarios": [
       {
@@ -1978,7 +1996,7 @@
         "fecha": "2026-11-10",
         "horaUtc": "13:30",
         "impacto": "alto",
-        "lectura": "La BLS no pudo calcular la tasa interanual de octubre por falta de datos de 2025; el dato mensual si se publico (+0,4 % frente al +0,3 % esperado), reforzando el argumento de una Fed mas dura: Waller se abre a una subida de hasta 50 pb. El subyacente tambien bate el consenso (+0,3 % frente al +0,2 % esperado). El mercado ha seguido subiendo la probabilidad de hike en diciembre hasta el 118 % en bps.",
+        "lectura": "La BLS no pudo calcular la tasa interanual de octubre por falta de datos de 2025; el dato mensual si se publico (+0,4 % frente al +0,3 % esperado), reforzando el argumento de una Fed mas dura: Waller se abre a una subida de hasta 50 pb. El subyacente tambien bate el consenso (+0,3 % frente al +0,2 % esperado).",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "3,7 % a/a (nowcast Cleveland Fed / Polymarket)"
@@ -2113,8 +2131,8 @@
     "pesoCalendario": 0.3,
     "pesoMotivo": "Semana cargada en el papel (ISM manufacturero y de servicios, nominas, paro, Michigan, IPC de la eurozona) pero con casi todos los consensos todavia sin publicar un domingo antes de la semana: de los 11 datos de EE. UU. y la eurozona, solo las nominas tenian prevision frente al dato anterior. Con la expectativa tan poco respaldada, mandan mas el resto de factores: la gamma negativa, la liquidez drenando, el vuelco democrata del Congreso ya confirmado, el batacazo de resultados tecnologicos y la escalada en Ormuz.",
     "rango": "9 a 13 de noviembre de 2026",
-    "updatedAt": "2026-11-11T15:46:33Z"
+    "updatedAt": "2026-11-11T19:45:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-11T19:17:00Z"
+  "updatedAt": "2026-11-11T20:20:00Z"
 }
