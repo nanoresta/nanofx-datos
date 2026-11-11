@@ -407,9 +407,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-11T17:10:41Z",
+    "actualizado": "2026-11-11T20:57:42Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) sigue en el 96,5 % (tasa implícita 4,14 %), sin cambios en la última hora. Para enero de 2027 se mantiene en el 96,0 % (tasa implícita 4,24 %) y para marzo de 2027 también en el 96,0 % (tasa implícita 4,29 %). El mercado sigue digiriendo el IPC de octubre y los comentarios del gobernador Waller, que se inclina por 25 pb en diciembre pero defiende valorar 50 pb si la inflación sigue caliente.",
+    "lectura": "La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) se mantiene en el 96,5 % (tasa implícita 4,14 %), sin cambios en la última hora. Para enero de 2027 sigue en el 96,0 % (tasa implícita 4,23 %) y para marzo de 2027 también en el 96,0 % (tasa implícita 4,30 %). El mercado sigue digiriendo el IPC de octubre y los comentarios del gobernador Waller, que se inclina por 25 pb en diciembre pero defiende valorar 50 pb si la inflación sigue caliente.",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -423,14 +423,14 @@
         "fecha": "2027-01-27",
         "mantener": 0,
         "subir": 96,
-        "tasaImplicita": 4.24
+        "tasaImplicita": 4.23
       },
       {
         "bajar": 4,
         "fecha": "2027-03-17",
         "mantener": 0,
         "subir": 96,
-        "tasaImplicita": 4.29
+        "tasaImplicita": 4.3
       }
     ]
   },
@@ -710,207 +710,211 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo (motor de datos, Alpaca), 19:45 UTC",
-      "changePct": 1.42,
+      "changeNote": "en vivo (motor de datos, Alpaca), 20:58 Canarias",
+      "changePct": 1.3,
       "claves": [
         "Call wall en 7622 (SPY 760,0 $); put wall en 7522 (SPY 750,0 $).",
-        "Giro de gamma (gamma flip) en 7655 (SPY 763,26 $): el índice cotiza justo por debajo, probando el call wall.",
+        "Giro de gamma (gamma flip) en 7657 (SPY 763,52 $): el índice cotiza justo por debajo, probando el call wall.",
         "Max pain en 7522, coincidiendo con el put wall.",
-        "Régimen de gamma negativa, en -1,9 mil M$ por 1 %, put/call OI 1,35, open interest del 2026-11-09."
+        "Régimen de gamma negativa, en -2,34 mil M$ por 1 %, put/call OI 1,35, open interest del 2026-11-09."
       ],
       "gex": {
         "callWall": 760,
-        "contratos": 1882,
+        "contratos": 1815,
         "escalera": [
           {
-            "gex": -60.2,
+            "gex": -33.5,
+            "strike": 737
+          },
+          {
+            "gex": -57.9,
             "strike": 738
           },
           {
-            "gex": -121.6,
+            "gex": -125.6,
             "strike": 739
           },
           {
-            "gex": -427.6,
+            "gex": -433.5,
             "strike": 740
           },
           {
-            "gex": -25.1,
+            "gex": -25.4,
             "strike": 741
           },
           {
-            "gex": -59.8,
+            "gex": -61.1,
             "strike": 742
           },
           {
-            "gex": -51.4,
+            "gex": -47,
             "strike": 743
           },
           {
-            "gex": -139.4,
+            "gex": -131,
             "strike": 744
           },
           {
-            "gex": -434.2,
+            "gex": -443.7,
             "strike": 745
           },
           {
-            "gex": -31.7,
+            "gex": -35.7,
             "strike": 746
           },
           {
-            "gex": -42.9,
+            "gex": -42.4,
             "strike": 747
           },
           {
-            "gex": -59.3,
+            "gex": -60.9,
             "strike": 748
           },
           {
-            "gex": 10.1,
+            "gex": 10.6,
             "strike": 749
           },
           {
-            "gex": -536.5,
+            "gex": -545.7,
             "strike": 750
           },
           {
-            "gex": -66.6,
+            "gex": -68,
             "strike": 751
           },
           {
-            "gex": -88.9,
+            "gex": -89.2,
             "strike": 752
           },
           {
-            "gex": -105,
+            "gex": -105.9,
             "strike": 753
           },
           {
-            "gex": 2.7,
+            "gex": 3.6,
             "strike": 754
           },
           {
-            "gex": -183.7,
+            "gex": -192.8,
             "strike": 755
           },
           {
-            "gex": 17.6,
+            "gex": 16.4,
             "strike": 756
           },
           {
-            "gex": -223.7,
+            "gex": -230.2,
             "strike": 757
           },
           {
-            "gex": 37.9,
+            "gex": 40.9,
             "strike": 758
           },
           {
-            "gex": 49.8,
+            "gex": 54.5,
             "strike": 759
           },
           {
-            "gex": 31.1,
+            "gex": 44.5,
             "strike": 760
           },
           {
-            "gex": 35.5,
+            "gex": 37.9,
             "strike": 761
           },
           {
-            "gex": 200.8,
+            "gex": 210,
             "strike": 762
           },
           {
-            "gex": 26.9,
+            "gex": 29.3,
             "strike": 763
           },
           {
-            "gex": 130.4,
+            "gex": 138.7,
             "strike": 764
           },
           {
-            "gex": 151.3,
+            "gex": 152.9,
             "strike": 765
           },
           {
-            "gex": 30.7,
+            "gex": 32.6,
             "strike": 766
           },
           {
-            "gex": 67,
+            "gex": 68,
             "strike": 767
           },
           {
-            "gex": 1.3,
+            "gex": -4.2,
             "strike": 768
           },
           {
-            "gex": 75.5,
+            "gex": 72.8,
             "strike": 769
           },
           {
-            "gex": 313.2,
+            "gex": 296,
             "strike": 770
           },
           {
-            "gex": 78,
+            "gex": 68.8,
             "strike": 771
           },
           {
-            "gex": 146.1,
+            "gex": 139.9,
             "strike": 772
           },
           {
-            "gex": 76,
+            "gex": 73.4,
             "strike": 773
           },
           {
-            "gex": 68.7,
+            "gex": 59.2,
             "strike": 774
           },
           {
-            "gex": 303.9,
+            "gex": 302,
             "strike": 775
           },
           {
-            "gex": 183.1,
+            "gex": 114.1,
             "strike": 776
           },
           {
-            "gex": 83.3,
+            "gex": 79.5,
             "strike": 777
           },
           {
-            "gex": 81.6,
+            "gex": 67.6,
             "strike": 778
           },
           {
-            "gex": 63.6,
+            "gex": 59.6,
             "strike": 779
           },
           {
-            "gex": 325.9,
+            "gex": 314.7,
             "strike": 780
           },
           {
-            "gex": 70,
+            "gex": 62.3,
             "strike": 781
           },
           {
-            "gex": 56.1,
+            "gex": 51.1,
             "strike": 782
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 763.26,
-        "gexTotal": -1.9,
+        "gammaFlip": 763.52,
+        "gexTotal": -2.34,
         "indice": {
           "callWall": 7622,
-          "gammaFlip": 7655,
+          "gammaFlip": 7657,
           "maxPain": 7522,
-          "precio": 7628,
+          "precio": 7619,
           "putWall": 7522
         },
         "maxPain": 750,
@@ -933,7 +937,7 @@
         },
         "oiFecha": "2026-11-09",
         "pcrOI": 1.35,
-        "precio": 760.01,
+        "precio": 759.71,
         "putWall": 750,
         "ratioFecha": "2026-11-10",
         "ratioIndice": 10.0288,
@@ -941,16 +945,16 @@
         "vencimientoCercano": "2026-11-11"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 sube a 7.628 puntos (+1,42 % sobre el cierre de ayer, 7.520,93), apoyado en el resultado de CoreWeave (ingresos del Q3 por encima del consenso, guía anual elevada) y en la distensión de Trump sobre Irán y el alivio arancelario de Bessent con China antes de la cumbre APEC de Shenzhen (18-19 de noviembre). Pesa en contra el deterioro de Nvidia (rebajada por Baird y retirada por Morgan Stanley de su Top Pick) y, sobre todo, el tono cada vez más duro de la Fed: el gobernador Waller abre la puerta a una subida de hasta 50 pb en diciembre tras el IPC del 10 de noviembre (+0,4 % m/m, por encima del consenso), con la probabilidad de hike en Kalshi en el 96,5 % y el bono a 10 años cerca del 5 %. La gamma del motor sigue en régimen negativo (-1,9 mil M$ por 1 %), con el índice probando el call wall (7622) por debajo del gamma flip (7655); put wall y max pain coinciden en 7522, soporte cercano. Score del día: -11 (neutral); pesan más Waller y el IPC del 10-nov.",
+      "lectura": "El S&P 500 sube a 7.619 puntos (+1,30 % sobre el cierre de ayer, 7.520,93), apoyado en el resultado de CoreWeave y en el nuevo máximo histórico de Apple, además de la distensión de Trump sobre Irán y el alivio arancelario de Bessent con China antes de la cumbre APEC de Shenzhen (18-19 de noviembre). Pesa en contra el deterioro de Nvidia (rebajada por Baird y retirada por Morgan Stanley de su Top Pick) y el tono cada vez más duro de la Fed: el gobernador Waller abre la puerta a una subida de hasta 50 pb en diciembre, con la probabilidad de hike en Kalshi en el 96,5 % y el euro cayendo a mínimos de mayo de 2025 (1,1092) por el dólar fuerte. La gamma del motor se intensifica en negativo (-2,34 mil M$ por 1 %, frente a -1,9 anterior), con el índice probando el call wall (7622) por debajo del gamma flip (7657); put wall y max pain coinciden en 7522, soporte cercano. Score del día: -11 (neutral).",
       "levels": {
         "callWall": 7622,
-        "gammaFlip": 7655,
+        "gammaFlip": 7657,
         "maxPain": 7522,
         "putWall": 7522
       },
       "name": "S&P 500",
-      "netGex": "negativa (-1,9 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-09)",
-      "precio": 7628,
+      "netGex": "negativa (-2,34 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-09)",
+      "precio": 7619,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -11,
@@ -958,56 +962,64 @@
       "spot": 7520.93
     },
     {
-      "changeNote": "en vivo (motor de datos, Alpaca), 19:45 UTC",
-      "changePct": 3,
+      "changeNote": "en vivo (motor de datos, Alpaca), 20:58 Canarias",
+      "changePct": 2.51,
       "claves": [
         "Call wall en 28776 (QQQ 700,0 $); put wall en 27954 (QQQ 680,0 $).",
-        "Giro de gamma (gamma flip) en 28480 (QQQ 692,79 $): el índice cotiza justo por encima, en el límite de la gamma negativa.",
+        "Giro de gamma (gamma flip) en 28484 (QQQ 692,89 $): el índice cotiza muy cerca, en el límite de la gamma negativa.",
         "Max pain en 27748.",
-        "Régimen de gamma negativa, en 0,09 mil M$ por 1 %, put/call OI 1,09, open interest del 2026-11-09."
+        "Régimen de gamma negativa, ahora en -0,37 mil M$ por 1 %, put/call OI 1,12, open interest del 2026-11-09."
       ],
       "gex": {
         "callWall": 700,
-        "contratos": 1990,
+        "contratos": 1983,
         "escalera": [
           {
-            "gex": -11.7,
+            "gex": -117.9,
+            "strike": 670
+          },
+          {
+            "gex": 3.6,
+            "strike": 671
+          },
+          {
+            "gex": -12.6,
             "strike": 672
           },
           {
-            "gex": -8.9,
+            "gex": -9.9,
             "strike": 673
           },
           {
-            "gex": -4.3,
+            "gex": -4.5,
             "strike": 674
           },
           {
-            "gex": -208.7,
+            "gex": -220.7,
             "strike": 675
           },
           {
-            "gex": -30.3,
+            "gex": -33.6,
             "strike": 676
           },
           {
-            "gex": -37.7,
+            "gex": -41.3,
             "strike": 677
           },
           {
-            "gex": -4.3,
+            "gex": -4.6,
             "strike": 678
           },
           {
-            "gex": -5.9,
+            "gex": -6.4,
             "strike": 679
           },
           {
-            "gex": -344.9,
+            "gex": -369.1,
             "strike": 680
           },
           {
-            "gex": -12.9,
+            "gex": -13.5,
             "strike": 681
           },
           {
@@ -1015,95 +1027,95 @@
             "strike": 682
           },
           {
-            "gex": 37.2,
+            "gex": 40.9,
             "strike": 683
           },
           {
-            "gex": 13.5,
+            "gex": 16.7,
             "strike": 684
           },
           {
-            "gex": -288.6,
+            "gex": -319,
             "strike": 685
           },
           {
-            "gex": -6.3,
+            "gex": -6.7,
             "strike": 686
           },
           {
-            "gex": 3.4,
+            "gex": 3.8,
             "strike": 687
           },
           {
-            "gex": 10.1,
+            "gex": 12.1,
             "strike": 688
           },
           {
-            "gex": 8.7,
+            "gex": 9,
             "strike": 689
           },
           {
-            "gex": -134.2,
+            "gex": -142.3,
             "strike": 690
           },
           {
-            "gex": -22,
+            "gex": -22.7,
             "strike": 691
           },
           {
-            "gex": 7,
+            "gex": 7.4,
             "strike": 692
           },
           {
-            "gex": 40.5,
+            "gex": 41.7,
             "strike": 693
           },
           {
-            "gex": -3.3,
+            "gex": -3.6,
             "strike": 694
           },
           {
-            "gex": 79.3,
+            "gex": 79,
             "strike": 695
           },
           {
-            "gex": 143.9,
+            "gex": 139.2,
             "strike": 696
           },
           {
-            "gex": 51.3,
+            "gex": 48.4,
             "strike": 697
           },
           {
-            "gex": 17.8,
+            "gex": 19.4,
             "strike": 698
           },
           {
-            "gex": 5.5,
+            "gex": 4.4,
             "strike": 699
           },
           {
-            "gex": 248.7,
+            "gex": 233.7,
             "strike": 700
           },
           {
-            "gex": 26.4,
+            "gex": 21.1,
             "strike": 701
           },
           {
-            "gex": 50.2,
+            "gex": 43.5,
             "strike": 702
           },
           {
-            "gex": 127.2,
+            "gex": 105.3,
             "strike": 703
           },
           {
-            "gex": 84.9,
+            "gex": 78.2,
             "strike": 704
           },
           {
-            "gex": 81.3,
+            "gex": 73.6,
             "strike": 705
           },
           {
@@ -1115,38 +1127,26 @@
             "strike": 707
           },
           {
-            "gex": 27.9,
+            "gex": 25.1,
             "strike": 708
           },
           {
-            "gex": -0.8,
+            "gex": -2,
             "strike": 709
           },
           {
-            "gex": 180.7,
+            "gex": 146.3,
             "strike": 710
-          },
-          {
-            "gex": 8.5,
-            "strike": 711
-          },
-          {
-            "gex": -25.4,
-            "strike": 712
-          },
-          {
-            "gex": 12.1,
-            "strike": 713
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 692.79,
-        "gexTotal": 0.09,
+        "gammaFlip": 692.89,
+        "gexTotal": -0.37,
         "indice": {
           "callWall": 28776,
-          "gammaFlip": 28480,
+          "gammaFlip": 28484,
           "maxPain": 27748,
-          "precio": 28509,
+          "precio": 28374,
           "putWall": 27954
         },
         "maxPain": 675,
@@ -1163,13 +1163,13 @@
             "putWall": 27748
           },
           "maxPain": 675,
-          "pcrOI": 0.92,
+          "pcrOI": 0.94,
           "putWall": 675,
           "vencimiento": "2026-11-11"
         },
         "oiFecha": "2026-11-09",
-        "pcrOI": 1.09,
-        "precio": 692.75,
+        "pcrOI": 1.12,
+        "precio": 690.23,
         "putWall": 680,
         "ratioFecha": "2026-11-10",
         "ratioIndice": 41.1084,
@@ -1177,16 +1177,16 @@
         "vencimientoCercano": "2026-11-11"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 se dispara a 28.509 puntos (+3,0 % sobre el cierre de ayer, 27.680), liderado por el resultado de CoreWeave (+19 %, ingresos del Q3 por encima del consenso) y el rebote generalizado de la IA (Micron y Broadcom +5,6 %), que compensa el deterioro de Nvidia tras las rebajas de Baird y Morgan Stanley y la investigación del FBI sobre Jensen Huang confirmada por Trump. La gamma del motor sigue en negativo (0,09 mil M$ por 1 %) pero casi plana, con el índice justo por encima del gamma flip (28.480) y por debajo del call wall (28.776); put wall en 27.954 y max pain en 27.748. El tono hawkish de la Fed (Waller, IPC del 10-nov) limita el sesgo de fondo. Score del día: +3 (neutral); pesan más Waller y el IPC del 10-nov.",
+      "lectura": "El Nasdaq 100 sube a 28.374 puntos (+2,51 % sobre el cierre de ayer, 27.680), liderado por el resultado de CoreWeave y el rebote de la IA (Micron y Broadcom), más el nuevo récord de Apple, que compensan el deterioro de Nvidia tras las rebajas de Baird y Morgan Stanley y la investigación del FBI sobre Jensen Huang. La gamma del motor pasa a negativo con más intensidad (-0,37 mil M$ por 1 %, frente a +0,09 anterior), con el índice cotizando muy cerca del gamma flip (28.484); put wall en 27.954 y max pain en 27.748. El tono hawkish de la Fed (Waller) y el dólar en máximos limitan el sesgo de fondo. Score del día: +3 (neutral).",
       "levels": {
         "callWall": 28776,
-        "gammaFlip": 28480,
+        "gammaFlip": 28484,
         "maxPain": 27748,
         "putWall": 27954
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (0,09 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-09)",
-      "precio": 28509,
+      "netGex": "negativa (-0,37 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-09)",
+      "precio": 28374,
       "regime": "negativa",
       "regimen": "negativa",
       "score": 3,
@@ -1331,6 +1331,18 @@
     {
       "activos": {
         "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "TheStreet",
+      "impacto": "medio",
+      "resumen": "Apple toca un récord de cotización, sumándose al impulso de CoreWeave sobre el Nasdaq.",
+      "titular": "Apple marca un nuevo máximo histórico mientras el rally tecnológico se amplía",
+      "ts": "2026-11-11T20:00:00Z",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+    },
+    {
+      "activos": {
+        "NQ": "alcista",
         "SPX": "alcista",
         "WTI": "bajista"
       },
@@ -1340,6 +1352,28 @@
       "titular": "Wall Street amplía las ganancias de media sesión; dólar y bono a 10 años siguen firmes",
       "ts": "2026-11-11T19:30:00Z",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
+    },
+    {
+      "activos": {
+        "EURUSD": "bajista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El EUR/USD rompe el soporte de 1,1100 y toca mínimos de 18 meses ante la fortaleza del dólar.",
+      "titular": "El euro cae a 1,1092, su nivel más bajo desde mayo de 2025",
+      "ts": "2026-11-11T19:05:00Z",
+      "url": "https://www.fxstreet.com/news/eur-usd-price-forecast-break-below-11100-puts-11000-in-focus-202611111905"
+    },
+    {
+      "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "KuCoin (Crypto Daily Market Report)",
+      "impacto": "medio",
+      "resumen": "La mayoría de las posiciones liquidadas (570 millones $) eran largas, mientras el minero MARA vende 13.597 bitcoin para repagar 750 millones $ en préstamos.",
+      "titular": "Bitcoin profundiza su caída: 723 millones $ liquidados en 24 horas",
+      "ts": "2026-11-11T18:00:00Z",
+      "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-11-2026"
     },
     {
       "activos": {
@@ -1470,39 +1504,6 @@
       "titular": "Bessent confirma dialogo EE. UU.-China sobre riesgos de la IA antes de la cumbre Trump-Xi",
       "ts": "2026-11-11T07:00:00Z",
       "url": "https://cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista"
-      },
-      "fuente": "Caleb & Brown",
-      "impacto": "medio",
-      "resumen": "Las salidas semanales alcanzan 1.280 millones $, tras una cuarta jornada consecutiva de reembolsos (95 millones $ el martes).",
-      "titular": "Los ETF de bitcoin acumulan su mayor salida semanal desde junio",
-      "ts": "2026-11-11T06:30:00Z",
-      "url": "https://calebandbrown.com/blog/weekly-rollup-november-11-2026/"
-    },
-    {
-      "activos": {
-        "EURUSD": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "El euro perdio el nivel de 1,1100 frente al dolar, presionado por las apuestas de una Fed mas dura en diciembre y el riesgo politico en Francia.",
-      "titular": "El EUR/USD amplia su caida por debajo de 1,1100 pese a la resiliencia del dolar",
-      "ts": "2026-11-11T05:33:00Z",
-      "url": "https://www.fxstreet.com/news/eur-usd-price-forecast-sees-fresh-downside-below-11100-202611110533"
-    },
-    {
-      "activos": {
-        "BTC": "bajista"
-      },
-      "fuente": "KuCoin",
-      "impacto": "medio",
-      "resumen": "Bitcoin cotiza cerca de 73.850 dolares mientras los ETF de bitcoin y ether suman su tercera sesion consecutiva de salidas netas (201 y 185 millones de dolares el 9 de noviembre).",
-      "titular": "Bitcoin ronda los 73.850 dolares con el indice de miedo y codicia en 29 tras nuevas salidas de ETF",
-      "ts": "2026-11-11T05:30:00Z",
-      "url": "https://www.kucoin.com/news/flash/bitcoin-price-rebounds-on-nov-11-2026-amid-etf-outflows-and-market-volatility"
     }
   ],
   "odte": {
@@ -1524,7 +1525,7 @@
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-11), por open interest (QQQ 700,0 $). Put/call OI: 0,92.",
+        "nota": "Vencimiento de hoy (2026-11-11), por open interest (QQQ 700,0 $). Put/call OI: 0,94.",
         "valor": "28776"
       },
       {
@@ -1538,7 +1539,7 @@
         "valor": "27748"
       }
     ],
-    "lectura": "Niveles 0DTE de la sesión de hoy, 11 de noviembre (vencimiento de hoy, base open interest del 9 de noviembre): en el S&P 500, call wall en 7722, put wall en 7221 y max pain en 7522, con un put/call OI de 1,02 (ligero predominio de calls). En el Nasdaq 100, call wall en 28776, y put wall y max pain coinciden en 27748, con un put/call OI de 0,92 (leve predominio de calls). Ambos índices cotizan cómodamente dentro de la banda 0DTE, sin presión inmediata de pinning hacia el max pain."
+    "lectura": "Niveles 0DTE de la sesión de hoy, 11 de noviembre (vencimiento de hoy, base open interest del 9 de noviembre): en el S&P 500, call wall en 7722, put wall en 7221 y max pain en 7522, con un put/call OI de 1,02 (ligero predominio de calls). En el Nasdaq 100, call wall en 28776, y put wall y max pain coinciden en 27748, con un put/call OI de 0,94 (leve predominio de calls). Ambos índices cotizan cómodamente dentro de la banda 0DTE, sin presión inmediata de pinning hacia el max pain."
   },
   "politica": {
     "actualizado": "2026-11-11T19:45:00Z",
@@ -1630,7 +1631,7 @@
       }
     ]
   },
-  "resumen": "Son las 19:45 UTC (14:45 en Nueva York, 19:45 en Canarias, 20:45 en Madrid) del miércoles 11 de noviembre de 2026, Día de los Veteranos en EE. UU. (bono y oficinas federales cerrados; la bolsa opera con normalidad, sin datos económicos hoy). Wall Street cerró ayer con pérdidas (S&P 500 -0,38 %, en 7.520,93; Nasdaq 100 en torno a -0,6 %) tras el IPC de octubre y el tono hawkish de Waller, con el bono a 10 años llegando a tocar el 4,98-4,99 %. En sesión, el S&P 500 sube a 7.628 puntos (+1,42 %) y el Nasdaq 100 se dispara a 28.509 (+3,0 %), impulsados por el resultado de CoreWeave (ingresos del Q3 por encima del consenso, guía anual elevada a 13.000-13.300 millones $) y el rebote de la IA, aunque Nvidia sigue bajo presión tras ser rebajada por Baird y retirada por Morgan Stanley de su lista Top Pick. El dólar se mantiene firme cerca de máximos de 12 sesiones (índice dólar ~102,46) y el euro cotiza en mínimos de dos semanas, en torno a 1,112-1,114. El oro ronda los 3.990-4.000 $/oz, presionado por el dólar fuerte y el tono hawkish de la Fed; bitcoin sigue débil, en torno a 73.500-74.000 $, con los ETF acumulando su mayor salida semanal desde junio (1.280 millones $). El petróleo WTI se mantiene en torno a 86-87 $, lastrado por la distensión en el estrecho de Ormuz. La probabilidad de hike en diciembre (Kalshi) se mantiene en el 96,5 %. La gamma del motor permanece en régimen negativo en ambos índices (SPX -1,9 mil M$ por 1 %; NDX 0,09, casi plana).",
+  "resumen": "Son las 20:58 UTC (15:58 en Nueva York, 20:58 en Canarias, 21:58 en Madrid) del miércoles 11 de noviembre de 2026, Día de los Veteranos en EE. UU. (bono y oficinas federales cerrados; la bolsa opera con normalidad, sin datos económicos hoy). Wall Street cerró ayer con pérdidas (S&P 500 -0,38 %, en 7.520,93; Nasdaq 100 en torno a -0,6 %) tras el IPC de octubre y el tono hawkish de Waller, con el bono a 10 años llegando a tocar el 4,99 %. En sesión, el S&P 500 sube a 7.619 puntos (+1,30 %) y el Nasdaq 100 a 28.374 (+2,51 %), impulsados por el resultado de CoreWeave y el nuevo máximo histórico de Apple, aunque Nvidia sigue bajo presión tras ser rebajada por Baird y retirada por Morgan Stanley de su lista Top Pick. El dólar se mantiene firme cerca de máximos de varias sesiones y el euro cae a 1,1092, mínimo desde mayo de 2025, lastrado por las apuestas de una Fed más dura. El oro ronda los 3.990-4.000 $/oz y bitcoin sigue débil, en torno a 73.500-74.000 $, con 723 millones $ liquidados en 24 horas (la mayoría posiciones largas) y el minero MARA vendiendo 13.597 bitcoin para repagar 750 millones $ en préstamos. El petróleo WTI se mantiene en torno a 86-87 $. La probabilidad de hike en diciembre (Kalshi) se mantiene en el 96,5 %. La gamma del motor se intensifica en negativo en ambos índices (SPX -2,34 mil M$ por 1 %; NDX -0,37).",
   "semana": {
     "activos": [
       {
@@ -2134,5 +2135,5 @@
     "updatedAt": "2026-11-11T19:45:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-11T20:20:00Z"
+  "updatedAt": "2026-11-11T21:19:35Z"
 }
