@@ -332,9 +332,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-11T11:03:52Z",
+    "actualizado": "2026-11-11T12:04:45Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) se mantiene estable en el 95,5 % (tasa implícita 4,14 %), sin cambios respecto a la última hora. Para marzo de 2027 también se mantiene en el 96,0 % (tasa implícita 4,33 %), mientras la de abril de 2027 sube levemente al 86,5 % (antes 86,0 %).",
+    "lectura": "La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) se mantiene estable en el 95,5 % (tasa implícita 4,14 %), sin cambios respecto a la última hora. Para marzo de 2027 también se mantiene en el 96,0 % (tasa implícita 4,33 %) y la de abril de 2027 permanece en el 86,5 %.",
     "rangoNota": "Subida de 25 pb el 16 de septiembre de 2026; la Fed mantuvo en 3,75-4,00 % el 28 de octubre (voto 10-2, con disidencias de Cook y Hammack a favor de subir). El presidente de la Fed, Kevin Warsh, tomó posesión el 22 de mayo de 2026.",
     "reuniones": [
       {
@@ -591,17 +591,17 @@
   ],
   "indices": [
     {
-      "changeNote": "futuros ES (CME), aprox. 10:16 hora de Canarias (10:16 UTC), antes de la apertura europea; frente al cierre oficial de ayer en 7.520,93",
-      "changePct": 0.6,
+      "changeNote": "futuros ES (CME), aprox. 12:19 hora de Canarias (12:19 UTC); frente al cierre oficial de ayer en 7.520,93",
+      "changePct": 0.8,
       "claves": [
         "Call wall en 7623 (SPY 760,0 $); put wall en 7523 (SPY 750,0 $), muy cerca del precio actual (7522).",
-        "Giro de gamma (gamma flip) en 7630 (SPY 760,73 $): el índice cotiza justo por debajo, en zona de gamma negativa.",
+        "Giro de gamma (gamma flip) en 7628 (SPY 760,46 $): el índice cotiza justo por debajo, en zona de gamma negativa.",
         "Max pain en 7523, coincidiendo con el put wall.",
-        "Régimen de gamma negativa, en -2,85 mil M$ por 1 % (antes -2,96); put/call OI en 1,52, open interest del 9 de noviembre (1.586 contratos)."
+        "Régimen de gamma negativa, en -2,10 mil M$ por 1 % (antes -2,85); put/call OI en 1,52, open interest del 9 de noviembre (1.558 contratos)."
       ],
       "gex": {
         "callWall": 760,
-        "contratos": 1586,
+        "contratos": 1558,
         "escalera": [
           {
             "gex": -173.7,
@@ -785,11 +785,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 760.73,
-        "gexTotal": -2.85,
+        "gammaFlip": 760.46,
+        "gexTotal": -2.1,
         "indice": {
           "callWall": 7623,
-          "gammaFlip": 7630,
+          "gammaFlip": 7628,
           "maxPain": 7523,
           "precio": 7522,
           "putWall": 7523
@@ -822,15 +822,15 @@
         "vencimientoCercano": "2026-11-11"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cerró ayer en 7.520,93 puntos (-0,38 %), lastrado por el IPC de octubre y el giro hawkish de Waller (probabilidad de hike en diciembre, Kalshi: 95,5 %, sin cambios en la última hora). El dólar se mantiene firme y el euro sigue débil por debajo de 1,1150. La gamma del motor apenas se mueve: régimen negativo, en -2,85 mil M$ por 1 % (antes -2,96), con call wall en 7623 y put wall en 7523, muy cerca del precio actual (7522), lo que sugiere un rango estrecho de movimiento.",
+      "lectura": "El S&P 500 cerró ayer en 7.520,93 puntos (-0,38 %), lastrado por el IPC de octubre y el giro hawkish de Waller (probabilidad de hike en diciembre, Kalshi: 95,5 %, estable en la última hora). Los futuros rebotan con fuerza esta mañana (+0,8 %) por el tirón de la IA y los comentarios conciliadores de Bessent sobre China. La gamma del motor apenas se mueve: régimen negativo, en -2,10 mil M$ por 1 % (antes -2,85), con call wall en 7623 y put wall en 7523, muy cerca del precio actual (7522).",
       "levels": {
         "callWall": 7623,
-        "gammaFlip": 7630,
+        "gammaFlip": 7628,
         "maxPain": 7523,
         "putWall": 7523
       },
       "name": "S&P 500",
-      "netGex": "negativa (-2,85 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-09)",
+      "netGex": "negativa (-2,10 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-09)",
       "precio": 7520.93,
       "regime": "negativa",
       "regimen": "negativa",
@@ -839,17 +839,17 @@
       "spot": 7520.93
     },
     {
-      "changeNote": "futuros NQ (CME), aprox. 10:16 hora de Canarias (10:16 UTC), antes de la apertura europea; frente al cierre de ayer en torno a 27.680",
-      "changePct": 1.5,
+      "changeNote": "futuros NQ (CME), aprox. 12:19 hora de Canarias (12:19 UTC); frente al cierre de ayer en torno a 27.680",
+      "changePct": 1.7,
       "claves": [
         "Call wall en 28781 (QQQ 700,0 $); put wall en 27958 (QQQ 680,0 $).",
-        "Giro de gamma (gamma flip) en 28089 (QQQ 683,19 $): el índice (27758) cotiza ya por encima, cerca de pasar a gamma positiva.",
+        "Giro de gamma (gamma flip) en 28145 (QQQ 684,54 $): el índice (27758) cotiza por debajo, en zona de gamma negativa, algo más alejado del giro que hace una hora.",
         "Max pain en 27753 (QQQ 675,0 $), prácticamente en el precio actual.",
-        "Régimen de gamma negativa pero casi plano, en 0,70 mil M$ por 1 % (antes 0,69); put/call OI en 1,47, open interest del 9 de noviembre (1.611 contratos)."
+        "Régimen de gamma negativa pero casi plano, en 0,85 mil M$ por 1 % (antes 0,70); put/call OI en 1,47, open interest del 9 de noviembre (1.570 contratos)."
       ],
       "gex": {
         "callWall": 700,
-        "contratos": 1611,
+        "contratos": 1570,
         "escalera": [
           {
             "gex": -130.5,
@@ -1017,11 +1017,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 683.19,
-        "gexTotal": 0.7,
+        "gammaFlip": 684.54,
+        "gexTotal": 0.85,
         "indice": {
           "callWall": 28781,
-          "gammaFlip": 28089,
+          "gammaFlip": 28145,
           "maxPain": 27753,
           "precio": 27758,
           "putWall": 27958
@@ -1054,15 +1054,15 @@
         "vencimientoCercano": "2026-11-11"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cerró ayer con una caída cercana al 1,15 %, lastrado por el desplome de Nvidia (-6,3 %) tras confirmar Trump que el FBI investiga los vínculos de su consejero delegado, Jensen Huang, con una presunta espía china. La gamma del motor apenas cambia: régimen negativo pero casi plano, en 0,70 mil M$ por 1 % (antes 0,69), con call wall en 28781 y put wall en 27958; el índice (27758) cotiza cerca del giro de gamma (28089), por lo que un repunte por encima de ese nivel podría amplificar el movimiento al pasar a gamma positiva.",
+      "lectura": "El Nasdaq 100 cerró ayer con una caída cercana al 0,6 %, lastrado por el desplome de Nvidia (-6,3 %) tras confirmarse la investigación del FBI sobre Jensen Huang. Los futuros rebotan con fuerza esta mañana (+1,7 %), impulsados por la IA (CoreWeave +19 % en preapertura) y el tono conciliador de Bessent sobre China. La gamma del motor apenas cambia: régimen negativo pero casi plano, en 0,85 mil M$ por 1 % (antes 0,70), con call wall en 28781 y put wall en 27958; el índice (27758) cotiza algo más alejado del giro de gamma (28145) que hace una hora.",
       "levels": {
         "callWall": 28781,
-        "gammaFlip": 28089,
+        "gammaFlip": 28145,
         "maxPain": 27753,
         "putWall": 27958
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (0,70 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-09)",
+      "netGex": "negativa (0,85 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-09)",
       "precio": 27680,
       "regime": "negativa",
       "regimen": "negativa",
@@ -1072,7 +1072,7 @@
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-11T11:03:52Z",
+    "actualizado": "2026-11-11T12:04:45Z",
     "balance": 6748.1,
     "d4": -74.3,
     "dBalance": 2.5,
@@ -1084,7 +1084,7 @@
     "fecha4": "2026-10-07",
     "fechaPrev": "2026-10-28",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "En la semana del 28 de octubre al 4 de noviembre, la liquidez neta subió 45.000 millones $ hasta 5,79 billones $, con el Tesoro como principal inyector (la cuenta del Tesoro, TGA, bajó 42.500 millones $ hasta 957.200 millones $) y el balance de la Fed prácticamente plano (+2.500 millones $, QT casi detenido esa semana); las reservas bancarias subieron 36.300 millones $ hasta 2,93 billones $. Pese a este repunte semanal, la tendencia de las últimas cuatro semanas (desde el 7 de octubre) sigue siendo negativa: -74.300 millones $ netos. El repo permanente del 10 de noviembre sigue prácticamente sin uso (2 millones $) y el RRP diario baja a 152 millones $ (desde 252 millones), sin señales de tensión de liquidez. Próximo dato: jueves 12 de noviembre (balance H.4.1).",
+    "lectura": "En la semana del 28 de octubre al 4 de noviembre, la liquidez neta subió 45.000 millones $ hasta 5,79 billones $, sin cambios respecto a la última hora: el Tesoro sigue siendo el principal inyector (TGA: -42.500 millones $, hasta 957.200 millones $) con el balance de la Fed casi plano (+2.500 millones $); las reservas bancarias suben a 2,93 billones $ (+36.300 millones $). La tendencia de las últimas cuatro semanas (desde el 7 de octubre) sigue siendo negativa: -74.300 millones $ netos. El repo permanente (10 de noviembre) sigue prácticamente sin uso (2 millones $) y el RRP diario baja a 152 millones $, sin señales de tensión de liquidez. Próximo dato: jueves 12 de noviembre (balance H.4.1).",
     "neta": 5790.7,
     "repo": 0.002,
     "repoFecha": "2026-11-10",
@@ -1207,6 +1207,18 @@
   "noticias": [
     {
       "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "Benzinga",
+      "impacto": "medio",
+      "resumen": "Los futuros del S&P 500 suben un 0,8 % y los del Nasdaq 100 un 1,7 % en preapertura, tras el desplome del martes.",
+      "titular": "Los futuros de EE. UU. suben con fuerza antes de la apertura, impulsados por la IA y CoreWeave (+19 %)",
+      "ts": "2026-11-11T09:30:00Z",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63132394/stock-market-today-dow-jones-sp-500-futures-rise-as-bessent-urges-us-china-to-de-risk-crwv-rgti-fnv-in-focus"
+    },
+    {
+      "activos": {
         "EURUSD": "bajista"
       },
       "fuente": "FXStreet",
@@ -1273,6 +1285,19 @@
       "titular": "Bessent anuncia un alivio arancelario de 30.000 millones $ con China y un grupo de trabajo agricola",
       "ts": "2026-11-11T02:00:00Z",
       "url": "https://home.treasury.gov/news/press-releases/sb0688"
+    },
+    {
+      "activos": {
+        "EURUSD": "neutral",
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "Bloomberg",
+      "impacto": "medio",
+      "resumen": "El secretario del Tesoro defendió 'reducir el riesgo, no desacoplarse' del comercio con China antes de la cumbre Trump-Xi en Shenzhen.",
+      "titular": "Bessent destaca el acercamiento EE. UU.-China y prevé más diálogo sobre modelos de IA",
+      "ts": "2026-11-10T22:00:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/bessent-hails-us-china-engagement-sees-more-talk-on-ai-models"
     },
     {
       "activos": {
@@ -1368,30 +1393,6 @@
       "titular": "El Brent cae por debajo de 90 $ por primera vez desde agosto ante la distension diplomatica con Iran",
       "ts": "2026-11-10T16:00:00Z",
       "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "XAU": "bajista"
-      },
-      "fuente": "CoinDesk",
-      "impacto": "alto",
-      "resumen": "El oro y el bitcoin retroceden juntos mientras el mercado afianza las apuestas de una Fed mas dura en diciembre tras el IPC.",
-      "titular": "Bitcoin pierde los 73.000 $ por primera vez desde agosto; los ETF suman 1.280 millones $ en salidas",
-      "ts": "2026-11-10T16:00:00Z",
-      "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "XAU": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "alto",
-      "resumen": "El oro ronda los 4.100 $/oz y bitcoin cae por debajo de 74.000 $ mientras el mercado refuerza las apuestas de una Fed mas dura.",
-      "titular": "El oro cae cerca de un 2% y bitcoin pierde los 74.000 $ tras el IPC de octubre",
-      "ts": "2026-11-10T15:41:00Z",
-      "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-vs-gold-outlook-btc-and-xau-pull-back-as-us-inflation-rises-in-october-202611101541"
     }
   ],
   "odte": {
@@ -1527,7 +1528,7 @@
       }
     ]
   },
-  "resumen": "Son las 10:16 UTC (10:16 en Canarias, 11:16 en Madrid, 05:16 en Nueva York) del miercoles 11 de noviembre de 2026, antes de la apertura europea. Wall Street cerro ayer con perdidas moderadas (S&P 500 -0,38%, Nasdaq Composite -0,7%) tras el IPC de octubre y el giro hawkish del gobernador de la Fed Waller; la probabilidad de hike en diciembre (Kalshi) baja ligeramente al 95,5%, desde el 96,5% de hace una hora. El dolar toca un maximo de 12 sesiones (indice dolar en 102,41) y el euro cae a 1,1142, la libra tambien cede. Bessent confirmo esta mañana un dialogo EE. UU.-China sobre riesgos de la IA antes de la cumbre Trump-Xi en Shenzhen la proxima semana, en la misma linea conciliadora que el alivio arancelario de 30.000 millones $ de ayer. La gamma del motor se ha actualizado por fin tras varios dias de timeout: ambos indices en regimen negativo pero mucho menos intenso que antes (SPX -2,96 mil M$ por 1%, NDX +0,69), con call/put walls mucho mas proximos al precio (SPX 7623/7523, NDX 28781/27958). Bitcoin ronda los 73.500-73.850 $ tras perder la media de 200 sesiones, el oro cotiza en torno a 4.045-4.065 $/oz, y el petroleo se mantiene cerca de 86-92 $ (WTI) con las negociaciones sobre Ormuz en curso. El mercado de bonos de EE. UU. reabre hoy tras el Dia de los Veteranos.",
+  "resumen": "Son las 12:19 UTC (12:19 en Canarias, 13:19 en Madrid, 07:19 en Nueva York) del miércoles 11 de noviembre de 2026, Día de los Veteranos en EE. UU. (mercado de bonos y oficinas federales cerrados; la bolsa opera con normalidad). Wall Street cerró ayer con pérdidas (S&P 500 -0,38 %, Nasdaq 100 -0,6 %) tras el IPC de octubre y el tono hawkish de Waller; el bono a 2 años subió con fuerza y el 10 años llegó a tocar el 5 %. Los futuros rebotan con fuerza esta mañana (S&P 500 +0,8 %, Nasdaq 100 +1,7 %), impulsados por la IA (CoreWeave +19 % en preapertura) y los comentarios conciliadores de Bessent sobre China ('reducir el riesgo, no desacoplarse'), antes de la cumbre Trump-Xi en Shenzhen. El dólar se mantiene firme (euro en 1,1138) y la probabilidad de hike en diciembre (Kalshi) sigue estable en el 95,5 %. La gamma del motor (12:04 UTC) apenas cambia: ambos índices en régimen negativo (SPX -2,10 mil M$ por 1 %, NDX +0,85), con niveles muy similares a los de la última hora. Bitcoin ronda los 73.850 $, el oro cerca de 4.057 $/oz tras caer un 2,6 % ayer, y el petróleo (WTI) cerca de 86,7 $, cerca de mínimos desde agosto.",
   "semana": {
     "activos": [
       {
@@ -2032,5 +2033,5 @@
     "updatedAt": "2026-11-11T10:16:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-11T11:22:55.000000Z"
+  "updatedAt": "2026-11-11T12:19:40Z"
 }
