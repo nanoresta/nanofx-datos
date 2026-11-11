@@ -377,6 +377,34 @@
   },
   "fuentes": [
     {
+      "nombre": "ScanX · Trade Setup for Today (futuros, 11 de noviembre de 2026)",
+      "url": "https://scanx.trade/stock-market-news/markets/market-today-morning-bell-update-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-11-11-2026/55909825"
+    },
+    {
+      "nombre": "CNBC · Stock futures rise as market tries to recover from Nvidia-led decline: Live updates",
+      "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
+    },
+    {
+      "nombre": "CNBC · Brent crude briefly dips below $90 for first time since August on Iran hopes",
+      "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+    },
+    {
+      "nombre": "Mitrade · Bitcoin lost its 200-day average — but the exit started three sessions before the CPI",
+      "url": "https://www.mitrade.com/insights/crypto-analysis/bitcoin/btc-double-top-neckline-20261111J1122"
+    },
+    {
+      "nombre": "Departamento del Tesoro de EE. UU. · Remarks from Secretary Bessent at the National Committee on U.S.-China Relations Gala",
+      "url": "https://home.treasury.gov/news/press-releases/sb0688"
+    },
+    {
+      "nombre": "Bloomberg · Bessent, Greer Raise Concerns on China Trade Deal Compliance",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/bessent-greer-raise-concerns-on-china-trade-deal-actions"
+    },
+    {
+      "nombre": "marketalleys · Bitcoin at $73,572.00, down 1.62% over 24 hours",
+      "url": "https://www.marketalleys.com/post/bitcoin-at-73-572-00-down-1-62-over-24-hours-2026-11-11"
+    },
+    {
       "nombre": "Bloomberg · US stock futures diverge as chip selloff extends into second day",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/us-stock-futures-diverge-as-chip-selloff-extends-into-second-day"
     },
@@ -563,8 +591,8 @@
   ],
   "indices": [
     {
-      "changeNote": "cierre oficial, 21:00 UTC (21:00 Canarias / 16:00 Nueva York)",
-      "changePct": -0.38,
+      "changeNote": "futuros ES (CME), aprox. 08:17 hora de Canarias (07:17 UTC), antes de la apertura europea; frente al cierre oficial de ayer en 7.520,93",
+      "changePct": 0.6,
       "claves": [
         "Niveles del indice sin recalcular esta hora (sin ratio de conversion SPY-S&P 500): se mantienen el call wall en 7720, el put wall en 7420, el giro de gamma en 7824 y el max pain en 7670 (referencia del 6 de noviembre).",
         "A nivel del ETF (SPY), hoy el call wall esta en 750,0 $, el put wall en 730,0 $, el giro de gamma en 763,76 $ y el max pain en 740,0 $.",
@@ -770,7 +798,7 @@
         "odte": {
           "base": "open interest",
           "callWall": 740,
-          "esHoy": true,
+          "esHoy": false,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
@@ -794,7 +822,7 @@
         "vencimientoCercano": "2026-11-10"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cerro la sesion en 7.520,93 puntos, un 0,38 % menos, tras el IPC de octubre (+0,4 % mensual, con el subyacente tambien por encima del consenso en +0,3 %) y el giro hawkish del gobernador de la Fed Waller, que se abre a una subida de hasta 50 puntos basicos en diciembre: la probabilidad de hike (Kalshi) se mantiene en el 96,5 %. La investigacion de la junta de Nvidia sobre Jensen Huang (-6,3 % hoy, el mayor lastre del indice) sigue pesando sobre las tecnologicas, aunque el Russell 2000 destaca con una subida superior al 3 %. La gamma del motor para el SPY sigue negativa (-8,62 mil M$ por 1 %, open interest del 6 de noviembre, con mas de 5 horas de antiguedad); sin ratio de conversion esta hora, se mantienen como referencia el call wall en 7720 y el put wall en 7420 del indice.",
+      "lectura": "El S&P 500 cerro ayer en 7.520,93 puntos (-0,38%), lastrado por el IPC de octubre (+0,4% mensual, subyacente +0,3%, ambos por encima del consenso) y el giro hawkish del gobernador Waller, que abre la puerta a una subida de hasta 50 pb en diciembre (probabilidad de hike en Kalshi: 96,5%; el mercado de tipos ya descuenta en bps el equivalente a mas de una subida completa, un 118% frente al 85% del lunes). Antes de la apertura europea, los futuros ES apuntan a un rebote de entorno al +0,5%, apoyado por el anuncio de Bessent de un alivio arancelario de 30.000 millones $ en bienes no sensibles con China y por la distension sobre Iran (el Brent perdio los 90 $ por primera vez desde agosto). La gamma del motor sigue sin actualizarse desde el 6 de noviembre (timeout de opciones); se mantienen como referencia el call wall en 7720 y el put wall en 7420 del indice, en regimen negativo (-6,87 mil M$ por 1%). El dato que mas pesa esta semana es el IPP de octubre del viernes (previsto 0,4% frente al 1,3% de septiembre), que votaria a favor de un dolar mas debil si se confirma la moderacion.",
       "levels": {
         "callWall": 7720,
         "gammaFlip": 7824,
@@ -806,13 +834,13 @@
       "precio": 7520.93,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -55,
+      "score": -19,
       "sesgo": "bajista",
       "spot": 7520.93
     },
     {
-      "changeNote": "ultima lectura fiable aprox. 20:00 UTC (21:00 Canarias); cierre oficial del NDX todavia sin confirmar por fuentes consultadas, el Nasdaq Composite cerro con una caida cercana al 0,7 %",
-      "changePct": -1.15,
+      "changeNote": "futuros NQ (CME), aprox. 08:17 hora de Canarias (07:17 UTC), antes de la apertura europea; frente al cierre de ayer en torno a 27.680",
+      "changePct": 1.43,
       "claves": [
         "Call wall en 28781 (QQQ 700,0); put wall en 27958 (QQQ 680,0).",
         "Regimen de gamma negativa, en -1,79 mil M$ por 1 % de movimiento (antes -2,07).",
@@ -998,7 +1026,7 @@
         "odte": {
           "base": "open interest",
           "callWall": 710,
-          "esHoy": true,
+          "esHoy": false,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
@@ -1022,7 +1050,7 @@
         "vencimientoCercano": "2026-11-10"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 sigue siendo el indice mas castigado hoy, con una caida que se modera a cerca del 1,15 % hacia el cierre: a la subida de tipos casi descontada en diciembre (96,5 %, Kalshi, tras el IPC y los comentarios hawkish de Waller) se suma la investigacion de la junta de Nvidia sobre posibles vinculos de Jensen Huang con inteligencia china (Nvidia cae un 6,3 %, el mayor lastre del indice) y la presion sobre Microsoft por la OPV de Anthropic y sus nuevas herramientas que rivalizan con Office. El Nasdaq Composite cerro con una caida cercana al 0,7 %; el cierre oficial del NDX no se ha podido confirmar con fuentes fiables esta hora. La gamma del motor sigue negativa (-2,24 mil M$ por 1 %, open interest del 6 de noviembre, con mas de 5 horas de antiguedad), con el call wall en 28781, el put wall en 27958 y el giro de gamma en 28684.",
+      "lectura": "El Nasdaq 100 cerro ayer con una caida cercana al 1,15% (Nasdaq Composite -0,7%), con Nvidia desplomandose un 6,3% tras confirmar Trump que el FBI investiga los vinculos del consejero delegado Jensen Huang con una presunta espia china; el consejo de Nvidia ya ha contratado al despacho Wachtell Lipton para liderar la investigacion interna. Pese a ello, los futuros NQ apuntan esta madrugada a un rebote de en torno al +1,0% de cara a la apertura europea, con el resto del sector de semiconductores (AMD +13% el lunes) sosteniendo al indice y el anuncio de Bessent de un alivio arancelario de 30.000 millones $ con China sumando algo de optimismo comercial. La gamma del motor sigue sin actualizarse desde el 6 de noviembre (timeout de opciones); se mantienen como referencia el call wall en 28781 y el put wall en 27958 del indice, en regimen negativo (-1,79 mil M$ por 1%). El giro hawkish de Waller (probabilidad de hike en diciembre: 96,5%, Kalshi) sigue siendo el principal lastre macro, y el desenlace de la investigacion sobre Huang el principal riesgo idiosincratico para el indice esta semana.",
       "levels": {
         "callWall": 28781,
         "gammaFlip": 28684,
@@ -1034,7 +1062,7 @@
       "precio": 27680,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -58,
+      "score": -22,
       "sesgo": "bajista",
       "spot": 27680
     }
@@ -1175,27 +1203,54 @@
   "noticias": [
     {
       "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
+        "EURUSD": "neutral",
+        "NQ": "alcista",
+        "SPX": "alcista"
       },
-      "fuente": "NBC News / CNBC",
+      "fuente": "Departamento del Tesoro de EE. UU.",
+      "impacto": "medio",
+      "resumen": "En una cena del National Committee on U.S.-China Relations, el secretario del Tesoro dijo que el consejo bilateral acordo un trato arancelario mas favorable para 30.000 millones $ de bienes no sensibles en cada direccion y crear un grupo de trabajo sobre barreras agricolas.",
+      "titular": "Bessent anuncia un alivio arancelario de 30.000 millones $ con China y un grupo de trabajo agricola",
+      "ts": "2026-11-11T02:00:00Z",
+      "url": "https://home.treasury.gov/news/press-releases/sb0688"
+    },
+    {
+      "activos": {
+        "BTC": "bajista",
+        "EURUSD": "bajista",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "XAU": "bajista"
+      },
+      "fuente": "CNBC",
       "impacto": "alto",
-      "resumen": "Trump dijo en una comparecencia en la Casa Blanca que el FBI investiga la relacion de Jensen Huang con una presunta agente de inteligencia china; Nvidia ya investigaba el caso de forma interna y la accion cae un 6,3 %.",
-      "titular": "El FBI investiga los vinculos del consejero delegado de Nvidia con una presunta espia china, confirma Trump",
-      "ts": "2026-11-10T19:30:00Z",
-      "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439"
+      "resumen": "Tras el IPC de octubre y los comentarios de Waller, los futuros de tipos pasaron a descontar en puntos basicos el equivalente a mas de una subida completa en diciembre, frente al 85% del lunes.",
+      "titular": "El mercado eleva al 118% la probabilidad implicita (en puntos basicos) de una subida de la Fed en diciembre",
+      "ts": "2026-11-10T21:30:00Z",
+      "url": "https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html"
     },
     {
       "activos": {
         "WTI": "bajista",
         "XAU": "neutral"
       },
-      "fuente": "InvestingLive / FXStreet",
+      "fuente": "CNBC",
       "impacto": "medio",
-      "resumen": "Trump dijo no tener planes inmediatos de atacar Iran mientras continuan las negociaciones en Catar sobre la reapertura del estrecho de Ormuz; el WTI extiende la caida hasta cerca de minimos de dos meses.",
-      "titular": "Trump descarta ataques inminentes a Iran; el petroleo WTI profundiza su caida hacia los 85 $",
-      "ts": "2026-11-09T20:00:00Z",
-      "url": "https://investinglive.com/commodities/trump-says-no-immediate-plan-to-strike-iran-as-netanyahu-hints-at-attack-this-week/"
+      "resumen": "Las negociaciones sobre un posible acuerdo para reabrir el estrecho de Ormuz, con Trump descartando una escalada inminente, hunden el crudo a minimos de varios meses.",
+      "titular": "El Brent cae por debajo de 90 $ por primera vez desde agosto ante la distension diplomatica con Iran",
+      "ts": "2026-11-10T16:00:00Z",
+      "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+    },
+    {
+      "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "Mitrade",
+      "impacto": "medio",
+      "resumen": "Las salidas de capital empezaron tres sesiones antes del IPC de octubre; bitcoin cotiza en torno a 73.500 $ mientras el mercado refuerza las apuestas de una Fed mas dura en diciembre.",
+      "titular": "Bitcoin pierde la media de 200 sesiones por primera vez en meses",
+      "ts": "2026-11-11T03:00:00Z",
+      "url": "https://www.mitrade.com/insights/crypto-analysis/bitcoin/btc-double-top-neckline-20261111J1122"
     },
     {
       "activos": {
@@ -1204,8 +1259,8 @@
       },
       "fuente": "CNBC / Kiplinger",
       "impacto": "medio",
-      "resumen": "El S&P 500 cerro en 7.520,93 puntos, un 0,38 % menos, tras el IPC de octubre y el giro hawkish de Waller.",
-      "titular": "Wall Street cierra con perdidas moderadas: el S&P 500 cae un 0,38 % y el Nasdaq Composite un 0,7 %",
+      "resumen": "El S&P 500 cerro en 7.520,93 puntos, un 0,38% menos, tras el IPC de octubre y el giro hawkish de Waller.",
+      "titular": "Wall Street cierra con perdidas moderadas: el S&P 500 cae un 0,38% y el Nasdaq Composite un 0,7%",
       "ts": "2026-11-10T21:00:00Z",
       "url": "https://www.kiplinger.com/investing/stocks/stocks-drop-as-rate-hike-worries-rise-stock-market-today"
     },
@@ -1220,6 +1275,18 @@
       "titular": "Wall Street recorta perdidas hacia el cierre: el S&P 500 cede cerca de un 0,65% y el Nasdaq 100 un 1,15%",
       "ts": "2026-11-10T19:45:00Z",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "NBC News / CNBC",
+      "impacto": "alto",
+      "resumen": "Trump dijo en una comparecencia en la Casa Blanca que el FBI investiga la relacion de Jensen Huang con una presunta agente de inteligencia china; Nvidia ya investigaba el caso de forma interna y la accion cae un 6,3%.",
+      "titular": "El FBI investiga los vinculos del consejero delegado de Nvidia con una presunta espia china, confirma Trump",
+      "ts": "2026-11-10T19:30:00Z",
+      "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439"
     },
     {
       "activos": {
@@ -1248,8 +1315,8 @@
       },
       "fuente": "Bloomberg / Yahoo Finance",
       "impacto": "alto",
-      "resumen": "El bono a 2 anos salta 19 puntos basicos hasta el 4,75 % y el mercado ya descuenta al menos dos subidas de la Fed para mediados de 2027; las perdidas se amplian en Wall Street.",
-      "titular": "Se amplian las perdidas: el bono a 2 anos sube al 4,75 % tras el IPC de octubre",
+      "resumen": "El bono a 2 anos salta 19 puntos basicos hasta el 4,75% y el mercado ya descuenta al menos dos subidas de la Fed para mediados de 2027; las perdidas se amplian en Wall Street.",
+      "titular": "Se amplian las perdidas: el bono a 2 anos sube al 4,75% tras el IPC de octubre",
       "ts": "2026-11-10T16:45:00Z",
       "url": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates"
     },
@@ -1273,45 +1340,9 @@
       "fuente": "FXStreet",
       "impacto": "alto",
       "resumen": "El oro ronda los 4.100 $/oz y bitcoin cae por debajo de 74.000 $ mientras el mercado refuerza las apuestas de una Fed mas dura.",
-      "titular": "El oro cae cerca de un 2 % y bitcoin pierde los 74.000 $ tras el IPC de octubre",
+      "titular": "El oro cae cerca de un 2% y bitcoin pierde los 74.000 $ tras el IPC de octubre",
       "ts": "2026-11-10T15:41:00Z",
       "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-vs-gold-outlook-btc-and-xau-pull-back-as-us-inflation-rises-in-october-202611101541"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "EURUSD": "neutral",
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "Yahoo Finance / 24/7 Wall St.",
-      "impacto": "medio",
-      "resumen": "Las perdidas se amplian frente a la apertura mientras el mercado asienta la probabilidad de una subida de tipos en diciembre tras el IPC y las palabras de Waller.",
-      "titular": "La caida se acentua a media manana: el Nasdaq 100 cede un 1,3 % y el S&P 500 un 0,4 %",
-      "ts": "2026-11-10T15:30:00Z",
-      "url": "https://247wallst.com/investing/2026/11/10/the-nasdaq-100-just-had-its-best-day-since-march-without-nvidias-help/"
-    },
-    {
-      "activos": {
-        "NQ": "bajista"
-      },
-      "fuente": "Bloomberg / Yahoo Finance",
-      "impacto": "medio",
-      "resumen": "Las acciones de Microsoft bajan un 3% despues de que Anthropic presentara nuevas herramientas de Claude para el entorno de trabajo que compiten con Office.",
-      "titular": "Microsoft cae un 3% tras el anuncio de herramientas de Claude de Anthropic que rivalizan con Office",
-      "ts": "2026-11-10T15:10:00Z",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates"
-    },
-    {
-      "activos": {
-        "EURUSD": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "alto",
-      "resumen": "El indice dolar sube cerca de un 0,3 % hasta 102, mientras el EUR/USD retrocede a unos 1,1190 tras el IPC de octubre.",
-      "titular": "El dolar se refuerza tras el IPC: el EUR/USD cae hacia 1,1190",
-      "ts": "2026-11-10T14:05:00Z",
-      "url": "https://fxstreet.com/news/euro-slips-below-11200-as-hotter-us-inflation-fuels-fed-rate-hike-bets-202611101405"
     },
     {
       "activos": {
@@ -1323,7 +1354,7 @@
       },
       "fuente": "StockTitan",
       "impacto": "alto",
-      "resumen": "Tras el IPC de octubre, Waller se inclina por respaldar un alza en la reunión del 9 de diciembre, incluso de 50 puntos básicos.",
+      "resumen": "Tras el IPC de octubre, Waller se inclina por respaldar un alza en la reunion del 9 de diciembre, incluso de 50 puntos basicos.",
       "titular": "El gobernador de la Fed Waller se abre a apoyar una subida de tipos en diciembre",
       "ts": "2026-11-10T13:35:00Z",
       "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026"
@@ -1353,22 +1384,10 @@
       },
       "fuente": "BLS / CBS News",
       "impacto": "alto",
-      "resumen": "La BLS no pudo calcular la variación interanual de octubre por la falta de datos de 2025 debido al cierre de la Administración.",
+      "resumen": "La BLS no pudo calcular la variacion interanual de octubre por la falta de datos de 2025 debido al cierre de la Administracion.",
       "titular": "El IPC de octubre sube un 0,4% mensual, por encima del 0,3% esperado, sin tasa interanual",
       "ts": "2026-11-10T13:30:00Z",
       "url": "https://www.cbsnews.com/news/october-cpi-report-elevated-inflation/"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "Digital Citizen",
-      "impacto": "alto",
-      "resumen": "Las acciones caen más de un 4% desde el lunes y siguen bajando el martes, lastrando al Nasdaq.",
-      "titular": "La junta de Nvidia abre una investigación sobre Jensen Huang por presuntos vínculos con inteligencia china",
-      "ts": "2026-11-10T13:00:00Z",
-      "url": "https://www.digitalcitizen.life/nvidia-board-independent-investigation-jensen-huang-foreign-intelligence/"
     }
   ],
   "odte": {
@@ -1404,12 +1423,20 @@
         "valor": "27465"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 10 de noviembre, de cara al cierre de la sesion. En el Nasdaq 100 (datos del motor, open interest del 6 de noviembre): call wall 0DTE en 29192, put wall en 26314 y max pain en 27465, put/call OI en 0,63. Para el S&P 500 el motor sigue sin poder convertir a nivel de indice esta hora; se mantienen como referencia los niveles 0DTE del 6 de noviembre (call wall 7821, put wall 7520, max pain 7670), mientras que en el ETF (SPY) el call wall 0DTE de hoy esta en 740,0 $, el put wall en 734,0 $ y el max pain en 740,0 $, con un put/call OI de 0,47. Con el IPC de octubre ya publicado y Waller abriendo la puerta a una subida de hasta 50 pb en diciembre, estos niveles siguen siendo la referencia de corto plazo hacia el cierre de la sesion."
+    "lectura": "Niveles 0DTE de la sesion del 10 de noviembre: el motor no ha podido actualizar opciones desde entonces (timeout), por lo que estos niveles ya no corresponden al vencimiento de hoy, 11 de noviembre, y se mantienen solo como referencia de la ultima sesion calculada. En el Nasdaq 100 (open interest del 6 de noviembre): call wall 0DTE en 29192, put wall en 26314 y max pain en 27465, put/call OI en 0,63. Para el S&P 500 el motor sigue sin poder convertir a nivel de indice; se mantienen como referencia los niveles 0DTE del 6 de noviembre (call wall 7821, put wall 7520, max pain 7670), mientras que en el ETF (SPY) el call wall 0DTE de ayer estaba en 740,0 $, el put wall en 734,0 $ y el max pain en 740,0 $, con un put/call OI de 0,47."
   },
   "politica": {
-    "actualizado": "2026-11-10T21:50:58Z",
-    "ajuste": -16,
+    "actualizado": "2026-11-11T06:58:00Z",
+    "ajuste": -14,
     "declaraciones": [
+      {
+        "dicho": "Anuncia alivio arancelario de 30.000 millones $ en bienes no sensibles con China y un grupo de trabajo agricola.",
+        "efecto": "alcista",
+        "fuente": "Treasury.gov",
+        "quien": "Scott Bessent",
+        "ts": "2026-11-11T02:00:00Z",
+        "url": "https://home.treasury.gov/news/press-releases/sb0688"
+      },
       {
         "dicho": "Se inclina por 25 pb en diciembre, pero defiende valorar 50 pb si la inflacion sigue caliente.",
         "efecto": "bajista",
@@ -1427,17 +1454,9 @@
         "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439"
       },
       {
-        "dicho": "Descarta ataques inminentes contra Iran mientras continuan las negociaciones en Catar por Ormuz.",
-        "efecto": "alcista",
-        "fuente": "InvestingLive / Financial Times",
-        "quien": "Trump",
-        "ts": "2026-11-09T12:00:00Z",
-        "url": "https://investinglive.com/commodities/trump-says-no-immediate-plan-to-strike-iran-as-netanyahu-hints-at-attack-this-week/"
-      },
-      {
-        "dicho": "Exige a China cumplir 'de forma plena e inmediata' los compromisos comerciales de Busan.",
+        "dicho": "Junto a Greer, exige a China cumplir 'de forma plena e inmediata' los compromisos comerciales de Busan.",
         "efecto": "neutral",
-        "fuente": "TokenPost",
+        "fuente": "Bloomberg / TokenPost",
         "quien": "Scott Bessent",
         "ts": "2026-11-06T18:00:00Z",
         "url": "https://www.tokenpost.com/news/business/50812"
@@ -1452,12 +1471,12 @@
       }
     ],
     "efecto": "bajista",
-    "lectura": "El gobernador de la Fed Waller se inclina desde Londres por una subida de 25 puntos basicos en diciembre, pero defiende valorar hasta 50 si la inflacion no se modera tras el IPC de octubre; la probabilidad de hike (Kalshi) se mantiene en el 96,5 % y el bono a 2 anos ronda el 4,75-4,76 %. Trump confirmo en la Casa Blanca que el FBI investiga los vinculos del consejero delegado de Nvidia, Jensen Huang, con una presunta espia china, lo que hundio la accion un 6,3 % y lastro a las tecnologicas. En el frente geopolitico, Trump descarto ataques inminentes contra Iran mientras siguen las negociaciones en Catar sobre el estrecho de Ormuz, lo que hunde el petroleo hacia minimos de dos meses; Bessent, por su parte, exige a China cumplir 'de forma plena e inmediata' los compromisos de Busan, aunque la tregua arancelaria sigue extendida hasta el 10 de enero. El saldo politico neto es bajista: domina el tono cada vez mas duro de la Fed y el escandalo de Nvidia, solo parcialmente compensado por la distension sobre Iran.",
+    "lectura": "El saldo politico sigue siendo bajista en su conjunto, aunque algo menos que ayer: domina el tono cada vez mas duro de la Fed (el gobernador Waller abre la puerta a una subida de hasta 50 pb en diciembre, con el mercado ya descontando en bps el equivalente a mas de una subida completa) y el escandalo de Nvidia (Trump confirmo que el FBI investiga a Jensen Huang por presuntos vinculos con una espia china), pero se ve parcialmente compensado por la distension comercial anunciada por Bessent (alivio arancelario de 30.000 millones $ en bienes no sensibles con China y un grupo de trabajo agricola) y por la distension diplomatica sobre Iran, con el Brent perdiendo los 90 $ por primera vez desde agosto.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
         "efecto": "bajista",
-        "postura": "Confirma que el FBI investiga los vinculos de Jensen Huang (Nvidia) con una presunta espia china.",
+        "postura": "Confirmo que el FBI investiga los vinculos de Jensen Huang (Nvidia) con una presunta espia china.",
         "quien": "Trump",
         "ts": "2026-11-09T19:00:00Z",
         "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439"
@@ -1465,18 +1484,18 @@
       {
         "cargo": "Presidente de la Reserva Federal",
         "efecto": "bajista",
-        "postura": "Mantuvo tipos el 28-oct (voto 10-2) sin comprometerse con diciembre; la probabilidad de subida (Kalshi) ya esta en el 96,5 %.",
+        "postura": "Mantuvo tipos el 28-oct (voto 10-2) sin comprometerse con diciembre; la probabilidad de subida (Kalshi) ya esta en el 96,5%.",
         "quien": "Kevin Warsh",
         "ts": "2026-10-28T18:30:00Z",
         "url": "https://fxstreet.com/analysis/fed-holds-rates-as-warsh-offers-no-explicit-signal-on-december-202610291159"
       },
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
-        "efecto": "neutral",
-        "postura": "Exige a China cumplir 'de forma plena e inmediata' los compromisos comerciales de Busan, pese a la tregua extendida hasta el 10 de enero.",
+        "efecto": "alcista",
+        "postura": "Anuncia trato arancelario mas favorable para 30.000 millones $ en bienes y un grupo de trabajo agricola con China.",
         "quien": "Scott Bessent",
-        "ts": "2026-11-06T18:00:00Z",
-        "url": "https://www.tokenpost.com/news/business/50812"
+        "ts": "2026-11-11T02:00:00Z",
+        "url": "https://home.treasury.gov/news/press-releases/sb0688"
       },
       {
         "cargo": "Gobernador de la Reserva Federal",
@@ -1504,60 +1523,60 @@
       }
     ]
   },
-  "resumen": "Son las 21:50 UTC (21:50 en Canarias, 22:50 en Madrid, 16:50 en Nueva York) del martes 10 de noviembre de 2026, tras el cierre de Wall Street. El S&P 500 cerro en 7.520,93 puntos, un 0,38 % menos, y el Nasdaq Composite cedio cerca de un 0,7 %, lastrados por el IPC de octubre (+0,4 % mensual, con el subyacente tambien en +0,3 %, ambos por encima del consenso, sin tasa interanual por el cierre de la Administracion) y el giro hawkish del gobernador de la Fed Waller, que desde Londres se inclina por una subida de 25 puntos basicos en diciembre pero defiende valorar hasta 50 si la inflacion no se modera (probabilidad de hike en Kalshi: 96,5 %). Nvidia se desplomo un 6,3 %, el mayor lastre de las tecnologicas, despues de que Trump confirmara en una comparecencia en la Casa Blanca que el FBI investiga los vinculos del consejero delegado Jensen Huang con una presunta espia china, ademas de la investigacion interna ya abierta por el consejo de Nvidia; el Russell 2000 subio mas de un 3 % en la rotacion. El oro ronda los 4.100-4.120 $/oz (en torno a -1/-2 % hoy) y bitcoin cotiza por debajo de los 74.000 $ (en torno a 73.400-74.200 $, con salidas de ETF superiores a 1.280 millones $). El petroleo WTI profundiza su caida hacia los 85-86 $, minimos de mas de dos meses, despues de que Trump descartara ataques inminentes contra Iran mientras continuan las negociaciones en Catar sobre la reapertura del estrecho de Ormuz. El dolar se refuerza tras el IPC: el indice dolar sube cerca de un 0,3 % hasta 102 y el EUR/USD cotiza en torno a 1,1190. La gamma del motor (ultimo calculo fiable del 6 de noviembre; la actualizacion de opciones de esta hora volvio a fallar por timeout) seguia en regimen negativo en ambos indices.",
+  "resumen": "Son las 06:58 UTC (07:58 en Canarias, 08:58 en Madrid, 01:58 en Nueva York) del miercoles 11 de noviembre de 2026, antes de la apertura europea. Wall Street cerro ayer con perdidas moderadas (S&P 500 -0,38%, Nasdaq Composite -0,7%) tras el IPC de octubre (+0,4% mensual, subyacente +0,3%, ambos por encima del consenso, sin tasa interanual por el cierre de la Administracion) y el giro hawkish del gobernador de la Fed Waller, que se inclina por 25 puntos basicos en diciembre pero defiende valorar hasta 50 si la inflacion no se modera; el mercado de tipos ya descuenta en puntos basicos el equivalente a mas de una subida completa (118%, frente al 85% del lunes), con la probabilidad de hike en Kalshi aun en el 96,5%. Nvidia se desplomo un 6,3% el martes tras confirmar Trump que el FBI investiga los vinculos de Jensen Huang con una presunta espia china; el consejo de la compañia ya ha contratado al despacho Wachtell Lipton para la investigacion interna. Antes de la apertura de Londres, los futuros apuntan a un rebote: ES en torno al +0,5% y NQ en torno al +1,0%, apoyados por el anuncio de Bessent de un alivio arancelario de 30.000 millones $ con China (bienes no sensibles) y un grupo de trabajo agricola, y por la distension diplomatica sobre el estrecho de Ormuz, con el Brent perdiendo los 90 $ por primera vez desde agosto (WTI en torno a 86 $). El oro cotiza en torno a 4.045-4.065 $/oz (-1,3%) y bitcoin, en torno a 73.500 $, perdio esta madrugada la media de 200 sesiones por primera vez en meses, con salidas de ETF que empezaron antes del IPC. El EUR/USD se mueve en torno a 1,1190-1,1215. La gamma del motor sigue en regimen negativo en ambos indices, sin poder actualizarse desde el 6 de noviembre por un timeout en la fuente de opciones. Hoy el mercado de bonos de EE. UU. esta cerrado por el Dia de los Veteranos, pero la bolsa opera con normalidad.",
   "semana": {
     "activos": [
       {
-        "cambio": 3,
-        "expectativa": "El IPP de octubre (viernes 13, previsto 0,4% mensual frente al 1,3% de septiembre) y el desenlace de la investigacion sobre Nvidia son los proximos catalizadores; con la Fed descontando casi con certeza una subida en diciembre, el mercado vigila si los precios de produccion confirman o no el tono mas duro.",
+        "cambio": 5,
+        "expectativa": "El IPP de octubre (viernes 13, previsto 0,4% mensual frente al 1,3% de septiembre) y el desenlace de la investigacion sobre Nvidia son los proximos catalizadores; con la Fed descontando ya mas de una subida completa en diciembre, el mercado vigila si los precios de produccion confirman o no el tono mas duro.",
         "id": "SPX",
-        "narrativa": "El balance del calendario de esta semana sigue inclinado hacia un dolar mas debil (-40) por el IPP de octubre previsto en fuerte desaceleracion (0,4% frente al 1,3% de septiembre); pero el IPC ya publicado sorprendio al alza y Waller se inclina ahora por 25 pb en diciembre, dejando abierta la puerta a 50 (Kalshi: 96,5%). A ello se suma hoy la confirmacion de Trump de que el FBI investiga a Jensen Huang (Nvidia) por presuntos vinculos con una espia china, que hunde a la tecnologica un 6,3% y lastra al indice, solo parcialmente compensado por la distension sobre Iran. La gamma del motor sigue negativa y la liquidez semanal repunta pero la tendencia de cuatro semanas sigue drenando.",
-        "score": -14,
+        "narrativa": "El balance del calendario de esta semana sigue inclinado hacia un dolar mas debil (-40), con el IPP de octubre del viernes (previsto 0,4% frente al 1,3% de septiembre) como principal catalizador pendiente, pero el IPC ya publicado sorprendio al alza y el mercado de tipos pasa a descontar en bps mas de una subida completa de la Fed en diciembre (118%, frente al 85% del lunes). Frente a ello, Bessent anuncio anoche un alivio arancelario de 30.000 millones $ con China y los futuros ES apuntan a un rebote de entorno al +0,5% esta madrugada. La gamma del motor sigue negativa (sin actualizar desde el 6 de noviembre) y la liquidez semanal repunto pero la tendencia de cuatro semanas sigue drenando.",
+        "score": -9,
         "scoreInicial": -39,
         "sesgo": "neutral"
       },
       {
-        "cambio": 2,
-        "expectativa": "El IPP del viernes es la siguiente cita macro relevante; el desenlace de la investigacion sobre Nvidia sigue siendo el principal riesgo idiosincratico de corto plazo para el indice.",
+        "cambio": 5,
+        "expectativa": "El IPP del viernes es la siguiente cita macro relevante; el desenlace de la investigacion sobre Nvidia (estimado en 4-6 semanas) sigue siendo el principal riesgo idiosincratico de corto plazo para el indice.",
         "id": "NQ",
-        "narrativa": "Igual que el S&P 500, el Nasdaq 100 encaja un IPC mas caliente de lo esperado y un Waller que se inclina por 25 pb en diciembre con la puerta abierta a 50 (96,5%, Kalshi); el calendario de la semana sigue mas inclinado hacia un dolar debil (-40) por el IPP previsto en desaceleracion. El golpe especifico de hoy es la confirmacion de Trump de que el FBI investiga a Jensen Huang por presuntos vinculos con una espia china, que suma presion directa sobre Nvidia (-6,3%) y convierte de nuevo al Nasdaq 100 en el indice mas castigado de la sesion.",
-        "score": -20,
+        "narrativa": "Igual que el S&P 500, el Nasdaq 100 encaja un IPC mas caliente de lo esperado y una Fed que ya descuenta en bps mas de una subida completa en diciembre (118%); el calendario de la semana sigue mas inclinado hacia un dolar debil (-40) por el IPP previsto en desaceleracion. El golpe especifico sigue siendo la investigacion sobre Jensen Huang (Nvidia -6,3% el martes, consejo con Wachtell Lipton al frente de la pesquisa), aunque los futuros NQ apuntan esta madrugada a un rebote de en torno al +1,0%, con el resto de semiconductores (AMD) sosteniendo al indice y el anuncio comercial de Bessent sumando algo de optimismo.",
+        "score": -15,
         "scoreInicial": -41,
         "sesgo": "bajista"
       },
       {
-        "cambio": 3,
+        "cambio": -6,
         "expectativa": "El IPP del viernes es la siguiente referencia para el dolar y la Fed; una confirmacion del acuerdo diplomatico en Ormuz seguiria restando demanda de refugio al oro.",
         "id": "XAU",
-        "narrativa": "El balance del calendario apunta a un dolar mas debil esta semana (-40) por el IPP previsto en fuerte desaceleracion, lo que deberia dar soporte al oro; pero el tono hawkish de Waller tras el IPC y la fortaleza puntual del dolar lo compensan, y el oro ronda los 4.100-4.120 $/oz. La distension diplomatica sobre Iran y Ormuz reduce la demanda de refugio geopolitico, aunque la incertidumbre sobre la independencia de la Fed y el escandalo de Nvidia limitan la caida.",
-        "score": -3,
+        "narrativa": "El balance del calendario apunta a un dolar mas debil esta semana (-40) por el IPP previsto en fuerte desaceleracion, lo que deberia dar soporte al oro; pero el tono hawkish de Waller y la subida al 118% de la probabilidad en bps de un hike en diciembre fortalecen al dolar en el corto plazo, y el oro ronda los 4.045-4.065 $/oz (por debajo de los 4.100 $ de ayer). La distension diplomatica sobre Iran y Ormuz (Brent bajo 90 $) reduce ademas la demanda de refugio geopolitico, aunque la incertidumbre sobre la independencia de la Fed y el escandalo de Nvidia limitan la caida.",
+        "score": -9,
         "scoreInicial": -25,
         "sesgo": "neutral"
       },
       {
-        "cambio": 2,
+        "cambio": -4,
         "expectativa": "El IPP del viernes es la siguiente referencia para el dolar; mientras persistan las salidas de ETF y la Fed suba el tono, el rebote de bitcoin seguira limitado.",
         "id": "BTC",
-        "narrativa": "El calendario sigue inclinado hacia un dolar mas debil (-40), pero el mercado lo ignora: bitcoin pierde los 74.000 $ con salidas netas de ETF spot superiores a 1.280 millones $, mientras el mercado descuenta un Fed mas dura en diciembre (96,5%, Kalshi) y el escandalo de Nvidia golpea el apetito por riesgo en general.",
-        "score": -20,
+        "narrativa": "El calendario sigue inclinado hacia un dolar mas debil (-40), pero el mercado lo ignora: bitcoin perdio la media de 200 sesiones esta madrugada y cotiza en torno a 73.500 $, con salidas de ETF que empezaron tres sesiones antes del IPC, mientras el mercado descuenta ya en bps mas de una subida completa de la Fed en diciembre (118%) y el escandalo de Nvidia golpea el apetito por riesgo en general.",
+        "score": -24,
         "scoreInicial": -20,
         "sesgo": "bajista"
       },
       {
-        "cambio": 2,
+        "cambio": -3,
         "expectativa": "Una confirmacion del plan de reapertura de Ormuz aceleraria la caida; un repunte de la tension con Iran o un fracaso de las negociaciones revertiria el movimiento con fuerza.",
         "id": "WTI",
-        "narrativa": "El calendario pesa poco en el petroleo esta semana (el dolar mas debil, -40, favorece algo el precio en dolares), frente a un giro bajista mucho mas fuerte por la via geopolitica: Trump descarto ataques inminentes contra Iran mientras siguen las negociaciones en Catar sobre el estrecho de Ormuz, y el WTI profundiza su caida hacia los 85-86 $, minimos de mas de dos meses, al reducirse con fuerza la prima de riesgo geopolitica.",
-        "score": -40,
+        "narrativa": "El calendario pesa poco en el petroleo esta semana (el dolar mas debil, -40, favorece algo el precio en dolares), frente a un giro bajista mucho mas fuerte por la via geopolitica: el Brent perdio los 90 $ por primera vez desde agosto y el WTI se mantiene cerca de 86 $ mientras siguen las negociaciones en Catar sobre el estrecho de Ormuz y Trump descarta una escalada inminente con Iran.",
+        "score": -43,
         "scoreInicial": -39,
         "sesgo": "bajista"
       },
       {
-        "cambio": 3,
+        "cambio": -3,
         "expectativa": "El PIB preliminar de la eurozona del 13 de noviembre es la siguiente referencia para el euro; el tono cada vez mas duro de la Fed deja al dolar con sesgo de fortalecerse a corto plazo.",
         "id": "EURUSD",
-        "narrativa": "El balance del calendario sigue inclinado hacia un dolar mas debil esta semana (-40) frente a un euro sin senal propia (0), por el IPP previsto en desaceleracion; pero el mercado pondera mas el tono hawkish de Waller tras el IPC de octubre, que fortalece al dolar en el corto plazo. El EUR/USD cotiza en torno a 1,1190. El BCE, con Lagarde avisando de riesgos de inflacion al alza, da algo de soporte al euro, pero sin catalizador propio esta semana.",
-        "score": -6,
+        "narrativa": "El balance del calendario sigue inclinado hacia un dolar mas debil esta semana (-40) frente a un euro sin senal propia (0), por el IPP previsto en desaceleracion; pero el mercado pondera mas el tono hawkish de Waller y la subida al 118% de la probabilidad en bps de un hike en diciembre, que fortalece al dolar en el corto plazo. El EUR/USD cotiza en torno a 1,1190-1,1215. El BCE, con Lagarde avisando de riesgos de inflacion al alza, da algo de soporte al euro, pero sin catalizador propio esta semana.",
+        "score": -9,
         "scoreInicial": 18,
         "sesgo": "neutral"
       }
@@ -1571,11 +1590,11 @@
         "WTI": 20,
         "XAU": 40
       },
-      "actualizado": "2026-11-10T21:50:58Z",
+      "actualizado": "2026-11-11T06:58:00Z",
       "dolar": -40,
       "dolarEsperado": -75,
       "euro": 0,
-      "nota": "Se anade esta hora el IPP mensual de octubre (previsto 0,4 % frente al 1,3 % de septiembre, consenso Investing.com), que vota con fuerza a favor de un dolar mas debil. Con el IPC mensual y subyacente de hoy ya publicados por encima del consenso (sorpresas hawkish que compensan parte del voto de expectativa), el balance del calendario de esta semana pasa de -25 a -40 puntos (dolar mas debil en el resultado neto), aunque la pura expectativa previa a los datos (dolarEsperado) cae a -75: el mercado llego a la semana descontando mas desinflacion de la que finalmente se confirmo. Los datos de la semana que viene siguen sin consenso confirmado en Investing.com."
+      "nota": "Sin cambios desde la ultima actualizacion: no se ha publicado ningun dato nuevo de EE. UU. ni de la eurozona desde el IPC de octubre del martes. El balance de la semana sigue en -40 (dolar mas debil) por el IPP de octubre del viernes (previsto 0,4% frente al 1,3% de septiembre), con la pura expectativa previa a los datos (dolarEsperado) en -75."
     },
     "escenarios": [
       {
@@ -1773,7 +1792,7 @@
       },
       {
         "actual": "4,1 %",
-        "anterior": "4,2 %",
+        "anterior": "4,2 % de septiembre",
         "casos": [
           {
             "condicion": "Baja o se mantiene (≈4,1-4,2 %)",
@@ -1785,7 +1804,7 @@
               "WTI": "alcista",
               "XAU": "alcista"
             },
-            "nota": "Mercado laboral resistente sin señales de deterioro: alivio para el riesgo."
+            "nota": "Mercado laboral resistente sin senales de deterioro: alivio para el riesgo."
           },
           {
             "condicion": "Sube ligeramente (≈4,3 %)",
@@ -1870,7 +1889,7 @@
         "fecha": "2026-11-10",
         "horaUtc": "13:30",
         "impacto": "alto",
-        "lectura": "La BLS no pudo calcular la tasa interanual de octubre por falta de datos de 2025; el dato mensual si se publico (+0,4 % frente al +0,3 % esperado), reforzando el argumento de una Fed mas dura: Waller se abre a una subida de hasta 50 pb. El subyacente tambien bate el consenso (+0,3 % frente al +0,2 % esperado).",
+        "lectura": "La BLS no pudo calcular la tasa interanual de octubre por falta de datos de 2025; el dato mensual si se publico (+0,4 % frente al +0,3 % esperado), reforzando el argumento de una Fed mas dura: Waller se abre a una subida de hasta 50 pb. El subyacente tambien bate el consenso (+0,3 % frente al +0,2 % esperado). El mercado ha seguido subiendo la probabilidad de hike en diciembre hasta el 118 % en bps.",
         "ocurrido": true,
         "pais": "EE. UU.",
         "previsto": "3,7 % a/a (nowcast Cleveland Fed / Polymarket)"
@@ -2005,9 +2024,9 @@
     "pesoCalendario": 0.3,
     "pesoMotivo": "Semana cargada en el papel (ISM manufacturero y de servicios, nominas, paro, Michigan, IPC de la eurozona) pero con casi todos los consensos todavia sin publicar un domingo antes de la semana: de los 11 datos de EE. UU. y la eurozona, solo las nominas tenian prevision frente al dato anterior. Con la expectativa tan poco respaldada, mandan mas el resto de factores: la gamma negativa, la liquidez drenando, el vuelco democrata del Congreso ya confirmado, el batacazo de resultados tecnologicos y la escalada en Ormuz.",
     "rango": "9 a 13 de noviembre de 2026",
-    "slot": "sesion",
-    "updatedAt": "2026-11-10T19:20:00Z"
+    "slot": "pre-londres",
+    "updatedAt": "2026-11-11T06:58:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-11T06:22:49Z"
+  "updatedAt": "2026-11-11T07:17:39Z"
 }
