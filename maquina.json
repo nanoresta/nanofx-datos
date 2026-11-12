@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12T07:46:27Z",
+  "actualizado": "2026-11-12T19:46:01Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento",
@@ -7,6 +7,10 @@
     "lectura": "El empleo de octubre sorprende al alza (+165.000, paro 4,1 %), el ISM manufacturero sube a 55,5 y el IPC de octubre avanza un 0,4 % mensual (subyacente +0,3 %); la Fed (3,75-4,00 %) tiene ya un 95,5 % de probabilidad de subir el 9 dic (Kalshi, 12 nov). La economía se recalienta en vez de girar."
   },
   "fuentes": [
+    {
+      "nombre": "Newsquawk · Subasta de 30 años (12 nov)",
+      "url": "https://www.newsquawk.com/headlines/us-sells-usd-25bln-of-30-year-bonds-tail-04bps-"
+    },
     {
       "nombre": "Trading Economics – Bono 30 años EE. UU. (12 nov)",
       "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
@@ -117,7 +121,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 95,5 % subida el 9 dic y ~96 % otra en enero; primer recorte descontado para jul-2027 (Kalshi, 12 nov)",
+      "c": "mantenidos el 28 oct · 95,5 % subida el 9 dic y ~96 % otra en enero; primer recorte descontado para jul-2027 (Kalshi, 12 nov 19:04 UTC)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -129,7 +133,7 @@
       "v": "+0,4 % mensual (oct.)"
     },
     {
-      "c": "octubre (BLS, 6 nov) · consenso +63.000 · septiembre +29.000",
+      "c": "octubre (BLS, 6 nov) · consenso +63.000 · peticiones de subsidio 200.000 (12 nov)",
       "estado": "verde",
       "n": "Empleo",
       "v": "+165.000 · paro 4,1 %"
@@ -147,10 +151,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "12 nov (Trading Economics) · a 16 pb del umbral de atención; subasta de 30 años hoy",
+      "c": "12 nov (Trading Economics) · +8 pb tras subasta floja (5,441 %); a 6 pb del umbral de atención",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,34 %"
+      "v": "5,44 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -163,9 +167,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,34 % (12 nov) y el de 10 años vuelve a superar el 5 % con la Fed a punto de subir, y la subasta de 10 años muestra menos demanda extranjera (61,2 % de indirectos): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sube al 5,44 % (12 nov) tras la subasta más floja desde junio (indirectos 68,1 %, cobertura 2,36): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está en la parte alta de un ciclo corto que se recalienta y muy arriba en el ciclo largo. El empleo de octubre (+165.000, paro 4,1 %) y el IPC (+0,4 % mensual) obligan a la Fed a subir tipos en diciembre (95,5 %, Kalshi 12 nov), lo que dispara el dólar a máximos de 19 meses y encarece una deuda que ya crece al 5,2 % anual, más que los salarios (3,7 %).",
+  "lectura": "EE. UU. está en la parte alta de un ciclo corto que se recalienta y muy arriba en el ciclo largo. El empleo de octubre (+165.000, paro 4,1 %) y el IPC (+0,4 % mensual) obligan a la Fed a subir en diciembre (95,5 %, Kalshi), y hoy el bono a 10 años sube al 5,11 % y el de 30 años al 5,44 % tras una subasta floja, encareciendo una deuda que ya crece al 5,2 % anual, más que los salarios (3,7 %).",
   "palancas": [
     {
       "estado": "rojo",
@@ -397,6 +401,11 @@
       "corto": 0.57,
       "largo": 0.76,
       "ts": "2026-11-12T07:46:27Z"
+    },
+    {
+      "corto": 0.57,
+      "largo": 0.76,
+      "ts": "2026-11-12T19:46:01Z"
     }
   ]
 }

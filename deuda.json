@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-12T07:46:27Z",
+  "actualizado": "2026-11-12T19:46:01Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 16 pb del umbral de atención (5,5 %); -22 pb en un mes (Trading Economics). La subasta de 30 años de hoy, 12 nov, dirá si hay demanda.",
-      "valor": "5,34 % (12 nov)"
+      "nota": "A solo 6 pb del umbral de atención (5,5 %): +8 pb en el día tras una subasta floja (Trading Economics).",
+      "valor": "5,44 % (12 nov)"
     },
     {
       "estado": "amarillo",
-      "nombre": "Subasta de 10 años (10 nov)",
-      "nota": "42.000 M$ sin cola, pero cobertura bajo la media (2,60) e indirectos muy por debajo de su media (76,7 %) (Helious). El 30 años se subasta hoy, 12 nov (resultado pendiente).",
-      "valor": "5,020 %; cobertura 2,46; indirectos 61,2 %"
+      "nombre": "Subasta de 30 años (12 nov)",
+      "nota": "25.000 M$ con la demanda más débil desde junio: cobertura bajo la media (2,44), indirectos bajo la media (70,5 %) y dealers con el 11,4 % (Newsquawk/Helious). Es la segunda subasta floja seguida tras la de 10 años.",
+      "valor": "5,441 %; cola 0,4 pb; cobertura 2,36; indirectos 68,1 %"
     },
     {
       "estado": "rojo",
@@ -43,8 +43,8 @@
       {
         "estado": "rojo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en el 4,99 % (10 nov): la bolsa casi no paga extra por su riesgo.",
-        "valor": "Prima de riesgo ≈ 25 pb"
+        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct) → rentabilidad por beneficios ~5,24 % frente al bono a 10 años en el 5,11 % (12 nov): la bolsa casi no paga extra por su riesgo.",
+        "valor": "Prima de riesgo ≈ 13 pb"
       },
       {
         "estado": "amarillo",
@@ -55,8 +55,8 @@
       {
         "estado": "verde",
         "n": "Sentimiento eufórico",
-        "nota": "11 nov: el Nasdaq 100 sube un 2,77 % (Benzinga), pero por la noche la acción de Nvidia cae más de un 9 % fuera de hora porque el consejo estudiaría destituir a Jensen Huang (CBS/WSJ) y los futuros del Nasdaq caen un 0,9 % (Bloomberg, 12 nov): no hay euforia.",
-        "valor": "Fear & Greed en zona de miedo; crisis en Nvidia"
+        "nota": "12 nov: Jensen Huang dimite como consejero delegado de Nvidia (Colette Kress, interina); la acción llega a caer un 14 % y cierra la mañana en -5 %, con Fear & Greed en 28 (CNN): no hay euforia.",
+        "valor": "Fear & Greed 28 (miedo); Huang dimite"
       },
       {
         "estado": "rojo",
@@ -71,14 +71,14 @@
         "valor": "296.000 M$ en bonos de hyperscalers (2026)"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en 69/100 de burbuja, por debajo de los ~85 de 2000 y 1929: la posible salida de Jensen Huang hunde a Nvidia fuera de hora y enfría el entusiasmo tras el rebote del Nasdaq del 11 nov. Lo que más pesa sigue siendo la sobreinversión en IA a crédito (296.000 M$ en bonos este año), con la Fed a punto de subir como principal riesgo de pinchazo.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en 69/100 de burbuja, por debajo de los ~85 de 2000 y 1929: la dimisión de Jensen Huang hunde a Nvidia hasta un 14 % y el sentimiento sigue en miedo. Lo que más pesa sigue siendo la sobreinversión en IA a crédito (296.000 M$ en bonos este año) y una bolsa que ya casi no paga prima frente a un bono a 10 años en el 5,11 %.",
     "nivel": 69,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "12 nov: el 30 años baja a 5,34 % y el 2 años seguía en el 4,75 % (10 nov); la curva se aplana porque manda la Fed, no el miedo a la deuda (Trading Economics).",
-        "valor": "~+59 pb (4,75 % / 5,34 %)"
+        "nota": "12 nov: el 30 años sube 8 pb tras una subasta floja; con el 2 años en el 4,75 % (10 nov, último dato) la curva vuelve a empinarse por el lado largo (Trading Economics).",
+        "valor": "~+69 pb (4,75 % / 5,44 %)"
       },
       {
         "estado": "rojo",
@@ -89,24 +89,56 @@
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "11 nov: el dólar toca máximos desde abril de 2025 (102,95) por la Fed dura, +0,3 % en un mes (Trading Economics): no hay huida del dólar, al contrario.",
-        "valor": "102,89 (+0,65 %)"
+        "nota": "12 nov: el dólar se acerca a 103 por la inflación y la Fed dura (FXStreet): no hay huida del dólar, al contrario.",
+        "valor": "~103 (máx. 19 meses)"
       },
       {
         "estado": "verde",
         "n": "Oro",
-        "nota": "12 nov: el oro sigue por debajo de 4.000 $ por la fortaleza del dólar ante la Fed (Amillex): no señala huida del dinero papel.",
-        "valor": "~3.990 $/oz"
+        "nota": "12 nov: el oro sigue por debajo de 4.000 $ por la fortaleza del dólar (FXStreet): no señala huida del dinero papel.",
+        "valor": "~3.975 $/oz"
       },
       {
         "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "11 nov: bitcoin ronda los 73.500 $ tras perder la media de 200 sesiones; la liquidez neta de la Fed cae 74.300 M$ en cuatro semanas (H.4.1, 4 nov). Sin dato nuevo de la Fed hasta el 13 nov.",
-        "valor": "Bitcoin <73.000 $; ETF -1.280 M$"
+        "nota": "12 nov: bitcoin pierde los 72.000 $ con 656 M$ en liquidaciones de posiciones apalancadas y quinta jornada de salidas de ETF (Bitcoin.com).",
+        "valor": "Bitcoin <72.000 $; 656 M$ liquidados"
       }
     ]
   },
   "fuentes": [
+    {
+      "nombre": "Newsquawk – Subasta de 30 años: cola de 0,4 pb (12 nov)",
+      "url": "https://www.newsquawk.com/headlines/us-sells-usd-25bln-of-30-year-bonds-tail-04bps-"
+    },
+    {
+      "nombre": "Helious – Subasta de 30 años (12 nov)",
+      "url": "https://helious.io/news/auc-912810UY2-2026-11-12/30-year-bond-auction-in-line"
+    },
+    {
+      "nombre": "Bloomberg – El yen cae a 160 por dólar (12 nov)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/yen-falls-to-key-160-level-per-dollar-raising-intervention-risk"
+    },
+    {
+      "nombre": "Investing.com/Reuters – Mimura renueva su advertencia (12 nov)",
+      "url": "https://www.investing.com/news/economy-news/japans-top-currency-diplomat-renews-volatility-warning-as-yen-nears-key-160-level-5020140"
+    },
+    {
+      "nombre": "Nvidia – Transición del consejero delegado (12 nov)",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+      "nombre": "Yahoo Finance – Mercados 12 nov (Nvidia, bonos)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-slides-jensen-huang-resigns-invest-165632931.html"
+    },
+    {
+      "nombre": "FXStreet – El DXY se acerca a 103 (12 nov)",
+      "url": "https://fxstreet.com/news/forex-today-us-inflation-is-back-202611121747"
+    },
+    {
+      "nombre": "Bitcoin.com – Bitcoin pierde los 72.000 $ (12 nov)",
+      "url": "https://news.bitcoin.com/market-updates/bitcoin-price-breaks-below-72k-656m-liquidation-bloodbath/"
+    },
     {
       "nombre": "Trading Economics – Bono 30 años EE. UU. (12 nov)",
       "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
@@ -140,20 +172,12 @@
       "url": "https://tradingeconomics.com/china/government-bond-yield"
     },
     {
-      "nombre": "CBS News – El consejo de Nvidia estudiaría destituir a Huang (11 nov)",
-      "url": "https://www.cbsnews.com/news/nvidia-board-ceo-jensen-huang-china/"
-    },
-    {
       "nombre": "Bloomberg – Futuros caen por la crisis de Nvidia (12 nov)",
       "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates"
     },
     {
       "nombre": "Benzinga – Nasdaq 100 +2,77 % (11 nov)",
       "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia"
-    },
-    {
-      "nombre": "Amillex – El oro pierde los 4.000 $ (12 nov)",
-      "url": "https://www.amillex.com/2026/11/12/amillex-daily-market-commentary-strong-dollar-pushes-gold-below-4000-irans-nuclear-stance-supports-oil/"
     },
     {
       "nombre": "TheStreet – Mercados 11 nov (Nvidia, CoreWeave)",
@@ -308,19 +332,19 @@
       "url": "https://247wallst.com/investing/2026/10/29/alphabet-sinks-11-as-ai-spending-pushes-cash-flow-negative-again-microsoft-and-meta-edge-higher-amazon-slips/"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el 30 años está en el 5,34 % y el 10 años vuelve a superar el 5 %, con la subasta de 30 años hoy como prueba de demanda. Japón es el segundo foco: el yen sigue en ~159,8, junto a la zona de 160 donde Tokio intervino, y el Gobierno renueva sus advertencias. El riesgo de deuda se mantiene en 51.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: la subasta de 30 años de hoy salió floja (5,441 %, cola de 0,4 pb, cobertura 2,36 e indirectos 68,1 %, por debajo de su media) y el 30 años sube al 5,44 % y el 10 años al 5,11 %. Japón es el segundo foco: el yen toca la zona de 160 por dólar y Tokio vuelve a advertir de intervención, lo que obligaría a vender Treasuries. El riesgo de deuda se mantiene en 51, pero el 30 años queda a solo 6 pb del umbral de atención.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "12 nov (Asia, OTC); +2 pb en el día, -21 pb en 1 mes (Trading Economics)",
+          "c": "12 nov; +12 pb en el día, -11 pb en 1 mes (Trading Economics)",
           "n": "Bono 10 años",
-          "v": "5,01 %"
+          "v": "5,11 %"
         },
         {
-          "c": "12 nov (Asia, OTC); -3 pb en el día, -22 pb en 1 mes (Trading Economics)",
+          "c": "12 nov; +8 pb en el día, -12 pb en 1 mes (Trading Economics)",
           "n": "Bono 30 años",
-          "v": "5,34 %"
+          "v": "5,44 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -336,14 +360,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "El 10 años vuelve a superar el 5 % tras el IPC caliente y la subida del 9 dic sigue casi descontada (Kalshi 95,5 %, 12 nov). Hoy, 12 nov, se subasta el bono a 30 años: es la prueba clave de demanda."
+      "nota": "La subasta de 30 años (12 nov) muestra la demanda más débil desde junio y los tipos largos rebotan con fuerza pese a la crisis de Nvidia; la subida de la Fed del 9 dic sigue casi descontada (Kalshi 95,5 %)."
     },
     {
       "datos": [
         {
-          "c": "12 nov; -1 pb en el día, -15 pb en 1 mes (Trading Economics)",
+          "c": "12 nov; +3 pb en el día, -10 pb en 1 mes (Trading Economics)",
           "n": "Bund 10 años",
-          "v": "3,31 %"
+          "v": "3,36 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -351,7 +375,7 @@
           "v": "88,9 %"
         },
         {
-          "c": "mantenido el 29 oct; mercado da ~66 % a subir en diciembre y febrero descontado (LSEG, 9 nov); Lane (10 nov) ve posible otra subida; IPC 4,0 % (oct.)",
+          "c": "mantenido el 29 oct; el mercado da ~80 % a una subida de 25 pb en diciembre (Trading Economics, 12 nov); Lane (11 nov) la ve posible; IPC 4,0 % (oct.)",
           "n": "Tipo depósito BCE",
           "v": "2,50 %"
         },
@@ -364,7 +388,7 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund se estabiliza en torno al 3,3 % con un BCE que apunta a subir en diciembre; el euro cae a mínimos de dos semanas (~1,11 $) por la Fed dura y la prima francesa (157 pb, 28 oct) sigue siendo el punto débil."
+      "nota": "El Bund sube al 3,36 % arrastrado por los Treasuries y con un BCE que apunta a subir en diciembre (~80 %); el euro pierde los 1,11 $ y la prima francesa (157 pb, 28 oct) sigue siendo el punto débil."
     },
     {
       "datos": [
@@ -379,9 +403,9 @@
           "v": "590.700 M$"
         },
         {
-          "c": "12 nov; -0,09 % en el día, yuan +0,37 % en 1 mes (Trading Economics)",
+          "c": "12 nov; yuan +0,08 % en el día y +0,36 % en 1 mes (Trading Economics)",
           "n": "USD/CNY",
-          "v": "6,668"
+          "v": "6,669"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -397,14 +421,14 @@
     {
       "datos": [
         {
-          "c": "12 nov; +2 pb en el día, -19 pb en 1 mes (Trading Economics)",
+          "c": "12 nov; plano en el día, -21 pb en 1 mes (Trading Economics)",
           "n": "JGB 10 años",
-          "v": "2,81 %"
+          "v": "2,79 %"
         },
         {
-          "c": "12 nov; -1 pb en el día, -10 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
+          "c": "12 nov; -2 pb en el día, -11 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
           "n": "JGB 30 años",
-          "v": "3,93 %"
+          "v": "3,92 %"
         },
         {
           "c": "agosto (TIC), -35.600 M$; 4.ª caída, mínimo desde dic-2024",
@@ -412,15 +436,15 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "12 nov; máximo de dos meses del dólar; Tokio renueva sus advertencias (Vantage Markets)",
+          "c": "12 nov; el yen llega a cruzar 160, mínimo de más de dos meses; Mimura advierte de intervención (Trading Economics, Bloomberg)",
           "n": "USD/JPY",
-          "v": "~159,8"
+          "v": "~159,8-160"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "El yen sigue en ~159,8, junto a la zona de 160 de la intervención de julio, y Tokio vuelve a advertir; los precios industriales suben un 7,1 % interanual (oct.) y el mercado espera subida del BoJ en diciembre: si interviene, Japón tendría que vender Treasuries."
+      "nota": "El yen toca 160 por dólar, el nivel de la intervención conjunta con EE. UU. de este verano, y Mimura avisa de que no se olvide; el mercado espera subida del BoJ en diciembre: si Tokio interviene, tendría que vender Treasuries."
     },
     {
       "datos": [
@@ -641,6 +665,11 @@
       "burbuja": 69,
       "riesgo": 51,
       "ts": "2026-11-12T07:46:27Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 51,
+      "ts": "2026-11-12T19:46:01Z"
     }
   ]
 }
