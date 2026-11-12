@@ -407,9 +407,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-12T06:30:00Z",
+    "actualizado": "2026-11-12T08:14:37Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) baja ligeramente al 95,5 % (desde el 96,5 % de ayer), con una tasa implícita del 4,14 %, tras el IPC de octubre y el tono hawkish del gobernador Waller, que sigue abierto a una subida de hasta 50 pb. Para la reunión del 28 de abril de 2027 el mercado asigna un 87 % a otra subida (tasa implícita 4,34 %), pero para el 28 de julio de 2027 pasa a asignar un 100 % a una bajada (tasa implícita 3,72 %), reafirmando que el mercado ve el ciclo de endurecimiento cerrado hacia mediados de 2027, con el primer recorte ya descontado.",
+    "lectura": "La probabilidad de que la Fed suba tipos el 9 de diciembre (Kalshi) se mantiene estable en el 95,5 %, con una tasa implícita del 4,14 %, sin cambios desde la última actualización de hace una hora. Para la reunión del 28 de abril de 2027 el mercado modera ligeramente la probabilidad de otra subida, al 86,5 % desde el 87 %, con tasa implícita del 4,32 %; para el 28 de julio de 2027 mantiene el 100 % de probabilidad de una bajada (tasa implícita 3,72 %), reafirmando que el ciclo de endurecimiento se ve cerrado hacia mediados de 2027.",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -435,9 +435,9 @@
       {
         "bajar": 5,
         "fecha": "2027-04-28",
-        "mantener": 8,
-        "subir": 87,
-        "tasaImplicita": 4.34
+        "mantener": 8.5,
+        "subir": 86.5,
+        "tasaImplicita": 4.32
       },
       {
         "bajar": 100,
@@ -978,7 +978,7 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 763.6,
+        "gammaFlip": 763.55,
         "gexTotal": -2.13,
         "indice": {
           "callWall": 7622,
@@ -1036,7 +1036,7 @@
       "changePct": -0.9,
       "claves": [
         "Call wall en 28776 (QQQ 700,0 $); put wall en 28159 (QQQ 685,0 $).",
-        "Giro de gamma (gamma flip) en 28611 (QQQ 695,98 $): el futuro vuelve a cotizar por debajo, de nuevo en zona de gamma negativa.",
+        "Giro de gamma (gamma flip) en 28604 (QQQ 695,81 $): el futuro vuelve a cotizar por debajo, de nuevo en zona de gamma negativa.",
         "Max pain en 27707 (QQQ 674,0 $).",
         "Régimen de gamma negativa, en -1,91 mil M$ por 1 %, put/call OI 1,14, open interest del 2026-11-10."
       ],
@@ -1210,11 +1210,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 695.98,
+        "gammaFlip": 695.81,
         "gexTotal": -1.91,
         "indice": {
           "callWall": 28776,
-          "gammaFlip": 28611,
+          "gammaFlip": 28604,
           "maxPain": 27707,
           "precio": 28335,
           "putWall": 28159
@@ -1247,10 +1247,10 @@
         "vencimientoCercano": "2026-11-12"
       },
       "id": "NDX",
-      "lectura": "Los futuros del Nasdaq 100 caen con más fuerza, alrededor de un 0,9 %, hasta cerca de 28.250 puntos, revirtiendo buena parte del mejor día del índice en meses (+2,77 %, cierre en 28.509,34), apoyado ayer en CoreWeave y el récord de Apple. El motivo es la crisis de gobierno corporativo en Nvidia: el consejo estaría preparando la destitución de Jensen Huang tras una segunda denuncia de relación extramatrimonial vinculada al caso de presunto espionaje chino, con la acción cayendo más de un 9 % fuera de hora y Baird y Morgan Stanley ya rebajando el valor. El índice vuelve a cotizar por debajo del gamma flip del motor (28611), con la gamma total en régimen negativo (-1,91 mil M$ por 1 %). El tono hawkish de Waller (hasta 50 pb en diciembre) y el 95,5 % de probabilidad de subida de la Fed (Kalshi) siguen limitando el rebote de fondo, pese a la distensión de Trump y Bessent sobre Irán y China. Score del día: -45 (bajista).",
+      "lectura": "Los futuros del Nasdaq 100 caen con más fuerza, alrededor de un 0,9 %, hasta cerca de 28.250 puntos, revirtiendo buena parte del mejor día del índice en meses (+2,77 %, cierre en 28.509,34), apoyado ayer en CoreWeave y el récord de Apple. El motivo es la crisis de gobierno corporativo en Nvidia: el consejo estaría preparando la destitución de Jensen Huang tras una segunda denuncia de relación extramatrimonial vinculada al caso de presunto espionaje chino, con la acción cayendo más de un 9 % fuera de hora y Baird y Morgan Stanley ya rebajando el valor. El índice vuelve a cotizar por debajo del gamma flip del motor (28604), con la gamma total en régimen negativo (-1,91 mil M$ por 1 %). El tono hawkish de Waller (hasta 50 pb en diciembre) y el 95,5 % de probabilidad de subida de la Fed (Kalshi) siguen limitando el rebote de fondo, pese a la distensión de Trump y Bessent sobre Irán y China. Score del día: -45 (bajista).",
       "levels": {
         "callWall": 28776,
-        "gammaFlip": 28611,
+        "gammaFlip": 28604,
         "maxPain": 27707,
         "putWall": 28159
       },
@@ -2202,5 +2202,5 @@
     "updatedAt": "2026-11-12T06:51:34Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-12T07:22:00Z"
+  "updatedAt": "2026-11-12T08:19:00.000000Z"
 }

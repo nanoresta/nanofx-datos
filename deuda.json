@@ -1,16 +1,16 @@
 {
-  "actualizado": "2026-11-11T19:45:52Z",
+  "actualizado": "2026-11-12T07:46:27Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 14 pb del umbral de atención (5,5 %); +7 pb el 10 nov tras el IPC y Waller, -23 pb en un mes (Trading Economics). Sin negociación el 11 nov; subasta de 30 años el 12 nov.",
-      "valor": "5,36 % (10 nov)"
+      "nota": "A 16 pb del umbral de atención (5,5 %); -22 pb en un mes (Trading Economics). La subasta de 30 años de hoy, 12 nov, dirá si hay demanda.",
+      "valor": "5,34 % (12 nov)"
     },
     {
       "estado": "amarillo",
       "nombre": "Subasta de 10 años (10 nov)",
-      "nota": "42.000 M$ sin cola (0,6 pb por debajo), pero cobertura bajo la media (2,60) e indirectos muy por debajo de su media (76,7 %); los dealers se quedan el 9,8 % (Helious). El 30 años se subasta el 12 nov.",
+      "nota": "42.000 M$ sin cola, pero cobertura bajo la media (2,60) e indirectos muy por debajo de su media (76,7 %) (Helious). El 30 años se subasta hoy, 12 nov (resultado pendiente).",
       "valor": "5,020 %; cobertura 2,46; indirectos 61,2 %"
     },
     {
@@ -55,8 +55,8 @@
       {
         "estado": "verde",
         "n": "Sentimiento eufórico",
-        "nota": "11 nov: Baird recorta el objetivo de Nvidia a 200 $ desde 500 $ y Morgan Stanley la saca de su lista Top Pick tras caer un 10 % en dos sesiones (TheStreet); el Fear & Greed de CNN sigue en zona de miedo (Benzinga, nov): no hay euforia.",
-        "valor": "Fear & Greed en zona de miedo; rebajas a Nvidia"
+        "nota": "11 nov: el Nasdaq 100 sube un 2,77 % (Benzinga), pero por la noche la acción de Nvidia cae más de un 9 % fuera de hora porque el consejo estudiaría destituir a Jensen Huang (CBS/WSJ) y los futuros del Nasdaq caen un 0,9 % (Bloomberg, 12 nov): no hay euforia.",
+        "valor": "Fear & Greed en zona de miedo; crisis en Nvidia"
       },
       {
         "estado": "rojo",
@@ -71,20 +71,20 @@
         "valor": "296.000 M$ en bonos de hyperscalers (2026)"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en 69/100 de burbuja, por debajo de los ~85 de 2000 y 1929: las rebajas de Baird y Morgan Stanley a Nvidia enfrían el entusiasmo, mientras CoreWeave sube tras batir previsiones. Lo que más pesa sigue siendo la sobreinversión en IA a crédito (296.000 M$ en bonos este año), y la Fed a punto de subir es el principal riesgo de pinchazo.",
+    "lectura": "La bolsa de EE. UU. y la IA siguen en 69/100 de burbuja, por debajo de los ~85 de 2000 y 1929: la posible salida de Jensen Huang hunde a Nvidia fuera de hora y enfría el entusiasmo tras el rebote del Nasdaq del 11 nov. Lo que más pesa sigue siendo la sobreinversión en IA a crédito (296.000 M$ en bonos este año), con la Fed a punto de subir como principal riesgo de pinchazo.",
     "nivel": 69,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "10 nov: el 2 años sube 18 pb y el 30 años 7 pb tras el IPC; la curva se aplana (desde +79 pb el 6 nov) porque manda la Fed, no el miedo a la deuda (Trading Economics).",
-        "valor": "+61 pb (4,75 % / 5,36 %)"
+        "nota": "12 nov: el 30 años baja a 5,34 % y el 2 años seguía en el 4,75 % (10 nov); la curva se aplana porque manda la Fed, no el miedo a la deuda (Trading Economics).",
+        "valor": "~+59 pb (4,75 % / 5,34 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "11 nov: Kalshi da un 96,5 % a la subida del 9 dic (tasa implícita 4,14 %) y ~96 % a otra en enero; Waller se inclina por 25 pb pero se abre a 50 pb si la inflación sigue caliente.",
-        "valor": "3,75-4,00 %; 96,5 % subida el 9 dic"
+        "nota": "12 nov: Kalshi da un 95,5 % a la subida del 9 dic (tasa implícita 4,14 %) y ~96 % a otra en enero; el primer recorte se descuenta para julio de 2027.",
+        "valor": "3,75-4,00 %; 95,5 % subida el 9 dic"
       },
       {
         "estado": "verde",
@@ -95,8 +95,8 @@
       {
         "estado": "verde",
         "n": "Oro",
-        "nota": "11 nov: el oro borra el rebote y pierde los 4.000 $ por el dólar fuerte; -4,4 % en un mes (Trading Economics): no señala huida del dinero papel.",
-        "valor": "~3.987 $/oz (-1,1 %)"
+        "nota": "12 nov: el oro sigue por debajo de 4.000 $ por la fortaleza del dólar ante la Fed (Amillex): no señala huida del dinero papel.",
+        "valor": "~3.990 $/oz"
       },
       {
         "estado": "amarillo",
@@ -107,6 +107,54 @@
     ]
   },
   "fuentes": [
+    {
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (12 nov)",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bono 10 años EE. UU. (12 nov)",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – JGB 30 años (12 nov)",
+      "url": "https://tradingeconomics.com/japan/30-year-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – JGB 10 años (12 nov)",
+      "url": "https://tradingeconomics.com/japan/government-bond-yield"
+    },
+    {
+      "nombre": "Vantage Markets – USD/JPY en máximos de dos meses; Japón advierte (12 nov)",
+      "url": "https://www.vantagemarkets.com/market-news/usdjpy-two-month-high-japan-yen-warning-november-12-2026/"
+    },
+    {
+      "nombre": "Trading Economics – Bund 10 años (12 nov)",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – USD/CNY (12 nov)",
+      "url": "https://tradingeconomics.com/china/currency"
+    },
+    {
+      "nombre": "Trading Economics – Bono 10 años China (12 nov)",
+      "url": "https://tradingeconomics.com/china/government-bond-yield"
+    },
+    {
+      "nombre": "CBS News – El consejo de Nvidia estudiaría destituir a Huang (11 nov)",
+      "url": "https://www.cbsnews.com/news/nvidia-board-ceo-jensen-huang-china/"
+    },
+    {
+      "nombre": "Bloomberg – Futuros caen por la crisis de Nvidia (12 nov)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "nombre": "Benzinga – Nasdaq 100 +2,77 % (11 nov)",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia"
+    },
+    {
+      "nombre": "Amillex – El oro pierde los 4.000 $ (12 nov)",
+      "url": "https://www.amillex.com/2026/11/12/amillex-daily-market-commentary-strong-dollar-pushes-gold-below-4000-irans-nuclear-stance-supports-oil/"
+    },
     {
       "nombre": "TheStreet – Mercados 11 nov (Nvidia, CoreWeave)",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
@@ -140,18 +188,6 @@
       "url": "https://tradingeconomics.com/germany/government-bond-yield/news/599553"
     },
     {
-      "nombre": "Trading Economics – Bund 10 años (11 nov)",
-      "url": "https://tradingeconomics.com/germany/government-bond-yield"
-    },
-    {
-      "nombre": "Trading Economics – Bono 10 años EE. UU. (10 nov)",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
-    },
-    {
-      "nombre": "Trading Economics – Bono 30 años EE. UU. (10 nov)",
-      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
-    },
-    {
       "nombre": "Helious – Subasta de 10 años (10 nov)",
       "url": "https://helious.io/news/auc-91282CRX1-2026-11-10/10-year-note-auction-in-line"
     },
@@ -162,22 +198,6 @@
     {
       "nombre": "HuggingNews – Hyperscalers captan 271.000 M$ (3 nov)",
       "url": "https://huggingnews.com/us-markets/hyperscalers-raise-271b-in-global-debt-this-year-to-fund-ai-spending-f34c1d98"
-    },
-    {
-      "nombre": "Trading Economics – JGB 10 años (11 nov)",
-      "url": "https://tradingeconomics.com/japan/government-bond-yield"
-    },
-    {
-      "nombre": "Trading Economics – JGB 30 años (11 nov)",
-      "url": "https://tradingeconomics.com/japan/30-year-bond-yield"
-    },
-    {
-      "nombre": "Trading Economics – USD/CNY (11 nov)",
-      "url": "https://tradingeconomics.com/china/currency"
-    },
-    {
-      "nombre": "Trading Economics – Bono 10 años China (11 nov)",
-      "url": "https://tradingeconomics.com/china/government-bond-yield"
     },
     {
       "nombre": "Trading Economics – Oro (11 nov)",
@@ -286,41 +306,21 @@
     {
       "nombre": "24/7 Wall St – Alphabet cae un 11 % (29 oct)",
       "url": "https://247wallst.com/investing/2026/10/29/alphabet-sinks-11-as-ai-spending-pushes-cash-flow-negative-again-microsoft-and-meta-edge-higher-amazon-slips/"
-    },
-    {
-      "nombre": "Pomegra – BCE mantiene el 2,50 % (29 oct)",
-      "url": "https://pomegra.io/news/ecb-policy-rate-held-at-250-as-december-hike-looms"
-    },
-    {
-      "nombre": "Reuters vía 93.3 – JGB antes del BoJ (29 oct)",
-      "url": "https://www.933thedrive.com/2026/10/29/japan-bonds-steady-ahead-of-boj-decision-strong-auction-lends-support/"
-    },
-    {
-      "nombre": "Yahoo Finance/Reuters – Yen tras el BoJ y Treasuries (30 oct)",
-      "url": "https://finance.yahoo.com/markets/currencies/articles/yen-steady-boj-ai-jitters-015222078.html"
-    },
-    {
-      "nombre": "Tribune/ANI – BoJ mantiene el 1,25 % y ventas de ETF (30 oct)",
-      "url": "https://www.tribuneindia.com/news/boj/boj-keeps-policy-rate-unchanged-at-1-25-raises-annual-etf-sales-pace-to-860-billion-yen"
-    },
-    {
-      "nombre": "Motley Fool – Amazon quema 42.400 M$ (29 oct)",
-      "url": "https://www.fool.com/investing/2026/10/29/amazon-just-burned-usd42-billion-in-cash-chasing-ai-growth-is-wall-street-ignoring-the-risk/"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el 30 años está en el 5,36 % (cierre del 10 nov, mercado cerrado el 11 por el Día de los Veteranos), a 14 pb del umbral de atención, y mañana se subasta. Lo que cambia hoy es Japón: con la Fed a punto de subir, el dólar toca máximos de 19 meses y el yen cae a 159,8, a un paso de la zona de 160 donde Tokio intervino. El riesgo de deuda sube de 50 a 51.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: el 30 años está en el 5,34 % y el 10 años vuelve a superar el 5 %, con la subasta de 30 años hoy como prueba de demanda. Japón es el segundo foco: el yen sigue en ~159,8, junto a la zona de 160 donde Tokio intervino, y el Gobierno renueva sus advertencias. El riesgo de deuda se mantiene en 51.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "10 nov (último cierre; mercado cerrado el 11 nov por el Día de los Veteranos); -25 pb en 1 mes (Trading Economics)",
+          "c": "12 nov (Asia, OTC); +2 pb en el día, -21 pb en 1 mes (Trading Economics)",
           "n": "Bono 10 años",
-          "v": "4,99 %"
+          "v": "5,01 %"
         },
         {
-          "c": "10 nov (último cierre; cerrado el 11 nov); +7 pb en el día, -23 pb en 1 mes (Trading Economics)",
+          "c": "12 nov (Asia, OTC); -3 pb en el día, -22 pb en 1 mes (Trading Economics)",
           "n": "Bono 30 años",
-          "v": "5,36 %"
+          "v": "5,34 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -336,12 +336,12 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "El IPC de octubre (+0,4 % mensual) y Waller (abierto a 50 pb) dejan la subida del 9 dic en el 96,5 % (Kalshi, 11 nov) y el 2 años en el 4,75 %. Sin negociación de bonos el 11 nov; la subasta de 30 años del 12 nov es la prueba clave."
+      "nota": "El 10 años vuelve a superar el 5 % tras el IPC caliente y la subida del 9 dic sigue casi descontada (Kalshi 95,5 %, 12 nov). Hoy, 12 nov, se subasta el bono a 30 años: es la prueba clave de demanda."
     },
     {
       "datos": [
         {
-          "c": "11 nov; plano en el día tras el salto del martes, -17 pb en 1 mes (Trading Economics)",
+          "c": "12 nov; -1 pb en el día, -15 pb en 1 mes (Trading Economics)",
           "n": "Bund 10 años",
           "v": "3,31 %"
         },
@@ -369,7 +369,7 @@
     {
       "datos": [
         {
-          "c": "11 nov; +1 pb en el día, -8 pb en 1 mes; cerca de mínimos históricos (Trading Economics)",
+          "c": "12 nov; plano en el día, -7 pb en 1 mes; cerca de mínimos históricos (Trading Economics)",
           "n": "Bono 10 años",
           "v": "1,61 %"
         },
@@ -379,9 +379,9 @@
           "v": "590.700 M$"
         },
         {
-          "c": "11 nov; -0,12 % en el día, yuan +0,39 % en 1 mes (Trading Economics) pese al dólar en máximos de 19 meses",
+          "c": "12 nov; -0,09 % en el día, yuan +0,37 % en 1 mes (Trading Economics)",
           "n": "USD/CNY",
-          "v": "6,67"
+          "v": "6,668"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -397,14 +397,14 @@
     {
       "datos": [
         {
-          "c": "11 nov; +10 pb en el día, máximo de una semana, -23 pb en 1 mes (Trading Economics)",
+          "c": "12 nov; +2 pb en el día, -19 pb en 1 mes (Trading Economics)",
           "n": "JGB 10 años",
-          "v": "2,79 %"
+          "v": "2,81 %"
         },
         {
-          "c": "11 nov; +6 pb en el día, -12 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
+          "c": "12 nov; -1 pb en el día, -10 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
           "n": "JGB 30 años",
-          "v": "3,94 %"
+          "v": "3,93 %"
         },
         {
           "c": "agosto (TIC), -35.600 M$; 4.ª caída, mínimo desde dic-2024",
@@ -412,15 +412,15 @@
           "v": "1,068 bill. $"
         },
         {
-          "c": "11 nov; +0,69 % en el día, +0,78 % en 1 mes; mínimo de dos meses del yen (Trading Economics)",
+          "c": "12 nov; máximo de dos meses del dólar; Tokio renueva sus advertencias (Vantage Markets)",
           "n": "USD/JPY",
-          "v": "159,85"
+          "v": "~159,8"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Los JGB suben siguiendo a los Treasuries y al BoJ (1,25 %), que apunta a diciembre, pero el yen se hunde a 159,85 por la Fed dura: está a un paso de 160, la zona de la intervención récord de julio (~15,4 bill. de yenes), lo que puede obligar a Japón a vender Treasuries."
+      "nota": "El yen sigue en ~159,8, junto a la zona de 160 de la intervención de julio, y Tokio vuelve a advertir; los precios industriales suben un 7,1 % interanual (oct.) y el mercado espera subida del BoJ en diciembre: si interviene, Japón tendría que vender Treasuries."
     },
     {
       "datos": [
@@ -636,6 +636,11 @@
       "burbuja": 69,
       "riesgo": 51,
       "ts": "2026-11-11T19:45:52Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 51,
+      "ts": "2026-11-12T07:46:27Z"
     }
   ]
 }

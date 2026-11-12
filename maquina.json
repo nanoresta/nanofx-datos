@@ -1,12 +1,16 @@
 {
-  "actualizado": "2026-11-11T19:45:52Z",
+  "actualizado": "2026-11-12T07:46:27Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento",
     "fase": 0.57,
-    "lectura": "El empleo de octubre sorprende al alza (+165.000, paro 4,1 %), el ISM manufacturero sube a 55,5 y el IPC de octubre avanza un 0,4 % mensual (subyacente +0,3 %); la Fed (3,75-4,00 %) tiene ya un 96,5 % de probabilidad de subir el 9 dic (Kalshi, 10 nov). La economía se recalienta en vez de girar."
+    "lectura": "El empleo de octubre sorprende al alza (+165.000, paro 4,1 %), el ISM manufacturero sube a 55,5 y el IPC de octubre avanza un 0,4 % mensual (subyacente +0,3 %); la Fed (3,75-4,00 %) tiene ya un 95,5 % de probabilidad de subir el 9 dic (Kalshi, 12 nov). La economía se recalienta en vez de girar."
   },
   "fuentes": [
+    {
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (12 nov)",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
     {
       "nombre": "Dalio · Cómo funciona la máquina económica",
       "url": "https://www.youtube.com/watch?v=npoNbXXS4oQ"
@@ -96,10 +100,6 @@
       "url": "https://www.cbsnews.com/news/october-cpi-report-elevated-inflation/"
     },
     {
-      "nombre": "Trading Economics · Bono 30 años EE. UU. (10 nov)",
-      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
-    },
-    {
       "nombre": "Helious · Subasta de 10 años (10 nov)",
       "url": "https://helious.io/news/auc-91282CRX1-2026-11-10/10-year-note-auction-in-line"
     },
@@ -117,7 +117,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic y ~96 % otra en enero (Kalshi, 11 nov); Waller abierto a 50 pb",
+      "c": "mantenidos el 28 oct · 95,5 % subida el 9 dic y ~96 % otra en enero; primer recorte descontado para jul-2027 (Kalshi, 12 nov)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -147,10 +147,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "10 nov (sin negociación el 11 nov) · a 14 pb del umbral de atención; subasta de 30 años el 12 nov (Trading Economics)",
+      "c": "12 nov (Trading Economics) · a 16 pb del umbral de atención; subasta de 30 años hoy",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,36 %"
+      "v": "5,34 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -163,9 +163,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años vuelve al 5,36 % (10 nov) con la Fed a punto de subir, y la subasta de 10 años muestra menos demanda extranjera (61,2 % de indirectos): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,34 % (12 nov) y el de 10 años vuelve a superar el 5 % con la Fed a punto de subir, y la subasta de 10 años muestra menos demanda extranjera (61,2 % de indirectos): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está en la parte alta de un ciclo corto que se recalienta y muy arriba en el ciclo largo. El empleo de octubre (+165.000, paro 4,1 %) y el IPC (+0,4 % mensual) obligan a la Fed a subir tipos en diciembre (96,5 %, Kalshi 11 nov), lo que dispara el dólar a máximos de 19 meses y encarece una deuda que ya crece al 5,2 % anual, más que los salarios (3,7 %).",
+  "lectura": "EE. UU. está en la parte alta de un ciclo corto que se recalienta y muy arriba en el ciclo largo. El empleo de octubre (+165.000, paro 4,1 %) y el IPC (+0,4 % mensual) obligan a la Fed a subir tipos en diciembre (95,5 %, Kalshi 12 nov), lo que dispara el dólar a máximos de 19 meses y encarece una deuda que ya crece al 5,2 % anual, más que los salarios (3,7 %).",
   "palancas": [
     {
       "estado": "rojo",
@@ -188,7 +188,7 @@
     {
       "estado": "amarillo",
       "n": "Imprimir dinero",
-      "nota": "Hoy la Fed va en sentido contrario (96,5 % de subida en diciembre, dólar en máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si llega la crisis, sigue siendo la salida más probable.",
+      "nota": "Hoy la Fed va en sentido contrario (95,5 % de subida en diciembre, dólar en máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si llega la crisis, sigue siendo la salida más probable.",
       "valor": "Riesgo"
     }
   ],
@@ -392,6 +392,11 @@
       "corto": 0.57,
       "largo": 0.76,
       "ts": "2026-11-11T19:45:52Z"
+    },
+    {
+      "corto": 0.57,
+      "largo": 0.76,
+      "ts": "2026-11-12T07:46:27Z"
     }
   ]
 }
