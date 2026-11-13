@@ -1495,6 +1495,20 @@
   "noticias": [
     {
       "activos": {
+        "BTC": "bajista",
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "alcista"
+      },
+      "fuente": "Al Jazeera / InvestingLive",
+      "impacto": "alto",
+      "resumen": "El IRGC dice haber destruido un radar de alerta temprana de EE. UU. cerca de Manama y advierte a las navieras que operan en el estrecho de Ormuz.",
+      "titular": "La Guardia Revolucionaria de Irán dice haber atacado un radar de EE. UU. en Baréin y avisa a navieras en Ormuz",
+      "ts": "2026-11-13T07:35:00Z",
+      "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+    },
+    {
+      "activos": {
         "BTC": "bajista"
       },
       "fuente": "The Block",
@@ -1650,19 +1664,6 @@
       "titular": "Wall Street vuelve a caer por la tarde: S&P 500 cede un 0,37 % y el bono a 10 años se acerca al 5 %",
       "ts": "2026-11-12T18:45:00Z",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "EURUSD": "bajista",
-        "XAU": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "La inflación de EE. UU. y el tono halcón de la Fed extienden el repunte del dólar hacia el umbral de 103 puntos.",
-      "titular": "El índice dólar (DXY) se acerca a 103,00, su nivel más alto en 19 meses",
-      "ts": "2026-11-12T17:50:00Z",
-      "url": "https://fxstreet.com/news/forex-today-us-inflation-is-back-202611121747"
     }
   ],
   "odte": {
@@ -1701,9 +1702,17 @@
     "lectura": "Niveles 0DTE del vencimiento de hoy, 13 de noviembre (base open interest del 11 de noviembre): en el S&P 500, call wall en 7.782, put wall en 7.621 y max pain en 7.611, con un put/call OI de 1,07. En el Nasdaq 100, call wall en 29.180, put wall en 26.714 y max pain en 28.152, con un put/call OI de 1,11. El rango 0DTE del S&P 500 es más estrecho que el del Nasdaq 100, reflejando el vencimiento semanal de hoy."
   },
   "politica": {
-    "actualizado": "2026-11-13T06:51:41Z",
-    "ajuste": -5,
+    "actualizado": "2026-11-13T08:30:00.000Z",
+    "ajuste": -10,
     "declaraciones": [
+      {
+        "dicho": "Dice haber destruido un radar de EE. UU. en Baréin y avisa a navieras que operan en el estrecho de Ormuz.",
+        "efecto": "bajista",
+        "fuente": "Al Jazeera",
+        "quien": "Guardia Revolucionaria de Irán",
+        "ts": "2026-11-13T07:35:00Z",
+        "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+      },
       {
         "dicho": "Dice que no hace falta un acuerdo con Irán por ahora, elevando la tensión en Ormuz.",
         "efecto": "bajista",
@@ -1735,18 +1744,10 @@
         "quien": "Trump",
         "ts": "2026-11-09T19:00:00Z",
         "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439"
-      },
-      {
-        "dicho": "Admite que la inflación energética podría acercar una subida del BCE.",
-        "efecto": "neutral",
-        "fuente": "Lovguiden / Yomiuri",
-        "quien": "Christine Lagarde",
-        "ts": "2026-11-07T00:00:00Z",
-        "url": "https://www.lovguiden.dk/en/det-offentlige/den-europaeiske-centralbank/2026-11-07-lagarde-4-inflation-driven-by-energy-ecb-rate-hike-possible-in-december"
       }
     ],
     "efecto": "mixto",
-    "lectura": "El saldo político se mantiene en -5 (mixto): Scott Bessent sigue dando soporte de fondo con el alivio arancelario de 30.000 millones $ con China y el diálogo de IA que arranca el 18-19 de noviembre, reforzado por la tregua que He Lifeng confirmó extendida hasta el 10 de enero de 2027 tras su llamada con Bessent y Greer. Pero domina el tono cada vez más duro de la Fed de Kevin Warsh -sin señal explícita en octubre pero con Waller abierto a hasta 50 pb en diciembre y Kalshi en el 96,5 % de probabilidad de una subida el 9 de diciembre- junto con el endurecimiento de Trump sobre Irán ('no hace falta un acuerdo'), que hoy empuja al petróleo al alza, y la crisis de gobierno corporativo en Nvidia. Lagarde (7-nov) abre la puerta a una subida del BCE en diciembre por la inflación energética.",
+    "lectura": "El saldo político pasa de -5 a -10 (mixto, algo más bajista): a la tensión ya conocida entre la Fed de Kevin Warsh (Waller abierto a 50 pb) y el endurecimiento de Trump sobre Irán se suma ahora la Guardia Revolucionaria de Irán, que dice haber destruido un radar de EE. UU. en Baréin y advierte a las navieras del estrecho de Ormuz; Bessent sigue dando soporte de fondo con el alivio arancelario con China.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1781,68 +1782,68 @@
         "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/readout-ambassador-greers-call-chinas-vice-premier-he-lifeng"
       },
       {
-        "cargo": "Presidenta del Banco Central Europeo",
-        "efecto": "neutral",
-        "postura": "Admite que la inflación energética podría acercar una subida del BCE en diciembre.",
-        "quien": "Christine Lagarde",
-        "ts": "2026-11-07T00:00:00Z",
-        "url": "https://www.lovguiden.dk/en/det-offentlige/den-europaeiske-centralbank/2026-11-07-lagarde-4-inflation-driven-by-energy-ecb-rate-hike-possible-in-december"
+        "cargo": "Fuerza armada de Irán (IRGC)",
+        "efecto": "bajista",
+        "postura": "Dice haber destruido un radar de EE. UU. en Baréin y avisa a navieras que operan en el estrecho de Ormuz.",
+        "quien": "Guardia Revolucionaria de Irán",
+        "ts": "2026-11-13T07:35:00Z",
+        "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
       }
     ]
   },
-  "resumen": "Son las 06:51 UTC (06:51 en Canarias) del viernes 13 de noviembre de 2026, antes de la apertura europea y estadounidense (pre-Londres). El dólar sigue cerca de máximos de 19 meses (DXY en torno a 103,1) y el bono a 10 años ha superado el 5 % por primera vez en meses. El euro cotiza en mínimos de 18 meses, en torno a 1,1058. El oro se ha desplomado otro ≈2,5 % hasta situarse por debajo de los 3.900 $/oz (≈3.880 $), y bitcoin ha extendido su caída hasta cerca de 68.000-68.500 $ (-4,4 % en 24 h), con fuertes salidas de ETF. El petróleo WTI repunta con fuerza (≈+2,5 %, hacia 88 $/barril) por la escalada de tensión en torno a Irán y el estrecho de Ormuz, después de que Trump dijera que no hace falta un acuerdo con Teherán. Los futuros del S&P 500 (ES) suben un leve +0,07 % y los del Nasdaq 100 (NQ) caen un -0,04 %, tras un cierre de ayer en 7.595 y 28.332 puntos respectivamente, lastrado por la crisis de gobierno corporativo en Nvidia (dimisión confirmada de Jensen Huang). Hoy se publican el IPP de octubre de EE. UU. (previsto +6,6 % a/a) y el PIB preliminar detallado de la eurozona del tercer trimestre, ambos pendientes.",
+  "resumen": "Son las 08:30 UTC (08:30 en Canarias) del viernes 13 de noviembre de 2026, con la apertura europea en marcha y la estadounidense aún por llegar. La Guardia Revolucionaria de Irán ha afirmado haber destruido un radar de alerta temprana de EE. UU. en Baréin y ha advertido a las navieras que operan en el estrecho de Ormuz, una nueva escalada que se suma al dólar cerca de máximos de 19 meses (DXY en torno a 103) y al bono a 10 años por encima del 5 %. El euro sigue en mínimos de 18 meses (≈1,106), el oro por debajo de los 3.900 $/oz y bitcoin en torno a 68.000-69.000 $, con la crisis de gobierno corporativo en Nvidia todavía pesando sobre el Nasdaq. Hoy se publican el IPP de octubre de EE. UU. (previsto +6,6 % a/a, 13:30 UTC) y el PIB detallado de la eurozona del tercer trimestre (10:00 UTC), ambos pendientes.",
   "semana": {
     "activos": [
       {
-        "cambio": "El sesgo se mantiene bajista, en torno a -24, con el dólar fuerte y la Fed hawkish como principales lastres, parcialmente compensados por el alivio comercial de Bessent y la mejora de la liquidez semanal.",
-        "expectativa": "El IPP de hoy y el PIB de la eurozona son los próximos catalizadores; una lectura caliente del IPP reforzaría la probabilidad de una Fed más dura, mientras una moderación daría algo de respiro.",
+        "cambio": "El sesgo pasa de -24 a -29: a la fortaleza del dolar y la Fed hawkish se suma la nueva escalada en el Golfo (el IRGC dice haber atacado un radar de EE. UU. en Bareín y avisa a navieras en Ormuz), parcialmente compensada por el alivio comercial de Bessent.",
+        "expectativa": "El IPP de hoy y el PIB de la eurozona son los proximos catalizadores; una lectura caliente del IPP reforzaria la probabilidad de una Fed mas dura, mientras una moderacion daria algo de respiro.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana se mantiene en -31 para el dólar (expectativa pura: -50): de los datos ya publicados, el ISM, el IPC y las nóminas de EE. UU. sorprendieron al alza para el dólar, y el IPP de hoy (previsto +6,6 % a/a) es el que más pesa de lo que queda. El bono a 10 años ha superado el 5 % y Kalshi mantiene en el 96,5 % la probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre (implícita 4,14 %). La liquidez neta repunta esta semana (+53.600 millones $) aunque la tendencia de 4 semanas sigue siendo negativa. En opciones, el S&P 500 permanece en gamma negativa (-2,63 mil M$ por 1 %) por debajo del gamma flip (7.648). Bessent sigue dando soporte de fondo con el alivio arancelario de 30.000 M$ con China, pero la crisis de gobierno corporativo en Nvidia y el endurecimiento de Trump sobre Irán añaden presión.",
-        "score": -24,
+        "narrativa": "El calendario de esta semana se mantiene en -31 para el dolar (expectativa pura: -50): de los datos ya publicados, el ISM, el IPC y las nominas de EE. UU. sorprendieron al alza para el dolar, y el IPP de hoy (previsto +6,6 % a/a) es el que mas pesa de lo que queda. El bono a 10 anos ha superado el 5 % y Kalshi mantiene en el 96,5 % la probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre (implicita 4,14 %). La liquidez neta repunta esta semana (+53.600 millones $) aunque la tendencia de 4 semanas sigue siendo negativa. En opciones, el S&P 500 permanece en gamma negativa (-2,63 mil M$ por 1 %) por debajo del gamma flip (7.648). Bessent sigue dando soporte de fondo con el alivio arancelario de 30.000 M$ con China, pero la crisis de gobierno corporativo en Nvidia, el endurecimiento de Trump sobre Iran y el ataque del IRGC a un radar de EE. UU. en Bareín anaden presion.",
+        "score": -29,
         "scoreInicial": 15,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El sesgo se mantiene claramente bajista, en torno a -31, con la crisis de Nvidia como principal lastre idiosincrático pese al giro a gamma positiva.",
-        "expectativa": "La resolución de la transición de liderazgo en Nvidia y el IPP de hoy son las referencias clave a corto plazo.",
+        "cambio": "El sesgo se acentua de -31 a -36: a la crisis de gobierno corporativo en Nvidia se suma la nueva escalada en el Golfo (Iran dice haber atacado un radar de EE. UU. en Bareín), que anade presion de aversion al riesgo sobre el conjunto del mercado.",
+        "expectativa": "La resolucion de la transicion de liderazgo en Nvidia, el IPP de hoy y la evolucion de la tension con Iran son las referencias clave a corto plazo.",
         "id": "NQ",
-        "narrativa": "Como el S&P 500, el calendario se mantiene en -31 para el dólar. El Nasdaq 100 cerró con una caída del 0,62 % en 28.332 puntos, lastrado por la crisis de gobierno corporativo en Nvidia (dimisión confirmada de Jensen Huang, agravada por la confirmación de Trump de que el FBI investiga sus vínculos con una presunta espía china), aunque AMD y Broadcom ofrecen soporte. La gamma ha pasado a régimen positivo (+0,28 mil M$ por 1 %) justo por encima del gamma flip (28.324), lo que podría moderar la volatilidad si el precio se mantiene por encima. El dólar en máximos de 19 meses, el tono hawkish de la Fed de Kevin Warsh y la crisis de Nvidia siguen limitando cualquier rebote sostenido.",
-        "score": -31,
+        "narrativa": "Como el S&P 500, el calendario se mantiene en -31 para el dolar. El Nasdaq 100 cerro con una caida del 0,62 % en 28.332 puntos, lastrado por la crisis de gobierno corporativo en Nvidia (dimision confirmada de Jensen Huang, agravada por la confirmacion de Trump de que el FBI investiga sus vinculos con una presunta espia china), aunque AMD y Broadcom ofrecen soporte. La gamma ha pasado a regimen positivo (+0,28 mil M$ por 1 %) justo por encima del gamma flip (28.324), lo que podria moderar la volatilidad si el precio se mantiene por encima. El dolar en maximos de 19 meses, el tono hawkish de la Fed de Kevin Warsh, la crisis de Nvidia y la nueva escalada en Ormuz siguen limitando cualquier rebote sostenido.",
+        "score": -36,
         "scoreInicial": 20,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El sesgo pasa de bajista moderado (-18) a más claramente bajista (-29) tras la nueva caída por debajo de los 3.900 $.",
-        "expectativa": "El IPP de hoy es la siguiente referencia para el dólar y la Fed; una escalada adicional en Irán u otro susto en Nvidia podría devolver demanda de refugio al oro.",
+        "cambio": "El sesgo se mantiene bajista y se acentua levemente (de -31 a -33) con la nueva caida a minimos de varios meses.",
+        "expectativa": "El IPP de hoy es la siguiente referencia para el dolar; mientras persista la aversion al riesgo, el rebote de bitcoin seguira limitado.",
         "id": "XAU",
-        "narrativa": "El calendario de esta semana apunta a +31 para el oro en el modelo (dólar algo más débil), pero el oro cotiza en sentido contrario: cae otro ≈2,5 % hoy hasta situarse por debajo de los 3.900 $/oz, en mínimos de varias semanas, lastrado por el dólar en máximos de 19 meses y el bono a 10 años por encima del 5 %. La altísima probabilidad de una subida de la Fed en diciembre (96,5 %, Kalshi) reduce el atractivo del oro sin rendimiento. El endurecimiento de Trump sobre Irán añade algo de demanda de refugio, pero no compensa la fortaleza del dólar.",
+        "narrativa": "El calendario de esta semana apunta a +31 para el oro en el modelo (dolar algo mas debil), pero el oro cotiza en sentido contrario: cae otro aproximadamente 2,5 % hoy hasta situarse por debajo de los 3.900 $/oz, en minimos de varias semanas, lastrado por el dolar en maximos de 19 meses y el bono a 10 anos por encima del 5 %. La altisima probabilidad de una subida de la Fed en diciembre (96,5 %, Kalshi) reduce el atractivo del oro sin rendimiento. El endurecimiento de Trump sobre Iran, junto con el nuevo ataque del IRGC a un radar de EE. UU. en Bareín, anade algo de demanda de refugio, pero no compensa la fortaleza del dolar.",
         "score": -29,
         "scoreInicial": -4,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El sesgo se mantiene bajista y se acentúa levemente (de -31 a -33) con la nueva caída a mínimos de varios meses.",
-        "expectativa": "El IPP de hoy es la siguiente referencia para el dólar; mientras persista la aversión al riesgo, el rebote de bitcoin seguirá limitado.",
+        "cambio": "El sesgo se mantiene bajista y se acentua levemente (de -31 a -33) con la nueva caida a minimos de varios meses.",
+        "expectativa": "El IPP de hoy es la siguiente referencia para el dolar; mientras persista la aversion al riesgo, el rebote de bitcoin seguira limitado.",
         "id": "BTC",
-        "narrativa": "El calendario favorece ligeramente a bitcoin en el modelo (+25, dólar algo más débil), pero el mercado va en sentido claramente contrario: con el dólar en máximos de 19 meses y la Fed con un 96,5 % de probabilidad de subir en diciembre, bitcoin extiende su caída hasta en torno a 68.000-68.500 $ (-4,4 % en 24 h), arrastrado también por la aversión al riesgo de la crisis de Nvidia y las salidas persistentes de los ETF spot.",
+        "narrativa": "El calendario favorece ligeramente a bitcoin en el modelo (+25, dolar algo mas debil), pero el mercado va en sentido claramente contrario: con el dolar en maximos de 19 meses y la Fed con un 96,5 % de probabilidad de subir en diciembre, bitcoin extiende su caida hasta en torno a 68.000-69.000 $, arrastrado tambien por la aversion al riesgo de la crisis de Nvidia, las salidas persistentes de los ETF spot y la nueva escalada en el Golfo.",
         "score": -33,
         "scoreInicial": -12,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El sesgo gira de neutral (-6) a claramente alcista (+29) tras el repunte de hoy impulsado por la escalada geopolítica con Irán.",
-        "expectativa": "La evolución de la tensión con Irán y en el estrecho de Ormuz es la referencia clave a corto plazo; cualquier señal de distensión revertiría el repunte.",
+        "cambio": "El sesgo gira de neutral (-6) a claramente alcista (+29) tras el repunte de hoy impulsado por la escalada geopolitica con Iran; el nuevo ataque del IRGC a un radar de EE. UU. en Bareín refuerza esta misma narrativa.",
+        "expectativa": "La evolucion de la tension con Iran y en el estrecho de Ormuz es la referencia clave a corto plazo; cualquier senal de distension revertiria el repunte.",
         "id": "WTI",
-        "narrativa": "El calendario apunta a +16 para el petróleo en el modelo, pero el motor principal hoy es la geopolítica: el petróleo WTI repunta con fuerza (≈+2,5 %, hacia 88 $/barril) tras el endurecimiento de Trump sobre Irán ('no hace falta un acuerdo') y la escalada de tensión en torno al estrecho de Ormuz, revirtiendo la distensión de días anteriores. La OPEP+ mantiene las cuotas de producción sin cambios para diciembre.",
+        "narrativa": "El calendario apunta a +16 para el petroleo en el modelo, pero el motor principal hoy es la geopolitica: el petroleo WTI repunta con fuerza (aproximadamente +2,5 %, hacia 88 $/barril) tras el endurecimiento de Trump sobre Iran ('no hace falta un acuerdo'), la escalada de tension en torno al estrecho de Ormuz y el nuevo ataque del IRGC a un radar de EE. UU. en Bareín, revirtiendo la distension de dias anteriores. La OPEP+ mantiene las cuotas de produccion sin cambios para diciembre.",
         "score": 29,
         "scoreInicial": -17,
         "sesgo": "alcista"
       },
       {
-        "cambio": "El sesgo se mantiene bajista, prácticamente sin cambios, con el dólar fuerte dominando.",
-        "expectativa": "El PIB de la eurozona de hoy y el IPP de EE. UU. son las próximas referencias; una eurozona fuerte y un IPP caliente en EE. UU. tendrían efectos opuestos sobre el par.",
+        "cambio": "El sesgo se mantiene bajista, practicamente sin cambios, con el dolar fuerte dominando.",
+        "expectativa": "El PIB de la eurozona de hoy y el IPP de EE. UU. son las proximas referencias; una eurozona fuerte y un IPP caliente en EE. UU. tendrian efectos opuestos sobre el par.",
         "id": "EURUSD",
-        "narrativa": "El calendario se mantiene en -8 para el euro-dólar. El euro cotiza en mínimos de 18 meses, en torno a 1,1058, lastrado por el dólar en máximos de 19 meses y el tono hawkish de la Fed de Kevin Warsh (Waller abierto a 50 pb en diciembre). El PIB preliminar detallado de la eurozona del tercer trimestre, pendiente hoy, es la siguiente referencia; Lagarde ya ha abierto la puerta a una subida del BCE en diciembre por la inflación energética, lo que ofrece cierto soporte de fondo.",
+        "narrativa": "El calendario se mantiene en -8 para el euro-dolar. El euro cotiza en minimos de 18 meses, en torno a 1,1058, lastrado por el dolar en maximos de 19 meses y el tono hawkish de la Fed de Kevin Warsh (Waller abierto a 50 pb en diciembre). El PIB preliminar detallado de la eurozona del tercer trimestre, pendiente hoy, es la siguiente referencia; Lagarde ya ha abierto la puerta a una subida del BCE en diciembre por la inflacion energetica, lo que ofrece cierto soporte de fondo.",
         "score": -22,
         "scoreInicial": -18,
         "sesgo": "bajista"
@@ -1861,7 +1862,7 @@
       "dolar": -31,
       "dolarEsperado": -50,
       "euro": -100,
-      "nota": "El balance del calendario se mantiene en -31 (dólar algo más débil en el modelo). La pura expectativa previa a los datos (dólar esperado) es de -50, mucho más débil que el balance con sorpresas ya incorporadas: la mayoría de los datos publicados esta semana (ISM manufacturero, IPC, nóminas, tasa de paro) han sorprendido al alza para el dólar, moderando la señal bajista de las previsiones iniciales. El balance de la eurozona se mantiene en -100 (débil): el IPC superó el consenso pero sin otros datos que lo compensen; el PIB preliminar de hoy, viernes 13 de noviembre, es la siguiente referencia. El IPP de EE. UU. de hoy (previsto +6,6 % a/a) es el dato que queda con más peso de la semana."
+      "nota": "El balance del calendario se mantiene en -31 (dolar algo mas debil en el modelo). La pura expectativa previa a los datos (dolar esperado) es de -50, mucho mas debil que el balance con sorpresas ya incorporadas: la mayoria de los datos publicados esta semana (ISM manufacturero, IPC, nominas, tasa de paro) han sorprendido al alza para el dolar, moderando la senal bajista de las previsiones iniciales. El balance de la eurozona se mantiene en -100 (debil): el IPC supero el consenso pero sin otros datos que lo compensen; el PIB preliminar de hoy, viernes 13 de noviembre, es la siguiente referencia. El IPP de EE. UU. de hoy (previsto +6,6 % a/a) es el dato que queda con mas peso de la semana."
     },
     "escenarios": [
       {
@@ -1881,7 +1882,7 @@
             "nota": "Economia fuerte: refuerza una Fed mas dura en diciembre, dolar fuerte."
           },
           {
-            "condicion": "En linea (≈54-55)",
+            "condicion": "En linea (aproximadamente 54-55)",
             "impactos": {
               "BTC": "neutral",
               "EURUSD": "neutral",
@@ -1933,7 +1934,7 @@
             "nota": "Servicios fuertes: refuerza una Fed mas dura, dolar fuerte."
           },
           {
-            "condicion": "En linea (≈54-55)",
+            "condicion": "En linea (aproximadamente 54-55)",
             "impactos": {
               "BTC": "neutral",
               "EURUSD": "neutral",
@@ -1980,7 +1981,7 @@
             "nota": "Inflacion eurozona alta: BCE mas exigente, apoya al euro."
           },
           {
-            "condicion": "En linea (≈3,9 %)",
+            "condicion": "En linea (aproximadamente 3,9 %)",
             "impactos": {
               "EURUSD": "neutral"
             },
@@ -2022,7 +2023,7 @@
             "nota": "Mercado laboral resistente: refuerza una Fed mas dura en diciembre, dolar fuerte."
           },
           {
-            "condicion": "En linea (≈45-65 mil)",
+            "condicion": "En linea (aproximadamente 45-65 mil)",
             "impactos": {
               "BTC": "neutral",
               "EURUSD": "neutral",
@@ -2062,7 +2063,7 @@
         "anterior": "4,2 % de septiembre",
         "casos": [
           {
-            "condicion": "Baja o se mantiene (≈4,1-4,2 %)",
+            "condicion": "Baja o se mantiene (aproximadamente 4,1-4,2 %)",
             "impactos": {
               "BTC": "alcista",
               "EURUSD": "alcista",
@@ -2074,7 +2075,7 @@
             "nota": "Mercado laboral resistente sin senales de deterioro: alivio para el riesgo."
           },
           {
-            "condicion": "Sube ligeramente (≈4,3 %)",
+            "condicion": "Sube ligeramente (aproximadamente 4,3 %)",
             "impactos": {
               "BTC": "neutral",
               "EURUSD": "neutral",
@@ -2126,7 +2127,7 @@
             "nota": "Inflacion mas caliente: refuerza una Fed mas dura, dolar fuerte."
           },
           {
-            "condicion": "En linea (≈3,7 %)",
+            "condicion": "En linea (aproximadamente 3,7 %)",
             "impactos": {
               "BTC": "neutral",
               "EURUSD": "neutral",
@@ -2222,7 +2223,7 @@
             "nota": "Presion de costes al alza tras el fuerte 1,3 % de septiembre: refuerza una Fed mas dura, dolar fuerte."
           },
           {
-            "condicion": "En linea (≈0,3-0,5 %)",
+            "condicion": "En linea (aproximadamente 0,3-0,5 %)",
             "impactos": {
               "EURUSD": "neutral",
               "NQ": "neutral",
@@ -2264,7 +2265,7 @@
             "nota": "Eurozona fuerte: apoya al euro y refuerza el tono duro del BCE."
           },
           {
-            "condicion": "En linea (≈0,3-0,4 % t/t)",
+            "condicion": "En linea (aproximadamente 0,3-0,4 % t/t)",
             "impactos": {
               "EURUSD": "neutral"
             },
@@ -2291,8 +2292,8 @@
     "pesoCalendario": 0.3,
     "pesoMotivo": "Semana cargada en el papel (ISM manufacturero y de servicios, nominas, paro, Michigan, IPC de la eurozona) pero con casi todos los consensos todavia sin publicar un domingo antes de la semana: de los 11 datos de EE. UU. y la eurozona, solo las nominas tenian prevision frente al dato anterior. Con la expectativa tan poco respaldada, mandan mas el resto de factores: la gamma negativa, la liquidez drenando, el vuelco democrata del Congreso ya confirmado, el batacazo de resultados tecnologicos y la escalada en Ormuz.",
     "rango": "9 a 13 de noviembre de 2026",
-    "updatedAt": "2026-11-13T06:51:41Z"
+    "updatedAt": "2026-11-13T08:30:00.000Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-13T07:21:00.000Z"
+  "updatedAt": "2026-11-13T08:30:00.000Z"
 }
