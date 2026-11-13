@@ -1,12 +1,24 @@
 {
-  "actualizado": "2026-11-13T07:46:53Z",
+  "actualizado": "2026-11-13T19:46:19Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento",
-    "fase": 0.57,
-    "lectura": "El empleo de octubre sorprende al alza (+165.000, paro 4,1 %), el ISM manufacturero sube a 55,5 y el IPC de octubre avanza un 0,4 % mensual; la Fed (3,75-4,00 %) tiene un 96,5 % de probabilidad de subir el 9 dic (Kalshi, 13 nov) y Waller ve posible hasta 50 pb. La economía se recalienta en vez de girar."
+    "fase": 0.58,
+    "lectura": "El empleo de octubre sorprende al alza (+165.000, paro 4,1 %), el IPC sube un 0,4 % mensual y el IPP de octubre un 6,5 % anual (máximo desde 2022); la Fed (3,75-4,00 %) tiene un 96,5 % de probabilidad de subir el 9 dic (Kalshi, 13 nov) y BofA ya espera tres subidas seguidas. La economía se recalienta en vez de girar."
   },
   "fuentes": [
+    {
+      "nombre": "Trading Economics · Bono 10 años y Fed (13 nov)",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "nombre": "Yahoo Finance · IPP de octubre y mercados (13 nov)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-13-145859108.html"
+    },
+    {
+      "nombre": "TheStreet · BofA ve tres subidas de la Fed (13 nov)",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
+    },
     {
       "nombre": "Trading Economics · Bono 30 años EE. UU. (13 nov)",
       "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
@@ -14,10 +26,6 @@
     {
       "nombre": "TheStreet Pro · 2 años y subasta de 30 años (12 nov)",
       "url": "https://pro.thestreet.com/market-commentary/thursdays-charts-small-caps-slide-as-2-year-has-biggest-two-day-jump-since-march-2023"
-    },
-    {
-      "nombre": "Trading Economics · Bono 10 años y Fed (13 nov)",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
       "nombre": "Newsquawk · Subasta de 30 años (12 nov)",
@@ -125,13 +133,13 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,14 %) y 96 % otra en enero; primer recorte descontado para jul-2027 (Kalshi, 13 nov 06:39 UTC)",
+      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,14 %) y 96 % otra en enero (Kalshi, 13 nov 18:51 UTC); BofA espera subidas en dic., ene. y mar.",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
     },
     {
-      "c": "BLS 10 nov · subyacente +0,3 % · sin tasa anual por el cierre de 2025; septiembre 3,7 % a/a",
+      "c": "BLS 10 nov · subyacente +0,3 % · IPP de octubre +6,5 % anual, máximo desde 2022 (BLS, 13 nov)",
       "estado": "rojo",
       "n": "Inflación (IPC)",
       "v": "+0,4 % mensual (oct.)"
@@ -155,10 +163,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "13 nov (Trading Economics) · +10 pb el 12 nov tras subasta con cola; a 4 pb del umbral de atención",
+      "c": "13 nov (Trading Economics) · a 3 pb del umbral de atención; 10 años 5,15 %, mayor subida semanal desde abril de 2025",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,46 %"
+      "v": "5,47 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -171,9 +179,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años cierra en el 5,46 % (13 nov) tras la subasta más floja desde junio: zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sube al 5,47 % (13 nov) y el 10 años vive su mayor subida semanal desde abril de 2025: zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está en la parte alta de un ciclo corto que se recalienta y muy arriba en el ciclo largo. El empleo de octubre (+165.000, paro 4,1 %) y el IPC (+0,4 % mensual) empujan a la Fed a subir en diciembre (96,5 %, Kalshi 13 nov); el 2 años sube 32 pb en dos días (4,88 %) y el 30 años cierra en el 5,46 % tras una subasta floja, encareciendo una deuda que ya crece al 5,2 % anual, más que los salarios (3,7 %).",
+  "lectura": "EE. UU. está en la parte alta de un ciclo corto que se recalienta y muy arriba en el ciclo largo. El IPP de octubre (+6,5 % anual, máximo desde 2022) se suma al empleo (+165.000) y al IPC (+0,4 % mensual): la Fed subirá casi seguro en diciembre (96,5 %, Kalshi) y el 10 años cierra la semana en el 5,15 % (~+30 pb), encareciendo una deuda que ya crece al 5,2 % anual, más que los salarios (3,7 %).",
   "palancas": [
     {
       "estado": "rojo",
@@ -415,6 +423,11 @@
       "corto": 0.57,
       "largo": 0.76,
       "ts": "2026-11-13T07:46:53Z"
+    },
+    {
+      "corto": 0.58,
+      "largo": 0.76,
+      "ts": "2026-11-13T19:46:19Z"
     }
   ]
 }
