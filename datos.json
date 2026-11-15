@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-14T20:01:57Z",
+ "generado": "2026-11-15T00:38:48Z",
  "errores": [],
  "fed": [
   {
@@ -10,18 +10,18 @@
    "tasaImplicita": 4.14
   },
   {
-   "fecha": "2027-01-27",
-   "subir": 96.0,
-   "bajar": 4.0,
-   "mantener": 0,
-   "tasaImplicita": 4.24
-  },
-  {
    "fecha": "2027-04-28",
    "subir": 88.0,
    "bajar": 4.0,
    "mantener": 8.0,
-   "tasaImplicita": 4.35
+   "tasaImplicita": 4.34
+  },
+  {
+   "fecha": "2027-07-28",
+   "subir": 0.0,
+   "bajar": 100.0,
+   "mantener": 0,
+   "tasaImplicita": 3.72
   }
  ],
  "liquidez": {
@@ -168,7 +168,7 @@
    "pcrOI": 1.16,
    "callWall": 775.0,
    "putWall": 750.0,
-   "gammaFlip": 759.46,
+   "gammaFlip": 759.51,
    "maxPain": 762.0,
    "vencimientoCercano": "2026-11-16",
    "escalera": [
@@ -357,7 +357,7 @@
     "precio": 7542,
     "callWall": 7771,
     "putWall": 7521,
-    "gammaFlip": 7615,
+    "gammaFlip": 7616,
     "maxPain": 7641
    },
    "odte": {
@@ -390,7 +390,7 @@
    "pcrOI": 1.3,
    "callWall": 700.0,
    "putWall": 680.0,
-   "gammaFlip": 693.26,
+   "gammaFlip": 693.08,
    "maxPain": 686.0,
    "vencimientoCercano": "2026-11-16",
    "escalera": [
@@ -563,7 +563,7 @@
     "precio": 27827,
     "callWall": 28774,
     "putWall": 27952,
-    "gammaFlip": 28497,
+    "gammaFlip": 28490,
     "maxPain": 28199
    },
    "odte": {
@@ -585,10 +585,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-14T20:02:12Z"
+  "calculado": "2026-11-15T00:39:03Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-14T20:02:31Z",
+  "actualizado": "2026-11-15T00:39:12Z",
   "total": 56,
   "fase": "Expansión fuerte",
   "cambio4": -5,
@@ -649,7 +649,7 @@
     "id": "hy_tend",
     "n": "Bonos basura: tendencia",
     "peso": 2,
-    "score": -7,
+    "score": -8,
     "valor": "-0,2 % sobre su media de 1 año",
     "nota": "Si los bonos basura suben con fuerza es que entra dinero: sobra liquidez.",
     "fecha": "2026-11-12",
@@ -709,8 +709,8 @@
     "id": "petroleo",
     "n": "Petróleo (WTI)",
     "peso": 1,
-    "score": 87,
-    "valor": "94,37 $ · +13,0 % sobre su media de 1 año",
+    "score": 86,
+    "valor": "94,37 $ · +12,9 % sobre su media de 1 año",
     "nota": "Petróleo firme = demanda. (Un pico muy brusco también puede frenar el consumo.)",
     "fecha": "2026-11-06",
     "frec": "a diario"
@@ -1346,7 +1346,7 @@
     "v": 57
    },
    {
-    "fecha": "2026-11-14",
+    "fecha": "2026-11-15",
     "v": 56
    }
   ],
