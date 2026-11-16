@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-15T23:35:36Z",
+ "generado": "2026-11-16T01:20:28Z",
  "errores": [],
  "fed": [
   {
@@ -168,7 +168,7 @@
    "pcrOI": 1.16,
    "callWall": 775.0,
    "putWall": 750.0,
-   "gammaFlip": 759.58,
+   "gammaFlip": 759.62,
    "maxPain": 762.0,
    "vencimientoCercano": "2026-11-16",
    "escalera": [
@@ -362,7 +362,7 @@
    },
    "odte": {
     "vencimiento": "2026-11-16",
-    "esHoy": false,
+    "esHoy": true,
     "base": "gamma",
     "gexTotal": -0.49,
     "callWall": 760.0,
@@ -390,7 +390,7 @@
    "pcrOI": 1.3,
    "callWall": 700.0,
    "putWall": 680.0,
-   "gammaFlip": 692.97,
+   "gammaFlip": 692.86,
    "maxPain": 686.0,
    "vencimientoCercano": "2026-11-16",
    "escalera": [
@@ -563,12 +563,12 @@
     "precio": 27827,
     "callWall": 28774,
     "putWall": 27952,
-    "gammaFlip": 28485,
+    "gammaFlip": 28481,
     "maxPain": 28199
    },
    "odte": {
     "vencimiento": "2026-11-16",
-    "esHoy": false,
+    "esHoy": true,
     "base": "gamma",
     "gexTotal": -0.17,
     "callWall": 700.0,
@@ -585,15 +585,15 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-15T23:35:52Z"
+  "calculado": "2026-11-16T01:20:43Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-15T23:36:00Z",
-  "total": 56,
+  "actualizado": "2026-11-16T01:20:51Z",
+  "total": 55,
   "fase": "Expansión fuerte",
-  "cambio4": -5,
-  "cambio13": -27,
-  "lectura": "Expansión fuerte (+56). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: bonos basura: tendencia.",
+  "cambio4": -6,
+  "cambio13": -28,
+  "lectura": "Expansión fuerte (+55). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: bonos basura: tendencia.",
   "indicadores": [
    {
     "id": "pib_bono",
@@ -639,8 +639,8 @@
     "id": "hy_prima",
     "n": "Prima de riesgo de los bonos basura",
     "peso": 3,
-    "score": 84,
-    "valor": "3,20 % (+0,53 en 3 meses)",
+    "score": 87,
+    "valor": "3,20 % (+0,50 en 3 meses)",
     "nota": "Si falta dinero, la burbuja pincha primero en los bonos basura. Prima baja = tranquilidad; si se dispara, alarma.",
     "fecha": "2026-11-12",
     "frec": "a diario"
@@ -709,10 +709,10 @@
     "id": "petroleo",
     "n": "Petróleo (WTI)",
     "peso": 1,
-    "score": 86,
-    "valor": "94,37 $ · +12,9 % sobre su media de 1 año",
+    "score": 54,
+    "valor": "90,40 $ · +8,1 % sobre su media de 1 año",
     "nota": "Petróleo firme = demanda. (Un pico muy brusco también puede frenar el consumo.)",
-    "fecha": "2026-11-06",
+    "fecha": "2026-11-09",
     "frec": "a diario"
    }
   ],
@@ -1346,8 +1346,8 @@
     "v": 57
    },
    {
-    "fecha": "2026-11-15",
-    "v": 56
+    "fecha": "2026-11-16",
+    "v": 55
    }
   ],
   "fuente": "FRED (Reserva Federal de St. Louis): GDP, DGS10, DFF, WALCL, WRESBAL, BAMLH0A0HYM2, BAMLHYH0A0HYM2TRIV, SP500, CP, TOTBKCR, FYFSGDA188S, PCOPPUSDM, DCOILWTICO",
