@@ -1065,8 +1065,8 @@
   ],
   "indices": [
     {
-      "changeNote": "En vivo, 10:15 Canarias. Futuros sin impresión fiable tras la apertura de Londres; EUR/USD en mínimos de 19 meses (1,1009), bono a 10 años en el 5,15-5,17 %, DXY en 103,41.",
-      "changePct": -0.4,
+      "changeNote": "En vivo (premarket), 11:15 Canarias. Futuros S&P 500 -0,31 % hacia las 10:42 UTC (TipRanks), lastrados por la debilidad en Asia (Kospi -3,0 %, Taiex -4 %) y Oriente Medio, antes de los resultados de Nvidia (martes) y la OPV de Anthropic.",
+      "changePct": -0.31,
       "claves": [
         "Call wall en 7771 (ETF SPY 775.0 $); put wall en 7521 (ETF SPY 750.0 $).",
         "Giro de gamma (gamma flip) en 7633 (ETF SPY 761.25 $).",
@@ -1313,8 +1313,8 @@
       "spot": 7561.67
     },
     {
-      "changeNote": "En vivo, 10:15 Canarias. Futuros sin impresión fiable tras la apertura de Londres; foco en los resultados de Nvidia esta semana.",
-      "changePct": -1.2,
+      "changeNote": "En vivo (premarket), 11:15 Canarias. Futuros Nasdaq 100 -0,91 % hacia las 10:42 UTC (TipRanks), lastrados por la debilidad en Asia (Kospi -3,0 %, Taiex -4 %) y Oriente Medio, antes de los resultados de Nvidia (martes) y la OPV de Anthropic.",
+      "changePct": -0.91,
       "claves": [
         "Call wall en 28774 (ETF QQQ 700.0 $); put wall en 27952 (ETF QQQ 680.0 $).",
         "Giro de gamma (gamma flip) en 28637 (ETF QQQ 696.65 $).",
@@ -1679,6 +1679,29 @@
     "tga": 914.4
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "TipRanks",
+      "impacto": "alto",
+      "resumen": "Nasdaq 100 -0,91 %, S&P 500 -0,31 % y Dow +0,10 % en futuros hacia las 10:42 UTC, lastrados por Asia (Kospi -3,0 %, Taiex -4 %) y Oriente Medio.",
+      "titular": "Futuros mixtos en EE. UU.: Nasdaq 100 cae un 0,91 % ante los resultados de Nvidia y la OPV de Anthropic",
+      "ts": "2026-11-16T10:42:00Z",
+      "url": "https://www.tipranks.com/news/stock-market-today-nov-16-u-s-stocks-mixed-ahead-of-nvidia-results-and-anthropic-ipo"
+    },
+    {
+      "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "KuCoin",
+      "impacto": "alto",
+      "resumen": "Bitcoin cotiza cerca de 64.700 $, con una caída acumulada del 19,3 % desde el 26 de octubre, a solo tres días del debut de Anthropic en el Nasdaq.",
+      "titular": "Bitcoin acumula una caída del 19 % desde el 26 de octubre ante la salida a bolsa de Anthropic",
+      "ts": "2026-11-16T09:45:00Z",
+      "url": "https://www.kucoin.com/news/flash/bitcoin-drops-19-ahead-of-anthropic-ipo-echoing-spacex-pattern"
+    },
     {
       "activos": {
         "BTC": "bajista"
@@ -2092,5 +2115,5 @@
     "updatedAt": "2026-11-15T18:19:18Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-16T10:20:00.000000Z"
+  "updatedAt": "2026-11-16T11:20:00.000000Z"
 }
