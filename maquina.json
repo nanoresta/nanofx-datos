@@ -1,15 +1,31 @@
 {
-  "actualizado": "2026-11-16T07:45:59Z",
+  "actualizado": "2026-11-17T19:46:01Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento",
-    "fase": 0.58,
-    "lectura": "El empleo de octubre sorprende al alza (+165.000, paro 4,1 %), el IPC sube un 0,4 % mensual y el IPP un 6,5 % anual; la Fed (3,75-4,00 %) tiene un 96,5 % de probabilidad de subir el 9 dic (Kalshi, 16 nov). La economía se recalienta en vez de girar, aunque Japón y China ya se frenan."
+    "fase": 0.6,
+    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de probabilidad de subir el 9 dic con el IPP en el 6,5 % anual, pero la actividad ya se frena: producción industrial -0,4 % en octubre, NAHB en 25 (mínimo desde 2012) y Empire State en 7,8 (desde 25,5). Fed subiendo con la economía empezando a girar: pasado el techo."
   },
   "fuentes": [
     {
-      "nombre": "Trading Economics – Bono 10 años EE. UU. (16 nov)",
+      "nombre": "Trading Economics – Bono 30 años y curva EE. UU. (17 nov)",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bono 10 años EE. UU. (17 nov)",
       "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "nombre": "Tribune/Fed – Producción industrial de octubre -0,4 % (17 nov)",
+      "url": "https://www.tribuneindia.com/news/federal-reserve-report/us-industrial-production-declines-0-4-pc-in-october-manufacturing-output-rises-0-3-pc-federal-reserve"
+    },
+    {
+      "nombre": "Rio Times – NAHB noviembre en 25 (17 nov)",
+      "url": "https://www.riotimesonline.com/united-states-nahb-housing-market-index-november-2026/"
+    },
+    {
+      "nombre": "Coffee Grounds – Cierre del 16 nov (VIX, curva del Tesoro)",
+      "url": "https://coffeegroundstrading.substack.com/p/the-coffee-grounds-newsletter-november-7c1"
     },
     {
       "nombre": "Wolf Street – Bonos y subastas (14 nov)",
@@ -26,10 +42,6 @@
     {
       "nombre": "TheStreet · BofA ve tres subidas de la Fed (13 nov)",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
-    },
-    {
-      "nombre": "Trading Economics · Bono 30 años EE. UU. (13 nov)",
-      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
     },
     {
       "nombre": "TheStreet Pro · 2 años y subasta de 30 años (12 nov)",
@@ -132,7 +144,7 @@
       "url": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat"
     }
   ],
-  "hacia": "El patrón sigue siendo que la Fed sube hasta que algo se rompe y llega la desaceleración o recesión en 6-18 meses; una subida de 50 pb, un bono a 30 años por encima del 5,5 %, un pinchazo de la IA o el frenazo de Japón (PIB 3T -0,1 %) y China lo adelantarían, y la caída del petróleo podría retrasarlo al enfriar la inflación. Con la deuda tan alta, la salida más probable en una crisis sería imprimir dinero antes que recortar gasto.",
+  "hacia": "Lo que viene según el patrón es la desaceleración o recesión en 6-18 meses, cuando la subida de tipos muerda; un pinchazo de la IA (Nvidia presenta hoy), un bono a 30 años por encima del 5,5 % o una subida de 50 pb lo adelantarían, y la caída del petróleo podría retrasarlo al enfriar la inflación. Con la deuda tan alta, la salida más probable en una crisis sería imprimir dinero antes que recortar gasto.",
   "indicadores": [
     {
       "c": "2T 2026 · Fed (Z.1)",
@@ -141,7 +153,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,14 %) y 96 % otra en enero (Kalshi, 16 nov 04:08 UTC); Warsh habla el 16 nov",
+      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,13 %) y 96 % otra en enero (Kalshi, 17 nov); actas de la Fed el 18 nov",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -153,13 +165,13 @@
       "v": "+0,4 % mensual (oct.)"
     },
     {
-      "c": "octubre (BLS, 6 nov) · consenso +63.000 · peticiones de subsidio 200.000 (12 nov)",
+      "c": "octubre (BLS, 6 nov) · consenso +63.000 · Empire State cae a 7,8 en noviembre desde 25,5 (16 nov)",
       "estado": "verde",
       "n": "Empleo",
       "v": "+165.000 · paro 4,1 %"
     },
     {
-      "c": "3T 2026 · 1.ª estimación (BEA, 29 oct) · 2T: 2,2 %",
+      "c": "3T 2026 · 1.ª estimación (BEA, 29 oct) · producción industrial de octubre -0,4 % (Fed, 17 nov); ventas minoristas +0,2 % (oct.)",
       "estado": "verde",
       "n": "Crecimiento (PIB real)",
       "v": "+3,4 % anual"
@@ -171,10 +183,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "16 nov (Trading Economics) · a 3 pb del umbral de atención; +21 pb la semana pasada y 10 años en el 5,14 %",
+      "c": "17 nov (Trading Economics) · a 4 pb del umbral de atención; 10 años en el 5,10 %",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,47 %"
+      "v": "5,46 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -187,9 +199,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,47 % (16 nov) tras subir 21 pb la semana pasada: zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,46 % (17 nov), cerca del 5,5 %: zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. sigue en la parte alta de un ciclo corto que se recalienta y muy arriba en el ciclo largo. Con el IPP de octubre en el 6,5 % anual, el empleo fuerte (+165.000) y la Fed a punto de subir (96,5 %, Kalshi), el 10 años se queda en el 5,14 % (16 nov), encareciendo una deuda que crece al 5,2 % anual, más que los salarios (3,7 %).",
+  "lectura": "EE. UU. está justo pasado el techo del ciclo corto: la Fed va a subir en diciembre (96,5 %) mientras la industria (-0,4 % en octubre), la vivienda (NAHB 25) y la bolsa (S&P 500 -1,9 % el lunes) empiezan a ceder. En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,46 %.",
   "palancas": [
     {
       "estado": "rojo",
@@ -212,7 +224,7 @@
     {
       "estado": "amarillo",
       "n": "Imprimir dinero",
-      "nota": "Hoy la Fed va en sentido contrario (96,5 % de subida en diciembre, dólar en máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si llega la crisis, sigue siendo la salida más probable.",
+      "nota": "Hoy la Fed va en sentido contrario (96,5 % de subida en diciembre, dólar en máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si la caída de la bolsa se convierte en crisis, sigue siendo la salida más probable.",
       "valor": "Riesgo"
     }
   ],
@@ -441,6 +453,11 @@
       "corto": 0.58,
       "largo": 0.76,
       "ts": "2026-11-16T07:45:59Z"
+    },
+    {
+      "corto": 0.6,
+      "largo": 0.76,
+      "ts": "2026-11-17T19:46:01Z"
     }
   ]
 }
