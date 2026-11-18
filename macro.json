@@ -395,7 +395,7 @@
       "actualNum": 1.295,
       "anterior": "1,398 millones (anualizado)",
       "anteriorNum": 1.398,
-      "divisaSiSube": "+",
+      "divisaSiSube": "-",
       "evento": "Permisos de construccion (octubre)",
       "fecha": "2026-11-18",
       "horaUtc": "13:30",
@@ -572,16 +572,16 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-18T19:51:03Z",
+    "actualizado": "2026-11-18T20:51:36Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su proxima reunion del 9 de diciembre sube al 97,5 % (antes 96,5 %), con la tasa implicita estable en el 4,13 %; las actas del FOMC del 27-28 de octubre, publicadas hoy a las 19:00 UTC, muestran que casi todos los miembros ven necesarias nuevas subidas y que un par abrio la puerta a un movimiento de 50 puntos basicos en diciembre, lo que refuerza esa probabilidad pese a que Bessent pide prudencia por el shock energetico de Iran. Para abril de 2027 la probabilidad se mantiene en el 94,5 %, con la tasa implicita en el 4,35 %.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su proxima reunion del 9 de diciembre se mantiene en el 97,5 % (sin cambios desde la ultima actualizacion tras las actas del FOMC), con la tasa implicita subiendo ligeramente al 4,14 % (antes 4,13 %); para abril de 2027 la probabilidad tambien se mantiene, en el 94,5 %, con la tasa implicita en el 4,33 %.",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-12-09",
         "mantener": 2,
         "subir": 97.5,
-        "tasaImplicita": 4.13
+        "tasaImplicita": 4.14
       },
       {
         "bajar": 5,
@@ -602,7 +602,7 @@
         "fecha": "2027-04-28",
         "mantener": 1,
         "subir": 94.5,
-        "tasaImplicita": 4.32
+        "tasaImplicita": 4.33
       },
       {
         "bajar": 100,
@@ -1237,199 +1237,203 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 20:16 Canarias",
+      "changeNote": "en vivo, 21:15 Canarias",
       "changePct": -0.38,
       "claves": [
-        "Call wall en 7767 (ETF SPY 775.0 $); put wall en 7266 (ETF SPY 725.0 $).",
-        "Giro de gamma (gamma flip) en 7600 (ETF SPY 758.33 $).",
-        "Max pain en 7497 (ETF SPY 748.0 $).",
-        "Régimen de gamma negativa, en -14.41 mil M$ por 1 %, put/call OI 1.97, open interest del 16 de noviembre."
+        "Call wall en 7767 (ETF SPY 775,0 $); put wall en 7266 (ETF SPY 725,0 $).",
+        "Giro de gamma (gamma flip) en 7593 (ETF SPY 757,56 $).",
+        "Max pain en 7497 (ETF SPY 748,0 $).",
+        "Régimen de gamma negativa, en -14,51 mil M$ por 1 %, put/call OI 1,96, open interest del 16 de noviembre."
       ],
       "gex": {
         "callWall": 775,
-        "contratos": 1608,
+        "contratos": 1633,
         "escalera": [
           {
-            "gex": -34.1,
+            "gex": -33.1,
             "strike": 709
           },
           {
-            "gex": -851.3,
+            "gex": -848.6,
             "strike": 710
           },
           {
-            "gex": -54.3,
+            "gex": -53.2,
             "strike": 711
           },
           {
-            "gex": -161.3,
+            "gex": -159.2,
             "strike": 712
           },
           {
-            "gex": -26.4,
+            "gex": -26.2,
             "strike": 713
           },
           {
-            "gex": -128.9,
+            "gex": -127.5,
             "strike": 714
           },
           {
-            "gex": -495.5,
+            "gex": -493.6,
             "strike": 715
           },
           {
-            "gex": -299,
+            "gex": -299.4,
             "strike": 716
           },
           {
-            "gex": -69.8,
+            "gex": -69.4,
             "strike": 717
           },
           {
-            "gex": -469.7,
+            "gex": -472.3,
             "strike": 718
           },
           {
-            "gex": -89,
+            "gex": -89.6,
             "strike": 719
           },
           {
-            "gex": -846.4,
+            "gex": -851.8,
             "strike": 720
           },
           {
-            "gex": -51.2,
+            "gex": -51.9,
             "strike": 721
           },
           {
-            "gex": -450.4,
+            "gex": -460.8,
             "strike": 722
           },
           {
-            "gex": -190.1,
+            "gex": -193.9,
             "strike": 723
           },
           {
-            "gex": -471,
+            "gex": -481,
             "strike": 724
           },
           {
-            "gex": -1615.4,
+            "gex": -1638,
             "strike": 725
           },
           {
-            "gex": -375.9,
+            "gex": -377.8,
             "strike": 726
           },
           {
-            "gex": -367.6,
+            "gex": -370.9,
             "strike": 727
           },
           {
-            "gex": -603.6,
+            "gex": -609.9,
             "strike": 728
           },
           {
-            "gex": -233.5,
+            "gex": -234.2,
             "strike": 729
           },
           {
-            "gex": -1325.2,
+            "gex": -1349,
             "strike": 730
           },
           {
-            "gex": -68.2,
+            "gex": -69.5,
             "strike": 731
           },
           {
-            "gex": -275.1,
+            "gex": -279.3,
             "strike": 732
           },
           {
-            "gex": -344.6,
+            "gex": -355.8,
             "strike": 733
           },
           {
-            "gex": -321.5,
+            "gex": -342.1,
             "strike": 734
           },
           {
-            "gex": -689.9,
+            "gex": -696.8,
             "strike": 735
           },
           {
-            "gex": -456,
+            "gex": -461.3,
             "strike": 736
           },
           {
-            "gex": -177.7,
+            "gex": -183.4,
             "strike": 737
           },
           {
-            "gex": -108.6,
+            "gex": -109.8,
             "strike": 738
           },
           {
-            "gex": -235.3,
+            "gex": -244.8,
             "strike": 739
           },
           {
-            "gex": -790.5,
+            "gex": -784.5,
             "strike": 740
           },
           {
-            "gex": -52.3,
+            "gex": -53.3,
             "strike": 741
           },
           {
-            "gex": -73.4,
+            "gex": -74,
             "strike": 742
           },
           {
-            "gex": -37.7,
+            "gex": -36.1,
             "strike": 743
           },
           {
-            "gex": -53.6,
+            "gex": -52.9,
             "strike": 744
           },
           {
-            "gex": -309.7,
+            "gex": -303,
             "strike": 745
           },
           {
-            "gex": -16.5,
+            "gex": -17.1,
             "strike": 746
           },
           {
-            "gex": -23.3,
+            "gex": -27.3,
             "strike": 747
           },
           {
-            "gex": -30.6,
+            "gex": -32.7,
             "strike": 748
           },
           {
-            "gex": 28.9,
+            "gex": 28.2,
             "strike": 749
           },
           {
-            "gex": -293.9,
+            "gex": -295.8,
             "strike": 750
           },
           {
-            "gex": -12.8,
+            "gex": -19.4,
             "strike": 751
+          },
+          {
+            "gex": -1.7,
+            "strike": 752
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 758.33,
-        "gexTotal": -14.41,
+        "gammaFlip": 757.56,
+        "gexTotal": -14.51,
         "indice": {
           "callWall": 7767,
-          "gammaFlip": 7600,
+          "gammaFlip": 7593,
           "maxPain": 7497,
-          "precio": 7316,
+          "precio": 7318,
           "putWall": 7266
         },
         "maxPain": 748,
@@ -1451,8 +1455,8 @@
           "vencimiento": "2026-11-18"
         },
         "oiFecha": "2026-11-16",
-        "pcrOI": 1.97,
-        "precio": 729.93,
+        "pcrOI": 1.96,
+        "precio": 730.19,
         "putWall": 725,
         "ratioFecha": "2026-11-17",
         "ratioIndice": 10.0224,
@@ -1460,62 +1464,58 @@
         "vencimientoCercano": "2026-11-18"
       },
       "id": "SPX",
-      "lectura": "Son las 19:51 UTC del miercoles 18 de noviembre, con Wall Street en sesion. El S&P 500 ronda los 7351 puntos (en torno a +0,1 % en el dia), con el Dow aun debil por UnitedHealth, Chevron y Caterpillar pero sostenido por el resultado de Nvidia. El regimen de gamma sigue negativo (-13,86 mil M$ por 1 %) y el precio sigue por debajo del giro de gamma (7597). Las actas del FOMC, publicadas minutos antes (19:00 UTC), confirman un tono mas duro de lo esperado -casi todos los miembros ven necesarias mas subidas, con un par abierto a 50 pb en diciembre-, reforzando el 97,5 % de probabilidad de subida de Kalshi; Bessent contrapesa pidiendo a la Fed no sobrerreaccionar al shock energetico de Iran. Sesgo: neutral, muy cerca de bajista.",
+      "lectura": "Son las 20:51 UTC del miercoles 18 de noviembre, con Wall Street cerca del cierre. El S&P 500 ronda los 7318 puntos, con el Dow aun debil por UnitedHealth, Chevron y Caterpillar pero sostenido por el resultado de Nvidia. El regimen de gamma sigue negativo (-14,51 mil M$ por 1 %) y el precio sigue por debajo del giro de gamma (7593). Las actas del FOMC, publicadas minutos antes (19:00 UTC), confirman un tono mas duro de lo esperado -casi todos los miembros ven necesarias mas subidas, con un par abierto a 50 pb en diciembre-, reforzando el 97,5 % de probabilidad de subida de Kalshi; Bessent contrapesa pidiendo a la Fed no sobrerreaccionar al shock energetico de Iran. Sesgo: neutral, muy cerca de bajista.",
       "levels": {
         "callWall": 7767,
-        "gammaFlip": 7600,
+        "gammaFlip": 7593,
         "maxPain": 7497,
-        "precio": 7316,
+        "precio": 7318,
         "putWall": 7266
       },
       "name": "S&P 500",
-      "netGex": "negativa (-14.41 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-16)",
-      "precio": 7316,
+      "netGex": "negativa (-14,51 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-16)",
+      "precio": 7318,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -14,
       "sesgo": "neutral",
-      "spot": 7316
+      "spot": 7318
     },
     {
-      "changeNote": "en vivo, 20:16 Canarias",
+      "changeNote": "en vivo, 21:15 Canarias",
       "changePct": 0.01,
       "claves": [
-        "Call wall en 28766 (ETF QQQ 700.0 $); put wall en 27944 (ETF QQQ 680.0 $).",
+        "Call wall en 28766 (ETF QQQ 700,0 $); put wall en 27944 (ETF QQQ 680,0 $).",
         "Giro de gamma (gamma flip) no disponible con el open interest actual.",
-        "Max pain en 27575 (ETF QQQ 671.0 $).",
-        "Régimen de gamma negativa, en -3.72 mil M$ por 1 %, put/call OI 1.82, open interest del 16 de noviembre."
+        "Max pain en 27575 (ETF QQQ 671,0 $).",
+        "Régimen de gamma negativa, en -3,82 mil M$ por 1 %, put/call OI 1,83, open interest del 16 de noviembre."
       ],
       "gex": {
         "callWall": 700,
-        "contratos": 1570,
+        "contratos": 1593,
         "escalera": [
           {
-            "gex": -11.1,
-            "strike": 639
-          },
-          {
-            "gex": -409.8,
+            "gex": -406,
             "strike": 640
           },
           {
-            "gex": -18.2,
+            "gex": -17.8,
             "strike": 641
           },
           {
-            "gex": -36.5,
+            "gex": -36,
             "strike": 642
           },
           {
-            "gex": -8.7,
+            "gex": -8.6,
             "strike": 643
           },
           {
-            "gex": -8.2,
+            "gex": -8.1,
             "strike": 644
           },
           {
-            "gex": -242.3,
+            "gex": -241.2,
             "strike": 645
           },
           {
@@ -1523,19 +1523,19 @@
             "strike": 646
           },
           {
-            "gex": -24.3,
+            "gex": -24.1,
             "strike": 647
           },
           {
-            "gex": -12,
+            "gex": -11.9,
             "strike": 648
           },
           {
-            "gex": -13.6,
+            "gex": -13.5,
             "strike": 649
           },
           {
-            "gex": -558.7,
+            "gex": -558.5,
             "strike": 650
           },
           {
@@ -1547,7 +1547,7 @@
             "strike": 652
           },
           {
-            "gex": -10.7,
+            "gex": -10.8,
             "strike": 653
           },
           {
@@ -1555,47 +1555,47 @@
             "strike": 654
           },
           {
-            "gex": -264.2,
+            "gex": -263.4,
             "strike": 655
           },
           {
-            "gex": -15.9,
+            "gex": -16,
             "strike": 656
           },
           {
-            "gex": -10.1,
+            "gex": -10.2,
             "strike": 657
           },
           {
-            "gex": -40,
+            "gex": -40.3,
             "strike": 658
           },
           {
-            "gex": -16.8,
+            "gex": -16.9,
             "strike": 659
           },
           {
-            "gex": -312.2,
+            "gex": -317.5,
             "strike": 660
           },
           {
-            "gex": -20,
+            "gex": -20.3,
             "strike": 661
           },
           {
-            "gex": 26.7,
+            "gex": 26.6,
             "strike": 662
           },
           {
-            "gex": -13.4,
+            "gex": -13.8,
             "strike": 663
           },
           {
-            "gex": -67.5,
+            "gex": -67.1,
             "strike": 664
           },
           {
-            "gex": -50.4,
+            "gex": -50.9,
             "strike": 665
           },
           {
@@ -1603,11 +1603,11 @@
             "strike": 666
           },
           {
-            "gex": -17.2,
+            "gex": -17.5,
             "strike": 667
           },
           {
-            "gex": -9,
+            "gex": -8.9,
             "strike": 668
           },
           {
@@ -1615,50 +1615,50 @@
             "strike": 669
           },
           {
-            "gex": -203.6,
+            "gex": -204.1,
             "strike": 670
           },
           {
-            "gex": 2.2,
+            "gex": 2.1,
             "strike": 671
           },
           {
-            "gex": -10.8,
+            "gex": -11,
             "strike": 672
           },
           {
-            "gex": -12.9,
+            "gex": -12.6,
             "strike": 673
           },
           {
-            "gex": -9,
+            "gex": -9.3,
             "strike": 674
           },
           {
-            "gex": -274.4,
+            "gex": -286.5,
             "strike": 675
           },
           {
-            "gex": -2.3,
+            "gex": -2.6,
             "strike": 676
           },
           {
-            "gex": -18.6,
+            "gex": -19.4,
             "strike": 677
           },
           {
-            "gex": -7.7,
+            "gex": -8.2,
             "strike": 678
           }
         ],
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -3.72,
+        "gexTotal": -3.82,
         "indice": {
           "callWall": 28766,
           "gammaFlip": null,
           "maxPain": 27575,
-          "precio": 27057,
+          "precio": 27077,
           "putWall": 27944
         },
         "maxPain": 671,
@@ -1675,13 +1675,13 @@
             "putWall": 25479
           },
           "maxPain": 671,
-          "pcrOI": 1.78,
+          "pcrOI": 1.77,
           "putWall": 620,
           "vencimiento": "2026-11-18"
         },
         "oiFecha": "2026-11-16",
-        "pcrOI": 1.82,
-        "precio": 658.4,
+        "pcrOI": 1.83,
+        "precio": 658.89,
         "putWall": 680,
         "ratioFecha": "2026-11-17",
         "ratioIndice": 41.0948,
@@ -1689,26 +1689,26 @@
         "vencimientoCercano": "2026-11-18"
       },
       "id": "NDX",
-      "lectura": "Son las 19:51 UTC del miercoles 18 de noviembre, con Wall Street en sesion. El Nasdaq 100 ronda los 27.190 puntos (en torno a +0,5 %, segun el ETF QQQ), apoyado por el resultado de Nvidia (primer informe sin Jensen Huang, ingresos y guia del cuarto trimestre por encima del consenso, recompra ampliada en 150.000 millones $). El regimen de gamma sigue negativo (-3,58 mil M$ por 1 %), aunque ya se detecta un giro de gamma en 28660. Las actas de la Fed, publicadas minutos antes, confirman un tono mas duro de lo esperado, parcialmente contrapesado por la peticion de prudencia de Bessent ante el shock energetico de Iran. Sesgo: neutral.",
+      "lectura": "Son las 20:51 UTC del miercoles 18 de noviembre, con Wall Street cerca del cierre. El Nasdaq 100 ronda los 27.077 puntos, apoyado por el resultado de Nvidia (primer informe sin Jensen Huang, ingresos y guia del cuarto trimestre por encima del consenso, recompra ampliada en 150.000 millones $). El regimen de gamma sigue negativo (-3,82 mil M$ por 1 %). Las actas de la Fed, publicadas minutos antes, confirman un tono mas duro de lo esperado, parcialmente contrapesado por la peticion de prudencia de Bessent ante el shock energetico de Iran. Sesgo: neutral.",
       "levels": {
         "callWall": 28766,
         "gammaFlip": null,
         "maxPain": 27575,
-        "precio": 27057,
+        "precio": 27077,
         "putWall": 27944
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-3.72 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-16)",
-      "precio": 27057,
+      "netGex": "negativa (-3,82 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-16)",
+      "precio": 27077,
       "regime": "negativa",
       "regimen": "negativa",
       "score": 3,
       "sesgo": "neutral",
-      "spot": 27057
+      "spot": 27077
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-18T19:51:03Z",
+    "actualizado": "2026-11-18T20:51:36Z",
     "balance": 6758.9,
     "d4": -27.7,
     "dBalance": 10.8,
@@ -1720,14 +1720,14 @@
     "fecha4": "2026-10-14",
     "fechaPrev": "2026-11-04",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "En la semana del 4 al 11 de noviembre (próximo balance de la Fed el jueves 19 a las 22:30 Canarias) la liquidez neta subió 53.600 millones $ hasta 5.844.300 millones $, con el Tesoro como principal inyector (TGA: -42.800 millones $, hasta 914.400 millones $) y el balance de la Fed subiendo ligeramente (+10.800 millones $, hasta 6.758.900 millones $); las reservas bancarias suben a 2.960.600 millones $ (+30.500 millones $). La tendencia de las últimas cuatro semanas (desde el 14 de octubre) sigue siendo negativa pero se modera: -27.700 millones $ netos. El uso del repo permanente se mantiene bajo, en 102 millones $ el 17 de noviembre, y el RRP diario en 351 millones $, sin señales de tensión de liquidez pese a la volatilidad bursátil de las últimas sesiones.",
+    "lectura": "En la semana del 4 al 11 de noviembre (proximo balance de la Fed el jueves 19 a las 22:30 Canarias) la liquidez neta subio 53.600 millones $ hasta 5.844.300 millones $, con el Tesoro como principal inyector (TGA: -42.800 millones $, hasta 914.400 millones $) y el balance de la Fed subiendo ligeramente (+10.800 millones $, hasta 6.758.900 millones $); las reservas bancarias suben a 2.960.600 millones $ (+30.500 millones $). La tendencia de las ultimas cuatro semanas (desde el 14 de octubre) sigue siendo negativa pero se modera: -27.700 millones $ netos. El uso del repo permanente vuelve a cero el 18 de noviembre (RRP diario en 331 millones $), sin senales de tension de liquidez pese a la volatilidad bursatil reciente.",
     "neta": 5844.3,
-    "repo": 0.102,
-    "repoFecha": "2026-11-17",
+    "repo": 0,
+    "repoFecha": "2026-11-18",
     "reservas": 2960.6,
     "rrp": 0.2,
-    "rrpFecha": "2026-11-17",
-    "rrpHoy": 0.351,
+    "rrpFecha": "2026-11-18",
+    "rrpHoy": 0.331,
     "serie": [
       {
         "fecha": "2026-05-13",
@@ -2044,21 +2044,21 @@
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.78.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.77.",
         "valor": "28766"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.78.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.77.",
         "valor": "25479"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.78.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.77.",
         "valor": "27575"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 18 de noviembre (base open interest, motor recalculado a las 19:50 UTC): en el S&P 500, call wall en 7617, put wall en 7196 y max pain en 7497, con un put/call OI de 1.33. En el Nasdaq 100, call wall en 28766, put wall en 25479 y max pain en 27575, con un put/call OI de 1.78. En ambos casos el giro de gamma 0DTE no está disponible con el open interest actual."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 18 de noviembre (base open interest, motor recalculado a las 20:51 UTC): en el S&P 500, call wall en 7617, put wall en 7196 y max pain en 7497, con un put/call OI de 1,33. En el Nasdaq 100, call wall en 28766, put wall en 25479 y max pain en 27575, con un put/call OI de 1,77. En ambos casos el giro de gamma 0DTE no esta disponible con el open interest actual."
   },
   "politica": {
     "actualizado": "2026-11-18T19:51:03Z",
@@ -2158,7 +2158,7 @@
       }
     ]
   },
-  "resumen": "Son las 20:16 UTC (20:16 Canarias / 15:16 Nueva York) del miercoles 18 de noviembre de 2026, con Wall Street en sesion. El S&P 500 ronda los 7316 puntos (en torno a -0.4 % en el dia) y el Nasdaq 100 los 27057 puntos (practicamente plano, en torno a +0.0 %), apoyados por el resultado de Nvidia (primer informe sin Jensen Huang, ingresos y guia del cuarto trimestre por encima del consenso, recompra ampliada en 150.000 millones $), mientras el Dow sigue debil por UnitedHealth, Chevron y Caterpillar. Las actas de la Fed del 27-28 de octubre, publicadas a las 19:00 UTC, confirman un tono mas duro de lo esperado: casi todos los miembros ven necesarias mas subidas de tipos, y un par abrio la puerta a 50 pb en diciembre si la inflacion no mejora, elevando al 97,5 % la probabilidad de una subida de la Fed de Kevin Warsh en diciembre segun Kalshi (tasa implicita 4,13 %); el secretario del Tesoro Bessent pide prudencia por el shock energetico de la guerra de Iran. Los datos de vivienda de octubre salieron mixtos: las viviendas iniciadas sorprenden al alza (+9,9 %, 1,309 millones) pero los permisos caen con fuerza (-7,4 %, 1,295 millones, minimo en mas de un año). El dolar se mantiene en maximos de varios meses; el oro sigue en minimos de mas de un año (en torno a 3.750-3.800 $) y el euro cerca de 1,0950-1,0960 $, minimo desde mayo de 2025. Bitcoin sigue deprimido cerca de 62.000-64.000 $ tras nuevas salidas de ETF, y el WTI se mantiene cerca de 84-85 $ con la tension en el estrecho de Ormuz como soporte. Trump esta en Shenzhen para la cumbre de la APEC, con una reunion trilateral con Xi y Putin prevista para el jueves 19 centrada en Iran y el control de armas. El regimen de gamma sigue negativo en ambos indices.",
+  "resumen": "Son las 21:15 UTC (21:15 Canarias / 16:15 Nueva York) del miercoles 18 de noviembre de 2026, con Wall Street cerca del cierre. El S&P 500 ronda los 7318 puntos y el Nasdaq 100 los 27077 puntos, apoyados por el resultado de Nvidia (primer informe sin Jensen Huang, ingresos y guia del cuarto trimestre por encima del consenso, recompra ampliada en 150.000 millones $), mientras el Dow sigue debil por UnitedHealth, Chevron y Caterpillar. Las actas de la Fed del 27-28 de octubre, publicadas a las 19:00 UTC, confirman un tono mas duro de lo esperado: casi todos los miembros ven necesarias mas subidas de tipos, y un par abrio la puerta a 50 pb en diciembre si la inflacion no mejora, elevando al 97,5 % la probabilidad de una subida de la Fed de Kevin Warsh en diciembre segun Kalshi (tasa implicita 4,14 %); el secretario del Tesoro Bessent pide prudencia por el shock energetico de la guerra de Iran. El dolar se mantiene en maximos de varios meses; el oro sigue en minimos de mas de un año y el euro cerca de 1,0950-1,0960 $, minimo desde mayo de 2025. Bitcoin sigue deprimido cerca de 62.000-64.000 $ tras nuevas salidas de ETF, y el WTI se mantiene cerca de 84-85 $ con la tension en el estrecho de Ormuz como soporte. Trump esta en Shenzhen para la cumbre de la APEC, con una reunion trilateral con Xi y Putin prevista para el jueves 19 centrada en Iran y el control de armas. El regimen de gamma sigue negativo en ambos indices.",
   "semana": {
     "activos": [
       {
@@ -2343,5 +2343,5 @@
     "updatedAt": "2026-11-18T19:51:03Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-18T20:16:11Z"
+  "updatedAt": "2026-11-18T20:51:36Z"
 }
