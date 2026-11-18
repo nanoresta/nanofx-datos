@@ -572,15 +572,15 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-18T12:08:21Z",
+    "actualizado": "2026-11-18T13:09:22Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su próxima reunión del 9 de diciembre se mantiene sin cambios en el 96,5 % (tasa implícita 4,13 %), igual que en la lectura anterior. Para marzo de 2027 también se mantiene estable en el 95,5 % y para abril de 2027 en el 94,5 %, sin variación frente a la lectura anterior.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su próxima reunión del 9 de diciembre repunta al 97,5 % (antes 96,5 %), con la tasa implícita estable en el 4,13 %. Para marzo de 2027 también sube, al 96,5 % (antes 95,5 %, tasa implícita 4,40 %, antes 4,39 %), mientras abril de 2027 se mantiene prácticamente igual, en el 94,5 % (tasa implícita 4,33 %, antes 4,32 %).",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-12-09",
-        "mantener": 3,
-        "subir": 96.5,
+        "mantener": 2,
+        "subir": 97.5,
         "tasaImplicita": 4.13
       },
       {
@@ -591,18 +591,18 @@
         "tasaImplicita": 4.26
       },
       {
-        "bajar": 4,
+        "bajar": 3.5,
         "fecha": "2027-03-17",
-        "mantener": 0.5,
-        "subir": 95.5,
-        "tasaImplicita": 4.39
+        "mantener": 0,
+        "subir": 96.5,
+        "tasaImplicita": 4.4
       },
       {
         "bajar": 4.5,
         "fecha": "2027-04-28",
         "mantener": 1,
         "subir": 94.5,
-        "tasaImplicita": 4.34
+        "tasaImplicita": 4.33
       },
       {
         "bajar": 100,
@@ -1213,201 +1213,201 @@
   ],
   "indices": [
     {
-      "changeNote": "futuros, en vivo 12:16 Canarias",
-      "changePct": 0.4,
+      "changeNote": "futuros, en vivo 13:15 UTC",
+      "changePct": 0.2,
       "claves": [
-        "Call wall en 7767 (ETF SPY 775,0 $); put wall en 7266 (ETF SPY 725,0 $).",
-        "Giro de gamma (gamma flip) en 7601 (ETF SPY 758,46 $).",
-        "Max pain en 7496 (ETF SPY 748,0 $).",
-        "Régimen de gamma negativa, en -10,76 mil M$ por 1 %, put/call OI 1,85, open interest del 16 de noviembre."
+        "Call wall en 7767 (ETF SPY 775 $); put wall en 7266 (ETF SPY 725 $).",
+        "Giro de gamma (gamma flip) en 7635 (ETF SPY 761.86 $).",
+        "Max pain en 7496 (ETF SPY 748 $).",
+        "Régimen de gamma negativa, en -12.66 mil M$ por 1 %, put/call OI 1.85, open interest del 16 de noviembre."
       ],
       "gex": {
         "callWall": 775,
-        "contratos": 1655,
+        "contratos": 1596,
         "escalera": [
           {
-            "gex": -136.8,
+            "gex": -145.1,
             "strike": 712
           },
           {
-            "gex": -22,
+            "gex": -23.4,
             "strike": 713
           },
           {
-            "gex": -104,
+            "gex": -111.2,
             "strike": 714
           },
           {
-            "gex": -394.9,
+            "gex": -428.1,
             "strike": 715
           },
           {
-            "gex": -235,
+            "gex": -257.7,
             "strike": 716
           },
           {
-            "gex": -53.8,
+            "gex": -59,
             "strike": 717
           },
           {
-            "gex": -360.6,
+            "gex": -399.1,
             "strike": 718
           },
           {
-            "gex": -67.4,
+            "gex": -75.5,
             "strike": 719
           },
           {
-            "gex": -646.3,
+            "gex": -727.3,
             "strike": 720
           },
           {
-            "gex": -37.7,
+            "gex": -43.1,
             "strike": 721
           },
           {
-            "gex": -321.3,
+            "gex": -372.5,
             "strike": 722
           },
           {
-            "gex": -135.9,
+            "gex": -158.9,
             "strike": 723
           },
           {
-            "gex": -345,
+            "gex": -399.7,
             "strike": 724
           },
           {
-            "gex": -1179.3,
+            "gex": -1390.8,
             "strike": 725
           },
           {
-            "gex": -263.1,
+            "gex": -315.4,
             "strike": 726
           },
           {
-            "gex": -276,
+            "gex": -325.1,
             "strike": 727
           },
           {
-            "gex": -419.6,
+            "gex": -510,
             "strike": 728
           },
           {
-            "gex": -163.1,
+            "gex": -199.4,
             "strike": 729
           },
           {
-            "gex": -962.7,
+            "gex": -1182.2,
             "strike": 730
           },
           {
-            "gex": -46.4,
+            "gex": -59.6,
             "strike": 731
           },
           {
-            "gex": -188.8,
+            "gex": -241.4,
             "strike": 732
           },
           {
-            "gex": -232.7,
+            "gex": -303.4,
             "strike": 733
           },
           {
-            "gex": -230.4,
+            "gex": -292,
             "strike": 734
           },
           {
-            "gex": -517.9,
+            "gex": -647.6,
             "strike": 735
           },
           {
-            "gex": -325.6,
+            "gex": -424.3,
             "strike": 736
           },
           {
-            "gex": -131,
+            "gex": -172.4,
             "strike": 737
           },
           {
-            "gex": -74.2,
+            "gex": -105.4,
             "strike": 738
           },
           {
-            "gex": -168.2,
+            "gex": -236.1,
             "strike": 739
           },
           {
-            "gex": -615.8,
+            "gex": -803.8,
             "strike": 740
           },
           {
-            "gex": -32.3,
+            "gex": -55.1,
             "strike": 741
           },
           {
-            "gex": -51.7,
+            "gex": -78.4,
             "strike": 742
           },
           {
-            "gex": -19.6,
+            "gex": -44.9,
             "strike": 743
           },
           {
-            "gex": -47.7,
+            "gex": -70.3,
             "strike": 744
           },
           {
-            "gex": -276.1,
+            "gex": -376.3,
             "strike": 745
           },
           {
-            "gex": -9.6,
+            "gex": -22.6,
             "strike": 746
           },
           {
-            "gex": -20.2,
+            "gex": -31.9,
             "strike": 747
           },
           {
-            "gex": -22.5,
+            "gex": -35.5,
             "strike": 748
           },
           {
-            "gex": 41.1,
+            "gex": 27.5,
             "strike": 749
           },
           {
-            "gex": -302.3,
+            "gex": -378.3,
             "strike": 750
           },
           {
-            "gex": -26.5,
+            "gex": -33.5,
             "strike": 751
           },
           {
-            "gex": -4,
+            "gex": -9.1,
             "strike": 752
           },
           {
-            "gex": 9.2,
+            "gex": 11.2,
             "strike": 753
           },
           {
-            "gex": 6.1,
+            "gex": 5,
             "strike": 754
           },
           {
-            "gex": 0.2,
+            "gex": 100.2,
             "strike": 755
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 758.46,
-        "gexTotal": -10.76,
+        "gammaFlip": 761.86,
+        "gexTotal": -12.66,
         "indice": {
           "callWall": 7767,
-          "gammaFlip": 7601,
+          "gammaFlip": 7635,
           "maxPain": 7496,
           "precio": 7349,
           "putWall": 7266
@@ -1440,199 +1440,199 @@
         "vencimientoCercano": "2026-11-18"
       },
       "id": "SPX",
-      "lectura": "Son las 12:16 UTC del miércoles 18 de noviembre, en la apertura europea. El S&P 500 cerró ayer su cuarta sesión consecutiva en rojo (-1,03 %, en 7.340,53 puntos), con el VIX saltando un 11,1 % a 25,46. El repunte de Nvidia en premercado se ha moderado: los futuros del S&P 500 suben ahora un 0,4 % (antes un 0,7 %), con el Brent cayendo un 0,6 % hasta 92,60 $. El régimen de gamma sigue negativo, ahora en -10,76 mil M$ por 1 % (antes -9,3), con el giro de gamma en 7601, por encima del precio indicativo. El mercado sigue descontando un 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC). Sesgo: neutral.",
+      "lectura": "Son las 12:51 UTC del miércoles 18 de noviembre, antes de la apertura de EE. UU. (slot pre-ny). El S&P 500 cerró ayer su cuarta sesión consecutiva en rojo (-1,03 %, en 7.340,53 puntos), con el VIX en 25,46. El rebote inicial de Nvidia en premercado se ha moderado: los futuros suben ahora un 0,4 % (antes un 0,7 %). El régimen de gamma sigue negativo, ahora en -12,35 mil M$ por 1 % (antes -10,76), con el precio por debajo del giro de gamma en 7641. Pesa más el mensaje de línea dura de Alberto Musalem (Fed de San Luis), que pide varias subidas más antes de la primavera, reforzando el 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi; del calendario, lo que más pesa hoy son las actas del FOMC (19:00 UTC) y los datos de vivienda (13:30 UTC), aún pendientes. Sesgo: neutral.",
       "levels": {
         "callWall": 7767,
-        "gammaFlip": 7601,
+        "gammaFlip": 7635,
         "maxPain": 7496,
         "precio": 7349,
         "putWall": 7266
       },
       "name": "S&P 500",
-      "netGex": "negativa (-10,76 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-16)",
-      "precio": 7370,
+      "netGex": "negativa (-12.66 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-16)",
+      "precio": 7355,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -8,
+      "score": -12,
       "sesgo": "neutral",
-      "spot": 7370
+      "spot": 7355
     },
     {
-      "changeNote": "futuros, en vivo 12:16 Canarias",
-      "changePct": 0.9,
+      "changeNote": "futuros, en vivo 13:15 UTC",
+      "changePct": 0.6,
       "claves": [
-        "Call wall en 28767 (ETF QQQ 700,0 $); put wall en 27945 (ETF QQQ 680,0 $).",
-        "Giro de gamma (gamma flip) en 28399 (ETF QQQ 691,05 $).",
-        "Max pain en 27575 (ETF QQQ 671,0 $).",
-        "Régimen de gamma negativa, en -2,49 mil M$ por 1 %, put/call OI 1,86, open interest del 16 de noviembre."
+        "Call wall en 28767 (ETF QQQ 700 $); put wall en 27945 (ETF QQQ 680 $).",
+        "Giro de gamma no determinable con el open interest actual (dato no disponible en el motor).",
+        "Max pain en 27575 (ETF QQQ 671 $).",
+        "Régimen de gamma negativa, en -3.55 mil M$ por 1 %, put/call OI 1.86, open interest del 16 de noviembre."
       ],
       "gex": {
         "callWall": 700,
-        "contratos": 1549,
+        "contratos": 1597,
         "escalera": [
           {
-            "gex": -8.7,
+            "gex": -9.9,
             "strike": 639
           },
           {
-            "gex": -361.4,
+            "gex": -382.5,
             "strike": 640
           },
           {
-            "gex": -13.9,
+            "gex": -16.2,
             "strike": 641
           },
           {
-            "gex": -27.5,
+            "gex": -32.5,
             "strike": 642
           },
           {
-            "gex": -6.5,
+            "gex": -7.7,
             "strike": 643
           },
           {
-            "gex": -6.3,
+            "gex": -7.3,
             "strike": 644
           },
           {
-            "gex": -194.8,
+            "gex": -224.2,
             "strike": 645
           },
           {
-            "gex": -6.6,
+            "gex": -8,
             "strike": 646
           },
           {
-            "gex": -17.9,
+            "gex": -21.7,
             "strike": 647
           },
           {
-            "gex": -8.5,
+            "gex": -10.5,
             "strike": 648
           },
           {
-            "gex": -9.5,
+            "gex": -11.9,
             "strike": 649
           },
           {
-            "gex": -406.7,
+            "gex": -516.7,
             "strike": 650
           },
           {
-            "gex": -6.4,
+            "gex": -8.4,
             "strike": 651
           },
           {
-            "gex": -5.1,
+            "gex": -6.9,
             "strike": 652
           },
           {
-            "gex": -7.1,
+            "gex": -9.3,
             "strike": 653
           },
           {
-            "gex": -39.2,
+            "gex": -50.9,
             "strike": 654
           },
           {
-            "gex": -176.5,
+            "gex": -239.9,
             "strike": 655
           },
           {
-            "gex": -10.3,
+            "gex": -13.8,
             "strike": 656
           },
           {
-            "gex": -6.1,
+            "gex": -8.7,
             "strike": 657
           },
           {
-            "gex": -26.5,
+            "gex": -35.4,
             "strike": 658
           },
           {
-            "gex": -10.6,
+            "gex": -15.1,
             "strike": 659
           },
           {
-            "gex": -182.8,
+            "gex": -277.8,
             "strike": 660
           },
           {
-            "gex": -8.6,
+            "gex": -16.6,
             "strike": 661
           },
           {
-            "gex": 37.7,
+            "gex": 24.1,
             "strike": 662
           },
           {
-            "gex": -5,
+            "gex": -11.4,
             "strike": 663
           },
           {
-            "gex": -35.4,
+            "gex": -56.6,
             "strike": 664
           },
           {
-            "gex": 6.4,
+            "gex": -42.2,
             "strike": 665
           },
           {
-            "gex": 5.1,
+            "gex": -0.2,
             "strike": 666
           },
           {
-            "gex": -4.7,
+            "gex": -16.3,
             "strike": 667
           },
           {
-            "gex": -2.8,
+            "gex": -8,
             "strike": 668
           },
           {
-            "gex": -1.6,
+            "gex": -6.2,
             "strike": 669
           },
           {
-            "gex": -87.2,
+            "gex": -191,
             "strike": 670
           },
           {
-            "gex": 7.7,
+            "gex": 2,
             "strike": 671
           },
           {
-            "gex": -4.6,
+            "gex": -10.2,
             "strike": 672
           },
           {
-            "gex": -4.4,
+            "gex": -11.7,
             "strike": 673
           },
           {
-            "gex": -4,
+            "gex": -8.9,
             "strike": 674
           },
           {
-            "gex": -186.2,
+            "gex": -275.1,
             "strike": 675
           },
           {
-            "gex": 4.3,
+            "gex": -2.3,
             "strike": 676
           },
           {
-            "gex": -10.9,
+            "gex": -18.6,
             "strike": 677
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 691.05,
-        "gexTotal": -2.49,
+        "gammaFlip": null,
+        "gexTotal": -3.55,
         "indice": {
           "callWall": 28767,
-          "gammaFlip": 28399,
+          "gammaFlip": null,
           "maxPain": 27575,
           "precio": 27034,
           "putWall": 27945
@@ -1665,26 +1665,26 @@
         "vencimientoCercano": "2026-11-18"
       },
       "id": "NDX",
-      "lectura": "Son las 12:16 UTC del miércoles 18 de noviembre, en la apertura europea. El Nasdaq 100 cerró ayer en 27.001,78 puntos (-0,72 %). El repunte de Nvidia en premercado se ha moderado: los futuros del Nasdaq 100 suben ahora un 0,9 % (antes un 1,2 %), con el Brent cayendo un 0,6 % hasta 92,60 $. El régimen de gamma sigue negativo, ahora en -2,49 mil M$ por 1 % (antes -2,04). El mercado sigue descontando un 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican las actas de la Fed (19:00 UTC). Sesgo: neutral.",
+      "lectura": "Son las 12:51 UTC del miércoles 18 de noviembre, antes de la apertura de EE. UU. (slot pre-ny). El Nasdaq 100 cerró ayer en 27.001,78 puntos (-0,72 %). Sigue siendo el principal beneficiario del resultado de Nvidia (ingresos y guía por encima del consenso), aunque el rebote en premercado se ha moderado a +0,9 % (antes +1,2 %). El régimen de gamma sigue negativo, ahora en -3,51 mil M$ por 1 % (antes -2,49), con el giro de gamma no determinable con el open interest actual. Pesa más el mensaje duro de Alberto Musalem y el 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi; del calendario, lo que más pesa hoy son las actas del FOMC (19:00 UTC), aún pendientes. Sesgo: neutral.",
       "levels": {
         "callWall": 28767,
-        "gammaFlip": 28399,
+        "gammaFlip": null,
         "maxPain": 27575,
         "precio": 27034,
         "putWall": 27945
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-2,49 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-16)",
-      "precio": 27246,
+      "netGex": "negativa (-3.55 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-16)",
+      "precio": 27164,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -5,
+      "score": -11,
       "sesgo": "neutral",
-      "spot": 27246
+      "spot": 27164
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-18T08:54:33Z",
+    "actualizado": "2026-11-18T12:38:51Z",
     "balance": 6758.9,
     "d4": -27.7,
     "dBalance": 10.8,
@@ -1817,6 +1817,40 @@
     "tga": 914.4
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "Bloomberg",
+      "impacto": "medio",
+      "resumen": "Los futuros recortan ganancias desde +0,4 %/+0,9 % tras comentarios del gobernador de la Fed Christopher Waller, que advierte de que podrían ser necesarias más subidas de tipos para controlar la inflación.",
+      "titular": "Los futuros de Wall Street moderan aún más la subida, a +0,2 % (S&P) y +0,6 % (Nasdaq), por Waller",
+      "ts": "2026-11-18T13:05:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "CoinDesk / FXStreet",
+      "impacto": "medio",
+      "resumen": "CryptoQuant cifra en las mayores pérdidas no realizadas desde julio para los operadores de bitcoin, mientras el 'basis trade' se seca y persisten las salidas de ETF antes de las actas de la Fed.",
+      "titular": "Bitcoin cae por debajo de los 68.000 $ y sigue estancado cerca de 65.000 $ pese al alivio del Nasdaq",
+      "ts": "2026-11-18T12:50:00Z",
+      "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up"
+    },
+    {
+      "activos": {
+        "SPX": "neutral"
+      },
+      "fuente": "CNBC / Al Jazeera",
+      "impacto": "medio",
+      "resumen": "Trump llega a Shenzhen para la cumbre de la APEC antes de la histórica reunión trilateral del jueves con Xi Jinping y Putin, centrada en Irán y el control de armas nucleares; los analistas esperan pocos avances concretos.",
+      "titular": "Trump llega a China para la cumbre de la APEC, antesala de la reunión con Xi y Putin",
+      "ts": "2026-11-18T06:00:00Z",
+      "url": "https://cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+    },
     {
       "activos": {
         "NQ": "alcista",
@@ -1963,82 +1997,55 @@
       "titular": "Wall Street amplía las pérdidas antes de los resultados de Nvidia tras el cierre",
       "ts": "2026-11-17T20:00:00Z",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "XAU": "bajista"
-      },
-      "fuente": "FXStreet / Mitrade",
-      "impacto": "medio",
-      "resumen": "El oro ronda mínimos de un año cerca de 3.855 $ y bitcoin lucha por mantener el soporte de 63.000-64.000 $, con el VIX subiendo con fuerza en una jornada de aversión al riesgo generalizada.",
-      "titular": "El oro toca mínimos de un año y bitcoin se aferra a los 63.000 $ en un día de aversión al riesgo",
-      "ts": "2026-11-17T19:45:00Z",
-      "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-holds-63k-by-a-thread-as-markets-flash-risk-off-signals-across-stocks-gold-fx-and-crypto-202611171945"
-    },
-    {
-      "activos": {
-        "EURUSD": "alcista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "El índice dólar roza 103,80, su nivel más alto en 19 meses tras cinco sesiones al alza, mientras el euro recupera el nivel de 1,10 $ tras caer por debajo de 1,0970.",
-      "titular": "El dólar toca máximos de 19 meses (103,80) y cede parte de las ganancias antes de las actas de la Fed",
-      "ts": "2026-11-17T18:52:00Z",
-      "url": "https://www.fxstreet.com/news/forex-today-fomc-minutes-and-uk-cpi-come-to-the-fore-202611171852"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "TipRanks",
-      "impacto": "alto",
-      "resumen": "El S&P 500 y el Nasdaq profundizan las caídas de la mañana mientras el mercado espera los resultados de Nvidia tras el cierre.",
-      "titular": "Wall Street, nerviosa antes de Nvidia: el S&P 500 amplía sus pérdidas a media sesión",
-      "ts": "2026-11-17T17:30:00Z",
-      "url": "https://www.tipranks.com/news/stock-market-today-nov-17-u-s-stocks-jittery-ahead-of-nvidia-results"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1,26.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.26.",
         "valor": "7617"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1,26.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.26.",
         "valor": "7196"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1,26.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.26.",
         "valor": "7496"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1,83.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.83.",
         "valor": "28767"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1,83.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.83.",
         "valor": "25479"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1,83.",
+        "nota": "Vencimiento de hoy (2026-11-18), por open interest. Put/call OI: 1.83.",
         "valor": "27575"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 18 de noviembre (base open interest, recalculado por el motor a las 11:07 UTC): en el S&P 500, call wall en 7617, put wall en 7196 y max pain en 7496, con un put/call OI de 1,26. En el Nasdaq 100, call wall en 28767, put wall en 25479 y max pain en 27575, con un put/call OI de 1,83."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 18 de noviembre (base open interest, recalculado por el motor a las 13:09 UTC, sin cambios frente a la lectura anterior): en el S&P 500, call wall en 7617, put wall en 7196 y max pain en 7496, con un put/call OI de 1,26. En el Nasdaq 100, call wall en 28767, put wall en 25479 y max pain en 27575, con un put/call OI de 1,83. En ambos casos el giro de gamma 0DTE no está disponible con el open interest actual."
   },
   "politica": {
-    "actualizado": "2026-11-18T08:19:42Z",
+    "actualizado": "2026-11-18T13:15:30Z",
     "ajuste": -13,
     "declaraciones": [
+      {
+        "dicho": "Llega a Shenzhen para la cumbre de la APEC, antesala de su reunión trilateral con Xi Jinping y Putin centrada en Irán y el control de armas nucleares.",
+        "efecto": "neutral",
+        "fuente": "CNBC / Al Jazeera",
+        "quien": "Trump",
+        "ts": "2026-11-18T06:00:00Z",
+        "url": "https://cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+      },
       {
         "dicho": "Dice que harán falta varias subidas de tipos más antes de la primavera para controlar la inflación.",
         "efecto": "bajista",
@@ -2070,26 +2077,18 @@
         "quien": "Scott Bessent",
         "ts": "2026-11-15T15:00:00Z",
         "url": "https://fortune.com/2026/11/15/treasury-secretary-scott-bessent-nvidia-jensen-huang-nvidia-china-spy-scandal/"
-      },
-      {
-        "dicho": "Afirma que un superpetrolero golpeado por una mina se hundió el domingo en Ormuz.",
-        "efecto": "bajista",
-        "fuente": "oilprice.com / Pratidin Time",
-        "quien": "Guardia Revolucionaria de Irán",
-        "ts": "2026-11-15T20:00:00Z",
-        "url": "https://www.pratidintime.com/world/iran-oil-supertanker-sinks-strait-hormuz-mine-strike-12812946"
       }
     ],
     "efecto": "bajista",
-    "lectura": "El saldo político se mantiene en -13: el presidente de la Fed de San Luis, Alberto Musalem, repite su mensaje de línea dura (pide varias subidas más antes de la primavera), algo ya recogido en la probabilidad del 96,5 % de Kalshi, por lo que no cambia el ajuste; el oro ya ha reaccionado cayendo por debajo de los 3.800 $. Trump reconoce la división interna entre Bessent y Lutnick sobre los controles a chips a China sin inclinar la balanza; Bessent mantiene la presión sobre Nvidia aunque el consejo ya ha resuelto parte de la incertidumbre con Colette Kress y Harvey Jones al frente; Warsh no da pistas nuevas sobre diciembre; la escalada en el estrecho de Ormuz sigue sin resolverse; y la tregua comercial de He Lifeng con Bessent/Greer sigue siendo el principal contrapeso alcista.",
+    "lectura": "El saldo político se mantiene en -13: Trump llega a China para la cumbre de la APEC y la reunión trilateral del jueves con Xi Jinping y Putin, centrada en Irán y el control de armas nucleares, sin agenda comercial explícita y con expectativas bajas de avances, por lo que no mueve el ajuste; Musalem sigue insistiendo en varias subidas más de la Fed antes de la primavera, ya recogido en el 97,5 % de Kalshi; Bessent mantiene la presión sobre Nvidia aunque el consejo ya resolvió parte de la incertidumbre con Colette Kress y Harvey Jones al frente; la escalada en el estrecho de Ormuz sigue sin resolverse; y la tregua comercial de He Lifeng con Bessent/Greer sigue siendo el principal contrapeso alcista.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
         "efecto": "neutral",
-        "postura": "Reconoce la división entre Bessent y Lutnick sobre los controles a la exportación de chips a China; dice que decidirá él mismo.",
+        "postura": "Llega a China para la cumbre de la APEC y la reunión trilateral del jueves con Xi Jinping y Putin, centrada en Irán y armas nucleares; sin agenda comercial explícita y con expectativas bajas, según analistas.",
         "quien": "Trump",
-        "ts": "2026-11-17T10:00:00Z",
-        "url": "https://www.plataformamedia.com/en/2026/11/17/trump-acknowledges-internal-administration-debate-over-china-chip-controls/"
+        "ts": "2026-11-18T06:00:00Z",
+        "url": "https://cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
       },
       {
         "cargo": "Presidente de la Reserva Federal",
@@ -2133,60 +2132,60 @@
       }
     ]
   },
-  "resumen": "Son las 12:16 UTC (12:16 Canarias) del miércoles 18 de noviembre de 2026, en la apertura europea. Wall Street cerró ayer su cuarta sesión consecutiva en rojo (S&P 500 -1,03 % a 7.340,53; Nasdaq 100 -0,72 % a 27.001,78), con el VIX saltando un 11,1 % hasta 25,46. El impulso inicial de Nvidia en premercado (que llegó a subir un 3,7 % tras elevar su objetivo de ingresos a 2028) se ha moderado: los futuros del S&P 500 suben ahora un 0,4 % y los del Nasdaq 100 un 0,9 %. El Brent cae un 0,6 % hasta 92,60 $. El euro sigue cerca de mínimos de 19 meses (1,0960 $) y el dólar firme por la Fed más dura. Bitcoin cotiza en torno a 64.300-64.700 $, con el índice de miedo y codicia en 11 (miedo extremo) por sexto día consecutivo y salidas de ETF de 1.900 millones $ entre el 5 y el 13 de noviembre. El régimen de gamma sigue negativo en ambos índices (-10,76 SPX, -2,49 NDX mil M$ por 1 %) y el mercado descuenta un 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC).",
+  "resumen": "Son las 13:15 UTC (14:15 Canarias / 08:15 Nueva York) del miércoles 18 de noviembre de 2026, antes de la apertura de EE. UU. Wall Street cerró ayer su cuarta sesión consecutiva en rojo (S&P 500 -1,03 % a 7.340,53; Nasdaq 100 -0,72 % a 27.001,78), con el VIX saltando un 11,1 % hasta 25,46. Nvidia bate ampliamente las estimaciones del tercer trimestre y eleva su guía, en su primer informe sin Jensen Huang como consejero delegado, pero el rebote en premercado sigue moderándose: tras comentarios de línea dura del gobernador de la Fed Christopher Waller, los futuros del S&P 500 suben ahora solo un 0,2 % (antes 0,4 %) y los del Nasdaq 100 un 0,6 % (antes 0,9 %). El mercado descuenta ya un 97,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi (antes 96,5 %), con la tasa implícita estable en el 4,13 %. El oro sigue bajo 3.800 $ (mínimo de 14 meses), el dólar ronda máximos de 19 meses con el euro cerca de 1,0960 $, y bitcoin cae por debajo de los 68.000 $ y permanece estancado cerca de 65.000 $, con los operadores en las mayores pérdidas no realizadas desde julio según CryptoQuant. El régimen de gamma sigue negativo en ambos índices (-12,66 mil M$ por 1 % en el S&P 500, -3,55 en el Nasdaq 100, recalculado por el motor a las 13:09 UTC). Trump ha llegado a Shenzhen para la cumbre de la APEC, antesala de la histórica reunión trilateral del jueves con Xi Jinping y Putin centrada en Irán y el control de armas nucleares. Hoy quedan pendientes las viviendas iniciadas y los permisos de construcción (13:30 UTC) y, sobre todo, las actas de la Fed del 27-28 de octubre (19:00 UTC), el dato que más puede mover el mercado en lo que queda de sesión.",
   "semana": {
     "activos": [
       {
-        "cambio": "Mejora algo más, de -9 a -6 neutral: el consejo de Nvidia confirma a Colette Kress como CEO interina y a Harvey Jones como presidente, lo que despeja parte de la incertidumbre de liderazgo que pesaba sobre la acción, sumado al resultado del tercer trimestre muy por encima del consenso.",
-        "expectativa": "El Empire State y la producción industrial, muy flojos, ya pesaban a favor del S&P 500 esta semana; a eso se suma ahora el resultado de Nvidia (ingresos un 6 % por encima del consenso y guía del cuarto trimestre también por encima), el catalizador que más mueve el sesgo en las últimas horas.",
+        "cambio": "Mejora ligeramente respecto a la lectura anterior (de -6 a 0): el rebote tras los resultados de Nvidia se mantiene, aunque los futuros moderan la subida inicial (ahora +0,4 %, antes +0,7 %) a la espera de las actas de la Fed (19:00 UTC) y los datos de vivienda (13:30 UTC).",
+        "expectativa": "El calendario de esta semana sigue resultando algo más negativo para el dólar de lo previsto al inicio (saldo -23, esperado -15): el Empire State, la producción industrial y el NAHB decepcionaron con fuerza, lo que en teoría resta algo de soporte al dólar y ayuda al S&P 500; pero el bono a 10 años cerca del 5,15-5,17 % y el 96,5 % de probabilidad de una Fed más dura en diciembre siguen dominando, con las actas del FOMC de esta tarde como el dato que más puede mover el mercado.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana (16-20 de noviembre) sigue siendo algo más negativo para el dólar de lo previsto al inicio de semana (-23): el Empire State y la producción industrial decepcionaron con fuerza, y solo las ventas minoristas salieron en línea. Los tipos siguen dominando el fondo: el bono a 10 años cerca del 5,15-5,17 % y el 97,5 % de probabilidad de una Fed más dura en diciembre según Kalshi, con la gamma del S&P 500 en negativo y muy por debajo del giro (7.618). Pero el catalizador de las últimas horas cambia el tono a corto plazo: Nvidia, en su primer informe sin Jensen Huang como consejero delegado, bate ampliamente ingresos y beneficios y sube un 2-4 % fuera de hora, lo que debería traducirse en un rebote de apertura mañana tras tres sesiones consecutivas de pérdidas. Bessent mantiene la presión sobre el consejo de Nvidia y Trump reconoce la división interna con Lutnick sobre los controles a chips a China, focos de incertidumbre que persisten pese al alivio de los resultados.",
-        "score": -6,
+        "narrativa": "El calendario de la semana del 16 al 20 de noviembre sigue llegando más en contra del dólar de lo previsto al inicio (saldo del modelo -23 frente a un -15 esperado): el Empire State, la producción industrial y el NAHB decepcionaron con fuerza, y solo las ventas minoristas salieron en línea. Pese a ello, los tipos siguen dominando el fondo (bono a 10 años cerca del 5,15-5,17 %, 96,5 % de probabilidad de una Fed de Kevin Warsh más dura en diciembre según Kalshi, con Alberto Musalem insistiendo en varias subidas más), con la gamma del S&P 500 en negativo (-12,35 mil M$ por 1 %) y muy por debajo del giro (7641). El catalizador de las últimas horas sigue siendo Nvidia: en su primer informe sin Jensen Huang como consejero delegado, bate ampliamente ingresos y guía, aunque el rebote en premercado se modera a +0,4 % a la espera de las actas de la Fed de esta tarde (19:00 UTC) y los datos de vivienda (13:30 UTC).",
+        "score": 0,
         "scoreInicial": -25,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Mejora algo más, de -11 a -8 neutral: con Kress y Jones al frente de Nvidia -su mayor componente- y un resultado del tercer trimestre muy sólido, el principal foco de incertidumbre a corto plazo queda resuelto.",
-        "expectativa": "El calendario resta algo al dólar esta semana, lo que en teoría ayuda al Nasdaq 100, pero el verdadero motor de las próximas horas es el resultado de Nvidia (doble sorpresa positiva en ingresos y guía), no ningún dato macro.",
+        "cambio": "Mejora ligeramente (de -8 a 4): el Nasdaq 100 sigue siendo el principal beneficiario del resultado de Nvidia, con los futuros subiendo un 0,9 % (antes 1,2 %) pese a la moderación del rebote.",
+        "expectativa": "El calendario resta algo al dólar esta semana (saldo -23, esperado -15), lo que en teoría ayuda al Nasdaq 100, pero el verdadero motor de las próximas horas sigue siendo Nvidia (doble sorpresa positiva en ingresos y guía), con las actas de la Fed de esta tarde como principal riesgo pendiente.",
         "id": "NQ",
-        "narrativa": "El calendario de esta semana resulta algo más negativo para el dólar de lo previsto (-23), lo que en teoría favorece al Nasdaq 100. Los tipos (bono cerca del 5,15-5,17 %, 97,5 % de probabilidad de una Fed más dura en diciembre) y la gamma muy negativa (-4,09 mil M$ por 1 %) seguían amplificando las caídas en una semana que llegó a acercarse al peor noviembre del índice desde 2008. Pero el catalizador decisivo llega tras el cierre: Nvidia bate ampliamente las estimaciones del tercer trimestre (ingresos de 115.800 millones $ frente a 109.000 millones $ esperados) y eleva su guía del cuarto trimestre por encima del consenso, con la acción subiendo un 2-4 % fuera de hora en su primer informe sin Jensen Huang como consejero delegado. Bessent sigue presionando al consejo de Nvidia y Trump reconoce la división interna con Lutnick sobre los controles a la exportación de chips a China, pero el alivio de los resultados domina el sesgo a corto plazo.",
-        "score": -8,
+        "narrativa": "El calendario de esta semana resulta algo más negativo para el dólar de lo previsto (-23 frente a -15 esperado), lo que en teoría favorece al Nasdaq 100. Los tipos (bono cerca del 5,15-5,17 %, 96,5 % de probabilidad de una Fed más dura en diciembre) y la gamma negativa (-3,51 mil M$ por 1 %) siguen amplificando la cautela, en una semana que llegó a acercarse al peor noviembre del índice desde 2008. Pero el catalizador decisivo sigue siendo Nvidia: bate ampliamente las estimaciones del tercer trimestre (ingresos de 115.800 millones $ frente a 109.000 millones $ esperados) y eleva su guía del cuarto trimestre, con el Nasdaq 100 en futuros subiendo un 0,9 % tras moderarse el rebote inicial. Quedan pendientes las actas de la Fed (19:00 UTC).",
+        "score": 4,
         "scoreInicial": -29,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Se mantiene en torno a 0, neutral: los datos macro flojos de hoy (Empire State, producción industrial, NAHB) siguen dando algo de aire al oro frente a unos tipos que continúan altos; el resultado de Nvidia no afecta de forma directa al metal.",
-        "expectativa": "El calendario resulta algo más favorable al oro esta semana (dólar en -23), con el Empire State y la producción industrial como los datos que más pesan a su favor, aunque sin ser suficientes para inclinar la balanza hacia un sesgo claramente alcista.",
+        "cambio": "Empeora algo, de 0 a -3: el oro perfora los 3.800 $ (mínimo de 14 meses) tras los comentarios de línea dura de Alberto Musalem, que pide varias subidas más antes de la primavera.",
+        "expectativa": "El calendario resulta algo más favorable al oro esta semana (dólar en -23, esperado -15), con el Empire State y la producción industrial como los datos que más pesan a su favor, pero los tipos altos y el mensaje duro de la Fed siguen dominando el precio a corto plazo.",
         "id": "XAU",
-        "narrativa": "El calendario deja un saldo más negativo para el dólar de lo previsto esta semana (-23): el Empire State y la producción industrial decepcionaron con fuerza, lo que debería dar aire al oro. Pero el bono cerca del 5,15-5,17 % y el 97,5 % de probabilidad de una Fed más dura en diciembre siguen restando atractivo al oro sin rendimiento, que ronda mínimos de un año (unos 3.855 $). La escalada en el estrecho de Ormuz añade una prima de refugio moderada, y el apetito por riesgo que trae el resultado de Nvidia resta algo de demanda de refugio a corto plazo. El resultado es un sesgo neutral.",
-        "score": 0,
+        "narrativa": "El calendario deja un saldo más negativo para el dólar de lo previsto esta semana (-23 frente a -15 esperado), lo que en teoría debería dar aire al oro. Pero el bono a 10 años cerca del 5,15-5,17 %, el 96,5 % de probabilidad de una Fed más dura en diciembre y el mensaje de línea dura de Alberto Musalem (varias subidas más antes de la primavera) han llevado al oro a mínimos de 14 meses, por debajo de los 3.800 $. El apetito por riesgo que trae el resultado de Nvidia resta algo más de demanda de refugio a corto plazo, aunque la escalada en el estrecho de Ormuz mantiene una prima de refugio moderada. El resultado es un sesgo que se inclina algo a la baja.",
+        "score": -3,
         "scoreInicial": 4,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Mejora ligeramente desde el -20 de hace unas horas a un -16: el resultado de Nvidia aporta algo de apetito por riesgo general, pero las salidas de ETF, el miedo extremo y la ruptura de la media de 200 semanas siguen dominando el precio de bitcoin.",
-        "expectativa": "El Empire State y la producción industrial flojos, y ahora el resultado de Nvidia, son en teoría positivos para el apetito por riesgo, pero las salidas de ETF y el posicionamiento técnico negativo siguen pesando mucho más en bitcoin.",
+        "cambio": "Se mantiene bajista, en -17 (antes -16): el índice de miedo y codicia sigue en 11 (miedo extremo) por sexto día consecutivo y bitcoin continúa por debajo de su media de 200 semanas, sin que el alivio de Nvidia se traslade al activo.",
+        "expectativa": "El calendario favorece algo a bitcoin esta semana (dólar en -23, esperado -15) y el resultado de Nvidia aporta algo de apetito por riesgo general, pero las salidas de ETF (1.900 millones $ entre el 5 y el 13 de noviembre) y el posicionamiento técnico negativo siguen pesando mucho más.",
         "id": "BTC",
-        "narrativa": "El calendario favorece algo más a bitcoin esta semana de lo previsto (dólar en -23), y el resultado de Nvidia aporta algo de apetito por riesgo general a última hora. Pero el mercado sigue dominado por las salidas de ETF, el índice de miedo y codicia en niveles de miedo extremo, y bitcoin lucha por mantener el soporte de 63.000-64.000 $, por debajo de su media de 200 semanas (unos 68.000 $) por primera vez desde agosto. El sesgo sigue siendo bajista, aunque algo menos marcado que hace unas horas.",
-        "score": -16,
+        "narrativa": "El calendario favorece algo más a bitcoin esta semana de lo previsto (dólar en -23, esperado -15), y el resultado de Nvidia aporta algo de apetito por riesgo general. Pero el mercado sigue dominado por las salidas de ETF de bitcoin al contado (1.900 millones $ entre el 5 y el 13 de noviembre), el índice de miedo y codicia en niveles de miedo extremo (11) y el precio luchando por mantener el soporte de 63.000-64.000 $, por debajo de su media de 200 semanas (unos 68.000 $) desde agosto. El 96,5 % de probabilidad de una Fed más dura en diciembre añade presión adicional. El sesgo sigue siendo claramente bajista.",
+        "score": -17,
         "scoreInicial": -30,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Se mantiene en torno a 2, neutral: el petróleo cayó un 3,2 % el lunes pese a la tensión en el estrecho de Ormuz, señal de que el mercado pesa más el relato de exceso de oferta que la escalada bélica; el resultado de Nvidia no cambia este cuadro.",
-        "expectativa": "El calendario apenas mueve la aguja para el petróleo; la geopolítica de Ormuz y las expectativas de superávit de la AIE siguen siendo el motor principal.",
+        "cambio": "Se mantiene en torno a 5, neutral: el Brent cae un 0,6 % hasta 92,60 $, con el mercado restando peso a la tensión en el estrecho de Ormuz frente al relato de exceso de oferta.",
+        "expectativa": "El calendario apenas mueve la aguja para el petróleo esta semana; la geopolítica de Ormuz y las expectativas de superávit de la AIE para 2027 siguen siendo el motor principal, con el resultado de Nvidia sin relación directa con el crudo.",
         "id": "WTI",
-        "narrativa": "El calendario apenas resta al dólar de forma relevante para el petróleo, así que el motor sigue siendo la geopolítica y el balance de oferta: Irán mantiene sus reivindicaciones de ataques con minas en el estrecho de Ormuz, pero el precio cotiza cerca de 85 $ por barril, señal de que el mercado da más peso a la perspectiva de superávit de la AIE para 2027 que a la escalada. El sesgo queda en terreno neutral, con riesgo al alza si la escalada se confirma con fuentes independientes.",
-        "score": 2,
+        "narrativa": "El calendario apenas resta al dólar de forma relevante para el petróleo esta semana, así que el motor sigue siendo la geopolítica y el balance de oferta: Irán mantiene sus reivindicaciones de ataques con minas en el estrecho de Ormuz, pero el Brent cae un 0,6 % hasta 92,60 $, señal de que el mercado sigue dando más peso a la perspectiva de superávit de la AIE para 2027 que a la escalada. El sesgo queda en terreno neutral, con riesgo al alza si la escalada se confirma con fuentes independientes.",
+        "score": 5,
         "scoreInicial": 16,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Se mantiene en torno a -25, bajista: el ZEW de la eurozona bate con fuerza el consenso, pero la Fed de Warsh sigue dominando el par y el dólar se mantiene cerca de máximos de 19 meses; el resultado de Nvidia no tiene relación directa con el euro.",
-        "expectativa": "El ZEW, al batir ampliamente el consenso, es el dato que más pesa a favor del euro esta semana, aunque no alcanza para compensar la firmeza del dólar respaldada por la Fed.",
+        "cambio": "Se mantiene bajista, en -20 (antes -25): el euro ronda 1,0960 $, cerca de mínimos de 19 meses, con el dólar sostenido por el 96,5 % de probabilidad de una Fed más dura en diciembre.",
+        "expectativa": "El ZEW de la eurozona, al batir ampliamente el consenso (35,6 frente a 15,9 esperado), es el dato que más pesa a favor del euro esta semana, aunque no alcanza para compensar la firmeza del dólar respaldada por la Fed de Kevin Warsh.",
         "id": "EURUSD",
-        "narrativa": "El calendario resulta esta semana menos negativo para el euro de lo que parecía: el ZEW bate con fuerza el consenso (35,6 frente a 15,9 esperado), aunque la situación actual del índice sigue muy deprimida (-33,2). Al mismo tiempo, el Empire State y la producción industrial flojos en EE. UU. restan algo de soporte al dólar. Pese a ello, el dólar sigue firme cerca de máximos de 19 meses con la Fed de Kevin Warsh camino de subir en diciembre (97,5 % según Kalshi), mientras el BCE de Christine Lagarde se mantiene dependiente de los datos para su decisión de diciembre. El par cotiza cerca de 1,10 $, en mínimos de 19 meses. El sesgo sigue siendo bajista para el euro.",
-        "score": -25,
+        "narrativa": "El calendario resulta esta semana menos negativo para el euro de lo que parecía al inicio (euro en -33 frente al saldo dólar en -23, esperado -15): el ZEW bate con fuerza el consenso (35,6 frente a 15,9), aunque la situación actual del índice sigue muy deprimida (-33,2). Al mismo tiempo, el Empire State y la producción industrial flojos en EE. UU. restan algo de soporte al dólar. Pese a ello, el dólar sigue firme cerca de máximos de 19 meses con la Fed de Kevin Warsh camino de subir en diciembre (96,5 % según Kalshi, reforzado por el mensaje duro de Alberto Musalem), mientras el BCE de Christine Lagarde se mantiene dependiente de los datos para su decisión de diciembre. El par cotiza cerca de 1,0960 $, en mínimos de 19 meses. El sesgo sigue siendo bajista para el euro.",
+        "score": -20,
         "scoreInicial": -34,
         "sesgo": "bajista"
       }
@@ -2200,11 +2199,10 @@
         "WTI": 12,
         "XAU": 23
       },
-      "actualizado": "2026-11-17T21:50:00Z",
+      "actualizado": "2026-11-18T12:51:41Z",
       "dolar": -23,
       "dolarEsperado": -15,
-      "euro": -33,
-      "nota": "El balance del calendario para el dólar se mantiene en -23 (moderadamente negativo): el índice manufacturero Empire State (7,8 frente a un consenso de 10-18 según la fuente), la producción industrial (-0,4 %) y el índice NAHB (25, mínimo desde 2012) compensan con creces unas ventas minoristas en línea (+0,2 %). El balance de la eurozona es muy positivo para el euro por el fuerte ZEW (35,6 frente a 15,9 esperado), lo que explica que el dólar calculado solo quede en -23 pese al euro en -33. Sin cambios desde la última recalculación: no ha salido ningún dato nuevo de calendario desde entonces."
+      "euro": -33
     },
     "escenarios": [
       {
@@ -2308,13 +2306,13 @@
         "previsto": "sin consenso confirmado (cualitativo)"
       }
     ],
-    "narrativa": "El calendario de la semana del 16 al 20 de noviembre sigue llegando más en contra del dólar de lo previsto al inicio de semana (saldo del modelo -23): el índice manufacturero Empire State, la producción industrial y el índice NAHB decepcionaron con fuerza, y solo las ventas minoristas de octubre salieron en línea; en la eurozona, el ZEW bate ampliamente el consenso (35,6 frente a 15,9). Pese a ello, el bono a 10 años cerca del 5,15-5,17 % y el 97,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre mantienen el dólar cerca de máximos de 19 meses y el euro cerca de mínimos de 19 meses. Wall Street cerró su tercera sesión consecutiva en rojo (S&P 500 -1,02 %, Nasdaq 100 -0,72 %), pero el catalizador decisivo llega tras el cierre: Nvidia, en su primer informe sin Jensen Huang como consejero delegado, bate ampliamente ingresos y beneficios y eleva su guía del cuarto trimestre, con la acción subiendo un 2-4 % fuera de hora, lo que apunta a un rebote relevante en la apertura de mañana. Quedan pendientes las actas de la Fed del miércoles, las peticiones de subsidio del jueves y la confianza del consumidor de Michigan del viernes. Bitcoin sigue deprimido cerca de 63.000-64.000 $, por debajo de su media de 200 semanas, y el oro ronda mínimos de un año cerca de 3.855 $, con el petróleo cediendo pese a la tensión en el estrecho de Ormuz.",
+    "narrativa": "El calendario de la semana del 16 al 20 de noviembre sigue llegando más en contra del dólar de lo previsto al inicio de semana (saldo del modelo -23 frente a un -15 esperado): el índice manufacturero Empire State, la producción industrial y el índice NAHB decepcionaron con fuerza, y solo las ventas minoristas de octubre salieron en línea; en la eurozona, el ZEW bate ampliamente el consenso (35,6 frente a 15,9). Pese a ello, el bono a 10 años cerca del 5,15-5,17 % y el 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre (reforzado por el mensaje de línea dura de Alberto Musalem) mantienen el dólar cerca de máximos de 19 meses y el euro cerca de mínimos de 19 meses. Wall Street cerró su cuarta sesión consecutiva en rojo el martes, pero el catalizador decisivo llega tras el cierre: Nvidia, en su primer informe sin Jensen Huang como consejero delegado, bate ampliamente ingresos y beneficios y eleva su guía del cuarto trimestre; el rebote en premercado se modera esta mañana a +0,4 % (S&P 500) y +0,9 % (Nasdaq 100) a la espera de las actas de la Fed del miércoles (19:00 UTC) y los datos de vivienda (13:30 UTC). Bitcoin sigue deprimido cerca de 63.000-64.000 $, por debajo de su media de 200 semanas, y el oro ha perforado mínimos de 14 meses cerca de 3.800 $, con el petróleo cediendo un 0,6 % pese a la tensión en el estrecho de Ormuz.",
     "pesoCalendario": 0.4,
     "pesoMotivo": "Semana con más datos duros con previsión que la anterior, pero media docena de referencias -producción industrial, permisos de construccion, el índice NAHB y las actas de la Fed- no tienen cifra de consenso publicada, y el dato que más puede mover el mercado (las actas del FOMC del miércoles) es cualitativo, sin voto numérico. Con las señales del calendario mezcladas, siguen mandando más los tipos cerca del 5,17 %, la gamma negativa, los resultados de Nvidia de esta tarde y la escalada en el estrecho de Ormuz.",
     "rango": "16 a 20 de noviembre de 2026",
     "slot": "semanal",
-    "updatedAt": "2026-11-18T06:48:39Z"
+    "updatedAt": "2026-11-18T12:51:41Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-18T12:20:00.000000Z"
+  "updatedAt": "2026-11-18T13:15:30Z"
 }
