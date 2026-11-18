@@ -572,9 +572,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-18T07:53:05Z",
+    "actualizado": "2026-11-18T08:54:33Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su próxima reunión del 9 de diciembre se mantiene sin cambios en el 96,5 % (tasa implícita 4,13 %). Para enero de 2027 también se mantiene estable en el 94,0 % (tasa implícita 4,26 %), y para marzo de 2027 en el 95,5 % (tasa implícita 4,40 %): sin cambios frente a la última lectura.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su próxima reunión del 9 de diciembre se mantiene sin cambios en el 96,5 % (tasa implícita 4,13 %). Para enero de 2027 también se mantiene estable en el 94,0 % (tasa implícita 4,26 %), y para marzo de 2027 en el 95,5 % (tasa implícita 4,39 %): sin cambios frente a la última lectura.",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -595,7 +595,7 @@
         "fecha": "2027-03-17",
         "mantener": 0.5,
         "subir": 95.5,
-        "tasaImplicita": 4.4
+        "tasaImplicita": 4.39
       },
       {
         "bajar": 4.5,
@@ -1213,8 +1213,8 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 07:20 Canarias",
-      "changePct": 0.2,
+      "changeNote": "en vivo, 09:15 Canarias",
+      "changePct": 0,
       "claves": [
         "Call wall en 7767 (ETF SPY 775,0 $); put wall en 7266 (ETF SPY 725,0 $).",
         "Giro de gamma (gamma flip) en 7632 (ETF SPY 761,5 $).",
@@ -1440,7 +1440,7 @@
         "vencimientoCercano": "2026-11-18"
       },
       "id": "SPX",
-      "lectura": "Son las 07:20 UTC del miércoles 18 de noviembre, en la franja pre-Londres. Los futuros del S&P 500 cotizan al alza (+0,2 %, en torno a 7355) tras el cierre de ayer en 7.340,53 puntos (-1,03 %), su cuarta sesión consecutiva en rojo con el VIX saltando un 11,1 % a 25,46. Nvidia bate ampliamente ingresos (115.800 M$ frente a ~109.000 M$ esperados) y eleva su guía, con Colette Kress confirmada como consejera delegada interina y Harvey Jones como presidente del consejo, pero Bloomberg señala que las bolsas mundiales apenas reaccionan: persisten las dudas sobre el 'trade' de la IA y los futuros moderan sus subidas iniciales. El régimen de gamma sigue negativo (-12,19 mil M$ por 1 %), con el giro de gamma en 7632, por encima del precio indicativo. El bono a 10 años sigue cerca del 5,15-5,17 % con un 96,5 % de probabilidad de subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC). Sesgo: neutral a la espera de la apertura europea y, después, de Wall Street.",
+      "lectura": "Son las 09:15 UTC del miércoles 18 de noviembre, en la franja pre-Londres. El S&P 500 cerró ayer su cuarta sesión consecutiva en rojo (-1,03 %, en 7.340,53 puntos), con el VIX saltando un 11,1 % a 25,46. Nvidia batió ampliamente ingresos (115.800 M$ frente a unos 109.000 M$ esperados) y elevó su guía, con Colette Kress como consejera delegada interina y Harvey Jones como presidente del consejo, pero ha revertido su subida inicial de hasta el 3,8 % fuera de hora y ahora cae un 0,5 % por las dudas persistentes sobre la valoración de la IA, lo que modera el ánimo de los futuros del índice (en torno a plano). El régimen de gamma sigue negativo (-12,19 mil M$ por 1 %), con el giro de gamma en 7632, por encima del precio indicativo. El bono a 10 años sigue cerca del 5,15-5,17 % con un 96,5 % de probabilidad de subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC). Sesgo: neutral, pendiente de la apertura europea y de Wall Street.",
       "levels": {
         "callWall": 7767,
         "gammaFlip": 7632,
@@ -1450,16 +1450,16 @@
       },
       "name": "S&P 500",
       "netGex": "negativa (-12,19 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-16)",
-      "precio": 7355,
+      "precio": 7341,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -8,
       "sesgo": "neutral",
-      "spot": 7355
+      "spot": 7341
     },
     {
-      "changeNote": "en vivo, 07:20 Canarias",
-      "changePct": 0.5,
+      "changeNote": "en vivo, 09:15 Canarias",
+      "changePct": -0.1,
       "claves": [
         "Call wall en 28767 (ETF QQQ 700,0 $); put wall en 27945 (ETF QQQ 680,0 $).",
         "Giro de gamma (gamma flip) en 27920 (ETF QQQ 679,38 $).",
@@ -1665,7 +1665,7 @@
         "vencimientoCercano": "2026-11-18"
       },
       "id": "NDX",
-      "lectura": "Son las 07:20 UTC del miércoles 18 de noviembre, en la franja pre-Londres. Los futuros del Nasdaq 100 cotizan al alza (+0,5 %, en torno a 27137) tras el cierre de ayer en 27.001,78 puntos (-0,72 %). Nvidia, el mayor componente del índice, bate ampliamente ingresos y beneficios en su primer informe sin Jensen Huang como consejero delegado -ahora con Colette Kress como interina y Harvey Jones al frente del consejo-, pero Bloomberg señala que las bolsas mundiales apenas reaccionan y persisten las dudas sobre el 'trade' de la IA tras moderar los futuros sus subidas iniciales. El régimen de gamma sigue negativo (-1,45 mil M$ por 1 %). El mercado sigue descontando un 96,5 % de probabilidad de una subida de la Fed en diciembre según Kalshi. Hoy se publican las actas de la Fed (19:00 UTC). Sesgo: neutral a la espera de la apertura europea y, después, de Wall Street.",
+      "lectura": "Son las 09:15 UTC del miércoles 18 de noviembre, en la franja pre-Londres. El Nasdaq 100 cerró ayer en 27.001,78 puntos (-0,72 %). Nvidia, su mayor componente, batió ampliamente ingresos y beneficios en su primer informe sin Jensen Huang como consejero delegado -ahora con Colette Kress como interina y Harvey Jones al frente del consejo-, pero ha revertido su subida inicial de hasta el 3,8 % fuera de hora y ahora cae un 0,5 % por las dudas persistentes sobre la valoración de la IA, lo que deja a los futuros del índice prácticamente planos. El régimen de gamma sigue negativo (-1,45 mil M$ por 1 %). El mercado sigue descontando un 96,5 % de probabilidad de una subida de la Fed en diciembre según Kalshi. Hoy se publican las actas de la Fed (19:00 UTC). Sesgo: neutral, pendiente de la apertura europea y de Wall Street.",
       "levels": {
         "callWall": 28767,
         "gammaFlip": 27920,
@@ -1675,16 +1675,16 @@
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-1,45 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-16)",
-      "precio": 27137,
+      "precio": 26975,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -5,
       "sesgo": "neutral",
-      "spot": 27137
+      "spot": 26975
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-18T05:50:40Z",
+    "actualizado": "2026-11-18T08:54:33Z",
     "balance": 6758.9,
     "d4": -27.7,
     "dBalance": 10.8,
@@ -1817,6 +1817,18 @@
     "tga": 914.4
   },
   "noticias": [
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "Bloomberg",
+      "impacto": "medio",
+      "resumen": "Las acciones de Nvidia, que subían hasta un 3,8 % tras batir estimaciones del tercer trimestre, revierten la subida por las dudas persistentes sobre la valoración de la IA y el cambio de liderazgo.",
+      "titular": "Nvidia pierde todo el impulso inicial y pasa a caer un 0,5 % en premercado",
+      "ts": "2026-11-18T08:50:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates"
+    },
     {
       "activos": {
         "NQ": "alcista",
@@ -1985,17 +1997,6 @@
       "titular": "El Nasdaq abre al alza en una sesión errática, con los resultados de Nvidia en el punto de mira",
       "ts": "2026-11-17T14:31:00Z",
       "url": "https://www.marketscreener.com/news/nasdaq-opens-higher-in-choppy-trading-nvidia-earnings-in-focus-ce785edcdb81f621"
-    },
-    {
-      "activos": {
-        "BTC": "alcista"
-      },
-      "fuente": "CoinDesk",
-      "impacto": "medio",
-      "resumen": "Farside Investors registra una entrada neta de 7,9 millones $ el lunes, tras salidas semanales de 1.070 millones $.",
-      "titular": "Los ETF de bitcoin en EE. UU. ponen fin a su racha de salidas con una entrada neta el lunes",
-      "ts": "2026-11-17T14:30:00Z",
-      "url": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends"
     }
   ],
   "odte": {
@@ -2031,7 +2032,7 @@
         "valor": "27575"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 18 de noviembre (base open interest, recalculado por el motor a las 06:51 UTC): en el S&P 500, call wall en 7617, put wall en 7196 y max pain en 7496, con un put/call OI de 1,26. En el Nasdaq 100, call wall en 28767, put wall en 25479 y max pain en 27575, con un put/call OI de 1,83."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 18 de noviembre (base open interest, recalculado por el motor a las 08:54 UTC): en el S&P 500, call wall en 7617, put wall en 7196 y max pain en 7496, con un put/call OI de 1,26. En el Nasdaq 100, call wall en 28767, put wall en 25479 y max pain en 27575, con un put/call OI de 1,83."
   },
   "politica": {
     "actualizado": "2026-11-18T08:19:42Z",
@@ -2131,7 +2132,7 @@
       }
     ]
   },
-  "resumen": "Son las 08:19 UTC (08:19 Canarias) del miércoles 18 de noviembre de 2026, en la franja pre-Londres. Wall Street cerró ayer su cuarta sesión consecutiva en rojo (S&P 500 -1,03 % a 7.340,53; Nasdaq 100 -0,72 % a 27.001,78), con el VIX saltando un 11,1 % hasta 25,46. Tras el cierre, Nvidia batió ampliamente las estimaciones del tercer trimestre (ingresos de 115.800 millones $ frente a unos 109.000 millones $ esperados) y elevó su guía, con Colette Kress como consejera delegada interina y Harvey Jones como presidente del consejo, pero las bolsas mundiales apenas reaccionan: los futuros del Nasdaq 100 suben un 0,5 % y los del S&P 500 un 0,2 %, con persistentes dudas sobre el 'trade' de la IA. Entre tanto, el oro se ha hundido por debajo de los 3.800 $ (mínimo de 14 meses) de madrugada, tras nuevos comentarios de línea dura de la Fed (Musalem pide más subidas antes de la primavera); el dólar sigue cerca de máximos de 19 meses y bitcoin se mantiene deprimido cerca de 63.000-64.000 $. El régimen de gamma sigue negativo en ambos índices y el mercado descuenta un 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC), con el mercado a la espera del impulso de Nvidia en la apertura europea y, después, en Wall Street.",
+  "resumen": "Son las 09:15 UTC (09:15 Canarias) del miércoles 18 de noviembre de 2026, en la franja pre-Londres. Wall Street cerró ayer su cuarta sesión consecutiva en rojo (S&P 500 -1,03 % a 7.340,53; Nasdaq 100 -0,72 % a 27.001,78), con el VIX saltando un 11,1 % hasta 25,46. Tras el cierre, Nvidia batió ampliamente las estimaciones del tercer trimestre (ingresos de 115.800 millones $ frente a unos 109.000 millones $ esperados) y elevó su guía, con Colette Kress como consejera delegada interina y Harvey Jones como presidente del consejo; la acción llegó a subir un 3,8 % fuera de hora, pero ha revertido esa subida y ahora cae un 0,5 % por las dudas persistentes sobre la valoración de la IA, lo que deja a los futuros de ambos índices prácticamente planos. El oro sigue hundido por debajo de los 3.800 $ (mínimo de 14 meses) tras nuevos comentarios de línea dura de la Fed (Musalem pide más subidas antes de la primavera); el dólar sigue cerca de máximos de 19 meses y bitcoin se mantiene deprimido cerca de 63.000-64.000 $. El régimen de gamma sigue negativo en ambos índices y el mercado descuenta un 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC), con el mercado a la espera de la apertura europea y, después, de Wall Street.",
   "semana": {
     "activos": [
       {
@@ -2314,5 +2315,5 @@
     "updatedAt": "2026-11-18T06:48:39Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-18T08:19:42Z"
+  "updatedAt": "2026-11-18T09:18:00Z"
 }
