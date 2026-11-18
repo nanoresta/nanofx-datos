@@ -1213,8 +1213,8 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 09:15 Canarias",
-      "changePct": 0,
+      "changeNote": "futuros, en vivo 10:18 Canarias",
+      "changePct": 0.7,
       "claves": [
         "Call wall en 7767 (ETF SPY 775,0 $); put wall en 7266 (ETF SPY 725,0 $).",
         "Giro de gamma (gamma flip) en 7632 (ETF SPY 761,5 $).",
@@ -1440,7 +1440,7 @@
         "vencimientoCercano": "2026-11-18"
       },
       "id": "SPX",
-      "lectura": "Son las 09:15 UTC del miércoles 18 de noviembre, en la franja pre-Londres. El S&P 500 cerró ayer su cuarta sesión consecutiva en rojo (-1,03 %, en 7.340,53 puntos), con el VIX saltando un 11,1 % a 25,46. Nvidia batió ampliamente ingresos (115.800 M$ frente a unos 109.000 M$ esperados) y elevó su guía, con Colette Kress como consejera delegada interina y Harvey Jones como presidente del consejo, pero ha revertido su subida inicial de hasta el 3,8 % fuera de hora y ahora cae un 0,5 % por las dudas persistentes sobre la valoración de la IA, lo que modera el ánimo de los futuros del índice (en torno a plano). El régimen de gamma sigue negativo (-12,19 mil M$ por 1 %), con el giro de gamma en 7632, por encima del precio indicativo. El bono a 10 años sigue cerca del 5,15-5,17 % con un 96,5 % de probabilidad de subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC). Sesgo: neutral, pendiente de la apertura europea y de Wall Street.",
+      "lectura": "Son las 10:18 UTC del miércoles 18 de noviembre, en la franja pre-Londres/apertura europea. El S&P 500 cerró ayer su cuarta sesión consecutiva en rojo (-1,03 %, en 7.340,53 puntos), con el VIX saltando un 11,1 % a 25,46. Nvidia ha revertido la volatilidad de las últimas horas y ahora sube un 3,7 % en premercado tras elevar su objetivo de ingresos para 2028 en su primer informe sin Jensen Huang como consejero delegado (con Colette Kress como CEO interina y Harvey Jones como presidente del consejo); los futuros del S&P 500 suben un 0,7 %. El mercado también sigue de cerca la fijación de precio de la OPV de Anthropic. El régimen de gamma sigue negativo (-12,19 mil M$ por 1 %), con el giro de gamma en 7632, por encima del precio indicativo. El bono a 10 años cerca del 5,11-5,15 % con un 96,5 % de probabilidad de subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC). Sesgo: neutral, con sesgo alcista a corto plazo por el rebote de Nvidia.",
       "levels": {
         "callWall": 7767,
         "gammaFlip": 7632,
@@ -1458,8 +1458,8 @@
       "spot": 7341
     },
     {
-      "changeNote": "en vivo, 09:15 Canarias",
-      "changePct": -0.1,
+      "changeNote": "futuros, en vivo 10:18 Canarias",
+      "changePct": 1.2,
       "claves": [
         "Call wall en 28767 (ETF QQQ 700,0 $); put wall en 27945 (ETF QQQ 680,0 $).",
         "Giro de gamma (gamma flip) en 27920 (ETF QQQ 679,38 $).",
@@ -1665,7 +1665,7 @@
         "vencimientoCercano": "2026-11-18"
       },
       "id": "NDX",
-      "lectura": "Son las 09:15 UTC del miércoles 18 de noviembre, en la franja pre-Londres. El Nasdaq 100 cerró ayer en 27.001,78 puntos (-0,72 %). Nvidia, su mayor componente, batió ampliamente ingresos y beneficios en su primer informe sin Jensen Huang como consejero delegado -ahora con Colette Kress como interina y Harvey Jones al frente del consejo-, pero ha revertido su subida inicial de hasta el 3,8 % fuera de hora y ahora cae un 0,5 % por las dudas persistentes sobre la valoración de la IA, lo que deja a los futuros del índice prácticamente planos. El régimen de gamma sigue negativo (-1,45 mil M$ por 1 %). El mercado sigue descontando un 96,5 % de probabilidad de una subida de la Fed en diciembre según Kalshi. Hoy se publican las actas de la Fed (19:00 UTC). Sesgo: neutral, pendiente de la apertura europea y de Wall Street.",
+      "lectura": "Son las 10:18 UTC del miércoles 18 de noviembre, en la franja pre-Londres/apertura europea. El Nasdaq 100 cerró ayer en 27.001,78 puntos (-0,72 %). Nvidia, su mayor componente, ha revertido la volatilidad de las últimas horas y ahora sube un 3,7 % en premercado tras elevar su objetivo de ingresos para 2028 en su primer informe sin Jensen Huang como consejero delegado (Colette Kress como CEO interina, Harvey Jones como presidente del consejo); los futuros del Nasdaq 100 suben un 1,2 %. El mercado también sigue de cerca la fijación de precio de la OPV de Anthropic. El régimen de gamma sigue negativo (-1,45 mil M$ por 1 %). El mercado sigue descontando un 96,5 % de probabilidad de una subida de la Fed en diciembre según Kalshi. Hoy se publican las actas de la Fed (19:00 UTC). Sesgo: neutral, con sesgo alcista a corto plazo por el rebote de Nvidia.",
       "levels": {
         "callWall": 28767,
         "gammaFlip": 27920,
@@ -1817,6 +1817,29 @@
     "tga": 914.4
   },
   "noticias": [
+    {
+      "activos": {
+        "EURUSD": "bajista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El euro pierde un 0,3 % y toca 1,0960 $, su nivel más bajo en 19 meses, mientras el dólar se refuerza por las expectativas de una Fed de Warsh más dura.",
+      "titular": "El euro cae a un nuevo mínimo de 19 meses, cerca de 1,0960 $, por la Fed más dura",
+      "ts": "2026-11-18T09:27:00Z",
+      "url": "https://fxstreet.com/news/eur-usd-price-forecast-downside-extends-to-near-10960-as-us-dollar-rallies-further-202611180927"
+    },
+    {
+      "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "Yahoo Finance",
+      "impacto": "alto",
+      "resumen": "Los futuros del S&P 500 suben un 0,7 % y los del Nasdaq 100 un 1,2 % tras el nuevo objetivo de ingresos de Nvidia para 2028, con el mercado también pendiente de la fijación de precio de la OPV de Anthropic.",
+      "titular": "Nvidia rebota un 3,7 % en premercado tras elevar su objetivo de ingresos a 2028",
+      "ts": "2026-11-18T09:06:00Z",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-anthropic-ipo-090613569.html"
+    },
     {
       "activos": {
         "NQ": "bajista",
@@ -1974,29 +1997,6 @@
       "titular": "La confianza de los constructores de viviendas (NAHB) cae a mínimos desde 2012",
       "ts": "2026-11-17T15:05:00Z",
       "url": "https://www.riotimesonline.com/united-states-nahb-housing-market-index-november-2026/"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "Yahoo Finance / Reuters",
-      "impacto": "alto",
-      "resumen": "El S&P 500 abrió casi plano (7.411,02 puntos) pero las pérdidas superan el 1 % a media sesión, con Nvidia presentando resultados hacia las 21:20 UTC.",
-      "titular": "Las caídas se aceleran en Wall Street antes de los resultados de Nvidia: el S&P 500 pierde más del 1 % a media mañana",
-      "ts": "2026-11-17T14:38:00Z",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
-    },
-    {
-      "activos": {
-        "NQ": "alcista"
-      },
-      "fuente": "MarketScreener",
-      "impacto": "medio",
-      "resumen": "El índice retomó las compras brevemente al abrir tras dos sesiones de fuertes pérdidas, con mucha volatilidad antes del informe de Nvidia de esta tarde.",
-      "titular": "El Nasdaq abre al alza en una sesión errática, con los resultados de Nvidia en el punto de mira",
-      "ts": "2026-11-17T14:31:00Z",
-      "url": "https://www.marketscreener.com/news/nasdaq-opens-higher-in-choppy-trading-nvidia-earnings-in-focus-ce785edcdb81f621"
     }
   ],
   "odte": {
@@ -2132,7 +2132,7 @@
       }
     ]
   },
-  "resumen": "Son las 09:15 UTC (09:15 Canarias) del miércoles 18 de noviembre de 2026, en la franja pre-Londres. Wall Street cerró ayer su cuarta sesión consecutiva en rojo (S&P 500 -1,03 % a 7.340,53; Nasdaq 100 -0,72 % a 27.001,78), con el VIX saltando un 11,1 % hasta 25,46. Tras el cierre, Nvidia batió ampliamente las estimaciones del tercer trimestre (ingresos de 115.800 millones $ frente a unos 109.000 millones $ esperados) y elevó su guía, con Colette Kress como consejera delegada interina y Harvey Jones como presidente del consejo; la acción llegó a subir un 3,8 % fuera de hora, pero ha revertido esa subida y ahora cae un 0,5 % por las dudas persistentes sobre la valoración de la IA, lo que deja a los futuros de ambos índices prácticamente planos. El oro sigue hundido por debajo de los 3.800 $ (mínimo de 14 meses) tras nuevos comentarios de línea dura de la Fed (Musalem pide más subidas antes de la primavera); el dólar sigue cerca de máximos de 19 meses y bitcoin se mantiene deprimido cerca de 63.000-64.000 $. El régimen de gamma sigue negativo en ambos índices y el mercado descuenta un 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC), con el mercado a la espera de la apertura europea y, después, de Wall Street.",
+  "resumen": "Son las 10:18 UTC (10:18 Canarias) del miércoles 18 de noviembre de 2026, en la franja pre-Londres/apertura europea. Wall Street cerró ayer su cuarta sesión consecutiva en rojo (S&P 500 -1,03 % a 7.340,53; Nasdaq 100 -0,72 % a 27.001,78), con el VIX saltando un 11,1 % hasta 25,46. Nvidia, que llegó a revertir su subida inicial tras los resultados, ha vuelto a girar al alza y ahora sube un 3,7 % en premercado tras elevar su objetivo de ingresos para 2028; los futuros del S&P 500 suben un 0,7 % y los del Nasdaq 100 un 1,2 %, con el mercado también pendiente de la fijación de precio de la próxima OPV de Anthropic. El euro ha marcado un nuevo mínimo de 19 meses cerca de 1,0960 $ y el dólar sigue firme por las expectativas de una Fed de Kevin Warsh más dura. El oro sigue hundido por debajo de los 3.800 $ (mínimo de 14 meses) tras los comentarios de línea dura de Musalem; bitcoin se mantiene deprimido cerca de 63.000-65.000 $ con nuevas salidas de ETF. El régimen de gamma sigue negativo en ambos índices y el mercado descuenta un 96,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre según Kalshi. Hoy se publican los datos de vivienda (13:30 UTC) y las actas de la Fed (19:00 UTC), con el mercado a la espera de la apertura europea y, después, de Wall Street.",
   "semana": {
     "activos": [
       {
@@ -2315,5 +2315,5 @@
     "updatedAt": "2026-11-18T06:48:39Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-18T09:18:00Z"
+  "updatedAt": "2026-11-18T10:18:05Z"
 }
