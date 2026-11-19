@@ -572,9 +572,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-19T13:56:09Z",
+    "actualizado": "2026-11-19T14:57:05Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene estable en el 97,5 % (tasa implícita 4,13 %), sin cambios frente a la última lectura. Para la reunión de abril de 2027 la probabilidad de otra subida repunta ligeramente al 95,0 % (antes 94,0 %), con la tasa implícita sin cambios en el 4,37 %.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene estable en el 97,5 % (tasa implícita 4,13 %), sin cambios. Para la reunión de abril de 2027 la probabilidad de otra subida se mantiene en el 95,0 % (tasa implícita 4,38 %, prácticamente sin cambios).",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -602,7 +602,7 @@
         "fecha": "2027-04-28",
         "mantener": 1,
         "subir": 95,
-        "tasaImplicita": 4.37
+        "tasaImplicita": 4.38
       },
       {
         "bajar": 100,
@@ -845,204 +845,204 @@
   ],
   "indices": [
     {
-      "changeNote": "futuros ES en preapertura de Wall Street (pre-NY); cierre de Wall Street el miércoles en 7.324 (-0,23 %), con el impulso de la OPV de Anthropic y el resultado de Nvidia sosteniendo el +1,1 %",
-      "changePct": 1.1,
+      "changeNote": "en vivo (vía SPY, ~15 min de retraso), 15:15 Canarias; cierre de Wall Street el miércoles en 7.323,63 (-0,23 %)",
+      "changePct": 0.7,
       "claves": [
-        "Call wall en 7517 (ETF SPY 750 $); put wall en 7316 (ETF SPY 730 $),",
-        "Giro de gamma (gamma flip) en 7506 (ETF SPY 748,96 $),",
-        "Max pain en 7417 (ETF SPY 740 $),",
-        "Régimen de gamma negativa, en -6,38 mil M$ por 1 %, put/call OI 1,59, open interest del 17 de noviembre,"
+        "Call wall en 7521 (ETF SPY 750 $); put wall en 7320 (ETF SPY 730 $),",
+        "Giro de gamma (gamma flip) en 7524 (ETF SPY 750,28 $),",
+        "Max pain en 7421 (ETF SPY 740 $),",
+        "Régimen de gamma negativa, en -7,93 mil M$ por 1 %, put/call OI 1,61, open interest del 17 de noviembre,"
       ],
       "gex": {
         "callWall": 750,
-        "contratos": 1555,
+        "contratos": 1593,
         "escalera": [
           {
-            "gex": -237.8,
+            "gex": -109.9,
+            "strike": 714
+          },
+          {
+            "gex": -455.2,
+            "strike": 715
+          },
+          {
+            "gex": -258.1,
             "strike": 716
           },
           {
-            "gex": -53.1,
+            "gex": -57.5,
             "strike": 717
           },
           {
-            "gex": -328,
+            "gex": -356.6,
             "strike": 718
           },
           {
-            "gex": -56.7,
+            "gex": -61.3,
             "strike": 719
           },
           {
-            "gex": -779,
+            "gex": -843.7,
             "strike": 720
           },
           {
-            "gex": -33.7,
+            "gex": -35.4,
             "strike": 721
           },
           {
-            "gex": -309.2,
+            "gex": -341.5,
             "strike": 722
           },
           {
-            "gex": -112.2,
+            "gex": -123.1,
             "strike": 723
           },
           {
-            "gex": -317.3,
+            "gex": -348.4,
             "strike": 724
           },
           {
-            "gex": -883.4,
+            "gex": -973.4,
             "strike": 725
           },
           {
-            "gex": -258.9,
+            "gex": -284.8,
             "strike": 726
           },
           {
-            "gex": -262.2,
+            "gex": -284.6,
             "strike": 727
           },
           {
-            "gex": -380.8,
+            "gex": -418.3,
             "strike": 728
           },
           {
-            "gex": -164.6,
+            "gex": -178.7,
             "strike": 729
           },
           {
-            "gex": -831.6,
+            "gex": -627.6,
             "strike": 730
           },
           {
-            "gex": -40.3,
+            "gex": 4.1,
             "strike": 731
           },
           {
-            "gex": -157.1,
+            "gex": -122.4,
             "strike": 732
           },
           {
-            "gex": -200.7,
+            "gex": -104.2,
             "strike": 733
           },
           {
-            "gex": -115,
+            "gex": -143.1,
             "strike": 734
           },
           {
-            "gex": -188.9,
+            "gex": -307.9,
             "strike": 735
           },
           {
-            "gex": -168.9,
+            "gex": -248.1,
             "strike": 736
           },
           {
-            "gex": -32.6,
+            "gex": -69.2,
             "strike": 737
           },
           {
-            "gex": 33.7,
+            "gex": -2.6,
             "strike": 738
           },
           {
-            "gex": -22.6,
+            "gex": -83.2,
             "strike": 739
           },
           {
-            "gex": -115.2,
+            "gex": -258,
             "strike": 740
           },
           {
-            "gex": 43.7,
+            "gex": 13.2,
             "strike": 741
           },
           {
-            "gex": 37.9,
+            "gex": 6.4,
             "strike": 742
           },
           {
-            "gex": 62.8,
+            "gex": 30,
             "strike": 743
           },
           {
-            "gex": 31.9,
+            "gex": 6.6,
             "strike": 744
           },
           {
-            "gex": 63.7,
+            "gex": -30.9,
             "strike": 745
           },
           {
-            "gex": 43,
+            "gex": 22.4,
             "strike": 746
           },
           {
-            "gex": 89.3,
+            "gex": 63.4,
             "strike": 747
           },
           {
-            "gex": 40.4,
+            "gex": 20.6,
             "strike": 748
           },
           {
-            "gex": 106.2,
+            "gex": 79.6,
             "strike": 749
           },
           {
-            "gex": 125.8,
+            "gex": -16.6,
             "strike": 750
           },
           {
-            "gex": 21.9,
+            "gex": 5.6,
             "strike": 751
           },
           {
-            "gex": 38.3,
+            "gex": 20.9,
             "strike": 752
           },
           {
-            "gex": 45.5,
+            "gex": 31.4,
             "strike": 753
           },
           {
-            "gex": 42.4,
+            "gex": 29.3,
             "strike": 754
           },
           {
-            "gex": 88.5,
+            "gex": 42.8,
             "strike": 755
           },
           {
-            "gex": 20.9,
+            "gex": 9.4,
             "strike": 756
           },
           {
-            "gex": -47.3,
+            "gex": -61.6,
             "strike": 757
-          },
-          {
-            "gex": 26.2,
-            "strike": 758
-          },
-          {
-            "gex": 15,
-            "strike": 759
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 748.96,
-        "gexTotal": -6.38,
+        "gammaFlip": 750.28,
+        "gexTotal": -7.93,
         "indice": {
-          "callWall": 7517,
-          "gammaFlip": 7506,
-          "maxPain": 7417,
-          "precio": 7394,
-          "putWall": 7316
+          "callWall": 7521,
+          "gammaFlip": 7524,
+          "maxPain": 7421,
+          "precio": 7378,
+          "putWall": 7320
         },
         "maxPain": 740,
         "odte": {
@@ -1052,10 +1052,10 @@
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 7497,
+            "callWall": 7501,
             "gammaFlip": null,
-            "maxPain": 7417,
-            "putWall": 7086
+            "maxPain": 7421,
+            "putWall": 7090
           },
           "maxPain": 740,
           "pcrOI": 1.02,
@@ -1063,215 +1063,215 @@
           "vencimiento": "2026-11-19"
         },
         "oiFecha": "2026-11-17",
-        "pcrOI": 1.59,
-        "precio": 737.74,
+        "pcrOI": 1.61,
+        "precio": 735.77,
         "putWall": 730,
-        "ratioFecha": "2026-11-17",
-        "ratioIndice": 10.0224,
+        "ratioFecha": "2026-11-18",
+        "ratioIndice": 10.0278,
         "regimen": "negativa",
         "vencimientoCercano": "2026-11-19"
       },
       "id": "SPX",
-      "lectura": "Son las 13:50 UTC (08:50 Nueva York) del jueves 19 de noviembre, en la preapertura de Wall Street. Los futuros del S&P 500 suben un 1,1 % hasta unos 7.405 puntos, sostenidos por el debut bursátil de Anthropic (OPV a 83 $, la mayor de la historia) y el resultado de Nvidia. El régimen de gamma sigue negativo (-5,39 mil M$ por 1 %) y el precio queda por debajo del giro de gamma en 7.498, lo que puede amplificar el movimiento si se pierde el put wall en 7.316 o se acerca al call wall en 7.517. Acaban de publicarse las peticiones semanales de subsidio por desempleo (203.000, por encima de la previsión de 199.000 y del dato anterior), un deterioro leve que resta algo de apoyo al dólar. La Fed de Kevin Warsh sigue siendo el principal lastre: las actas del FOMC, más duras de lo esperado, y las declaraciones de Waller y Musalem mantienen en el 97,5 % la probabilidad de una subida el 9 de diciembre; Bessent contrapesa pidiendo prudencia por el shock energético de Irán, y la cumbre de Shenzhen entre Trump, Xi y Putin cerró con una declaración conjunta que descarta la guerra nuclear. Sesgo: neutral, con riesgo bajista si pesa más la Fed dura que el impulso de Anthropic/Nvidia.",
+      "lectura": "Son las 15:15 UTC (10:15 Nueva York) del jueves 19 de noviembre, con Wall Street ya abierto. El S&P 500 cotiza en torno a 7.378 puntos, un 0,7 % por encima del cierre del miércoles, sostenido por el debut bursátil de Anthropic (OPV a 83 $, la mayor de la historia) y el resultado de Nvidia, aunque modera la subida frente al arranque de la sesión. El régimen de gamma sigue negativo (-7,93 mil M$ por 1 %) y el precio queda por debajo del giro de gamma en 7.524, lo que puede amplificar el movimiento si se pierde el put wall en 7.320 o se acerca al call wall en 7.521. Las peticiones semanales de subsidio por desempleo (203.000, por encima de la previsión) y las actas duras del FOMC mantienen en el 97,5 % la probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre; Bessent pide prudencia por el shock energético de Irán, y la cumbre de Shenzhen entre Trump, Xi y Putin cerró con una declaración conjunta que descarta la guerra nuclear. Sesgo: neutral, con riesgo bajista si pesa más la Fed dura que el impulso de Anthropic/Nvidia.",
       "levels": {
-        "callWall": 7517,
-        "gammaFlip": 7506,
-        "maxPain": 7417,
-        "precio": 7405,
-        "putWall": 7316
+        "callWall": 7521,
+        "gammaFlip": 7524,
+        "maxPain": 7421,
+        "precio": 7378,
+        "putWall": 7320
       },
       "name": "S&P 500",
-      "netGex": "negativa (-6,38 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-17)",
-      "precio": 7405,
+      "netGex": "negativa (-7,93 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-17)",
+      "precio": 7378,
       "regime": "negativa",
       "regimen": "negativa",
       "score": 11,
       "sesgo": "neutral",
-      "spot": 7405
+      "spot": 7378
     },
     {
-      "changeNote": "futuros NQ en preapertura de Wall Street (pre-NY); cierre de Wall Street el miércoles en 27.100 (+0,3 %), acelerando al alza por la IPO histórica de Anthropic y el resultado de Nvidia",
-      "changePct": 2.1,
+      "changeNote": "en vivo (vía QQQ, ~15 min de retraso), 15:15 Canarias; cierre de Wall Street el miércoles en 27.100 (+0,3 %)",
+      "changePct": 1.7,
       "claves": [
-        "Call wall y put wall coinciden en 27944 (ETF QQQ 680 $),",
-        "Giro de gamma (gamma flip) en 27310 (ETF QQQ 664,57 $),",
-        "Max pain en 27369 (ETF QQQ 666 $),",
-        "Régimen de gamma positiva, en 1,8 mil M$ por 1 %, put/call OI 1,13, open interest del 17 de noviembre,"
+        "Call wall y put wall coinciden en 27956 (ETF QQQ 680 $),",
+        "Giro de gamma (gamma flip) en 27284 (ETF QQQ 663,66 $),",
+        "Max pain en 27381 (ETF QQQ 666 $),",
+        "Régimen de gamma positiva, en 1,43 mil M$ por 1 %, put/call OI 1,18, open interest del 17 de noviembre,"
       ],
       "gex": {
         "callWall": 680,
-        "contratos": 1593,
+        "contratos": 1597,
         "escalera": [
           {
-            "gex": -7.8,
+            "gex": -15.3,
+            "strike": 651
+          },
+          {
+            "gex": -7.1,
             "strike": 652
           },
           {
-            "gex": -7.8,
+            "gex": -7.6,
             "strike": 653
           },
           {
-            "gex": -38.2,
+            "gex": -37.8,
             "strike": 654
           },
           {
-            "gex": -190.2,
+            "gex": -191.1,
             "strike": 655
           },
           {
-            "gex": -10.2,
+            "gex": -8.8,
             "strike": 656
           },
           {
-            "gex": -5.6,
+            "gex": -4.4,
             "strike": 657
           },
           {
-            "gex": -23.4,
+            "gex": -23.6,
             "strike": 658
           },
           {
-            "gex": -10.9,
+            "gex": -11,
             "strike": 659
           },
           {
-            "gex": -134.2,
+            "gex": -141.5,
             "strike": 660
           },
           {
-            "gex": -4.2,
+            "gex": -2.9,
             "strike": 661
           },
           {
-            "gex": -11.1,
+            "gex": -9.5,
             "strike": 662
           },
           {
-            "gex": -3.4,
+            "gex": -3,
             "strike": 663
           },
           {
-            "gex": -6.3,
+            "gex": -7.1,
             "strike": 664
           },
           {
-            "gex": 24.5,
+            "gex": 288.1,
             "strike": 665
           },
           {
-            "gex": 16,
+            "gex": 30.3,
             "strike": 666
           },
           {
-            "gex": 58.2,
+            "gex": 50.4,
             "strike": 667
           },
           {
-            "gex": 24.5,
+            "gex": 19.7,
             "strike": 668
           },
           {
-            "gex": 21.5,
+            "gex": 17.7,
             "strike": 669
           },
           {
-            "gex": 375.6,
+            "gex": 286.1,
             "strike": 670
           },
           {
-            "gex": 41.7,
+            "gex": 34.9,
             "strike": 671
           },
           {
-            "gex": 27.5,
+            "gex": 22.4,
             "strike": 672
           },
           {
-            "gex": 30.5,
+            "gex": 24.8,
             "strike": 673
           },
           {
-            "gex": 91,
+            "gex": 78.5,
             "strike": 674
           },
           {
-            "gex": 178.8,
+            "gex": 128.2,
             "strike": 675
           },
           {
-            "gex": 30.2,
+            "gex": 25.4,
             "strike": 676
           },
           {
-            "gex": 40.7,
+            "gex": 34.9,
             "strike": 677
           },
           {
-            "gex": 12.6,
+            "gex": 10.1,
             "strike": 678
           },
           {
-            "gex": 302.2,
+            "gex": 274.3,
             "strike": 679
           },
           {
-            "gex": 201.7,
+            "gex": 122.4,
             "strike": 680
           },
           {
-            "gex": 21.4,
+            "gex": 17.7,
             "strike": 681
           },
           {
-            "gex": 33.6,
+            "gex": 30.2,
             "strike": 682
           },
           {
-            "gex": 166,
+            "gex": 151,
             "strike": 683
           },
           {
-            "gex": 20.4,
+            "gex": 17.9,
             "strike": 684
           },
           {
-            "gex": 178.1,
+            "gex": 152.3,
             "strike": 685
           },
           {
-            "gex": 36.3,
+            "gex": 33.5,
             "strike": 686
           },
           {
-            "gex": 91.1,
+            "gex": 83.6,
             "strike": 687
           },
           {
-            "gex": 60.9,
+            "gex": 55.2,
             "strike": 688
           },
           {
-            "gex": 49.7,
+            "gex": 45.2,
             "strike": 689
           },
           {
-            "gex": 100.1,
+            "gex": 77.2,
             "strike": 690
-          },
-          {
-            "gex": 12.9,
-            "strike": 691
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 664.57,
-        "gexTotal": 1.8,
+        "gammaFlip": 663.66,
+        "gexTotal": 1.43,
         "indice": {
-          "callWall": 27944,
-          "gammaFlip": 27310,
-          "maxPain": 27369,
-          "precio": 27595,
-          "putWall": 27944
+          "callWall": 27956,
+          "gammaFlip": 27284,
+          "maxPain": 27381,
+          "precio": 27563,
+          "putWall": 27956
         },
         "maxPain": 666,
         "odte": {
@@ -1281,42 +1281,42 @@
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 28972,
+            "callWall": 28984,
             "gammaFlip": null,
-            "maxPain": 27369,
-            "putWall": 27287
+            "maxPain": 27381,
+            "putWall": 27298
           },
           "maxPain": 666,
-          "pcrOI": 0.77,
+          "pcrOI": 0.84,
           "putWall": 664,
           "vencimiento": "2026-11-19"
         },
         "oiFecha": "2026-11-17",
-        "pcrOI": 1.13,
-        "precio": 671.49,
+        "pcrOI": 1.18,
+        "precio": 670.43,
         "putWall": 680,
-        "ratioFecha": "2026-11-17",
-        "ratioIndice": 41.0948,
+        "ratioFecha": "2026-11-18",
+        "ratioIndice": 41.112,
         "regimen": "positiva",
         "vencimientoCercano": "2026-11-19"
       },
       "id": "NDX",
-      "lectura": "Son las 13:50 UTC del jueves 19 de noviembre, en la preapertura de Wall Street. Los futuros del Nasdaq 100 suben un 2,1 % hasta unos 27.677 puntos, impulsados por la IPO histórica de Anthropic (83 $ por acción, 1,5 billones $ de valoración) y el resultado de Nvidia (doble sorpresa positiva y guía fuerte para Vera Rubin). El régimen de gamma ha cruzado a positivo (2,49 mil M$ por 1 %) con el precio por encima del giro de gamma en 27.304, lo que reduce la presión bajista de la cobertura de los creadores de mercado y deja el call wall en 27.944 como referencia alcista. Las actas duras del FOMC y las declaraciones de Waller y Musalem a favor de nuevas subidas siguen siendo el principal contrapeso, con la cumbre de Trump, Xi y Putin en Shenzhen (declaración conjunta contra la guerra nuclear) como telón de fondo geopolítico distendido. Sesgo: alcista, sostenido por la narrativa de IA (Nvidia, Anthropic) y la gamma ya positiva.",
+      "lectura": "Son las 15:15 UTC del jueves 19 de noviembre, con Wall Street ya abierto. El Nasdaq 100 cotiza en torno a 27.563 puntos, un 1,7 % por encima del cierre del miércoles, impulsado por la IPO histórica de Anthropic y el resultado de Nvidia (doble sorpresa positiva y guía fuerte para Vera Rubin), aunque modera la subida frente al arranque de la sesión. El régimen de gamma sigue positivo (1,43 mil M$ por 1 %) con el precio por encima del giro de gamma en 27.284, lo que reduce la presión bajista de la cobertura de los creadores de mercado y deja el call wall en 27.956 como referencia alcista. Las actas duras del FOMC y las declaraciones de Waller y Musalem a favor de nuevas subidas siguen siendo el principal contrapeso, con la cumbre de Trump, Xi y Putin en Shenzhen como telón de fondo geopolítico distendido. Sesgo: alcista, sostenido por la narrativa de IA (Nvidia, Anthropic) y la gamma positiva.",
       "levels": {
-        "callWall": 27944,
-        "gammaFlip": 27310,
-        "maxPain": 27369,
-        "precio": 27677,
-        "putWall": 27944
+        "callWall": 27956,
+        "gammaFlip": 27284,
+        "maxPain": 27381,
+        "precio": 27563,
+        "putWall": 27956
       },
       "name": "Nasdaq 100",
-      "netGex": "positiva (1,8 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-17)",
-      "precio": 27677,
+      "netGex": "positiva (1,43 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-17)",
+      "precio": 27563,
       "regime": "positiva",
       "regimen": "positiva",
       "score": 35,
       "sesgo": "alcista",
-      "spot": 27677
+      "spot": 27563
     }
   ],
   "liquidez": {
@@ -1641,35 +1641,35 @@
       {
         "nombre": "Call wall 0DTE SPX",
         "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 1,02.",
-        "valor": "7497"
+        "valor": "7501"
       },
       {
         "nombre": "Put wall 0DTE SPX",
         "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 1,02.",
-        "valor": "7086"
+        "valor": "7090"
       },
       {
         "nombre": "Max pain 0DTE SPX",
         "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 1,02.",
-        "valor": "7417"
+        "valor": "7421"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 0,77.",
-        "valor": "28972"
+        "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 0,84.",
+        "valor": "28984"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 0,77.",
-        "valor": "27287"
+        "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 0,84.",
+        "valor": "27298"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 0,77.",
-        "valor": "27369"
+        "nota": "Vencimiento de hoy (2026-11-19), por open interest. Put/call OI: 0,84.",
+        "valor": "27381"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 19 de noviembre (base open interest, motor recalculado a las 13:25 UTC): en el S&P 500, call wall en 7.497, put wall en 7.086 y max pain en 7.417, con un put/call OI de 1,02, casi equilibrado. En el Nasdaq 100, call wall en 28.972, put wall en 27.287 y max pain en 27.369, con un put/call OI de 0,77, con más calls que puts en el vencimiento de hoy. En ambos casos el giro de gamma 0DTE no está disponible con el open interest actual."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 19 de noviembre (base open interest, motor recalculado a las 14:57 UTC): en el S&P 500, call wall en 7.501, put wall en 7.090 y max pain en 7.421, con un put/call OI de 1,02, casi equilibrado. En el Nasdaq 100, call wall en 28.984, put wall en 27.298 y max pain en 27.381, con un put/call OI de 0,84, algo más de calls que puts en el vencimiento de hoy. En ambos casos el giro de gamma 0DTE no está disponible con el open interest actual."
   },
   "politica": {
     "actualizado": "2026-11-19T13:50:36Z",
@@ -1769,7 +1769,7 @@
       }
     ]
   },
-  "resumen": "Son las 13:50 UTC (08:50 Nueva York) del jueves 19 de noviembre de 2026, en la preapertura de Wall Street (slot pre-NY). Los futuros de EE. UU. siguen al alza (S&P 500 en torno a 7.405, +1,1 % sobre el cierre del miércoles; Nasdaq 100 en torno a 27.677, +2,1 %) tras el debut bursátil de Anthropic -la mayor OPV de la historia, 83 $ por acción y 1,5 billones $ de valoración- y el resultado de Nvidia. A las 13:30 UTC se han publicado las peticiones semanales de subsidio por desempleo: 203.000, por encima de la previsión (199.000) y del dato anterior (200.000), un deterioro leve del mercado laboral que resta algo de apoyo al dólar. El giro de gamma del Nasdaq 100 ya es positivo (el índice cotiza por encima de 27.304) mientras el S&P 500 sigue en gamma negativa y por debajo de su giro en 7.498, lo que puede amplificar el movimiento si se pierde el put wall en 7.316. Las actas duras del FOMC, conocidas ayer, y las declaraciones de Waller y Musalem mantienen en el 97,5 % la probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre según Kalshi; Bessent contrapesa pidiendo prudencia por el shock energético de la guerra de Irán, y la cumbre de Shenzhen entre Trump, Xi y Putin cerró con una declaración conjunta que descarta la guerra nuclear. El oro ronda los 3.740-3.750 $ cerca de mínimos de 14 meses y bitcoin cotiza hacia los 63.000-63.700 $, con salidas de ETF que continúan.",
+  "resumen": "Son las 15:15 UTC (10:15 Nueva York) del jueves 19 de noviembre de 2026, con Wall Street ya abierto. El S&P 500 cotiza en torno a 7.378 puntos (+0,7 % sobre el cierre del miércoles) y el Nasdaq 100 en torno a 27.563 puntos (+1,7 %), moderando la subida inicial tras el debut bursátil de Anthropic -la mayor OPV de la historia, 83 $ por acción y 1,5 billones $ de valoración- y el resultado de Nvidia. Las peticiones semanales de subsidio por desempleo publicadas hoy (203.000, por encima de la previsión de 199.000) muestran un deterioro leve del mercado laboral. El giro de gamma del Nasdaq 100 sigue siendo positivo (el índice cotiza por encima de 27.284) mientras el S&P 500 sigue en gamma negativa y por debajo de su giro en 7.524. Las actas duras del FOMC y las declaraciones de Waller y Musalem mantienen en el 97,5 % la probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre según Kalshi; Bessent contrapesa pidiendo prudencia por el shock energético de la guerra de Irán, y la cumbre de Shenzhen entre Trump, Xi y Putin cerró con una declaración conjunta que descarta la guerra nuclear. El oro y bitcoin siguen bajo presión por el dólar fuerte y la Fed dura.",
   "semana": {
     "activos": [
       {
@@ -1952,5 +1952,5 @@
     "updatedAt": "2026-11-19T13:50:36Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-19T13:56:09Z"
+  "updatedAt": "2026-11-19T15:16:00.000000Z"
 }
