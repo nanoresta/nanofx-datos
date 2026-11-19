@@ -1,14 +1,22 @@
 {
-  "actualizado": "2026-11-18T19:45:38Z",
+  "actualizado": "2026-11-19T07:45:58Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento",
     "fase": 0.6,
-    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de probabilidad de subir el 9 dic y las actas (18 nov) muestran que casi todos ven más subidas, algunos de 50 pb, con el IPP en el 6,5 % anual; pero la actividad ya se frena: producción industrial -0,4 % en octubre, NAHB en 25 y Empire State en 7,8. Fed subiendo con la economía empezando a girar: pasado el techo."
+    "lectura": "La Fed (3,75-4,00 %) tiene un 97,5 % de probabilidad de subir el 9 dic y una implícita del 4,37 % para abril (Kalshi, 19 nov), con el IPP en el 6,5 % anual; pero la actividad ya se frena: producción industrial -0,4 % en octubre, NAHB en 25 y Empire State en 7,8. Fed subiendo con la economía empezando a girar: pasado el techo."
   },
   "fuentes": [
     {
-      "nombre": "Trading Economics – Bono 10 años EE. UU. y actas de la Fed (18 nov)",
+      "nombre": "Reuters/Investing.com – Tenencia extranjera de Treasuries (sept., 18 nov)",
+      "url": "https://www.investing.com/news/economic-indicators/foreign-holdings-of-us-treasuries-dip-in-sept-china-holdings-hit-2008-low-data-show-5037222"
+    },
+    {
+      "nombre": "Fed de Nueva York – Deuda de los hogares 3T 2026 (10 nov)",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110"
+    },
+    {
+      "nombre": "Trading Economics – Bono 10 años EE. UU. (19 nov)",
       "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
@@ -157,7 +165,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,13 %) y 94 % otra en enero (Kalshi, 18 nov); actas: casi todos ven más subidas, algunos de 50 pb",
+      "c": "mantenidos el 28 oct · 97,5 % subida el 9 dic (implícita 4,13 %) y 94 % otra en enero (Kalshi, 19 nov); actas del 18 nov: casi todos ven más subidas",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -181,13 +189,13 @@
       "v": "+3,4 % anual"
     },
     {
-      "c": "fin AF2026 (CRFB) · deuda negociable ~32 bill. $, +8 % (Dalio, 22 oct)",
+      "c": "fin AF2026 (CRFB) · deuda negociable ~32 bill. $, +8 % (Dalio, 22 oct) · tenencia extranjera 9,24 bill. $, -75.500 M$ en sept. (TIC, 18 nov)",
       "estado": "rojo",
       "n": "Deuda pública e intereses",
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "18 nov (Trading Economics) · a 9 pb del umbral de atención; 10 años en el 5,07 %; subasta de 20 años normal (5,459 %)",
+      "c": "19 nov (Trading Economics) · a 9 pb del umbral de atención; 10 años en el 5,07 % tras cuatro sesiones de bajada",
       "estado": "amarillo",
       "n": "Bono a 30 años",
       "v": "5,41 %"
@@ -203,9 +211,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,41 % (18 nov), cerca del 5,5 %: zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,41 % (19 nov) y la tenencia extranjera cae a 9,24 bill. $ (sept.): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está justo pasado el techo del ciclo corto: la Fed va a subir en diciembre (96,5 %) y las actas del 18 nov confirman que casi todos quieren más subidas, mientras la industria (-0,4 % en octubre) y la vivienda (NAHB 25) ceden. En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,41 %.",
+  "lectura": "EE. UU. está justo pasado el techo del ciclo corto: la Fed va a subir en diciembre (97,5 % en Kalshi) y el mercado descuenta más subidas hasta abril, mientras la industria (-0,4 % en octubre) y la vivienda (NAHB 25) ceden. En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), el bono a 30 años en el 5,41 % y los extranjeros comprando menos deuda (-75.500 M$ en septiembre).",
   "palancas": [
     {
       "estado": "rojo",
@@ -216,7 +224,7 @@
     {
       "estado": "amarillo",
       "n": "Reestructurar o impagar deuda",
-      "nota": "La morosidad de los hogares sigue alta (tarjetas 6,97 %, coches 3,0 %, 2T) y el crédito de la IA se encarece (prima de emisión de 12 pb frente a 2,25 pb en 2025); sin impagos grandes.",
+      "nota": "Morosidad de los hogares estable (paso a 90+ días: tarjetas 6,87 %, coches 3,02 %, 3T; Fed de Nueva York, 10 nov) con el 5,0 % de la deuda en algún retraso (+0,3 pt) y el crédito de la IA encareciéndose; sin impagos grandes.",
       "valor": "Leve"
     },
     {
@@ -228,7 +236,7 @@
     {
       "estado": "amarillo",
       "n": "Imprimir dinero",
-      "nota": "Hoy la Fed va en sentido contrario (96,5 % de subida en diciembre y actas duras el 18 nov, dólar en máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si la caída de la bolsa se convierte en crisis, sigue siendo la salida más probable.",
+      "nota": "Hoy la Fed va en sentido contrario (97,5 % de subida en diciembre, dólar en máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si la caída de la bolsa se convierte en crisis, sigue siendo la salida más probable.",
       "valor": "Riesgo"
     }
   ],
@@ -472,6 +480,11 @@
       "corto": 0.6,
       "largo": 0.76,
       "ts": "2026-11-18T19:45:38Z"
+    },
+    {
+      "corto": 0.6,
+      "largo": 0.76,
+      "ts": "2026-11-19T07:45:58Z"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "actualizado": "2026-11-18T19:45:38Z",
+  "actualizado": "2026-11-19T07:45:58Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 9 pb del umbral de atención (5,5 %); baja 5 pb en el día con el petróleo pese a las actas duras de la Fed (Trading Economics, 18 nov).",
-      "valor": "5,41 % (18 nov)"
+      "nota": "A 9 pb del umbral de atención (5,5 %); estable en el día y -2 pb en un mes (Trading Economics).",
+      "valor": "5,41 % (19 nov)"
     },
     {
       "estado": "amarillo",
       "nombre": "Subasta de 20 años (18 nov)",
-      "nota": "Salió en línea (cobertura igual a su media de 2,63), un alivio tras las flojas de 10 y 30 años (12 nov), aunque los indirectos (60,2 %) quedan por debajo de su media del 63,7 % (Helious).",
+      "nota": "La última subasta larga (20 años, 18 nov) salió en línea, con cobertura en su media (2,63), tras las flojas de 10 y 30 años del 12 nov; indirectos por debajo de su media (60,2 % frente a 63,7 %, Helious).",
       "valor": "5,459 %; sin cola; cobertura 2,63; indirectos 60,2 %"
     },
     {
@@ -21,15 +21,15 @@
     },
     {
       "estado": "amarillo",
-      "nombre": "Morosidad hogares (90+ días)",
-      "nota": "2T 2026, ligeramente por encima de hace un año (Fed de Nueva York); sin dato más reciente localizado en esta revisión.",
-      "valor": "Tarjetas 6,97 %; coches 3,00 %"
+      "nombre": "Morosidad hogares (paso a 90+ días)",
+      "nota": "3T 2026 (Fed de Nueva York, 10 nov): tarjetas algo mejor que hace un año (7,05 %) y coches algo peor (2,99 %); deuda de tarjetas récord de 1,285 bill. $ y el 5,0 % de la deuda con algún retraso (+0,3 pt).",
+      "valor": "Tarjetas 6,87 %; coches 3,02 %"
     },
     {
       "estado": "amarillo",
       "nombre": "Tenencia extranjera de Treasuries",
-      "nota": "Dalio (22 oct): 9,3 bill. $ en manos extranjeras frente a ~32 bill. de deuda negociable; Japón y China siguen vendiendo (TIC agosto); el informe de septiembre sale hoy, 18 nov, tras el cierre de esta revisión.",
-      "valor": "9,331 bill. $ (agosto)"
+      "nota": "TIC (18 nov): -75.500 M$ en septiembre, la mayor caída en seis meses y mínimo de un año, lideradas por China, Francia y Japón; el récord fue 9,487 bill. en febrero (Reuters).",
+      "valor": "9,241 bill. $ (sept.)"
     }
   ],
   "burbuja": {
@@ -37,25 +37,25 @@
       {
         "estado": "rojo",
         "n": "Precios caros frente a su valor",
-        "nota": "CAPE de Shiller en 41,6 (8 oct, Multpl) y Buffett indicator en máximos (11 oct); el S&P 500 ronda los 7.351 el 18 nov, apenas un 0,1 % arriba en el día.",
+        "nota": "CAPE de Shiller en 41,6 (8 oct, Multpl) y Buffett indicator en máximos (11 oct); el S&P 500 cerró el 18 nov en 7.324 (-0,23 %), quinta sesión de caída.",
         "valor": "CAPE ~41; Buffett 237 %"
       },
       {
         "estado": "rojo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct; algo menor tras la caída) → rentabilidad por beneficios ~5,3 % frente al bono a 10 años en el 5,07 % (18 nov): la bolsa casi no paga extra por su riesgo.",
+        "nota": "PER adelantado 19,1 (JPMorgan, 20 oct; algo menor tras la caída) → rentabilidad por beneficios ~5,3 % frente al bono a 10 años en el 5,07 % (19 nov): la bolsa casi no paga extra por su riesgo.",
         "valor": "Prima de riesgo ≈ 20-25 pb"
       },
       {
         "estado": "amarillo",
         "n": "Muchos compradores nuevos",
-        "nota": "Apetito selectivo y en retirada: la OPV pendiente de Anthropic (rango 70-78 $, 10 nov) es uno de los motivos citados para la huida de riesgo del 16 nov (KuCoin); CoreWeave subió tras resultados el 11 nov.",
-        "valor": "OPV de Anthropic a 70-78 $/acción"
+        "nota": "18 nov: Anthropic fija su OPV en 83 $, por encima del rango (70-78 $), amplía la emisión y capta 81.300 M$, la mayor de la historia (valoración ~1,5 bill. $ diluida); empieza a cotizar hoy y los futuros suben (Nasdaq 100 +1,4 %).",
+        "valor": "OPV de Anthropic: 81.300 M$ a 83 $"
       },
       {
         "estado": "verde",
         "n": "Sentimiento eufórico",
-        "nota": "18 nov: el VIX cede hacia 24 desde 25,5 (MarketScreener); Fear & Greed 39 el 14 nov y AAII 51,4 % bajistas el 12 nov; el de cripto en 13 (miedo extremo): no hay euforia.",
+        "nota": "19 nov: VIX ~24, Fear & Greed 39 (14 nov) y AAII 51,4 % bajistas (12 nov); bitcoin cae a 62.465 $ con 2.600 M$ de salidas de ETF en noviembre: aún no hay euforia, aunque la OPV récord la tantea.",
         "valor": "VIX ~24; Fear & Greed en miedo"
       },
       {
@@ -71,42 +71,70 @@
         "valor": "296.000 M$ en bonos de hyperscalers (2026)"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA siguen en 66/100 de burbuja, por debajo de los ~85 de 2000 y 1929: el S&P 500 apenas se mueve (~7.351 el 18 nov) pese al buen resultado de Nvidia y a unas actas de la Fed duras. Lo que más pesa sigue siendo la sobreinversión en IA a crédito y unos precios caros con una prima casi nula frente al bono; el sentimiento sigue en miedo.",
-    "nivel": 66,
+    "lectura": "La bolsa de EE. UU. y la IA suben a 68/100 de burbuja, aún por debajo de los ~85 de 2000 y 1929: la OPV récord de Anthropic (81.300 M$, por encima del rango) muestra un apetito por la IA propio de las fases finales. Lo que más pesa sigue siendo la sobreinversión en IA a crédito y unos precios caros con una prima casi nula frente al bono; el sentimiento general sigue en miedo.",
+    "nivel": 68,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "18 nov: el 30 años baja 5 pb y el 2 años casi nada; la curva se aplana ligeramente, sin empinamiento por subida del largo (Trading Economics).",
+        "nota": "19 nov: ambos plazos casi sin cambios; sin empinamiento por subida del largo (Trading Economics).",
         "valor": "+61 pb (4,80 % / 5,41 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Actas del FOMC (18 nov): casi todos ven necesarias más subidas y un par abre la puerta a 50 pb en diciembre; Waller lo apoya y Musalem habla de hasta cuatro subidas (Kalshi: 96,5 %, implícita 4,13 %).",
-        "valor": "3,75-4,00 %; 96,5 % subida el 9 dic"
+        "nota": "Kalshi (19 nov): 97,5 % de subida en diciembre (implícita 4,13 %) y más subidas descontadas hasta abril (4,37 %) tras las actas duras del 18 nov.",
+        "valor": "3,75-4,00 %; 97,5 % subida el 9 dic"
       },
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "18 nov: el DXY sube un 0,2 % a 103,70, +1,7 % en un mes, el más fuerte desde abril de 2025 (Trading Economics): no hay huida del dólar.",
-        "valor": "103,7 (máx. de 19 meses)"
+        "nota": "19 nov: el DXY ronda 103,8, +2,1 % en un mes (Trading Economics): no hay huida del dólar.",
+        "valor": "103,8 (máx. de 19 meses)"
       },
       {
         "estado": "verde",
         "n": "Oro",
-        "nota": "18 nov: el oro cae un 2-2,7 % hasta 3.743-3.765 $, mínimo de más de un año, presionado por el dólar y la Fed (FXStreet/Reuters).",
-        "valor": "~3.750 $/oz"
+        "nota": "19 nov: el oro rebota a 3.744 $ tras tocar un mínimo de 14 meses en 3.719 $ por la Fed (Mitrade): no hay huida hacia el oro.",
+        "valor": "~3.744 $/oz"
       },
       {
         "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "18 nov: el Dow cae 459 puntos a media sesión y el oro y bitcoin (~62.000 $) caen juntos ante la Fed (Yahoo Finance, FXStreet): señales de búsqueda de liquidez, todavía sin pánico.",
-        "valor": "VIX ~24; acciones, oro y bitcoin caen a la vez"
+        "nota": "19 nov: bitcoin -15 % en siete días con salidas de ETF y el S&P encadena cinco sesiones de caídas, pero la OPV de Anthropic absorbe 81.300 M$ sin problemas: tensión, sin pánico.",
+        "valor": "Bitcoin 62.465 $; S&P 5 días a la baja"
       }
     ]
   },
   "fuentes": [
+    {
+      "nombre": "Reuters/Investing.com – Tenencia extranjera de Treasuries en septiembre (18 nov)",
+      "url": "https://www.investing.com/news/economic-indicators/foreign-holdings-of-us-treasuries-dip-in-sept-china-holdings-hit-2008-low-data-show-5037222"
+    },
+    {
+      "nombre": "TokenPost – Los extranjeros recortan 75.500 M$ de Treasuries (18 nov)",
+      "url": "https://www.tokenpost.com/news/investing/60989"
+    },
+    {
+      "nombre": "Fed de Nueva York – Deuda de los hogares 3T 2026 (10 nov)",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110"
+    },
+    {
+      "nombre": "PBS – Anthropic fija su OPV en 83 $ (18 nov)",
+      "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion"
+    },
+    {
+      "nombre": "CMS Investments – Anthropic, la mayor OPV de la historia (18 nov)",
+      "url": "https://cmsinvestments.substack.com/p/wednesday-recap-anthropic-prices"
+    },
+    {
+      "nombre": "Mitrade – El oro rebota tras mínimo de 14 meses (19 nov)",
+      "url": "https://www.mitrade.com/au/insights/news/live-news/article-2-2263659-20261119"
+    },
+    {
+      "nombre": "KuCoin – Bitcoin cae a 63.000 $ con salidas de ETF (19 nov)",
+      "url": "https://www.kucoin.com/news/insight/BTC/6afe64509278e40007d89a90"
+    },
     {
       "nombre": "Helious – Subasta de 20 años en línea (18 nov)",
       "url": "https://helious.io/news/auc-912810UZ9-2026-11-18/20-year-bond-auction-in-line"
@@ -318,47 +346,19 @@
     {
       "nombre": "TheStreet – Mercados 11 nov (Nvidia, CoreWeave)",
       "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-11-2026"
-    },
-    {
-      "nombre": "FXStreet – El euro cae a mínimos de dos semanas (11 nov)",
-      "url": "https://www.fxstreet.com/news/euro-falls-to-two-week-low-amid-expectations-of-aggressive-fed-rate-hikes-202611111348"
-    },
-    {
-      "nombre": "KuCoin – Reticencias a la valoración de Anthropic (6 nov)",
-      "url": "https://www.kucoin.com/blog/anthropic-ipo-valuation-pushback-market-selloff"
-    },
-    {
-      "nombre": "YCharts – Deuda de margen FINRA (sept.)",
-      "url": "https://ycharts.com/indicators/finra_margin_debt"
-    },
-    {
-      "nombre": "Trading Economics – Bund: Lagarde y BCE (9 nov)",
-      "url": "https://tradingeconomics.com/germany/government-bond-yield/news/599553"
-    },
-    {
-      "nombre": "Helious – Subasta de 10 años (10 nov)",
-      "url": "https://helious.io/news/auc-91282CRX1-2026-11-10/10-year-note-auction-in-line"
-    },
-    {
-      "nombre": "KuCoin/ZeroHedge – Hyperscalers superan 250.000 M$ en deuda (8 nov)",
-      "url": "https://www.kucoin.com/news/flash/hyperscalers-surpass-250b-debt-forecast-in-2026-bond-concessions-rise"
-    },
-    {
-      "nombre": "HuggingNews – Hyperscalers captan 271.000 M$ (3 nov)",
-      "url": "https://huggingnews.com/us-markets/hyperscalers-raise-271b-in-global-debt-this-year-to-fund-ai-spending-f34c1d98"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa: el 30 años está en el 5,41 %, a 9 pb del umbral de atención, con deuda récord de los hyperscalers y unas actas de la Fed (18 nov) en las que casi todos ven necesarias más subidas y algunos abren la puerta a 50 pb en diciembre. Desde esta mañana hay algo de alivio: la subasta de 20 años salió normal (5,459 %, cobertura 2,63 en su media) y los bonos bajan (10 años 5,07 %); Japón sigue al límite (JGB 30 años 4,06 %, yen en 159,4). El riesgo baja de 51 a 50.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: el 30 años está en el 5,41 %, a 9 pb del umbral de atención, con la Fed camino de subir el 9 dic (97,5 %) y deuda récord de los hyperscalers. Lo nuevo es el informe TIC de septiembre (18 nov): la tenencia extranjera de Treasuries cae 75.500 M$ hasta 9,24 bill. $, la mayor bajada en seis meses, con China en mínimos de 18 años (563.900 M$) y Japón en su 5.ª caída. A cambio, los bonos japoneses alivian (JGB 30 años 4,02 %) y el riesgo se mantiene en 50.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "18 nov; -5 pb en el día y -7 pb en 1 mes; +93 pb en un año (Trading Economics)",
+          "c": "19 nov; -1 pb en el día, -4 pb en 1 mes; cuarta sesión de bajada (Trading Economics)",
           "n": "Bono 10 años",
           "v": "5,07 %"
         },
         {
-          "c": "18 nov; -5 pb en el día y -6 pb en 1 mes; +66 pb en un año (Trading Economics)",
+          "c": "19 nov; -1 pb en el día, -2 pb en 1 mes; +68 pb en un año (Trading Economics)",
           "n": "Bono 30 años",
           "v": "5,41 %"
         },
@@ -376,12 +376,12 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Los bonos bajan con el petróleo y una subasta de 20 años sin sorpresas (5,459 %), pese a unas actas de la Fed duras (18 nov): casi todos ven más subidas y algunos plantean 50 pb el 9 dic (Kalshi: 96,5 % de subida)."
+      "nota": "Los bonos bajan por cuarta sesión (refugio ante Oriente Medio y la bolsa) pese a una Fed que casi seguro sube el 9 dic (Kalshi 97,5 %); los extranjeros recortan Treasuries en septiembre (-75.500 M$, TIC)."
     },
     {
       "datos": [
         {
-          "c": "18 nov; -1 pb en el día, -8 pb en 1 mes (Trading Economics)",
+          "c": "19 nov; -1 pb en el día, -2 pb en 1 mes (Trading Economics)",
           "n": "Bund 10 años",
           "v": "3,37 %"
         },
@@ -391,7 +391,7 @@
           "v": "88,9 %"
         },
         {
-          "c": "~91 % de subida de 25 pb el 17 dic (LSEG); Vujčić ve justificadas más subidas en 2027 (16 nov, Trading Economics)",
+          "c": "~91 % de subida de 25 pb el 17 dic (LSEG, 18 nov); Alemania propone a Brunnermeier como economista jefe",
           "n": "Tipo depósito BCE",
           "v": "2,50 %"
         },
@@ -404,24 +404,24 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund se mantiene en el 3,37 % y el BCE va camino de subir el 17 dic (~91 %); la prima francesa (157 pb, 28 oct) sigue siendo el punto débil y el euro toca mínimos de 19 meses (~1,096 $)."
+      "nota": "El Bund se mantiene en el 3,37 % y el BCE va camino de subir el 17 dic (~91 %) con la inflación en torno al doble del objetivo; la prima francesa (157 pb, 28 oct) sigue siendo el punto débil."
     },
     {
       "datos": [
         {
-          "c": "18 nov; -5 pb en 1 mes, junto al mínimo histórico de 1,59 % (Trading Economics)",
+          "c": "19 nov; -5 pb en 1 mes, junto al mínimo histórico de 1,59 % (Trading Economics)",
           "n": "Bono 10 años",
-          "v": "1,61 %"
+          "v": "1,60 %"
         },
         {
-          "c": "agosto (TIC, 16 oct), -27.300 M$; 3.ª caída, mínimo en ~18 años",
+          "c": "septiembre (TIC, 18 nov), -4,5 % (-26.800 M$); 4.ª caída, mínimo en más de 18 años",
           "n": "Treasuries en manos chinas",
-          "v": "590.700 M$"
+          "v": "563.900 M$"
         },
         {
-          "c": "18 nov; yuan +0,22 % en 1 mes y +6,3 % en 1 año; fijación del PBOC en 6,7118, la más fuerte desde julio de 2022 (Trading Economics)",
+          "c": "19 nov; yuan +0,13 % en 1 mes y +6,3 % en 1 año (Trading Economics)",
           "n": "USD/CNY",
-          "v": "6,667"
+          "v": "6,666"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -432,35 +432,35 @@
       "estado": "amarillo",
       "id": "CN",
       "nombre": "China",
-      "nota": "El yuan se mantiene firme pese al dólar en máximos de 19 meses; la cumbre APEC (18-19 nov) coincide con la tensión por los chips de IA. El TIC de septiembre se publica hoy tras el cierre de esta revisión."
+      "nota": "China acelera su salida de los Treasuries (-4,5 % en septiembre, mínimo desde 2008) mientras el yuan sigue firme; hoy Xi se reúne con Trump y Putin en Shenzhen, con nuevas restricciones de EE. UU. a los chips."
     },
     {
       "datos": [
         {
-          "c": "18 nov; -1 pb en el día, -4 pb en 1 mes; +110 pb en un año (Trading Economics)",
+          "c": "19 nov; -3 pb en el día, -6 pb en 1 mes; +102 pb en un año (Trading Economics)",
           "n": "JGB 10 años",
-          "v": "2,88 %"
+          "v": "2,84 %"
         },
         {
-          "c": "18 nov; +2 pb en el día, +7 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
+          "c": "19 nov; -4 pb en el día, +8 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
           "n": "JGB 30 años",
-          "v": "4,06 %"
+          "v": "4,02 %"
         },
         {
-          "c": "agosto (TIC), -35.600 M$; 4.ª caída, mínimo desde dic-2024",
+          "c": "septiembre (TIC, 18 nov), -5.200 M$; 5.ª caída, mínimo desde dic-2024",
           "n": "Treasuries en manos japonesas",
-          "v": "1,068 bill. $"
+          "v": "1,063 bill. $"
         },
         {
-          "c": "18 nov; plano en el día, yen -0,55 % en 1 mes; Katayama promete actuar coordinado con EE. UU. si hace falta (Trading Economics)",
+          "c": "19 nov; +0,2 % en el día, yen -1 % en 1 mes; Katayama dispuesto a actuar (Trading Economics)",
           "n": "USD/JPY",
-          "v": "159,4"
+          "v": "159,7"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "El JGB a 30 años sube al 4,06 % y el BoJ (1,25 %) se espera que suba en diciembre; el yen sigue pegado a 160 y una intervención obligaría a vender Treasuries."
+      "nota": "Los JGB bajan por demanda de refugio aunque Ueda avisa de que la inflación subyacente puede superar el 2 % y se espera subida del BoJ en diciembre; el yen sigue pegado a 160 y Japón vende Treasuries por 5.º mes."
     },
     {
       "datos": [
@@ -488,7 +488,7 @@
       "estado": "rojo",
       "id": "RU",
       "nombre": "Rusia",
-      "nota": "Sin cambios desde la última revisión: tipo en el 14 % (23 oct) y OFZ en torno al 16,7 %; el déficit previsto para 2026 casi duplica el plan y la actividad se enfría (PMI en mínimos de tres meses)."
+      "nota": "Sin datos nuevos: tipo en el 14 % (23 oct) y OFZ en torno al 16,7 %; el déficit previsto para 2026 casi duplica el plan. Putin se reúne hoy con Trump y Xi en Shenzhen, sin esperarse acuerdos sobre Ucrania."
     }
   ],
   "riesgo": 50,
@@ -716,6 +716,11 @@
       "burbuja": 66,
       "riesgo": 50,
       "ts": "2026-11-18T19:45:38Z"
+    },
+    {
+      "burbuja": 68,
+      "riesgo": 50,
+      "ts": "2026-11-19T07:45:58Z"
     }
   ]
 }

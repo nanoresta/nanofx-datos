@@ -572,9 +572,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-19T07:01:40Z",
+    "actualizado": "2026-11-19T08:02:37Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su reunión del 9 de diciembre se mantiene sin cambios en el 97,5 %, con la tasa implícita en el 4,13 %. Para la siguiente revisión, en abril de 2027, la probabilidad de subida también se mantiene en el 95,5 %, pero la tasa implícita sube ligeramente a 4,37 % (antes 4,34 %), reflejando un ciclo algo más duro tras las actas del FOMC publicadas ayer.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su reunión del 9 de diciembre se mantiene sin cambios en el 97,5 %, con la tasa implícita en el 4,13 %. Para la reunión de marzo de 2027, la probabilidad de subida baja ligeramente al 95,0 % (antes 96,5 %), con la tasa implícita también a la baja, en el 4,38 % (antes 4,41 %).",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -591,18 +591,18 @@
         "tasaImplicita": 4.26
       },
       {
-        "bajar": 3.5,
+        "bajar": 4.5,
         "fecha": "2027-03-17",
-        "mantener": 0,
-        "subir": 96.5,
-        "tasaImplicita": 4.41
+        "mantener": 0.5,
+        "subir": 95,
+        "tasaImplicita": 4.38
       },
       {
-        "bajar": 4.5,
+        "bajar": 3.5,
         "fecha": "2027-04-28",
-        "mantener": 0,
-        "subir": 95.5,
-        "tasaImplicita": 4.37
+        "mantener": 5.5,
+        "subir": 91,
+        "tasaImplicita": 4.35
       },
       {
         "bajar": 100,
@@ -821,7 +821,7 @@
       "changePct": 0.8,
       "claves": [
         "Call wall en 7517 (ETF SPY 750,0 $); put wall en 7316 (ETF SPY 730,0 $),",
-        "Giro de gamma (gamma flip) en 7584 (ETF SPY 756,66 $),",
+        "Giro de gamma (gamma flip) en 7582 (ETF SPY 756,49 $),",
         "Max pain en 7417 (ETF SPY 740,0 $),",
         "Régimen de gamma negativa, en -13,61 mil M$ por 1 %, put/call OI 1,79, open interest del 17 de noviembre,"
       ],
@@ -1007,11 +1007,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 756.66,
+        "gammaFlip": 756.49,
         "gexTotal": -13.61,
         "indice": {
           "callWall": 7517,
-          "gammaFlip": 7584,
+          "gammaFlip": 7582,
           "maxPain": 7417,
           "precio": 7328,
           "putWall": 7316
@@ -1044,10 +1044,10 @@
         "vencimientoCercano": "2026-11-19"
       },
       "id": "SPX",
-      "lectura": "Son las 06:50 UTC (01:50 Nueva York) del jueves 19 de noviembre, en la fase previa a la apertura europea. Los futuros del S&P 500 suben un 0,8 % tras el cierre de Wall Street en 7.324 puntos, impulsados por el debut bursátil de Anthropic (OPV a 83 $, la mayor de la historia) y el resultado de Nvidia. El régimen de gamma sigue negativo (-13,61 mil M$ por 1 %) y el precio (unos 7.395 en futuros) queda por debajo del giro de gamma (7.584), lo que puede amplificar los movimientos si se pierde el put wall en 7.316. Las actas del FOMC, más duras de lo esperado, mantienen en el 97,5 % la probabilidad de una subida de la Fed de Kevin Warsh en diciembre (Waller y Musalem insisten en varias subidas más), lo que limita el alcance de la subida; Bessent contrapesa pidiendo prudencia por el shock energético de la guerra de Irán, con Trump reunido hoy con Xi y Putin en Shenzhen. A las 13:30 UTC se publican las peticiones semanales de subsidio por desempleo (impacto medio). Sesgo: neutral, con riesgo bajista por la gamma negativa y la Fed dura.",
+      "lectura": "Son las 06:50 UTC (01:50 Nueva York) del jueves 19 de noviembre, en la fase previa a la apertura europea. Los futuros del S&P 500 suben un 0,8 % tras el cierre de Wall Street en 7.324 puntos, impulsados por el debut bursátil de Anthropic (OPV a 83 $, la mayor de la historia) y el resultado de Nvidia. El régimen de gamma sigue negativo (-13,61 mil M$ por 1 %) y el precio (unos 7.395 en futuros) queda por debajo del giro de gamma (7.582), lo que puede amplificar los movimientos si se pierde el put wall en 7.316. Las actas del FOMC, más duras de lo esperado, mantienen en el 97,5 % la probabilidad de una subida de la Fed de Kevin Warsh en diciembre (Waller y Musalem insisten en varias subidas más), lo que limita el alcance de la subida; Bessent contrapesa pidiendo prudencia por el shock energético de la guerra de Irán, con Trump reunido hoy con Xi y Putin en Shenzhen. A las 13:30 UTC se publican las peticiones semanales de subsidio por desempleo (impacto medio). Sesgo: neutral, con riesgo bajista por la gamma negativa y la Fed dura.",
       "levels": {
         "callWall": 7517,
-        "gammaFlip": 7584,
+        "gammaFlip": 7582,
         "maxPain": 7417,
         "putWall": 7316
       },
@@ -1065,7 +1065,7 @@
       "changePct": 1.3,
       "claves": [
         "Call wall y put wall coinciden en 27.944 (ETF QQQ 680,0 $), concentrando el open interest en ese strike.",
-        "Giro de gamma (gamma flip) en 27.429 (ETF QQQ 667,46 $); los futuros (unos 27.529) cotizan ya por encima.",
+        "Giro de gamma (gamma flip) en 27.436 (ETF QQQ 667,63 $); los futuros (unos 27.529) cotizan ya por encima.",
         "Max pain en 27.369 (ETF QQQ 666,0 $).",
         "Régimen de gamma negativa, pero casi plano en -0,03 mil M$ por 1 %, put/call OI 1,54, open interest del 17 de noviembre,"
       ],
@@ -1231,11 +1231,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 667.46,
+        "gammaFlip": 667.63,
         "gexTotal": -0.03,
         "indice": {
           "callWall": 27944,
-          "gammaFlip": 27429,
+          "gammaFlip": 27436,
           "maxPain": 27369,
           "precio": 27122,
           "putWall": 27944
@@ -1268,10 +1268,10 @@
         "vencimientoCercano": "2026-11-19"
       },
       "id": "NDX",
-      "lectura": "Son las 06:50 UTC del jueves 19 de noviembre, antes de la apertura europea. Los futuros del Nasdaq 100 suben un 1,3 % tras el cierre de Wall Street en 27.100 puntos (+0,3 %), apoyados en la IPO histórica de Anthropic (83 $ por acción, 1,5 billones $ de valoración) tras el resultado de Nvidia. El régimen de gamma es negativo pero casi neutro (-0,03 mil M$ por 1 %) y los futuros ya cotizan por encima del giro de gamma (27.429), lo que reduce la presión bajista de la cobertura de los creadores de mercado frente al S&P 500. Las actas duras del FOMC y las declaraciones de Waller y Musalem a favor de nuevas subidas siguen siendo el principal contrapeso, con la cumbre de Trump, Xi y Putin en Shenzhen como telón de fondo geopolítico. Sesgo: neutral con sesgo alcista de corto plazo, sostenido por la narrativa de IA (Nvidia, Anthropic).",
+      "lectura": "Son las 06:50 UTC del jueves 19 de noviembre, antes de la apertura europea. Los futuros del Nasdaq 100 suben un 1,3 % tras el cierre de Wall Street en 27.100 puntos (+0,3 %), apoyados en la IPO histórica de Anthropic (83 $ por acción, 1,5 billones $ de valoración) tras el resultado de Nvidia. El régimen de gamma es negativo pero casi neutro (-0,03 mil M$ por 1 %) y los futuros ya cotizan por encima del giro de gamma (27.436), lo que reduce la presión bajista de la cobertura de los creadores de mercado frente al S&P 500. Las actas duras del FOMC y las declaraciones de Waller y Musalem a favor de nuevas subidas siguen siendo el principal contrapeso, con la cumbre de Trump, Xi y Putin en Shenzhen como telón de fondo geopolítico. Sesgo: neutral con sesgo alcista de corto plazo, sostenido por la narrativa de IA (Nvidia, Anthropic).",
       "levels": {
         "callWall": 27944,
-        "gammaFlip": 27429,
+        "gammaFlip": 27436,
         "maxPain": 27369,
         "putWall": 27944
       },
@@ -1286,7 +1286,7 @@
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-19T06:50:56Z",
+    "actualizado": "2026-11-19T08:02:37Z",
     "balance": 6758.9,
     "d4": -27.7,
     "dBalance": 10.8,
@@ -1419,6 +1419,18 @@
     "tga": 914.4
   },
   "noticias": [
+    {
+      "activos": {
+        "EURUSD": "bajista",
+        "XAU": "bajista"
+      },
+      "fuente": "FXStreet",
+      "impacto": "medio",
+      "resumen": "El índice dólar se mantiene cerca de máximos de 19 meses tras las actas hawkish del FOMC, presionando al euro y al oro.",
+      "titular": "El dólar sigue firme mientras el mercado repricia un sesgo más duro de la Fed",
+      "ts": "2026-11-19T07:21:00Z",
+      "url": "https://fxstreet.com/news/forex-today-hawkish-repricing-of-fed-policy-outlook-continues-to-support-us-dollar-202611190721"
+    },
     {
       "activos": {
         "WTI": "alcista"
@@ -1589,18 +1601,6 @@
       "titular": "El euro cae a mínimos desde mayo de 2025 por un nuevo repunte de hostilidades entre EE. UU. e Irán",
       "ts": "2026-11-18T15:17:00Z",
       "url": "https://www.fxstreet.com/news/euro-struggles-amid-growing-expectations-of-prolonged-fed-tightening-202611181517"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista"
-      },
-      "fuente": "MarketScreener / JournalArta Global",
-      "impacto": "medio",
-      "resumen": "El S&P 500 sube un 0,21 % hasta 7.355,69 puntos y el Nasdaq Composite un 0,65 % en la apertura, mientras el VIX cede hacia 24 desde los máximos del martes.",
-      "titular": "El S&P 500 abre en 7.355 puntos (+0,21 %) y el Nasdaq en positivo tras la previsión de Nvidia",
-      "ts": "2026-11-18T14:35:00Z",
-      "url": "https://www.marketscreener.com/news/s-p-500-nasdaq-open-higher-as-nvidia-forecast-eases-ai-jitters-ce785eddda8bf223"
     }
   ],
   "odte": {
@@ -1919,5 +1919,5 @@
     "updatedAt": "2026-11-19T06:50:56Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-19T07:24:00Z"
+  "updatedAt": "2026-11-19T08:15:48Z"
 }
