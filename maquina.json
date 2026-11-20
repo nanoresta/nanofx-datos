@@ -1,12 +1,20 @@
 {
-  "actualizado": "2026-11-19T19:46:13Z",
+  "actualizado": "2026-11-20T07:46:20Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento",
-    "fase": 0.6,
-    "lectura": "La Fed (3,75-4,00 %) tiene un 97,5 % de probabilidad de subir el 9 dic y una implícita del 4,39 % para marzo-abril (Kalshi, 19 nov), y Waller abre la puerta a 50 pb; pero la actividad se frena (producción industrial -0,4 % en octubre, NAHB 25) y la bolsa cae seis sesiones seguidas: pasado el techo."
+    "fase": 0.61,
+    "lectura": "La Fed (3,75-4,00 %) tiene un 97,5 % de probabilidad de subir el 9 dic y una implícita del 4,39 % para marzo (Kalshi, 20 nov), con Waller planteando 50 pb; pero la actividad se frena (Philly Fed 6,3 frente a 20 esperado en noviembre, producción industrial -0,4 % en octubre) y el S&P 500 cae un 2 % (19 nov): pasado el techo."
   },
   "fuentes": [
+    {
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (20 nov)",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "investingLive – Cierre de América 19 nov (Philly Fed, subsidios, Fed)",
+      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-19-nov-inflation-worries-sink-stocks/"
+    },
     {
       "nombre": "Reuters/Investing.com – Tenencia extranjera de Treasuries (sept., 18 nov)",
       "url": "https://www.investing.com/news/economic-indicators/foreign-holdings-of-us-treasuries-dip-in-sept-china-holdings-hit-2008-low-data-show-5037222"
@@ -22,10 +30,6 @@
     {
       "nombre": "Helious – Subasta de 20 años (18 nov)",
       "url": "https://helious.io/news/auc-912810UZ9-2026-11-18/20-year-bond-auction-in-line"
-    },
-    {
-      "nombre": "Trading Economics – Bono 30 años y curva EE. UU. (17 nov)",
-      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
     },
     {
       "nombre": "Tribune/Fed – Producción industrial de octubre -0,4 % (17 nov)",
@@ -165,7 +169,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 97,5 % subida el 9 dic (implícita 4,13 %) y 94 % otra en enero (Kalshi, 19 nov); Waller abre la puerta a 50 pb (CNBC)",
+      "c": "mantenidos el 28 oct · 97,5 % subida el 9 dic (implícita 4,13 %) y 96 % otra en enero (Kalshi, 20 nov); Waller abre la puerta a 50 pb y Goolsbee no descarta una subida mayor",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -177,7 +181,7 @@
       "v": "+0,4 % mensual (oct.)"
     },
     {
-      "c": "octubre (BLS, 6 nov) · peticiones de subsidio 203.000 (sem. al 14 nov), cerca de mínimos · Empire State 7,8 en noviembre",
+      "c": "octubre (BLS, 6 nov) · peticiones de subsidio 203.000 (sem. al 14 nov), cerca de mínimos · Philly Fed 6,3 en noviembre (esperado 20)",
       "estado": "verde",
       "n": "Empleo",
       "v": "+165.000 · paro 4,1 %"
@@ -195,10 +199,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "19 nov (Trading Economics) · a 9 pb del umbral de atención; 10 años en el 5,06 % con la bolsa en su sexta caída",
+      "c": "20 nov (Trading Economics) · a 12 pb del umbral de atención; 10 años en el 5,01 %, quinta bajada seguida por refugio",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,41 %"
+      "v": "5,38 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -211,9 +215,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,41 % (19 nov) y la tenencia extranjera cae a 9,24 bill. $ (sept.): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,38 % (20 nov) y la tenencia extranjera cae a 9,24 bill. $ (sept.): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está justo pasado el techo del ciclo corto: la Fed va a subir el 9 dic (97,5 % en Kalshi) y Waller incluso plantea 50 pb, mientras la bolsa encadena seis caídas y la industria (-0,4 % en octubre) cede. En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), el bono a 30 años en el 5,41 % y los extranjeros comprando menos deuda (-75.500 M$ en septiembre).",
+  "lectura": "EE. UU. está justo pasado el techo del ciclo corto: la Fed va a subir el 9 dic (97,5 % en Kalshi) mientras la bolsa encadena seis caídas (S&P 500 -2,0 % el 19 nov) y la industria se enfría (Philly Fed 6,3). En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), el bono a 30 años en el 5,38 % y los extranjeros comprando menos deuda (-75.500 M$ en septiembre).",
   "palancas": [
     {
       "estado": "rojo",
@@ -236,7 +240,7 @@
     {
       "estado": "amarillo",
       "n": "Imprimir dinero",
-      "nota": "Hoy la Fed va en sentido contrario (97,5 % de subida en diciembre, dólar en máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si la caída de la bolsa se convierte en crisis, sigue siendo la salida más probable.",
+      "nota": "Hoy la Fed va en sentido contrario (97,5 % de subida en diciembre, dólar cerca de máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga para bajar los tipos (Bessent, 4 nov): si la caída de la bolsa se convierte en crisis, sigue siendo la salida más probable.",
       "valor": "Riesgo"
     }
   ],
@@ -490,6 +494,11 @@
       "corto": 0.6,
       "largo": 0.76,
       "ts": "2026-11-19T19:46:13Z"
+    },
+    {
+      "corto": 0.61,
+      "largo": 0.76,
+      "ts": "2026-11-20T07:46:20Z"
     }
   ]
 }
