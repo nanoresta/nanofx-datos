@@ -587,16 +587,16 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-20T16:06:55Z",
+    "actualizado": "2026-11-20T17:08:53Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre baja ligeramente al 94,5 % (antes 95,5 %), con la tasa implícita sin cambios en el 4,13 %. Para la reunión de enero de 2027 se mantiene estable en el 95,0 % (tasa implícita 4,24 %) y para la de abril de 2027 en el 96,0 % (tasa implícita 4,38 %).",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 94,5 %, con la tasa implícita prácticamente sin cambios en el 4,12 % (antes 4,13 %). Para la reunión de enero de 2027 se mantiene en el 95,0 % (tasa implícita 4,24 %) y para la de abril de 2027 en el 96,0 % (4,38 %).",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-12-09",
         "mantener": 5,
         "subir": 94.5,
-        "tasaImplicita": 4.13
+        "tasaImplicita": 4.12
       },
       {
         "bajar": 4,
@@ -936,25 +936,25 @@
   ],
   "indices": [
     {
-      "changeNote": "Nivel derivado de SPY (706,16 $) convertido al índice con el ratio del motor (10,0278, del 18-nov, conservado por falta de ratio fresco); mercado en sesión regular, cambio % sobre el cierre del jueves (7.175,83) estimado a partir de SPY, en vivo 16:16 Canarias.",
+      "changeNote": "Nivel derivado de SPY (703,31 $) convertido al índice con el ratio del motor (10,0278, del 18-nov, conservado por falta de ratio fresco); mercado en sesión regular, cambio % sobre el cierre del jueves (7.175,83) estimado a partir de SPY, en vivo 16:16 Canarias.",
       "changePct": -1.32,
       "claves": [
         "Call wall en 7.521 (ETF SPY 750,0 $); put wall en 7.019 (ETF SPY 700,0 $).",
         "Max pain en 7.461 (ETF SPY 744,0 $).",
         "Giro de gamma (gamma flip) no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -7,32 mil M$ por 1 %, put/call OI 3,60, open interest del 18 de noviembre."
+        "Régimen de gamma negativa, en -7,17 mil M$ por 1 %, put/call OI 3,82, open interest del 18 de noviembre."
       ],
       "gex": {
         "callWall": 750,
-        "contratos": 1413,
+        "contratos": 1373,
         "etf": "SPY",
         "gammaFlip": null,
-        "gexTotal": -7.32,
+        "gexTotal": -7.17,
         "indice": {
           "callWall": 7521,
           "gammaFlip": null,
           "maxPain": 7461,
-          "precio": null,
+          "precio": 7053,
           "putWall": 7019
         },
         "maxPain": 744,
@@ -971,13 +971,13 @@
             "putWall": 7270
           },
           "maxPain": 744,
-          "pcrOI": 3.94,
+          "pcrOI": 4.21,
           "putWall": 725,
           "vencimiento": "2026-11-20"
         },
         "oiFecha": "2026-11-18",
-        "pcrOI": 3.6,
-        "precio": 706.16,
+        "pcrOI": 3.82,
+        "precio": 703.31,
         "putWall": 700,
         "ratioFecha": "2026-11-18",
         "ratioIndice": 10.0278,
@@ -985,7 +985,7 @@
         "vencimientoCercano": "2026-11-20"
       },
       "id": "SPX",
-      "lectura": "Son las 16:16 UTC (11:16 de la mañana en Nueva York, mercado abierto desde las 9:30) del viernes 20 de noviembre. El S&P 500 ronda los 7.080 puntos, ampliando a cerca de un 1,3 % las pérdidas sobre el cierre del jueves (7.175,83, -2,02 %, sexta sesión consecutiva en rojo), con el Dow Jones por debajo de los 50.000 puntos tras cerrar ayer en 49.097,06 y Nvidia cayendo un 6 % a media mañana según un resumen intradía de Yahoo Finance. La gamma se mantiene muy negativa, en -7,32 mil M$ por 1 % (antes -7,23), con el put wall en 7.019 de soporte y el call wall en 7.521 limitando cualquier rebote; el max pain bajó a 7.461 (antes 7.471). La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre bajó ligeramente al 94,5 % según Kalshi (antes 95,5 %), con la tasa implícita sin cambios en el 4,13 %. La confianza del consumidor de la Universidad de Michigan se revisó al alza a 51,5 en el dato final de noviembre (desde 51,0 preliminar), con las expectativas de inflación a un año cayendo a 3,7 % desde 4,7 %. Sesgo: bajista.",
+      "lectura": "Son las 17:15 UTC (12:15 del mediodía en Nueva York, mercado abierto) del viernes 20 de noviembre. El S&P 500 ronda los 7.080 puntos, ampliando a cerca de un 1,3 % las pérdidas sobre el cierre del jueves (7.175,83, -2,02 %, séptima sesión consecutiva en rojo); Bloomberg sitúa ya al índice en corrección técnica, un 10 % por debajo de su máximo reciente. El índice de correlación implícita a 3 meses del Cboe saltó un 24,5 % hasta 25,34, su nivel más alto desde el 1 de abril, señal de venta generalizada. La gamma se mantiene muy negativa, en -7,17 mil M$ por 1 % (antes -7,32), con el put wall en 7.019 de soporte y el call wall en 7.521 limitando cualquier rebote; el max pain se mantiene en 7.461. La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 94,5 % según Kalshi, con la tasa implícita casi sin cambios en el 4,12 %. Anthropic profundiza su caída (-11 % en su segundo día en bolsa, según Bloomberg) y bitcoin cae por debajo de 60.000 $. Sesgo: bajista.",
       "levels": {
         "callWall": 7521,
         "gammaFlip": null,
@@ -993,7 +993,7 @@
         "putWall": 7019
       },
       "name": "S&P 500",
-      "netGex": "negativa (-7,32 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-18)",
+      "netGex": "negativa (-7,17 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-18)",
       "precio": 7081,
       "regime": "negativa",
       "regimen": "negativa",
@@ -1002,28 +1002,28 @@
       "spot": 7081
     },
     {
-      "changeNote": "Nivel derivado de QQQ (627,07 $) convertido al índice con el ratio del motor (41,1057, del 19-nov); cambio % estimado sobre el cierre del jueves por un nuevo desplome de los semiconductores, en vivo 16:16 Canarias.",
+      "changeNote": "Nivel derivado de QQQ (623,2 $) convertido al índice con el ratio del motor (41,1057, del 19-nov); cambio % estimado sobre el cierre del jueves por un nuevo desplome de los semiconductores, en vivo 16:16 Canarias.",
       "changePct": -2.5,
       "claves": [
         "Call wall en 27.130 (ETF QQQ 660,0 $); put wall en 26.308 (ETF QQQ 640,0 $).",
-        "Max pain en 27.335 (ETF QQQ 665,0 $).",
+        "Max pain en 27.212 (ETF QQQ 662,0 $).",
         "Giro de gamma no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -2,59 mil M$ por 1 %, put/call OI 4,28, open interest del 18 de noviembre."
+        "Régimen de gamma negativa, en -2,58 mil M$ por 1 %, put/call OI 5,31, open interest del 18 de noviembre."
       ],
       "gex": {
         "callWall": 660,
-        "contratos": 1095,
+        "contratos": 1040,
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -2.59,
+        "gexTotal": -2.58,
         "indice": {
           "callWall": 27130,
           "gammaFlip": null,
-          "maxPain": 27335,
-          "precio": 25776,
+          "maxPain": 27212,
+          "precio": 25617,
           "putWall": 26308
         },
-        "maxPain": 665,
+        "maxPain": 662,
         "odte": {
           "base": "open interest",
           "callWall": 670,
@@ -1033,17 +1033,17 @@
           "indice": {
             "callWall": 27541,
             "gammaFlip": null,
-            "maxPain": 27335,
+            "maxPain": 27212,
             "putWall": 24663
           },
-          "maxPain": 665,
-          "pcrOI": 4.32,
+          "maxPain": 662,
+          "pcrOI": 5.19,
           "putWall": 600,
           "vencimiento": "2026-11-20"
         },
         "oiFecha": "2026-11-18",
-        "pcrOI": 4.28,
-        "precio": 627.07,
+        "pcrOI": 5.31,
+        "precio": 623.2,
         "putWall": 640,
         "ratioFecha": "2026-11-19",
         "ratioIndice": 41.1057,
@@ -1051,15 +1051,15 @@
         "vencimientoCercano": "2026-11-20"
       },
       "id": "NDX",
-      "lectura": "Son las 16:16 UTC (11:16 de la mañana en Nueva York) del viernes 20 de noviembre. El Nasdaq 100 ronda los 25.780 puntos, profundizando la caída (en torno a un 2,5 % frente al cierre del jueves) por un nuevo derrumbe de los semiconductores (AMD -7 % y TSMC -4,2 % antes de la apertura), que arrastró también a las bolsas asiáticas (Taiwán -6,2 %, su peor semana desde 1991; Kospi -5,2 %; Nikkei -5,1 %). La gamma sigue negativa, en -2,59 mil M$ por 1 % (antes -2,61), con el call wall del ETF bajando a 660 $ (27.130 en el índice) y el max pain en 665 $ (27.335, antes 27.664). La probabilidad de subida de la Fed en diciembre bajó ligeramente al 94,5 % según Kalshi. Sesgo: bajista, con los semiconductores liderando las pérdidas.",
+      "lectura": "Son las 17:15 UTC (12:15 del mediodía en Nueva York) del viernes 20 de noviembre. El Nasdaq 100 ronda los 25.780 puntos, con Bloomberg situando la caída del índice en un 3,5 % en la jornada, por un nuevo derrumbe de los semiconductores (AMD, TSMC) que arrastró también a Asia (Taiwán -6,2 %, su peor semana desde 1991; Kospi -5,2 %; Nikkei -5,1 %). Anthropic se hunde un 11 % en su segundo día en bolsa, agravando el 'sell the news' sobre el conjunto del comercio de IA. La gamma sigue negativa, en -2,58 mil M$ por 1 % (antes -2,59), con el max pain bajando a 27.212 (antes 27.335) y el call wall en 27.130. La probabilidad de subida de la Fed en diciembre se mantiene en el 94,5 % según Kalshi. Sesgo: bajista, con los semiconductores y Anthropic liderando las pérdidas.",
       "levels": {
         "callWall": 27130,
         "gammaFlip": null,
-        "maxPain": 27335,
+        "maxPain": 27212,
         "putWall": 26308
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-2,59 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-18)",
+      "netGex": "negativa (-2,58 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-18)",
       "precio": 25776,
       "regime": "negativa",
       "regimen": "negativa",
@@ -1204,6 +1204,17 @@
   "noticias": [
     {
       "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "AOL",
+      "impacto": "alto",
+      "resumen": "Según AOL, bitcoin tocó mínimos intradía de 59.540 $, acumulando una caída del 23 % en noviembre, camino de su peor mes desde junio de 2022.",
+      "titular": "Bitcoin cae por debajo de 60.000 $ y camina hacia su peor mes desde junio de 2022",
+      "ts": "2026-11-20T16:30:00Z",
+      "url": "https://www.aol.com/articles/bitcoin-plunges-below-60-000-162908000.html"
+    },
+    {
+      "activos": {
         "NQ": "bajista",
         "SPX": "bajista"
       },
@@ -1216,6 +1227,18 @@
     },
     {
       "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "Bloomberg",
+      "impacto": "alto",
+      "resumen": "Bloomberg: el S&P 500 acumula una caída del 10 % desde su máximo reciente (corrección técnica) y el Nasdaq 100 retrocede un 3,5 %, con el desplome del 11 % de Anthropic en su segundo día en bolsa como detonante.",
+      "titular": "El S&P 500 entra en corrección técnica (-10 % desde máximos) y Anthropic cae un 11 % en su segundo día en bolsa",
+      "ts": "2026-11-20T15:00:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "activos": {
         "NQ": "neutral",
         "SPX": "neutral"
       },
@@ -1225,6 +1248,17 @@
       "titular": "La confianza del consumidor de Michigan sube a 51,5 en el dato final de noviembre, por encima del preliminar",
       "ts": "2026-11-20T15:00:00Z",
       "url": "https://seekingalpha.com/news/4675184-consumer-sentiment-revised-slightly-higher-in-novembers-final-print"
+    },
+    {
+      "activos": {
+        "SPX": "bajista"
+      },
+      "fuente": "TheStreet",
+      "impacto": "medio",
+      "resumen": "El Cboe 3-Month Implied Correlation Index subió un 24,5 % hasta 25,34, su cierre más alto desde el 1 de abril, señal de que las acciones caen todas a la vez.",
+      "titular": "El índice de correlación implícita del Cboe toca su nivel más alto desde abril",
+      "ts": "2026-11-20T14:00:00Z",
+      "url": "https://pro.thestreet.com/stock-market-today/2026-11-20"
     },
     {
       "activos": {
@@ -1345,80 +1379,45 @@
       "titular": "El oro profundiza su caída hasta 3.525 $ en Asia, camino de su peor semana desde marzo",
       "ts": "2026-11-20T07:00:00Z",
       "url": "https://www.fxstreet.com/news/forex-today-gold-extends-slide-toward-3-500-despite-us-dollar-pullback-202611200712"
-    },
-    {
-      "activos": {
-        "BTC": "bajista"
-      },
-      "fuente": "KuCoin / Coinbird",
-      "impacto": "medio",
-      "resumen": "Las salidas de ETF de bitcoin en noviembre superan ya los 2.890 millones $ segun KuCoin.",
-      "titular": "Bitcoin cae a unos 61.900 $ mientras Goolsbee (Fed de Chicago) no descarta una subida mayor en diciembre",
-      "ts": "2026-11-20T06:30:00Z",
-      "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-20-2026"
-    },
-    {
-      "activos": {
-        "BTC": "bajista"
-      },
-      "fuente": "BusinessToday (Malasia)",
-      "impacto": "alto",
-      "resumen": "El Fear & Greed Index marca 12 (miedo extremo) y las salidas de ETF al contado continúan.",
-      "titular": "Bitcoin cae por debajo de 62.000 $ y Ethereum ronda 1.750 $ en nueva oleada de ventas cripto",
-      "ts": "2026-11-20T04:00:00Z",
-      "url": "https://www.businesstoday.com.my/2026/11/20/crypto-selloff-drags-bitcoin-to-below-us62000-ethereum-near-us1750/"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "EURUSD": "bajista",
-        "XAU": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "El mercado asigna un 97,3 % de probabilidad a una subida de 25 pb en diciembre y el EUR/USD cotiza cerca de 1,0970.",
-      "titular": "El euro cae presionado por la mayor probabilidad de una subida de la Fed en diciembre",
-      "ts": "2026-11-20T01:14:00Z",
-      "url": "https://www.fxstreet.com/news/euro-faces-pressure-as-fed-rate-hike-bets-strengthen-us-dollar-202611200114"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 3,94.",
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,21.",
         "valor": "7521"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 3,94.",
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,21.",
         "valor": "7270"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 3,94.",
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,21.",
         "valor": "7461"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,32.",
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 5,19.",
         "valor": "27541"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,32.",
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 5,19.",
         "valor": "24663"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,32.",
-        "valor": "27335"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 5,19.",
+        "valor": "27212"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 20 de noviembre (base open interest, motor recalculado a las 16:07 UTC): en el S&P 500, call wall en 7.521, put wall en 7.270 y max pain en 7.461 (antes 7.471), con un put/call OI de 3,94 (antes 3,44). En el Nasdaq 100, call wall en 27.541, put wall en 24.663 y max pain en 27.335 (antes 27.664), con un put/call OI de 4,32 (antes 2,93). El giro de gamma 0DTE no está disponible en ninguno de los dos índices."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 20 de noviembre (base open interest, motor recalculado a las 17:09 UTC): en el S&P 500, call wall en 7.521, put wall en 7.270 y max pain en 7.461, con un put/call OI de 4,21 (antes 3,94). En el Nasdaq 100, call wall en 27.541, put wall en 24.663 y max pain en 27.212 (antes 27.335), con un put/call OI de 5,19 (antes 4,32). El giro de gamma 0DTE no está disponible en ninguno de los dos índices."
   },
   "politica": {
-    "actualizado": "2026-11-20T15:45:00Z",
+    "actualizado": "2026-11-20T17:15:00Z",
     "ajuste": -10,
     "declaraciones": [
       {
@@ -1428,6 +1427,14 @@
         "quien": "Trump",
         "ts": "2026-11-20T10:09:00Z",
         "url": "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus"
+      },
+      {
+        "dicho": "Dice que la reunión entre Trump y Xi tuvo una conversación 'robusta' sobre comercio e IA, sin nuevos pedidos chinos de chips H200 de Nvidia.",
+        "efecto": "neutral",
+        "fuente": "investinglive.com",
+        "quien": "Scott Bessent",
+        "ts": "2026-11-20T08:30:00Z",
+        "url": "https://investinglive.com/news/bessent-says-trump-and-xi-saw-robust-discussion-on-trade-policy-ai/"
       },
       {
         "dicho": "No descarta una subida sustancial de tipos en la reunión de diciembre.",
@@ -1446,14 +1453,6 @@
         "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
       },
       {
-        "dicho": "Dice que la Fed podría necesitar 'sorprender' con una subida de 50 puntos básicos en diciembre.",
-        "efecto": "bajista",
-        "fuente": "CNBC",
-        "quien": "Christopher Waller (Fed)",
-        "ts": "2026-11-18T18:00:00Z",
-        "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
-      },
-      {
         "dicho": "Casi todos los miembros juzgan apropiadas nuevas subidas; un par abre la puerta a 50 pb en diciembre.",
         "efecto": "bajista",
         "fuente": "Federal Reserve",
@@ -1463,7 +1462,7 @@
       }
     ],
     "efecto": "mixto",
-    "lectura": "Trump dice a Axios que no tiene prisa por decidir sobre Irán, mientras el UKMTO y la Guardia Revolucionaria iraní confirman nuevos ataques con minas contra buques en el estrecho de Ormuz. Waller y Goolsbee (Fed de Chicago) siguen reforzando la posibilidad de una subida mayor en diciembre, y Bessent insiste en que los tipos a largo plazo siguen altos pese a sus esfuerzos por bajarlos. Un nuevo derrumbe de los semiconductores (AMD, TSMC) y la caída superior al 10 % de Anthropic en el premarket siguen pesando en la sesión regular, una presión bajista adicional ajena a la política, por lo que el ajuste se mantiene sin cambios.",
+    "lectura": "Bessent describe como 'robusta' la conversación entre Trump y Xi sobre comercio e IA tras la cumbre de Shenzhen, sin pedidos chinos nuevos de chips H200 de Nvidia; Trump, por su parte, sigue sin prisa por decidir sobre Irán pese a los nuevos ataques en el estrecho de Ormuz. Goolsbee (Fed de Chicago) refuerza la posibilidad de una subida mayor en diciembre. Pese a ello, el mayor motor de la sesión sigue siendo ajeno a la política: un nuevo derrumbe de los semiconductores y el desplome del 11 % de Anthropic en su segundo día en bolsa, que ha llevado al S&P 500 a entrar en corrección técnica, por lo que el ajuste se mantiene sin cambios.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1483,11 +1482,11 @@
       },
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
-        "efecto": "alcista",
-        "postura": "Dice que los tipos a largo plazo no reflejan los fundamentales, pese a sus esfuerzos por bajarlos.",
+        "efecto": "neutral",
+        "postura": "Dice que la reunión Trump-Xi tuvo una conversación 'robusta' sobre comercio e IA, sin nuevos pedidos chinos de chips H200 de Nvidia.",
         "quien": "Scott Bessent",
-        "ts": "2026-11-15T00:00:00Z",
-        "url": "https://www.city-journal.org/article/united-states-public-debt-bailouts"
+        "ts": "2026-11-20T08:30:00Z",
+        "url": "https://investinglive.com/news/bessent-says-trump-and-xi-saw-robust-discussion-on-trade-policy-ai/"
       },
       {
         "cargo": "Presidente de China",
@@ -1515,7 +1514,7 @@
       }
     ]
   },
-  "resumen": "Son las 16:16 UTC (11:16 de la mañana en Nueva York) del viernes 20 de noviembre de 2026, con el mercado de acciones de EE. UU. abierto desde las 9:30 y ampliando la sexta sesión consecutiva de pérdidas. El S&P 500 ronda los 7.080 puntos (-1,3 % sobre el cierre del jueves, 7.175,83) y el Nasdaq 100 los 25.780 puntos (-2,5 %), lastrados por un nuevo derrumbe de los semiconductores (AMD -7 %, TSMC -4,2 %) que también golpeó a Asia (Taiwán -6,2 %, su peor semana desde 1991; Kospi -5,2 %; Nikkei -5,1 %) y por la floja acogida al segundo día de cotización de Anthropic; Nvidia cae un 6 % a media mañana y el Dow se mantiene por debajo de 50.000. La gamma sigue muy negativa en ambos índices (SPX -7,32 mil M$ por 1 %, NDX -2,59 mil M$ por 1 %, open interest del 18 de noviembre). La probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre baja ligeramente al 94,5 % según Kalshi (antes 95,5 %), pese a que la confianza del consumidor de Michigan se revisó al alza a 51,5 en el dato final (desde 51,0 preliminar). El oro (en torno a 3.580-3.600 $) y bitcoin (en torno a 62.000 $) siguen cerca de mínimos de varios meses, el WTI se mantiene firme (82-83 $) por la escalada en el estrecho de Ormuz, y el euro ronda mínimos de 19 meses frente al dólar.",
+  "resumen": "Son las 17:15 UTC (12:15 del mediodía en Nueva York) del viernes 20 de noviembre de 2026. El mercado de EE. UU. amplía su séptima sesión consecutiva de pérdidas: el S&P 500 ronda los 7.080 puntos y, según Bloomberg, ya está en corrección técnica (-10 % desde su máximo reciente); el Nasdaq 100 cae un 3,5 % hasta cerca de 25.780 puntos, lastrado por un nuevo derrumbe de los semiconductores (AMD, TSMC) y por el desplome del 11 % de Anthropic en su segundo día en bolsa. El índice de correlación implícita del Cboe tocó su nivel más alto desde abril, señal de venta generalizada. La gamma sigue muy negativa en ambos índices (SPX -7,17 mil M$ por 1 %, NDX -2,58 mil M$ por 1 %, open interest del 18 de noviembre). La probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre se mantiene en el 94,5 % según Kalshi. Bitcoin cae por debajo de 60.000 $ (peor mes desde junio de 2022) y el oro sigue cerca de mínimos de más de un año (en torno a 3.580 $); el euro ronda mínimos de varios meses frente al dólar y el WTI se mantiene firme por la tensión en el estrecho de Ormuz.",
   "semana": {
     "activos": [
       {
@@ -1698,5 +1697,5 @@
     "updatedAt": "2026-11-20T16:20:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-20T16:20:00Z"
+  "updatedAt": "2026-11-20T17:15:00.000000Z"
 }
