@@ -451,8 +451,8 @@
       "previstoNum": 20
     },
     {
-      "actual": null,
-      "actualNum": null,
+      "actual": "51,5",
+      "actualNum": 51.5,
       "anterior": "51,0 (preliminar)",
       "anteriorNum": 51,
       "divisaSiSube": "+",
@@ -460,7 +460,7 @@
       "fecha": "2026-11-20",
       "horaUtc": "15:00",
       "impacto": "medio",
-      "nota": "Semana del 16-20 de noviembre; prevision respaldada solo por una fuente (Investing.com).",
+      "nota": "Dato publicado: sube al 51,5 (por encima del 51,0 preliminar y del consenso); expectativas de inflacion a un ano caen a 3,7 % desde 4,7 %.",
       "pais": "EE. UU.",
       "previsto": "51,0 (consenso Investing.com, igual que el preliminar)",
       "previstoNum": 51
@@ -587,15 +587,15 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-20T15:06:06Z",
+    "actualizado": "2026-11-20T16:06:55Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene estable en el 95,5 % (tasa implícita 4,13 %), sin cambios frente a la lectura anterior. Para la reunión de enero de 2027 también se mantiene estable en el 95,0 % (tasa implícita 4,24 %).",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre baja ligeramente al 94,5 % (antes 95,5 %), con la tasa implícita sin cambios en el 4,13 %. Para la reunión de enero de 2027 se mantiene estable en el 95,0 % (tasa implícita 4,24 %) y para la de abril de 2027 en el 96,0 % (tasa implícita 4,38 %).",
     "reuniones": [
       {
         "bajar": 0.5,
         "fecha": "2026-12-09",
-        "mantener": 4,
-        "subir": 95.5,
+        "mantener": 5,
+        "subir": 94.5,
         "tasaImplicita": 4.13
       },
       {
@@ -936,28 +936,28 @@
   ],
   "indices": [
     {
-      "changeNote": "futuro ES, premarket en Nueva York (09:05 hora de Nueva York), sin cotización oficial del índice fuera de horario",
-      "changePct": -0.67,
+      "changeNote": "Nivel derivado de SPY (706,16 $) convertido al índice con el ratio del motor (10,0278, del 18-nov, conservado por falta de ratio fresco); mercado en sesión regular, cambio % sobre el cierre del jueves (7.175,83) estimado a partir de SPY, en vivo 16:16 Canarias.",
+      "changePct": -1.32,
       "claves": [
-        "Call wall en 7521 (ETF SPY 750,0 $); put wall en 7019 (ETF SPY 700,0 $).",
-        "Max pain en 7471 (ETF SPY 745,0 $).",
+        "Call wall en 7.521 (ETF SPY 750,0 $); put wall en 7.019 (ETF SPY 700,0 $).",
+        "Max pain en 7.461 (ETF SPY 744,0 $).",
         "Giro de gamma (gamma flip) no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -6,96 mil M$ por 1 %, put/call OI 2,64, open interest del 18 de noviembre."
+        "Régimen de gamma negativa, en -7,32 mil M$ por 1 %, put/call OI 3,60, open interest del 18 de noviembre."
       ],
       "gex": {
         "callWall": 750,
-        "contratos": 1519,
+        "contratos": 1413,
         "etf": "SPY",
         "gammaFlip": null,
-        "gexTotal": -6.96,
+        "gexTotal": -7.32,
         "indice": {
           "callWall": 7521,
           "gammaFlip": null,
-          "maxPain": 7471,
-          "precio": 7179,
+          "maxPain": 7461,
+          "precio": null,
           "putWall": 7019
         },
-        "maxPain": 745,
+        "maxPain": 744,
         "odte": {
           "base": "open interest",
           "callWall": 750,
@@ -967,17 +967,17 @@
           "indice": {
             "callWall": 7521,
             "gammaFlip": null,
-            "maxPain": 7471,
+            "maxPain": 7461,
             "putWall": 7270
           },
-          "maxPain": 745,
-          "pcrOI": 2.81,
+          "maxPain": 744,
+          "pcrOI": 3.94,
           "putWall": 725,
           "vencimiento": "2026-11-20"
         },
         "oiFecha": "2026-11-18",
-        "pcrOI": 2.64,
-        "precio": 715.89,
+        "pcrOI": 3.6,
+        "precio": 706.16,
         "putWall": 700,
         "ratioFecha": "2026-11-18",
         "ratioIndice": 10.0278,
@@ -985,91 +985,91 @@
         "vencimientoCercano": "2026-11-20"
       },
       "id": "SPX",
-      "lectura": "Son las 15:16 UTC (10:16 de la mañana en Nueva York, mercado de acciones ya abierto desde las 9:30) del viernes 20 de noviembre. La última referencia confirmada de futuros ES sigue en torno a 7.149 (-0,67 %), tras una sexta sesión consecutiva en rojo (cierre en 7.175,83, -2,02 %) con el VIX en 28,44. El desplome sigue ligado a la floja acogida al segundo día de cotización de Anthropic (más del 10 % abajo en premarket) y a un nuevo tramo bajista en semiconductores (AMD -7 %, TSMC -4,2 % antes de la apertura). La gamma sigue muy negativa, ahora en -6,96 mil M$ por 1 % (antes -6,92 mil M$), con el put/call OI subiendo a 2,64 (antes 3,19) sobre un open interest del 18 de noviembre con más contratos (1.519 frente a 1.427); el put wall en 7.019 sigue de soporte y el call wall en 7.521 limita cualquier rebote. La probabilidad de una subida de la Fed el 9 de diciembre se mantiene estable en el 95,5 %. El dato final de confianza del consumidor de Michigan (15:00 UTC, impacto medio) aún no aparece publicado en las fuentes consultadas. Sesgo: bajista.",
+      "lectura": "Son las 16:16 UTC (11:16 de la mañana en Nueva York, mercado abierto desde las 9:30) del viernes 20 de noviembre. El S&P 500 ronda los 7.080 puntos, ampliando a cerca de un 1,3 % las pérdidas sobre el cierre del jueves (7.175,83, -2,02 %, sexta sesión consecutiva en rojo), con el Dow Jones por debajo de los 50.000 puntos tras cerrar ayer en 49.097,06 y Nvidia cayendo un 6 % a media mañana según un resumen intradía de Yahoo Finance. La gamma se mantiene muy negativa, en -7,32 mil M$ por 1 % (antes -7,23), con el put wall en 7.019 de soporte y el call wall en 7.521 limitando cualquier rebote; el max pain bajó a 7.461 (antes 7.471). La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre bajó ligeramente al 94,5 % según Kalshi (antes 95,5 %), con la tasa implícita sin cambios en el 4,13 %. La confianza del consumidor de la Universidad de Michigan se revisó al alza a 51,5 en el dato final de noviembre (desde 51,0 preliminar), con las expectativas de inflación a un año cayendo a 3,7 % desde 4,7 %. Sesgo: bajista.",
       "levels": {
         "callWall": 7521,
         "gammaFlip": null,
-        "maxPain": 7471,
+        "maxPain": 7461,
         "putWall": 7019
       },
       "name": "S&P 500",
-      "netGex": "negativa (-6,96 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-18)",
-      "precio": 7148,
+      "netGex": "negativa (-7,32 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-18)",
+      "precio": 7081,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -64,
+      "score": -65,
       "sesgo": "bajista",
-      "spot": 7148
+      "spot": 7081
     },
     {
-      "changeNote": "futuro NQ, premarket en Nueva York (09:05 hora de Nueva York), sin cotización oficial del índice fuera de horario",
-      "changePct": -1.52,
+      "changeNote": "Nivel derivado de QQQ (627,07 $) convertido al índice con el ratio del motor (41,1057, del 19-nov); cambio % estimado sobre el cierre del jueves por un nuevo desplome de los semiconductores, en vivo 16:16 Canarias.",
+      "changePct": -2.5,
       "claves": [
-        "Call wall en 27952 (ETF QQQ 680,0 $); put wall en 26719 (ETF QQQ 650,0 $).",
-        "Max pain en 27870 (ETF QQQ 678,0 $).",
+        "Call wall en 27.130 (ETF QQQ 660,0 $); put wall en 26.308 (ETF QQQ 640,0 $).",
+        "Max pain en 27.335 (ETF QQQ 665,0 $).",
         "Giro de gamma no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -2,55 mil M$ por 1 %, put/call OI 2,54, open interest del 18 de noviembre."
+        "Régimen de gamma negativa, en -2,59 mil M$ por 1 %, put/call OI 4,28, open interest del 18 de noviembre."
       ],
       "gex": {
-        "callWall": 680,
-        "contratos": 1306,
+        "callWall": 660,
+        "contratos": 1095,
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -2.55,
+        "gexTotal": -2.59,
         "indice": {
-          "callWall": 27952,
+          "callWall": 27130,
           "gammaFlip": null,
-          "maxPain": 27870,
-          "precio": 26281,
-          "putWall": 26719
+          "maxPain": 27335,
+          "precio": 25776,
+          "putWall": 26308
         },
-        "maxPain": 678,
+        "maxPain": 665,
         "odte": {
           "base": "open interest",
-          "callWall": 680,
+          "callWall": 670,
           "esHoy": true,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 27952,
+            "callWall": 27541,
             "gammaFlip": null,
-            "maxPain": 27870,
-            "putWall": 27952
+            "maxPain": 27335,
+            "putWall": 24663
           },
-          "maxPain": 678,
-          "pcrOI": 2.24,
-          "putWall": 680,
+          "maxPain": 665,
+          "pcrOI": 4.32,
+          "putWall": 600,
           "vencimiento": "2026-11-20"
         },
         "oiFecha": "2026-11-18",
-        "pcrOI": 2.54,
-        "precio": 639.35,
-        "putWall": 650,
+        "pcrOI": 4.28,
+        "precio": 627.07,
+        "putWall": 640,
         "ratioFecha": "2026-11-19",
         "ratioIndice": 41.1057,
         "regimen": "negativa",
         "vencimientoCercano": "2026-11-20"
       },
       "id": "NDX",
-      "lectura": "Son las 15:16 UTC (10:16 de la mañana en Nueva York) del viernes 20 de noviembre. La última referencia confirmada de futuros NQ sigue cerca de 26.193 (-1,52 %), con un nuevo desplome de los semiconductores (AMD -7 %, TSMC -4,2 % antes de la apertura) que reaviva el miedo a una burbuja de la IA pese al buen resultado de Nvidia y el debut de Anthropic esta semana. La gamma sigue negativa, ahora en -2,55 mil M$ por 1 % (antes -2,47 mil M$), put wall subiendo a 26.719 (antes 26.312) y max pain en 27.870 (antes 27.751); el giro de gamma sigue sin estar disponible. La probabilidad de una subida de la Fed el 9 de diciembre se mantiene estable en el 95,5 %, aunque la debilidad específica de semiconductores sigue siendo el motor dominante hoy. Sesgo: bajista, algo más marcado en semiconductores que en el resto del índice.",
+      "lectura": "Son las 16:16 UTC (11:16 de la mañana en Nueva York) del viernes 20 de noviembre. El Nasdaq 100 ronda los 25.780 puntos, profundizando la caída (en torno a un 2,5 % frente al cierre del jueves) por un nuevo derrumbe de los semiconductores (AMD -7 % y TSMC -4,2 % antes de la apertura), que arrastró también a las bolsas asiáticas (Taiwán -6,2 %, su peor semana desde 1991; Kospi -5,2 %; Nikkei -5,1 %). La gamma sigue negativa, en -2,59 mil M$ por 1 % (antes -2,61), con el call wall del ETF bajando a 660 $ (27.130 en el índice) y el max pain en 665 $ (27.335, antes 27.664). La probabilidad de subida de la Fed en diciembre bajó ligeramente al 94,5 % según Kalshi. Sesgo: bajista, con los semiconductores liderando las pérdidas.",
       "levels": {
-        "callWall": 27952,
+        "callWall": 27130,
         "gammaFlip": null,
-        "maxPain": 27870,
-        "putWall": 26719
+        "maxPain": 27335,
+        "putWall": 26308
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-2,55 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-18)",
-      "precio": 26193,
+      "netGex": "negativa (-2,59 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-18)",
+      "precio": 25776,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -46,
+      "score": -55,
       "sesgo": "bajista",
-      "spot": 26193
+      "spot": 25776
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-20T11:28:20Z",
+    "actualizado": "2026-11-20T15:36:31Z",
     "balance": 6741.5,
     "d4": 23.2,
     "dBalance": -17.4,
@@ -1207,6 +1207,30 @@
         "NQ": "bajista",
         "SPX": "bajista"
       },
+      "fuente": "Yahoo Finance / StockTitan",
+      "impacto": "alto",
+      "resumen": "Según un resumen intradía de Yahoo Finance, el S&P 500 cae un 1,2 % y el Nasdaq un 1,4 % a media mañana, mientras el Dow sube un 0,5 %.",
+      "titular": "Los semiconductores profundizan las pérdidas en la sesión regular: Nvidia cae un 6 % a media mañana en Nueva York",
+      "ts": "2026-11-20T15:30:00Z",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+    },
+    {
+      "activos": {
+        "NQ": "neutral",
+        "SPX": "neutral"
+      },
+      "fuente": "Seeking Alpha / Verified Investing",
+      "impacto": "medio",
+      "resumen": "El índice subió a 51,5 desde el 51,0 preliminar y el 48,0 de octubre, con las expectativas de inflación a un año cayendo a 3,7 % desde 4,7 %.",
+      "titular": "La confianza del consumidor de Michigan sube a 51,5 en el dato final de noviembre, por encima del preliminar",
+      "ts": "2026-11-20T15:00:00Z",
+      "url": "https://seekingalpha.com/news/4675184-consumer-sentiment-revised-slightly-higher-in-novembers-final-print"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
       "fuente": "Bloomberg",
       "impacto": "alto",
       "resumen": "El futuro del S&P 500 cae un 1 % y el del Nasdaq 100 un 1,8 % hacia las 8:26 de la mañana en Nueva York, por la floja acogida al segundo día de cotización de Anthropic.",
@@ -1301,6 +1325,18 @@
     },
     {
       "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
+      "fuente": "24/7 Wall St.",
+      "impacto": "alto",
+      "resumen": "El derrumbe de los semiconductores en Asia se extiende a Europa y EE. UU. antes de la apertura de Wall Street.",
+      "titular": "Taiwán cae un 6,2 % en su peor semana desde 1991; Kospi -5,2 % y Nikkei -5,1 % por el desplome de los semiconductores",
+      "ts": "2026-11-20T08:00:00Z",
+      "url": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"
+    },
+    {
+      "activos": {
         "XAU": "bajista"
       },
       "fuente": "FXStreet",
@@ -1344,80 +1380,45 @@
       "titular": "El euro cae presionado por la mayor probabilidad de una subida de la Fed en diciembre",
       "ts": "2026-11-20T01:14:00Z",
       "url": "https://www.fxstreet.com/news/euro-faces-pressure-as-fed-rate-hike-bets-strengthen-us-dollar-202611200114"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "CNBC",
-      "impacto": "alto",
-      "resumen": "El índice cae en una sexta sesión consecutiva en rojo para el S&P 500 pese al histórico debut bursátil de Anthropic.",
-      "titular": "El Dow Jones cierra por debajo de los 50.000 puntos por primera vez desde junio",
-      "ts": "2026-11-19T21:00:00Z",
-      "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
-    },
-    {
-      "activos": {
-        "BTC": "bajista",
-        "XAU": "bajista"
-      },
-      "fuente": "CryptoTicker",
-      "impacto": "alto",
-      "resumen": "El oro toca su nivel más bajo en más de un año y bitcoin cae cerca de un 4 % en el día por las expectativas de más subidas de la Fed de Kevin Warsh.",
-      "titular": "El oro cae un 3,5 % a 3.728,80 $, mínimo desde septiembre de 2025, y bitcoin retrocede a unos 62.300 $",
-      "ts": "2026-11-19T18:30:00Z",
-      "url": "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin"
-    },
-    {
-      "activos": {
-        "SPX": "bajista"
-      },
-      "fuente": "Benzinga",
-      "impacto": "alto",
-      "resumen": "El índice cae un 0,9 % hasta el entorno de 7.255 puntos pese al exitoso debut bursátil de Anthropic.",
-      "titular": "El S&P 500 encadena su sexta caída consecutiva, la peor racha desde abril de 2024",
-      "ts": "2026-11-19T18:00:00Z",
-      "url": "https://www.benzinga.com/markets/equities/26/11/63446162/stock-market-today-anthropic-ipo-debut-sp-500-sixth-loss-november-19"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 2,81.",
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 3,94.",
         "valor": "7521"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 2,81.",
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 3,94.",
         "valor": "7270"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 2,81.",
-        "valor": "7471"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 3,94.",
+        "valor": "7461"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 2,24.",
-        "valor": "27952"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,32.",
+        "valor": "27541"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 2,24.",
-        "valor": "27952"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,32.",
+        "valor": "24663"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 2,24.",
-        "valor": "27870"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,32.",
+        "valor": "27335"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 20 de noviembre (base open interest, motor recalculado a las 15:06 UTC): en el S&P 500, call wall en 7.521, put wall en 7.270 y max pain en 7.471, con un put/call OI de 2,81 (antes 3,44). En el Nasdaq 100, call wall en 27.952, put wall en 27.952 y max pain en 27.870 (antes 27.751), con un put/call OI de 2,24 (antes 2,47). El giro de gamma 0DTE no está disponible en ninguno de los dos índices."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 20 de noviembre (base open interest, motor recalculado a las 16:07 UTC): en el S&P 500, call wall en 7.521, put wall en 7.270 y max pain en 7.461 (antes 7.471), con un put/call OI de 3,94 (antes 3,44). En el Nasdaq 100, call wall en 27.541, put wall en 24.663 y max pain en 27.335 (antes 27.664), con un put/call OI de 4,32 (antes 2,93). El giro de gamma 0DTE no está disponible en ninguno de los dos índices."
   },
   "politica": {
-    "actualizado": "2026-11-20T13:49:59Z",
+    "actualizado": "2026-11-20T15:45:00Z",
     "ajuste": -10,
     "declaraciones": [
       {
@@ -1462,7 +1463,7 @@
       }
     ],
     "efecto": "mixto",
-    "lectura": "Trump dice a Axios que no tiene prisa por decidir sobre Irán, mientras el UKMTO y la Guardia Revolucionaria iraní confirman nuevos ataques con minas contra buques en el estrecho de Ormuz. Waller y Goolsbee (Fed de Chicago) siguen reforzando la posibilidad de una subida mayor en diciembre, y Bessent insiste en que los tipos a largo plazo siguen altos pese a sus esfuerzos por bajarlos. Un nuevo desplome de los semiconductores (AMD, TSMC) y la caída superior al 10 % de Anthropic en el premarket añaden presión bajista adicional ajena a la política, por lo que el ajuste se mantiene sin cambios.",
+    "lectura": "Trump dice a Axios que no tiene prisa por decidir sobre Irán, mientras el UKMTO y la Guardia Revolucionaria iraní confirman nuevos ataques con minas contra buques en el estrecho de Ormuz. Waller y Goolsbee (Fed de Chicago) siguen reforzando la posibilidad de una subida mayor en diciembre, y Bessent insiste en que los tipos a largo plazo siguen altos pese a sus esfuerzos por bajarlos. Un nuevo derrumbe de los semiconductores (AMD, TSMC) y la caída superior al 10 % de Anthropic en el premarket siguen pesando en la sesión regular, una presión bajista adicional ajena a la política, por lo que el ajuste se mantiene sin cambios.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1514,75 +1515,75 @@
       }
     ]
   },
-  "resumen": "Son las 15:16 UTC (10:16 de la mañana en Nueva York) del viernes 20 de noviembre de 2026, con el mercado de acciones de EE. UU. ya abierto desde las 9:30. La última referencia confirmada de futuros sigue marcando al S&P 500 (ES) en torno a 7.149 puntos (-0,67 %) y al Nasdaq 100 (NQ) cerca de 26.193 (-1,52 %), lastrados por la floja acogida al segundo día de cotización de Anthropic (más del 10 % abajo en premarket) y un nuevo desplome de los semiconductores (AMD -7 %, TSMC -4,2 % antes de la apertura). El VIX se disparó un 16 % el jueves hasta 28,44 y el Dow cerró por debajo de los 50.000 puntos por primera vez desde junio. La gamma sigue muy negativa en ambos índices y algo más negativa que hace una hora (SPX -6,96 mil M$ por 1 %, NDX -2,55 mil M$ por 1 %, open interest del 18 de noviembre, motor recalculado a las 15:06 UTC). La probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre se mantiene estable en el 95,5 %. El dato final de confianza del consumidor de la Universidad de Michigan (noviembre), previsto a las 15:00 UTC con impacto medio, todavía no aparece publicado en las fuentes consultadas.",
+  "resumen": "Son las 16:16 UTC (11:16 de la mañana en Nueva York) del viernes 20 de noviembre de 2026, con el mercado de acciones de EE. UU. abierto desde las 9:30 y ampliando la sexta sesión consecutiva de pérdidas. El S&P 500 ronda los 7.080 puntos (-1,3 % sobre el cierre del jueves, 7.175,83) y el Nasdaq 100 los 25.780 puntos (-2,5 %), lastrados por un nuevo derrumbe de los semiconductores (AMD -7 %, TSMC -4,2 %) que también golpeó a Asia (Taiwán -6,2 %, su peor semana desde 1991; Kospi -5,2 %; Nikkei -5,1 %) y por la floja acogida al segundo día de cotización de Anthropic; Nvidia cae un 6 % a media mañana y el Dow se mantiene por debajo de 50.000. La gamma sigue muy negativa en ambos índices (SPX -7,32 mil M$ por 1 %, NDX -2,59 mil M$ por 1 %, open interest del 18 de noviembre). La probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre baja ligeramente al 94,5 % según Kalshi (antes 95,5 %), pese a que la confianza del consumidor de Michigan se revisó al alza a 51,5 en el dato final (desde 51,0 preliminar). El oro (en torno a 3.580-3.600 $) y bitcoin (en torno a 62.000 $) siguen cerca de mínimos de varios meses, el WTI se mantiene firme (82-83 $) por la escalada en el estrecho de Ormuz, y el euro ronda mínimos de 19 meses frente al dólar.",
   "semana": {
     "activos": [
       {
-        "cambio": "El precio retrocede aún más en los futuros (ES en torno a 7.148, -0,67 %) en el premarket, con la gamma estable en terreno muy negativo (-6,64 mil M$ por 1 %) y el precio por debajo del giro de gamma en 7.553; el VIX se disparó un 16 % el jueves hasta 28,44 y un nuevo desplome de los semiconductores (AMD, TSMC) junto a la caída de más del 10 % de Anthropic en el premarket lastran los futuros esta mañana, además de nuevos ataques con minas a buques en el estrecho de Ormuz.",
-        "expectativa": "Waller y Goolsbee (Fed de Chicago) abriendo la puerta a una subida mayor en diciembre siguen dominando sobre el saldo del calendario, algo más débil de lo esperado para el dólar (-23 frente a -19); los PMI flash del lunes son el próximo catalizador, junto al dato de confianza de Michigan de hoy.",
+        "cambio": "El S&P 500 ronda los 7.080 puntos en sesión regular, ampliando a cerca de un 1,3 % las pérdidas sobre el cierre del jueves, con Nvidia cayendo un 6 % a media mañana. La confianza del consumidor de Michigan se revisó al alza a 51,5 en el dato final (desde 51,0 preliminar), suavizando algo el saldo del calendario (dólar en -19, igual que lo esperado), pero pesa más la Fed de Kevin Warsh (94,5 % de probabilidad de subida el 9 de diciembre, antes 95,5 %) y la gamma, aún más negativa (-7,32 mil M$ por 1 %).",
+        "expectativa": "Waller y Goolsbee abriendo la puerta a una subida mayor en diciembre siguen dominando sobre el saldo del calendario, algo más débil de lo esperado para el dólar (-23 frente a -19); los PMI flash del lunes y el PCE subyacente del miércoles son los próximos catalizadores.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana deja un saldo de -23 para el dólar (más débil de lo esperado, -19), con el Empire State y el índice de la Fed de Filadelfia como mayores sorpresas a la baja, pero pesa poco frente a los tipos: el mercado asigna un 97,5 % de probabilidad a una subida de la Fed de Kevin Warsh el 9 de diciembre, reforzada por Waller y Goolsbee al abrir la puerta a 50 pb. La gamma del S&P 500 sigue muy negativa (-6,64 mil M$ por 1 %) con el precio por debajo del giro de gamma en 7.553, y un nuevo desplome de los semiconductores (AMD, TSMC) esta mañana se suma a la sexta sesión consecutiva en rojo (Dow por debajo de 50.000), reforzando el sesgo bajista de fondo.",
-        "score": -28,
+        "narrativa": "El calendario de esta semana deja un saldo de -23 para el dólar (más débil de lo esperado, -19), con el Empire State y el índice de la Fed de Filadelfia como mayores sorpresas a la baja, pero pesa poco frente a los tipos: el mercado asigna un 95,5 % de probabilidad a una subida de la Fed de Kevin Warsh el 9 de diciembre, reforzada por Waller y Goolsbee al abrir la puerta a 50 pb. La gamma del S&P 500 sigue muy negativa y algo más marcada que hace una hora (-7,23 mil M$ por 1 %), con el precio ya en sesión regular ampliando las pérdidas del jueves; un nuevo desplome de los semiconductores (AMD, TSMC) se suma a la séptima sesión consecutiva en rojo (Dow por debajo de 50.000), reforzando el sesgo bajista de fondo.",
+        "score": -33,
         "scoreInicial": -25,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El precio cae con más fuerza en los futuros (NQ en torno a 26.193, -1,52 %) por un nuevo desplome de los semiconductores (AMD, TSMC) y la caída de más del 10 % de Anthropic en el premarket, que reaviva el miedo a una burbuja de la IA pese al buen resultado de Nvidia y el debut de Anthropic esta semana.",
-        "expectativa": "El calendario resulta algo favorable (dólar en -23), pero el motor principal pasa a ser la debilidad específica de los semiconductores; los PMI flash y el PCE subyacente de la próxima semana son los próximos catalizadores.",
+        "cambio": "El Nasdaq 100 profundiza la caída (en torno a un 2,5 % frente al cierre del jueves) por un nuevo derrumbe de los semiconductores (AMD -7 %, TSMC -4,2 %) que arrastra también a Asia (Taiwán -6,2 %, su peor semana desde 1991). El dato final de confianza del consumidor de Michigan (51,5, por encima del 51,0 preliminar) suaviza algo el calendario, pero no compensa la debilidad específica de los semiconductores.",
+        "expectativa": "El calendario resulta algo favorable (dólar en -23), pero el motor principal sigue siendo la debilidad específica de los semiconductores; los PMI flash y el PCE subyacente de la próxima semana son los próximos catalizadores.",
         "id": "NQ",
-        "narrativa": "El calendario de esta semana deja un saldo de -23 para el dólar (más débil de lo esperado), un fondo en teoría favorable para el Nasdaq 100, pero un nuevo desplome de los semiconductores (AMD, TSMC) esta mañana se suma a la presión de Waller y Goolsbee por una Fed más dura en diciembre (97,5 % de probabilidad) y pesa más que el buen resultado de Nvidia o el histórico debut de Anthropic de esta semana, llevando el sesgo a terreno bajista.",
-        "score": -22,
+        "narrativa": "El calendario de esta semana deja un saldo de -23 para el dólar (más débil de lo esperado), un fondo en teoría favorable para el Nasdaq 100, pero un nuevo desplome de los semiconductores (AMD, TSMC) en la sesión regular se suma a la presión de Waller y Goolsbee por una Fed más dura en diciembre (95,5 % de probabilidad) y pesa más que el buen resultado de Nvidia o el histórico debut de Anthropic de esta semana, llevando el sesgo a terreno claramente bajista.",
+        "score": -30,
         "scoreInicial": -29,
         "sesgo": "bajista"
       },
       {
-        "cambio": "El oro extiende la caída por debajo de 3.600 $, hacia unos 3.530-3.540 $ (estimación; cifras dispersas entre fuentes), cerca de mínimos de más de un año, camino de su peor semana desde marzo.",
-        "expectativa": "El saldo del dólar algo más débil de lo esperado (-23 frente a -19) da cierto aire al oro, pero el 97,5 % de probabilidad de una Fed más dura en diciembre sigue limitando un rebote más amplio.",
+        "cambio": "El oro se mantiene en torno a 3.580-3.600 $. El calendario resulta algo menos negativo para el dólar tras el dato final de Michigan (51,5), pero el 94,5 % de probabilidad de una Fed más dura en diciembre sigue limitando un rebote más amplio.",
+        "expectativa": "El saldo del dólar algo más débil de lo esperado (-23 frente a -19) da cierto aire al oro, pero el 95,5 % de probabilidad de una Fed más dura en diciembre sigue limitando un rebote más amplio.",
         "id": "XAU",
-        "narrativa": "El calendario deja un saldo de -23 para el dólar esta semana (más débil de lo esperado), lo que ayuda a que el oro recorte parte de la caída asiática, pero los tipos siguen dominando el fondo: el 97,5 % de probabilidad de una Fed más dura en diciembre, reforzada por Waller y Goolsbee, mantiene al oro cerca de mínimos de más de un año, ahora por debajo de los 3.600 $. La escalada en el estrecho de Ormuz añade algo de demanda de refugio.",
-        "score": 0,
+        "narrativa": "El calendario deja un saldo de -23 para el dólar esta semana (más débil de lo esperado), lo que ayuda a que el oro recorte parte de la caída asiática, pero los tipos siguen dominando el fondo: el 95,5 % de probabilidad de una Fed más dura en diciembre, reforzada por Waller y Goolsbee, mantiene al oro cerca de mínimos de más de un año. La escalada en el estrecho de Ormuz añade algo de demanda de refugio, compensando parte de la presión de los tipos.",
+        "score": -1,
         "scoreInicial": 4,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Bitcoin se desliza hacia unos 61.300-61.600 $, con el índice de miedo y codicia todavía en zona de miedo extremo (en torno a 12/100) y salidas de ETF persistentes.",
+        "cambio": "Bitcoin se mantiene deprimido en torno a 62.000 $, con el índice de miedo y codicia aún en zona de miedo extremo. El calendario resulta algo menos favorable tras el dato de Michigan, aunque la Fed más dura y las salidas de ETF siguen dominando.",
         "expectativa": "El calendario favorece algo a bitcoin esta semana, pero la Fed más dura y las salidas de ETF siguen dominando; el PCE subyacente del 25 de noviembre es la siguiente referencia relevante.",
         "id": "BTC",
-        "narrativa": "El calendario favorece algo a bitcoin esta semana (dólar en -23, más débil de lo esperado), y el activo se mantiene cerca de 62.000 $ tras los mínimos de esta semana, pero el 97,5 % de probabilidad de una Fed más dura en diciembre (reforzada por Waller y Goolsbee) sigue restando liquidez al activo más especulativo, con las salidas de ETF al contado continuando en medio de un sentimiento de miedo extremo.",
-        "score": -20,
+        "narrativa": "El calendario favorece algo a bitcoin esta semana (dólar en -23, más débil de lo esperado), y el activo se mantiene cerca de 62.000 $ tras los mínimos de esta semana, pero el 95,5 % de probabilidad de una Fed más dura en diciembre (reforzada por Waller y Goolsbee) sigue restando liquidez al activo más especulativo, con las salidas de ETF al contado continuando en medio de un sentimiento de miedo extremo.",
+        "score": -23,
         "scoreInicial": -30,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Se mantiene firme cerca de 82-83 $ tras nuevos ataques con minas a buques en el estrecho de Ormuz (la Guardia Revolucionaria iraní reporta dos petroleros alcanzados); Trump dice a Axios que no tiene prisa por decidir sobre Irán.",
+        "cambio": "Se mantiene firme cerca de 82-83 $ tras nuevos ataques a buques en el estrecho de Ormuz; el calendario apenas mueve la aguja para el petróleo.",
         "expectativa": "El calendario apenas mueve la aguja para el petróleo; la escalada en el estrecho de Ormuz sigue siendo el catalizador dominante.",
         "id": "WTI",
-        "narrativa": "El calendario apenas resta al dólar de forma relevante para el petróleo esta semana; el motor sigue siendo la geopolítica: un nuevo ataque a un buque frente a Omán sostiene el WTI cerca de 82 $, mientras Trump dice no tener prisa en decidir sobre Irán, y los tipos añaden un sesgo de fondo bajista vía dólar fuerte que compensa parte del soporte geopolítico.",
+        "narrativa": "El calendario apenas resta al dólar de forma relevante para el petróleo esta semana; el motor sigue siendo la geopolítica: un nuevo ataque a un buque frente a Omán sostiene el WTI cerca de 82-83 $, mientras Trump dice no tener prisa en decidir sobre Irán, y los tipos añaden un sesgo de fondo bajista vía dólar fuerte que compensa parte del soporte geopolítico.",
         "score": 12,
         "scoreInicial": 16,
         "sesgo": "neutral"
       },
       {
-        "cambio": "El euro se mantiene cerca de mínimos de 19 meses (en torno a 1,0965-1,099) con el dólar firme pese al saldo del calendario algo menos negativo de lo esperado.",
+        "cambio": "El euro se mantiene cerca de mínimos de 19 meses con el dólar firme; el saldo del calendario para el dólar es algo menos negativo tras el dato final de Michigan (-19, igual que lo esperado), pero la Fed de Kevin Warsh sigue dominando el fondo.",
         "expectativa": "Los PMI flash de la eurozona del lunes próximo son la siguiente referencia clave para el par.",
         "id": "EURUSD",
         "narrativa": "El calendario resulta esta semana algo menos negativo para el euro de lo que parecía al inicio (euro en -33, con el ZEW batiendo con fuerza el consenso), pero el dólar sigue firme en el fondo, reforzado por la Fed de Kevin Warsh camino de subir en diciembre y por Waller y Goolsbee abriendo la puerta a 50 pb, manteniendo el par cerca de mínimos de 19 meses.",
-        "score": -12,
+        "score": -14,
         "scoreInicial": -34,
         "sesgo": "neutral"
       }
     ],
     "calendarioSesgo": {
       "activos": {
-        "BTC": 18,
-        "EURUSD": 6,
-        "NQ": 23,
-        "SPX": 23,
-        "WTI": 12,
-        "XAU": 23
+        "BTC": 15,
+        "EURUSD": 3,
+        "NQ": 19,
+        "SPX": 19,
+        "WTI": 10,
+        "XAU": 19
       },
-      "actualizado": "2026-11-20T13:49:59Z",
-      "dolar": -23,
+      "actualizado": "2026-11-20T16:20:00Z",
+      "dolar": -19,
       "dolarEsperado": -19,
       "euro": -33
     },
@@ -1633,7 +1634,7 @@
         "fecha": "2026-11-17",
         "horaUtc": "13:30",
         "impacto": "alto",
-        "lectura": "Dato en línea con el consenso: el Census Bureau confirmó una fuerte moderación frente al sorprendente 0,8 % de septiembre (748.200 millones $, +0,2 % m/m, +6,8 % a/a; +0,6 % excluyendo autos). No cambia la probabilidad de una subida de la Fed en diciembre, que sigue en el 97,5 % según Kalshi.",
+        "lectura": "Dato en línea con el consenso: el Census Bureau confirmó una fuerte moderación frente al sorprendente 0,8 % de septiembre (748.200 millones $, +0,2 % m/m, +6,8 % a/a; +0,6 % excluyendo autos). No cambia la probabilidad de una subida de la Fed en diciembre, que sigue en el 95,5 % según Kalshi.",
         "ocurrido": true,
         "pais": "EE. UU."
       },
@@ -1642,7 +1643,7 @@
         "anterior": null,
         "casos": [
           {
-            "condicion": "Tono más duro de lo esperado (más miembros abiertos a una subida de 50 pb o la decisión de diciembre ya cerrada)",
+            "condicion": "Tono más duro de lo esperado (más miembros abiertos a 50 pb o la decisión de diciembre ya cerrada)",
             "impactos": {
               "BTC": "bajista",
               "EURUSD": "bajista",
@@ -1684,18 +1685,18 @@
         "fecha": "2026-11-18",
         "horaUtc": "19:00",
         "impacto": "alto",
-        "lectura": "Las actas, publicadas a las 19:00 UTC, confirman un tono más duro de lo esperado: casi todos los miembros valoraron necesarias nuevas subidas, y un par abrió la puerta a un movimiento de 50 puntos básicos en diciembre si la inflación no mejora. Refuerza al 97,5 % la probabilidad de subida que ya descontaba Kalshi; el dólar se mantiene firme y el oro y bitcoin profundizan sus mínimos, con Waller reforzando hoy ese mensaje.",
+        "lectura": "Las actas, publicadas a las 19:00 UTC, confirman un tono más duro de lo esperado: casi todos los miembros valoraron necesarias nuevas subidas, y un par abrió la puerta a un movimiento de 50 puntos básicos en diciembre si la inflación no mejora. Refuerza al 95,5 % la probabilidad de subida que ya descontaba Kalshi; el dólar se mantiene firme y el oro y bitcoin profundizan sus mínimos, con Waller y Goolsbee reforzando esta semana ese mensaje.",
         "ocurrido": true,
         "pais": "EE. UU."
       }
     ],
-    "narrativa": "El calendario de la semana del 16 al 20 de noviembre deja un saldo negativo para el dólar de -23 (más negativo que el -19 esperado al inicio): el Empire State, la producción industrial, el NAHB y el índice manufacturero de la Fed de Filadelfia (6,3 frente a unos 20 esperados) decepcionaron, las viviendas iniciadas y los permisos de construcción quedaron mixtos, y las peticiones de subsidio por desempleo (203 mil) quedaron por encima de la previsión; en la eurozona, el ZEW bate con fuerza el consenso (euro en -33). Pese a ello, el bono a 10 años se mantiene firme y el 97,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre -reforzada por Christopher Waller y Austan Goolsbee al abrir la puerta a un movimiento de 50 puntos básicos- mantiene el dólar cerca de máximos de 19 meses. Un nuevo desplome de los semiconductores (AMD, TSMC) esta mañana se suma a la sexta sesión consecutiva en rojo de Wall Street (Dow por debajo de 50.000), pese al histórico debut bursátil de Anthropic y al buen resultado de Nvidia. La cumbre de Shenzhen entre Trump, Xi y Putin cerró con una declaración conjunta contra la guerra nuclear pero sin avances concretos sobre Ucrania, mientras la escalada con nuevos ataques a petroleros en el estrecho de Ormuz -con un nuevo incidente frente a Omán esta mañana- mantiene el riesgo geopolítico sobre el petróleo.",
+    "narrativa": "El calendario de la semana del 16 al 20 de noviembre deja un saldo negativo para el dólar de -23 (más negativo que el -19 esperado al inicio): el Empire State, la producción industrial, el NAHB y el índice manufacturero de la Fed de Filadelfia (6,3 frente a unos 20 esperados) decepcionaron, las viviendas iniciadas y los permisos de construcción quedaron mixtos, y las peticiones de subsidio por desempleo (203 mil) quedaron por encima de la previsión; en la eurozona, el ZEW bate con fuerza el consenso (euro en -33). Pese a ello, el 95,5 % de probabilidad de una subida de la Fed de Kevin Warsh en diciembre -reforzada por Christopher Waller y Austan Goolsbee al abrir la puerta a un movimiento de 50 puntos básicos- mantiene el dólar firme. Un nuevo desplome de los semiconductores (AMD, TSMC) en la sesión regular de hoy se suma a la séptima sesión consecutiva en rojo de Wall Street (Dow por debajo de 50.000, VIX en 28,3), pese al histórico debut bursátil de Anthropic y al buen resultado de Nvidia. La cumbre de Shenzhen entre Trump, Xi y Putin cerró con una declaración conjunta contra la guerra nuclear pero sin avances concretos sobre Ucrania, mientras la escalada con nuevos ataques a petroleros en el estrecho de Ormuz -con un nuevo incidente frente a Omán esta mañana- mantiene el riesgo geopolítico sobre el petróleo.",
     "pesoCalendario": 0.4,
-    "pesoMotivo": "Semana con más datos duros con previsión que la anterior, pero media docena de referencias -producción industrial, permisos de construccion, el índice NAHB y las actas de la Fed- no tienen cifra de consenso publicada, y el dato que más puede mover el mercado (las actas del FOMC) ya se ha publicado, de forma cualitativa, sin voto numérico. Con las señales del calendario mezcladas, siguen mandando más los tipos cerca del 5,17 %, la gamma negativa, los resultados de Nvidia y la tensión renovada con Irán.",
+    "pesoMotivo": "Semana con más datos duros con previsión que la anterior, pero media docena de referencias -producción industrial, permisos de construccion, el índice NAHB y las actas de la Fed- no tienen cifra de consenso publicada, y el dato que más puede mover el mercado (las actas del FOMC) ya se ha publicado, de forma cualitativa, sin voto numérico. Con las señales del calendario mezcladas, siguen mandando más los tipos cerca del 95,5 %, la gamma negativa, el desplome de semiconductores y la tensión renovada con Irán.",
     "rango": "16 a 20 de noviembre de 2026",
     "slot": "semanal",
-    "updatedAt": "2026-11-20T13:49:59Z"
+    "updatedAt": "2026-11-20T16:20:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-20T15:16:12Z"
+  "updatedAt": "2026-11-20T16:20:00Z"
 }
