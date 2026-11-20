@@ -936,8 +936,8 @@
   ],
   "indices": [
     {
-      "changeNote": "Nivel derivado de SPY (703,31 $) convertido al índice con el ratio del motor (10,0278, del 18-nov, conservado por falta de ratio fresco); mercado en sesión regular, cambio % sobre el cierre del jueves (7.175,83) estimado a partir de SPY, en vivo 16:16 Canarias.",
-      "changePct": -1.32,
+      "changeNote": "Nivel derivado de SPY convertido al índice con el ratio del motor (10,0278, del 18-nov); mercado en sesión regular, cambio % sobre el cierre del jueves (7.175,83) estimado a partir de SPY (-1,48 %), en vivo 18:15 UTC (17:15 Canarias).",
+      "changePct": -1.48,
       "claves": [
         "Call wall en 7.521 (ETF SPY 750,0 $); put wall en 7.019 (ETF SPY 700,0 $).",
         "Max pain en 7.461 (ETF SPY 744,0 $).",
@@ -985,7 +985,7 @@
         "vencimientoCercano": "2026-11-20"
       },
       "id": "SPX",
-      "lectura": "Son las 17:15 UTC (12:15 del mediodía en Nueva York, mercado abierto) del viernes 20 de noviembre. El S&P 500 ronda los 7.080 puntos, ampliando a cerca de un 1,3 % las pérdidas sobre el cierre del jueves (7.175,83, -2,02 %, séptima sesión consecutiva en rojo); Bloomberg sitúa ya al índice en corrección técnica, un 10 % por debajo de su máximo reciente. El índice de correlación implícita a 3 meses del Cboe saltó un 24,5 % hasta 25,34, su nivel más alto desde el 1 de abril, señal de venta generalizada. La gamma se mantiene muy negativa, en -7,17 mil M$ por 1 % (antes -7,32), con el put wall en 7.019 de soporte y el call wall en 7.521 limitando cualquier rebote; el max pain se mantiene en 7.461. La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 94,5 % según Kalshi, con la tasa implícita casi sin cambios en el 4,12 %. Anthropic profundiza su caída (-11 % en su segundo día en bolsa, según Bloomberg) y bitcoin cae por debajo de 60.000 $. Sesgo: bajista.",
+      "lectura": "Son las 18:15 UTC (13:15 del mediodía en Nueva York, mercado abierto) del viernes 20 de noviembre. El S&P 500 ronda los 7.070 puntos, ampliando a cerca de un 1,5 % las pérdidas sobre el cierre del jueves (7.175,83, séptima sesión consecutiva en rojo; SPY -1,48 % en la sesión). CNBC confirma que el S&P 500 y el Dow están en corrección técnica (-10 % desde máximos) y que el Nasdaq ha borrado toda su ganancia de 2026. La gamma se mantiene muy negativa, en -7,17 mil M$ por 1 %, con el put wall en 7.019 de soporte y el call wall en 7.521; el max pain se mantiene en 7.461. La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 94,5 % según Kalshi. Bessent dice que Trump y Xi acordaron mantener control humano en las decisiones de IA militar tras la cumbre de Shenzhen. Bitcoin cae por debajo de 59.000 $ con salidas récord de 541 millones $ del ETF IBIT y el índice de miedo y codicia en 12 (miedo extremo). Sesgo: bajista.",
       "levels": {
         "callWall": 7521,
         "gammaFlip": null,
@@ -994,16 +994,16 @@
       },
       "name": "S&P 500",
       "netGex": "negativa (-7,17 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-18)",
-      "precio": 7081,
+      "precio": 7070,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -65,
       "sesgo": "bajista",
-      "spot": 7081
+      "spot": 7070
     },
     {
-      "changeNote": "Nivel derivado de QQQ (623,2 $) convertido al índice con el ratio del motor (41,1057, del 19-nov); cambio % estimado sobre el cierre del jueves por un nuevo desplome de los semiconductores, en vivo 16:16 Canarias.",
-      "changePct": -2.5,
+      "changeNote": "Nivel derivado de QQQ convertido al índice con el ratio del motor (41,1057, del 19-nov); cambio % estimado sobre el cierre del jueves por un nuevo desplome de los semiconductores (QQQ -2,98 %), en vivo 18:15 UTC (17:15 Canarias).",
+      "changePct": -2.98,
       "claves": [
         "Call wall en 27.130 (ETF QQQ 660,0 $); put wall en 26.308 (ETF QQQ 640,0 $).",
         "Max pain en 27.212 (ETF QQQ 662,0 $).",
@@ -1051,7 +1051,7 @@
         "vencimientoCercano": "2026-11-20"
       },
       "id": "NDX",
-      "lectura": "Son las 17:15 UTC (12:15 del mediodía en Nueva York) del viernes 20 de noviembre. El Nasdaq 100 ronda los 25.780 puntos, con Bloomberg situando la caída del índice en un 3,5 % en la jornada, por un nuevo derrumbe de los semiconductores (AMD, TSMC) que arrastró también a Asia (Taiwán -6,2 %, su peor semana desde 1991; Kospi -5,2 %; Nikkei -5,1 %). Anthropic se hunde un 11 % en su segundo día en bolsa, agravando el 'sell the news' sobre el conjunto del comercio de IA. La gamma sigue negativa, en -2,58 mil M$ por 1 % (antes -2,59), con el max pain bajando a 27.212 (antes 27.335) y el call wall en 27.130. La probabilidad de subida de la Fed en diciembre se mantiene en el 94,5 % según Kalshi. Sesgo: bajista, con los semiconductores y Anthropic liderando las pérdidas.",
+      "lectura": "Son las 18:15 UTC (13:15 del mediodía en Nueva York) del viernes 20 de noviembre. El Nasdaq 100 ronda los 25.650 puntos, con un descenso cercano al 3 % en la sesión (QQQ -2,98 %), en la séptima sesión consecutiva de caídas de los fabricantes de chips (SMH); AMD y TSMC lideran las pérdidas, arrastrando también a Asia (Taiwán -6,2 %, su peor semana desde 1991). Anthropic se hunde un 11 % en su segundo día en bolsa, agravando el 'sell the news' sobre el conjunto del comercio de IA. La gamma sigue negativa, en -2,58 mil M$ por 1 % (open interest del 18 de noviembre), con el max pain en 27.212 y el call wall en 27.130. La probabilidad de subida de la Fed en diciembre se mantiene en el 94,5 % según Kalshi. Sesgo: bajista, con los semiconductores y Anthropic liderando las pérdidas.",
       "levels": {
         "callWall": 27130,
         "gammaFlip": null,
@@ -1060,12 +1060,12 @@
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-2,58 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-18)",
-      "precio": 25776,
+      "precio": 25650,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -55,
       "sesgo": "bajista",
-      "spot": 25776
+      "spot": 25650
     }
   ],
   "liquidez": {
@@ -1202,6 +1202,39 @@
     "tga": 916.6
   },
   "noticias": [
+    {
+      "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "CoinDesk",
+      "impacto": "alto",
+      "resumen": "CoinDesk señala una salida de 541,1 millones $ del ETF IBIT de BlackRock y un índice de miedo y codicia en 12 (miedo extremo).",
+      "titular": "Salida récord de 541 millones $ del ETF IBIT y miedo extremo en bitcoin",
+      "ts": "2026-11-20T17:30:00Z",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging"
+    },
+    {
+      "activos": {
+        "NQ": "bajista"
+      },
+      "fuente": "Benzinga",
+      "impacto": "alto",
+      "resumen": "Benzinga señala que el Nasdaq 100 cae más de un 3 % en la séptima sesión consecutiva de caídas de los fabricantes de chips (SMH).",
+      "titular": "El Nasdaq 100 se hunde más de un 3 % en un nuevo baño de sangre tecnológico",
+      "ts": "2026-11-20T17:00:00Z",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63492512/stock-market-today-nasdaq-100-nvidia-seventh-day-chipmakers-smh"
+    },
+    {
+      "activos": {
+        "NQ": "neutral"
+      },
+      "fuente": "CNBC",
+      "impacto": "medio",
+      "resumen": "Bessent afirma a CNBC que el H200 de Nvidia sigue siendo el chip más avanzado que China puede comprar con licencia, tras la cumbre de Shenzhen.",
+      "titular": "Bessent dice que Trump y Xi acordaron que la IA militar debe incluir control humano",
+      "ts": "2026-11-20T14:00:00Z",
+      "url": "https://www.cnbc.com/amp/2026/11/20/treasury-secretary-scott-bessent.html"
+    },
     {
       "activos": {
         "BTC": "bajista"
@@ -1344,41 +1377,6 @@
       "titular": "UBS recorta su previsión del euro para 2027 y ve más debilidad a corto plazo",
       "ts": "2026-11-20T10:00:00Z",
       "url": "https://www.investing.com/news/forex-news/ubs-flags-further-euro-downside-as-dollar-strength-keeps-eurusd-under-pressure-5041144"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "English Punjab Kesari",
-      "impacto": "alto",
-      "resumen": "El S&P 500 cerró ayer en 7.175,83 puntos (-2,02 %), su sexta sesión consecutiva en rojo, y arrastra a los mercados asiáticos.",
-      "titular": "Asia profundiza las pérdidas: el Nikkei cae un 4,5 % y el Kospi un 5 % tras el desplome de Wall Street",
-      "ts": "2026-11-20T09:30:00Z",
-      "url": "https://english.punjabkesari.com/india/stock-market-today-20-november-2026-sensex-nifty-market-recovery-expert-opinion"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "24/7 Wall St.",
-      "impacto": "alto",
-      "resumen": "El derrumbe de los semiconductores en Asia se extiende a Europa y EE. UU. antes de la apertura de Wall Street.",
-      "titular": "Taiwán cae un 6,2 % en su peor semana desde 1991; Kospi -5,2 % y Nikkei -5,1 % por el desplome de los semiconductores",
-      "ts": "2026-11-20T08:00:00Z",
-      "url": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"
-    },
-    {
-      "activos": {
-        "XAU": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "alto",
-      "resumen": "Cae un 2,7 % en la sesión asiática tras perder el jueves 3.625,50 $ (-2,65 %), mínimo de 14 meses.",
-      "titular": "El oro profundiza su caída hasta 3.525 $ en Asia, camino de su peor semana desde marzo",
-      "ts": "2026-11-20T07:00:00Z",
-      "url": "https://www.fxstreet.com/news/forex-today-gold-extends-slide-toward-3-500-despite-us-dollar-pullback-202611200712"
     }
   ],
   "odte": {
@@ -1417,9 +1415,17 @@
     "lectura": "Niveles 0DTE del vencimiento de hoy, 20 de noviembre (base open interest, motor recalculado a las 17:09 UTC): en el S&P 500, call wall en 7.521, put wall en 7.270 y max pain en 7.461, con un put/call OI de 4,21 (antes 3,94). En el Nasdaq 100, call wall en 27.541, put wall en 24.663 y max pain en 27.212 (antes 27.335), con un put/call OI de 5,19 (antes 4,32). El giro de gamma 0DTE no está disponible en ninguno de los dos índices."
   },
   "politica": {
-    "actualizado": "2026-11-20T17:15:00Z",
+    "actualizado": "2026-11-20T18:15:00Z",
     "ajuste": -10,
     "declaraciones": [
+      {
+        "dicho": "Trump y Xi acordaron que las decisiones de IA militar deben incluir control humano, dice Bessent.",
+        "efecto": "neutral",
+        "fuente": "CNBC",
+        "quien": "Scott Bessent",
+        "ts": "2026-11-20T14:00:00Z",
+        "url": "https://www.cnbc.com/amp/2026/11/20/treasury-secretary-scott-bessent.html"
+      },
       {
         "dicho": "Dice no tener prisa en decidir sobre Irán pese al nuevo ataque a un buque frente a Omán.",
         "efecto": "neutral",
@@ -1451,18 +1457,10 @@
         "quien": "Trump, Xi y Putin",
         "ts": "2026-11-19T08:00:00Z",
         "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
-      },
-      {
-        "dicho": "Casi todos los miembros juzgan apropiadas nuevas subidas; un par abre la puerta a 50 pb en diciembre.",
-        "efecto": "bajista",
-        "fuente": "Federal Reserve",
-        "quien": "Actas del FOMC",
-        "ts": "2026-11-18T19:00:00Z",
-        "url": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
       }
     ],
     "efecto": "mixto",
-    "lectura": "Bessent describe como 'robusta' la conversación entre Trump y Xi sobre comercio e IA tras la cumbre de Shenzhen, sin pedidos chinos nuevos de chips H200 de Nvidia; Trump, por su parte, sigue sin prisa por decidir sobre Irán pese a los nuevos ataques en el estrecho de Ormuz. Goolsbee (Fed de Chicago) refuerza la posibilidad de una subida mayor en diciembre. Pese a ello, el mayor motor de la sesión sigue siendo ajeno a la política: un nuevo derrumbe de los semiconductores y el desplome del 11 % de Anthropic en su segundo día en bolsa, que ha llevado al S&P 500 a entrar en corrección técnica, por lo que el ajuste se mantiene sin cambios.",
+    "lectura": "Bessent dice a CNBC que Trump y Xi acordaron mantener control humano en las decisiones de IA militar tras la cumbre de Shenzhen, y que el H200 de Nvidia sigue siendo el chip más avanzado que China puede comprar con licencia, sin nuevos pedidos chinos. Pese a ello, el motor de la sesión sigue siendo ajeno a la política: un nuevo derrumbe de los semiconductores y el desplome del 11 % de Anthropic han llevado al S&P 500 y al Dow a corrección técnica y han borrado la ganancia de 2026 del Nasdaq, por lo que el ajuste se mantiene sin cambios.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1483,10 +1481,10 @@
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
         "efecto": "neutral",
-        "postura": "Dice que la reunión Trump-Xi tuvo una conversación 'robusta' sobre comercio e IA, sin nuevos pedidos chinos de chips H200 de Nvidia.",
+        "postura": "Dice que Trump y Xi acordaron control humano en la IA militar; el H200 sigue siendo lo más avanzado que China puede comprar.",
         "quien": "Scott Bessent",
-        "ts": "2026-11-20T08:30:00Z",
-        "url": "https://investinglive.com/news/bessent-says-trump-and-xi-saw-robust-discussion-on-trade-policy-ai/"
+        "ts": "2026-11-20T14:00:00Z",
+        "url": "https://www.cnbc.com/amp/2026/11/20/treasury-secretary-scott-bessent.html"
       },
       {
         "cargo": "Presidente de China",
@@ -1514,11 +1512,11 @@
       }
     ]
   },
-  "resumen": "Son las 17:15 UTC (12:15 del mediodía en Nueva York) del viernes 20 de noviembre de 2026. El mercado de EE. UU. amplía su séptima sesión consecutiva de pérdidas: el S&P 500 ronda los 7.080 puntos y, según Bloomberg, ya está en corrección técnica (-10 % desde su máximo reciente); el Nasdaq 100 cae un 3,5 % hasta cerca de 25.780 puntos, lastrado por un nuevo derrumbe de los semiconductores (AMD, TSMC) y por el desplome del 11 % de Anthropic en su segundo día en bolsa. El índice de correlación implícita del Cboe tocó su nivel más alto desde abril, señal de venta generalizada. La gamma sigue muy negativa en ambos índices (SPX -7,17 mil M$ por 1 %, NDX -2,58 mil M$ por 1 %, open interest del 18 de noviembre). La probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre se mantiene en el 94,5 % según Kalshi. Bitcoin cae por debajo de 60.000 $ (peor mes desde junio de 2022) y el oro sigue cerca de mínimos de más de un año (en torno a 3.580 $); el euro ronda mínimos de varios meses frente al dólar y el WTI se mantiene firme por la tensión en el estrecho de Ormuz.",
+  "resumen": "Son las 18:15 UTC (13:15 del mediodía en Nueva York) del viernes 20 de noviembre de 2026. El mercado de EE. UU. amplía su séptima sesión consecutiva de pérdidas: el S&P 500 ronda los 7.070 puntos (SPY -1,48 %) y, según CNBC, el S&P 500 y el Dow ya están en corrección técnica, con el Nasdaq borrando toda su ganancia de 2026; el Nasdaq 100 cae cerca de un 3 % (QQQ -2,98 %) hasta cerca de 25.650 puntos, en la séptima sesión consecutiva de caídas de los fabricantes de chips (AMD, TSMC). La gamma sigue muy negativa en ambos índices (SPX -7,17 mil M$ por 1 %, NDX -2,58 mil M$ por 1 %, open interest del 18 de noviembre). La probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre se mantiene en el 94,5 % según Kalshi. Bessent dice que Trump y Xi acordaron mantener control humano en las decisiones de IA militar. Bitcoin cae por debajo de 59.000 $ (salida récord de 541 millones $ del ETF IBIT, miedo y codicia en 12) y el oro sigue cerca de mínimos de más de un año; el euro ronda mínimos de varios meses frente al dólar y el WTI se mantiene firme por la tensión en el estrecho de Ormuz.",
   "semana": {
     "activos": [
       {
-        "cambio": "El S&P 500 ronda los 7.080 puntos en sesión regular, ampliando a cerca de un 1,3 % las pérdidas sobre el cierre del jueves, con Nvidia cayendo un 6 % a media mañana. La confianza del consumidor de Michigan se revisó al alza a 51,5 en el dato final (desde 51,0 preliminar), suavizando algo el saldo del calendario (dólar en -19, igual que lo esperado), pero pesa más la Fed de Kevin Warsh (94,5 % de probabilidad de subida el 9 de diciembre, antes 95,5 %) y la gamma, aún más negativa (-7,32 mil M$ por 1 %).",
+        "cambio": "El S&P 500 ronda los 7.070 puntos en sesión regular, ampliando a cerca de un 1,5 % las pérdidas sobre el cierre del jueves (SPY -1,48 %); CNBC confirma que el S&P 500 y el Dow están en corrección técnica y que el Nasdaq ha borrado toda su ganancia de 2026. Bessent dice que Trump y Xi acordaron mantener control humano en las decisiones de IA militar, sin que ello frene la presión bajista de fondo.",
         "expectativa": "Waller y Goolsbee abriendo la puerta a una subida mayor en diciembre siguen dominando sobre el saldo del calendario, algo más débil de lo esperado para el dólar (-23 frente a -19); los PMI flash del lunes y el PCE subyacente del miércoles son los próximos catalizadores.",
         "id": "SPX",
         "narrativa": "El calendario de esta semana deja un saldo de -23 para el dólar (más débil de lo esperado, -19), con el Empire State y el índice de la Fed de Filadelfia como mayores sorpresas a la baja, pero pesa poco frente a los tipos: el mercado asigna un 95,5 % de probabilidad a una subida de la Fed de Kevin Warsh el 9 de diciembre, reforzada por Waller y Goolsbee al abrir la puerta a 50 pb. La gamma del S&P 500 sigue muy negativa y algo más marcada que hace una hora (-7,23 mil M$ por 1 %), con el precio ya en sesión regular ampliando las pérdidas del jueves; un nuevo desplome de los semiconductores (AMD, TSMC) se suma a la séptima sesión consecutiva en rojo (Dow por debajo de 50.000), reforzando el sesgo bajista de fondo.",
@@ -1527,7 +1525,7 @@
         "sesgo": "bajista"
       },
       {
-        "cambio": "El Nasdaq 100 profundiza la caída (en torno a un 2,5 % frente al cierre del jueves) por un nuevo derrumbe de los semiconductores (AMD -7 %, TSMC -4,2 %) que arrastra también a Asia (Taiwán -6,2 %, su peor semana desde 1991). El dato final de confianza del consumidor de Michigan (51,5, por encima del 51,0 preliminar) suaviza algo el calendario, pero no compensa la debilidad específica de los semiconductores.",
+        "cambio": "El Nasdaq 100 profundiza la caída hasta cerca de un 3 % frente al cierre del jueves (QQQ -2,98 %); Benzinga señala una séptima sesión consecutiva de caídas de los fabricantes de chips (SMH), con AMD y TSMC liderando las pérdidas y arrastrando también a Asia.",
         "expectativa": "El calendario resulta algo favorable (dólar en -23), pero el motor principal sigue siendo la debilidad específica de los semiconductores; los PMI flash y el PCE subyacente de la próxima semana son los próximos catalizadores.",
         "id": "NQ",
         "narrativa": "El calendario de esta semana deja un saldo de -23 para el dólar (más débil de lo esperado), un fondo en teoría favorable para el Nasdaq 100, pero un nuevo desplome de los semiconductores (AMD, TSMC) en la sesión regular se suma a la presión de Waller y Goolsbee por una Fed más dura en diciembre (95,5 % de probabilidad) y pesa más que el buen resultado de Nvidia o el histórico debut de Anthropic de esta semana, llevando el sesgo a terreno claramente bajista.",
@@ -1697,5 +1695,5 @@
     "updatedAt": "2026-11-20T16:20:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-20T17:15:00.000000Z"
+  "updatedAt": "2026-11-20T18:15:00.000000Z"
 }
