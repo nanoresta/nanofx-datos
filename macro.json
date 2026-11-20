@@ -587,30 +587,30 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-20T17:08:53Z",
+    "actualizado": "2026-11-20T20:51:06Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 94,5 %, con la tasa implícita prácticamente sin cambios en el 4,12 %. Para la reunión de enero de 2027 se mantiene en el 95,0 % (tasa implícita 4,24 %) y para la de abril de 2027 en el 96,0 % (4,38 %).",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre baja al 91,5 % desde el 94,5 % de la actualización anterior, con la tasa implícita prácticamente sin cambios en el 4,11 %. Para la reunión de enero de 2027 baja ligeramente al 93,0 % (tasa implícita 4,24 %) y para la de marzo de 2027 al 93,5 % (4,34 %).",
     "reuniones": [
       {
-        "bajar": 0.5,
+        "bajar": 1,
         "fecha": "2026-12-09",
-        "mantener": 5,
-        "subir": 94.5,
-        "tasaImplicita": 4.12
+        "mantener": 7.5,
+        "subir": 91.5,
+        "tasaImplicita": 4.11
       },
       {
-        "bajar": 4,
+        "bajar": 5,
         "fecha": "2027-01-27",
-        "mantener": 1,
-        "subir": 95,
+        "mantener": 2,
+        "subir": 93,
         "tasaImplicita": 4.24
       },
       {
-        "bajar": 4.5,
+        "bajar": 5.5,
         "fecha": "2027-03-17",
-        "mantener": 0,
-        "subir": 95.5,
-        "tasaImplicita": 4.39
+        "mantener": 1,
+        "subir": 93.5,
+        "tasaImplicita": 4.34
       },
       {
         "bajar": 3.5,
@@ -704,114 +704,362 @@
   ],
   "indices": [
     {
-      "changeNote": "Nivel derivado de SPY convertido al índice con el ratio del motor; cambio % sobre el cierre del jueves (7.175,83) estimado a partir de la cotización en vivo del S&P 500 (-3,00 %), 19:46 UTC (14:46 de la tarde en Nueva York, mercado abierto; 20:46 en Canarias).",
-      "changePct": -3,
+      "changeNote": "cierre (preliminar, Reuters), 21:15 Canarias",
+      "changePct": -3.59,
       "claves": [
-        "Call wall en 7.521 (ETF SPY 750,0 $); put wall en 7.019 (ETF SPY 700,0 $).",
-        "Max pain en 7.461 (ETF SPY 744,0 $).",
+        "Call wall en 7.418 (ETF SPY 740,0 $); put wall en 7.017 (ETF SPY 700,0 $).",
+        "Max pain en 7.408 (ETF SPY 739,0 $).",
         "Giro de gamma (gamma flip) no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -7,17 mil M$ por 1 %, put/call OI 3,82, open interest del 18 de noviembre."
+        "Régimen de gamma negativa, en -5,81 mil M$ por 1 %, put/call OI 6,8, open interest del 18 de noviembre."
       ],
       "gex": {
-        "callWall": 750,
-        "contratos": 1373,
+        "callWall": 740,
+        "contratos": 1137,
+        "escalera": [
+          {
+            "gex": -0.9,
+            "strike": 672
+          },
+          {
+            "gex": 0.9,
+            "strike": 673
+          },
+          {
+            "gex": -1,
+            "strike": 674
+          },
+          {
+            "gex": -710.2,
+            "strike": 675
+          },
+          {
+            "gex": -1.6,
+            "strike": 676
+          },
+          {
+            "gex": -2.7,
+            "strike": 677
+          },
+          {
+            "gex": -2.6,
+            "strike": 678
+          },
+          {
+            "gex": -1.7,
+            "strike": 679
+          },
+          {
+            "gex": -221.5,
+            "strike": 680
+          },
+          {
+            "gex": -2.8,
+            "strike": 681
+          },
+          {
+            "gex": -2.8,
+            "strike": 682
+          },
+          {
+            "gex": -4.7,
+            "strike": 683
+          },
+          {
+            "gex": -52.4,
+            "strike": 684
+          },
+          {
+            "gex": -181.1,
+            "strike": 685
+          },
+          {
+            "gex": -2,
+            "strike": 686
+          },
+          {
+            "gex": -1.9,
+            "strike": 687
+          },
+          {
+            "gex": -3.2,
+            "strike": 688
+          },
+          {
+            "gex": -1.6,
+            "strike": 689
+          },
+          {
+            "gex": -243.1,
+            "strike": 690
+          },
+          {
+            "gex": -3.3,
+            "strike": 691
+          },
+          {
+            "gex": -5.5,
+            "strike": 692
+          },
+          {
+            "gex": -9.7,
+            "strike": 693
+          },
+          {
+            "gex": -2.5,
+            "strike": 694
+          },
+          {
+            "gex": -192.5,
+            "strike": 695
+          },
+          {
+            "gex": -2.5,
+            "strike": 696
+          },
+          {
+            "gex": -6.8,
+            "strike": 697
+          },
+          {
+            "gex": -2.3,
+            "strike": 698
+          },
+          {
+            "gex": -2.5,
+            "strike": 699
+          },
+          {
+            "gex": -831.7,
+            "strike": 700
+          },
+          {
+            "gex": -23.3,
+            "strike": 701
+          },
+          {
+            "gex": -32,
+            "strike": 702
+          },
+          {
+            "gex": -15.6,
+            "strike": 703
+          },
+          {
+            "gex": -72.2,
+            "strike": 704
+          },
+          {
+            "gex": -143.2,
+            "strike": 705
+          },
+          {
+            "gex": -86.8,
+            "strike": 706
+          },
+          {
+            "gex": -18.2,
+            "strike": 707
+          },
+          {
+            "gex": -71,
+            "strike": 708
+          },
+          {
+            "gex": -71,
+            "strike": 709
+          },
+          {
+            "gex": -329.4,
+            "strike": 710
+          },
+          {
+            "gex": -23.2,
+            "strike": 711
+          },
+          {
+            "gex": -77.1,
+            "strike": 712
+          }
+        ],
         "etf": "SPY",
         "gammaFlip": null,
-        "gexTotal": -7.17,
+        "gexTotal": -5.81,
         "indice": {
-          "callWall": 7521,
+          "callWall": 7418,
           "gammaFlip": null,
-          "maxPain": 7461,
-          "precio": 7053,
-          "putWall": 7019
+          "maxPain": 7408,
+          "precio": 6937,
+          "putWall": 7017
         },
-        "maxPain": 744,
+        "maxPain": 739,
         "odte": {
           "base": "open interest",
-          "callWall": 750,
+          "callWall": 730,
           "esHoy": true,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 7521,
+            "callWall": 7318,
             "gammaFlip": null,
-            "maxPain": 7461,
-            "putWall": 7270
+            "maxPain": 7408,
+            "putWall": 6416
           },
-          "maxPain": 744,
-          "pcrOI": 4.21,
-          "putWall": 725,
+          "maxPain": 739,
+          "pcrOI": 7.96,
+          "putWall": 640,
           "vencimiento": "2026-11-20"
         },
         "oiFecha": "2026-11-18",
-        "pcrOI": 3.82,
-        "precio": 703.31,
+        "pcrOI": 6.8,
+        "precio": 692.01,
         "putWall": 700,
-        "ratioFecha": "2026-11-18",
-        "ratioIndice": 10.0278,
+        "ratioFecha": "2026-11-19",
+        "ratioIndice": 10.0243,
         "regimen": "negativa",
         "vencimientoCercano": "2026-11-20"
       },
       "id": "SPX",
       "lectura": "Son las 19:46 UTC (14:46 de la tarde en Nueva York, mercado abierto) del viernes 20 de noviembre. El S&P 500 ronda los 6.961 puntos, con una caída que se amplía hasta cerca del 3,0 % sobre el cierre del jueves (7.175,83), en la séptima sesión consecutiva en rojo; S&P 500 y Dow están ya en corrección técnica (-10 % desde máximos) y el Nasdaq ha borrado toda su ganancia de 2026. La gamma se mantiene muy negativa, en -7,17 mil M$ por 1 % (open interest del 18 de noviembre), con el put wall en 7.019 de soporte y el call wall en 7.521; el max pain se mantiene en 7.461. La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 94,5 % según Kalshi, con Waller y Goolsbee insistiendo en un posible movimiento de 50 pb; Bessent, en cambio, pide a la Fed no excederse citando el shock energético y la caída del petróleo. Bitcoin profundiza su caída por debajo de 60.000 $ y el oro sigue cerca de mínimos de 14 meses. Sesgo: bajista.",
       "levels": {
-        "callWall": 7521,
+        "callWall": 7418,
         "gammaFlip": null,
-        "maxPain": 7461,
-        "putWall": 7019
+        "maxPain": 7408,
+        "putWall": 7017
       },
       "name": "S&P 500",
-      "netGex": "negativa (-7,17 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-18)",
-      "precio": 6961,
+      "netGex": "negativa (-5,81 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-18)",
+      "precio": 6918,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -72,
       "sesgo": "bajista",
-      "spot": 6961
+      "spot": 6918
     },
     {
-      "changeNote": "Nivel derivado de QQQ convertido al índice con el ratio del motor; cambio % estimado sobre el cierre del jueves por la profundización del desplome de los semiconductores (en torno a -3,3/-3,4 %), 19:46 UTC (14:46 de la tarde en Nueva York, mercado abierto; 20:46 en Canarias).",
-      "changePct": -3.35,
+      "changeNote": "cierre aprox. (Nasdaq), 21:15 Canarias",
+      "changePct": -3.56,
       "claves": [
         "Call wall en 27.130 (ETF QQQ 660,0 $); put wall en 26.308 (ETF QQQ 640,0 $).",
-        "Max pain en 27.212 (ETF QQQ 662,0 $).",
+        "Max pain en 26.924 (ETF QQQ 655,0 $).",
         "Giro de gamma no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -2,58 mil M$ por 1 %, put/call OI 5,31, open interest del 18 de noviembre."
+        "Régimen de gamma negativa, en -2,22 mil M$ por 1 %, put/call OI 8,22, open interest del 18 de noviembre."
       ],
       "gex": {
         "callWall": 660,
-        "contratos": 1040,
+        "contratos": 849,
+        "escalera": [
+          {
+            "gex": -7,
+            "strike": 594.78
+          },
+          {
+            "gex": -62.7,
+            "strike": 595
+          },
+          {
+            "gex": -3.4,
+            "strike": 599.78
+          },
+          {
+            "gex": -201.5,
+            "strike": 600
+          },
+          {
+            "gex": -1.9,
+            "strike": 604.78
+          },
+          {
+            "gex": -54.2,
+            "strike": 605
+          },
+          {
+            "gex": -2,
+            "strike": 609.78
+          },
+          {
+            "gex": -172.7,
+            "strike": 610
+          },
+          {
+            "gex": -108.4,
+            "strike": 615
+          },
+          {
+            "gex": -147.5,
+            "strike": 620
+          },
+          {
+            "gex": -0.3,
+            "strike": 621
+          },
+          {
+            "gex": -1.7,
+            "strike": 622
+          },
+          {
+            "gex": -0.4,
+            "strike": 623
+          },
+          {
+            "gex": -0.2,
+            "strike": 624
+          },
+          {
+            "gex": -119,
+            "strike": 625
+          },
+          {
+            "gex": -6.5,
+            "strike": 626
+          },
+          {
+            "gex": -7.4,
+            "strike": 627
+          },
+          {
+            "gex": -2.5,
+            "strike": 628
+          },
+          {
+            "gex": -2.7,
+            "strike": 629
+          },
+          {
+            "gex": -174.2,
+            "strike": 630
+          }
+        ],
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -2.58,
+        "gexTotal": -2.22,
         "indice": {
           "callWall": 27130,
           "gammaFlip": null,
-          "maxPain": 27212,
-          "precio": 25617,
+          "maxPain": 26924,
+          "precio": 25152,
           "putWall": 26308
         },
-        "maxPain": 662,
+        "maxPain": 655,
         "odte": {
           "base": "open interest",
-          "callWall": 670,
+          "callWall": 660,
           "esHoy": true,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 27541,
+            "callWall": 27130,
             "gammaFlip": null,
-            "maxPain": 27212,
+            "maxPain": 26924,
             "putWall": 24663
           },
-          "maxPain": 662,
-          "pcrOI": 5.19,
+          "maxPain": 655,
+          "pcrOI": 10.36,
           "putWall": 600,
           "vencimiento": "2026-11-20"
         },
         "oiFecha": "2026-11-18",
-        "pcrOI": 5.31,
-        "precio": 623.2,
+        "pcrOI": 8.22,
+        "precio": 611.88,
         "putWall": 640,
         "ratioFecha": "2026-11-19",
         "ratioIndice": 41.1057,
@@ -823,17 +1071,17 @@
       "levels": {
         "callWall": 27130,
         "gammaFlip": null,
-        "maxPain": 27212,
+        "maxPain": 26924,
         "putWall": 26308
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-2,58 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-18)",
-      "precio": 25530,
+      "netGex": "negativa (-2,22 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-18)",
+      "precio": 25572,
       "regime": "negativa",
       "regimen": "negativa",
       "score": -62,
       "sesgo": "bajista",
-      "spot": 25530
+      "spot": 25572
     }
   ],
   "liquidez": {
@@ -975,12 +1223,35 @@
         "NQ": "bajista",
         "SPX": "bajista"
       },
+      "fuente": "Reuters (vía Yahoo Finance)",
+      "impacto": "alto",
+      "resumen": "Cierre preliminar de Reuters: S&P 500 -3,59 % a 6.918,45 puntos y Nasdaq Composite -5,13 % a 22.654,15 puntos.",
+      "titular": "El S&P 500 cierra en corrección con su séptima caída consecutiva, la peor racha desde 2020",
+      "ts": "2026-11-20T21:00:00Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-20-132200926.html"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
       "fuente": "The Motley Fool / Coinpaper",
       "impacto": "alto",
       "resumen": "The Motley Fool y Coinpaper señalan que el S&P 500 se acerca a los 6.960 puntos y el Nasdaq 100 cae cerca de un 3,3 %, liderado por AMD y Micron, mientras el S&P 500 y el Dow se confirman en corrección técnica.",
       "titular": "El S&P 500 y el Nasdaq 100 profundizan sus pérdidas hasta cerca del 3 y el 3,3 % a media tarde",
       "ts": "2026-11-20T19:45:00Z",
       "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-midday-nov-20-nasdaq-plunges-nearly-3-as-amd-and-micron-lead-a-brutal-semiconductor-sell-off/"
+    },
+    {
+      "activos": {
+        "NQ": "bajista"
+      },
+      "fuente": "Yahoo Finance",
+      "impacto": "alto",
+      "resumen": "El índice cotiza un 15,1 % por debajo de su máximo del 6 de octubre (31.224,47 puntos), cerca del umbral de mercado bajista en 24.980, según Yahoo Finance.",
+      "titular": "El Nasdaq 100 se acerca a un mercado bajista tras caer un 15 % desde su máximo de octubre",
+      "ts": "2026-11-20T19:28:00Z",
+      "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
     },
     {
       "activos": {
@@ -1118,67 +1389,42 @@
       "titular": "Bloomberg: los futuros de EE. UU. caen con fuerza por la floja acogida al segundo día de Anthropic en bolsa",
       "ts": "2026-11-20T13:26:00Z",
       "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-stock-futures-dip-as-anthropic-premiere-disappoints-investors"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista",
-        "XAU": "bajista"
-      },
-      "fuente": "TradingKey",
-      "impacto": "alto",
-      "resumen": "Futuros: Nasdaq 100 -1,49 %, S&P 500 -0,65 % y Dow -0,14 %, con Anthropic desplomándose más de un 10 % antes de la campana.",
-      "titular": "El oro pierde los 3.600 $ y el Nasdaq 100 lidera las pérdidas en futuros antes de la apertura en EE. UU.",
-      "ts": "2026-11-20T13:00:00Z",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315308-us-pre-market-anthropic-tradingkey"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "24/7 Wall St.",
-      "impacto": "alto",
-      "resumen": "El Nasdaq 100 (NQ) profundiza las pérdidas hacia los 26.195 puntos (-1,2 %) mientras el S&P 500 (ES) cae un 0,4 %, en una sexta sesión de ventas que reaviva el miedo a una burbuja de la IA.",
-      "titular": "Los futuros caen por un nuevo desplome de los semiconductores: AMD retrocede un 7 % y TSMC un 4,2 % antes de la apertura",
-      "ts": "2026-11-20T11:30:00Z",
-      "url": "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,21.",
-        "valor": "7521"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 7,96.",
+        "valor": "7318"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,21.",
-        "valor": "7270"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 7,96.",
+        "valor": "6416"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 4,21.",
-        "valor": "7461"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 7,96.",
+        "valor": "7408"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 5,19.",
-        "valor": "27541"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 10,36.",
+        "valor": "27130"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 5,19.",
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 10,36.",
         "valor": "24663"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 5,19.",
-        "valor": "27212"
+        "nota": "Vencimiento de hoy (2026-11-20), por open interest. Put/call OI: 10,36.",
+        "valor": "26924"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 20 de noviembre (base open interest, motor recalculado a las 17:09 UTC): en el S&P 500, call wall en 7.521, put wall en 7.270 y max pain en 7.461, con un put/call OI de 4,21. En el Nasdaq 100, call wall en 27.541, put wall en 24.663 y max pain en 27.212, con un put/call OI de 5,19. El giro de gamma 0DTE no está disponible en ninguno de los dos índices."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 20 de noviembre (base open interest, motor recalculado a las 20:51 UTC): en el S&P 500, call wall en 7.318, put wall en 6.416 y max pain en 7.408, con un put/call OI de 7,96. En el Nasdaq 100, call wall en 27.130, put wall en 24.663 y max pain en 26.924, con un put/call OI de 10,36. El giro de gamma 0DTE no está disponible en ninguno de los dos índices."
   },
   "politica": {
     "actualizado": "2026-11-20T19:46:00Z",
@@ -1278,7 +1524,7 @@
       }
     ]
   },
-  "resumen": "Son las 19:46 UTC (14:46 de la tarde en Nueva York) del viernes 20 de noviembre de 2026. El mercado de EE. UU. profundiza su séptima sesión consecutiva de pérdidas: el S&P 500 cae cerca de un 3,0 % hasta unos 6.961 puntos y, junto al Dow, se confirma en corrección técnica (-10 % desde máximos); el Nasdaq 100 cae en torno a un 3,3 % hasta cerca de 25.530 puntos, liderado por un nuevo desplome de los semiconductores (AMD, Micron) que también ha arrastrado a Asia (Taiwán, peor semana desde 1991). La gamma sigue muy negativa en ambos índices (SPX -7,17 mil M$ por 1 %, NDX -2,58 mil M$ por 1 %, open interest del 18 de noviembre). La probabilidad de una subida de la Fed de Kevin Warsh el 9 de diciembre se mantiene en el 94,5 % según Kalshi, con Waller y Goolsbee insistiendo en un posible movimiento de 50 pb, mientras Bessent pide a la Fed no excederse citando el shock energético y la caída del petróleo. Bitcoin cotiza por debajo de 60.000 $ (salida récord del ETF IBIT, miedo y codicia en zona de miedo extremo) y el oro ronda mínimos de 14 meses cerca de 3.560 $; el euro se mantiene débil frente al dólar y el WTI firme en torno a 83 $ por la tensión en el estrecho de Ormuz.",
+  "resumen": "Son las 21:15 UTC (16:15 de la tarde en Nueva York, mercado cerrado) del viernes 20 de noviembre de 2026. Wall Street cierra su séptima sesión consecutiva en rojo: el S&P 500 cae un 3,59 % hasta 6.918,45 puntos (cierre preliminar de Reuters) y, junto al Dow, confirma la corrección técnica (-10 % desde máximos); el Nasdaq Composite cae un 5,13 % hasta 22.654,15 y el Nasdaq 100 se acerca a mercado bajista, un 15,1 % por debajo de su máximo de octubre. La gamma sigue muy negativa en ambos índices (SPX -5,81 mil M$ por 1 %, NDX -2,22 mil M$ por 1 %, open interest del 18 de noviembre). La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre baja al 91,5 % según Kalshi (motor de datos), con la tasa implícita en el 4,11 %. Bitcoin sigue por debajo de 60.000 $ y el oro ronda mínimos de varios meses; el euro se mantiene débil frente al dólar y el WTI firme por la tensión en el estrecho de Ormuz.",
   "semana": {
     "activos": [
       {
@@ -1461,5 +1707,5 @@
     "updatedAt": "2026-11-20T19:50:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-20T20:17:25Z"
+  "updatedAt": "2026-11-20T21:15:43Z"
 }
