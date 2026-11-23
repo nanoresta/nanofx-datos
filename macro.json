@@ -329,7 +329,7 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-23T10:22:23Z",
+    "actualizado": "2026-11-23T11:51:31Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
     "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 93,5 %, sin cambios en la última hora, con la tasa implícita en el 4,11 %. Para enero de 2027 la probabilidad también se mantiene en el 93,5 %, con la tasa implícita en el 4,24 %.",
     "reuniones": [
@@ -352,7 +352,7 @@
         "fecha": "2027-03-17",
         "mantener": 1.5,
         "subir": 93.5,
-        "tasaImplicita": 4.34
+        "tasaImplicita": 4.35
       },
       {
         "bajar": 3.5,
@@ -500,18 +500,18 @@
         "Call wall en 7318 (ETF SPY 730,0 $); put wall en 7017 (ETF SPY 700,0 $).",
         "Max pain en 7298 (ETF SPY 728,0 $).",
         "Giro de gamma (gamma flip) no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -3,5 mil M$ por 1 %, put/call OI 4,36, open interest del 19 de noviembre."
+        "Régimen de gamma negativa, en -3,3 mil M$ por 1 %, put/call OI 4,36, open interest del 19 de noviembre."
       ],
       "gex": {
         "callWall": 730,
-        "contratos": 1077,
+        "contratos": 1066,
         "escalera": [
           {
             "gex": -1.7,
             "strike": 674
           },
           {
-            "gex": -516,
+            "gex": -507.4,
             "strike": 675
           },
           {
@@ -527,11 +527,11 @@
             "strike": 678
           },
           {
-            "gex": -2.1,
+            "gex": -2,
             "strike": 679
           },
           {
-            "gex": -194.6,
+            "gex": -192.9,
             "strike": 680
           },
           {
@@ -543,15 +543,15 @@
             "strike": 682
           },
           {
-            "gex": -3,
+            "gex": -2.9,
             "strike": 683
           },
           {
-            "gex": -36.4,
+            "gex": -35.8,
             "strike": 684
           },
           {
-            "gex": -135.2,
+            "gex": -133,
             "strike": 685
           },
           {
@@ -567,113 +567,113 @@
             "strike": 688
           },
           {
-            "gex": -2.1,
+            "gex": -2,
             "strike": 689
           },
           {
-            "gex": -154.4,
+            "gex": -150.3,
             "strike": 690
           },
           {
-            "gex": -2.9,
+            "gex": -2.8,
             "strike": 691
           },
           {
-            "gex": -42,
+            "gex": -41.4,
             "strike": 692
           },
           {
-            "gex": -7.5,
+            "gex": -7.4,
             "strike": 693
           },
           {
-            "gex": -15.1,
+            "gex": -14.6,
             "strike": 694
           },
           {
-            "gex": -141.6,
+            "gex": -138.6,
             "strike": 695
           },
           {
-            "gex": -12.8,
+            "gex": -13,
             "strike": 696
           },
           {
-            "gex": -4,
+            "gex": -4.9,
             "strike": 697
           },
           {
-            "gex": -9.1,
+            "gex": -9.2,
             "strike": 698
           },
           {
-            "gex": -0.9,
+            "gex": -1.2,
             "strike": 699
           },
           {
-            "gex": -550,
+            "gex": -537.1,
             "strike": 700
           },
           {
-            "gex": -14.7,
+            "gex": -14.3,
             "strike": 701
           },
           {
-            "gex": -38.2,
+            "gex": -37.3,
             "strike": 702
           },
           {
-            "gex": -7.5,
+            "gex": -7.2,
             "strike": 703
           },
           {
-            "gex": -4.7,
+            "gex": -1.5,
             "strike": 704
           },
           {
-            "gex": -90.8,
+            "gex": -87,
             "strike": 705
           },
           {
-            "gex": -56.4,
+            "gex": -55.2,
             "strike": 706
           },
           {
-            "gex": -9.4,
+            "gex": -9,
             "strike": 707
           },
           {
-            "gex": -45.8,
+            "gex": -44.8,
             "strike": 708
           },
           {
-            "gex": -9.5,
+            "gex": -8.8,
             "strike": 709
           },
           {
-            "gex": -190.8,
+            "gex": -181.7,
             "strike": 710
           },
           {
-            "gex": -7.4,
+            "gex": -5.9,
             "strike": 711
           },
           {
-            "gex": -55.3,
+            "gex": -53.1,
             "strike": 712
           },
           {
-            "gex": -5.5,
+            "gex": -4.7,
             "strike": 713
           },
           {
-            "gex": -19.4,
+            "gex": -18.1,
             "strike": 714
           }
         ],
         "etf": "SPY",
         "gammaFlip": null,
-        "gexTotal": -3.49,
+        "gexTotal": -3.3,
         "indice": {
           "callWall": 7318,
           "gammaFlip": null,
@@ -709,7 +709,7 @@
         "vencimientoCercano": "2026-11-23"
       },
       "id": "SPX",
-      "lectura": "Los futuros rebotan con fuerza (+2,1 %) hasta unos 7.055 puntos tras la peor racha semanal desde 2020, con el precio ya por encima del put wall (7.017) y acercándose al max pain (7.298), en un régimen de gamma todavía negativa (-3,6 mil M$ por 1 %) que amplifica el movimiento en ambas direcciones. Waller pide una subida de hasta 50 pb en diciembre y la probabilidad de la Fed se mantiene en el 93,5 %, lo que limita el alcance del rebote; el PMI flash de EE. UU. de hoy a las 14:45 UTC es el dato que más puede mover la sesión. Sesgo: neutral, con el rebote técnico compensando por ahora el fondo bajista de la gamma negativa y una Fed muy probablemente al alza.",
+      "lectura": "Los futuros rebotan con fuerza (+2,1 %) hasta unos 7.055 puntos tras la peor racha semanal desde 2020, con el precio ya por encima del put wall (7.017) y acercándose al max pain (7.298), en un régimen de gamma todavía negativa (-3,3 mil M$ por 1 %) que amplifica el movimiento en ambas direcciones. Waller pide una subida de hasta 50 pb en diciembre y la probabilidad de la Fed se mantiene en el 93,5 %, lo que limita el alcance del rebote; el PMI flash de EE. UU. de hoy a las 14:45 UTC es el dato que más puede mover la sesión. Sesgo: neutral, con el rebote técnico compensando por ahora el fondo bajista de la gamma negativa y una Fed muy probablemente al alza.",
       "levels": {
         "callWall": 7318,
         "gammaFlip": null,
@@ -717,7 +717,7 @@
         "putWall": 7017
       },
       "name": "S&P 500",
-      "netGex": "negativa (-3,5 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-19)",
+      "netGex": "negativa (-3,3 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-19)",
       "precio": 7097,
       "regime": "negativa",
       "regimen": "negativa",
@@ -736,14 +736,14 @@
       ],
       "gex": {
         "callWall": 660,
-        "contratos": 832,
+        "contratos": 829,
         "escalera": [
           {
             "gex": -0.9,
             "strike": 599.78
           },
           {
-            "gex": -139.9,
+            "gex": -139.8,
             "strike": 600
           },
           {
@@ -751,23 +751,23 @@
             "strike": 604.78
           },
           {
-            "gex": -42.5,
+            "gex": -41.5,
             "strike": 605
           },
           {
-            "gex": -0.2,
+            "gex": -0.1,
             "strike": 609.78
           },
           {
-            "gex": -122.8,
+            "gex": -122.5,
             "strike": 610
           },
           {
-            "gex": -68.7,
+            "gex": -68.4,
             "strike": 615
           },
           {
-            "gex": -111,
+            "gex": -110.5,
             "strike": 620
           },
           {
@@ -787,11 +787,11 @@
             "strike": 624
           },
           {
-            "gex": -87.5,
+            "gex": -87.3,
             "strike": 625
           },
           {
-            "gex": -2.6,
+            "gex": -2.5,
             "strike": 626
           },
           {
@@ -799,7 +799,7 @@
             "strike": 627
           },
           {
-            "gex": -0.3,
+            "gex": -0.2,
             "strike": 628
           },
           {
@@ -807,11 +807,11 @@
             "strike": 629
           },
           {
-            "gex": -115.4,
+            "gex": -115.2,
             "strike": 630
           },
           {
-            "gex": -2.2,
+            "gex": -2.1,
             "strike": 631
           },
           {
@@ -825,7 +825,7 @@
         ],
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -1.41,
+        "gexTotal": -1.4,
         "indice": {
           "callWall": 27130,
           "gammaFlip": null,
@@ -879,7 +879,7 @@
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-23T06:35:15Z",
+    "actualizado": "2026-11-23T11:51:31Z",
     "balance": 6741.5,
     "d4": 23.2,
     "dBalance": -17.4,
@@ -891,7 +891,7 @@
     "fecha4": "2026-10-21",
     "fechaPrev": "2026-11-11",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "En la semana del 11 al 18 de noviembre la liquidez neta cayó 19.700 millones $ hasta 5.824.600 millones $. El balance de la Fed retiró 17.400 millones $ (hasta 6.741.500 millones $) y la cuenta del Tesoro (TGA) también retiró, subiendo 2.200 millones $ hasta 916.600 millones $; el repo inverso (RRP) retiró solo 100 millones $, hasta 300 millones $. La tendencia de las últimas cuatro semanas (del 21 de octubre al 18 de noviembre) es positiva, +23.200 millones $. El repo permanente sigue sin uso relevante (1 millón $ el 20 de noviembre, RRP diario en 401 millones $), sin señales de tensión de liquidez a pesar del desplome bursátil.",
+    "lectura": "En la semana del 11 al 18 de noviembre la liquidez neta cayó 19.700 millones $ hasta 5.824.600 millones $. El balance de la Fed retiró 17.400 millones $ (hasta 6.741.500 millones $) y la cuenta del Tesoro (TGA) también retiró, subiendo 2.200 millones $ hasta 916.600 millones $; el repo inverso (RRP) retiró solo 100 millones $, hasta 300 millones $. La tendencia de las últimas cuatro semanas (del 21 de octubre al 18 de noviembre) es positiva, +23.200 millones $. El repo permanente sigue sin uso relevante (1 millón $ el 20 de noviembre, RRP diario en 401 millones $), sin señales de tensión de liquidez a pesar del desplome bursátil. Sin publicación nueva del balance (la Fed publica los jueves); próxima actualización el jueves 26, festivo de Acción de Gracias.",
     "neta": 5824.6,
     "repo": 0.001,
     "repoFecha": "2026-11-20",
@@ -1159,7 +1159,7 @@
         "valor": "27006"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 23 de noviembre (base open interest, motor actualizado a las 10:22 UTC): en el S&P 500, call wall en 7.218, put wall en 6.967 y max pain en 7.298, con un put/call OI de 1,54. En el Nasdaq 100, call wall en 27.130, put wall en 24.663 y max pain en 27.006, con un put/call OI de 4,47. El giro de gamma 0DTE no está disponible en ninguno de los dos índices. Con los futuros ya muy por encima de ambos put wall 0DTE, el mercado se mueve hacia la zona de max pain en el vencimiento de hoy."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 23 de noviembre (base open interest, motor actualizado a las 11:51 UTC): en el S&P 500, call wall en 7.218, put wall en 6.967 y max pain en 7.298, con un put/call OI de 1,54. En el Nasdaq 100, call wall en 27.130, put wall en 24.663 y max pain en 27.006, con un put/call OI de 4,47. El giro de gamma 0DTE no está disponible en ninguno de los dos índices. Con los futuros ya muy por encima de ambos put wall 0DTE, el mercado se mueve hacia la zona de max pain en el vencimiento de hoy."
   },
   "politica": {
     "actualizado": "2026-11-23T06:52:00Z",
@@ -1640,5 +1640,5 @@
     "updatedAt": "2026-11-22T18:19:34.000Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-23T11:15:30Z"
+  "updatedAt": "2026-11-23T12:18:00.000Z"
 }
