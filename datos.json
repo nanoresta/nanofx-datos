@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T23:01:25Z",
+ "generado": "2026-11-23T00:04:37Z",
  "errores": [],
  "fed": [
   {
@@ -346,7 +346,7 @@
    },
    "odte": {
     "vencimiento": "2026-11-23",
-    "esHoy": false,
+    "esHoy": true,
     "base": "gamma",
     "gexTotal": -0.24,
     "callWall": 720.0,
@@ -472,7 +472,7 @@
    },
    "odte": {
     "vencimiento": "2026-11-23",
-    "esHoy": false,
+    "esHoy": true,
     "base": "gamma",
     "gexTotal": -0.2,
     "callWall": 660.0,
@@ -489,15 +489,15 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-22T23:01:37Z"
+  "calculado": "2026-11-23T00:04:49Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-22T23:01:45Z",
-  "total": 39,
+  "actualizado": "2026-11-23T00:04:57Z",
+  "total": 38,
   "fase": "Expansión",
-  "cambio4": -22,
-  "cambio13": -45,
-  "lectura": "Expansión (+39). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: bonos basura: tendencia.",
+  "cambio4": -23,
+  "cambio13": -46,
+  "lectura": "Expansión (+38). Lo que más empuja a expansión: beneficios empresariales (EE. UU.). Lo más débil: bonos basura: tendencia.",
   "indicadores": [
    {
     "id": "pib_bono",
@@ -543,8 +543,8 @@
     "id": "hy_prima",
     "n": "Prima de riesgo de los bonos basura",
     "peso": 3,
-    "score": 33,
-    "valor": "3,52 % (+0,82 en 3 meses)",
+    "score": 32,
+    "valor": "3,52 % (+0,83 en 3 meses)",
     "nota": "Si falta dinero, la burbuja pincha primero en los bonos basura. Prima baja = tranquilidad; si se dispara, alarma.",
     "fecha": "2026-11-19",
     "frec": "a diario"
@@ -613,10 +613,10 @@
     "id": "petroleo",
     "n": "Petróleo (WTI)",
     "peso": 1,
-    "score": 61,
-    "valor": "91,96 $ · +9,2 % sobre su media de 1 año",
+    "score": 40,
+    "valor": "89,24 $ · +5,9 % sobre su media de 1 año",
     "nota": "Petróleo firme = demanda. (Un pico muy brusco también puede frenar el consumo.)",
-    "fecha": "2026-11-13",
+    "fecha": "2026-11-16",
     "frec": "a diario"
    }
   ],
@@ -1250,8 +1250,8 @@
     "v": 40
    },
    {
-    "fecha": "2026-11-22",
-    "v": 39
+    "fecha": "2026-11-23",
+    "v": 38
    }
   ],
   "fuente": "FRED (Reserva Federal de St. Louis): GDP, DGS10, DFF, WALCL, WRESBAL, BAMLH0A0HYM2, BAMLHYH0A0HYM2TRIV, SP500, CP, TOTBKCR, FYFSGDA188S, PCOPPUSDM, DCOILWTICO",
