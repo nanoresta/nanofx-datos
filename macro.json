@@ -329,9 +329,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-23T11:51:31Z",
+    "actualizado": "2026-11-23T12:21:54Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 93,5 %, sin cambios en la última hora, con la tasa implícita en el 4,11 %. Para enero de 2027 la probabilidad también se mantiene en el 93,5 %, con la tasa implícita en el 4,24 %.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 93,5 %, sin cambios en la última hora, con la tasa implícita en el 4,11 %. Para enero de 2027 la probabilidad también se mantiene en el 93,5 %, con la tasa implícita en el 4,24 %, y para marzo de 2027 sube hasta el 4,35 %.",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -490,190 +490,202 @@
     {
       "nombre": "OilPrice / Bloomberg · Saudi Crude Output Jumps 26% as Riyadh Reports Near Pre-War Production",
       "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Output-Jumps-26-as-Riyadh-Reports-Near-Pre-War-Production.html"
+    },
+    {
+      "nombre": "Yahoo Finance · Stock market today, Monday, November 23: futures surge amid relief rally",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html"
+    },
+    {
+      "nombre": "CNBC · Fed Chairman Warsh on a December hike: I don't believe in forward guidance absent a crisis",
+      "url": "https://www.cnbc.com/video/2026/10/28/fed-chairman-warsh-on-a-december-hike-i-dont-believe-in-forward-guidance-absent-a-crisis.html"
+    },
+    {
+      "nombre": "TMGM · Federal Reserve: December and January hikes priced in by markets",
+      "url": "https://www.tmgm.com/en-in/analysis/market-news/article/federal-reserve-market-prices-in-december-and-january-hikes-rabobank-202611201221"
     }
   ],
   "indices": [
     {
-      "changeNote": "en vivo (futuros ES), 11:15 Canarias",
+      "changeNote": "en vivo (futuros ES), 07:45 Nueva York / 12:50 UTC",
       "changePct": 2.7,
       "claves": [
-        "Call wall en 7318 (ETF SPY 730,0 $); put wall en 7017 (ETF SPY 700,0 $).",
-        "Max pain en 7298 (ETF SPY 728,0 $).",
+        "Call wall en 7318 (ETF SPY 730.0 $); put wall en 7017 (ETF SPY 700.0 $).",
+        "Max pain en 7298 (ETF SPY 728.0 $).",
         "Giro de gamma (gamma flip) no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -3,3 mil M$ por 1 %, put/call OI 4,36, open interest del 19 de noviembre."
+        "Régimen de gamma negativa, en -7.0 mil M$ por 1 %, put/call OI 4.36, open interest del 19 de noviembre."
       ],
       "gex": {
         "callWall": 730,
-        "contratos": 1066,
+        "contratos": 1200,
         "escalera": [
           {
-            "gex": -1.7,
+            "gex": -0.9,
             "strike": 674
           },
           {
-            "gex": -507.4,
+            "gex": -646.3,
             "strike": 675
           },
           {
-            "gex": -1.2,
+            "gex": -1.5,
             "strike": 676
           },
           {
-            "gex": -1.4,
+            "gex": -1.9,
             "strike": 677
           },
           {
-            "gex": -2.3,
+            "gex": -2.6,
             "strike": 678
           },
           {
-            "gex": -2,
+            "gex": -1.7,
             "strike": 679
           },
           {
-            "gex": -192.9,
+            "gex": -264.4,
             "strike": 680
           },
           {
-            "gex": -2.6,
+            "gex": -3.5,
             "strike": 681
           },
           {
-            "gex": -1.9,
+            "gex": -2.5,
             "strike": 682
           },
           {
-            "gex": -2.9,
+            "gex": -4.1,
             "strike": 683
           },
           {
-            "gex": -35.8,
+            "gex": -52.9,
             "strike": 684
           },
           {
-            "gex": -133,
+            "gex": -201.2,
             "strike": 685
           },
           {
-            "gex": -1.6,
+            "gex": -2.2,
             "strike": 686
           },
           {
-            "gex": -1.5,
+            "gex": -2.1,
             "strike": 687
           },
           {
-            "gex": -2.2,
+            "gex": -3.3,
             "strike": 688
           },
           {
-            "gex": -2,
+            "gex": -1.8,
             "strike": 689
           },
           {
-            "gex": -150.3,
+            "gex": -244.7,
             "strike": 690
           },
           {
-            "gex": -2.8,
+            "gex": -4.4,
             "strike": 691
           },
           {
-            "gex": -41.4,
+            "gex": -69.3,
             "strike": 692
           },
           {
-            "gex": -7.4,
+            "gex": -11.4,
             "strike": 693
           },
           {
-            "gex": -14.6,
+            "gex": -25.5,
             "strike": 694
           },
           {
-            "gex": -138.6,
+            "gex": -236.9,
             "strike": 695
           },
           {
-            "gex": -13,
+            "gex": -22.7,
             "strike": 696
           },
           {
-            "gex": -4.9,
+            "gex": -8.1,
             "strike": 697
           },
           {
-            "gex": -9.2,
+            "gex": -17,
             "strike": 698
           },
           {
-            "gex": -1.2,
+            "gex": -3.4,
             "strike": 699
           },
           {
-            "gex": -537.1,
+            "gex": -1031.7,
             "strike": 700
           },
           {
-            "gex": -14.3,
+            "gex": -29.3,
             "strike": 701
           },
           {
-            "gex": -37.3,
+            "gex": -66.4,
             "strike": 702
           },
           {
-            "gex": -7.2,
+            "gex": -14.4,
             "strike": 703
           },
           {
-            "gex": -1.5,
+            "gex": -57.3,
             "strike": 704
           },
           {
-            "gex": -87,
+            "gex": -190.9,
             "strike": 705
           },
           {
-            "gex": -55.2,
+            "gex": -110.6,
             "strike": 706
           },
           {
-            "gex": -9,
+            "gex": -21.5,
             "strike": 707
           },
           {
-            "gex": -44.8,
+            "gex": -88.4,
             "strike": 708
           },
           {
-            "gex": -8.8,
+            "gex": -25,
             "strike": 709
           },
           {
-            "gex": -181.7,
+            "gex": -415.4,
             "strike": 710
           },
           {
-            "gex": -5.9,
+            "gex": -33.8,
             "strike": 711
           },
           {
-            "gex": -53.1,
+            "gex": -109.3,
             "strike": 712
           },
           {
-            "gex": -4.7,
+            "gex": -19.6,
             "strike": 713
           },
           {
-            "gex": -18.1,
+            "gex": -48.3,
             "strike": 714
           }
         ],
         "etf": "SPY",
         "gammaFlip": null,
-        "gexTotal": -3.3,
+        "gexTotal": -6.96,
         "indice": {
           "callWall": 7318,
           "gammaFlip": null,
@@ -709,15 +721,16 @@
         "vencimientoCercano": "2026-11-23"
       },
       "id": "SPX",
-      "lectura": "Los futuros rebotan con fuerza (+2,1 %) hasta unos 7.055 puntos tras la peor racha semanal desde 2020, con el precio ya por encima del put wall (7.017) y acercándose al max pain (7.298), en un régimen de gamma todavía negativa (-3,3 mil M$ por 1 %) que amplifica el movimiento en ambas direcciones. Waller pide una subida de hasta 50 pb en diciembre y la probabilidad de la Fed se mantiene en el 93,5 %, lo que limita el alcance del rebote; el PMI flash de EE. UU. de hoy a las 14:45 UTC es el dato que más puede mover la sesión. Sesgo: neutral, con el rebote técnico compensando por ahora el fondo bajista de la gamma negativa y una Fed muy probablemente al alza.",
+      "lectura": "Los futuros del S&P 500 amplían el rebote (+2,7 %) hasta unos 7.097 puntos en la antesala de la apertura de Nueva York, ya por encima del put wall (7.017) y acercándose al max pain (7.298), en un régimen de gamma negativa que se ha intensificado en la última hora (-7,0 mil M$ por 1 %, frente a -3,8 mil M$ antes) y que sigue amplificando el movimiento en ambas direcciones. Waller pide hasta 50 pb de subida en diciembre y la Fed de Warsh se mantiene en el 93,5 % de probabilidad, pese a la petición de moderación de Bessent por el shock energético; el PMI flash de EE. UU. de las 14:45 UTC es el dato que más puede mover la sesión, con el PCE subyacente del miércoles como cita clave de la semana. Sesgo: neutral, el rebote técnico compensa por ahora el fondo bajista de la gamma negativa y una Fed muy probablemente al alza.",
       "levels": {
         "callWall": 7318,
         "gammaFlip": null,
         "maxPain": 7298,
+        "precio": 6956,
         "putWall": 7017
       },
       "name": "S&P 500",
-      "netGex": "negativa (-3,3 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-19)",
+      "netGex": "negativa (-7.0 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-19)",
       "precio": 7097,
       "regime": "negativa",
       "regimen": "negativa",
@@ -726,106 +739,106 @@
       "spot": 7097
     },
     {
-      "changeNote": "en vivo (futuros NQ), 11:15 Canarias",
+      "changeNote": "en vivo (futuros NQ), 07:45 Nueva York / 12:50 UTC",
       "changePct": 3.4,
       "claves": [
-        "Call wall en 27130 (ETF QQQ 660,0 $); put wall en 26308 (ETF QQQ 640,0 $).",
-        "Max pain en 27006 (ETF QQQ 657,0 $).",
+        "Call wall en 27130 (ETF QQQ 660.0 $); put wall en 26308 (ETF QQQ 640.0 $).",
+        "Max pain en 27006 (ETF QQQ 657.0 $).",
         "Giro de gamma (gamma flip) no disponible en este cálculo del motor.",
-        "Régimen de gamma negativa, en -1,4 mil M$ por 1 %, put/call OI 6,3, open interest del 19 de noviembre."
+        "Régimen de gamma negativa, en -2.7 mil M$ por 1 %, put/call OI 6.3, open interest del 19 de noviembre."
       ],
       "gex": {
         "callWall": 660,
-        "contratos": 829,
+        "contratos": 898,
         "escalera": [
           {
-            "gex": -0.9,
+            "gex": -3.3,
             "strike": 599.78
           },
           {
-            "gex": -139.8,
+            "gex": -202.5,
             "strike": 600
           },
           {
-            "gex": -0.4,
+            "gex": -1.9,
             "strike": 604.78
           },
           {
-            "gex": -41.5,
+            "gex": -64.9,
             "strike": 605
           },
           {
-            "gex": -0.1,
+            "gex": -2.1,
             "strike": 609.78
           },
           {
-            "gex": -122.5,
+            "gex": -192.8,
             "strike": 610
           },
           {
-            "gex": -68.4,
+            "gex": -128.5,
             "strike": 615
           },
           {
-            "gex": -110.5,
+            "gex": -196.6,
             "strike": 620
           },
           {
-            "gex": -0.2,
+            "gex": -0.7,
             "strike": 621
           },
           {
-            "gex": -1.3,
+            "gex": -2.6,
             "strike": 622
           },
           {
-            "gex": -0.5,
+            "gex": -1.2,
             "strike": 623
           },
           {
-            "gex": 0.1,
+            "gex": -0.3,
             "strike": 624
           },
           {
-            "gex": -87.3,
+            "gex": -155.8,
             "strike": 625
           },
           {
-            "gex": -2.5,
+            "gex": -6.8,
             "strike": 626
           },
           {
-            "gex": -4.3,
+            "gex": -9.4,
             "strike": 627
           },
           {
-            "gex": -0.2,
+            "gex": -3.5,
             "strike": 628
           },
           {
-            "gex": -1.4,
+            "gex": -5,
             "strike": 629
           },
           {
-            "gex": -115.2,
+            "gex": -216.5,
             "strike": 630
           },
           {
-            "gex": -2.1,
+            "gex": -5.9,
             "strike": 631
           },
           {
-            "gex": -0.5,
+            "gex": -3,
             "strike": 632
           },
           {
-            "gex": -6.7,
+            "gex": -15,
             "strike": 633
           }
         ],
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -1.4,
+        "gexTotal": -2.67,
         "indice": {
           "callWall": 27130,
           "gammaFlip": null,
@@ -861,15 +874,16 @@
         "vencimientoCercano": "2026-11-23"
       },
       "id": "NDX",
-      "lectura": "Los futuros rebotan con fuerza (+3,0 %) hasta unos 25.780 puntos tras el desplome de los semiconductores (AMD, Micron) que dejó al Nasdaq 100 cerca de mercado bajista, con el precio todavía por debajo del put wall (26.308) y una gamma negativa que se mantiene moderada (-1,4 mil M$ por 1 %) aunque sigue amplificando el rebote. Waller y Goolsbee mantienen abierta la puerta a una subida de hasta 50 pb en diciembre (probabilidad 93,5 %), lo que pesa sobre la tecnología; el PMI flash de EE. UU. de las 14:45 UTC es la referencia de la sesión. Sesgo: bajista, con el rebote como alivio técnico insuficiente para revertir el fondo negativo de la gamma y los tipos.",
+      "lectura": "Los futuros del Nasdaq 100 amplían el rebote (+3,4 %) hasta unos 25.880 puntos, liderados por Nvidia (+8 % en premercado) tras el desplome de los semiconductores (AMD, Micron) de la semana pasada, con el precio todavía por debajo del put wall (26.308) y una gamma negativa que se ha intensificado en la última hora (-2,7 mil M$ por 1 %, frente a -1,6 mil M$ antes). Waller y Goolsbee mantienen abierta una subida de hasta 50 pb en diciembre (probabilidad 93,5 %), lo que pesa sobre la tecnología; el PMI flash de EE. UU. de las 14:45 UTC y el PCE subyacente del miércoles son las referencias de la semana. Sesgo: bajista, el rebote es un alivio técnico insuficiente para revertir el fondo negativo de la gamma y los tipos.",
       "levels": {
         "callWall": 27130,
         "gammaFlip": null,
         "maxPain": 27006,
+        "precio": 25272,
         "putWall": 26308
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-1,4 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-19)",
+      "netGex": "negativa (-2.7 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-19)",
       "precio": 25880,
       "regime": "negativa",
       "regimen": "negativa",
@@ -879,7 +893,7 @@
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-23T11:51:31Z",
+    "actualizado": "2026-11-23T12:21:54Z",
     "balance": 6741.5,
     "d4": 23.2,
     "dBalance": -17.4,
@@ -1014,6 +1028,18 @@
   "noticias": [
     {
       "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "Yahoo Finance",
+      "impacto": "medio",
+      "resumen": "Dow, S&P 500 y Nasdaq suben con fuerza en premercado por segunda sesión consecutiva, en un repunte de alivio tras la peor racha semanal desde 2020, a la espera del PMI flash de las 14:45 UTC.",
+      "titular": "Los futuros de Wall Street amplían el rebote al borde de la apertura de Nueva York",
+      "ts": "2026-11-23T12:30:00Z",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-091118583.html"
+    },
+    {
+      "activos": {
         "NQ": "alcista"
       },
       "fuente": "Bloomberg",
@@ -1047,6 +1073,17 @@
     },
     {
       "activos": {
+        "BTC": "alcista"
+      },
+      "fuente": "CoinDesk",
+      "impacto": "medio",
+      "resumen": "Bitcoin repunta hacia los 61.400 $ tras marcar su peor mes desde junio de 2022, con una caída del 21 % en noviembre.",
+      "titular": "Bitcoin rompe una racha récord de 18 días de máximos decrecientes",
+      "ts": "2026-11-23T09:00:00Z",
+      "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-breaks-a-record-streak-of-lower-highs-here-s-what-it-means"
+    },
+    {
+      "activos": {
         "WTI": "bajista",
         "XAU": "alcista"
       },
@@ -1056,6 +1093,17 @@
       "titular": "El Brent cae cerca de un 3,5 % por temor a un exceso de oferta",
       "ts": "2026-11-23T08:00:00Z",
       "url": "https://investing.com/analysis/oil-still-volatile-near-lows-gold-recovers-early-losses-bitcoin-slips-further-200639094"
+    },
+    {
+      "activos": {
+        "EURUSD": "alcista"
+      },
+      "fuente": "Investing.com (dpa-AFX)",
+      "impacto": "medio",
+      "resumen": "El euro cotiza justo por encima de 1,10 $ esta mañana, tras cerrar el viernes en 1,0970 $ y tocar un mínimo anual de 1,0953 $.",
+      "titular": "El euro recupera los 1,10 dólares tras tocar mínimos del año",
+      "ts": "2026-11-23T07:00:00Z",
+      "url": "https://de.investing.com/news/forex-news/devisen-eurokurs-steigt-leicht-uber-marke-von-110-usdollar-3781454"
     },
     {
       "activos": {
@@ -1159,10 +1207,10 @@
         "valor": "27006"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 23 de noviembre (base open interest, motor actualizado a las 11:51 UTC): en el S&P 500, call wall en 7.218, put wall en 6.967 y max pain en 7.298, con un put/call OI de 1,54. En el Nasdaq 100, call wall en 27.130, put wall en 24.663 y max pain en 27.006, con un put/call OI de 4,47. El giro de gamma 0DTE no está disponible en ninguno de los dos índices. Con los futuros ya muy por encima de ambos put wall 0DTE, el mercado se mueve hacia la zona de max pain en el vencimiento de hoy."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 23 de noviembre (base open interest, motor actualizado a las 12:22 UTC): en el S&P 500, call wall en 7.218, put wall en 6.967 y max pain en 7.298, con un put/call OI de 1,54. En el Nasdaq 100, call wall en 27.130, put wall en 24.663 y max pain en 27.006, con un put/call OI de 4,47. El giro de gamma 0DTE no está disponible en ninguno de los dos índices. Con los futuros ya muy por encima de ambos put wall 0DTE y acercándose al max pain, el mercado se inclina hacia una sesión de aspiración ('pin') hacia esa zona en el vencimiento de hoy."
   },
   "politica": {
-    "actualizado": "2026-11-23T06:52:00Z",
+    "actualizado": "2026-11-23T12:50:00Z",
     "ajuste": -10,
     "declaraciones": [
       {
@@ -1259,11 +1307,11 @@
       }
     ]
   },
-  "resumen": "Son las 11:15 UTC (11:15 en Canarias, 06:15 de la madrugada en Nueva York) del lunes 23 de noviembre de 2026, con Londres y Fráncfort abiertas, al arrancar la semana corta por Acción de Gracias (jueves 26 cerrado). Los futuros de Wall Street amplían el rebote tras la peor racha semanal desde 2020: el S&P 500 sube un 2,7 % hasta unos 7.097 puntos y el Nasdaq 100 un 3,4 % hasta unos 25.880, con Nvidia subiendo un 8 % en premercado tras perder un 23 % la semana pasada. La gamma sigue negativa en ambos índices (SPX en torno a -3,5 mil M$ por 1 %, NDX en torno a -1,4 mil M$ por 1 %, open interest del 19 de noviembre, motor actualizado a las 10:22 UTC) y amplifica el movimiento en ambas direcciones. La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 93,5 %, con la tasa implícita en el 4,11 %. El euro recorta las ganancias iniciales tras el PMI flash mixto de la eurozona (manufactura 52,9, sorpresa al alza; servicios 51,2, mínimo de cinco meses) y cotiza cerca de mínimos de 19 meses frente al dólar, a la espera del PMI flash de EE. UU. a las 14:45 UTC, la cita clave de la sesión. El oro se mantiene por encima de 3.600 $/onza y bitcoin ronda los 61.000-61.700 $ tras tocar un mínimo de dos años el fin de semana (55.130 $). El Brent cae cerca de un 3,5 % por el temor a un exceso de oferta, mientras los ataques a petroleros en el estrecho de Ormuz se mantienen en su nivel más alto desde el inicio de la guerra.",
+  "resumen": "Son las 12:45 UTC (07:45 de la mañana en Nueva York, 13:45 en Canarias) del lunes 23 de noviembre de 2026, en la antesala de la apertura de Wall Street, en la semana corta por Acción de Gracias (jueves 26 cerrado). Los futuros amplían el rebote tras la peor racha semanal desde 2020: el S&P 500 sube un 2,7 % hasta unos 7.097 puntos y el Nasdaq 100 un 3,4 % hasta unos 25.880, con Nvidia subiendo un 8 % en premercado tras perder un 23 % la semana pasada. La gamma sigue negativa en ambos índices (SPX en torno a -3,8 mil M$ por 1 %, NDX en torno a -1,6 mil M$ por 1 %, open interest del 19 de noviembre, motor actualizado a las 12:22 UTC). La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 93,5 %, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético. El PMI flash de EE. UU. a las 14:45 UTC es la próxima cita clave de la sesión, tras un PMI mixto en la eurozona (manufactura 52,9, sorpresa al alza; servicios 51,2, mínimo de cinco meses) que deja al euro cerca de mínimos de 19 meses. El oro se mantiene por encima de 3.600 $/onza y bitcoin ronda los 61.000 $ tras tocar un mínimo de dos años el fin de semana (55.130 $). El WTI cae cerca de un 3,5 % por el temor a un exceso de oferta saudí, mientras los ataques a petroleros en el estrecho de Ormuz se mantienen en su nivel más alto desde el inicio de la guerra.",
   "semana": {
     "activos": [
       {
-        "cambio": "Mejora: de bajista a neutral tras el rebote técnico de los futuros (+2,5 %).",
+        "cambio": "Mejora: de bajista a neutral tras el rebote técnico de los futuros (+2,5 %). Sin cambios relevantes desde la actualización de las 11:15 UTC; el rebote de los futuros se mantiene.",
         "expectativa": "El calendario pesa poco (0,3) pero su sesgo es favorable al riesgo: los PMI flash de EE. UU. se esperan algo más débiles que en octubre, lo que alivia la presión sobre la Fed. El PIB y el PCE subyacente del miércoles son la referencia real.",
         "id": "SPX",
         "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. Para el S&P 500, el rebote devuelve el precio por encima del put wall (7.017) hacia el max pain (7.298), pero la gamma negativa y la Fed al 93,5 % limitan el alcance: sesgo neutral, no todavía un cambio de tendencia.",
@@ -1272,7 +1320,7 @@
         "sesgo": "neutral"
       },
       {
-        "cambio": "Mejora: de bajista marcado a bajista moderado tras el rebote de los futuros (+3,2 %).",
+        "cambio": "Mejora: de bajista marcado a bajista moderado tras el rebote de los futuros (+3,2 %). Sin cambios relevantes desde la actualización de las 11:15 UTC; el rebote de los futuros se mantiene.",
         "expectativa": "El calendario pesa poco esta semana; el PCE subyacente del miércoles es la referencia con más capacidad de mover al Nasdaq. El rebote de hoy es un alivio técnico tras el desplome de los semiconductores, no una reversión confirmada.",
         "id": "NQ",
         "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. El Nasdaq 100 sigue por debajo de su put wall (26.308) pese al rebote, arrastrado por el desplome de los semiconductores (AMD, Micron) que lo dejó cerca de mercado bajista: sesgo todavía bajista.",
@@ -1281,7 +1329,7 @@
         "sesgo": "bajista"
       },
       {
-        "cambio": "Mejora: de bajista leve a neutral, cerca del umbral alcista.",
+        "cambio": "Mejora: de bajista leve a neutral, cerca del umbral alcista. Sin cambios relevantes desde la actualización de las 11:15 UTC; el rebote de los futuros se mantiene.",
         "expectativa": "El saldo del calendario favorece al oro (dólar algo más débil esperado), con el PCE subyacente del miércoles como cita clave. La escalada de los ataques en el estrecho de Ormuz añade demanda de refugio.",
         "id": "XAU",
         "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. El oro rebota cerca de un 2 % hasta 3.610 $/onza tras tocar mínimos de 14 meses, sostenido por la escalada en Ormuz (ataques en su nivel más alto desde el inicio de la guerra) pese al viento en contra de una Fed muy probablemente al alza: sesgo neutral con sesgo de mejora.",
@@ -1290,7 +1338,7 @@
         "sesgo": "neutral"
       },
       {
-        "cambio": "Mejora: de bajista a neutral tras el rebote desde el mínimo de dos años (55.130 $).",
+        "cambio": "Mejora: de bajista a neutral tras el rebote desde el mínimo de dos años (55. Sin cambios relevantes desde la actualización de las 11:15 UTC; el rebote de los futuros se mantiene.",
         "expectativa": "El calendario es casi irrelevante para bitcoin esta semana. El rebote hasta 61.200 $ es un alivio técnico; el miedo extremo (índice en 11) y las salidas de ETF (3.470 M$ en noviembre) siguen pesando más que cualquier dato.",
         "id": "BTC",
         "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. Bitcoin rebota con fuerza desde los 55.130 $ del fin de semana hasta unos 61.200 $, pero el miedo extremo y las salidas de ETF mantienen el sesgo cauteloso: neutral, no todavía alcista.",
@@ -1299,7 +1347,7 @@
         "sesgo": "neutral"
       },
       {
-        "cambio": "Mejora: el PMI flash de la eurozona sorprende al alza en manufactura (52,9 frente al 52,8 esperado) aunque decepciona en servicios (51,2, mínimo de 5 meses); el saldo del calendario interno para el euro sube con fuerza (de 0 a +67), lo que reduce la presión bajista sobre el euro frente al dólar (componente de calendario de EUR/USD: de -25 a +38).",
+        "cambio": "Mejora: el PMI flash de la eurozona sorprende al alza en manufactura (52,9 frente al 52,8 esperado) aunque decepciona en servicios (51,2, mínimo de 5 meses); el saldo del calendario interno para el euro sube con fuerza (de 0 a +67), lo que reduce la presión bajista sobre el euro frente al dólar (componente de calendario de EUR/USD: de -25 a +38). Sin cambios relevantes desde la actualización de las 11:15 UTC; el rebote de los futuros se mantiene.",
         "expectativa": "El PMI flash de la eurozona ya se ha publicado: sorpresa positiva en manufactura (52,9) y negativa en servicios (51,2), con saldo neto algo favorable al euro. El PCE subyacente de EE. UU. del miércoles sigue siendo la referencia que más puede mover el par.",
         "id": "EURUSD",
         "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. El euro cotiza cerca de 1,0975, cerca de mínimos de 19 meses, con Lagarde manteniendo un sesgo cauteloso en el BCE: sesgo neutral, con el dólar todavía dominante pero algo menos sostenido por el calendario de hoy.",
@@ -1308,7 +1356,7 @@
         "sesgo": "neutral"
       },
       {
-        "cambio": "Mejora leve: la escalada en Ormuz compensa el exceso de oferta saudí.",
+        "cambio": "Mejora leve: la escalada en Ormuz compensa el exceso de oferta saudí. Sin cambios relevantes desde la actualización de las 11:15 UTC; el rebote de los futuros se mantiene.",
         "expectativa": "El calendario apenas mueve la aguja para el petróleo (peso 0,3); ni el PIB ni el PCE son datos específicos de crudo. La escalada en el estrecho de Ormuz es el factor dominante.",
         "id": "WTI",
         "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. El WTI cotiza en torno a 83,5 $, con los ataques a petroleros en Ormuz en su nivel más alto desde el inicio de la guerra dando soporte, pero el exceso de oferta saudí (+26 % de producción) y la petición de Bessent a la Fed por el 'shock energético' limitan el alza: sesgo neutral.",
@@ -1326,7 +1374,7 @@
         "WTI": 12,
         "XAU": 25
       },
-      "actualizado": "2026-11-23T09:20:00.000000Z",
+      "actualizado": "2026-11-23T12:50:00Z",
       "dolar": -25,
       "dolarEsperado": -25,
       "euro": 67
@@ -1640,5 +1688,5 @@
     "updatedAt": "2026-11-22T18:19:34.000Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-23T12:18:00.000Z"
+  "updatedAt": "2026-11-23T13:20:00.000Z"
 }
