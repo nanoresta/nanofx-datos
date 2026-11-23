@@ -1,17 +1,17 @@
 {
-  "actualizado": "2026-11-23T07:46:06Z",
+  "actualizado": "2026-11-23T19:45:29Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 17 pb del umbral de atención (5,5 %); -15 pb en la semana por la huida a los bonos con la bolsa en corrección (Wolf Street, Trading Economics).",
-      "valor": "5,33 % (20 nov)"
+      "nota": "A 19 pb del umbral de atención (5,5 %); el largo no reacciona al rebote de la bolsa y se mantiene plano en el mes (Trading Economics).",
+      "valor": "5,31 % (23 nov)"
     },
     {
       "estado": "amarillo",
-      "nombre": "Subasta de 20 años (18 nov)",
-      "nota": "La última subasta larga salió en línea (cobertura 2,63, indirectos 60,2 % frente a 63,7 % de media, Helious) y el 20 años ya cotiza al 5,38 % (20 nov); hoy toca 2 años (69.000 M$) y mañana 5 años (70.000 M$).",
-      "valor": "5,459 %; sin cola; cobertura 2,63; indirectos 60,2 %"
+      "nombre": "Subasta de 2 años (23 nov)",
+      "nota": "Demanda en línea (cobertura 2,65 frente a 2,63 de media) pero indirectos flojos (51,5 % frente a 56,5 %, Helious); la última larga, el 20 años del 18 nov, también salió en línea; mañana 5 años y el miércoles 7 años.",
+      "valor": "4,700 %; sin cola (-0,3 pb); cobertura 2,65; indirectos 51,5 %"
     },
     {
       "estado": "rojo",
@@ -37,26 +37,26 @@
       {
         "estado": "rojo",
         "n": "Precios caros frente a su valor",
-        "nota": "El S&P 500 cierra el viernes en 6.910 (-3,7 %, -8,6 % en la semana, 20 nov) y el Nasdaq ya pierde en 2026; abarata algo, pero el CAPE (~41, 8 oct) sigue cerca de los niveles de 2000.",
-        "valor": "CAPE ~41 (8 oct); S&P 500 6.910"
+        "nota": "23 nov: el S&P 500 rebota un 4,4 % (~7.240) y el Nasdaq 100 un 6,4 % tras la vuelta de Huang a Nvidia (+30 %); el CAPE (~41, 8 oct) sigue cerca de 2000.",
+        "valor": "CAPE ~41 (8 oct); S&P 500 ~7.240"
       },
       {
         "estado": "amarillo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "Con la caída de la bolsa (S&P 500 6.910, 20 nov) la rentabilidad por beneficios ronda el 5,7-5,9 % (estim.) frente al bono a 10 años en el 4,94 %: la bolsa paga algo más por su riesgo, aunque las grandes siguen pesando mucho.",
-        "valor": "Prima de riesgo ≈ 80-100 pb (estim.)"
+        "nota": "Con el S&P 500 en ~7.240 (23 nov) la rentabilidad por beneficios ronda el 5,5 % (estim.) frente al bono a 10 años en el 4,95 %: la prima vuelve a estrecharse y Nvidia recupera ~1 bill. $ en un día.",
+        "valor": "Prima de riesgo ≈ 60-80 pb (estim.)"
       },
       {
         "estado": "amarillo",
         "n": "Muchos compradores nuevos",
-        "nota": "19 nov: el ETF SPY sufre la mayor salida (11.650 M$, CappNotes) y bitcoin toca 55.130 $ con salidas de ETF de 3.470 M$ en noviembre (KuCoin, 23 nov): los compradores nuevos huyen.",
-        "valor": "SPY -11.650 M$ (19 nov)"
+        "nota": "19 nov: el SPY sufrió la mayor salida (11.650 M$); el 23 nov bitcoin rebota a ~62.000-63.000 $ (+10 % desde el viernes, CoinDesk) y la OPV de Anthropic (18 nov) muestra apetito.",
+        "valor": "SPY -11.650 M$ (19 nov); BTC ~62.000 $"
       },
       {
         "estado": "verde",
         "n": "Sentimiento eufórico",
-        "nota": "20 nov: VIX cierra en 35,9, máximo desde marzo (CappNotes); AAII con 42,2 % de bajistas (18 nov) y miedo extremo en cripto (11): no hay euforia, hay miedo.",
-        "valor": "VIX 35,9; AAII 42 % bajistas"
+        "nota": "23 nov: el VIX cae un 25 % hasta 26,8 (JournalArta) con el rebote, pero sigue alto y la AAII tenía 42,2 % de bajistas (18 nov): alivio, todavía no euforia.",
+        "valor": "VIX 26,8; AAII 42 % bajistas"
       },
       {
         "estado": "rojo",
@@ -67,46 +67,70 @@
       {
         "estado": "rojo",
         "n": "Sobreinversión por miedo a quedarse fuera",
-        "nota": "Goldman: 296.000 M$ de emisión de hyperscalers en 2026; Bloomberg: red de más de 750.000 M$ de financiación circular; récord del 38 % de gestores que ven sobreinversión (BofA, 17 nov). Es lo que más pesa.",
+        "nota": "Goldman: 296.000 M$ de emisión de hyperscalers en 2026; Bloomberg: más de 750.000 M$ de financiación circular; récord del 38 % de gestores que ven sobreinversión (BofA, 17 nov). La vuelta de Huang reaviva la apuesta por la IA (23 nov).",
         "valor": "296.000 M$ en bonos + >750.000 M$ circulares"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA bajan a 58/100 de burbuja, lejos de los ~85 de 2000 y 1929: el viernes el S&P 500 cayó un 3,7 %, el Nasdaq un 5,3 % y los semiconductores un 10,7 %, aunque hoy los futuros rebotan un 2,5 %. Lo que más pesa sigue siendo la sobreinversión en IA a crédito y un apalancamiento de margen cerca de récord.",
-    "nivel": 58,
+    "lectura": "La bolsa de EE. UU. y la IA suben a 63/100 de burbuja, aún lejos de los ~85 de 2000 y 1929: el rebote del 23 nov (S&P 500 +4,4 %, Nasdaq 100 +6,4 %, Nvidia +30 %) devuelve parte del optimismo. Lo que más pesa sigue siendo la sobreinversión en IA a crédito y el apalancamiento de margen cerca de récord.",
+    "nivel": 63,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "20 nov: el 2 años cae 13 pb y el 30 años 7 pb (investingLive); la curva se empina por bajada del corto, no por subida del largo.",
-        "valor": "+68 pb (4,65 % / 5,33 %)"
+        "nota": "23 nov: el 2 años sube 9 pb por la Fed y el 30 años baja 2-3 pb: la curva se aplana, sin señal de tipos largos disparados.",
+        "valor": "+61 pb (4,70 % / 5,31 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "Kalshi (23 nov): 93,5 % de subida en diciembre (implícita 4,12 %) y 4,34 % para marzo; Waller habla de hasta 50 pb. Subir tipos en plena corrección es el mayor riesgo de pinchazo.",
-        "valor": "3,75-4,00 %; 93,5 % subida el 9 dic"
+        "nota": "Kalshi (23 nov): 96,5 % de subida en diciembre (implícita 4,13 %) y 95 % en enero; subir tipos con la bolsa recién corregida sigue siendo el mayor riesgo de pinchazo.",
+        "valor": "3,75-4,00 %; 96,5 % subida el 9 dic"
       },
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "23 nov: el DXY se aleja algo de su máximo de 19 meses (103,6, -0,2 %, Trading Economics): no hay huida del dólar.",
-        "valor": "103,6 (+1,6 % en 1 mes)"
+        "nota": "23 nov: el DXY marca su nivel más alto desde la primavera de 2025 (CoinDesk): no hay huida del dólar.",
+        "valor": "104,4 (+0,65 % hoy)"
       },
       {
         "estado": "amarillo",
         "n": "Oro",
-        "nota": "El oro se hundió a ~3.515 $ el viernes (mínimo de 14,5 meses, CappNotes) y rebota hoy un 2-3 % hasta ~3.610-3.625 $ (CryptoTicker, 23 nov): primer indicio de refugio, aún sin huida.",
-        "valor": "~3.610 $/oz (+2 %)"
+        "nota": "23 nov: el oro rebota casi un 4 % desde el mínimo de 14,5 meses del viernes (~3.515 $, JournalArta): refugio moderado, sin huida.",
+        "valor": "~3.669 $/oz (+3,9 %)"
       },
       {
-        "estado": "rojo",
+        "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "20 nov: séptima caída seguida, Nasdaq -5,3 %, VIX 35,9 y diferencial high yield en 3,52 % (+18 pb en 3 días, FRED); bitcoin toca 55.130 $ el fin de semana: ventas para hacer caja.",
-        "valor": "S&P -3,7 %; BTC 55.130 $"
+        "nota": "23 nov: rebote fuerte tras siete caídas seguidas y el VIX baja de 35,9 a 26,8; la urgencia de hacer caja se calma, pero el diferencial high yield seguía en 3,52 % (20 nov, FRED).",
+        "valor": "S&P +4,4 %; VIX 26,8"
       }
     ]
   },
   "fuentes": [
+    {
+      "nombre": "Helious – Subasta de 2 años en línea (23 nov)",
+      "url": "https://helious.io/news/auc-91282CRY9-2026-11-23/2-year-note-auction-in-line"
+    },
+    {
+      "nombre": "CoinDesk – Wall Street rebota, el dólar en máximos (23 nov)",
+      "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025"
+    },
+    {
+      "nombre": "JournalArta – Apertura del 23 nov (VIX, oro, S&P 500)",
+      "url": "https://journalarta.com/en/2026/11/23/stock-market-today-sp-500-jumps-3-9-and-nasdaq-5-8-at-the-open-as-vix-drops/"
+    },
+    {
+      "nombre": "TMGM/FXStreet – El yen se debilita con el rally de Nvidia (23 nov)",
+      "url": "https://www.tmgm.com/en/analysis/market-news/article/japanese-yen-weakens-as-nvidia-led-stock-rally-boosts-risk-appetite-202611231815"
+    },
+    {
+      "nombre": "Nvidia – Reincorporación de Jensen Huang (23 nov)",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    {
+      "nombre": "Newsquawk – Fijación del yuan del PBOC",
+      "url": "https://www.newsquawk.com/headlines/pboc-sets-usdcny-midpoint-at-67118-vs-exp-66654-prev-67132"
+    },
     {
       "nombre": "investingLive – Cierre de América 20 nov (bonos, bolsa, oro)",
       "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-20-nov-stocks-get-hammered-as-nasdaq-plunges-5-28/"
@@ -242,45 +266,21 @@
     {
       "nombre": "CMS Investments – Anthropic, la mayor OPV de la historia (18 nov)",
       "url": "https://cmsinvestments.substack.com/p/wednesday-recap-anthropic-prices"
-    },
-    {
-      "nombre": "Mitrade – El oro rebota tras mínimo de 14 meses (19 nov)",
-      "url": "https://www.mitrade.com/au/insights/news/live-news/article-2-2263659-20261119"
-    },
-    {
-      "nombre": "KuCoin – Bitcoin cae a 63.000 $ con salidas de ETF (19 nov)",
-      "url": "https://www.kucoin.com/news/insight/BTC/6afe64509278e40007d89a90"
-    },
-    {
-      "nombre": "Helious – Subasta de 20 años en línea (18 nov)",
-      "url": "https://helious.io/news/auc-912810UZ9-2026-11-18/20-year-bond-auction-in-line"
-    },
-    {
-      "nombre": "TokenPost – Bonos a 10 y 30 años antes de las actas (18 nov)",
-      "url": "https://www.tokenpost.com/news/investing/60291"
-    },
-    {
-      "nombre": "BigGo – Japón recorta Treasuries tres meses seguidos (TIC)",
-      "url": "https://finance.biggo.com/news/12984e2b-f406-489a-bb74-f91bf86451bb"
-    },
-    {
-      "nombre": "5paisa/Reuters – El oro en mínimos de un año (18 nov)",
-      "url": "https://www.5paisa.com/blog/gold-one-year-low-markets-await-fed-minutes-november-18-2026"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa por su déficit y por la deuda de la IA, pero de momento los bonos hacen de refugio: en la semana el 10 años cayó 20 pb (4,94 %) y el 30 años 15 pb (5,33 %) mientras el S&P 500 se dejaba un 8,6 %. El riesgo se mantiene en 50; lo nuevo es el OFZ ruso en máximos desde 2022 (17,1 %) y el yen que vuelve hacia 159, y esta semana hay subastas de 2, 5 y 7 años.",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa por su déficit y por la deuda de la IA, aunque los bonos aguantan: con la bolsa rebotando con fuerza (S&P 500 +4,4 % por la vuelta de Jensen Huang a Nvidia) el 30 años está en el 5,31 % y el 2 años sube al 4,70 % ante una subida de la Fed casi segura (96,5 %). El riesgo se mantiene en 50; lo nuevo es el dólar en máximos desde la primavera de 2025 (DXY 104,4) y el yen por encima de 159.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "23 nov (cierre vie. 4,94 %, -11 pb; -20 pb en la semana, -17 pb en 1 mes; Trading Economics, investingLive, Wolf Street)",
+          "c": "23 nov, +1 a +4 pb en el día (CoinDesk; 4,93 % Trading Economics); -6 pb en 1 mes",
           "n": "Bono 10 años",
-          "v": "4,96 %"
+          "v": "4,95 %"
         },
         {
-          "c": "20 nov; -7 pb el viernes, -15 pb en la semana, -8 pb en 1 mes (Trading Economics, Wolf Street)",
+          "c": "23 nov, -2 a -3 pb en el día, plano en 1 mes (Trading Economics)",
           "n": "Bono 30 años",
-          "v": "5,33 %"
+          "v": "5,31 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -296,14 +296,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Mayor semana de compra de bonos desde hace meses: el 10 años cae 20 pb y el 30 años 15 pb mientras el S&P 500 se deja un 8,6 % en la semana (cierre 6.910, -3,7 % el viernes); hoy se subastan 69.000 M$ a 2 años y esta semana 70.000 M$ a 5 y 44.000 M$ a 7 años."
+      "nota": "El 2 años sube 9 pb (4,70 %) por la subida casi segura de la Fed el 9 dic, mientras el largo apenas se mueve (30 años 5,31 %): la curva se aplana; la subasta de 2 años (69.000 M$) salió en línea y mañana toca 5 años (70.000 M$)."
     },
     {
       "datos": [
         {
-          "c": "23 nov; cierre vie. 3,30 % (-11 pb); -4 pb en 1 mes, +~50 pb en el año (Trading Economics)",
+          "c": "23 nov; -2 pb en el día, -8 pb en 1 mes, +58 pb en el año (Trading Economics)",
           "n": "Bund 10 años",
-          "v": "3,31 %"
+          "v": "3,28 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -324,7 +324,7 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund se estabiliza en el 3,31 % tras la huida a la calidad del viernes; el BCE sigue camino de subir el 17 dic y la prima francesa (157 pb, 28 oct) es el punto débil."
+      "nota": "El Bund baja al 3,28 % pese al rebote de la bolsa; el BCE sigue camino de subir el 17 dic y la prima francesa (157 pb, 28 oct) es el punto débil."
     },
     {
       "datos": [
@@ -339,7 +339,7 @@
           "v": "563.900 M$"
         },
         {
-          "c": "23 nov; estable; el PBOC frena la apreciación con fijaciones débiles (Trading Economics)",
+          "c": "20-23 nov; el PBOC fija el yuan más débil de lo esperado (fijación 6,7118, Newsquawk) para frenar su subida",
           "n": "USD/CNY",
           "v": "6,674"
         },
@@ -357,12 +357,12 @@
     {
       "datos": [
         {
-          "c": "20 nov (lunes 23 festivo en Japón); cuarta caída seguida, -1 pb en 1 mes (Trading Economics)",
+          "c": "20-23 nov (festivo en Japón el 23), -1 pb en 1 mes (Trading Economics)",
           "n": "JGB 10 años",
           "v": "2,79 %"
         },
         {
-          "c": "20 nov; -3 pb el viernes, +4 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
+          "c": "23 nov; +16 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
           "n": "JGB 30 años",
           "v": "3,97 %"
         },
@@ -372,15 +372,15 @@
           "v": "1,063 bill. $"
         },
         {
-          "c": "23 nov; el yen vuelve a debilitarse (+0,2 %) con poco volumen por el festivo; cerró el vie. en 158,5 (Trading Economics, investingLive)",
+          "c": "23 nov, +0,5 %: el rebote de la bolsa debilita el yen (FXStreet/TMGM, JournalArta)",
           "n": "USD/JPY",
-          "v": "158,9"
+          "v": "159,3"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Japón cierra por festivo y el yen vuelve hacia 159 al perder fuelle la demanda de refugio; la subida del BoJ en diciembre sigue sobre la mesa y Japón lleva 5 meses vendiendo Treasuries (TIC)."
+      "nota": "El yen supera 159 con el apetito por riesgo; el IPC de octubre (2,3 %) por debajo de lo esperado baja al 77 % la probabilidad de subida del BoJ en diciembre (BBH) y Japón lleva 5 meses vendiendo Treasuries (TIC)."
     },
     {
       "datos": [
@@ -661,6 +661,11 @@
       "burbuja": 58,
       "riesgo": 50,
       "ts": "2026-11-23T07:46:06Z"
+    },
+    {
+      "burbuja": 63,
+      "riesgo": 50,
+      "ts": "2026-11-23T19:45:29Z"
     }
   ]
 }

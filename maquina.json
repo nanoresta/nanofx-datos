@@ -1,12 +1,24 @@
 {
-  "actualizado": "2026-11-23T07:46:06Z",
+  "actualizado": "2026-11-23T19:45:29Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento tardío",
     "fase": 0.65,
-    "lectura": "La Fed (3,75-4,00 %) tiene un 93,5 % de subir el 9 dic (Kalshi, 23 nov), pero el S&P 500 cae un 8,6 % en la semana, el VIX cierra en 35,9 y el 2 años baja al 4,65 %: pasado el techo, camino de la desaceleración."
+    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de subir el 9 dic (Kalshi, 23 nov) y el 2 años sube al 4,70 %, mientras el PMI de servicios decepciona (54,7 frente a 55,6) y la bolsa rebota un 4,4 % tras su peor semana: pasado el techo, camino de la desaceleración."
   },
   "fuentes": [
+    {
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (23 nov)",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "investingLive – PMI flash de servicios de EE. UU. (23 nov)",
+      "url": "https://investinglive.com/news/s-p-global-us-services-november-flash-pmi-54-7-vs-55-7-expected/"
+    },
+    {
+      "nombre": "CoinDesk – Mercados 23 nov",
+      "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025"
+    },
     {
       "nombre": "investingLive – Cierre de América 20 nov",
       "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-20-nov-stocks-get-hammered-as-nasdaq-plunges-5-28/"
@@ -26,10 +38,6 @@
     {
       "nombre": "StockTitan – Mercado en directo 20 nov (VIX, Cook, Anthropic)",
       "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
-    },
-    {
-      "nombre": "Trading Economics – Bono 30 años EE. UU. (20 nov)",
-      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
     },
     {
       "nombre": "investingLive – Cierre de América 19 nov (Philly Fed, subsidios, Fed)",
@@ -110,37 +118,9 @@
     {
       "nombre": "Morningstar · PIB 2T",
       "url": "https://www.morningstar.com/news/dow-jones/202609304693/second-quarter-gdp-growth-climbs-to-22-in-third-estimate"
-    },
-    {
-      "nombre": "BLS · IPP septiembre 2026",
-      "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm"
-    },
-    {
-      "nombre": "ActionForex · Warsh no da señal para octubre",
-      "url": "https://www.actionforex.com/live-comments/657672-feds-warsh-declines-october-rate-signal-says-fed-will-no-longer-preview-decisions/"
-    },
-    {
-      "nombre": "Schwab · Mercados 16 oct (GDPNow, FedWatch)",
-      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
-    },
-    {
-      "nombre": "Investing.com/Reuters · CoreWeave, peor semana",
-      "url": "https://www.investing.com/news/economy-news/coreweave-shares-bonds-headed-for-steep-weekly-losses-as-ai-borrowing-concerns-mount-4953586"
-    },
-    {
-      "nombre": "FXCM · Briefing macro 19 oct",
-      "url": "https://www.fxcm.com/za/insights/global-macro-and-markets-briefing-19-october-2026/"
-    },
-    {
-      "nombre": "U.S. News · NAHB octubre",
-      "url": "https://money.usnews.com/investing/news/articles/2026-10-19/us-homebuilder-sentiment-tumbles-to-near-14-1-2-year-low-in-october"
-    },
-    {
-      "nombre": "FXStreet · Vivienda y Treasuries (20 oct)",
-      "url": "https://www.fxstreet.com/news/us-treasury-yields-retreat-as-iran-deal-hopes-pull-wti-lower-202610201649"
     }
   ],
-  "hacia": "Lo que viene según el patrón es la desaceleración o recesión en 6-18 meses; una Fed que suba en plena corrección, el pinchazo de la IA (semiconductores -43 % desde junio) o un bono a 30 años por encima del 5,5 % lo adelantarían, mientras que un empleo aún firme (paro 4,1 %) y el rebote de hoy lo retrasan. Con la deuda tan alta, la salida más probable en una crisis sería imprimir dinero antes que recortar gasto.",
+  "hacia": "Lo que viene según el patrón es la desaceleración o recesión en 6-18 meses; una Fed que suba en plena fragilidad, nuevos aranceles (IA el 4 dic, fin de la tregua con China el 10 ene) o un bono a 30 años por encima del 5,5 % lo adelantarían, mientras que un empleo aún firme (paro 4,1 %) y el rebote de la IA lo retrasan. Con la deuda tan alta, la salida más probable en una crisis sería imprimir dinero antes que recortar gasto.",
   "indicadores": [
     {
       "c": "2T 2026 · Fed (Z.1)",
@@ -149,7 +129,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 93,5 % subida el 9 dic (implícita 4,12 %) y 4,34 % para marzo (Kalshi, 23 nov); Waller pide hasta 50 pb",
+      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,13 %) y 95 % en enero (Kalshi, 23 nov)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -167,7 +147,7 @@
       "v": "+165.000 · paro 4,1 %"
     },
     {
-      "c": "3T 2026 · 1.ª estimación (BEA, 29 oct) · confianza de Michigan 51,5 (final nov., 20 nov); producción industrial oct. -0,4 %",
+      "c": "3T 2026 · 1.ª estimación (BEA, 29 oct) · PMI flash nov.: servicios 54,7 (esperado 55,6), manufacturas 54,5 (S&P Global, 23 nov)",
       "estado": "verde",
       "n": "Crecimiento (PIB real)",
       "v": "+3,4 % anual"
@@ -179,10 +159,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "20 nov (Trading Economics) · -15 pb en la semana; 10 años 4,94 % (-20 pb) por huida a los bonos",
+      "c": "23 nov (Trading Economics) · plano en 1 mes; 2 años 4,70 % (+9 pb), 10 años 4,95 %",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,33 %"
+      "v": "5,31 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -195,9 +175,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,33 % (20 nov) y la tenencia extranjera cae a 9,24 bill. $ (sept.): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,31 % (23 nov) y la tenencia extranjera cae a 9,24 bill. $ (sept.): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está pasado el techo del ciclo corto: la Fed sigue camino de subir el 9 dic (93,5 %) mientras la bolsa vive su peor semana desde 2025 (S&P 500 -8,6 %, VIX 35,9) y el 2 años cae al 4,65 %. En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,33 %.",
+  "lectura": "EE. UU. está pasado el techo del ciclo corto: la Fed va camino de subir el 9 dic (96,5 %) con el PMI de servicios ya frenándose (54,7), aunque la bolsa rebota con fuerza (S&P 500 +4,4 % el 23 nov). En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,31 %.",
   "palancas": [
     {
       "estado": "rojo",
@@ -220,7 +200,7 @@
     {
       "estado": "amarillo",
       "n": "Imprimir dinero",
-      "nota": "Hoy la Fed va en sentido contrario (93,5 % de subida en diciembre, dólar cerca de máximos de 19 meses), pero el Tesoro duplica las recompras de deuda larga (Bessent, 4 nov): si la corrección (S&P 500 -8,6 % en la semana) se convierte en crisis, sigue siendo la salida más probable.",
+      "nota": "Hoy la Fed va en sentido contrario (96,5 % de subida en diciembre, dólar en máximos desde la primavera de 2025), pero el Tesoro duplica las recompras de deuda larga (Bessent, 4 nov): si la fragilidad del mercado se convierte en crisis, sigue siendo la salida más probable.",
       "valor": "Riesgo"
     }
   ],
@@ -489,6 +469,11 @@
       "corto": 0.65,
       "largo": 0.76,
       "ts": "2026-11-23T07:46:06Z"
+    },
+    {
+      "corto": 0.65,
+      "largo": 0.76,
+      "ts": "2026-11-23T19:45:29Z"
     }
   ]
 }
