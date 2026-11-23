@@ -10,10 +10,10 @@
       "fecha": "2026-11-23",
       "horaUtc": "14:45",
       "impacto": "alto",
-      "nota": "Semana corta por Acción de Gracias (jueves 26 cerrado). Investing.com no muestra previsión numérica para el flash de noviembre.",
+      "nota": "Semana corta por Acción de Gracias (jueves 26 cerrado). Consenso 54,5 según FXEmpire/Investing.com.",
       "pais": "EE. UU.",
-      "previsto": "sin consenso confirmado",
-      "previstoNum": null
+      "previsto": "54,5 (consenso Investing.com)",
+      "previstoNum": 54.5
     },
     {
       "actual": null,
@@ -25,10 +25,10 @@
       "fecha": "2026-11-23",
       "horaUtc": "14:45",
       "impacto": "alto",
-      "nota": "El dato final de octubre fue 56,1, por debajo del flash de 57,9.",
+      "nota": "El dato final de octubre fue 56,1, por debajo del flash de 57,9. Consenso 55,6 según FXEmpire/Investing.com.",
       "pais": "EE. UU.",
-      "previsto": "sin consenso confirmado",
-      "previstoNum": null
+      "previsto": "55,6 (consenso Investing.com)",
+      "previstoNum": 55.6
     },
     {
       "actual": null,
@@ -329,9 +329,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-23T05:33:48Z",
+    "actualizado": "2026-11-23T06:35:15Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre sube al 93,5 % desde el 91,5 % de la actualización anterior, con la tasa implícita casi estable en el 4,12 % (antes 4,11 %). Para enero y marzo de 2027 se mantiene también en el 93,5 % (antes 94,0 % y 93,5 % respectivamente), con la tasa implícita de marzo subiendo a 4,34 %.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 93,5 %, con la tasa implícita en el 4,12 %. Para enero y marzo de 2027 se mantiene también en el 93,5 %, con la tasa implícita de marzo en el 4,34 %-4,35 %. Waller (hasta 50 pb) y Goolsbee mantienen el sesgo duro, mientras Bessent pide moderación por el shock energético del petróleo.",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -454,12 +454,48 @@
     {
       "nombre": "FXStreet · Bitcoin drops for third straight day as Asian tech shares slide",
       "url": "https://fxstreet.com/cryptocurrencies/news/bitcoin-drops-for-third-straight-day-as-asian-tech-shares-slide-202611201306"
+    },
+    {
+      "nombre": "CNBC · S&P 500 futures rebound sharply, kick-starting shortened week after tech rout",
+      "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+    },
+    {
+      "nombre": "CNN · Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+      "url": "https://www.cnn.com/2026/11/22/middleeast/hormuz-attacks-highest-levels-iran-war-intl"
+    },
+    {
+      "nombre": "LaPresse · Trump: 'I am inclined to resume attacks if no deal is reached by the end of the year'",
+      "url": "https://uk.lapresse.it/world-en/2026/11/22/iran-trump-i-am-inclined-to-resume-attacks-if-no-deal-is-reached-by-the-end-of-the-year/"
+    },
+    {
+      "nombre": "TradingKey · Fed Chair Warsh Reiterates Opposition to Forward Guidance As December Rate Hike Odds Remain as High as 83%",
+      "url": "https://www.tradingkey.com/analysis/economic/central-banks/262247759-fed-kevin-warsh-forward-guidance-december-hike-83-percent-tradingkey"
+    },
+    {
+      "nombre": "CNBC · Fed's Waller says central bank may need to 'shock people' with half-point rate hike",
+      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+    },
+    {
+      "nombre": "Yahoo Finance / Bloomberg · China extends pause on 24% US tariffs to January",
+      "url": "https://finance.yahoo.com/economy/policy/articles/china-extends-pause-24-us-043635075.html"
+    },
+    {
+      "nombre": "Mitrade · Euro holds steady above YTD low, below 1.1000 vs USD ahead of flash PMIs",
+      "url": "https://www.mitrade.com/au/insights/news/live-news/article-1-2270258-20261123"
+    },
+    {
+      "nombre": "KuCoin · Crypto Daily Market Report November 23 2026",
+      "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-23-2026"
+    },
+    {
+      "nombre": "OilPrice / Bloomberg · Saudi Crude Output Jumps 26% as Riyadh Reports Near Pre-War Production",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Output-Jumps-26-as-Riyadh-Reports-Near-Pre-War-Production.html"
     }
   ],
   "indices": [
     {
-      "changeNote": "en vivo (futuros), 06:16 Canarias",
-      "changePct": 2.15,
+      "changeNote": "en vivo (futuros ES), 06:52 UTC",
+      "changePct": 2.53,
       "claves": [
         "Call wall en 7.318 (ETF SPY 730,0 $); put wall en 7.017 (ETF SPY 700,0 $).",
         "Max pain en 7.298 (ETF SPY 728,0 $).",
@@ -673,7 +709,7 @@
         "vencimientoCercano": "2026-11-23"
       },
       "id": "SPX",
-      "lectura": "Los futuros suben con fuerza esta madrugada (en torno al +2,1 %) al arrancar la semana corta de Acción de Gracias, tras el cierre del viernes en corrección técnica (6.910 puntos, -3,70 % en la sesión, séptima jornada consecutiva en rojo). El precio sigue por debajo del put wall en 7.017 puntos, con la gamma aún negativa (-5,7 mil M$ por 1 %, open interest del 19 de noviembre) y el call wall en 7.318; el max pain queda en 7.298. La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre sube al 93,5 % desde el 91,5 % previo. Sesgo: bajista de fondo, con el rebote de hoy como alivio técnico.",
+      "lectura": "Los futuros rebotan con fuerza (+2,5 %) hasta 7.085 puntos tras la peor racha semanal desde 2020, con el precio ya por encima del put wall (7.017) y acercándose al max pain (7.298), en un régimen de gamma todavía negativo (-5,7 mil M$ por 1 %) que amplifica el movimiento en ambas direcciones. Waller pide una subida de hasta 50 pb en diciembre y la probabilidad de la Fed se mantiene en el 93,5 %, lo que limita el alcance del rebote; el PMI flash de EE. UU. de hoy a las 14:45 UTC es el dato que más puede mover la sesión. Sesgo: neutral, con el rebote técnico compensando por ahora el fondo bajista de la gamma negativa y una Fed muy probablemente al alza.",
       "levels": {
         "callWall": 7318,
         "gammaFlip": null,
@@ -682,16 +718,16 @@
       },
       "name": "S&P 500",
       "netGex": "negativa (-5.7 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-19)",
-      "precio": 7059,
+      "precio": 7085,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -37,
-      "sesgo": "bajista",
-      "spot": 7059
+      "score": -12,
+      "sesgo": "neutral",
+      "spot": 7085
     },
     {
-      "changeNote": "en vivo (futuros), 06:16 Canarias",
-      "changePct": 2.9,
+      "changeNote": "en vivo (futuros NQ), 06:52 UTC",
+      "changePct": 3.2,
       "claves": [
         "Call wall en 27.130 (ETF QQQ 660,0 $); put wall en 26.308 (ETF QQQ 640,0 $).",
         "Max pain en 27.006 (ETF QQQ 657,0 $).",
@@ -825,7 +861,7 @@
         "vencimientoCercano": "2026-11-23"
       },
       "id": "NDX",
-      "lectura": "Los futuros suben con fuerza esta madrugada (en torno al +2,9 %) al arrancar la semana corta de Acción de Gracias, tras el cierre del viernes en 25.029 puntos (-5,61 % en la sesión), un 15 % por debajo de su máximo de octubre. El precio sigue por debajo del put wall en 26.308, con la gamma negativa en -2,1 mil M$ por 1 % (open interest del 19 de noviembre) y el call wall en 27.130; el max pain queda en 27.006. La probabilidad de subida de la Fed en diciembre sube al 93,5 % desde el 91,5 % previo. Sesgo: bajista de fondo, con el rebote de hoy como alivio técnico tras siete sesiones consecutivas en rojo de los semiconductores.",
+      "lectura": "Los futuros rebotan con fuerza (+3,2 %) hasta 25.830 puntos tras el desplome de los semiconductores (AMD, Micron) que dejó al Nasdaq 100 cerca de mercado bajista, con el precio todavía por debajo del put wall (26.308) y una gamma muy negativa (-2,1 mil M$ por 1 %) que amplifica el rebote. Waller y Goolsbee mantienen abierta la puerta a una subida de hasta 50 pb en diciembre (probabilidad 93,5 %), lo que pesa sobre la tecnología; el PMI flash de EE. UU. de las 14:45 UTC es la referencia de la sesión. Sesgo: bajista, con el rebote como alivio técnico insuficiente para revertir el fondo negativo de la gamma y los tipos.",
       "levels": {
         "callWall": 27130,
         "gammaFlip": null,
@@ -834,16 +870,16 @@
       },
       "name": "Nasdaq 100",
       "netGex": "negativa (-2.1 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-19)",
-      "precio": 25754,
+      "precio": 25830,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -39,
+      "score": -15,
       "sesgo": "bajista",
-      "spot": 25754
+      "spot": 25830
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-20T21:28:17Z",
+    "actualizado": "2026-11-23T06:35:15Z",
     "balance": 6741.5,
     "d4": 23.2,
     "dBalance": -17.4,
@@ -978,6 +1014,28 @@
   "noticias": [
     {
       "activos": {
+        "WTI": "alcista"
+      },
+      "fuente": "LaPresse / Breitbart",
+      "impacto": "medio",
+      "resumen": "En una entrevista, Trump calificó a los negociadores iraníes de 'profesionales del tap dance' y dijo que retomaría la ofensiva si no se cierra un pacto antes de 2027.",
+      "titular": "Trump dice que se inclina por reanudar los ataques a Irán si no hay acuerdo antes de fin de año",
+      "ts": "2026-11-22T20:00:00Z",
+      "url": "https://uk.lapresse.it/world-en/2026/11/22/iran-trump-i-am-inclined-to-resume-attacks-if-no-deal-is-reached-by-the-end-of-the-year/"
+    },
+    {
+      "activos": {
+        "WTI": "alcista"
+      },
+      "fuente": "CNN",
+      "impacto": "medio",
+      "resumen": "CNN informa de ataques a tres petroleros el 20 y 21 de noviembre, con el tráfico marítimo bajo máxima presión iraní pese al desplome de los precios del crudo por el exceso de oferta saudí.",
+      "titular": "Los ataques a petroleros en el estrecho de Ormuz alcanzan su nivel más alto desde el inicio de la guerra",
+      "ts": "2026-11-22T12:00:00Z",
+      "url": "https://www.cnn.com/2026/11/22/middleeast/hormuz-attacks-highest-levels-iran-war-intl"
+    },
+    {
+      "activos": {
         "EURUSD": "bajista"
       },
       "fuente": "Mitrade",
@@ -1056,14 +1114,30 @@
         "valor": "27006"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 23 de noviembre (base open interest, motor actualizado a las 05:34 UTC): en el S&P 500, call wall en 7.218, put wall en 6.967 y max pain en 7.298, con un put/call OI de 1,54. En el Nasdaq 100, call wall en 27.130, put wall en 24.663 y max pain en 27.006, con un put/call OI de 4,47. El giro de gamma 0DTE no está disponible en ninguno de los dos índices."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 23 de noviembre (base open interest, motor actualizado a las 06:35 UTC): en el S&P 500, call wall en 7.218, put wall en 6.967 y max pain en 7.298, con un put/call OI de 1,54. En el Nasdaq 100, call wall en 27.130, put wall en 24.663 y max pain en 27.006, con un put/call OI de 4,47. El giro de gamma 0DTE no está disponible en ninguno de los dos índices. Con los futuros ya por encima de ambos put wall 0DTE, el mercado se mueve hacia la zona de max pain en el vencimiento de hoy."
   },
   "politica": {
-    "actualizado": "2026-11-20T21:50:00Z",
-    "ajuste": -8,
+    "actualizado": "2026-11-23T06:52:00Z",
+    "ajuste": -10,
     "declaraciones": [
       {
-        "dicho": "Pide a la Fed no excederse en diciembre, citando el shock energético y la caída del petróleo.",
+        "dicho": "Dice que retomará los ataques a Irán si no hay acuerdo antes de fin de año.",
+        "efecto": "neutral",
+        "fuente": "LaPresse / Breitbart",
+        "quien": "Trump",
+        "ts": "2026-11-22T20:00:00Z",
+        "url": "https://uk.lapresse.it/world-en/2026/11/22/iran-trump-i-am-inclined-to-resume-attacks-if-no-deal-is-reached-by-the-end-of-the-year/"
+      },
+      {
+        "dicho": "Pide a la Fed considerar una subida de hasta 50 puntos básicos en diciembre.",
+        "efecto": "bajista",
+        "fuente": "Bloomberg / CNBC",
+        "quien": "Christopher Waller",
+        "ts": "2026-11-18T00:00:00Z",
+        "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+      },
+      {
+        "dicho": "Pide a la Fed no subir tipos 'demasiado' en diciembre, citando el shock energético.",
         "efecto": "alcista",
         "fuente": "Investing.com / Reuters",
         "quien": "Scott Bessent",
@@ -1071,56 +1145,40 @@
         "url": "https://www.investing.com/news/economy-news/bessent-advocates-lower-fed-rate-hike-cites-energy-shock-5042202"
       },
       {
-        "dicho": "Trump y Xi acordaron que las decisiones de IA militar deben incluir control humano, dice Bessent.",
-        "efecto": "neutral",
-        "fuente": "CNBC",
-        "quien": "Scott Bessent",
-        "ts": "2026-11-20T14:00:00Z",
-        "url": "https://www.cnbc.com/amp/2026/11/20/treasury-secretary-scott-bessent.html"
-      },
-      {
-        "dicho": "Dice no tener prisa en decidir sobre Irán pese al nuevo ataque a un buque frente a Omán.",
-        "efecto": "neutral",
-        "fuente": "Benzinga / Axios",
-        "quien": "Trump",
-        "ts": "2026-11-20T10:09:00Z",
-        "url": "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus"
-      },
-      {
-        "dicho": "No descarta una subida sustancial de tipos en la reunión de diciembre.",
-        "efecto": "bajista",
-        "fuente": "KuCoin / Coinbird",
-        "quien": "Austan Goolsbee (Fed de Chicago)",
-        "ts": "2026-11-20T06:00:00Z",
-        "url": "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-20-2026"
-      },
-      {
-        "dicho": "Firman en Shenzhen una declaración conjunta contra la guerra nuclear y por flujos estables de energía.",
+        "dicho": "China amplía dos meses la tregua arancelaria y las restricciones de tierras raras con EE. UU.",
         "efecto": "alcista",
-        "fuente": "France24",
-        "quien": "Trump, Xi y Putin",
-        "ts": "2026-11-19T08:00:00Z",
-        "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+        "fuente": "Yahoo Finance / Bloomberg",
+        "quien": "He Lifeng",
+        "ts": "2026-11-09T00:00:00Z",
+        "url": "https://finance.yahoo.com/economy/policy/articles/china-extends-pause-24-us-043635075.html"
+      },
+      {
+        "dicho": "No descarta una subida mayor de tipos en diciembre si la inflación lo exige.",
+        "efecto": "bajista",
+        "fuente": "Reuters",
+        "quien": "Austan Goolsbee",
+        "ts": "2026-11-19T00:00:00Z",
+        "url": "https://qz.com/goolsbee-chicago-fed-larger-rate-hike-december-112026"
       }
     ],
     "efecto": "mixto",
-    "lectura": "Bessent sigue pidiendo moderación a la Fed citando el shock energético, y la propia probabilidad de Kalshi de una subida el 9 de diciembre afloja del 94,5 % al 91,5 %, un primer indicio de que ese mensaje empieza a calar; pero Waller y Goolsbee siguen abriendo la puerta a 50 pb y el desplome bursátil de hoy (semiconductores, Anthropic) es ajeno a la política monetaria, por lo que el ajuste se mantiene ligeramente negativo.",
+    "lectura": "Waller y Goolsbee refuerzan la probabilidad de una subida de la Fed en diciembre (93,5 %) pese a la petición de moderación de Bessent por el shock energético, mientras Trump aplaza su decisión sobre Irán a 2027 y China amplía la tregua arancelaria hasta enero.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
         "efecto": "neutral",
-        "postura": "Dice no tener prisa en decidir sobre Irán tras un nuevo ataque a un buque frente a Omán en el estrecho de Ormuz.",
+        "postura": "Se inclina por reanudar los ataques a Irán si no hay acuerdo antes de fin de año; llama 'tap dancers' a sus negociadores.",
         "quien": "Trump",
-        "ts": "2026-11-20T10:09:00Z",
-        "url": "https://www.benzinga.com/markets/equities/26/11/63465508/stock-market-today-dow-jones-sp-500-futures-fall-as-trump-weighs-iran-decision-intu-rost-keys-in-focus"
+        "ts": "2026-11-22T20:00:00Z",
+        "url": "https://uk.lapresse.it/world-en/2026/11/22/iran-trump-i-am-inclined-to-resume-attacks-if-no-deal-is-reached-by-the-end-of-the-year/"
       },
       {
         "cargo": "Presidente de la Fed",
         "efecto": "neutral",
-        "postura": "Evita dar orientación explícita sobre diciembre pese a la presión de Waller por una subida de 50 pb.",
+        "postura": "Mantiene abierta una subida en diciembre sin dar orientación explícita, dejando al mercado en vilo.",
         "quien": "Kevin Warsh",
-        "ts": "2026-10-29T00:00:00Z",
-        "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html"
+        "ts": "2026-11-18T00:00:00Z",
+        "url": "https://www.tradingkey.com/analysis/economic/central-banks/262247759-fed-kevin-warsh-forward-guidance-december-hike-83-percent-tradingkey"
       },
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
@@ -1131,20 +1189,20 @@
         "url": "https://www.investing.com/news/economy-news/bessent-advocates-lower-fed-rate-hike-cites-energy-shock-5042202"
       },
       {
-        "cargo": "Presidente de China",
+        "cargo": "Viceprimer ministro de China (negociador comercial jefe)",
         "efecto": "alcista",
-        "postura": "Firma la declaración conjunta de Shenzhen contra la guerra nuclear y pide eliminar barreras comerciales.",
-        "quien": "Xi Jinping",
-        "ts": "2026-11-18T06:10:00Z",
-        "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+        "postura": "Amplía dos meses la suspensión del arancel adicional del 24 % y las restricciones de tierras raras a EE. UU., hasta enero.",
+        "quien": "He Lifeng",
+        "ts": "2026-11-09T00:00:00Z",
+        "url": "https://finance.yahoo.com/economy/policy/articles/china-extends-pause-24-us-043635075.html"
       },
       {
         "cargo": "Presidenta del BCE",
         "efecto": "neutral",
-        "postura": "Dice que la inflación de la eurozona seguirá alta; el BCE decidirá con los datos si hay subida en diciembre.",
+        "postura": "Dice que la inflación de la eurozona seguirá alta y mantiene el sesgo hacia una política más restrictiva.",
         "quien": "Christine Lagarde",
-        "ts": "2026-11-12T00:00:00Z",
-        "url": "https://think.ing.com/articles/lagarde-comments-point-to-december-ecb-rate-hike/"
+        "ts": "2026-11-07T00:00:00Z",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-07/ecb-s-lagarde-says-inflation-likely-to-stay-high-in-near-future"
       },
       {
         "cargo": "Negociador jefe de Irán",
@@ -1156,76 +1214,76 @@
       }
     ]
   },
-  "resumen": "Son las 06:16 UTC (06:16 en Canarias, 01:16 de la madrugada en Nueva York) del lunes 23 de noviembre de 2026. Los futuros de Wall Street rebotan con fuerza al arrancar la semana corta por Acción de Gracias, tras la peor racha semanal desde 2020: los futuros del S&P 500 suben en torno al 2,1-2,2 % y los del Nasdaq 100 cerca del 2,9-3,0 %, recuperando parte de la corrección técnica confirmada el viernes. La gamma sigue muy negativa en ambos índices (SPX -5,7 mil M$ por 1 %, NDX -2,1 mil M$ por 1 %, open interest del 19 de noviembre), con el precio aún por debajo de los put wall. La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre sube al 93,5 % desde el 91,5 % previo (tasa implícita 4,12 %). Bitcoin, que llegó a caer a 55.130 $ (mínimo desde septiembre de 2024) durante el fin de semana, rebota por encima de 60.000-61.000 $, aunque el miedo extremo persiste (índice de miedo y codicia en 11) y las salidas de ETF suman 3.470 millones $ en noviembre. El dólar se acerca a máximos de 19 meses (Índice Dólar cerca de 104) ante la expectativa de una Fed más dura, con el euro por debajo de 1,10 antes de los PMI flash de hoy.",
+  "resumen": "Son las 06:52 UTC (06:52 en Canarias, 01:52 de la madrugada en Nueva York) del lunes 23 de noviembre de 2026, en la antesala de Londres, al arrancar la semana corta por Acción de Gracias (jueves 26 cerrado). Los futuros de Wall Street amplían el rebote de la madrugada tras la peor racha semanal desde 2020: el S&P 500 sube en torno al 2,5 % hasta 7.085 puntos y el Nasdaq 100 cerca del 3,2 % hasta 25.830, recuperando parte de la corrección técnica confirmada el viernes (cierre en 6.910 y 25.029 puntos, séptima sesión consecutiva en rojo liderada por el desplome de semiconductores). La gamma sigue muy negativa en ambos índices (SPX -5,7 mil M$ por 1 %, NDX -2,1 mil M$ por 1 %, open interest del 19 de noviembre), lo que amplifica el movimiento en ambas direcciones. La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 93,5 %, con Waller pidiendo hasta 50 puntos básicos y Goolsbee sin descartarlo, pese a que Bessent pide moderación citando el shock energético. El oro cotiza cerca de 3.610 $/onza (+2 %) y bitcoin ronda los 61.200 $ tras tocar un mínimo de dos años en el fin de semana (55.130 $), con el índice de miedo y codicia todavía en 11 (miedo extremo) y salidas de ETF de 3.470 millones $ en noviembre. El dólar se mantiene cerca de máximos de 19 meses (EUR/USD en 1,0975) y el WTI cotiza en torno a 83,5 $, con los ataques a petroleros en el estrecho de Ormuz en su nivel más alto desde el inicio de la guerra según CNN, compensados por el exceso de oferta liderado por Arabia Saudí. Trump dice que se inclina por reanudar los ataques contra Irán si no hay acuerdo antes de fin de año. El PMI flash de la eurozona (09:00 UTC) y de EE. UU. (14:45 UTC) son las citas clave de hoy, aunque sin consenso numérico confirmado en la mayoría de componentes.",
   "semana": {
     "activos": [
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "El calendario apenas pesa esta semana (0,3) porque los PMI flash de EE. UU. no traen consenso y el PIB y el PCE subyacente del miércoles son los únicos datos con número a batir. El sesgo de partida sigue siendo bajista, heredado de la corrección técnica confirmada y la gamma negativa, con la Fed todavía al 91,5 % de probabilidad de subir el 9 de diciembre.",
+        "cambio": "Mejora: de bajista a neutral tras el rebote técnico de los futuros (+2,5 %).",
+        "expectativa": "El calendario pesa poco (0,3) pero su sesgo es favorable al riesgo: los PMI flash de EE. UU. se esperan algo más débiles que en octubre, lo que alivia la presión sobre la Fed. El PIB y el PCE subyacente del miércoles son la referencia real.",
         "id": "SPX",
-        "score": -32,
+        "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. Para el S&P 500, el rebote devuelve el precio por encima del put wall (7.017) hacia el max pain (7.298), pero la gamma negativa y la Fed al 93,5 % limitan el alcance: sesgo neutral, no todavía un cambio de tendencia.",
+        "score": -12,
         "scoreInicial": -32,
-        "sesgo": "bajista"
+        "sesgo": "neutral"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "Como en el S&P 500, el calendario pesa poco esta semana; el PCE subyacente del miércoles es la referencia con más capacidad de mover el mercado. El Nasdaq 100 arranca con sesgo bajista, arrastrado por el desplome de los semiconductores y la gamma muy negativa, con riesgo de acercarse a mercado bajista si el PCE sorprende al alza.",
+        "cambio": "Mejora: de bajista marcado a bajista moderado tras el rebote de los futuros (+3,2 %).",
+        "expectativa": "El calendario pesa poco esta semana; el PCE subyacente del miércoles es la referencia con más capacidad de mover al Nasdaq. El rebote de hoy es un alivio técnico tras el desplome de los semiconductores, no una reversión confirmada.",
         "id": "NQ",
-        "score": -36,
+        "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. El Nasdaq 100 sigue por debajo de su put wall (26.308) pese al rebote, arrastrado por el desplome de los semiconductores (AMD, Micron) que lo dejó cerca de mercado bajista: sesgo todavía bajista.",
+        "score": -15,
         "scoreInicial": -36,
         "sesgo": "bajista"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "El saldo del calendario favorece en teoría al dólar, pero pesa solo un 30 % frente a los tipos; el PCE subyacente del miércoles es la cita clave para el oro esta semana. El sesgo de partida es neutral: el oro cotiza cerca de mínimos de 14 meses y una Fed todavía muy probablemente al alza en diciembre limita el rebote, aunque la tensión en el estrecho de Ormuz da algo de soporte.",
+        "cambio": "Mejora: de bajista leve a neutral, cerca del umbral alcista.",
+        "expectativa": "El saldo del calendario favorece al oro (dólar algo más débil esperado), con el PCE subyacente del miércoles como cita clave. La escalada de los ataques en el estrecho de Ormuz añade demanda de refugio.",
         "id": "XAU",
-        "score": -12,
+        "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. El oro rebota cerca de un 2 % hasta 3.610 $/onza tras tocar mínimos de 14 meses, sostenido por la escalada en Ormuz (ataques en su nivel más alto desde el inicio de la guerra) pese al viento en contra de una Fed muy probablemente al alza: sesgo neutral con sesgo de mejora.",
+        "score": 13,
         "scoreInicial": -12,
         "sesgo": "neutral"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "El calendario resulta prácticamente irrelevante para bitcoin esta semana, con solo el PCE subyacente como referencia cuantificable. El sesgo de partida sigue siendo bajista: las salidas de ETF, las liquidaciones apalancadas y el miedo extremo del fin de semana pasado pesan mucho más que cualquier dato publicado esta semana.",
+        "cambio": "Mejora: de bajista a neutral tras el rebote desde el mínimo de dos años (55.130 $).",
+        "expectativa": "El calendario es casi irrelevante para bitcoin esta semana. El rebote hasta 61.200 $ es un alivio técnico; el miedo extremo (índice en 11) y las salidas de ETF (3.470 M$ en noviembre) siguen pesando más que cualquier dato.",
         "id": "BTC",
-        "score": -30,
+        "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. Bitcoin rebota con fuerza desde los 55.130 $ del fin de semana hasta unos 61.200 $, pero el miedo extremo y las salidas de ETF mantienen el sesgo cauteloso: neutral, no todavía alcista.",
+        "score": -12,
         "scoreInicial": -30,
-        "sesgo": "bajista"
+        "sesgo": "neutral"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "El calendario resulta favorable al dólar en el papel, con el PIB y el PCE subyacente de EE. UU. como únicos datos cuantificables, mientras los PMI flash de la eurozona del lunes no traen consenso numérico. El sesgo de partida es bajista para el euro, con el dólar sostenido por la Fed de Kevin Warsh (91,5 % de probabilidad de subida en diciembre) pese a la petición de moderación de Bessent.",
+        "cambio": "Mejora: de bajista a neutral, con el calendario (PMI más débiles en EE. UU.) restando algo de soporte al dólar.",
+        "expectativa": "El calendario interno da un saldo algo bajista para el dólar (-25) por los PMI de EE. UU. más flojos de lo esperado, lo que resta parte del soporte que daba la Fed al 93,5 % de probabilidad de subida.",
         "id": "EURUSD",
-        "score": -26,
+        "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. El euro cotiza cerca de 1,0975, cerca de mínimos de 19 meses, con Lagarde manteniendo un sesgo cauteloso en el BCE: sesgo neutral, con el dólar todavía dominante pero algo menos sostenido por el calendario de hoy.",
+        "score": -7,
         "scoreInicial": -26,
-        "sesgo": "bajista"
+        "sesgo": "neutral"
       },
       {
-        "cambio": "Inicio de semana",
-        "expectativa": "El calendario no mueve mucho la aguja para el petróleo esta semana (peso 0,3); ni el PIB ni el PCE son datos específicos de crudo. El sesgo de partida es neutral: la tensión en el estrecho de Ormuz sigue dando soporte, pero la petición de Bessent a la Fed de no subir «demasiado» citando la caída del crudo introduce algo de incertidumbre.",
+        "cambio": "Mejora leve: la escalada en Ormuz compensa el exceso de oferta saudí.",
+        "expectativa": "El calendario apenas mueve la aguja para el petróleo (peso 0,3); ni el PIB ni el PCE son datos específicos de crudo. La escalada en el estrecho de Ormuz es el factor dominante.",
         "id": "WTI",
-        "score": 6,
+        "narrativa": "El calendario de esta semana corta por Acción de Gracias deja, en el papel, un saldo ligeramente bajista para el dólar (-25 en la métrica interna): los dos únicos datos de alto impacto con consenso numérico -los PMI flash manufacturero y de servicios de EE. UU. de hoy- se esperan algo más débiles que la lectura preliminar de octubre (54,5 frente a 56,0 y 55,6 frente a 57,9), mientras el PIB (miércoles, consenso 3,4 %) y el PCE subyacente (miércoles, la cita clave, consenso 0,3 %) no aportan de momento una sorpresa clara. Pesan mucho más los tipos -la Fed de Kevin Warsh se mantiene en el 93,5 % de probabilidad de subir el 9 de diciembre, con Waller pidiendo hasta 50 pb y Goolsbee sin descartarlo, pese a la petición de moderación de Bessent por el shock energético- y una gamma muy negativa en SPX y NDX que amplifica tanto la corrección técnica de la semana pasada como el rebote de hoy. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y Trump aplaza su decisión sobre Irán a 2027 mientras China amplía la tregua arancelaria hasta enero. El WTI cotiza en torno a 83,5 $, con los ataques a petroleros en Ormuz en su nivel más alto desde el inicio de la guerra dando soporte, pero el exceso de oferta saudí (+26 % de producción) y la petición de Bessent a la Fed por el 'shock energético' limitan el alza: sesgo neutral.",
+        "score": 11,
         "scoreInicial": 6,
         "sesgo": "neutral"
       }
     ],
     "calendarioSesgo": {
       "activos": {
-        "BTC": -40,
-        "EURUSD": -50,
-        "NQ": -50,
-        "SPX": -50,
-        "WTI": -25,
-        "XAU": -50
+        "BTC": 20,
+        "EURUSD": 25,
+        "NQ": 25,
+        "SPX": 25,
+        "WTI": 12,
+        "XAU": 25
       },
-      "actualizado": "2026-11-22T18:19:34.000Z",
-      "datos": {
-        "igual": 1,
-        "neg": 0,
-        "pos": 1,
-        "sin": 10
-      },
-      "dolar": 50,
-      "dolarEsperado": 50,
+      "actualizado": "2026-11-23T06:52:00Z",
+      "dolar": -25,
+      "dolarEsperado": -25,
       "euro": 0
     },
     "escenarios": [
@@ -1245,7 +1303,7 @@
             "nota": "Manufactura acelera: refuerza el argumento de una Fed más dura y un dólar fuerte."
           },
           {
-            "condicion": "Se mantiene próximo a 55-56",
+            "condicion": "Se mantiene próximo a 54-55",
             "impactos": {
               "BTC": "neutral",
               "EURUSD": "neutral",
@@ -1254,10 +1312,10 @@
               "WTI": "neutral",
               "XAU": "neutral"
             },
-            "nota": "Confirma la expansión manufacturera sin sorpresas relevantes."
+            "nota": "Confirma la moderación esperada sin sorpresas relevantes."
           },
           {
-            "condicion": "Cae con fuerza (por debajo de 53)",
+            "condicion": "Cae con fuerza (por debajo de 52)",
             "impactos": {
               "BTC": "alcista",
               "EURUSD": "alcista",
@@ -1271,12 +1329,12 @@
         ],
         "estado": "pendiente",
         "evento": "PMI manufacturero preliminar S&P Global (noviembre)",
-        "expectativa": "Sin consenso numérico publicado; el mercado comparará el dato contra el flash de octubre (56,0) y contra el umbral de 50 que separa expansión de contracción.",
+        "expectativa": "El consenso apunta a una moderación hasta 54,5 desde el flash de 56,0 de octubre.",
         "fecha": "2026-11-23",
         "horaUtc": "14:45",
         "impacto": "alto",
         "pais": "EE. UU.",
-        "previsto": "sin consenso confirmado"
+        "previsto": "54,5 (consenso Investing.com)"
       },
       {
         "anterior": "57,9 (dato flash de octubre)",
@@ -1294,7 +1352,7 @@
             "nota": "Servicios resistentes: refuerza el argumento de una Fed más dura."
           },
           {
-            "condicion": "Se mantiene próximo a 56-58",
+            "condicion": "Se mantiene próximo a 55-56",
             "impactos": {
               "BTC": "neutral",
               "EURUSD": "neutral",
@@ -1306,7 +1364,7 @@
             "nota": "En línea con la tendencia reciente, sin sorpresas relevantes."
           },
           {
-            "condicion": "Cae con fuerza (por debajo de 54)",
+            "condicion": "Cae con fuerza (por debajo de 53)",
             "impactos": {
               "BTC": "alcista",
               "EURUSD": "alcista",
@@ -1320,12 +1378,12 @@
         ],
         "estado": "pendiente",
         "evento": "PMI de servicios preliminar S&P Global (noviembre)",
-        "expectativa": "Sin consenso numérico publicado; referencia clave para el pulso del consumo de servicios antes del PCE del miércoles.",
+        "expectativa": "El consenso apunta a una moderación hasta 55,6 desde el flash de 57,9 de octubre, en línea con el dato final de octubre (56,1).",
         "fecha": "2026-11-23",
         "horaUtc": "14:45",
         "impacto": "alto",
         "pais": "EE. UU.",
-        "previsto": "sin consenso confirmado"
+        "previsto": "55,6 (consenso Investing.com)"
       },
       {
         "anterior": "52,4 (dato flash de octubre)",
@@ -1364,7 +1422,7 @@
               "WTI": "neutral",
               "XAU": "neutral"
             },
-            "nota": "Recaída manufacturera en la eurozona, con Francia como mayor lastre: pesa sobre el euro."
+            "nota": "Recaída manufacturera en la eurozona: pesa sobre el euro."
           }
         ],
         "estado": "pendiente",
@@ -1472,7 +1530,7 @@
         "horaUtc": "13:30",
         "impacto": "alto",
         "pais": "EE. UU.",
-        "previsto": "3,4 % t/t anualizado (consenso Investing.com, igual que la estimación avanzada)"
+        "previsto": "3,4 % t/t anualizado (consenso Investing.com)"
       },
       {
         "anterior": "0,3 % (septiembre)",
@@ -1524,7 +1582,6 @@
         "previsto": "0,3 % (rango de nowcasts, sin consenso oficial Investing.com)"
       }
     ],
-    "narrativa": "El calendario de la semana del 23 al 27 de noviembre deja, en el papel, un saldo favorable al dólar (+50 en la métrica interna), pero pesa poco (pesoCalendario 0,3): es una semana festiva y corta por Acción de Gracias, con la mayoría de los PMI flash de EE. UU. y la eurozona y la confianza del consumidor sin consenso numérico confirmado en Investing.com, y solo el PIB (segunda estimación) y el PCE subyacente aportando una señal cuantificable. Mandan mucho más los tipos -la Fed de Kevin Warsh sigue en el 93,5 % de probabilidad de subir el 9 de diciembre- y una gamma muy negativa en SPX y NDX que deja el precio por debajo de ambos put wall tras la corrección técnica confirmada la semana pasada. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), lo que da algo de colchón, pero no compensa el desplome de los semiconductores ni el miedo extremo en bitcoin. Con el volumen reducido por el festivo y Bessent pidiendo moderación a la Fed frente a Waller y Goolsbee más duros, el mercado arranca la semana con un sesgo de partida bajista para la renta variable, bitcoin y el euro, y neutral para el oro y el petróleo.",
     "pesoCalendario": 0.3,
     "pesoMotivo": "Semana festiva y corta por Acción de Gracias (jueves 26 cerrado): los PMI flash de EE. UU. y la eurozona y la confianza del consumidor no tienen consenso numérico confirmado en Investing.com, y solo el PIB (segunda estimación) y el PCE subyacente del miércoles aportan una señal cuantificable; con las bolsas en corrección técnica y la gamma muy negativa, mandan más los tipos, el posicionamiento y la liquidez de fin de mes que el calendario.",
     "rango": "23 a 27 de noviembre de 2026",
@@ -1532,5 +1589,5 @@
     "updatedAt": "2026-11-22T18:19:34.000Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-23T06:16:08Z"
+  "updatedAt": "2026-11-23T07:20:00.000000Z"
 }
