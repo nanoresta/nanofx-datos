@@ -70,6 +70,7 @@
       "fecha": "2026-11-24",
       "horaUtc": "13:30",
       "impacto": "bajo",
+      "nota": "Publicación de hoy; sin confirmación de dato real con dos fuentes en el momento de este análisis.",
       "pais": "EE. UU.",
       "previsto": "sin consenso confirmado",
       "previstoNum": null
@@ -84,21 +85,22 @@
       "fecha": "2026-11-24",
       "horaUtc": "14:00",
       "impacto": "bajo",
+      "nota": "Publicación de hoy; sin confirmación de dato real con dos fuentes en el momento de este análisis.",
       "pais": "EE. UU.",
       "previsto": "sin consenso confirmado",
       "previstoNum": null
     },
     {
-      "actual": null,
-      "actualNum": null,
-      "anterior": "91,7 (octubre)",
-      "anteriorNum": 91.7,
+      "actual": "103,3 (máximo desde enero de 2025)",
+      "actualNum": 103.3,
+      "anterior": "91,9 (octubre, revisado desde 91,7)",
+      "anteriorNum": 91.9,
       "divisaSiSube": "+",
       "evento": "Confianza del consumidor del Conference Board (noviembre)",
       "fecha": "2026-11-24",
       "horaUtc": "15:00",
       "impacto": "medio",
-      "nota": "Previsión de la vista semanal de Investing.com (92,1 frente a 91,7 de octubre).",
+      "nota": "Sorpresa muy alcista: +11,4 puntos frente al consenso de 92,1. Situación actual +13,7 hasta 132,8 y expectativas hasta 83,6; inflación esperada a 12 meses baja a 5,7 %. Fuentes: FXStreet, Finimize, mlq.ai.",
       "pais": "EE. UU.",
       "previsto": "92,1 (consenso Investing.com)",
       "previstoNum": 92.1
@@ -330,9 +332,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-24T14:59:52Z",
+    "actualizado": "2026-11-24T16:00:59Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 96,5 %, con la tasa implícita sin cambios en el 4,12 %. Para la reunión de enero de 2027 también se mantiene en el 95,0 % (tasa implícita 4,23 %), y la de marzo de 2027 apenas revisa la tasa implícita hasta el 4,34 % (desde 4,35 %): sin cambios relevantes en el mercado de predicción esta hora.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 96,5 %, con la tasa implícita sin cambios en el 4,12 %. Para enero de 2027 también se mantiene en el 95,0 % (tasa implícita sube ligeramente a 4,24 % desde 4,23 %), y la de marzo de 2027 se mantiene en el 93,5 % aunque la tasa implícita baja a 4,33 % desde 4,35 %: sin cambios relevantes en el mercado de predicción esta hora.",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -346,14 +348,14 @@
         "fecha": "2027-01-27",
         "mantener": 0,
         "subir": 95,
-        "tasaImplicita": 4.23
+        "tasaImplicita": 4.24
       },
       {
-        "bajar": 5.5,
+        "bajar": 6,
         "fecha": "2027-03-17",
-        "mantener": 1,
+        "mantener": 0.5,
         "subir": 93.5,
-        "tasaImplicita": 4.34
+        "tasaImplicita": 4.33
       },
       {
         "bajar": 3.5,
@@ -372,6 +374,50 @@
     ]
   },
   "fuentes": [
+    {
+      "nombre": "Yahoo Finance · White House prepares sweeping new tariffs on China, EU, and dozens of nations",
+      "url": "https://finance.yahoo.com/economy/policy/articles/white-house-prepares-sweeping-tariffs-135524943.html"
+    },
+    {
+      "nombre": "Advisor Perspectives · US Readies Tariff Hike on China, EU Goods as Soon as Tuesday",
+      "url": "https://www.advisorperspectives.com/articles/2026/11/24/us-readies-tariff-hike-china-eu-goods-soon-tuesday"
+    },
+    {
+      "nombre": "Benzinga · Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Fall After Scott Bessent Unveils Fresh Iran Sanctions, Hormuz Warnings",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63569914/stock-market-today-dow-sp-500-futures-fall-after-scott-bessent-unveils-fresh-iran-sanctions-hormuz-warnings-hpe-smtc-dell-in-focus"
+    },
+    {
+      "nombre": "FXStreet · US CB Consumer Confidence Index improves to 103.3 in November",
+      "url": "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-1033-in-november-202611241512"
+    },
+    {
+      "nombre": "mlq.ai · US consumer confidence jumps 11.4 points to 103.3 in November, the highest since January 2025",
+      "url": "https://mlq.ai/news/us-consumer-confidence-jumps-114-points-to-1033-in-november-the-highest-since-january-2025/"
+    },
+    {
+      "nombre": "mlq.ai · US stocks open lower as Nvidia falls more than 5% and Anthropic briefly slips below its IPO price",
+      "url": "https://mlq.ai/news/us-stocks-open-lower-as-nvidia-falls-more-than-5-and-anthropic-briefly-slips-below-its-ipo-price/"
+    },
+    {
+      "nombre": "Upstox · US markets reverse gains: NASDAQ 100 drops 2% as Trump's tariff threat hurt investor sentiments",
+      "url": "https://upstox.com/news/market-news/us-stocks/us-markets-reverse-gains-nasdaq-100-drops-2-as-trump-s-tariff-threat-hurt-investor-sentiments-nvidia-dips-6-anthropic-falls-below-issue-price/article-203907/"
+    },
+    {
+      "nombre": "Blockonomi · Stock Market Falls As Investors Weigh New Tariff Plan For China And EU (S&P 500 a 7.158,98, -1,09 %)",
+      "url": "https://blockonomi.com/stock-market-falls-as-investors-weigh-new-tariff-plan-for-china-and-eu/"
+    },
+    {
+      "nombre": "Trading Economics · Crude Oil (WTI 80,14 $/bbl)",
+      "url": "https://tradingeconomics.com/commodity/crude-oil"
+    },
+    {
+      "nombre": "Fortune · Current price of gold: November 24, 2026",
+      "url": "https://fortune.com/article/current-price-of-gold-11-24-202/"
+    },
+    {
+      "nombre": "Mitrade · Gold Price Today, Nov 24, 2026: XAU/USD Rebounds",
+      "url": "https://www.markets.com/news/gold-price-today-24-november-2026"
+    },
     {
       "nombre": "Stockanalysis.com · Consumer sentiment rises to a 3-month high of 51.0 in November",
       "url": "https://stockanalysis.com/news/consumer-sentiment-rises-november-2026/"
@@ -539,32 +585,56 @@
   ],
   "indices": [
     {
-      "changeNote": "futuros, 14:16 Canarias, antes de la apertura (CNBC)",
-      "changePct": -1.4,
+      "changeNote": "en sesión hacia las 15:50 UTC; cierre de ayer en 7.237 puntos (+4,73 %). Fuentes: Bloomberg, Blockonomi, mlq.ai.",
+      "changePct": -1.1,
       "claves": [
-        "Call wall en 7304 (ETF SPY 730,0 $); put wall en 7004 (ETF SPY 700,0 $).",
-        "Giro de gamma (gamma flip) en 7397 (ETF SPY 739,3 $); el precio del índice en el motor de opciones (7204) sigue por debajo, en zona de gamma negativa.",
+        "Call wall en 7204 (ETF SPY 720,0 $); put wall en 7004 (ETF SPY 700,0 $).",
+        "Giro de gamma (gamma flip) en 7419 (ETF SPY 741,6 $); el precio del índice (≈7145) sigue muy por debajo, en zona de gamma negativa.",
         "Max pain en 7124 (ETF SPY 712,0 $).",
-        "Régimen de gamma negativa, en -3,86 mil M$ por 1 %, put/call OI 1,41; open interest del 2026-11-20."
+        "Régimen de gamma negativa, en -4,83 mil M$ por 1 %, put/call OI 1,74; open interest del 2026-11-20."
       ],
       "gex": {
-        "callWall": 730,
-        "contratos": 1558,
+        "callWall": 720,
+        "contratos": 1491,
         "escalera": [
           {
-            "gex": 0,
+            "gex": -11.4,
+            "strike": 693
+          },
+          {
+            "gex": -5.3,
+            "strike": 694
+          },
+          {
+            "gex": -201.1,
+            "strike": 695
+          },
+          {
+            "gex": -25.6,
+            "strike": 696
+          },
+          {
+            "gex": -14.7,
+            "strike": 697
+          },
+          {
+            "gex": -22.1,
+            "strike": 698
+          },
+          {
+            "gex": 0.2,
             "strike": 699
           },
           {
-            "gex": -524.5,
+            "gex": -589.5,
             "strike": 700
           },
           {
-            "gex": -11.3,
+            "gex": -12.7,
             "strike": 701
           },
           {
-            "gex": -0.8,
+            "gex": 5.8,
             "strike": 702
           },
           {
@@ -572,170 +642,146 @@
             "strike": 703
           },
           {
-            "gex": -62.1,
+            "gex": -65.7,
             "strike": 704
           },
           {
-            "gex": -134.1,
+            "gex": -145.2,
             "strike": 705
           },
           {
-            "gex": -98.4,
+            "gex": -109.9,
             "strike": 706
           },
           {
-            "gex": -2.2,
+            "gex": -1.5,
             "strike": 707
           },
           {
-            "gex": -68.7,
+            "gex": -74.1,
             "strike": 708
           },
           {
-            "gex": -11.3,
+            "gex": -13.2,
             "strike": 709
           },
           {
-            "gex": -260.3,
+            "gex": -260.7,
             "strike": 710
           },
           {
-            "gex": -23.3,
+            "gex": -26.1,
             "strike": 711
           },
           {
-            "gex": -112.3,
+            "gex": -115,
             "strike": 712
           },
           {
-            "gex": -3.9,
+            "gex": -3.6,
             "strike": 713
           },
           {
-            "gex": -40,
+            "gex": -41.3,
             "strike": 714
           },
           {
-            "gex": -14.2,
+            "gex": -8,
             "strike": 715
           },
           {
-            "gex": -123,
+            "gex": -124.9,
             "strike": 716
           },
           {
-            "gex": -3.9,
+            "gex": -4,
             "strike": 717
           },
           {
-            "gex": -38,
+            "gex": -40.4,
             "strike": 718
           },
           {
-            "gex": -14.1,
+            "gex": -13.7,
             "strike": 719
           },
           {
-            "gex": -103.6,
+            "gex": -114.4,
             "strike": 720
           },
           {
-            "gex": 25.6,
+            "gex": 25,
             "strike": 721
           },
           {
-            "gex": 22.9,
+            "gex": 21.5,
             "strike": 722
           },
           {
-            "gex": -10.6,
+            "gex": -13.7,
             "strike": 723
           },
           {
-            "gex": -143.1,
+            "gex": -130.9,
             "strike": 724
           },
           {
-            "gex": -247,
+            "gex": -229,
             "strike": 725
           },
           {
-            "gex": -89.9,
+            "gex": -80.2,
             "strike": 726
           },
           {
-            "gex": -288.8,
+            "gex": -252.6,
             "strike": 727
           },
           {
-            "gex": -93.8,
+            "gex": -80,
             "strike": 728
           },
           {
-            "gex": -21.9,
+            "gex": -22.5,
             "strike": 729
           },
           {
-            "gex": -54.7,
+            "gex": -94.8,
             "strike": 730
           },
           {
-            "gex": 40,
+            "gex": 33.7,
             "strike": 731
           },
           {
-            "gex": -4.6,
+            "gex": -6.1,
             "strike": 732
           },
           {
-            "gex": 27.9,
+            "gex": 16.6,
             "strike": 733
           },
           {
-            "gex": -99.6,
+            "gex": -33.5,
             "strike": 734
           },
           {
-            "gex": -146.4,
+            "gex": -145.2,
             "strike": 735
-          },
-          {
-            "gex": -10.8,
-            "strike": 736
-          },
-          {
-            "gex": -9,
-            "strike": 737
-          },
-          {
-            "gex": -15.5,
-            "strike": 738
-          },
-          {
-            "gex": 7.4,
-            "strike": 739
-          },
-          {
-            "gex": 7.2,
-            "strike": 740
-          },
-          {
-            "gex": -1.6,
-            "strike": 741
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 739.3,
-        "gexTotal": -3.86,
+        "gammaFlip": 741.56,
+        "gexTotal": -4.83,
         "indice": {
-          "callWall": 7303.8,
-          "gammaFlip": 7396.8,
+          "callWall": 7203.74,
+          "gammaFlip": 7419.46,
           "maxPain": 7123.7,
-          "precio": 7203.8,
-          "putWall": 7003.6
+          "precio": 7144.91,
+          "putWall": 7003.64
         },
         "maxPain": 712,
-        "notaConversion": "Ratio ETF/índice no recalculado por el motor esta hora; estimado con el último ratio disponible (10,0052, del 20 de noviembre).",
+        "notaConversion": "Ratio ETF/índice no recalculado por el motor esta hora (indice.precio=null); estimado con el último ratio disponible (10,0052, del 20 de noviembre).",
         "odte": {
           "base": "open interest",
           "callWall": 729,
@@ -743,19 +789,19 @@
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 7293.8,
+            "callWall": 7293.79,
             "gammaFlip": null,
             "maxPain": 7123.7,
-            "putWall": 6773.5
+            "putWall": 6773.52
           },
           "maxPain": 712,
-          "pcrOI": 0.67,
+          "pcrOI": 0.7,
           "putWall": 677,
           "vencimiento": "2026-11-24"
         },
         "oiFecha": "2026-11-20",
-        "pcrOI": 1.41,
-        "precio": 720.01,
+        "pcrOI": 1.74,
+        "precio": 714.12,
         "putWall": 700,
         "ratioFecha": null,
         "ratioIndice": null,
@@ -763,100 +809,137 @@
         "vencimientoCercano": "2026-11-24"
       },
       "id": "SPX",
+      "lectura": "El S&P 500 cotiza en zona de gamma negativa, con el call wall bajando a 7204 (desde 7304) a medida que el mercado retrocede, mientras el giro de gamma se mantiene lejos en 7419. Pesa más que nada la noticia de que la Administración Trump prepara una nueva ola arancelaria (Sección 301) contra China, la UE y otras 14 economías, justo cuando la Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subir tipos el 9 de diciembre. El PCE subyacente de este miércoles es el dato de calendario que más puede mover el índice esta semana.",
       "levels": {
-        "callWall": 7304,
-        "gammaFlip": 7397,
+        "callWall": 7204,
+        "gammaFlip": 7419,
         "maxPain": 7124,
         "putWall": 7004
       },
       "name": "S&P 500",
-      "netGex": "negativa (-3,86 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-20)",
-      "precio": 7136.9,
+      "netGex": "negativa (-4.83 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-20)",
+      "precio": 7159,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": 28,
-      "sesgo": "alcista",
-      "spot": 7136.9
+      "score": -45,
+      "sesgo": "bajista",
+      "spot": 7159
     },
     {
-      "changeNote": "futuros, 14:16 Canarias, antes de la apertura (CNBC)",
-      "changePct": -2.3,
+      "changeNote": "en sesión hacia las 15:50 UTC (Upstox); cierre de ayer en torno a 27.100 puntos (+6,9 %). Nvidia cede otro 5-6 % tras su +31 % del lunes.",
+      "changePct": -2,
       "claves": [
-        "Call wall en 27.956 (ETF QQQ 680,0 $); put wall en 26.722 (ETF QQQ 650,0 $).",
-        "El motor no reporta giro de gamma (gamma flip) esta hora; el precio del índice sigue en zona de gamma negativa, por debajo de los niveles de resistencia.",
-        "Max pain en 26.517 (ETF QQQ 645,0 $).",
-        "Régimen de gamma negativa, en -1,45 mil M$ por 1 %, put/call OI 1,61; open interest del 2026-11-20. Niveles de índice estimados con el último ratio ETF/índice disponible (el motor no los recalculó esta hora)."
+        "Call wall en 27955 (ETF QQQ 680,0 $); put wall en 26310 (ETF QQQ 640,0 $).",
+        "El motor no reporta giro de gamma esta hora; el precio del índice (≈26036) sigue en zona de gamma negativa, por debajo de los niveles de resistencia.",
+        "Max pain en 26516 (ETF QQQ 645,0 $).",
+        "Régimen de gamma negativa, en -1,79 mil M$ por 1 %, put/call OI 1,90; open interest del 2026-11-20. Niveles de índice estimados con el último ratio ETF/índice disponible."
       ],
       "gex": {
         "callWall": 680,
-        "contratos": 1407,
+        "contratos": 1259,
         "escalera": [
           {
-            "gex": 3.4,
+            "gex": -116.4,
+            "strike": 615
+          },
+          {
+            "gex": -1.7,
+            "strike": 616
+          },
+          {
+            "gex": -0.6,
+            "strike": 617
+          },
+          {
+            "gex": -0.4,
+            "strike": 618
+          },
+          {
+            "gex": 1.2,
+            "strike": 619
+          },
+          {
+            "gex": -190.4,
+            "strike": 620
+          },
+          {
+            "gex": 1.6,
+            "strike": 621
+          },
+          {
+            "gex": -4.1,
+            "strike": 622
+          },
+          {
+            "gex": -0.8,
+            "strike": 623
+          },
+          {
+            "gex": 4.1,
             "strike": 624
           },
           {
-            "gex": -136.2,
+            "gex": -142.4,
             "strike": 625
           },
           {
-            "gex": -3.8,
+            "gex": -4.2,
             "strike": 626
           },
           {
-            "gex": -5.1,
+            "gex": -5.9,
             "strike": 627
           },
           {
-            "gex": -3.2,
+            "gex": -3,
             "strike": 628
           },
           {
-            "gex": -0.5,
+            "gex": -0.6,
             "strike": 629
           },
           {
-            "gex": -121.4,
+            "gex": -123.6,
             "strike": 630
           },
           {
-            "gex": 3.8,
+            "gex": 4.2,
             "strike": 631
           },
           {
-            "gex": 3.5,
+            "gex": 3.9,
             "strike": 632
           },
           {
-            "gex": -8.6,
+            "gex": -8.9,
             "strike": 633
           },
           {
-            "gex": -0.1,
+            "gex": -0.2,
             "strike": 634
           },
           {
-            "gex": -105.4,
+            "gex": -106.7,
             "strike": 635
           },
           {
-            "gex": -1.4,
+            "gex": -1.6,
             "strike": 636
           },
           {
-            "gex": 0.1,
+            "gex": 0,
             "strike": 637
           },
           {
-            "gex": 19.6,
+            "gex": 19.3,
             "strike": 638
           },
           {
-            "gex": -0.1,
+            "gex": -0.2,
             "strike": 639
           },
           {
-            "gex": -259.4,
+            "gex": -254.3,
             "strike": 640
           },
           {
@@ -864,19 +947,19 @@
             "strike": 641
           },
           {
-            "gex": 40.6,
+            "gex": 36.8,
             "strike": 642
           },
           {
-            "gex": -1.5,
+            "gex": -1.7,
             "strike": 643
           },
           {
-            "gex": 12,
+            "gex": 11.1,
             "strike": 644
           },
           {
-            "gex": -103.6,
+            "gex": -99.6,
             "strike": 645
           },
           {
@@ -884,123 +967,88 @@
             "strike": 646
           },
           {
-            "gex": -10.8,
+            "gex": -9.5,
             "strike": 647
           },
           {
-            "gex": -1.4,
+            "gex": -1.3,
             "strike": 648
           },
           {
-            "gex": -2,
+            "gex": -2.2,
             "strike": 649
           },
           {
-            "gex": -89.7,
+            "gex": -101.6,
             "strike": 650
           },
           {
-            "gex": -18.9,
+            "gex": -15.3,
             "strike": 651
           },
           {
-            "gex": 14.2,
+            "gex": 8.8,
             "strike": 652
-          },
-          {
-            "gex": 30.2,
-            "strike": 653
-          },
-          {
-            "gex": -7.5,
-            "strike": 654
-          },
-          {
-            "gex": -48.7,
-            "strike": 655
-          },
-          {
-            "gex": -0.9,
-            "strike": 656
-          },
-          {
-            "gex": -1.5,
-            "strike": 657
-          },
-          {
-            "gex": -12.2,
-            "strike": 658
-          },
-          {
-            "gex": -3.9,
-            "strike": 659
-          },
-          {
-            "gex": 1.2,
-            "strike": 660
-          },
-          {
-            "gex": 4.3,
-            "strike": 661
           }
         ],
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -1.45,
+        "gexTotal": -1.79,
         "indice": {
-          "callWall": 27955.8,
+          "callWall": 27954.8,
           "gammaFlip": null,
-          "maxPain": 26516.9,
-          "precio": 26405,
-          "putWall": 26722.4
+          "maxPain": 26515.95,
+          "precio": 26035.79,
+          "putWall": 26310.4
         },
         "maxPain": 645,
         "notaConversion": "Ratio ETF/índice no recalculado por el motor esta hora; estimado con el último ratio disponible (~41,11, del 19-20 de noviembre).",
         "odte": {
           "base": "open interest",
-          "callWall": 685,
+          "callWall": 645,
           "esHoy": true,
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 28161.3,
+            "callWall": 26515.95,
             "gammaFlip": null,
-            "maxPain": 26516.9,
-            "putWall": 25078
+            "maxPain": 26515.95,
+            "putWall": 25077.1
           },
           "maxPain": 645,
-          "pcrOI": 1.25,
+          "pcrOI": 1.6,
           "putWall": 610,
           "vencimiento": "2026-11-24"
         },
         "oiFecha": "2026-11-20",
-        "pcrOI": 1.61,
-        "precio": 642.28,
-        "putWall": 650,
+        "pcrOI": 1.9,
+        "precio": 633.32,
+        "putWall": 640,
         "ratioFecha": null,
         "ratioIndice": null,
         "regimen": "negativa",
         "vencimientoCercano": "2026-11-24"
       },
       "id": "NDX",
+      "lectura": "El Nasdaq 100 sigue en zona de gamma negativa (-1,79 mil M$ por 1 %), con el put/call OI 0DTE subiendo con fuerza a 1,60 (desde 1,47), señal de que la demanda de puts crece a medida que avanza la sesión bajista, lastrado por Nvidia y el temor a que la nueva ola arancelaria golpee a los semiconductores. El PCE subyacente del miércoles y cualquier concreción del plan arancelario son las referencias que más pueden mover al índice esta semana.",
       "levels": {
-        "callWall": 27956,
+        "callWall": 27955,
         "gammaFlip": null,
-        "maxPain": 26517,
-        "putWall": 26722
+        "maxPain": 26516,
+        "putWall": 26310
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-1,45 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-20)",
-      "precio": 26476.3,
+      "netGex": "negativa (-1.79 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-20)",
+      "precio": 26550,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": 30,
-      "sesgo": "alcista",
-      "spot": 26476.3
+      "score": -47,
+      "sesgo": "bajista",
+      "spot": 26550
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-24T06:12:00Z",
+    "actualizado": "2026-11-24T16:00:59Z",
     "balance": 6741.5,
     "d4": 23.2,
     "dBalance": -17.4,
@@ -1012,7 +1060,7 @@
     "fecha4": "2026-10-21",
     "fechaPrev": "2026-11-11",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "En la semana del 11 al 18 de noviembre la liquidez neta cayó 19.700 millones $ hasta 5.824.600 millones $. El balance de la Fed retiró 17.400 millones $ (hasta 6.741.500 millones $) y la cuenta del Tesoro (TGA) también retiró, subiendo 2.200 millones $ hasta 916.600 millones $; el repo inverso (RRP) retiró solo 100 millones $, hasta 300.000 millones $. La tendencia de las últimas cuatro semanas (del 21 de octubre al 18 de noviembre) es positiva, +23.200 millones $, dando colchón al rebote bursátil de hoy. El repo permanente sigue sin uso (0 millones $ el 23 de noviembre) y el RRP diario está en 350 millones $, sin señales de tensión de liquidez. Próxima publicación del balance el jueves 26, festivo de Acción de Gracias, por lo que podría retrasarse.",
+    "lectura": "En la semana del 11 al 18 de noviembre la liquidez neta cayó 19.700 millones $ hasta 5.824.600 millones $. El balance de la Fed retiró 17.400 millones $ (hasta 6.741.500 millones $) y la cuenta del Tesoro (TGA) también retiró, subiendo 2.200 millones $ hasta 916.600 millones $; el repo inverso (RRP) retiró solo 100 millones $, hasta 300.000 millones $. La tendencia de las últimas cuatro semanas (del 21 de octubre al 18 de noviembre) es positiva, +23.200 millones $, dando colchón al mercado pese al giro bajista de hoy. El repo permanente sigue sin uso (0 millones $ el 23 de noviembre) y el RRP diario está en 350 millones $, sin señales de tensión de liquidez. Próxima publicación del balance el jueves 26, festivo de Acción de Gracias, por lo que podría retrasarse.",
     "neta": 5824.6,
     "repo": 0,
     "repoFecha": "2026-11-23",
@@ -1135,6 +1183,30 @@
   "noticias": [
     {
       "activos": {
+        "EURUSD": "bajista"
+      },
+      "fuente": "FXStreet / mlq.ai",
+      "impacto": "medio",
+      "resumen": "El índice del Conference Board sube 11,4 puntos, muy por encima del 92,1 esperado, con la situación actual subiendo a 132,8 y las expectativas a 83,6; la inflación esperada a 12 meses baja al 5,7 %.",
+      "titular": "La confianza del consumidor de EE. UU. se dispara a 103,3 en noviembre, máximo desde enero de 2025",
+      "ts": "2026-11-24T15:05:00Z",
+      "url": "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-1033-in-november-202611241512"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "WTI": "alcista"
+      },
+      "fuente": "Benzinga",
+      "impacto": "alto",
+      "resumen": "Los futuros de Wall Street profundizan sus pérdidas tras el anuncio del secretario del Tesoro, que eleva el riesgo geopolítico sobre el petróleo en plena escalada de ataques a petroleros en Ormuz.",
+      "titular": "Bessent anuncia nuevas sanciones a Irán y advertencias sobre el estrecho de Ormuz",
+      "ts": "2026-11-24T14:10:00Z",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63569914/stock-market-today-dow-sp-500-futures-fall-after-scott-bessent-unveils-fresh-iran-sanctions-hormuz-warnings-hpe-smtc-dell-in-focus"
+    },
+    {
+      "activos": {
         "NQ": "bajista",
         "SPX": "bajista"
       },
@@ -1155,6 +1227,19 @@
       "titular": "Bitcoin pierde el impulso de Nvidia y cae cerca de un 3 % hasta los 59.700 $",
       "ts": "2026-11-24T12:30:00Z",
       "url": "https://bloomberg.com/news/articles/2026-11-24/bitcoin-fails-to-hold-nvidia-bump-with-crypto-headwinds-in-focus"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista",
+        "XAU": "alcista"
+      },
+      "fuente": "WSJ / Yahoo Finance / Advisor Perspectives",
+      "impacto": "alto",
+      "resumen": "El USTR investiga a 16 socios comerciales (China, UE, Japón, Corea del Sur, India, México, Taiwán...) bajo la Sección 301; China podría enfrentar los aranceles más altos, aunque hay señales contradictorias sobre si se la perdonará antes de la visita de Trump.",
+      "titular": "La Administración Trump prepara una nueva ola arancelaria contra China, la UE y otras 14 economías",
+      "ts": "2026-11-24T10:30:00Z",
+      "url": "https://finance.yahoo.com/economy/policy/articles/white-house-prepares-sweeping-tariffs-135524943.html"
     },
     {
       "activos": {
@@ -1188,6 +1273,17 @@
       "titular": "El bono del Tesoro a 10 años repunta al 4,95 % en el día del rally histórico de Wall Street",
       "ts": "2026-11-24T02:00:00Z",
       "url": "https://www.riotimesonline.com/global-economy-briefing-november-24-2026/"
+    },
+    {
+      "activos": {
+        "NQ": "alcista"
+      },
+      "fuente": "SEC (8-K de CrowdStrike) / Yahoo Finance",
+      "impacto": "medio",
+      "resumen": "Cada acción de Zscaler se canjea por 1,135 acciones de CrowdStrike; la combinada superará los 10.000 millones $ de ingresos recurrentes anuales.",
+      "titular": "CrowdStrike compra Zscaler por 43.900 millones $ en una operación totalmente en acciones",
+      "ts": "2026-11-23T21:45:00Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm"
     },
     {
       "activos": {
@@ -1257,71 +1353,62 @@
       "titular": "El rally se amplía por la tarde: el S&P 500 sube hasta un 4,7 % y el Nasdaq 100 roza el 6,8 %",
       "ts": "2026-11-23T19:49:29Z",
       "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
-    },
-    {
-      "activos": {},
-      "fuente": "Investing.com",
-      "impacto": "bajo",
-      "resumen": "El consenso espera una mejora desde 91,7 en octubre; el dato se publica el martes a las 15:00 UTC.",
-      "titular": "Investing.com prevé que la confianza del consumidor del Conference Board suba a 92,1 en noviembre",
-      "ts": "2026-11-23T19:00:00Z",
-      "url": "https://investing.com/news/stock-market-news/key-fed-events-and-economic-data-to-watch-this-week-93CH-5046211"
     }
   ],
   "odte": {
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,67.",
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,70.",
         "valor": "7294"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,67.",
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,70.",
         "valor": "6774"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,67.",
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,70.",
         "valor": "7124"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,25. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
-        "valor": "28161.3"
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,60. Estimado con el último ratio ETF/índice disponible.",
+        "valor": "26516"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,25. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
-        "valor": "25078.0"
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,60. Estimado con el último ratio ETF/índice disponible.",
+        "valor": "25077"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,25. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
-        "valor": "26516.9"
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,60. Estimado con el último ratio ETF/índice disponible.",
+        "valor": "26516"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 24 de noviembre (base open interest, motor actualizado a las 15:00 UTC): en el S&P 500, call wall en 7294, put wall en 6774 y max pain en 7124, con un put/call OI de 0,67 (antes 0,70), reflejo de una demanda de puts algo menor pero aún predominante tras el giro bajista del premercado. En el Nasdaq 100 el motor sigue sin recalcular la conversión al índice (se usa el último ratio ETF/índice disponible): call wall estimado en ≈28.161, put wall en ≈25.078 y max pain en ≈26.517, con el put/call OI bajando a 1,25 desde 1,46."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 24 de noviembre (base open interest, motor actualizado a las 16:01 UTC): en el S&P 500, call wall en 7294, put wall en 6774 y max pain en 7124, con un put/call OI de 0,70, prácticamente igual que antes de la apertura. En el Nasdaq 100 el call wall 0DTE cae con fuerza hasta igualar el max pain en ≈26.516 (desde ≈28.159), put wall en ≈25.077, con el put/call OI subiendo a 1,60 desde 1,47: señal de que la demanda de puts sigue creciendo a medida que avanza la sesión bajista."
   },
   "politica": {
-    "actualizado": "2026-11-24T06:50:34Z",
-    "ajuste": -8,
+    "actualizado": "2026-11-24T15:53:39Z",
+    "ajuste": -14,
     "declaraciones": [
       {
-        "dicho": "Advierte de una nueva ola arancelaria (Section 301 contra 16 economías) y aranceles a IA desde el 4 de diciembre.",
+        "dicho": "Anuncia nuevas sanciones a Irán y lanza nuevas advertencias sobre el estrecho de Ormuz.",
         "efecto": "bajista",
-        "fuente": "KPMG / KuCoin",
-        "quien": "Diane Swonk",
-        "ts": "2026-11-23T15:00:00Z",
-        "url": "https://www.kucoin.com/news/flash/kpmg-chief-economist-warns-of-new-u-s-tariff-wave-and-rising-inflation-risks"
+        "fuente": "Benzinga",
+        "quien": "Scott Bessent",
+        "ts": "2026-11-24T14:10:00Z",
+        "url": "https://www.benzinga.com/markets/equities/26/11/63569914/stock-market-today-dow-sp-500-futures-fall-after-scott-bessent-unveils-fresh-iran-sanctions-hormuz-warnings-hpe-smtc-dell-in-focus"
       },
       {
-        "dicho": "Dice estar inclinado a reanudar los ataques contra Irán si no hay acuerdo antes de fin de año.",
+        "dicho": "Su Administración prepara nuevos aranceles (Sección 301) contra China, la UE y otras 14 economías, posible anuncio esta semana.",
         "efecto": "bajista",
-        "fuente": "La Presse",
+        "fuente": "WSJ / Yahoo Finance",
         "quien": "Trump",
-        "ts": "2026-11-22T10:00:00Z",
-        "url": "https://uk.lapresse.it/world-en/2026/11/22/iran-trump-i-am-inclined-to-resume-attacks-if-no-deal-is-reached-by-the-end-of-the-year/"
+        "ts": "2026-11-24T10:30:00Z",
+        "url": "https://finance.yahoo.com/economy/policy/articles/white-house-prepares-sweeping-tariffs-135524943.html"
       },
       {
         "dicho": "Pide a la Fed considerar una subida de hasta 50 puntos básicos en diciembre.",
@@ -1340,24 +1427,24 @@
         "url": "https://www.cbsnews.com/news/transcript-treasury-secretary-scott-bessent-face-the-nation-with-margaret-brennan-nov-22-2026/"
       },
       {
-        "dicho": "Llama 'muy política' a la Fed y pide bajar tipos, sin culpar directamente a Warsh.",
-        "efecto": "neutral",
-        "fuente": "The Epoch Times / NTD",
+        "dicho": "Dice estar inclinado a reanudar los ataques contra Irán si no hay acuerdo antes de fin de año.",
+        "efecto": "bajista",
+        "fuente": "La Presse",
         "quien": "Trump",
-        "ts": "2026-11-20T00:00:00Z",
-        "url": "https://www.theepochtimes.com/business/trump-urges-very-political-fed-to-lower-interest-rates-6127522"
+        "ts": "2026-11-22T10:00:00Z",
+        "url": "https://uk.lapresse.it/world-en/2026/11/22/iran-trump-i-am-inclined-to-resume-attacks-if-no-deal-is-reached-by-the-end-of-the-year/"
       }
     ],
     "efecto": "mixto",
-    "lectura": "Bessent advirtió el domingo en CBS de que la Fed podría cometer un 'error de política' si endurece demasiado, aunque respalda a Warsh; Waller mantiene presión por una subida de hasta 50 pb el 9 de diciembre (96,5 % de probabilidad) y KPMG avisa de una nueva ola arancelaria (Section 301, aranceles a IA desde el 4 de diciembre). Trump dice estar inclinado a reanudar los ataques contra Irán si no hay acuerdo antes de fin de año, mientras China amplía la tregua arancelaria hasta el 10 de enero y Lagarde mantiene un sesgo cauteloso en el BCE.",
+    "lectura": "La sesión la dominan dos frentes: la Administración Trump prepara una nueva ola arancelaria (Sección 301) contra China, la UE y otras 14 economías que podría anunciarse esta misma semana, y Bessent ha anunciado nuevas sanciones a Irán y advertencias sobre el estrecho de Ormuz, lo que añade riesgo geopolítico sobre el petróleo. La Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subir tipos el 9 de diciembre, reforzada hoy por una confianza del consumidor que se disparó a 103,3 (muy por encima del 92,1 esperado). Bessent había advertido el domingo en CBS de que la Fed podría cometer un 'error de política' si endurece demasiado, mientras China amplía la tregua arancelaria hasta el 10 de enero y Lagarde mantiene un sesgo cauteloso en el BCE.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
         "efecto": "bajista",
-        "postura": "Dice estar inclinado a reanudar los ataques contra Irán si no hay acuerdo antes de fin de año.",
+        "postura": "Su Administración prepara una nueva ola arancelaria (Sección 301) contra China, la UE y 14 economías más, posible esta semana.",
         "quien": "Trump",
-        "ts": "2026-11-22T10:00:00Z",
-        "url": "https://uk.lapresse.it/world-en/2026/11/22/iran-trump-i-am-inclined-to-resume-attacks-if-no-deal-is-reached-by-the-end-of-the-year/"
+        "ts": "2026-11-24T10:30:00Z",
+        "url": "https://finance.yahoo.com/economy/policy/articles/white-house-prepares-sweeping-tariffs-135524943.html"
       },
       {
         "cargo": "Presidente de la Fed",
@@ -1369,11 +1456,11 @@
       },
       {
         "cargo": "Secretario del Tesoro de EE. UU.",
-        "efecto": "alcista",
-        "postura": "Advierte en CBS de que la Fed podría cometer un error de política si endurece demasiado, pese a respaldar a Warsh.",
+        "efecto": "bajista",
+        "postura": "Anuncia nuevas sanciones a Irán y advertencias sobre el estrecho de Ormuz, elevando el riesgo geopolítico del petróleo.",
         "quien": "Scott Bessent",
-        "ts": "2026-11-22T15:00:00Z",
-        "url": "https://www.cbsnews.com/news/transcript-treasury-secretary-scott-bessent-face-the-nation-with-margaret-brennan-nov-22-2026/"
+        "ts": "2026-11-24T14:10:00Z",
+        "url": "https://www.benzinga.com/markets/equities/26/11/63569914/stock-market-today-dow-sp-500-futures-fall-after-scott-bessent-unveils-fresh-iran-sanctions-hormuz-warnings-hpe-smtc-dell-in-focus"
       },
       {
         "cargo": "Viceprimer ministro de China (negociador comercial jefe)",
@@ -1401,76 +1488,76 @@
       }
     ]
   },
-  "resumen": "Son las 14:16 UTC (14:16 en Canarias) del martes 24 de noviembre de 2026, a pocos minutos de la apertura de Wall Street (14:30 UTC). El rally histórico del lunes (S&P 500 +4,73 %, Nasdaq 100 +6,9 % por la reincorporación de Jensen Huang en Nvidia) se está revirtiendo parcialmente en el premercado: los futuros del Nasdaq 100 caen un 2,3 % y los del S&P 500 un 1,4 %, con Nvidia retrocediendo más de un 5 % tras su subida del 31 % de ayer. Bitcoin también pierde el impulso del lunes y cae cerca de un 3 % hasta los 59.700 $, con salidas de ETF de 569,7 millones $ en la jornada. El euro se estabiliza en 1,0905 $ tras el fuerte golpe del dólar del lunes, y el oro se mantiene cerca de 3.635 $/oz. La gamma sigue negativa en ambos índices (SPX -4,95 mil M$ por 1 %, NDX -1,59 mil M$, OI del 20 de noviembre), y el put/call OI 0DTE de hoy (0,70 en SPX) refleja una demanda de puts mucho mayor tras el giro bajista. La Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subir tipos el 9 de diciembre, con el PCE subyacente de este miércoles como referencia clave de la semana.",
+  "resumen": "Son las 16:15 UTC (11:15 en Nueva York) del martes 24 de noviembre de 2026, en plena sesión de Wall Street. El rally histórico del lunes (S&P 500 +4,73 % hasta 7.237 puntos, Nasdaq 100 +6,9 %, Nvidia +31 % por la reincorporación de Jensen Huang) se mantiene parcialmente revertido: el S&P 500 cae en torno a un 1,1 % hasta unos 7.159 puntos y el Nasdaq 100 retrocede alrededor de un 2,0 %, con Nvidia cediendo otro 5-6 %. Dos noticias dominan la sesión: la Administración Trump prepara una nueva ola arancelaria (Sección 301) contra China, la UE y otras 14 economías que podría anunciarse esta misma semana, y el secretario del Tesoro Bessent ha anunciado nuevas sanciones a Irán y advertencias sobre el estrecho de Ormuz. CrowdStrike anunció anoche la compra de Zscaler por 43.900 millones $ en una operación totalmente en acciones, ampliando la consolidación en ciberseguridad. La gamma sigue negativa en ambos índices (SPX -4,83 mil M$ por 1 %, NDX -1,79 mil M$, OI del 20 de noviembre), con el call wall del S&P 500 bajando a 7204 (desde 7304) a medida que el mercado retrocede. La Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subir tipos el 9 de diciembre, con el PCE subyacente de este miércoles (adelantado por Acción de Gracias) como referencia clave de la semana.",
   "semana": {
     "activos": [
       {
-        "cambio": "De -32 a 28: el calendario sigue inclinado a favor del riesgo (PMI de servicios más debil de lo esperado) y el mercado sostiene el mayor rebote tecnico en años tras la reincorporacion de Jensen Huang en Nvidia; Bessent (CBS, 22-nov) suma presion dovish sobre la Fed, compensando el riesgo geopolitico de Iran.",
-        "expectativa": "El calendario pesa poco esta semana (peso 0,3) pero su sesgo es favorable al riesgo (-25 en la metrica interna). El PIB y, sobre todo, el PCE subyacente del miercoles son la referencia real que puede confirmar o frenar el rebote.",
+        "cambio": "De 28 a -7: el rally del lunes se revierte parcialmente -la Administracion Trump prepara una nueva ola arancelaria (Seccion 301) contra China, la UE y 14 economias mas-, mientras Bessent anuncia nuevas sanciones a Iran y la confianza del consumidor se dispara a 103,3, reforzando la probabilidad de una Fed dura.",
+        "expectativa": "El calendario sigue inclinado a favor del dolar debil (-20 en la metrica interna) pero pesa menos tras la sorpresa alcista de la confianza del consumidor. El PCE subyacente del miercoles es la referencia real que puede confirmar o frenar la Fed al 96,5 %.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo bajista para el dolar (-25 en la metrica interna): los PMI flash de EE. UU. decepcionaron en servicios (54,7 frente a 55,6 esperado) y cumplieron en manufactura (54,5), mientras el PIB (miercoles, consenso 3,4 %) y sobre todo el PCE subyacente (miercoles, consenso 0,3 %) siguen pendientes. Pesan mucho mas los tipos -la Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subir el 9 de diciembre, con Waller abierto a hasta 50 pb- frente a la advertencia de Bessent en CBS (22-nov) de que la Fed podria cometer un error de politica si endurece demasiado, y una gamma todavia negativa en SPX (-5,92 mil M$ por 1 %, OI del 19 de noviembre). La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $) y Trump dice estar inclinado a reanudar los ataques contra Iran si no hay acuerdo antes de fin de ano, un riesgo geopolitico latente. El S&P 500 sostiene el rebote historico del 4,73 % de ayer hasta 7.237 puntos: el cierre acelerado de coberturas bajistas y la liquidez positiva compensan por ahora la Fed al 96,5 % y la gamma negativa: sesgo alcista, con el PCE subyacente del miercoles como prueba real.",
-        "score": 28,
-        "scoreInicial": -32,
-        "sesgo": "alcista"
+        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo todavia bajista para el dolar (-20 en la metrica interna, frente a -25 de esta madrugada): la fuerte sorpresa alcista de la confianza del consumidor (103,3 frente a 92,1 esperado) compensa en parte los PMI de servicios mas debiles de lo esperado, con el PIB y el PCE subyacente del miercoles todavia pendientes. Pesan mucho mas los tipos -la Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subir el 9 de diciembre- y la nueva ola arancelaria que prepara la Administracion Trump contra China, la UE y 14 economias mas, justo cuando Bessent anuncia nuevas sanciones a Iran y advertencias sobre el estrecho de Ormuz. La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $) y la gamma sigue muy negativa (-4,86 mil M$ por 1 %), amplificando el retroceso de hoy (-1,1 %) hasta 7.159 puntos: el rebote historico del lunes se enfria, con el riesgo arancelario y una Fed muy probable al alza compensando el colchon de liquidez: sesgo neutral, pendiente del PCE subyacente.",
+        "score": -7,
+        "scoreInicial": 28,
+        "sesgo": "neutral"
       },
       {
-        "cambio": "De -36 a 30: el PMI de servicios decepciono, restando presion hawkish a la Fed, y el Nasdaq 100 lidera el mayor rebote tecnico en anos de la mano de Nvidia tras la reincorporacion de Jensen Huang, sin novedades que lo frenen durante la madrugada.",
-        "expectativa": "El calendario pesa poco esta semana; el PCE subyacente del miercoles es la referencia con mas capacidad de mover al Nasdaq. El rebote es un fuerte alivio tecnico tras el desplome de los semiconductores, todavia no una reversion confirmada de tendencia.",
+        "cambio": "De 30 a -9: Nvidia cede otro 5-6 % tras su +31 % del lunes y el Nasdaq 100 lidera las perdidas (-2,0 %) ante el temor a que la nueva ola arancelaria de Trump golpee a los semiconductores, pese a la sorpresa alcista de la confianza del consumidor.",
+        "expectativa": "El calendario pesa poco esta semana; el PCE subyacente del miercoles es la referencia con mas capacidad de mover al Nasdaq, junto con cualquier concrecion del plan arancelario sobre semiconductores.",
         "id": "NQ",
-        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo bajista para el dolar (-25 en la metrica interna): los PMI flash de EE. UU. decepcionaron en servicios, mientras el PIB y el PCE subyacente del miercoles siguen pendientes. Pesan mucho mas los tipos -Fed al 96,5 % de probabilidad de subida el 9 de diciembre, con Waller abierto a hasta 50 pb- y una gamma todavia negativa en NDX (-1,87 mil M$ por 1 %, OI del 19 de noviembre, put/call OI 1,76). La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), y KPMG advierte de aranceles a infraestructura de IA desde el 4 de diciembre, un riesgo especifico para los semiconductores, mientras Bessent pide a la Fed no cometer un error de politica. El Nasdaq 100 sostiene el +6,9 % de ayer en torno a 27.100 puntos, muy por encima de su max pain y call wall 0DTE: el cierre acelerado de coberturas bajistas y la liquidez positiva sostienen un sesgo alcista, aunque la fragilidad reciente de los semiconductores y una Fed muy probablemente al alza son el principal contrapeso.",
-        "score": 30,
-        "scoreInicial": -36,
-        "sesgo": "alcista"
-      },
-      {
-        "cambio": "De -12 a 22: el PMI de servicios decepciono, reduciendo la presion de una Fed mas dura, y el oro consolida su rebote en la sesion asiatica (cerca de 3.635 $/oz) sostenido por la escalada en Ormuz y el aviso de Trump sobre Iran.",
-        "expectativa": "El saldo del calendario favorece al oro (dolar algo mas debil esperado), con el PCE subyacente del miercoles como cita clave. La escalada en el estrecho de Ormuz y la amenaza de Trump de reanudar los ataques anaden demanda de refugio.",
-        "id": "XAU",
-        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo bajista para el dolar (-25 en la metrica interna): los PMI flash de EE. UU. decepcionaron en servicios, mientras el PIB y el PCE subyacente del miercoles siguen pendientes. Pesan mucho mas los tipos -la Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subida el 9 de diciembre- frente a la advertencia de Bessent de que endurecer demasiado seria un error, y el riesgo geopolitico: Trump dice estar inclinado a reanudar los ataques contra Iran si no hay acuerdo antes de fin de ano, con los ataques a petroleros en Ormuz en su nivel mas alto desde el inicio del conflicto. El oro consolida en la sesion asiatica cerca de 3.635 $/oz (+0,4 % sobre el cierre de ayer), sostenido por esa demanda de refugio pese al dolar fuerte (euro en 1,0900): sesgo alcista.",
-        "score": 22,
-        "scoreInicial": -12,
-        "sesgo": "alcista"
-      },
-      {
-        "cambio": "De -30 a 14: bitcoin se mantiene cerca de los 61.000 $ junto al resto de activos de riesgo, pero las salidas record de ETF y el miedo extremo siguen sin confirmar un giro de tendencia durante la madrugada.",
-        "expectativa": "El calendario es casi irrelevante para bitcoin esta semana. El rebote hasta los 61.000 $ es un alivio tecnico; las salidas de ETF y el miedo extremo siguen pesando mas que cualquier dato.",
-        "id": "BTC",
-        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo bajista para el dolar (-25 en la metrica interna), un dato ligeramente favorable para los activos de riesgo. Pesan mucho mas los tipos -Fed al 96,5 % de probabilidad de subida el 9 de diciembre- y el posicionamiento: las salidas de ETF de bitcoin suman 3.470 millones $ en noviembre, con un record de 541 millones $ en un solo dia en IBIT. Bitcoin se mantiene en torno a los 61.000 $, en linea con el rebote generalizado de los activos de riesgo tras el rally historico de Nvidia, pero el indice de miedo y codicia en minimos extremos y las salidas de ETF mantienen el sesgo cauteloso: neutral, todavia no alcista.",
-        "score": 14,
-        "scoreInicial": -30,
-        "sesgo": "neutral"
-      },
-      {
-        "cambio": "De -26 a -5: el saldo de calendario sigue siendo favorable al euro, pero el dolar se mantiene fuerte tras el rally bursatil y la expectativa de una Fed dura, con el euro todavia cerca de 1,0900.",
-        "expectativa": "El PMI flash de la eurozona ya se ha publicado: sorpresa positiva en manufactura (52,9) y negativa en servicios (51,2, minimo de cinco meses). El PCE subyacente de EE. UU. del miercoles sigue siendo la referencia que mas puede mover el par.",
-        "id": "EURUSD",
-        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo bajista para el dolar (-25 en la metrica interna) y relativamente favorable para el euro, con el PMI manufacturero de la eurozona sorprendiendo al alza (52,9, apoyado por Alemania) aunque el de servicios cayo a un minimo de cinco meses (51,2). Pesan mucho mas los tipos -Fed al 96,5 % de probabilidad de subida el 9 de diciembre, frente a un BCE con Lagarde manteniendo un sesgo cauteloso- y el fuerte rebote bursatil de ayer, que reforzo al dolar hasta su nivel mas fuerte desde abril de 2025. El euro se mantiene en torno a 1,0900 durante la madrugada, con la fortaleza del dolar dominando pese al saldo de calendario y a la advertencia de Bessent sobre un posible error de politica de la Fed: sesgo neutral.",
-        "score": -5,
-        "scoreInicial": -26,
-        "sesgo": "neutral"
-      },
-      {
-        "cambio": "De 6 a -9: la reapertura del oleoducto libio Sharara y el salto de produccion saudi siguen pesando sobre el crudo, aunque la amenaza de Trump de reanudar los ataques contra Iran y la escalada en Ormuz limitan las perdidas.",
-        "expectativa": "El calendario apenas mueve la aguja para el petroleo (peso 0,3). El pulso entre la oferta (Libia, Arabia Saudi) y el riesgo geopolitico en Ormuz -agravado por la amenaza de Trump- sigue siendo el factor dominante.",
-        "id": "WTI",
-        "narrativa": "El calendario de esta semana corta por Accion de Gracias apenas afecta al petroleo (peso 0,3), con el saldo bajista para el dolar (-25 en la metrica interna) como unico contexto relevante. Pesan mucho mas la oferta y la geopolitica: la reapertura del oleoducto libio Sharara y el salto del 26 % en la produccion saudi alimentan el temor a un exceso de oferta -la AIE espera un superavit de 1,7 millones de barriles/dia en el T4-, mientras Trump dice estar inclinado a reanudar los ataques contra Iran si no hay acuerdo antes de fin de ano y los ataques a petroleros en el estrecho de Ormuz estan en su nivel mas alto desde el inicio del conflicto. El WTI se mantiene en torno a 81 $ durante la madrugada, con la narrativa de exceso de oferta todavia dominando sobre el riesgo geopolitico: sesgo neutral, con fuerzas opuestas en equilibrio.",
+        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo todavia bajista para el dolar (-20 en la metrica interna): la confianza del consumidor sorprendio muy al alza (103,3), compensando en parte los PMI de servicios mas debiles, con el PCE subyacente del miercoles como referencia clave. Pesan mucho mas los tipos -Fed al 96,5 % de probabilidad de subida el 9 de diciembre- y la nueva ola arancelaria que prepara la Administracion Trump contra China, la UE y 14 economias, un riesgo especifico para la cadena de semiconductores, con una gamma todavia negativa en NDX (-1,75 mil M$ por 1 %, put/call OI 0DTE subiendo a 1,47). La liquidez mantiene una tendencia positiva de cuatro semanas (+23.200 millones $), pero el Nasdaq 100 cae con fuerza (-2,0 %) lastrado por Nvidia: el alivio tecnico del lunes se enfria rapido, con el riesgo arancelario sobre los chips como principal contrapeso: sesgo neutral, con sesgo bajista a corto plazo.",
         "score": -9,
-        "scoreInicial": 6,
+        "scoreInicial": 30,
+        "sesgo": "neutral"
+      },
+      {
+        "cambio": "De 22 a 31: el oro extiende su rebote hacia los 3.640 $/oz, sostenido por la demanda de refugio ante la nueva ola arancelaria de Trump y las nuevas sanciones y advertencias de Bessent sobre el estrecho de Ormuz.",
+        "expectativa": "El saldo del calendario sigue siendo favorable al oro (dolar algo mas debil esperado, aunque menos tras la sorpresa de confianza del consumidor), con el PCE subyacente del miercoles como cita clave. La escalada arancelaria y geopolitica anade demanda de refugio.",
+        "id": "XAU",
+        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo todavia bajista para el dolar (-20 en la metrica interna), favorable al oro, aunque la sorpresa alcista de la confianza del consumidor (103,3) lo modera algo. Pesan mucho mas los tipos -la Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subida el 9 de diciembre- y el riesgo geopolitico y comercial: la Administracion Trump prepara una nueva ola arancelaria contra China, la UE y 14 economias, y Bessent ha anunciado nuevas sanciones a Iran y advertencias sobre el estrecho de Ormuz, en su nivel de tension mas alto desde el inicio del conflicto. El oro cotiza en torno a 3.640 $/oz (aprox. +0,4 % sobre el cierre de ayer), sostenido por esa doble demanda de refugio (arancelaria y geopolitica) pese al dolar todavia firme: sesgo alcista.",
+        "score": 31,
+        "scoreInicial": 22,
+        "sesgo": "alcista"
+      },
+      {
+        "cambio": "De 14 a -9: bitcoin vuelve a caer hasta unos 59.700 $ (-3 %) arrastrado por el giro bajista de las bolsas tecnologicas y nuevas salidas de ETF, perdiendo el impulso del lunes.",
+        "expectativa": "El calendario es casi irrelevante para bitcoin esta semana. El riesgo arancelario y el apetito por riesgo de las bolsas tecnologicas, no el calendario macro, son lo que mas puede moverlo.",
+        "id": "BTC",
+        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo todavia bajista para el dolar (-20 en la metrica interna), un dato ligeramente favorable para los activos de riesgo, aunque la sorpresa alcista de la confianza del consumidor lo modera. Pesan mucho mas los tipos -Fed al 96,5 % de probabilidad de subida el 9 de diciembre- y el posicionamiento: las salidas de ETF de bitcoin siguen siendo elevadas en noviembre y el activo vuelve a caer hasta unos 59.700 $ (-3 %), en linea con el giro bajista de las bolsas tecnologicas tras la noticia de la nueva ola arancelaria de Trump. El indice de miedo y codicia en minimos extremos y las salidas de ETF mantienen el sesgo cauteloso: neutral, sin confirmar todavia un giro de tendencia.",
+        "score": -9,
+        "scoreInicial": 14,
+        "sesgo": "neutral"
+      },
+      {
+        "cambio": "De -5 a 0: el euro se mantiene estable en torno a 1,0907 $ pese a la fuerte sorpresa alcista de la confianza del consumidor de EE. UU., que refuerza el argumento de una Fed dura y compensa el saldo de calendario favorable al euro.",
+        "expectativa": "El PMI flash de la eurozona ya se ha publicado: sorpresa positiva en manufactura (52,9) y negativa en servicios (51,2). La confianza del consumidor de EE. UU. (103,3) ya se ha publicado y favorece al dolar; el PCE subyacente del miercoles sigue siendo la referencia que mas puede mover el par.",
+        "id": "EURUSD",
+        "narrativa": "El calendario de esta semana corta por Accion de Gracias deja, en el papel, un saldo todavia bajista para el dolar (-20 en la metrica interna) y relativamente favorable para el euro, con el PMI manufacturero de la eurozona sorprendiendo al alza (52,9) aunque el de servicios cayo a un minimo de cinco meses (51,2); la confianza del consumidor de EE. UU. sorprendio con fuerza al alza (103,3 frente a 92,1 esperado), lo que resta parte de ese saldo favorable al euro. Pesan mucho mas los tipos -Fed al 96,5 % de probabilidad de subida el 9 de diciembre, frente a un BCE con Lagarde manteniendo un sesgo cauteloso- y el apetito por riesgo, hoy a la baja por la nueva ola arancelaria de Trump. El euro se mantiene en torno a 1,0907 $ en la sesion, con la fortaleza del dolar y el saldo de calendario compensandose: sesgo neutral.",
+        "score": 0,
+        "scoreInicial": -5,
+        "sesgo": "neutral"
+      },
+      {
+        "cambio": "De -9 a -1: el WTI cae hacia 80 $ por el temor a un exceso de oferta (reapertura del oleoducto libio, mas produccion saudi), pese a que las nuevas sanciones de Bessent a Iran y sus advertencias sobre Ormuz limitan las perdidas.",
+        "expectativa": "El calendario apenas mueve la aguja para el petroleo (peso 0,3). El pulso entre la oferta (Libia, Arabia Saudi) y el riesgo geopolitico en Ormuz -agravado por las nuevas sanciones de Bessent a Iran- sigue siendo el factor dominante.",
+        "id": "WTI",
+        "narrativa": "El calendario de esta semana corta por Accion de Gracias apenas afecta al petroleo (peso 0,3), con el saldo todavia bajista para el dolar (-20 en la metrica interna) como unico contexto relevante. Pesan mucho mas la oferta y la geopolitica: la reapertura del oleoducto libio Sharara y el aumento de la produccion saudi alimentan el temor a un exceso de oferta, mientras Bessent anuncia nuevas sanciones a Iran y advertencias sobre el estrecho de Ormuz, con los ataques a petroleros en su nivel mas alto desde el inicio del conflicto. El WTI cotiza en torno a 80,1 $/barril (Trading Economics), con la narrativa de exceso de oferta todavia dominando sobre el riesgo geopolitico: sesgo neutral, con fuerzas opuestas en equilibrio.",
+        "score": -1,
+        "scoreInicial": -9,
         "sesgo": "neutral"
       }
     ],
-    "actualizado": "2026-11-24T06:50:34Z",
+    "actualizado": "2026-11-24T15:53:39Z",
     "calendarioSesgo": {
       "activos": {
-        "BTC": 20,
-        "EURUSD": 38,
-        "NQ": 25,
-        "SPX": 25,
-        "WTI": 12,
-        "XAU": 25
+        "BTC": 16,
+        "EURUSD": 34,
+        "NQ": 20,
+        "SPX": 20,
+        "WTI": 10,
+        "XAU": 20
       },
-      "actualizado": "2026-11-24T06:50:34Z",
-      "dolar": -25,
+      "actualizado": "2026-11-24T15:53:39Z",
+      "dolar": -20,
       "dolarEsperado": -20,
       "euro": 67
     },
@@ -1786,8 +1873,8 @@
     "pesoMotivo": "Semana festiva y corta por Acción de Gracias (jueves 26 cerrado): los PMI flash de EE. UU. y la eurozona y la confianza del consumidor no tienen consenso numérico confirmado en Investing.com, y solo el PIB (segunda estimación) y el PCE subyacente del miércoles aportan una señal cuantificable; con las bolsas rebotando con fuerza desde una corrección técnica y la gamma todavía muy negativa, mandan más los tipos, el posicionamiento y la liquidez de fin de mes que el calendario.",
     "rango": "23 a 27 de noviembre de 2026",
     "slot": "semanal",
-    "updatedAt": "2026-11-24T06:50:34Z"
+    "updatedAt": "2026-11-24T15:53:39Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-24T15:20:00.000000Z"
+  "updatedAt": "2026-11-24T16:15:43Z"
 }
