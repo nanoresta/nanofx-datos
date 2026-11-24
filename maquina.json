@@ -1,15 +1,23 @@
 {
-  "actualizado": "2026-11-24T07:46:07Z",
+  "actualizado": "2026-11-24T19:46:00Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento tardío",
     "fase": 0.65,
-    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de subir el 9 dic (Kalshi, 24 nov) y el 2 años está en el 4,69 %, mientras el PMI de servicios decepciona (54,7 frente a 55,6) y la bolsa rebota un 4,73 % tras su peor semana: pasado el techo, camino de la desaceleración."
+    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de subir el 9 dic (Kalshi, 24 nov) y el 2 años está en el 4,69 %; la confianza del consumidor salta a 103,3 pero el PMI de servicios se frena (54,7) y la bolsa devuelve parte del rebote: pasado el techo, camino de la desaceleración."
   },
   "fuentes": [
     {
-      "nombre": "Trading Economics – Bono 30 años EE. UU. (23 nov)",
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (24 nov)",
       "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "FXStreet – Confianza del consumidor 103,3 (24 nov)",
+      "url": "https://www.fxstreet.com/news/us-cb-consumer-confidence-index-improves-to-1033-in-november-202611241512"
+    },
+    {
+      "nombre": "Helious – Subasta de 5 años (24 nov)",
+      "url": "https://helious.io/news/auc-91282CRZ6-2026-11-24/5-year-note-auction-in-line"
     },
     {
       "nombre": "investingLive – PMI flash de servicios de EE. UU. (23 nov)",
@@ -129,7 +137,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,13 %), 95 % en enero y 93,5 % en marzo (Kalshi, 24 nov)",
+      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,12 %), 95 % en enero y 93,5 % en marzo (Kalshi, 24 nov) · Williams (Fed NY) pide ajustar la política",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -147,7 +155,7 @@
       "v": "+165.000 · paro 4,1 %"
     },
     {
-      "c": "3T 2026 · 1.ª estimación (BEA, 29 oct) · PMI flash nov.: servicios 54,7 (esperado 55,6), manufacturas 54,5 (S&P Global, 23 nov)",
+      "c": "3T 2026 · 1.ª estimación (BEA, 29 oct) · PMI flash nov.: servicios 54,7 (S&P Global, 23 nov) · confianza del consumidor 103,3, máximo desde ene-2025 (Conference Board, 24 nov)",
       "estado": "verde",
       "n": "Crecimiento (PIB real)",
       "v": "+3,4 % anual"
@@ -159,7 +167,7 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "24 nov (Trading Economics) · -1 pb en 1 mes; 2 años 4,69 %, 10 años 4,94 % (mínimo de dos semanas)",
+      "c": "24 nov (Trading Economics) · -1 pb en 1 mes; 2 años 4,69 %, 10 años 4,91 % (mínimo de dos semanas)",
       "estado": "amarillo",
       "n": "Bono a 30 años",
       "v": "5,29 %"
@@ -175,9 +183,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,29 % (24 nov) y la tenencia extranjera cae a 9,24 bill. $ (sept.): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,29 % (24 nov) y los extranjeros compran menos (indirectos del 54,3 % en la subasta de 5 años): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está pasado el techo del ciclo corto: la Fed va camino de subir el 9 dic (96,5 %, Kalshi) con el PMI de servicios ya frenándose (54,7), aunque la bolsa ha rebotado con fuerza (S&P 500 +4,73 % el 23 nov). En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,29 %.",
+  "lectura": "EE. UU. está pasado el techo del ciclo corto: la Fed va camino de subir el 9 dic (96,5 %, Kalshi) con el PMI de servicios ya frenándose (54,7), aunque la confianza del consumidor repunta (103,3). En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,29 %.",
   "palancas": [
     {
       "estado": "rojo",
@@ -479,6 +487,11 @@
       "corto": 0.65,
       "largo": 0.76,
       "ts": "2026-11-24T07:46:07Z"
+    },
+    {
+      "corto": 0.65,
+      "largo": 0.76,
+      "ts": "2026-11-24T19:46:00Z"
     }
   ]
 }
