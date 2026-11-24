@@ -330,9 +330,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-24T13:58:48Z",
+    "actualizado": "2026-11-24T14:59:52Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 96,5 %, con la tasa implícita bajando una décima hasta el 4,12 % (desde 4,13 %). Para enero de 2027 la probabilidad también se mantiene en el 95,0 % (tasa implícita 4,23 %, antes 4,24 %), y para marzo de 2027 la probabilidad de subida (93,5 %) y la tasa implícita (4,35 %) no cambian: sin novedades relevantes en el mercado de predicción esta mañana.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 96,5 %, con la tasa implícita sin cambios en el 4,12 %. Para la reunión de enero de 2027 también se mantiene en el 95,0 % (tasa implícita 4,23 %), y la de marzo de 2027 apenas revisa la tasa implícita hasta el 4,34 % (desde 4,35 %): sin cambios relevantes en el mercado de predicción esta hora.",
     "reuniones": [
       {
         "bajar": 0.5,
@@ -349,11 +349,11 @@
         "tasaImplicita": 4.23
       },
       {
-        "bajar": 5,
+        "bajar": 5.5,
         "fecha": "2027-03-17",
-        "mantener": 1.5,
+        "mantener": 1,
         "subir": 93.5,
-        "tasaImplicita": 4.35
+        "tasaImplicita": 4.34
       },
       {
         "bajar": 3.5,
@@ -543,56 +543,28 @@
       "changePct": -1.4,
       "claves": [
         "Call wall en 7304 (ETF SPY 730,0 $); put wall en 7004 (ETF SPY 700,0 $).",
-        "Giro de gamma (gamma flip) en 7495 (ETF SPY 749,11 $); el precio del índice en el motor de opciones (7136) sigue por debajo, en zona de gamma negativa.",
+        "Giro de gamma (gamma flip) en 7397 (ETF SPY 739,3 $); el precio del índice en el motor de opciones (7204) sigue por debajo, en zona de gamma negativa.",
         "Max pain en 7124 (ETF SPY 712,0 $).",
-        "Régimen de gamma negativa, en -4,95 mil M$ por 1 %, put/call OI 1,75; open interest del 2026-11-20."
+        "Régimen de gamma negativa, en -3,86 mil M$ por 1 %, put/call OI 1,41; open interest del 2026-11-20."
       ],
       "gex": {
         "callWall": 730,
-        "contratos": 1470,
+        "contratos": 1558,
         "escalera": [
           {
-            "gex": -50,
-            "strike": 692
-          },
-          {
-            "gex": -11.2,
-            "strike": 693
-          },
-          {
-            "gex": -4.7,
-            "strike": 694
-          },
-          {
-            "gex": -197.6,
-            "strike": 695
-          },
-          {
-            "gex": -25,
-            "strike": 696
-          },
-          {
-            "gex": -14.3,
-            "strike": 697
-          },
-          {
-            "gex": -21,
-            "strike": 698
-          },
-          {
-            "gex": 0.6,
+            "gex": 0,
             "strike": 699
           },
           {
-            "gex": -562.7,
+            "gex": -524.5,
             "strike": 700
           },
           {
-            "gex": -12.3,
+            "gex": -11.3,
             "strike": 701
           },
           {
-            "gex": 3.7,
+            "gex": -0.8,
             "strike": 702
           },
           {
@@ -600,141 +572,170 @@
             "strike": 703
           },
           {
-            "gex": -62.5,
+            "gex": -62.1,
             "strike": 704
           },
           {
-            "gex": -138.2,
+            "gex": -134.1,
             "strike": 705
           },
           {
-            "gex": -101.2,
+            "gex": -98.4,
             "strike": 706
           },
           {
-            "gex": -1.8,
+            "gex": -2.2,
             "strike": 707
           },
           {
-            "gex": -69.2,
+            "gex": -68.7,
             "strike": 708
           },
           {
-            "gex": -11.9,
+            "gex": -11.3,
             "strike": 709
           },
           {
-            "gex": -255.9,
+            "gex": -260.3,
             "strike": 710
           },
           {
-            "gex": -23.5,
+            "gex": -23.3,
             "strike": 711
           },
           {
-            "gex": -108.3,
+            "gex": -112.3,
             "strike": 712
           },
           {
-            "gex": -3.6,
+            "gex": -3.9,
             "strike": 713
           },
           {
-            "gex": -38.1,
+            "gex": -40,
             "strike": 714
           },
           {
-            "gex": -18.6,
+            "gex": -14.2,
             "strike": 715
           },
           {
-            "gex": -114.5,
+            "gex": -123,
             "strike": 716
           },
           {
-            "gex": -3.1,
+            "gex": -3.9,
             "strike": 717
           },
           {
-            "gex": -41.8,
+            "gex": -38,
             "strike": 718
           },
           {
-            "gex": -11.7,
+            "gex": -14.1,
             "strike": 719
           },
           {
-            "gex": -105.3,
+            "gex": -103.6,
             "strike": 720
           },
           {
-            "gex": 23.3,
+            "gex": 25.6,
             "strike": 721
           },
           {
-            "gex": 21,
+            "gex": 22.9,
             "strike": 722
           },
           {
-            "gex": -11.6,
+            "gex": -10.6,
             "strike": 723
           },
           {
-            "gex": -122.8,
+            "gex": -143.1,
             "strike": 724
           },
           {
-            "gex": -212.2,
+            "gex": -247,
             "strike": 725
           },
           {
-            "gex": -73.8,
+            "gex": -89.9,
             "strike": 726
           },
           {
-            "gex": -228.6,
+            "gex": -288.8,
             "strike": 727
           },
           {
-            "gex": -73,
+            "gex": -93.8,
             "strike": 728
           },
           {
-            "gex": -23.3,
+            "gex": -21.9,
             "strike": 729
           },
           {
-            "gex": -92.7,
+            "gex": -54.7,
             "strike": 730
           },
           {
-            "gex": 28.7,
+            "gex": 40,
             "strike": 731
           },
           {
-            "gex": -5.7,
+            "gex": -4.6,
             "strike": 732
           },
           {
-            "gex": 15.5,
+            "gex": 27.9,
             "strike": 733
           },
           {
-            "gex": -64.2,
+            "gex": -99.6,
             "strike": 734
+          },
+          {
+            "gex": -146.4,
+            "strike": 735
+          },
+          {
+            "gex": -10.8,
+            "strike": 736
+          },
+          {
+            "gex": -9,
+            "strike": 737
+          },
+          {
+            "gex": -15.5,
+            "strike": 738
+          },
+          {
+            "gex": 7.4,
+            "strike": 739
+          },
+          {
+            "gex": 7.2,
+            "strike": 740
+          },
+          {
+            "gex": -1.6,
+            "strike": 741
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 749.11,
-        "gexTotal": -4.95,
+        "gammaFlip": 739.3,
+        "gexTotal": -3.86,
         "indice": {
-          "callWall": 7304,
-          "gammaFlip": 7495,
-          "maxPain": 7124,
-          "precio": 7136,
-          "putWall": 7004
+          "callWall": 7303.8,
+          "gammaFlip": 7396.8,
+          "maxPain": 7123.7,
+          "precio": 7203.8,
+          "putWall": 7003.6
         },
         "maxPain": 712,
+        "notaConversion": "Ratio ETF/índice no recalculado por el motor esta hora; estimado con el último ratio disponible (10,0052, del 20 de noviembre).",
         "odte": {
           "base": "open interest",
           "callWall": 729,
@@ -742,34 +743,34 @@
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 7294,
+            "callWall": 7293.8,
             "gammaFlip": null,
-            "maxPain": 7124,
-            "putWall": 6774
+            "maxPain": 7123.7,
+            "putWall": 6773.5
           },
           "maxPain": 712,
-          "pcrOI": 0.7,
+          "pcrOI": 0.67,
           "putWall": 677,
           "vencimiento": "2026-11-24"
         },
         "oiFecha": "2026-11-20",
-        "pcrOI": 1.75,
-        "precio": 713.21,
+        "pcrOI": 1.41,
+        "precio": 720.01,
         "putWall": 700,
-        "ratioFecha": "2026-11-20",
-        "ratioIndice": 10.0052,
+        "ratioFecha": null,
+        "ratioIndice": null,
         "regimen": "negativa",
         "vencimientoCercano": "2026-11-24"
       },
       "id": "SPX",
       "levels": {
         "callWall": 7304,
-        "gammaFlip": 7495,
+        "gammaFlip": 7397,
         "maxPain": 7124,
         "putWall": 7004
       },
       "name": "S&P 500",
-      "netGex": "negativa (-4,95 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-20)",
+      "netGex": "negativa (-3,86 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-20)",
       "precio": 7136.9,
       "regime": "negativa",
       "regimen": "negativa",
@@ -781,61 +782,33 @@
       "changeNote": "futuros, 14:16 Canarias, antes de la apertura (CNBC)",
       "changePct": -2.3,
       "claves": [
-        "Call wall en 27.952 (ETF QQQ 680,0 $); put wall en 26.719 (ETF QQQ 650,0 $).",
+        "Call wall en 27.956 (ETF QQQ 680,0 $); put wall en 26.722 (ETF QQQ 650,0 $).",
         "El motor no reporta giro de gamma (gamma flip) esta hora; el precio del índice sigue en zona de gamma negativa, por debajo de los niveles de resistencia.",
-        "Max pain en 26.513 (ETF QQQ 645,0 $).",
-        "Régimen de gamma negativa, en -1,59 mil M$ por 1 %, put/call OI 1,83; open interest del 2026-11-20. Niveles de índice estimados con el último ratio ETF/índice disponible (el motor no los recalculó esta hora)."
+        "Max pain en 26.517 (ETF QQQ 645,0 $).",
+        "Régimen de gamma negativa, en -1,45 mil M$ por 1 %, put/call OI 1,61; open interest del 2026-11-20. Niveles de índice estimados con el último ratio ETF/índice disponible (el motor no los recalculó esta hora)."
       ],
       "gex": {
         "callWall": 680,
-        "contratos": 1331,
+        "contratos": 1407,
         "escalera": [
-          {
-            "gex": -0.5,
-            "strike": 617
-          },
-          {
-            "gex": -0.4,
-            "strike": 618
-          },
-          {
-            "gex": 1.1,
-            "strike": 619
-          },
-          {
-            "gex": -176.7,
-            "strike": 620
-          },
-          {
-            "gex": 1.4,
-            "strike": 621
-          },
-          {
-            "gex": -3.4,
-            "strike": 622
-          },
-          {
-            "gex": -0.7,
-            "strike": 623
-          },
           {
             "gex": 3.4,
             "strike": 624
           },
           {
-            "gex": -130.5,
+            "gex": -136.2,
             "strike": 625
           },
           {
-            "gex": -3.7,
+            "gex": -3.8,
             "strike": 626
           },
           {
-            "gex": -5,
+            "gex": -5.1,
             "strike": 627
           },
           {
-            "gex": -3.1,
+            "gex": -3.2,
             "strike": 628
           },
           {
@@ -843,39 +816,39 @@
             "strike": 629
           },
           {
-            "gex": -112,
+            "gex": -121.4,
             "strike": 630
           },
           {
-            "gex": 3.5,
+            "gex": 3.8,
             "strike": 631
           },
           {
-            "gex": 3.2,
+            "gex": 3.5,
             "strike": 632
           },
           {
-            "gex": -8,
+            "gex": -8.6,
             "strike": 633
           },
           {
-            "gex": -0.2,
+            "gex": -0.1,
             "strike": 634
           },
           {
-            "gex": -96.3,
+            "gex": -105.4,
             "strike": 635
           },
           {
-            "gex": -1.2,
+            "gex": -1.4,
             "strike": 636
           },
           {
-            "gex": 0,
+            "gex": 0.1,
             "strike": 637
           },
           {
-            "gex": 16.1,
+            "gex": 19.6,
             "strike": 638
           },
           {
@@ -883,35 +856,35 @@
             "strike": 639
           },
           {
-            "gex": -234.5,
+            "gex": -259.4,
             "strike": 640
           },
           {
-            "gex": -0.3,
+            "gex": -0.5,
             "strike": 641
           },
           {
-            "gex": 33.8,
+            "gex": 40.6,
             "strike": 642
           },
           {
-            "gex": -1.4,
+            "gex": -1.5,
             "strike": 643
           },
           {
-            "gex": 10.4,
+            "gex": 12,
             "strike": 644
           },
           {
-            "gex": -94.5,
+            "gex": -103.6,
             "strike": 645
           },
           {
-            "gex": -1.5,
+            "gex": -1.7,
             "strike": 646
           },
           {
-            "gex": -9.3,
+            "gex": -10.8,
             "strike": 647
           },
           {
@@ -919,39 +892,67 @@
             "strike": 648
           },
           {
-            "gex": -2.1,
+            "gex": -2,
             "strike": 649
           },
           {
-            "gex": -90.7,
+            "gex": -89.7,
             "strike": 650
           },
           {
-            "gex": -16,
+            "gex": -18.9,
             "strike": 651
           },
           {
-            "gex": 10.2,
+            "gex": 14.2,
             "strike": 652
           },
           {
-            "gex": 25.5,
+            "gex": 30.2,
             "strike": 653
           },
           {
-            "gex": -5.9,
+            "gex": -7.5,
             "strike": 654
+          },
+          {
+            "gex": -48.7,
+            "strike": 655
+          },
+          {
+            "gex": -0.9,
+            "strike": 656
+          },
+          {
+            "gex": -1.5,
+            "strike": 657
+          },
+          {
+            "gex": -12.2,
+            "strike": 658
+          },
+          {
+            "gex": -3.9,
+            "strike": 659
+          },
+          {
+            "gex": 1.2,
+            "strike": 660
+          },
+          {
+            "gex": 4.3,
+            "strike": 661
           }
         ],
         "etf": "QQQ",
         "gammaFlip": null,
-        "gexTotal": -1.59,
+        "gexTotal": -1.45,
         "indice": {
-          "callWall": 27951.9,
+          "callWall": 27955.8,
           "gammaFlip": null,
-          "maxPain": 26513.2,
-          "precio": 26137,
-          "putWall": 26718.7
+          "maxPain": 26516.9,
+          "precio": 26405,
+          "putWall": 26722.4
         },
         "maxPain": 645,
         "notaConversion": "Ratio ETF/índice no recalculado por el motor esta hora; estimado con el último ratio disponible (~41,11, del 19-20 de noviembre).",
@@ -962,19 +963,19 @@
           "gammaFlip": null,
           "gexTotal": null,
           "indice": {
-            "callWall": 28157.4,
+            "callWall": 28161.3,
             "gammaFlip": null,
-            "maxPain": 26513.2,
-            "putWall": 25074.5
+            "maxPain": 26516.9,
+            "putWall": 25078
           },
           "maxPain": 645,
-          "pcrOI": 1.46,
+          "pcrOI": 1.25,
           "putWall": 610,
           "vencimiento": "2026-11-24"
         },
         "oiFecha": "2026-11-20",
-        "pcrOI": 1.83,
-        "precio": 635.76,
+        "pcrOI": 1.61,
+        "precio": 642.28,
         "putWall": 650,
         "ratioFecha": null,
         "ratioIndice": null,
@@ -983,13 +984,13 @@
       },
       "id": "NDX",
       "levels": {
-        "callWall": 27951.9,
+        "callWall": 27956,
         "gammaFlip": null,
-        "maxPain": 26513.2,
-        "putWall": 26718.7
+        "maxPain": 26517,
+        "putWall": 26722
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-1,59 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-20)",
+      "netGex": "negativa (-1,45 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-20)",
       "precio": 26476.3,
       "regime": "negativa",
       "regimen": "negativa",
@@ -1271,36 +1272,36 @@
     "datos": [
       {
         "nombre": "Call wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,70.",
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,67.",
         "valor": "7294"
       },
       {
         "nombre": "Put wall 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,70.",
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,67.",
         "valor": "6774"
       },
       {
         "nombre": "Max pain 0DTE SPX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,70.",
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 0,67.",
         "valor": "7124"
       },
       {
         "nombre": "Call wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,46. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
-        "valor": "28157.4"
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,25. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
+        "valor": "28161.3"
       },
       {
         "nombre": "Put wall 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,46. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
-        "valor": "25074.5"
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,25. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
+        "valor": "25078.0"
       },
       {
         "nombre": "Max pain 0DTE NDX",
-        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,46. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
-        "valor": "26513.2"
+        "nota": "Vencimiento de hoy (2026-11-24), por open interest. Put/call OI: 1,25. Estimado con el último ratio ETF/índice disponible (el motor no lo recalculó esta hora).",
+        "valor": "26516.9"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, 24 de noviembre (base open interest, motor actualizado a las 13:59 UTC): en el S&P 500, call wall en 7294, put wall en 6774 y max pain en 7124, con un put/call OI de 0,70, reflejo de una demanda de puts mucho mayor que de calls tras el giro bajista del premercado. En el Nasdaq 100 el motor sigue sin recalcular la conversión al índice (se usa el último ratio ETF/índice disponible): call wall estimado en ≈28.157, put wall en ≈25.075 y max pain en ≈26.513, con el put/call OI subiendo a 1,46 desde 1,08."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, 24 de noviembre (base open interest, motor actualizado a las 15:00 UTC): en el S&P 500, call wall en 7294, put wall en 6774 y max pain en 7124, con un put/call OI de 0,67 (antes 0,70), reflejo de una demanda de puts algo menor pero aún predominante tras el giro bajista del premercado. En el Nasdaq 100 el motor sigue sin recalcular la conversión al índice (se usa el último ratio ETF/índice disponible): call wall estimado en ≈28.161, put wall en ≈25.078 y max pain en ≈26.517, con el put/call OI bajando a 1,25 desde 1,46."
   },
   "politica": {
     "actualizado": "2026-11-24T06:50:34Z",
@@ -1788,5 +1789,5 @@
     "updatedAt": "2026-11-24T06:50:34Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-24T14:25:00.000000Z"
+  "updatedAt": "2026-11-24T15:20:00.000000Z"
 }
