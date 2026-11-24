@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-11-23T19:45:29Z",
+  "actualizado": "2026-11-24T07:46:07Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento tardío",
     "fase": 0.65,
-    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de subir el 9 dic (Kalshi, 23 nov) y el 2 años sube al 4,70 %, mientras el PMI de servicios decepciona (54,7 frente a 55,6) y la bolsa rebota un 4,4 % tras su peor semana: pasado el techo, camino de la desaceleración."
+    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de subir el 9 dic (Kalshi, 24 nov) y el 2 años está en el 4,69 %, mientras el PMI de servicios decepciona (54,7 frente a 55,6) y la bolsa rebota un 4,73 % tras su peor semana: pasado el techo, camino de la desaceleración."
   },
   "fuentes": [
     {
@@ -129,7 +129,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,13 %) y 95 % en enero (Kalshi, 23 nov)",
+      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,13 %), 95 % en enero y 93,5 % en marzo (Kalshi, 24 nov)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -159,10 +159,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "23 nov (Trading Economics) · plano en 1 mes; 2 años 4,70 % (+9 pb), 10 años 4,95 %",
+      "c": "24 nov (Trading Economics) · -1 pb en 1 mes; 2 años 4,69 %, 10 años 4,94 % (mínimo de dos semanas)",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,31 %"
+      "v": "5,29 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -175,9 +175,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,31 % (23 nov) y la tenencia extranjera cae a 9,24 bill. $ (sept.): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,29 % (24 nov) y la tenencia extranjera cae a 9,24 bill. $ (sept.): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está pasado el techo del ciclo corto: la Fed va camino de subir el 9 dic (96,5 %) con el PMI de servicios ya frenándose (54,7), aunque la bolsa rebota con fuerza (S&P 500 +4,4 % el 23 nov). En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,31 %.",
+  "lectura": "EE. UU. está pasado el techo del ciclo corto: la Fed va camino de subir el 9 dic (96,5 %, Kalshi) con el PMI de servicios ya frenándose (54,7), aunque la bolsa ha rebotado con fuerza (S&P 500 +4,73 % el 23 nov). En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,29 %.",
   "palancas": [
     {
       "estado": "rojo",
@@ -474,6 +474,11 @@
       "corto": 0.65,
       "largo": 0.76,
       "ts": "2026-11-23T19:45:29Z"
+    },
+    {
+      "corto": 0.65,
+      "largo": 0.76,
+      "ts": "2026-11-24T07:46:07Z"
     }
   ]
 }
