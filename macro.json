@@ -585,8 +585,8 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, hacia las 17:15 Canarias; estimaciones de prensa (Yahoo Finance) divergen entre -0,8 % y -1,3 %.",
-      "changePct": -1.1,
+      "changeNote": "en vivo, 18:15 Canarias; a mediodía en EE. UU. el S&P 500 ronda una caída del 1 %, con Nvidia desplomándose un 8,55 % (The Motley Fool).",
+      "changePct": -1,
       "claves": [
         "Call wall en 7204 (ETF SPY 720,0 $); put wall en 7004 (ETF SPY 700,0 $).",
         "Giro de gamma (gamma flip) en 7423 (ETF SPY 741,98 $); el precio del índice (≈7148) sigue por debajo, en zona de gamma negativa.",
@@ -822,8 +822,8 @@
       "spot": 7159
     },
     {
-      "changeNote": "en vivo, hacia las 17:15 Canarias; Nvidia y semiconductores lideran las pérdidas (Yahoo Finance/CNBC).",
-      "changePct": -2,
+      "changeNote": "en vivo, 18:15 Canarias; el Nasdaq Composite cae un 2,2 % a mediodía, lastrado por Nvidia (-8,55 %) y el desplome del 19,26 % de Analog Devices tras sus resultados (The Motley Fool).",
+      "changePct": -2.3,
       "claves": [
         "Call wall en 27955 (ETF QQQ 680,0 $); put wall en 26310 (ETF QQQ 640,0 $).",
         "El motor no reporta giro de gamma esta hora; el precio del índice (≈26022) sigue en zona de gamma negativa, por debajo de los niveles de resistencia.",
@@ -1178,6 +1178,29 @@
         "NQ": "bajista",
         "SPX": "bajista"
       },
+      "fuente": "The Motley Fool",
+      "impacto": "alto",
+      "resumen": "Nvidia cae un 8,55% a mediodía y el Nasdaq Composite retrocede un 2,2%, mientras Analog Devices se hunde un 19,26% tras un resultado que decepcionó al mercado.",
+      "titular": "Nvidia amplía su caída a casi el 9% y Analog Devices se desploma un 19% tras fallar sus previsiones",
+      "ts": "2026-11-24T17:45:00Z",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-midday-nov-24-nvidia-drops-9-as-wall-street-s-historic-ai-rally-loses-momentum/"
+    },
+    {
+      "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "Invezz",
+      "impacto": "medio",
+      "resumen": "Bitcoin toca 59.444,78 $, un 7,9% por debajo del máximo del lunes (64.533,96 $), con las salidas de ETF de bitcoin en noviembre alcanzando un récord de 4.710 millones $.",
+      "titular": "Bitcoin cae por debajo de los 60.000 $ mientras las salidas de ETF de noviembre suman un récord de 4.710 millones $",
+      "ts": "2026-11-24T17:10:00Z",
+      "url": "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/"
+    },
+    {
+      "activos": {
+        "NQ": "bajista",
+        "SPX": "bajista"
+      },
       "fuente": "Yahoo Finance",
       "impacto": "medio",
       "resumen": "El S&P 500 cae un 0,8 % y el Nasdaq un 1,8 % hacia las 10:22 ET, lastrados por Nvidia, AMD y Micron, según Yahoo Finance.",
@@ -1322,29 +1345,6 @@
       "titular": "Las salidas de ETF de bitcoin suman 3.470 millones $ en noviembre, récord de 541 millones en IBIT",
       "ts": "2026-11-23T20:45:00Z",
       "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebounds-from-2-year-low-as-wall-street-futures-recover"
-    },
-    {
-      "activos": {
-        "WTI": "bajista"
-      },
-      "fuente": "Invezz / Business Recorder",
-      "impacto": "medio",
-      "resumen": "El temor a un exceso de oferta (la AIE espera un superávit de 1,7 millones de barriles/día en el T4) pesa más que la escalada de ataques a petroleros en el estrecho de Ormuz.",
-      "titular": "El WTI cae hacia 81 $ por la reapertura del oleoducto libio Sharara y el aumento de producción saudí",
-      "ts": "2026-11-23T20:30:00Z",
-      "url": "https://invezz.com/news/2026/11/23/oil-price-today-brent-below-90-surplus-fears/"
-    },
-    {
-      "activos": {
-        "BTC": "alcista",
-        "XAU": "alcista"
-      },
-      "fuente": "KuCoin",
-      "impacto": "medio",
-      "resumen": "El oro repunta un 3 % hasta 3.625 $/onza mientras bitcoin recupera los 61.000 $ en un rebote conjunto de refugio y riesgo.",
-      "titular": "El oro sube un 3 % hasta 3.625 $ y bitcoin recupera los 61.000 $",
-      "ts": "2026-11-23T20:04:00Z",
-      "url": "https://www.kucoin.com/news/flash/gold-price-jumps-3-to-3-625-as-bitcoin-rises-above-61-000"
     }
   ],
   "odte": {
@@ -1480,7 +1480,7 @@
       }
     ]
   },
-  "resumen": "Son las 17:15 UTC (12:15 en Nueva York) del martes 24 de noviembre de 2026, en plena sesión de Wall Street. El rally histórico del lunes (S&P 500 +4,73 % hasta 7.237 puntos, Nasdaq 100 +6,9 %, Nvidia +31 % por la reincorporación de Jensen Huang) sigue parcialmente revertido: el S&P 500 ronda los 7.159 puntos (-1,1 %) y el Nasdaq 100 unos 26.550 puntos (-2,0 %), con los semiconductores liderando las pérdidas y las acciones de Anthropic cotizando por debajo de su precio de salida a bolsa (83 $), según Yahoo Finance. Siguen pesando la nueva ola arancelaria (Sección 301) que prepara la Administración Trump contra China, la UE y otras 14 economías, y las nuevas sanciones de Bessent a Irán con advertencias sobre el estrecho de Ormuz. La gamma sigue negativa en ambos índices (SPX -4,97 mil M$ por 1 %, NDX -1,83 mil M$, OI del 20 de noviembre), con el call wall del S&P 500 en 7204 y el giro de gamma subiendo ligeramente a 7423. La Fed de Kevin Warsh se mantiene en el 96,5 % de probabilidad de subir tipos el 9 de diciembre, con el PCE subyacente de este miércoles como referencia clave de la semana.",
+  "resumen": "Son las 18:15 UTC (13:15 en Nueva York) del martes 24 de noviembre de 2026, en plena sesión de mediodía en Wall Street. El rally histórico del lunes sigue revertiéndose con fuerza: el S&P 500 cae alrededor de un 1% y el Nasdaq Composite cede cerca de un 2,2%, con Nvidia desplomándose un 8,55% y Analog Devices un 19,26% tras unas previsiones que decepcionaron al mercado. Bitcoin pierde la cota de los 60.000 $ (unos 59.445 $, -7,9% desde el máximo del lunes) mientras las salidas de ETF de bitcoin en noviembre alcanzan un récord de 4.710 millones $. Siguen pesando la nueva ola arancelaria (Sección 301) que prepara la Administración Trump contra China, la UE y otras 14 economías, y las nuevas sanciones de Bessent a Irán. La gamma sigue negativa en ambos índices (SPX -4,97 mil M$ por 1%, NDX -1,83 mil M$, OI del 20 de noviembre), con el call wall del S&P 500 en 7204. La Fed de Kevin Warsh se mantiene en el 96,5% de probabilidad de subir tipos el 9 de diciembre, con el PCE subyacente de este miércoles como referencia clave de la semana.",
   "semana": {
     "activos": [
       {
@@ -1868,5 +1868,5 @@
     "updatedAt": "2026-11-24T15:53:39Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-24T17:15:48Z"
+  "updatedAt": "2026-11-24T18:20:00.000000Z"
 }
