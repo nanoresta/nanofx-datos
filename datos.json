@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T02:51:34Z",
+ "generado": "2026-11-25T04:38:54Z",
  "errores": [],
  "fed": [
   {
@@ -14,13 +14,13 @@
    "subir": 95.0,
    "bajar": 5.0,
    "mantener": 0,
-   "tasaImplicita": 4.23
+   "tasaImplicita": 4.22
   },
   {
    "fecha": "2027-03-17",
    "subir": 93.5,
-   "bajar": 6.0,
-   "mantener": 0.5,
+   "bajar": 5.0,
+   "mantener": 1.5,
    "tasaImplicita": 4.4
   }
  ],
@@ -168,7 +168,7 @@
    "pcrOI": 1.56,
    "callWall": 720.0,
    "putWall": 700.0,
-   "gammaFlip": 736.24,
+   "gammaFlip": 736.28,
    "maxPain": 713.0,
    "vencimientoCercano": "2026-11-25",
    "escalera": [
@@ -349,7 +349,7 @@
     "precio": 7187,
     "callWall": 7212,
     "putWall": 7011,
-    "gammaFlip": 7374,
+    "gammaFlip": 7375,
     "maxPain": 7141
    },
    "odte": {
@@ -375,14 +375,14 @@
    "precio": 637.6,
    "oiFecha": "2026-11-20",
    "contratos": 1184,
-   "ratioIndice": null,
-   "ratioFecha": null,
+   "ratioIndice": 41.0733,
+   "ratioFecha": "2026-11-23",
    "regimen": "negativa",
    "gexTotal": -1.79,
    "pcrOI": 1.8,
    "callWall": 650.0,
    "putWall": 640.0,
-   "gammaFlip": 668.46,
+   "gammaFlip": 668.15,
    "maxPain": 638.0,
    "vencimientoCercano": "2026-11-25",
    "escalera": [
@@ -540,11 +540,11 @@
     }
    ],
    "indice": {
-    "precio": null,
-    "callWall": null,
-    "putWall": null,
-    "gammaFlip": null,
-    "maxPain": null
+    "precio": 26188,
+    "callWall": 26698,
+    "putWall": 26287,
+    "gammaFlip": 27443,
+    "maxPain": 26205
    },
    "odte": {
     "vencimiento": "2026-11-25",
@@ -557,18 +557,18 @@
     "maxPain": 638.0,
     "pcrOI": 0.6,
     "indice": {
-     "callWall": null,
-     "putWall": null,
+     "callWall": 26698,
+     "putWall": 26082,
      "gammaFlip": null,
-     "maxPain": null
+     "maxPain": 26205
     }
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-25T02:51:49Z"
+  "calculado": "2026-11-25T04:39:15Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-25T02:52:00Z",
+  "actualizado": "2026-11-25T04:39:25Z",
   "total": 38,
   "fase": "Expansión",
   "cambio4": -23,
