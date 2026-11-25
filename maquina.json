@@ -1,15 +1,23 @@
 {
-  "actualizado": "2026-11-24T19:46:00Z",
+  "actualizado": "2026-11-25T07:46:16Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento tardío",
     "fase": 0.65,
-    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de subir el 9 dic (Kalshi, 24 nov) y el 2 años está en el 4,69 %; la confianza del consumidor salta a 103,3 pero el PMI de servicios se frena (54,7) y la bolsa devuelve parte del rebote: pasado el techo, camino de la desaceleración."
+    "lectura": "La Fed (3,75-4,00 %) tiene un 96,5 % de subir el 9 dic (Kalshi, 25 nov) mientras el 2 años baja al 4,66 %; la confianza del consumidor salta a 103,3 pero el PMI de servicios se frena (54,7) y la bolsa vuelve a caer en futuros: pasado el techo, camino de la desaceleración. Hoy salen el PCE y el PIB del 3T (2.ª estimación)."
   },
   "fuentes": [
     {
-      "nombre": "Trading Economics – Bono 30 años EE. UU. (24 nov)",
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (25 nov)",
       "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bono 2 años EE. UU. (25 nov)",
+      "url": "https://tradingeconomics.com/united-states/2-year-note-yield"
+    },
+    {
+      "nombre": "TheStreet Pro – Mercado 24 nov (agenda PCE y PIB)",
+      "url": "https://pro.thestreet.com/stock-market-today/2026-11-24"
     },
     {
       "nombre": "FXStreet – Confianza del consumidor 103,3 (24 nov)",
@@ -137,7 +145,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,12 %), 95 % en enero y 93,5 % en marzo (Kalshi, 24 nov) · Williams (Fed NY) pide ajustar la política",
+      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,12 %), 95 % en enero y 93,5 % en marzo (Kalshi, 25 nov) · Williams (Fed NY) pide ajustar la política",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -167,10 +175,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "24 nov (Trading Economics) · -1 pb en 1 mes; 2 años 4,69 %, 10 años 4,91 % (mínimo de dos semanas)",
+      "c": "25 nov (Trading Economics) · -2 pb en 1 mes; 2 años 4,66 %, 10 años 4,86 % (mínimo de dos semanas)",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,29 %"
+      "v": "5,28 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -183,9 +191,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,29 % (24 nov) y los extranjeros compran menos (indirectos del 54,3 % en la subasta de 5 años): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años sigue en el 5,28 % (25 nov) y los extranjeros compran menos (indirectos del 54,3 % en la subasta de 5 años): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está pasado el techo del ciclo corto: la Fed va camino de subir el 9 dic (96,5 %, Kalshi) con el PMI de servicios ya frenándose (54,7), aunque la confianza del consumidor repunta (103,3). En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,29 %.",
+  "lectura": "EE. UU. está pasado el techo del ciclo corto: la Fed va camino de subir el 9 dic (96,5 %, Kalshi) con el PMI de servicios ya frenándose (54,7) y la bolsa otra vez a la baja, aunque la confianza del consumidor repunta (103,3). En el ciclo largo seguimos cerca del techo, con la deuda creciendo al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años en el 5,28 %.",
   "palancas": [
     {
       "estado": "rojo",
@@ -492,6 +500,11 @@
       "corto": 0.65,
       "largo": 0.76,
       "ts": "2026-11-24T19:46:00Z"
+    },
+    {
+      "corto": 0.65,
+      "largo": 0.76,
+      "ts": "2026-11-25T07:46:16Z"
     }
   ]
 }

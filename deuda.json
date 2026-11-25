@@ -1,16 +1,16 @@
 {
-  "actualizado": "2026-11-24T19:46:00Z",
+  "actualizado": "2026-11-25T07:46:16Z",
   "alarmas": [
     {
       "estado": "amarillo",
       "nombre": "Bono EE. UU. 30 años",
-      "nota": "A 21 pb del umbral de atención (5,5 %); plano en el mes y sin reacción ni al rally ni a la caída de la IA (Trading Economics).",
-      "valor": "5,29 % (24 nov)"
+      "nota": "A 22 pb del umbral de atención (5,5 %); casi plano en el mes (-2 pb) pese a la Fed subiendo (Trading Economics).",
+      "valor": "5,28 % (25 nov)"
     },
     {
       "estado": "amarillo",
       "nombre": "Subasta de 5 años (24 nov)",
-      "nota": "Cobertura por encima de la media (2,31) pero los extranjeros flojean (indirectos 54,3 % frente a 61,9 %) y los directos suplen (36,7 %); ayer el 2 años también tuvo indirectos débiles (51,5 %); mañana 7 años (44.000 M$) (Helious).",
+      "nota": "Cobertura 2,37 por encima de la media pero indirectos flojos (54,3 % frente a 61,9 %); el 2 años (23 nov) salió con stop-through y cobertura 2,65; hoy 7 años (44.000 M$) (Helious, TheStreet).",
       "valor": "4,719 %; cola 0,3 pb; cobertura 2,37; indirectos 54,3 %"
     },
     {
@@ -37,25 +37,25 @@
       {
         "estado": "rojo",
         "n": "Precios caros frente a su valor",
-        "nota": "24 nov: el S&P 500 cede un 0,5 % (~7.202) y el Nasdaq un 1,4 % tras el rally del lunes; Nvidia cae un 7 % y Micron un 10 % (Yahoo/StockTitan); el CAPE (~41, 8 oct) sigue cerca de 2000.",
-        "valor": "CAPE ~41 (8 oct); S&P 500 ~7.200"
+        "nota": "25 nov: los futuros del S&P 500 caen un 0,7 % (~7.145) y los del Nasdaq 100 un 1,2 % con los chips otra vez a la baja (Benzinga); el lunes subió un 4,7 % a 7.237 (TheStreet); CAPE ~41 (8 oct) cerca de 2000.",
+        "valor": "CAPE ~41 (8 oct); S&P 500 ~7.150"
       },
       {
         "estado": "amarillo",
         "n": "El precio ya descuenta subidas rápidas",
-        "nota": "Con el S&P 500 en ~7.200 (24 nov) la rentabilidad por beneficios ronda el 5,5 % (estim.) frente al bono a 10 años en el 4,91 %: la prima sigue estrecha.",
+        "nota": "Con el S&P 500 en ~7.150 (25 nov) la rentabilidad por beneficios ronda el 5,5 % (estim.) frente al bono a 10 años en el 4,86 %: la prima sigue estrecha.",
         "valor": "Prima de riesgo ≈ 60-80 pb (estim.)"
       },
       {
         "estado": "amarillo",
         "n": "Muchos compradores nuevos",
-        "nota": "24 nov: bitcoin cae por debajo de 60.000 $ con salidas récord de 4.710 M$ de sus ETF en noviembre (Invezz) y Anthropic cotiza por debajo de su precio de OPV (83 $, Yahoo): el dinero nuevo se enfría.",
-        "valor": "BTC <60.000 $; salidas ETF BTC récord"
+        "nota": "25 nov: los ETF de bitcoin van camino de su peor mes, con salidas cercanas a 5.000 M$ (Bloomberg), BTC por debajo de 60.000 $ y Anthropic bajo su precio de OPV (83 $): el dinero nuevo se enfría.",
+        "valor": "BTC <60.000 $; salidas ETF BTC ~5.000 M$"
       },
       {
         "estado": "verde",
         "n": "Sentimiento eufórico",
-        "nota": "24 nov: el VIX se queda en 26,7 (Yahoo) y la AAII tenía 42,2 % de bajistas (18 nov); la confianza del consumidor sube a 103,3 (Conference Board): alivio, todavía no euforia.",
+        "nota": "El VIX cerró el lunes en 26,6 (TheStreet, 23 nov) y la AAII tenía 42,2 % de bajistas (18 nov); la confianza del consumidor sube a 103,3 (Conference Board, 24 nov): alivio, no euforia.",
         "valor": "VIX 26,7; AAII 42 % bajistas"
       },
       {
@@ -71,53 +71,97 @@
         "valor": "296.000 M$ en bonos + >750.000 M$ circulares"
       }
     ],
-    "lectura": "La bolsa de EE. UU. y la IA se quedan en 63/100 de burbuja, aún lejos de los ~85 de 2000 y 1929: el rally del lunes se desinfla en parte (Nvidia -7 %, Nasdaq -1,4 % el 24 nov) y el sentimiento sigue lejos de la euforia. Lo que más pesa sigue siendo la sobreinversión en IA a crédito y el apalancamiento de margen cerca de récord.",
+    "lectura": "La bolsa de EE. UU. y la IA se quedan en 63/100 de burbuja, aún lejos de los ~85 de 2000 y 1929: los futuros vuelven a caer antes del PCE (Nasdaq 100 -1,2 % el 25 nov) y el sentimiento sigue lejos de la euforia. Lo que más pesa sigue siendo la sobreinversión en IA a crédito y el apalancamiento de margen cerca de récord.",
     "nivel": 63,
     "pinchazo": [
       {
         "estado": "amarillo",
         "n": "Curva 2 frente a 30 años",
-        "nota": "24 nov: los dos plazos bajan 2 pb y la curva no se mueve: sin tipos largos disparados (Trading Economics).",
-        "valor": "+60 pb (4,69 % / 5,29 %)"
+        "nota": "25 nov: el 2 años baja algo más que el 30 años y la curva apenas se empina 2 pb: sin tipos largos disparados (Trading Economics).",
+        "valor": "+62 pb (4,66 % / 5,28 %)"
       },
       {
         "estado": "rojo",
         "n": "Fed y tipos reales",
-        "nota": "24 nov: Kalshi 96,5 % de subida en diciembre (implícita 4,12 %) y los futuros ~95 % de 25 pb y ~5 % de 50 pb (Yahoo); Williams (Fed NY) pide ajustar la política: subir con la bolsa frágil es el mayor riesgo de pinchazo.",
+        "nota": "25 nov: ~96 % de subida de 25 pb el 9 dic (Trading Economics) y 96,5 % en Kalshi (implícita 4,12 %); Williams (Fed NY, 23 nov) pide ajustar la política: subir con la bolsa frágil es el mayor riesgo de pinchazo.",
         "valor": "3,75-4,00 %; 95-96,5 % subida el 9 dic"
       },
       {
         "estado": "verde",
         "n": "Dólar (DXY)",
-        "nota": "24 nov: el dólar cede un 0,5 % desde máximos de 20 meses (Trading Economics), pero no hay huida del dólar.",
-        "valor": "103,8 (+1,8 % en 1 mes)"
+        "nota": "25 nov: el dólar rebota un 0,2 % tras ceder desde 104,5 con los nuevos aranceles (Trading Economics, FXStreet): no hay huida del dólar.",
+        "valor": "104,0 (+2,0 % en 1 mes)"
       },
       {
         "estado": "verde",
         "n": "Oro",
-        "nota": "24 nov: el oro devuelve el rebote del lunes y cae un 2,4 % (Yahoo): no hay huida hacia el refugio.",
-        "valor": "~3.560 $/oz (-2,4 %)"
+        "nota": "25 nov: el oro cae un 2,2 % desde los máximos de 3.640 $ del lunes antes del PCE (Mitrade): no hay huida hacia el refugio.",
+        "valor": "~3.556 $/oz (-2,2 %)"
       },
       {
         "estado": "amarillo",
         "n": "Necesidad de liquidez",
-        "nota": "24 nov: la bolsa devuelve parte del rebote y bitcoin sufre 875 M$ de liquidaciones en 24 h (U.Today); el diferencial high yield estaba en 3,52 % (20 nov, FRED): tensión contenida.",
-        "valor": "S&P -0,5 %; VIX 26,7"
+        "nota": "25 nov: los futuros de bolsa caen de nuevo y bitcoin sigue bajo 60.000 $ con salidas de ETF cercanas a 5.000 M$ en el mes (Bloomberg); el diferencial high yield estaba en 3,52 % (20 nov, FRED): tensión contenida.",
+        "valor": "Futuros S&P -0,7 %; VIX ~26,6"
       }
     ]
   },
   "fuentes": [
     {
-      "nombre": "Trading Economics – Bono 10 años EE. UU. (24 nov)",
+      "nombre": "Trading Economics – Bono 10 años EE. UU. (25 nov)",
       "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
-      "nombre": "Trading Economics – Bono 30 años EE. UU. (24 nov)",
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (25 nov)",
       "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
     },
     {
-      "nombre": "Trading Economics – Bono 2 años EE. UU. (24 nov)",
+      "nombre": "Trading Economics – Bono 2 años EE. UU. (25 nov)",
       "url": "https://tradingeconomics.com/united-states/2-year-note-yield"
+    },
+    {
+      "nombre": "Trading Economics – JGB 10 años (25 nov)",
+      "url": "https://tradingeconomics.com/japan/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – JGB 30 años (25 nov)",
+      "url": "https://tradingeconomics.com/japan/30-year-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bund 10 años (25 nov)",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – USD/JPY (25 nov)",
+      "url": "https://tradingeconomics.com/japan/currency"
+    },
+    {
+      "nombre": "Trading Economics – USD/CNY (25 nov)",
+      "url": "https://tradingeconomics.com/china/currency"
+    },
+    {
+      "nombre": "Trading Economics – Índice del dólar (25 nov)",
+      "url": "https://tradingeconomics.com/united-states/currency"
+    },
+    {
+      "nombre": "Reuters vía FVBB – La curva japonesa se empina; subasta floja a 40 años (25 nov)",
+      "url": "https://fvbb.com/ns/japan-bond-yield-curve-steepens-as-markets/332577"
+    },
+    {
+      "nombre": "TheStreet Pro – Mercado 24 nov (subastas, VIX, S&P 500)",
+      "url": "https://pro.thestreet.com/stock-market-today/2026-11-24"
+    },
+    {
+      "nombre": "Political.org – EE. UU. prepara aranceles 301 a China, UE, México y Japón (24 nov)",
+      "url": "https://political.org/2026/11/24/trump-administration-preparing-new-section-301-tariffs-on-china-eu-mexico-japan-and-others/"
+    },
+    {
+      "nombre": "Bloomberg – Los ETF de bitcoin, camino de su peor mes (25 nov)",
+      "url": "https://bloomberg.com/news/articles/2026-11-25/bitcoin-funds-head-for-worst-month-as-outflows-near-5-billion"
+    },
+    {
+      "nombre": "JournalArta – Futuros del S&P 500 caen con los chips (25 nov)",
+      "url": "https://journalarta.com/en/2026/11/25/sp-500-futures-slip-as-chip-selloff-deepens-dow-futures-rise/"
     },
     {
       "nombre": "Helious – Subasta de 5 años en línea (24 nov)",
@@ -130,30 +174,6 @@
     {
       "nombre": "StockTitan – Mercado en directo 24 nov (Nvidia, chips)",
       "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
-    },
-    {
-      "nombre": "Trading Economics – JGB 10 años e IPC de Japón (24 nov)",
-      "url": "https://tradingeconomics.com/japan/government-bond-yield"
-    },
-    {
-      "nombre": "Trading Economics – JGB 30 años (24 nov)",
-      "url": "https://tradingeconomics.com/japan/30-year-bond-yield"
-    },
-    {
-      "nombre": "Trading Economics – Bund 10 años (24 nov)",
-      "url": "https://tradingeconomics.com/germany/government-bond-yield"
-    },
-    {
-      "nombre": "Trading Economics – USD/JPY (24 nov)",
-      "url": "https://tradingeconomics.com/japan/currency"
-    },
-    {
-      "nombre": "Trading Economics – USD/CNY (24 nov)",
-      "url": "https://tradingeconomics.com/china/currency"
-    },
-    {
-      "nombre": "Trading Economics – Índice del dólar (24 nov)",
-      "url": "https://tradingeconomics.com/united-states/currency"
     },
     {
       "nombre": "Invezz – Bitcoin por debajo de 60.000 $ y salidas récord de ETF (24 nov)",
@@ -246,41 +266,21 @@
     {
       "nombre": "Trading Economics – Bono 10 años Rusia (19 nov)",
       "url": "https://tradingeconomics.com/russia/government-bond-yield"
-    },
-    {
-      "nombre": "FXStreet – El oro se acerca a 3.500 $ (20 nov)",
-      "url": "https://www.fxstreet.com/news/forex-today-gold-extends-slide-toward-3-500-despite-us-dollar-pullback-202611200712"
-    },
-    {
-      "nombre": "Reuters/Investing.com – Tenencia extranjera de Treasuries en septiembre (18 nov)",
-      "url": "https://www.investing.com/news/economic-indicators/foreign-holdings-of-us-treasuries-dip-in-sept-china-holdings-hit-2008-low-data-show-5037222"
-    },
-    {
-      "nombre": "TokenPost – Los extranjeros recortan 75.500 M$ de Treasuries (18 nov)",
-      "url": "https://www.tokenpost.com/news/investing/60989"
-    },
-    {
-      "nombre": "Fed de Nueva York – Deuda de los hogares 3T 2026 (10 nov)",
-      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110"
-    },
-    {
-      "nombre": "PBS – Anthropic fija su OPV en 83 $ (18 nov)",
-      "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion"
     }
   ],
-  "lectura": "EE. UU. sigue siendo lo que más preocupa por su déficit (2 bill. $) y por la deuda con la que se financia la IA, aunque los bonos aguantan: el 30 años sigue en el 5,29 % y el 10 años baja al 4,91 %, mínimo de dos semanas. El riesgo se mantiene en 50; lo nuevo desde esta mañana es que la subasta de 5 años salió en línea pero con indirectos flojos (54,3 % frente al 61,9 % de media), el JGB a 10 años baja al 2,72 % y el dólar cede desde máximos (DXY 103,8).",
+  "lectura": "EE. UU. sigue siendo lo que más preocupa por su déficit (2 bill. $) y por la deuda con la que se financia la IA, aunque los bonos siguen bajando antes del PCE de hoy: el 30 años cede al 5,28 % y el 10 años al 4,86 %, mínimo de dos semanas. El riesgo se mantiene en 50; lo nuevo es que EE. UU. prepara aranceles de la Sección 301 contra China, la UE, Japón y México, y que la subasta de JGB a 40 años salió floja (rinde 4,175 %), señal de que el inversor japonés sigue sin querer plazos largos.",
   "regiones": [
     {
       "datos": [
         {
-          "c": "24 nov, -4 pb en el día, -8 pb en 1 mes; mínimo de dos semanas (Trading Economics)",
+          "c": "25 nov, -6 pb en el día, -13 pb en 1 mes; mínimo de dos semanas (Trading Economics)",
           "n": "Bono 10 años",
-          "v": "4,91 %"
+          "v": "4,86 %"
         },
         {
-          "c": "24 nov, -2 pb en el día, -1 pb en 1 mes (Trading Economics)",
+          "c": "25 nov, -4 pb en el día, -2 pb en 1 mes (Trading Economics)",
           "n": "Bono 30 años",
-          "v": "5,29 %"
+          "v": "5,28 %"
         },
         {
           "c": "fin AF2026 (CRFB, 1 oct)",
@@ -296,14 +296,14 @@
       "estado": "amarillo",
       "id": "US",
       "nombre": "EE. UU.",
-      "nota": "Los bonos ni se inmutan con la caída de Nvidia (-7 %) tras su rally histórico: el 10 años baja al 4,91 % y el 2 años al 4,69 % pese a un 95-96,5 % de subida de la Fed el 9 dic; la subasta de 5 años (70.000 M$) salió en línea y mañana toca la de 7 años."
+      "nota": "Los bonos siguen comprándose antes del PCE subyacente y el PIB de hoy: 10 años 4,86 %, 2 años 4,66 %, pese a un 96 % de subida de la Fed el 9 dic; la subasta de 5 años salió en línea (cola 0,3 pb) y hoy toca la de 7 años (44.000 M$)."
     },
     {
       "datos": [
         {
-          "c": "24 nov; plano en el día, -8 pb en 1 mes (Trading Economics)",
+          "c": "25 nov; -2 pb en el día, -11 pb en 1 mes; máximo de 17 años 3,65 % a fin de sept. (Trading Economics)",
           "n": "Bund 10 años",
-          "v": "3,28 %"
+          "v": "3,25 %"
         },
         {
           "c": "1T 2026 (Eurostat, 21 jul)",
@@ -311,7 +311,7 @@
           "v": "88,9 %"
         },
         {
-          "c": "~91 % de subida de 25 pb el 17 dic (LSEG, 18 nov); Alemania propone a Brunnermeier como economista jefe",
+          "c": "~91 % de subida de 25 pb el 17 dic (LSEG, 18 nov); el mercado ve dos subidas más hasta marzo de 2027 (Trading Economics, 25 nov)",
           "n": "Tipo depósito BCE",
           "v": "2,50 %"
         },
@@ -324,7 +324,7 @@
       "estado": "amarillo",
       "id": "EU",
       "nombre": "Eurozona",
-      "nota": "El Bund sigue estable en el 3,28 % y el euro rebota hasta 1,098 tras tocar mínimos de 19 meses (FXStreet, 24 nov); el BCE va camino de subir el 17 dic, EE. UU. investiga a la UE por la Sección 301 y la prima francesa (157 pb, 28 oct) es el punto débil."
+      "nota": "El Bund baja al 3,25 % por las dudas sobre la eurozona; el BCE va camino de subir el 17 dic y EE. UU. prepara aranceles de la Sección 301 contra la UE (24 nov); la prima francesa (157 pb, 28 oct) sigue siendo el punto débil."
     },
     {
       "datos": [
@@ -339,9 +339,9 @@
           "v": "563.900 M$"
         },
         {
-          "c": "24 nov, -0,07 %; yuan +6 % en un año; fijación del PBOC 6,7111, la más fuerte desde abril de 2022 (Trading Economics)",
+          "c": "25 nov, -0,08 %; yuan +5,8 % en un año; yuan offshore en máximos de 3 semanas; fijación PBOC 6,7111, la más fuerte desde abril de 2022 (Trading Economics)",
           "n": "USD/CNY",
-          "v": "6,662"
+          "v": "6,660"
         },
         {
           "c": "23.º mes seguido; 2.410 t",
@@ -352,19 +352,19 @@
       "estado": "amarillo",
       "id": "CN",
       "nombre": "China",
-      "nota": "China sigue saliendo de los Treasuries (563.900 M$, mínimo desde 2008, TIC sept.) y deja apreciarse el yuan (6,66, fijación más fuerte desde 2022); la nueva ola arancelaria de EE. UU. (Sección 301, 24 nov) la apunta como principal objetivo."
+      "nota": "China sigue saliendo de los Treasuries (563.900 M$, mínimo desde 2008, TIC sept.) y deja apreciarse el yuan (6,66); EE. UU. prepara nuevos aranceles de la Sección 301 con China como principal objetivo (24 nov)."
     },
     {
       "datos": [
         {
-          "c": "24 nov, -7 pb en el día y en 1 mes (Trading Economics)",
+          "c": "25 nov, -8 pb en el día, -15 pb en 1 mes; mínimo de dos semanas (Trading Economics)",
           "n": "JGB 10 años",
-          "v": "2,72 %"
+          "v": "2,64 %"
         },
         {
-          "c": "24 nov, -3 pb en el día, +13 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
+          "c": "25 nov, +2 pb en el día, +14 pb en 1 mes; récord 4,25 % en octubre; el 40 años sube al 4,175 % tras una subasta floja (Reuters, 25 nov)",
           "n": "JGB 30 años",
-          "v": "3,94 %"
+          "v": "3,96 %"
         },
         {
           "c": "septiembre (TIC, 18 nov), -5.200 M$; 5.ª caída, mínimo desde dic-2024",
@@ -372,15 +372,15 @@
           "v": "1,063 bill. $"
         },
         {
-          "c": "24 nov, +0,15 %; yen -1,1 % en 1 mes (Trading Economics)",
+          "c": "25 nov, -0,14 %; yen -1,0 % en 1 mes (Trading Economics)",
           "n": "USD/JPY",
-          "v": "159,2"
+          "v": "159,0"
         }
       ],
       "estado": "amarillo",
       "id": "JP",
       "nombre": "Japón",
-      "nota": "Los JGB se relajan (10 años 2,72 %) aunque el IPC de octubre sube al 2,3 % y el mercado ve subida del BoJ en diciembre y otra en marzo; el yen sigue en 159 y Japón lleva 5 meses vendiendo Treasuries (TIC)."
+      "nota": "La curva japonesa se empina: el 10 años cae al 2,64 % por refugio pero el 40 años sube tras una subasta floja; la inflación de servicios (4,2 %, máximo desde 1990) sostiene la subida del BoJ al 1,5 % en diciembre y el yen sigue en 159."
     },
     {
       "datos": [
@@ -676,6 +676,11 @@
       "burbuja": 63,
       "riesgo": 50,
       "ts": "2026-11-24T19:46:00Z"
+    },
+    {
+      "burbuja": 63,
+      "riesgo": 50,
+      "ts": "2026-11-25T07:46:16Z"
     }
   ]
 }
