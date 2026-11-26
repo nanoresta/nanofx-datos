@@ -1,1 +1,696 @@
-{"actualizado": "2026-11-26T07:46:00Z", "alarmas": [{"estado": "amarillo", "nombre": "Bono EE. UU. 30 años", "nota": "A 25 pb del umbral de atención (5,5 %); cierra a la baja por refugio y el 26 nov el mercado está cerrado (Trading Economics).", "valor": "5,25 % (25 nov)"}, {"estado": "amarillo", "nombre": "Subasta de 7 años (25 nov)", "nota": "Demanda floja: cobertura bajo su media (2,48) e indirectos muy por debajo (63,6 %); la de 5 años (24 nov) también tuvo indirectos débiles (Helious, ROIC).", "valor": "4,708 %; cola 1 pb; cobertura 2,43; indirectos 58,2 %"}, {"estado": "rojo", "nombre": "Deuda de IA (hyperscalers)", "nota": "25 nov: CDS a 5 años en récord en Oracle, Alphabet y CoreWeave (1.314 pb), SoftBank 501 pb; deuda ligada a la IA ~466.000 M$ hasta sept. (Morgan Stanley) y 296.000 M$ de bonos de hyperscalers en 2026 (Goldman).", "valor": "CDS Oracle 356 pb (récord)"}, {"estado": "amarillo", "nombre": "Morosidad hogares (paso a 90+ días)", "nota": "3T 2026 (Fed de Nueva York, 10 nov): tarjetas algo mejor que hace un año (7,05 %) y coches algo peor (2,99 %); deuda de tarjetas récord de 1,285 bill. $ y el 5,0 % de la deuda con algún retraso (+0,3 pt).", "valor": "Tarjetas 6,87 %; coches 3,02 %"}, {"estado": "amarillo", "nombre": "Tenencia extranjera de Treasuries", "nota": "TIC (18 nov): -75.500 M$ en septiembre, la mayor caída en seis meses y mínimo de un año, lideradas por China, Francia y Japón; el récord fue 9,487 bill. en febrero (Reuters).", "valor": "9,241 bill. $ (sept.)"}], "burbuja": {"indicadores": [{"estado": "rojo", "n": "Precios caros frente a su valor", "nota": "25 nov: el S&P 500 cierra en 7.182,78 (-0,25 %) tras caer más de un 3 % intradía y el Nasdaq 100 sigue en mercado bajista (CNBC); el CAPE (~41, 8 oct) sigue cerca de 2000.", "valor": "CAPE ~41 (8 oct); S&P 500 7.183"}, {"estado": "amarillo", "n": "El precio ya descuenta subidas rápidas", "nota": "Con el S&P 500 en 7.183 (25 nov) la rentabilidad por beneficios ronda el 5,5 % (estim.) frente al bono a 10 años en el 4,86 %: la prima sigue estrecha.", "valor": "Prima de riesgo ≈ 60-80 pb (estim.)"}, {"estado": "amarillo", "n": "Muchos compradores nuevos", "nota": "25 nov: Anthropic cae a ~75 $ frente a su OPV de 83 $ (19 nov), bitcoin marca mínimos bajo 58.000 $ (CoinDesk) y los ETF de BTC suman salidas de ~5.000 M$ en el mes (Bloomberg).", "valor": "Anthropic bajo OPV; BTC <58.000 $"}, {"estado": "verde", "n": "Sentimiento eufórico", "nota": "25 nov: el mercado vive miedo, no euforia: Nasdaq 100 en mercado bajista y la AAII con 42,2 % de bajistas (18 nov).", "valor": "VIX ~27; AAII 42 % bajistas"}, {"estado": "rojo", "n": "Compras con mucho apalancamiento", "nota": "FINRA: deuda de margen en 1,48 bill. $ en septiembre, +31,4 % interanual, cerca del récord de junio (1,50 bill.); el dato de octubre sale el 28 nov (YCharts).", "valor": "Margen 1,48 bill. $ (sept.)"}, {"estado": "rojo", "n": "Sobreinversión por miedo a quedarse fuera", "nota": "25 nov: capex previsto de los grandes de 780.000-800.000 M$ en 2026, deuda de IA ~466.000 M$ hasta sept. (Morgan Stanley) y >750.000 M$ de financiación circular (Bloomberg); CoreWeave paga ~18 % en sus bonos 2031.", "valor": "Capex 780.000-800.000 M$ 2026; CDS récord"}], "lectura": "La bolsa de EE. UU. y la IA siguen en 61/100 de burbuja, por debajo de los ~85 de 2000 y 1929, porque se está desinflando: el S&P 500 llegó a caer más de un 3 % el 25 nov antes de cerrar en 7.183 (-0,25 %) y el Nasdaq 100 está en mercado bajista. Lo que más pesa es la sobreinversión en IA a crédito, que el mercado castiga con seguros de impago en récord.", "nivel": 61, "pinchazo": [{"estado": "amarillo", "n": "Curva 2 frente a 30 años", "nota": "Cierre del 25 nov: bajan igual cortos y largos por refugio; la curva no se dispara (Trading Economics).", "valor": "+60 pb (4,65 % / 5,25 %)"}, {"estado": "rojo", "n": "Fed y tipos reales", "nota": "26 nov: Kalshi sube al 96,5 % la probabilidad de subida (implícita 4,12 %) tras un PCE subyacente del 3,3 %: subir con el Nasdaq en mercado bajista es el mayor riesgo de pinchazo.", "valor": "3,75-4,00 %; 96,5 % subida el 9 dic"}, {"estado": "verde", "n": "Dólar (DXY)", "nota": "26 nov: el dólar se estabiliza tras dos días de caídas, cerca de máximos de 20 meses (Trading Economics): no hay huida del dólar.", "valor": "103,7 (+1,4 % en 1 mes)"}, {"estado": "verde", "n": "Oro", "nota": "26 nov: el oro rebota hacia 3.590 $ tras tocar un mínimo de 52 semanas (~3.426-3.476 $) el 25 nov (investingLive, CNBC): se vendió para conseguir liquidez.", "valor": "~3.590 $/oz"}, {"estado": "rojo", "n": "Necesidad de liquidez", "nota": "25 nov: CoreWeave en 1.314 pb (zona de quiebra), SoftBank -40 % en noviembre y venta de oro y bitcoin a la vez: señales de necesidad de efectivo.", "valor": "CDS IA en récord; SoftBank -14,8 %"}]}, "fuentes": [{"nombre": "Trading Economics – Bono 30 años EE. UU. (cierre 25 nov)", "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"}, {"nombre": "Trading Economics – Bono 10 años EE. UU. (25 nov)", "url": "https://tradingeconomics.com/united-states/government-bond-yield"}, {"nombre": "Trading Economics – Bono 2 años EE. UU. (25 nov)", "url": "https://tradingeconomics.com/united-states/2-year-note-yield"}, {"nombre": "Trading Economics – JGB 10 años y Tamura (26 nov)", "url": "https://tradingeconomics.com/japan/government-bond-yield"}, {"nombre": "Trading Economics – JGB 30 años (26 nov)", "url": "https://tradingeconomics.com/japan/30-year-bond-yield"}, {"nombre": "Trading Economics – Bund 10 años (26 nov)", "url": "https://tradingeconomics.com/germany/government-bond-yield"}, {"nombre": "Trading Economics – USD/JPY (26 nov)", "url": "https://tradingeconomics.com/japan/currency"}, {"nombre": "Trading Economics – USD/CNY (26 nov)", "url": "https://tradingeconomics.com/china/currency"}, {"nombre": "Trading Economics – Índice del dólar (26 nov)", "url": "https://tradingeconomics.com/united-states/currency"}, {"nombre": "Trading Economics – Bono 10 años China (26 nov)", "url": "https://tradingeconomics.com/china/government-bond-yield"}, {"nombre": "Trading Economics – OFZ 10 años Rusia (25 nov)", "url": "https://tradingeconomics.com/russia/government-bond-yield"}, {"nombre": "GKToday – China compra 25,8 t de oro en octubre", "url": "https://www.gktoday.in/china-adds-25-8-tonnes-of-gold-to-reserves-in-october/"}, {"nombre": "China Daily HK – Reservas de oro de octubre (8 nov)", "url": "https://www.chinadailyhk.com/article/642391"}, {"nombre": "ROIC – La subasta de 7 años sale con cola (25 nov)", "url": "https://www.roic.ai/news/treasury-7-year-auction-tails-as-demand-disappoints-11-25-2026"}, {"nombre": "Helious – Subasta de 7 años (25 nov)", "url": "https://helious.io/news/auc-91282CSA0-2026-11-25/7-year-note-auction-in-line"}, {"nombre": "Disruption Banking – CDS de la IA en récord (25 nov)", "url": "https://www.disruptionbanking.com/2026/11/25/why-are-ai-credit-default-swaps-hitting-record-spreads/"}, {"nombre": "Wisevoter – Seguros de impago de la IA en máximos (25 nov)", "url": "https://wisevoter.com/world/2026/11/25/ai-debt-insurance-costs-hit-record-highs"}, {"nombre": "BNN Bloomberg/AP – Sigue la venta de IA (25 nov)", "url": "https://www.bnnbloomberg.ca/markets/2026/11/25/ai-rout-continues-as-market-exuberance-fades-over-improbable-return-of-nvidias-huang"}, {"nombre": "CNBC – Propuesta de aranceles Sección 301 (25 nov)", "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"}, {"nombre": "Benzinga – S&P 500 hacia su peor mes desde 2022 (25 nov)", "url": "https://www.benzinga.com/markets/equities/26/11/63643697/stock-market-today-nvidia-ai-credit-fears-sp-500-worst-month-since-2022"}, {"nombre": "Hong Kong Free Press – China responde a los aranceles (25 nov)", "url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/"}, {"nombre": "BullionVault – El oro perfora los 3.500 $ (25 nov)", "url": "https://bullionvault.com/gold-news/gold-price-news/gold-3500-silver-crash-fed-112520261"}, {"nombre": "Reuters vía FVBB – La curva japonesa se empina; subasta floja a 40 años (25 nov)", "url": "https://fvbb.com/ns/japan-bond-yield-curve-steepens-as-markets/332577"}, {"nombre": "TheStreet Pro – Mercado 24 nov (subastas, VIX, S&P 500)", "url": "https://pro.thestreet.com/stock-market-today/2026-11-24"}, {"nombre": "Political.org – EE. UU. prepara aranceles 301 a China, UE, México y Japón (24 nov)", "url": "https://political.org/2026/11/24/trump-administration-preparing-new-section-301-tariffs-on-china-eu-mexico-japan-and-others/"}, {"nombre": "Bloomberg – Los ETF de bitcoin, camino de su peor mes (25 nov)", "url": "https://bloomberg.com/news/articles/2026-11-25/bitcoin-funds-head-for-worst-month-as-outflows-near-5-billion"}, {"nombre": "JournalArta – Futuros del S&P 500 caen con los chips (25 nov)", "url": "https://journalarta.com/en/2026/11/25/sp-500-futures-slip-as-chip-selloff-deepens-dow-futures-rise/"}, {"nombre": "Helious – Subasta de 5 años en línea (24 nov)", "url": "https://helious.io/news/auc-91282CRZ6-2026-11-24/5-year-note-auction-in-line"}, {"nombre": "Yahoo Finance – Mercado en directo 24 nov (S&P 500, VIX, oro, Fed)", "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"}, {"nombre": "StockTitan – Mercado en directo 24 nov (Nvidia, chips)", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"}, {"nombre": "Invezz – Bitcoin por debajo de 60.000 $ y salidas récord de ETF (24 nov)", "url": "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/"}, {"nombre": "Japan Times – Los JGB suben en toda la curva con la bolsa (24 nov)", "url": "https://www.japantimes.co.jp/business/2026/11/24/markets/japan-stocks-surge-bonds/"}, {"nombre": "MarketScreener/Dow Jones – Suben los Treasuries con la vuelta de Huang; bajan los bonos europeos (23 nov)", "url": "https://www.marketscreener.com/news/treasury-yields-rise-as-huang-returns-as-ceo-european-bond-yields-slip-update-ce7851dadd81f32d"}, {"nombre": "Newsquawk – Fijación del yuan 6,7128", "url": "https://www.newsquawk.com/headlines/pboc-sets-usdcny-midpoint-at-67128-vs-exp-66684-prev-67118"}, {"nombre": "Helious – Subasta de 2 años en línea (23 nov)", "url": "https://helious.io/news/auc-91282CRY9-2026-11-23/2-year-note-auction-in-line"}, {"nombre": "CoinDesk – Wall Street rebota, el dólar en máximos (23 nov)", "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025"}, {"nombre": "JournalArta – Apertura del 23 nov (VIX, oro, S&P 500)", "url": "https://journalarta.com/en/2026/11/23/stock-market-today-sp-500-jumps-3-9-and-nasdaq-5-8-at-the-open-as-vix-drops/"}, {"nombre": "TMGM/FXStreet – El yen se debilita con el rally de Nvidia (23 nov)", "url": "https://www.tmgm.com/en/analysis/market-news/article/japanese-yen-weakens-as-nvidia-led-stock-rally-boosts-risk-appetite-202611231815"}, {"nombre": "Nvidia – Reincorporación de Jensen Huang (23 nov)", "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"}, {"nombre": "Newsquawk – Fijación del yuan del PBOC", "url": "https://www.newsquawk.com/headlines/pboc-sets-usdcny-midpoint-at-67118-vs-exp-66654-prev-67132"}], "lectura": "EE. UU. sigue siendo lo que más preocupa: la deuda de la IA tiene sus seguros de impago en récord y la Fed va camino de subir tipos el 9 dic (96,5 %, Kalshi) en plena caída de las tecnológicas. Desde la última vez, el bono a 30 años cerró el miércoles en el 5,25 % (10 años 4,86 %) y Wall Street recortó la caída hasta el -0,25 %; hoy el mercado de bonos de EE. UU. está cerrado por Acción de Gracias. En Japón el BoJ (Tamura) pide acercarse ya al tipo neutral y China compró 25,8 t de oro en octubre; el riesgo se mantiene en 51.", "regiones": [{"datos": [{"c": "cierre 25 nov, -7 pb en el día, -13 pb en 1 mes; tocó 4,81 %, mínimo de 10 semanas (Trading Economics)", "n": "Bono 10 años", "v": "4,86 %"}, {"c": "cierre 25 nov, -7 pb en el día, -5 pb en 1 mes; 26 nov mercado cerrado (Trading Economics)", "n": "Bono 30 años", "v": "5,25 %"}, {"c": "fin AF2026 (CRFB, 1 oct)", "n": "Deuda en manos del público", "v": "32,3 bill. $ (~100 % PIB)"}, {"c": "3,4 % y 6,2 % del PIB", "n": "Intereses / déficit AF2026", "v": "1,1 bill. $ / 2,0 bill. $"}], "estado": "amarillo", "id": "US", "nombre": "EE. UU.", "nota": "Huida a los bonos con la venta de la IA pese al PCE subyacente del 3,3 % y la Fed al 96,5 % de subir el 9 dic; la subasta de 7 años (25 nov) salió floja: cola de 1 pb, cobertura 2,43 e indirectos 58,2 %. Bonos cerrados el 26 nov por Acción de Gracias."}, {"datos": [{"c": "26 nov; mínimo de tres meses el 25 nov, -10 pb en 1 mes (Trading Economics)", "n": "Bund 10 años", "v": "3,22-3,25 %"}, {"c": "1T 2026 (Eurostat, 21 jul)", "n": "Deuda/PIB eurozona", "v": "88,9 %"}, {"c": "~91 % de subida de 25 pb el 17 dic (LSEG, 18 nov); el mercado ve dos subidas más hasta marzo de 2027 (Trading Economics, 25 nov)", "n": "Tipo depósito BCE", "v": "2,50 %"}, {"c": "28 oct; OAT 10 años 4,94 %", "n": "Prima Francia (OAT-Bund)", "v": "157 pb"}], "estado": "amarillo", "id": "EU", "nombre": "Eurozona", "nota": "El Bund cae a mínimos de tres meses como refugio ante la venta de la IA; el BCE va camino de subir el 17 dic y EE. UU. propone aranceles de hasta el 18 % a la UE (Sección 301, no antes de enero); la prima francesa (157 pb, 28 oct) sigue siendo el punto débil."}, {"datos": [{"c": "26 nov; cerca de mínimos históricos, -4 pb en 1 mes (Trading Economics)", "n": "Bono 10 años", "v": "1,61 %"}, {"c": "septiembre (TIC, 18 nov), -4,5 % (-26.800 M$); 4.ª caída, mínimo en más de 18 años", "n": "Treasuries en manos chinas", "v": "563.900 M$"}, {"c": "26 nov, sin cambios; el yuan offshore cortó tres días de subidas por los aranceles (Trading Economics)", "n": "USD/CNY", "v": "6,67"}, {"c": "24.º mes seguido, pese a la caída del precio (GKToday/China Daily, 8 nov)", "n": "Compras de oro PBOC", "v": "+25,8 t en oct."}], "estado": "amarillo", "id": "CN", "nombre": "China", "nota": "EE. UU. prepara aranceles de la Sección 301 de ~20 % adicional a China (no antes de enero); China sigue saliendo de los Treasuries (563.900 M$, mínimo desde 2008) y acelera las compras de oro (+25,8 t en octubre)."}, {"datos": [{"c": "26 nov; rebota hacia 2,66 % desde mínimo de tres semanas, -16 pb en 1 mes (Trading Economics)", "n": "JGB 10 años", "v": "2,63 %"}, {"c": "26 nov, -3 pb en el día, +11 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)", "n": "JGB 30 años", "v": "3,93 %"}, {"c": "septiembre (TIC, 18 nov), -5.200 M$; 5.ª caída, mínimo desde dic-2024", "n": "Treasuries en manos japonesas", "v": "1,063 bill. $"}, {"c": "26 nov, sin cambios; yen -0,8 % en 1 mes; avisos verbales de Tokio, sin intervención (Trading Economics)", "n": "USD/JPY", "v": "159,2"}], "estado": "amarillo", "id": "JP", "nombre": "Japón", "nota": "Tamura (BoJ) pide acercarse pronto al tipo neutral y el mercado da por hecha una subida en diciembre; el JGB a 30 años sigue cerca del 4 % y el yen, en 159 por dólar, débil pese a ello."}, {"datos": [{"c": "mantenido el 23 oct; IPC 6,8 % (19 oct), previsión 2026 7,1-7,6 %", "n": "Tipo oficial", "v": "14,00 %"}, {"c": "25 nov; máximo desde marzo de 2022 (17,10 % el 21 nov), +56 pb en 1 mes (Trading Economics)", "n": "OFZ 10 años", "v": "17,07 %"}, {"c": "estimación de septiembre; ene-sept 5,19 bill. (2,2 % PIB); plan inicial 3,79 bill.", "n": "Déficit 2026 (previsión)", "v": "7,35 bill. rublos (3,2 % PIB)"}, {"c": "1 oct (46.700 M$ en sept.)", "n": "FNB líquido", "v": "45.000 M$"}], "estado": "rojo", "id": "RU", "nombre": "Rusia", "nota": "El OFZ a 10 años sigue en el 17,1 %, máximo desde 2022, con el tipo oficial en el 14 %: el mercado descarta bajadas con un déficit que casi duplica el plan."}], "riesgo": 51, "serie": [{"riesgo": 64, "ts": "2026-10-11T11:31:47Z"}, {"burbuja": 71, "riesgo": 64, "ts": "2026-10-11T11:46:58Z"}, {"burbuja": 71, "riesgo": 64, "ts": "2026-10-12T06:46:36Z"}, {"burbuja": 71, "riesgo": 63, "ts": "2026-10-13T18:46:03Z"}, {"burbuja": 71, "riesgo": 63, "ts": "2026-10-14T06:46:42Z"}, {"burbuja": 71, "riesgo": 63, "ts": "2026-10-14T18:46:02Z"}, {"burbuja": 71, "riesgo": 52, "ts": "2026-10-15T06:46:53Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-15T10:00:54Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-15T18:46:03Z"}, {"burbuja": 71, "riesgo": 50, "ts": "2026-10-16T06:46:10Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-16T18:46:31Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-19T06:47:26Z"}, {"burbuja": 71, "riesgo": 51, "ts": "2026-10-19T18:46:02Z"}, {"burbuja": 70, "riesgo": 51, "ts": "2026-10-20T06:46:33Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-20T18:46:07Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-21T06:47:15Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-21T18:45:57Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-22T06:46:56Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-22T18:46:19Z"}, {"burbuja": 70, "riesgo": 50, "ts": "2026-10-23T06:58:00Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-10-27T19:46:36Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-10-28T07:46:33Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-10-28T19:46:32Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-10-29T07:46:43Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-10-29T19:46:06Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-10-30T07:47:05Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-10-30T19:46:13Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-11-02T07:46:17Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-11-03T19:46:03Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-11-04T07:46:53Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-11-04T19:45:55Z"}, {"burbuja": 72, "riesgo": 50, "ts": "2026-11-05T07:45:59Z"}, {"burbuja": 71, "riesgo": 50, "ts": "2026-11-05T19:45:27Z"}, {"burbuja": 68, "riesgo": 50, "ts": "2026-11-06T07:46:45Z"}, {"burbuja": 69, "riesgo": 50, "ts": "2026-11-10T19:46:15Z"}, {"burbuja": 69, "riesgo": 50, "ts": "2026-11-11T07:46:30Z"}, {"burbuja": 69, "riesgo": 51, "ts": "2026-11-11T19:45:52Z"}, {"burbuja": 69, "riesgo": 51, "ts": "2026-11-12T07:46:27Z"}, {"burbuja": 69, "riesgo": 51, "ts": "2026-11-12T19:46:01Z"}, {"burbuja": 69, "riesgo": 52, "ts": "2026-11-13T07:46:53Z"}, {"burbuja": 69, "riesgo": 52, "ts": "2026-11-13T19:46:19Z"}, {"burbuja": 68, "riesgo": 53, "ts": "2026-11-16T07:45:59Z"}, {"burbuja": 66, "riesgo": 52, "ts": "2026-11-17T19:46:01Z"}, {"burbuja": 66, "riesgo": 51, "ts": "2026-11-18T07:45:30Z"}, {"burbuja": 66, "riesgo": 50, "ts": "2026-11-18T19:45:38Z"}, {"burbuja": 68, "riesgo": 50, "ts": "2026-11-19T07:45:58Z"}, {"burbuja": 67, "riesgo": 50, "ts": "2026-11-19T19:46:13Z"}, {"burbuja": 66, "riesgo": 50, "ts": "2026-11-20T07:46:20Z"}, {"burbuja": 63, "riesgo": 50, "ts": "2026-11-20T19:46:11Z"}, {"burbuja": 58, "riesgo": 50, "ts": "2026-11-23T07:46:06Z"}, {"burbuja": 63, "riesgo": 50, "ts": "2026-11-23T19:45:29Z"}, {"burbuja": 63, "riesgo": 50, "ts": "2026-11-24T07:46:07Z"}, {"burbuja": 63, "riesgo": 50, "ts": "2026-11-24T19:46:00Z"}, {"burbuja": 63, "riesgo": 50, "ts": "2026-11-25T07:46:16Z"}, {"burbuja": 61, "riesgo": 51, "ts": "2026-11-25T19:46:09Z"}, {"burbuja": 61, "riesgo": 51, "ts": "2026-11-26T07:46:00Z"}]}
+{
+  "actualizado": "2026-11-26T07:46:00Z",
+  "alarmas": [
+    {
+      "estado": "amarillo",
+      "nombre": "Bono EE. UU. 30 años",
+      "nota": "A 25 pb del umbral de atención (5,5 %); cierra a la baja por refugio y el 26 nov el mercado está cerrado (Trading Economics).",
+      "valor": "5,25 % (25 nov)"
+    },
+    {
+      "estado": "amarillo",
+      "nombre": "Subasta de 7 años (25 nov)",
+      "nota": "Demanda floja: cobertura bajo su media (2,48) e indirectos muy por debajo (63,6 %); la de 5 años (24 nov) también tuvo indirectos débiles (Helious, ROIC).",
+      "valor": "4,708 %; cola 1 pb; cobertura 2,43; indirectos 58,2 %"
+    },
+    {
+      "estado": "rojo",
+      "nombre": "Deuda de IA (hyperscalers)",
+      "nota": "25 nov: CDS a 5 años en récord en Oracle, Alphabet y CoreWeave (1.314 pb), SoftBank 501 pb; deuda ligada a la IA ~466.000 M$ hasta sept. (Morgan Stanley) y 296.000 M$ de bonos de hyperscalers en 2026 (Goldman).",
+      "valor": "CDS Oracle 356 pb (récord)"
+    },
+    {
+      "estado": "amarillo",
+      "nombre": "Morosidad hogares (paso a 90+ días)",
+      "nota": "3T 2026 (Fed de Nueva York, 10 nov): tarjetas algo mejor que hace un año (7,05 %) y coches algo peor (2,99 %); deuda de tarjetas récord de 1,285 bill. $ y el 5,0 % de la deuda con algún retraso (+0,3 pt).",
+      "valor": "Tarjetas 6,87 %; coches 3,02 %"
+    },
+    {
+      "estado": "amarillo",
+      "nombre": "Tenencia extranjera de Treasuries",
+      "nota": "TIC (18 nov): -75.500 M$ en septiembre, la mayor caída en seis meses y mínimo de un año, lideradas por China, Francia y Japón; el récord fue 9,487 bill. en febrero (Reuters).",
+      "valor": "9,241 bill. $ (sept.)"
+    }
+  ],
+  "burbuja": {
+    "indicadores": [
+      {
+        "estado": "rojo",
+        "n": "Precios caros frente a su valor",
+        "nota": "25 nov: el S&P 500 cierra en 7.182,78 (-0,25 %) tras caer más de un 3 % intradía y el Nasdaq 100 sigue en mercado bajista (CNBC); el CAPE (~41, 8 oct) sigue cerca de 2000.",
+        "valor": "CAPE ~41 (8 oct); S&P 500 7.183"
+      },
+      {
+        "estado": "amarillo",
+        "n": "El precio ya descuenta subidas rápidas",
+        "nota": "Con el S&P 500 en 7.183 (25 nov) la rentabilidad por beneficios ronda el 5,5 % (estim.) frente al bono a 10 años en el 4,86 %: la prima sigue estrecha.",
+        "valor": "Prima de riesgo ≈ 60-80 pb (estim.)"
+      },
+      {
+        "estado": "amarillo",
+        "n": "Muchos compradores nuevos",
+        "nota": "25 nov: Anthropic cae a ~75 $ frente a su OPV de 83 $ (19 nov), bitcoin marca mínimos bajo 58.000 $ (CoinDesk) y los ETF de BTC suman salidas de ~5.000 M$ en el mes (Bloomberg).",
+        "valor": "Anthropic bajo OPV; BTC <58.000 $"
+      },
+      {
+        "estado": "verde",
+        "n": "Sentimiento eufórico",
+        "nota": "25 nov: el mercado vive miedo, no euforia: Nasdaq 100 en mercado bajista y la AAII con 42,2 % de bajistas (18 nov).",
+        "valor": "VIX ~27; AAII 42 % bajistas"
+      },
+      {
+        "estado": "rojo",
+        "n": "Compras con mucho apalancamiento",
+        "nota": "FINRA: deuda de margen en 1,48 bill. $ en septiembre, +31,4 % interanual, cerca del récord de junio (1,50 bill.); el dato de octubre sale el 28 nov (YCharts).",
+        "valor": "Margen 1,48 bill. $ (sept.)"
+      },
+      {
+        "estado": "rojo",
+        "n": "Sobreinversión por miedo a quedarse fuera",
+        "nota": "25 nov: capex previsto de los grandes de 780.000-800.000 M$ en 2026, deuda de IA ~466.000 M$ hasta sept. (Morgan Stanley) y >750.000 M$ de financiación circular (Bloomberg); CoreWeave paga ~18 % en sus bonos 2031.",
+        "valor": "Capex 780.000-800.000 M$ 2026; CDS récord"
+      }
+    ],
+    "lectura": "La bolsa de EE. UU. y la IA siguen en 61/100 de burbuja, por debajo de los ~85 de 2000 y 1929, porque se está desinflando: el S&P 500 llegó a caer más de un 3 % el 25 nov antes de cerrar en 7.183 (-0,25 %) y el Nasdaq 100 está en mercado bajista. Lo que más pesa es la sobreinversión en IA a crédito, que el mercado castiga con seguros de impago en récord.",
+    "nivel": 61,
+    "pinchazo": [
+      {
+        "estado": "amarillo",
+        "n": "Curva 2 frente a 30 años",
+        "nota": "Cierre del 25 nov: bajan igual cortos y largos por refugio; la curva no se dispara (Trading Economics).",
+        "valor": "+60 pb (4,65 % / 5,25 %)"
+      },
+      {
+        "estado": "rojo",
+        "n": "Fed y tipos reales",
+        "nota": "26 nov: Kalshi sube al 96,5 % la probabilidad de subida (implícita 4,12 %) tras un PCE subyacente del 3,3 %: subir con el Nasdaq en mercado bajista es el mayor riesgo de pinchazo.",
+        "valor": "3,75-4,00 %; 96,5 % subida el 9 dic"
+      },
+      {
+        "estado": "verde",
+        "n": "Dólar (DXY)",
+        "nota": "26 nov: el dólar se estabiliza tras dos días de caídas, cerca de máximos de 20 meses (Trading Economics): no hay huida del dólar.",
+        "valor": "103,7 (+1,4 % en 1 mes)"
+      },
+      {
+        "estado": "verde",
+        "n": "Oro",
+        "nota": "26 nov: el oro rebota hacia 3.590 $ tras tocar un mínimo de 52 semanas (~3.426-3.476 $) el 25 nov (investingLive, CNBC): se vendió para conseguir liquidez.",
+        "valor": "~3.590 $/oz"
+      },
+      {
+        "estado": "rojo",
+        "n": "Necesidad de liquidez",
+        "nota": "25 nov: CoreWeave en 1.314 pb (zona de quiebra), SoftBank -40 % en noviembre y venta de oro y bitcoin a la vez: señales de necesidad de efectivo.",
+        "valor": "CDS IA en récord; SoftBank -14,8 %"
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (cierre 25 nov)",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bono 10 años EE. UU. (25 nov)",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bono 2 años EE. UU. (25 nov)",
+      "url": "https://tradingeconomics.com/united-states/2-year-note-yield"
+    },
+    {
+      "nombre": "Trading Economics – JGB 10 años y Tamura (26 nov)",
+      "url": "https://tradingeconomics.com/japan/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – JGB 30 años (26 nov)",
+      "url": "https://tradingeconomics.com/japan/30-year-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bund 10 años (26 nov)",
+      "url": "https://tradingeconomics.com/germany/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – USD/JPY (26 nov)",
+      "url": "https://tradingeconomics.com/japan/currency"
+    },
+    {
+      "nombre": "Trading Economics – USD/CNY (26 nov)",
+      "url": "https://tradingeconomics.com/china/currency"
+    },
+    {
+      "nombre": "Trading Economics – Índice del dólar (26 nov)",
+      "url": "https://tradingeconomics.com/united-states/currency"
+    },
+    {
+      "nombre": "Trading Economics – Bono 10 años China (26 nov)",
+      "url": "https://tradingeconomics.com/china/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – OFZ 10 años Rusia (25 nov)",
+      "url": "https://tradingeconomics.com/russia/government-bond-yield"
+    },
+    {
+      "nombre": "GKToday – China compra 25,8 t de oro en octubre",
+      "url": "https://www.gktoday.in/china-adds-25-8-tonnes-of-gold-to-reserves-in-october/"
+    },
+    {
+      "nombre": "China Daily HK – Reservas de oro de octubre (8 nov)",
+      "url": "https://www.chinadailyhk.com/article/642391"
+    },
+    {
+      "nombre": "ROIC – La subasta de 7 años sale con cola (25 nov)",
+      "url": "https://www.roic.ai/news/treasury-7-year-auction-tails-as-demand-disappoints-11-25-2026"
+    },
+    {
+      "nombre": "Helious – Subasta de 7 años (25 nov)",
+      "url": "https://helious.io/news/auc-91282CSA0-2026-11-25/7-year-note-auction-in-line"
+    },
+    {
+      "nombre": "Disruption Banking – CDS de la IA en récord (25 nov)",
+      "url": "https://www.disruptionbanking.com/2026/11/25/why-are-ai-credit-default-swaps-hitting-record-spreads/"
+    },
+    {
+      "nombre": "Wisevoter – Seguros de impago de la IA en máximos (25 nov)",
+      "url": "https://wisevoter.com/world/2026/11/25/ai-debt-insurance-costs-hit-record-highs"
+    },
+    {
+      "nombre": "BNN Bloomberg/AP – Sigue la venta de IA (25 nov)",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/11/25/ai-rout-continues-as-market-exuberance-fades-over-improbable-return-of-nvidias-huang"
+    },
+    {
+      "nombre": "CNBC – Propuesta de aranceles Sección 301 (25 nov)",
+      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+    },
+    {
+      "nombre": "Benzinga – S&P 500 hacia su peor mes desde 2022 (25 nov)",
+      "url": "https://www.benzinga.com/markets/equities/26/11/63643697/stock-market-today-nvidia-ai-credit-fears-sp-500-worst-month-since-2022"
+    },
+    {
+      "nombre": "Hong Kong Free Press – China responde a los aranceles (25 nov)",
+      "url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/"
+    },
+    {
+      "nombre": "BullionVault – El oro perfora los 3.500 $ (25 nov)",
+      "url": "https://bullionvault.com/gold-news/gold-price-news/gold-3500-silver-crash-fed-112520261"
+    },
+    {
+      "nombre": "Reuters vía FVBB – La curva japonesa se empina; subasta floja a 40 años (25 nov)",
+      "url": "https://fvbb.com/ns/japan-bond-yield-curve-steepens-as-markets/332577"
+    },
+    {
+      "nombre": "TheStreet Pro – Mercado 24 nov (subastas, VIX, S&P 500)",
+      "url": "https://pro.thestreet.com/stock-market-today/2026-11-24"
+    },
+    {
+      "nombre": "Political.org – EE. UU. prepara aranceles 301 a China, UE, México y Japón (24 nov)",
+      "url": "https://political.org/2026/11/24/trump-administration-preparing-new-section-301-tariffs-on-china-eu-mexico-japan-and-others/"
+    },
+    {
+      "nombre": "Bloomberg – Los ETF de bitcoin, camino de su peor mes (25 nov)",
+      "url": "https://bloomberg.com/news/articles/2026-11-25/bitcoin-funds-head-for-worst-month-as-outflows-near-5-billion"
+    },
+    {
+      "nombre": "JournalArta – Futuros del S&P 500 caen con los chips (25 nov)",
+      "url": "https://journalarta.com/en/2026/11/25/sp-500-futures-slip-as-chip-selloff-deepens-dow-futures-rise/"
+    },
+    {
+      "nombre": "Helious – Subasta de 5 años en línea (24 nov)",
+      "url": "https://helious.io/news/auc-91282CRZ6-2026-11-24/5-year-note-auction-in-line"
+    },
+    {
+      "nombre": "Yahoo Finance – Mercado en directo 24 nov (S&P 500, VIX, oro, Fed)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+    },
+    {
+      "nombre": "StockTitan – Mercado en directo 24 nov (Nvidia, chips)",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+    },
+    {
+      "nombre": "Invezz – Bitcoin por debajo de 60.000 $ y salidas récord de ETF (24 nov)",
+      "url": "https://invezz.com/news/2026/11/24/why-is-bitcoin-down-today-below-60000/"
+    },
+    {
+      "nombre": "Japan Times – Los JGB suben en toda la curva con la bolsa (24 nov)",
+      "url": "https://www.japantimes.co.jp/business/2026/11/24/markets/japan-stocks-surge-bonds/"
+    },
+    {
+      "nombre": "MarketScreener/Dow Jones – Suben los Treasuries con la vuelta de Huang; bajan los bonos europeos (23 nov)",
+      "url": "https://www.marketscreener.com/news/treasury-yields-rise-as-huang-returns-as-ceo-european-bond-yields-slip-update-ce7851dadd81f32d"
+    },
+    {
+      "nombre": "Newsquawk – Fijación del yuan 6,7128",
+      "url": "https://www.newsquawk.com/headlines/pboc-sets-usdcny-midpoint-at-67128-vs-exp-66684-prev-67118"
+    },
+    {
+      "nombre": "Helious – Subasta de 2 años en línea (23 nov)",
+      "url": "https://helious.io/news/auc-91282CRY9-2026-11-23/2-year-note-auction-in-line"
+    },
+    {
+      "nombre": "CoinDesk – Wall Street rebota, el dólar en máximos (23 nov)",
+      "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025"
+    },
+    {
+      "nombre": "JournalArta – Apertura del 23 nov (VIX, oro, S&P 500)",
+      "url": "https://journalarta.com/en/2026/11/23/stock-market-today-sp-500-jumps-3-9-and-nasdaq-5-8-at-the-open-as-vix-drops/"
+    },
+    {
+      "nombre": "TMGM/FXStreet – El yen se debilita con el rally de Nvidia (23 nov)",
+      "url": "https://www.tmgm.com/en/analysis/market-news/article/japanese-yen-weakens-as-nvidia-led-stock-rally-boosts-risk-appetite-202611231815"
+    },
+    {
+      "nombre": "Nvidia – Reincorporación de Jensen Huang (23 nov)",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    {
+      "nombre": "Newsquawk – Fijación del yuan del PBOC",
+      "url": "https://www.newsquawk.com/headlines/pboc-sets-usdcny-midpoint-at-67118-vs-exp-66654-prev-67132"
+    }
+  ],
+  "lectura": "EE. UU. sigue siendo lo que más preocupa: la deuda de la IA tiene sus seguros de impago en récord y la Fed va camino de subir tipos el 9 dic (96,5 %, Kalshi) en plena caída de las tecnológicas. Desde la última vez, el bono a 30 años cerró el miércoles en el 5,25 % (10 años 4,86 %) y Wall Street recortó la caída hasta el -0,25 %; hoy el mercado de bonos de EE. UU. está cerrado por Acción de Gracias. En Japón el BoJ (Tamura) pide acercarse ya al tipo neutral y China compró 25,8 t de oro en octubre; el riesgo se mantiene en 51.",
+  "regiones": [
+    {
+      "datos": [
+        {
+          "c": "cierre 25 nov, -7 pb en el día, -13 pb en 1 mes; tocó 4,81 %, mínimo de 10 semanas (Trading Economics)",
+          "n": "Bono 10 años",
+          "v": "4,86 %"
+        },
+        {
+          "c": "cierre 25 nov, -7 pb en el día, -5 pb en 1 mes; 26 nov mercado cerrado (Trading Economics)",
+          "n": "Bono 30 años",
+          "v": "5,25 %"
+        },
+        {
+          "c": "fin AF2026 (CRFB, 1 oct)",
+          "n": "Deuda en manos del público",
+          "v": "32,3 bill. $ (~100 % PIB)"
+        },
+        {
+          "c": "3,4 % y 6,2 % del PIB",
+          "n": "Intereses / déficit AF2026",
+          "v": "1,1 bill. $ / 2,0 bill. $"
+        }
+      ],
+      "estado": "amarillo",
+      "id": "US",
+      "nombre": "EE. UU.",
+      "nota": "Huida a los bonos con la venta de la IA pese al PCE subyacente del 3,3 % y la Fed al 96,5 % de subir el 9 dic; la subasta de 7 años (25 nov) salió floja: cola de 1 pb, cobertura 2,43 e indirectos 58,2 %. Bonos cerrados el 26 nov por Acción de Gracias."
+    },
+    {
+      "datos": [
+        {
+          "c": "26 nov; mínimo de tres meses el 25 nov, -10 pb en 1 mes (Trading Economics)",
+          "n": "Bund 10 años",
+          "v": "3,22-3,25 %"
+        },
+        {
+          "c": "1T 2026 (Eurostat, 21 jul)",
+          "n": "Deuda/PIB eurozona",
+          "v": "88,9 %"
+        },
+        {
+          "c": "~91 % de subida de 25 pb el 17 dic (LSEG, 18 nov); el mercado ve dos subidas más hasta marzo de 2027 (Trading Economics, 25 nov)",
+          "n": "Tipo depósito BCE",
+          "v": "2,50 %"
+        },
+        {
+          "c": "28 oct; OAT 10 años 4,94 %",
+          "n": "Prima Francia (OAT-Bund)",
+          "v": "157 pb"
+        }
+      ],
+      "estado": "amarillo",
+      "id": "EU",
+      "nombre": "Eurozona",
+      "nota": "El Bund cae a mínimos de tres meses como refugio ante la venta de la IA; el BCE va camino de subir el 17 dic y EE. UU. propone aranceles de hasta el 18 % a la UE (Sección 301, no antes de enero); la prima francesa (157 pb, 28 oct) sigue siendo el punto débil."
+    },
+    {
+      "datos": [
+        {
+          "c": "26 nov; cerca de mínimos históricos, -4 pb en 1 mes (Trading Economics)",
+          "n": "Bono 10 años",
+          "v": "1,61 %"
+        },
+        {
+          "c": "septiembre (TIC, 18 nov), -4,5 % (-26.800 M$); 4.ª caída, mínimo en más de 18 años",
+          "n": "Treasuries en manos chinas",
+          "v": "563.900 M$"
+        },
+        {
+          "c": "26 nov, sin cambios; el yuan offshore cortó tres días de subidas por los aranceles (Trading Economics)",
+          "n": "USD/CNY",
+          "v": "6,67"
+        },
+        {
+          "c": "24.º mes seguido, pese a la caída del precio (GKToday/China Daily, 8 nov)",
+          "n": "Compras de oro PBOC",
+          "v": "+25,8 t en oct."
+        }
+      ],
+      "estado": "amarillo",
+      "id": "CN",
+      "nombre": "China",
+      "nota": "EE. UU. prepara aranceles de la Sección 301 de ~20 % adicional a China (no antes de enero); China sigue saliendo de los Treasuries (563.900 M$, mínimo desde 2008) y acelera las compras de oro (+25,8 t en octubre)."
+    },
+    {
+      "datos": [
+        {
+          "c": "26 nov; rebota hacia 2,66 % desde mínimo de tres semanas, -16 pb en 1 mes (Trading Economics)",
+          "n": "JGB 10 años",
+          "v": "2,63 %"
+        },
+        {
+          "c": "26 nov, -3 pb en el día, +11 pb en 1 mes; récord 4,25 % en octubre (Trading Economics)",
+          "n": "JGB 30 años",
+          "v": "3,93 %"
+        },
+        {
+          "c": "septiembre (TIC, 18 nov), -5.200 M$; 5.ª caída, mínimo desde dic-2024",
+          "n": "Treasuries en manos japonesas",
+          "v": "1,063 bill. $"
+        },
+        {
+          "c": "26 nov, sin cambios; yen -0,8 % en 1 mes; avisos verbales de Tokio, sin intervención (Trading Economics)",
+          "n": "USD/JPY",
+          "v": "159,2"
+        }
+      ],
+      "estado": "amarillo",
+      "id": "JP",
+      "nombre": "Japón",
+      "nota": "Tamura (BoJ) pide acercarse pronto al tipo neutral y el mercado da por hecha una subida en diciembre; el JGB a 30 años sigue cerca del 4 % y el yen, en 159 por dólar, débil pese a ello."
+    },
+    {
+      "datos": [
+        {
+          "c": "mantenido el 23 oct; IPC 6,8 % (19 oct), previsión 2026 7,1-7,6 %",
+          "n": "Tipo oficial",
+          "v": "14,00 %"
+        },
+        {
+          "c": "25 nov; máximo desde marzo de 2022 (17,10 % el 21 nov), +56 pb en 1 mes (Trading Economics)",
+          "n": "OFZ 10 años",
+          "v": "17,07 %"
+        },
+        {
+          "c": "estimación de septiembre; ene-sept 5,19 bill. (2,2 % PIB); plan inicial 3,79 bill.",
+          "n": "Déficit 2026 (previsión)",
+          "v": "7,35 bill. rublos (3,2 % PIB)"
+        },
+        {
+          "c": "1 oct (46.700 M$ en sept.)",
+          "n": "FNB líquido",
+          "v": "45.000 M$"
+        }
+      ],
+      "estado": "rojo",
+      "id": "RU",
+      "nombre": "Rusia",
+      "nota": "El OFZ a 10 años sigue en el 17,1 %, máximo desde 2022, con el tipo oficial en el 14 %: el mercado descarta bajadas con un déficit que casi duplica el plan."
+    }
+  ],
+  "riesgo": 51,
+  "serie": [
+    {
+      "riesgo": 64,
+      "ts": "2026-10-11T11:31:47Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 64,
+      "ts": "2026-10-11T11:46:58Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 64,
+      "ts": "2026-10-12T06:46:36Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 63,
+      "ts": "2026-10-13T18:46:03Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 63,
+      "ts": "2026-10-14T06:46:42Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 63,
+      "ts": "2026-10-14T18:46:02Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 52,
+      "ts": "2026-10-15T06:46:53Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-15T10:00:54Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-15T18:46:03Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 50,
+      "ts": "2026-10-16T06:46:10Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-16T18:46:31Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-19T06:47:26Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 51,
+      "ts": "2026-10-19T18:46:02Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 51,
+      "ts": "2026-10-20T06:46:33Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-20T18:46:07Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-21T06:47:15Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-21T18:45:57Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-22T06:46:56Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-22T18:46:19Z"
+    },
+    {
+      "burbuja": 70,
+      "riesgo": 50,
+      "ts": "2026-10-23T06:58:00Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-10-27T19:46:36Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-10-28T07:46:33Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-10-28T19:46:32Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-10-29T07:46:43Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-10-29T19:46:06Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-10-30T07:47:05Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-10-30T19:46:13Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-11-02T07:46:17Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-11-03T19:46:03Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-11-04T07:46:53Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-11-04T19:45:55Z"
+    },
+    {
+      "burbuja": 72,
+      "riesgo": 50,
+      "ts": "2026-11-05T07:45:59Z"
+    },
+    {
+      "burbuja": 71,
+      "riesgo": 50,
+      "ts": "2026-11-05T19:45:27Z"
+    },
+    {
+      "burbuja": 68,
+      "riesgo": 50,
+      "ts": "2026-11-06T07:46:45Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 50,
+      "ts": "2026-11-10T19:46:15Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 50,
+      "ts": "2026-11-11T07:46:30Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 51,
+      "ts": "2026-11-11T19:45:52Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 51,
+      "ts": "2026-11-12T07:46:27Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 51,
+      "ts": "2026-11-12T19:46:01Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 52,
+      "ts": "2026-11-13T07:46:53Z"
+    },
+    {
+      "burbuja": 69,
+      "riesgo": 52,
+      "ts": "2026-11-13T19:46:19Z"
+    },
+    {
+      "burbuja": 68,
+      "riesgo": 53,
+      "ts": "2026-11-16T07:45:59Z"
+    },
+    {
+      "burbuja": 66,
+      "riesgo": 52,
+      "ts": "2026-11-17T19:46:01Z"
+    },
+    {
+      "burbuja": 66,
+      "riesgo": 51,
+      "ts": "2026-11-18T07:45:30Z"
+    },
+    {
+      "burbuja": 66,
+      "riesgo": 50,
+      "ts": "2026-11-18T19:45:38Z"
+    },
+    {
+      "burbuja": 68,
+      "riesgo": 50,
+      "ts": "2026-11-19T07:45:58Z"
+    },
+    {
+      "burbuja": 67,
+      "riesgo": 50,
+      "ts": "2026-11-19T19:46:13Z"
+    },
+    {
+      "burbuja": 66,
+      "riesgo": 50,
+      "ts": "2026-11-20T07:46:20Z"
+    },
+    {
+      "burbuja": 63,
+      "riesgo": 50,
+      "ts": "2026-11-20T19:46:11Z"
+    },
+    {
+      "burbuja": 58,
+      "riesgo": 50,
+      "ts": "2026-11-23T07:46:06Z"
+    },
+    {
+      "burbuja": 63,
+      "riesgo": 50,
+      "ts": "2026-11-23T19:45:29Z"
+    },
+    {
+      "burbuja": 63,
+      "riesgo": 50,
+      "ts": "2026-11-24T07:46:07Z"
+    },
+    {
+      "burbuja": 63,
+      "riesgo": 50,
+      "ts": "2026-11-24T19:46:00Z"
+    },
+    {
+      "burbuja": 63,
+      "riesgo": 50,
+      "ts": "2026-11-25T07:46:16Z"
+    },
+    {
+      "burbuja": 61,
+      "riesgo": 51,
+      "ts": "2026-11-25T19:46:09Z"
+    },
+    {
+      "burbuja": 61,
+      "riesgo": 51,
+      "ts": "2026-11-26T07:46:00Z"
+    }
+  ]
+}
