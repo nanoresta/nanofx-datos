@@ -1,15 +1,23 @@
 {
-  "actualizado": "2026-11-25T19:46:09Z",
+  "actualizado": "2026-11-26T07:46:00Z",
   "corto": {
     "etapa": 2,
     "etiqueta": "Calentamiento tardío",
     "fase": 0.66,
-    "lectura": "PCE subyacente 3,3 % (oct., máximo desde 2023) y PIB del 3T revisado al 4,3 %, con la Fed (3,75-4,00 %) al 94,5 % de subir el 9 dic; pero el consumo real queda plano en octubre y el Nasdaq 100 entra en mercado bajista: pasado el techo, camino de la desaceleración."
+    "lectura": "PCE subyacente 3,3 % (oct., máximo desde 2023) y PIB del 3T revisado al 4,3 %, con la Fed (3,75-4,00 %) al 96,5 % de subir el 9 dic; pero el consumo real queda plano en octubre y el Nasdaq 100 está en mercado bajista: pasado el techo, camino de la desaceleración."
   },
   "fuentes": [
     {
-      "nombre": "Trading Economics – Bono 30 años EE. UU. (25 nov)",
+      "nombre": "Trading Economics – Bono 30 años EE. UU. (cierre 25 nov)",
       "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bono 10 años EE. UU. (25 nov)",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "nombre": "Trading Economics – Bono 2 años EE. UU. (25 nov)",
+      "url": "https://tradingeconomics.com/united-states/2-year-note-yield"
     },
     {
       "nombre": "MLQ – PIB del 3T revisado al 4,3 % (25 nov)",
@@ -26,10 +34,6 @@
     {
       "nombre": "Helious – Subasta de 7 años (25 nov)",
       "url": "https://helious.io/news/auc-91282CSA0-2026-11-25/7-year-note-auction-in-line"
-    },
-    {
-      "nombre": "Trading Economics – Bono 2 años EE. UU. (25 nov)",
-      "url": "https://tradingeconomics.com/united-states/2-year-note-yield"
     },
     {
       "nombre": "TheStreet Pro – Mercado 24 nov (agenda PCE y PIB)",
@@ -82,10 +86,6 @@
     {
       "nombre": "Fed de Nueva York – Deuda de los hogares 3T 2026 (10 nov)",
       "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261110"
-    },
-    {
-      "nombre": "Trading Economics – Bono 10 años EE. UU. (19 nov)",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
       "nombre": "Helious – Subasta de 20 años (18 nov)",
@@ -161,7 +161,7 @@
       "v": "+5,2 % anual"
     },
     {
-      "c": "mantenidos el 28 oct · 94,5 % subida el 9 dic (implícita 4,11 %), 95 % en enero y 96 % en marzo (Kalshi, 25 nov)",
+      "c": "mantenidos el 28 oct · 96,5 % subida el 9 dic (implícita 4,12 %), 93,5 % en enero y 96 % en marzo (Kalshi, 26 nov)",
       "estado": "rojo",
       "n": "Tipos de la Fed",
       "v": "3,75-4,00 %"
@@ -191,10 +191,10 @@
       "v": "~100 % PIB · 3,4 % PIB"
     },
     {
-      "c": "25 nov (Trading Economics) · -8 pb en 1 mes; 2 años 4,64 %, 10 años 4,84 %",
+      "c": "cierre 25 nov (Trading Economics) · -5 pb en 1 mes; 2 años 4,65 %, 10 años 4,86 %",
       "estado": "amarillo",
       "n": "Bono a 30 años",
-      "v": "5,22 %"
+      "v": "5,25 %"
     },
     {
       "c": "3T 2026 (BLS, 30 oct) · +0,8 % trimestral",
@@ -207,9 +207,9 @@
     "etapa": 2,
     "etiqueta": "Cerca del techo",
     "fase": 0.76,
-    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años está en el 5,22 % (25 nov) y la subasta de 7 años tuvo indirectos flojos (58,2 % frente a 63,6 %): zona en la que los pagos de la deuda crecen más que los ingresos."
+    "lectura": "La deuda pública ronda el 100 % del PIB, la negociable sube un 8 % en un año (~32 billones) y los intereses cuestan el 3,4 % del PIB. El bono a 30 años cerró en el 5,25 % (25 nov) y la subasta de 7 años tuvo indirectos flojos (58,2 % frente a 63,6 %): zona en la que los pagos de la deuda crecen más que los ingresos."
   },
-  "lectura": "EE. UU. está pasado el techo del ciclo corto: la economía aún corre (PIB del 3T revisado al 4,3 %, subsidios en 189.000) pero el PCE subyacente sube al 3,3 % y la Fed va camino de subir el 9 dic (94,5 %, Kalshi) con el Nasdaq 100 ya en mercado bajista y el consumo plano en octubre. En el ciclo largo seguimos cerca del techo: la deuda crece al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años está en el 5,22 %.",
+  "lectura": "EE. UU. está pasado el techo del ciclo corto: la economía aún corre (PIB del 3T revisado al 4,3 %, subsidios en 189.000) pero el PCE subyacente sube al 3,3 % y la Fed va camino de subir el 9 dic (96,5 %, Kalshi) con el Nasdaq 100 en mercado bajista y el consumo plano en octubre. En el ciclo largo seguimos cerca del techo: la deuda crece al 5,2 % anual, más que los salarios (3,7 %), y el bono a 30 años cerró en el 5,25 %.",
   "palancas": [
     {
       "estado": "rojo",
@@ -232,7 +232,7 @@
     {
       "estado": "amarillo",
       "n": "Imprimir dinero",
-      "nota": "Hoy la Fed va en sentido contrario (94,5 % de subida en diciembre tras un PCE subyacente del 3,3 %), pero el Tesoro duplica las recompras de deuda larga (Bessent, 4 nov): si el desplome de la IA se convierte en crisis, sigue siendo la salida más probable.",
+      "nota": "Hoy la Fed va en sentido contrario (96,5 % de subida en diciembre tras un PCE subyacente del 3,3 %), pero el Tesoro duplica las recompras de deuda larga (Bessent, 4 nov): si la caída de la IA se convierte en crisis, sigue siendo la salida más probable.",
       "valor": "Riesgo"
     }
   ],
@@ -526,6 +526,11 @@
       "corto": 0.66,
       "largo": 0.76,
       "ts": "2026-11-25T19:46:09Z"
+    },
+    {
+      "corto": 0.66,
+      "largo": 0.76,
+      "ts": "2026-11-26T07:46:00Z"
     }
   ]
 }
