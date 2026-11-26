@@ -392,9 +392,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-26T14:13:13Z",
+    "actualizado": "2026-11-26T15:14:26Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 96,5 % según Kalshi, sin cambios, con la tasa implícita estable en el 4,12 %. Para enero de 2027 el mercado sube ligeramente la probabilidad de subida al 94,0 % (desde 93,5 %), con la tasa implícita sin cambios en el 4,22 %; para marzo de 2027 se mantiene en el 96,0 % (4,42 %), sin cambios.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 96,5 % según Kalshi, sin cambios, con la tasa implícita estable en el 4,12 %. Para enero de 2027 el mercado baja ligeramente la probabilidad de subida al 93,5 % (desde 94,0 %), con la tasa implícita sin cambios en el 4,22 %.",
     "reuniones": [
       {
         "bajar": 1.5,
@@ -406,8 +406,8 @@
       {
         "bajar": 5,
         "fecha": "2027-01-27",
-        "mantener": 1,
-        "subir": 94,
+        "mantener": 1.5,
+        "subir": 93.5,
         "tasaImplicita": 4.22
       },
       {
@@ -585,12 +585,12 @@
   ],
   "indices": [
     {
-      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 14:13 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros ES amplían la subida hacia la apertura de Nueva York, cotizando en torno a 7.247,5 (+0,7% frente al cierre del miércoles), con baja liquidez y cierta dispersión entre fuentes por el festivo.",
+      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 15:14 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros ES amplían la subida hacia la apertura de Nueva York, cotizando en torno a 7.247,5 (+0,7% frente al cierre del miércoles), con baja liquidez y cierta dispersión entre fuentes por el festivo.",
       "changePct": 0,
       "claves": [
         "Call wall se mantiene en 7312 (ETF SPY 730,0 $).",
         "Put wall se mantiene en 7012 (ETF SPY 700,0 $).",
-        "Gammaflip baja ligeramente a 7392 (ETF SPY 737,99 $), desde 7.393.",
+        "Gammaflip baja ligeramente a 7391 (ETF SPY 737,85 $), desde 7.392.",
         "Max pain se mantiene en 7222 (ETF SPY 721,0 $); régimen de gamma negativa, sin cambios en -6,17 mil M$ por 1 %, put/call OI 1,84 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
@@ -771,11 +771,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 737.99,
+        "gammaFlip": 737.85,
         "gexTotal": -6.17,
         "indice": {
           "callWall": 7312,
-          "gammaFlip": 7392,
+          "gammaFlip": 7391,
           "maxPain": 7222,
           "precio": 7179,
           "putWall": 7012
@@ -808,10 +808,10 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 (feed del motor, con retraso) se mantiene en torno a 7.179 puntos a las 14:13 UTC, pero los futuros ES amplían la subida hacia la apertura de Nueva York (~+0,7%, 7.247,5) con Wall Street cerrada por Acción de Gracias y muy baja liquidez; Asia cerró en positivo y los futuros europeos suben con fuerza tras el desplome del miércoles. El petróleo WTI se mantiene firme en torno a 84 $ (+2,6%) por la tensión en el estrecho de Ormuz, donde persisten los ataques con minas contra petroleros pese a que Irán ha desmentido el envío inminente de un convoy hacia China y Trump advierte de una posible nueva ronda de financiación bélica. Pesa Trump con sus aranceles Sección 301 (el representante de Comercio Greer adelanta que no entrarán en vigor hasta dentro de varios meses) justo cuando el PIB (4,3 %) y el PCE subyacente (3,3 % interanual) mantienen en el 96,5 % la probabilidad de que la Fed suba tipos el 9 de diciembre según Kalshi; Bessent sigue oponiéndose a un endurecimiento excesivo. El gammaflip del motor baja ligeramente a 7.392 (antes 7.393), con el régimen de gamma todavía negativo (-6,17 mil M$ por 1 %) y un put/call OI de 1,84.",
+      "lectura": "El S&P 500 (feed del motor, con retraso) se mantiene en torno a 7.179 puntos a las 14:13 UTC, pero los futuros ES amplían la subida hacia la apertura de Nueva York (~+0,7%, 7.247,5) con Wall Street cerrada por Acción de Gracias y muy baja liquidez; Asia cerró en positivo y los futuros europeos suben con fuerza tras el desplome del miércoles. El petróleo WTI se mantiene firme en torno a 84 $ (+2,6%) por la tensión en el estrecho de Ormuz, donde persisten los ataques con minas contra petroleros pese a que Irán ha desmentido el envío inminente de un convoy hacia China y Trump advierte de una posible nueva ronda de financiación bélica. Pesa Trump con sus aranceles Sección 301 (el representante de Comercio Greer adelanta que no entrarán en vigor hasta dentro de varios meses) justo cuando el PIB (4,3 %) y el PCE subyacente (3,3 % interanual) mantienen en el 96,5 % la probabilidad de que la Fed suba tipos el 9 de diciembre según Kalshi; Bessent sigue oponiéndose a un endurecimiento excesivo. El gammaflip del motor baja ligeramente a 7.391 (antes 7.392), con el régimen de gamma todavía negativo (-6,17 mil M$ por 1 %) y un put/call OI de 1,84.",
       "levels": {
         "callWall": 7312,
-        "gammaFlip": 7392,
+        "gammaFlip": 7391,
         "maxPain": 7222,
         "precio": 7179,
         "putWall": 7012
@@ -826,12 +826,12 @@
       "spot": 7179
     },
     {
-      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 14:13 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros NQ amplían la subida hacia la apertura de Nueva York, cotizando en torno a 26.301 (+0,8% frente al cierre del miércoles), con baja liquidez y cierta dispersión entre fuentes por el festivo.",
+      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 15:14 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros NQ amplían la subida hacia la apertura de Nueva York, cotizando en torno a 26.301 (+0,8% frente al cierre del miércoles), con baja liquidez y cierta dispersión entre fuentes por el festivo.",
       "changePct": 0,
       "claves": [
         "Call wall se mantiene en 26702 (ETF QQQ 650,0 $).",
         "Put wall se mantiene en 26291 (ETF QQQ 640,0 $).",
-        "Gammaflip baja a 27394 (ETF QQQ 666,85 $), desde 27.403.",
+        "Gammaflip baja a 27378 (ETF QQQ 666,45 $), desde 27.394.",
         "Max pain se mantiene en 26456 (ETF QQQ 644,0 $); régimen de gamma negativa, sin cambios en -1,95 mil M$ por 1 %, put/call OI 1,87 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
@@ -992,11 +992,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 666.85,
+        "gammaFlip": 666.45,
         "gexTotal": -1.95,
         "indice": {
           "callWall": 26702,
-          "gammaFlip": 27394,
+          "gammaFlip": 27378,
           "maxPain": 26456,
           "precio": 26042,
           "putWall": 26291
@@ -1029,10 +1029,10 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 (feed del motor, con retraso) se mantiene en torno a 26.042 puntos a las 14:13 UTC; los futuros NQ amplían la subida hacia la apertura de Nueva York (~+0,8%, 26.301) tras tocar brevemente terreno de mercado bajista esta madrugada, con el rebote de Asia y de los futuros europeos sosteniendo el ánimo. Pesa el riesgo específico de semiconductores: los aranceles Sección 301 (con entrada en vigor aplazada 'varios meses' según el representante de Comercio Greer) golpean la cadena de suministro tecnológica justo cuando Jensen Huang ha aceptado declarar ante el Congreso el 1 y 2 de diciembre, y la Fed sube al 96,5 % la probabilidad de subir tipos el 9 de diciembre. El gammaflip del motor baja a 27.394 (antes 27.403), con el régimen de gamma negativa manteniéndose en -1,95 mil M$ por 1 % y un put/call OI de 1,87.",
+      "lectura": "El Nasdaq 100 (feed del motor, con retraso) se mantiene en torno a 26.042 puntos a las 14:13 UTC; los futuros NQ amplían la subida hacia la apertura de Nueva York (~+0,8%, 26.301) tras tocar brevemente terreno de mercado bajista esta madrugada, con el rebote de Asia y de los futuros europeos sosteniendo el ánimo. Pesa el riesgo específico de semiconductores: los aranceles Sección 301 (con entrada en vigor aplazada 'varios meses' según el representante de Comercio Greer) golpean la cadena de suministro tecnológica justo cuando Jensen Huang ha aceptado declarar ante el Congreso el 1 y 2 de diciembre, y la Fed sube al 96,5 % la probabilidad de subir tipos el 9 de diciembre. El gammaflip del motor baja a 27.378 (antes 27.394), con el régimen de gamma negativa manteniéndose en -1,95 mil M$ por 1 % y un put/call OI de 1,87.",
       "levels": {
         "callWall": 26702,
-        "gammaFlip": 27394,
+        "gammaFlip": 27378,
         "maxPain": 26456,
         "precio": 26042,
         "putWall": 26291
@@ -1496,7 +1496,7 @@
         "cambio": "De -17 a -15: los futuros ES amplían el rebote (+0,7%) hacia la apertura de Nueva York, moderando algo más el sesgo bajista de la semana.",
         "expectativa": "El saldo del calendario es neutral (0); seguirá mandando la Fed (96,5% de probabilidad de subida el 9-dic) y la escalada arancelaria/geopolítica, con el PMI de servicios ISM (3-dic) y el informe de empleo (4-dic) como próximas referencias de alto impacto.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana corta sigue dejando un saldo del dólar neutral (0): el PIB bate con fuerza (4,3% frente al 3,4%) y las ventas de viviendas nuevas sorprenden al alza, compensados por unos PMI de servicios más débiles y un PCE subyacente algo caliente en tasa interanual. Pesan los tipos -la Fed de Kevin Warsh al 96,5% de probabilidad de subida el 9 de diciembre según Kalshi- y la escalada arancelaria de Trump (Sección 301, aunque Greer adelanta que no entrará en vigor hasta dentro de varios meses y China no anuncia represalias concretas), con Bessent insistiendo en que un endurecimiento excesivo sería un error. La gamma sigue en régimen negativo (-6,17 mil M$ por 1%) con el precio del motor por debajo del gammaflip (7.393); la liquidez mantiene una tendencia de cuatro semanas positiva (+23.200 millones $) y los futuros ES amplían el rebote hacia la apertura de Nueva York (+0,7%), moderando algo más el sesgo bajista de la semana.",
+        "narrativa": "El calendario de esta semana corta sigue dejando un saldo del dólar neutral (0): el PIB bate con fuerza (4,3% frente al 3,4%) y las ventas de viviendas nuevas sorprenden al alza, compensados por unos PMI de servicios más débiles y un PCE subyacente algo caliente en tasa interanual. Pesan los tipos -la Fed de Kevin Warsh al 96,5% de probabilidad de subida el 9 de diciembre según Kalshi- y la escalada arancelaria de Trump (Sección 301, aunque Greer adelanta que no entrará en vigor hasta dentro de varios meses y China no anuncia represalias concretas), con Bessent insistiendo en que un endurecimiento excesivo sería un error. La gamma sigue en régimen negativo (-6,17 mil M$ por 1%) con el precio del motor por debajo del gammaflip (7.391); la liquidez mantiene una tendencia de cuatro semanas positiva (+23.200 millones $) y los futuros ES amplían el rebote hacia la apertura de Nueva York (+0,7%), moderando algo más el sesgo bajista de la semana.",
         "score": -15,
         "scoreInicial": 28,
         "sesgo": "bajista"
@@ -1852,5 +1852,5 @@
     "updatedAt": "2026-11-26T13:49:13Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-26T14:15:43Z"
+  "updatedAt": "2026-11-26T15:20:00Z"
 }
