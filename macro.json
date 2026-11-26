@@ -392,9 +392,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-26T08:50:17Z",
+    "actualizado": "2026-11-26T09:51:21Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su única reunión de diciembre (9 de diciembre) se mantiene en el 96,5 % según Kalshi, con la tasa implícita sin cambios en el 4,12 %. Para enero de 2027 la probabilidad sube ligeramente al 94,0 % (antes 93,5 %) con la tasa implícita bajando a 4,21 % (antes 4,22 %); para marzo de 2027 baja al 94,5 % (antes 96 %) con la tasa implícita también a la baja, en el 4,39 % (antes 4,42 %).",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su única reunión de diciembre (9 de diciembre) se mantiene en el 96,5 % según Kalshi, sin cambios, con la tasa implícita también sin cambios en el 4,12 %. Para enero de 2027 se mantiene en el 94,0 % (tasa implícita 4,21 %, sin cambios); para marzo de 2027 la probabilidad se mantiene en el 94,5 % mientras la tasa implícita baja ligeramente a 4,38 % (antes 4,39 %).",
     "reuniones": [
       {
         "bajar": 1.5,
@@ -415,7 +415,7 @@
         "fecha": "2027-03-17",
         "mantener": 0.5,
         "subir": 94.5,
-        "tasaImplicita": 4.39
+        "tasaImplicita": 4.38
       },
       {
         "bajar": 3.5,
@@ -553,12 +553,12 @@
   ],
   "indices": [
     {
-      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 06:33 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros (ES) llegaron a subir un 0,7 % en la sesión asiática según investingLive.",
+      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 09:51 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias.",
       "changePct": -0.05,
       "claves": [
         "Call wall se mantiene en 7312 (ETF SPY 730,0 $).",
         "Put wall se mantiene en 7012 (ETF SPY 700,0 $).",
-        "Gammaflip baja a 7400 (ETF SPY 738,75 $), desde 7.403.",
+        "Gammaflip baja a 7398 (ETF SPY 738,61 $), desde 7.400.",
         "Max pain se mantiene en 7222 (ETF SPY 721,0 $); régimen de gamma negativa, sin cambios en -6,17 mil M$ por 1 %, put/call OI 1,84 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
@@ -739,11 +739,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 738.75,
+        "gammaFlip": 738.61,
         "gexTotal": -6.17,
         "indice": {
           "callWall": 7312,
-          "gammaFlip": 7400,
+          "gammaFlip": 7398,
           "maxPain": 7222,
           "precio": 7179,
           "putWall": 7012
@@ -776,10 +776,10 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 cotiza en torno a 7.179 puntos en la sesión asiática/pre-Londres de hoy jueves, prácticamente plano (-0,05 % frente al cierre de 7.182,78), con Wall Street cerrada por Acción de Gracias; los futuros ES llegaron a subir un 0,7 % en la sesión asiática según investingLive. Pesa sobre todo Trump, cuya propuesta de aranceles Sección 301 golpea la cadena de suministro justo cuando el PIB (4,3 %) y el PCE subyacente (3,3 % interanual) ya publicados elevan al 96,5 % la probabilidad de que la Fed suba tipos el 9 de diciembre según Kalshi; Bessent sigue oponiéndose a un endurecimiento excesivo. El motor sube el call wall a 7.312 y el max pain a 7.222, con el régimen de gamma todavía negativo (-6,17 mil M$ por 1 %) y un put/call OI de 1,84.",
+      "lectura": "El S&P 500 (feed del motor) se mantiene en torno a 7.179 puntos a las 09:51 UTC, con Wall Street cerrada por Acción de Gracias; la sesión de Asia cerró en positivo (Nikkei, Kospi y Hang Seng al alza) y los futuros europeos (Euro Stoxx 50) rebotan con fuerza, +2,2 % tras el -1,9 % del miércoles. El Nasdaq 100 llegó a tocar brevemente terreno de mercado bajista esta madrugada antes de recortar pérdidas, recordando que el riesgo tecnológico sigue latente. Pesa Trump con sus aranceles Sección 301 justo cuando el PIB (4,3 %) y el PCE subyacente (3,3 % interanual) elevan al 96,5 % la probabilidad de que la Fed suba tipos el 9 de diciembre según Kalshi; Bessent sigue oponiéndose a un endurecimiento excesivo. El gammaflip del motor baja ligeramente a 7.398 (antes 7.400), con el régimen de gamma todavía negativo (-6,17 mil M$ por 1 %) y un put/call OI de 1,84.",
       "levels": {
         "callWall": 7312,
-        "gammaFlip": 7400,
+        "gammaFlip": 7398,
         "maxPain": 7222,
         "putWall": 7012
       },
@@ -793,12 +793,12 @@
       "spot": 7179
     },
     {
-      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 06:33 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros (NQ) llegaron a subir un 1,1 % en la sesión asiática según investingLive.",
+      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 09:51 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias.",
       "changePct": 0.63,
       "claves": [
         "Call wall se mantiene en 26702 (ETF QQQ 650,0 $).",
         "Put wall se mantiene en 26291 (ETF QQQ 640,0 $).",
-        "Gammaflip baja a 27489 (ETF QQQ 669,15 $), desde 27.532.",
+        "Gammaflip baja a 27470 (ETF QQQ 668,69 $), desde 27.489.",
         "Max pain se mantiene en 26456 (ETF QQQ 644,0 $); régimen de gamma negativa, sin cambios en -1,95 mil M$ por 1 %, put/call OI 1,87 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
@@ -959,11 +959,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 669.15,
+        "gammaFlip": 668.69,
         "gexTotal": -1.95,
         "indice": {
           "callWall": 26702,
-          "gammaFlip": 27489,
+          "gammaFlip": 27470,
           "maxPain": 26456,
           "precio": 26042,
           "putWall": 26291
@@ -996,10 +996,10 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 cotiza en torno a 26.042 puntos (+0,63 % frente a la referencia previa de 25.880), con los futuros NQ subiendo hasta un 1,1 % en la sesión asiática según investingLive. Pesa el riesgo específico de semiconductores: los aranceles Sección 301 golpean la cadena de suministro tecnológica justo cuando Jensen Huang ha aceptado declarar ante varios comités del Congreso el 1 y 2 de diciembre por su relación con un presunto operativo de inteligencia china. El motor modera con fuerza el put/call OI a 1,87 (antes 2,55) y el régimen de gamma negativa se suaviza a -1,95 mil M$ por 1 % (antes -2,79), con el call wall bajando a 26.702 y el max pain subiendo a 26.456.",
+      "lectura": "El Nasdaq 100 (feed del motor) se mantiene en torno a 26.042 puntos a las 09:51 UTC; en la madrugada del jueves los futuros llegaron a tocar brevemente terreno de mercado bajista (mínimo cercano a 24.970 según CaixaBank Research) antes de recortar pérdidas con el rebote generalizado de Asia y de los futuros europeos (Euro Stoxx 50 +2,2 %). Pesa el riesgo específico de semiconductores: los aranceles Sección 301 golpean la cadena de suministro tecnológica justo cuando Jensen Huang ha aceptado declarar ante el Congreso el 1 y 2 de diciembre, y la Fed sube al 96,5 % la probabilidad de subir tipos el 9 de diciembre. El gammaflip del motor baja a 27.470 (antes 27.489), con el régimen de gamma negativa suavizándose a -1,95 mil M$ por 1 % y un put/call OI de 1,87.",
       "levels": {
         "callWall": 26702,
-        "gammaFlip": 27489,
+        "gammaFlip": 27470,
         "maxPain": 26456,
         "putWall": 26291
       },
@@ -1149,6 +1149,51 @@
   "noticias": [
     {
       "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "Newsquawk",
+      "impacto": "medio",
+      "resumen": "El selectivo europeo recupera gran parte de la caída del 1,9% de ayer en una apertura de alivio técnico tras el pánico bursátil de Wall Street.",
+      "titular": "Los futuros del Euro Stoxx 50 rebotan un 2,2% tras el desplome del miércoles",
+      "ts": "2026-11-26T08:00:00Z",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---26th-november-2026"
+    },
+    {
+      "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "The Block",
+      "impacto": "medio",
+      "resumen": "The Block cifra las salidas acumuladas del mes en unos 5.390 millones $, el peor dato desde el lanzamiento de los productos en 2024.",
+      "titular": "Las salidas de ETF de bitcoin en EE. UU. tocan un récord de 5.390 millones $ en noviembre",
+      "ts": "2026-11-26T07:00:00Z",
+      "url": "https://theblock.co/news/markets/2026-11-26-spot-bitcoin-etfs-worst-month-november-446814"
+    },
+    {
+      "activos": {
+        "NQ": "bajista"
+      },
+      "fuente": "CaixaBank Research",
+      "impacto": "alto",
+      "resumen": "Los futuros tecnológicos llegaron a marcar un mínimo cercano a 24.970 puntos en la madrugada antes de recuperar terreno con el rebote de Asia.",
+      "titular": "El Nasdaq 100 toca brevemente mercado bajista antes de recortar pérdidas",
+      "ts": "2026-11-26T06:00:00Z",
+      "url": "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/26-november-2026"
+    },
+    {
+      "activos": {
+        "BTC": "bajista"
+      },
+      "fuente": "crypto.news",
+      "impacto": "medio",
+      "resumen": "La firma vincula el riesgo a una caída de 10.700 millones $ en la oferta de stablecoins, la mayor desde el colapso de Terra.",
+      "titular": "21Shares advierte de que bitcoin podría caer hasta 53.250 $ por la contracción de stablecoins",
+      "ts": "2026-11-26T04:50:00Z",
+      "url": "https://crypto.news/bitcoin-price-21shares-53250-stablecoin-supply-decline/"
+    },
+    {
+      "activos": {
         "WTI": "alcista"
       },
       "fuente": "FXStreet",
@@ -1157,17 +1202,6 @@
       "titular": "El petróleo WTI abre al alza en Europa pese al festivo en EE. UU.",
       "ts": "2026-11-26T06:51:00Z",
       "url": "https://www.fxstreet.com/news/crude-oil-price-today-wti-price-bullish-at-european-opening-202511260702"
-    },
-    {
-      "activos": {
-        "NQ": "bajista"
-      },
-      "fuente": "Inc. / Benzinga",
-      "impacto": "alto",
-      "resumen": "El presidente del Comite de Asuntos Exteriores de la Cámara, Brian Mast, confirma que el consejero delegado de Nvidia testificara ante varios comités por su relación con un presunto operativo de inteligencia chino, en plena escalada de la presión regulatoria sobre la IA.",
-      "titular": "Jensen Huang acepta declarar ante el Congreso de EE. UU. antes de Acción de Gracias",
-      "ts": "2026-11-25T20:00:00Z",
-      "url": "https://inc.com/melissa-angell/jensen-huang-testify-congress-nvidia-probe-china/91435429"
     },
     {
       "activos": {
@@ -1273,53 +1307,6 @@
       "titular": "Wall Street recorta pérdidas a mediodía: el S&P 500 ya solo cae un 1 % y el Nasdaq un 1,9 %",
       "ts": "2026-11-25T18:00:00Z",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "BNN Bloomberg",
-      "impacto": "alto",
-      "resumen": "El índice llegó a caer un 4,7 % en la apertura, su primer mercado bajista desde abril de 2025, lastrado por Nvidia y el resto de valores de IA.",
-      "titular": "El Nasdaq 100 entra en mercado bajista: cae ya un 20 % desde su máximo de octubre",
-      "ts": "2026-11-25T16:30:00Z",
-      "url": "https://www.bnnbloomberg.ca/markets/2026/11/25/ai-rout-continues-as-market-exuberance-fades-over-improbable-return-of-nvidias-huang"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "TradersUnion / Yahoo Finance",
-      "impacto": "alto",
-      "resumen": "El Nasdaq 100 profundiza el desplome hasta un -4,64 % según TradersUnion, mientras el S&P 500 recupera algo de terreno desde el mínimo de apertura.",
-      "titular": "El Nasdaq 100 amplía la caída hasta un 4,6 % mientras el S&P 500 recorta pérdidas a -2,7 %",
-      "ts": "2026-11-25T15:35:00Z",
-      "url": "https://tradersunion.com/news/stocks/show/4414412-nasdaq-100-drops-4-64percent-to/"
-    },
-    {
-      "activos": {
-        "NQ": "bajista",
-        "SPX": "bajista"
-      },
-      "fuente": "CNBC",
-      "impacto": "alto",
-      "resumen": "La Administración Trump (USTR) formaliza una propuesta de aranceles Sección 301 contra 14 economías por exceso de capacidad industrial; sujeta a audiencias públicas, no entraría en vigor antes de enero de 2027.",
-      "titular": "EE. UU. propone aranceles Sección 301: ~20 % adicional a China y hasta el 18 % a la UE, Japón, Corea y Taiwán",
-      "ts": "2026-11-25T15:10:00Z",
-      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
-    },
-    {
-      "activos": {
-        "NQ": "bajista"
-      },
-      "fuente": "Hong Kong Free Press",
-      "impacto": "medio",
-      "resumen": "El portavoz de Exteriores, Guo Jiakun, pide aplicar el consenso Trump-Xi tras conocerse la propuesta arancelaria Sección 301 de EE. UU.",
-      "titular": "China advierte de que 'las guerras comerciales no interesan a nadie' tras los nuevos aranceles de EE. UU.",
-      "ts": "2026-11-25T15:05:00Z",
-      "url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/"
     }
   ],
   "odte": {
@@ -1455,7 +1442,7 @@
       }
     ]
   },
-  "resumen": "Son las 06:51 UTC (07:51 en Canarias, 01:51 en Nueva York) del jueves 26 de noviembre de 2026: Wall Street permanece cerrado por Acción de Gracias (la sesión del viernes 27 será reducida, hasta las 13:00 hora de Nueva York) tras la violenta sesión del miércoles, en la que el S&P 500 llego a caer más de un 3 % intradía antes de cerrar en 7.182,78 puntos (-0,25 %) y el Nasdaq Composite en 23.585,80 (-0,62 %), lastrados por el encarecimiento de los CDS de las tecnológicas de IA y la propuesta formal de aranceles Sección 301 de Trump (~20 % a China, hasta 18-20 % a la UE, Japón, Corea y Taiwán). En la sesión asiática de hoy el ánimo mejora: el Nikkei sube un 1,6 %, el Kospi un 1,5 % y el Hang Seng un 1,9 %, con los futuros del S&P 500 avanzando un 0,7 % y los del Nasdaq 100 un 1,1 % en un volumen muy bajo por el festivo; el oro recupera terreno hacia 3.590 $/oz tras tocar un mínimo de 52 semanas en torno a 3.426-3.476 $, y bitcoin rebota sobre 60.000 $ (+3 % en 24 h) tras marcar mínimos de 57.240 $, aunque las salidas de ETF de bitcoin en noviembre siguen cerca de 5.000 millones $, su peor mes desde 2022. El euro se mantiene débil, en torno a 1,0960-1,0970 $, con el índice dólar (DXY) cerca de 104, cerca de máximos de 20 meses, mientras el WTI abre al alza en Europa (FXStreet) sostenido por la tensión en el estrecho de Ormuz y el endurecimiento de las sanciones de Bessent a Irán. El motor eleva al 96,5 % la probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre (antes 94,5 %), y la gamma sigue en régimen negativo en ambos índices, con el S&P 500 y el Nasdaq 100 todavía muy por debajo de sus respectivos gammaflip.",
+  "resumen": "Son las 10:17 UTC (11:17 en Canarias, 05:17 en Nueva York) del jueves 26 de noviembre de 2026: Wall Street sigue cerrado por Acción de Gracias (la sesión del viernes 27 será reducida, hasta las 13:00 hora de Nueva York). Tras la violenta sesión del miércoles, esta madrugada el Nasdaq 100 llegó a tocar brevemente terreno de mercado bajista (mínimo cercano a 24.970 según CaixaBank Research) antes de recortar pérdidas con el rebote de Asia (Nikkei +1,6 %, Kospi +1,5 %, Hang Seng +1,9 %) y ahora también de los futuros europeos, con el Euro Stoxx 50 subiendo un 2,2 % tras el -1,9 % del miércoles. El oro sigue recuperando terreno hacia 3.590 $/oz tras el mínimo de 52 semanas de ayer, y bitcoin se mantiene sobre 60.000-60.800 $ pese a que las salidas de ETF en EE. UU. alcanzan ya unos 5.390 millones $ en noviembre, su peor mes desde el lanzamiento de los productos en 2024; firmas como 21Shares y Galaxy advierten de nuevas caídas si se pierden los 58.500-53.250 $. El euro cotiza en torno a 1,0960-1,0980 $, con el índice dólar (DXY) todavía cerca de máximos de 20 meses (104,59) y el WTI sosteniéndose al alza por la tensión en el estrecho de Ormuz. El motor mantiene en el 96,5 % la probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre según Kalshi, y la gamma sigue en régimen negativo en ambos índices.",
   "semana": {
     "activos": [
       {
@@ -1818,5 +1805,5 @@
     "updatedAt": "2026-11-26T06:51:21Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-26T09:16:04.000000Z"
+  "updatedAt": "2026-11-26T10:17:00Z"
 }
