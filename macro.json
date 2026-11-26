@@ -392,9 +392,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-26T06:33:32Z",
+    "actualizado": "2026-11-26T08:50:17Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su próxima reunión, el 9 de diciembre -la única cita del mes-, sube al 96,5 % según Kalshi (antes 94,5 %), con la tasa implícita subiendo ligeramente a 4,12 % (antes 4,11 %). Para enero de 2027 la probabilidad de subida baja al 93,5 % (antes 95 %) con la tasa implícita en 4,22 % (antes 4,21 %); para marzo de 2027 se mantiene en el 96 % con la tasa implícita bajando levemente a 4,42 % (antes 4,43 %). Las reuniones de abril y julio de 2027 se mantienen sin cambios, sin dato fresco del motor.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos en su única reunión de diciembre (9 de diciembre) se mantiene en el 96,5 % según Kalshi, con la tasa implícita sin cambios en el 4,12 %. Para enero de 2027 la probabilidad sube ligeramente al 94,0 % (antes 93,5 %) con la tasa implícita bajando a 4,21 % (antes 4,22 %); para marzo de 2027 baja al 94,5 % (antes 96 %) con la tasa implícita también a la baja, en el 4,39 % (antes 4,42 %).",
     "reuniones": [
       {
         "bajar": 1.5,
@@ -404,18 +404,18 @@
         "tasaImplicita": 4.12
       },
       {
-        "bajar": 5,
+        "bajar": 5.5,
         "fecha": "2027-01-27",
-        "mantener": 1.5,
-        "subir": 93.5,
-        "tasaImplicita": 4.22
+        "mantener": 0.5,
+        "subir": 94,
+        "tasaImplicita": 4.21
       },
       {
-        "bajar": 4,
+        "bajar": 5,
         "fecha": "2027-03-17",
-        "mantener": 0,
-        "subir": 96,
-        "tasaImplicita": 4.42
+        "mantener": 0.5,
+        "subir": 94.5,
+        "tasaImplicita": 4.39
       },
       {
         "bajar": 3.5,
@@ -556,10 +556,10 @@
       "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 06:33 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros (ES) llegaron a subir un 0,7 % en la sesión asiática según investingLive.",
       "changePct": -0.05,
       "claves": [
-        "Call wall sube a 7312 (ETF SPY 730.0 $), desde 7.212.",
-        "Put wall se mantiene en 7012 (ETF SPY 700.0 $).",
-        "Gammaflip baja a 7403 (ETF SPY 739.07 $), desde 7.467.",
-        "Max pain sube a 7222 (ETF SPY 721.0 $), desde 7.182; régimen de gamma negativa, en -6.17 mil M$ por 1 % (antes -6,23), put/call OI 1.84 (antes 1,80); open interest del 2026-11-24."
+        "Call wall se mantiene en 7312 (ETF SPY 730,0 $).",
+        "Put wall se mantiene en 7012 (ETF SPY 700,0 $).",
+        "Gammaflip baja a 7400 (ETF SPY 738,75 $), desde 7.403.",
+        "Max pain se mantiene en 7222 (ETF SPY 721,0 $); régimen de gamma negativa, sin cambios en -6,17 mil M$ por 1 %, put/call OI 1,84 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
         "callWall": 730,
@@ -739,11 +739,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 739.07,
+        "gammaFlip": 738.75,
         "gexTotal": -6.17,
         "indice": {
           "callWall": 7312,
-          "gammaFlip": 7403,
+          "gammaFlip": 7400,
           "maxPain": 7222,
           "precio": 7179,
           "putWall": 7012
@@ -779,7 +779,7 @@
       "lectura": "El S&P 500 cotiza en torno a 7.179 puntos en la sesión asiática/pre-Londres de hoy jueves, prácticamente plano (-0,05 % frente al cierre de 7.182,78), con Wall Street cerrada por Acción de Gracias; los futuros ES llegaron a subir un 0,7 % en la sesión asiática según investingLive. Pesa sobre todo Trump, cuya propuesta de aranceles Sección 301 golpea la cadena de suministro justo cuando el PIB (4,3 %) y el PCE subyacente (3,3 % interanual) ya publicados elevan al 96,5 % la probabilidad de que la Fed suba tipos el 9 de diciembre según Kalshi; Bessent sigue oponiéndose a un endurecimiento excesivo. El motor sube el call wall a 7.312 y el max pain a 7.222, con el régimen de gamma todavía negativo (-6,17 mil M$ por 1 %) y un put/call OI de 1,84.",
       "levels": {
         "callWall": 7312,
-        "gammaFlip": 7403,
+        "gammaFlip": 7400,
         "maxPain": 7222,
         "putWall": 7012
       },
@@ -796,10 +796,10 @@
       "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 06:33 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros (NQ) llegaron a subir un 1,1 % en la sesión asiática según investingLive.",
       "changePct": 0.63,
       "claves": [
-        "Call wall baja a 26702 (ETF QQQ 650.0 $), desde 27.113.",
-        "Put wall sube a 26291 (ETF QQQ 640.0 $), desde 26.086.",
-        "Gammaflip se situa en 27532 (ETF QQQ 670.21 $).",
-        "Max pain sube a 26456 (ETF QQQ 644.0 $), desde 26.374; régimen de gamma negativa, en -1.95 mil M$ por 1 % (antes -2,79), put/call OI 1.87 (antes 2,55): fuerte moderación del sesgo a puts; open interest del 2026-11-24."
+        "Call wall se mantiene en 26702 (ETF QQQ 650,0 $).",
+        "Put wall se mantiene en 26291 (ETF QQQ 640,0 $).",
+        "Gammaflip baja a 27489 (ETF QQQ 669,15 $), desde 27.532.",
+        "Max pain se mantiene en 26456 (ETF QQQ 644,0 $); régimen de gamma negativa, sin cambios en -1,95 mil M$ por 1 %, put/call OI 1,87 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
         "callWall": 650,
@@ -959,11 +959,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 670.21,
+        "gammaFlip": 669.15,
         "gexTotal": -1.95,
         "indice": {
           "callWall": 26702,
-          "gammaFlip": 27532,
+          "gammaFlip": 27489,
           "maxPain": 26456,
           "precio": 26042,
           "putWall": 26291
@@ -999,7 +999,7 @@
       "lectura": "El Nasdaq 100 cotiza en torno a 26.042 puntos (+0,63 % frente a la referencia previa de 25.880), con los futuros NQ subiendo hasta un 1,1 % en la sesión asiática según investingLive. Pesa el riesgo específico de semiconductores: los aranceles Sección 301 golpean la cadena de suministro tecnológica justo cuando Jensen Huang ha aceptado declarar ante varios comités del Congreso el 1 y 2 de diciembre por su relación con un presunto operativo de inteligencia china. El motor modera con fuerza el put/call OI a 1,87 (antes 2,55) y el régimen de gamma negativa se suaviza a -1,95 mil M$ por 1 % (antes -2,79), con el call wall bajando a 26.702 y el max pain subiendo a 26.456.",
       "levels": {
         "callWall": 26702,
-        "gammaFlip": 27532,
+        "gammaFlip": 27489,
         "maxPain": 26456,
         "putWall": 26291
       },
@@ -1818,5 +1818,5 @@
     "updatedAt": "2026-11-26T06:51:21Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-26T08:20:00Z"
+  "updatedAt": "2026-11-26T09:16:04.000000Z"
 }
