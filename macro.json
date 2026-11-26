@@ -392,9 +392,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-26T13:12:07Z",
+    "actualizado": "2026-11-26T14:13:13Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 96,5 % según Kalshi, sin cambios, con la tasa implícita también estable en el 4,12 %. Para enero de 2027 el mercado sigue asignando un 93,0 % a una subida (tasa implícita 4,21 %), y para marzo de 2027 un 96,0 % (4,42 %), ambas sin cambios frente a la lectura anterior.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 96,5 % según Kalshi, sin cambios, con la tasa implícita estable en el 4,12 %. Para enero de 2027 el mercado sube ligeramente la probabilidad de subida al 94,0 % (desde 93,5 %), con la tasa implícita sin cambios en el 4,22 %; para marzo de 2027 se mantiene en el 96,0 % (4,42 %), sin cambios.",
     "reuniones": [
       {
         "bajar": 1.5,
@@ -406,9 +406,9 @@
       {
         "bajar": 5,
         "fecha": "2027-01-27",
-        "mantener": 2,
-        "subir": 93,
-        "tasaImplicita": 4.21
+        "mantener": 1,
+        "subir": 94,
+        "tasaImplicita": 4.22
       },
       {
         "bajar": 3,
@@ -434,6 +434,22 @@
     ]
   },
   "fuentes": [
+    {
+      "nombre": "investingLive · European session wrap: European stocks ride Wall Street's comeback into Thanksgiving",
+      "url": "https://investinglive.com/news/investinglive-european-session-wrap-european-stocks-ride-wall-street-s-comeback-into-thanksgiving/"
+    },
+    {
+      "nombre": "The National · Trump warns of war funding fight as tanker attacks raise Hormuz tension",
+      "url": "https://www.thenationalnews.com/news/gulf/2026/11/25/trump-warns-of-war-funding-fight-as-tanker-attacks-raise-hormuz-tension/"
+    },
+    {
+      "nombre": "Iran International · Iranian media walk back tanker convoy claims after days of blockade-breaking hype",
+      "url": "https://www.iranintl.com/en/202611235703"
+    },
+    {
+      "nombre": "NBC News · Live updates: White House unveils new tariffs on China, E.U. nations and others",
+      "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/live-updates-white-house-tariffs-china-european-union-rcna611183"
+    },
     {
       "nombre": "Axios · Jensen Huang agrees to face Congress over Nvidia scandal",
       "url": "https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates"
@@ -569,12 +585,12 @@
   ],
   "indices": [
     {
-      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 12:41 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros ES cotizan por encima, en torno a +0,7% frente al cierre del miércoles, con bastante dispersión entre fuentes por la baja liquidez festiva.",
+      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 14:13 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros ES amplían la subida hacia la apertura de Nueva York, cotizando en torno a 7.247,5 (+0,7% frente al cierre del miércoles), con baja liquidez y cierta dispersión entre fuentes por el festivo.",
       "changePct": 0,
       "claves": [
         "Call wall se mantiene en 7312 (ETF SPY 730,0 $).",
         "Put wall se mantiene en 7012 (ETF SPY 700,0 $).",
-        "Gammaflip baja a 7394 (ETF SPY 738,21 $), desde 7.397.",
+        "Gammaflip baja ligeramente a 7392 (ETF SPY 737,99 $), desde 7.393.",
         "Max pain se mantiene en 7222 (ETF SPY 721,0 $); régimen de gamma negativa, sin cambios en -6,17 mil M$ por 1 %, put/call OI 1,84 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
@@ -755,11 +771,11 @@
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 738.21,
+        "gammaFlip": 737.99,
         "gexTotal": -6.17,
         "indice": {
           "callWall": 7312,
-          "gammaFlip": 7394,
+          "gammaFlip": 7392,
           "maxPain": 7222,
           "precio": 7179,
           "putWall": 7012
@@ -792,11 +808,12 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 (feed del motor, con retraso) se mantiene en torno a 7.179 puntos a las 12:41 UTC, pero los futuros ES cotizan más arriba (~+0,7%) con Wall Street cerrada por Acción de Gracias y muy baja liquidez; Asia cerró en positivo y los futuros europeos suben con fuerza tras el desplome del miércoles. El petróleo WTI se dispara (~+2,6%, ~84 $) por la escalada en el estrecho de Ormuz, donde Irán amenaza con enviar un convoy de petroleros a China para desafiar el bloqueo naval de EE. UU. Pesa Trump con sus aranceles Sección 301 (aunque el representante de Comercio Greer adelanta que no entrarán en vigor hasta dentro de varios meses, y China solo se reserva el derecho a responder sin represalias concretas) justo cuando el PIB (4,3 %) y el PCE subyacente (3,3 % interanual) mantienen en el 96,5 % la probabilidad de que la Fed suba tipos el 9 de diciembre según Kalshi; Bessent sigue oponiéndose a un endurecimiento excesivo. El gammaflip del motor baja a 7.394 (antes 7.397), con el régimen de gamma todavía negativo (-6,17 mil M$ por 1 %) y un put/call OI de 1,84.",
+      "lectura": "El S&P 500 (feed del motor, con retraso) se mantiene en torno a 7.179 puntos a las 14:13 UTC, pero los futuros ES amplían la subida hacia la apertura de Nueva York (~+0,7%, 7.247,5) con Wall Street cerrada por Acción de Gracias y muy baja liquidez; Asia cerró en positivo y los futuros europeos suben con fuerza tras el desplome del miércoles. El petróleo WTI se mantiene firme en torno a 84 $ (+2,6%) por la tensión en el estrecho de Ormuz, donde persisten los ataques con minas contra petroleros pese a que Irán ha desmentido el envío inminente de un convoy hacia China y Trump advierte de una posible nueva ronda de financiación bélica. Pesa Trump con sus aranceles Sección 301 (el representante de Comercio Greer adelanta que no entrarán en vigor hasta dentro de varios meses) justo cuando el PIB (4,3 %) y el PCE subyacente (3,3 % interanual) mantienen en el 96,5 % la probabilidad de que la Fed suba tipos el 9 de diciembre según Kalshi; Bessent sigue oponiéndose a un endurecimiento excesivo. El gammaflip del motor baja ligeramente a 7.392 (antes 7.393), con el régimen de gamma todavía negativo (-6,17 mil M$ por 1 %) y un put/call OI de 1,84.",
       "levels": {
         "callWall": 7312,
-        "gammaFlip": 7394,
+        "gammaFlip": 7392,
         "maxPain": 7222,
+        "precio": 7179,
         "putWall": 7012
       },
       "name": "S&P 500",
@@ -804,17 +821,17 @@
       "precio": 7179,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -30,
+      "score": -26,
       "sesgo": "bajista",
       "spot": 7179
     },
     {
-      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 12:41 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros NQ cotizan por encima, en torno a +0,8-1,1% frente al cierre del miércoles, con bastante dispersión entre fuentes por la baja liquidez festiva.",
+      "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso) a las 14:13 UTC del jueves 26 de noviembre; Wall Street permanece cerrada por Acción de Gracias. Los futuros NQ amplían la subida hacia la apertura de Nueva York, cotizando en torno a 26.301 (+0,8% frente al cierre del miércoles), con baja liquidez y cierta dispersión entre fuentes por el festivo.",
       "changePct": 0,
       "claves": [
         "Call wall se mantiene en 26702 (ETF QQQ 650,0 $).",
         "Put wall se mantiene en 26291 (ETF QQQ 640,0 $).",
-        "Gammaflip baja a 27420 (ETF QQQ 667,47 $), desde 27.452.",
+        "Gammaflip baja a 27394 (ETF QQQ 666,85 $), desde 27.403.",
         "Max pain se mantiene en 26456 (ETF QQQ 644,0 $); régimen de gamma negativa, sin cambios en -1,95 mil M$ por 1 %, put/call OI 1,87 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
@@ -975,11 +992,11 @@
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": 667.47,
+        "gammaFlip": 666.85,
         "gexTotal": -1.95,
         "indice": {
           "callWall": 26702,
-          "gammaFlip": 27420,
+          "gammaFlip": 27394,
           "maxPain": 26456,
           "precio": 26042,
           "putWall": 26291
@@ -1012,11 +1029,12 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 (feed del motor, con retraso) se mantiene en torno a 26.042 puntos a las 12:41 UTC; los futuros NQ cotizan más arriba (~+0,8-1,1%) tras tocar brevemente terreno de mercado bajista esta madrugada, antes de recortar pérdidas con el rebote de Asia y de los futuros europeos. Pesa el riesgo específico de semiconductores: los aranceles Sección 301 (con entrada en vigor aplazada 'varios meses' según el representante de Comercio Greer) golpean la cadena de suministro tecnológica justo cuando Jensen Huang ha aceptado declarar ante el Congreso el 1 y 2 de diciembre, y la Fed sube al 96,5 % la probabilidad de subir tipos el 9 de diciembre. El gammaflip del motor baja a 27.420 (antes 27.452), con el régimen de gamma negativa manteniéndose en -1,95 mil M$ por 1 % y un put/call OI de 1,87.",
+      "lectura": "El Nasdaq 100 (feed del motor, con retraso) se mantiene en torno a 26.042 puntos a las 14:13 UTC; los futuros NQ amplían la subida hacia la apertura de Nueva York (~+0,8%, 26.301) tras tocar brevemente terreno de mercado bajista esta madrugada, con el rebote de Asia y de los futuros europeos sosteniendo el ánimo. Pesa el riesgo específico de semiconductores: los aranceles Sección 301 (con entrada en vigor aplazada 'varios meses' según el representante de Comercio Greer) golpean la cadena de suministro tecnológica justo cuando Jensen Huang ha aceptado declarar ante el Congreso el 1 y 2 de diciembre, y la Fed sube al 96,5 % la probabilidad de subir tipos el 9 de diciembre. El gammaflip del motor baja a 27.394 (antes 27.403), con el régimen de gamma negativa manteniéndose en -1,95 mil M$ por 1 % y un put/call OI de 1,87.",
       "levels": {
         "callWall": 26702,
-        "gammaFlip": 27420,
+        "gammaFlip": 27394,
         "maxPain": 26456,
+        "precio": 26042,
         "putWall": 26291
       },
       "name": "Nasdaq 100",
@@ -1024,13 +1042,13 @@
       "precio": 26042,
       "regime": "negativa",
       "regimen": "negativa",
-      "score": -32,
+      "score": -28,
       "sesgo": "bajista",
       "spot": 26042
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-26T12:41:38Z",
+    "actualizado": "2026-11-26T13:42:41Z",
     "balance": 6741.5,
     "d4": 23.2,
     "dBalance": -17.4,
@@ -1163,6 +1181,30 @@
     "tga": 916.6
   },
   "noticias": [
+    {
+      "activos": {
+        "WTI": "alcista",
+        "XAU": "alcista"
+      },
+      "fuente": "Iran International / The National",
+      "impacto": "alto",
+      "resumen": "Medios estatales iraníes y el Consejo Supremo de Seguridad Nacional desmienten que un convoy de hasta 14 petroleros esté zarpando para desafiar el bloqueo naval de EE. UU.; Trump advierte de una posible nueva ronda de financiación bélica mientras los ataques con minas continúan.",
+      "titular": "Irán desmiente el envío inminente de un convoy petrolero hacia China mientras persisten los ataques con minas en Ormuz",
+      "ts": "2026-11-26T13:30:00Z",
+      "url": "https://www.iranintl.com/en/202611235703"
+    },
+    {
+      "activos": {
+        "NQ": "alcista",
+        "SPX": "alcista"
+      },
+      "fuente": "investingLive",
+      "impacto": "medio",
+      "resumen": "En sesión de muy baja liquidez por el festivo de Acción de Gracias, los futuros del S&P 500 y el Nasdaq 100 mantienen el impulso del rebote asiático y europeo.",
+      "titular": "Los futuros de EE. UU. amplían subidas hacia la apertura de Nueva York: ES +0,7% (7.247,5), NQ +0,8% (26.301)",
+      "ts": "2026-11-26T13:00:00Z",
+      "url": "https://investinglive.com/news/investinglive-european-session-wrap-european-stocks-ride-wall-street-s-comeback-into-thanksgiving/"
+    },
     {
       "activos": {
         "NQ": "alcista",
@@ -1312,29 +1354,6 @@
       "titular": "EE. UU. aplaza la entrada en vigor de los aranceles Sección 301 a 'dentro de varios meses', según el representante de Comercio Greer",
       "ts": "2026-11-25T22:00:00Z",
       "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista"
-      },
-      "fuente": "CNBC",
-      "impacto": "alto",
-      "resumen": "CNBC confirma que, tras el pánico inicial por los CDS de IA, las acciones tecnológicas recortaron buena parte de las pérdidas hacia el cierre, con el Nasdaq Composite terminando -0,62 %.",
-      "titular": "Las tecnológicas cierran a la baja pero bien lejos de los mínimos del día",
-      "ts": "2026-11-25T21:30:00Z",
-      "url": "https://cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
-    },
-    {
-      "activos": {
-        "XAU": "bajista"
-      },
-      "fuente": "CNBC / usagold / Invezz",
-      "impacto": "medio",
-      "resumen": "CNBC, Invezz y usagold coinciden en que el oro se hundió a mínimos de más de un año (3.426-3.534 $ según el momento) al reforzarse el dólar con el PIB revisado al 4,3 % y el PCE subyacente interanual en 3,3 %.",
-      "titular": "El oro cae a un mínimo de 52 semanas (en torno a 3.476 $) tras el PIB y el PCE subyacente",
-      "ts": "2026-11-25T21:15:00Z",
-      "url": "https://www.cnbc.com/2026/11/25/gold-metals-federal-reserve-inflation.html"
     }
   ],
   "odte": {
@@ -1370,10 +1389,10 @@
         "valor": "26456"
       }
     ],
-    "lectura": "Niveles 0DTE del próximo vencimiento, el viernes 27 de noviembre (sesión reducida; base gamma, motor actualizado a las 12:41 UTC). En el S&P 500 el call wall 0DTE está en 7.312 y el put wall en 7.012, con el precio del motor (7.179) por debajo del max pain (7.222) y un put/call OI de 0,93; los futuros ES cotizan más cerca del max pain tras el rebote de la madrugada. En el Nasdaq 100 el call wall 0DTE está en 26.702 y el put wall en 26.291, con el precio del motor (26.042) por debajo del max pain (26.456) y un put/call OI de 1,10. Hoy jueves el mercado permanece cerrado por Acción de Gracias; estos niveles regirán la sesión reducida del viernes."
+    "lectura": "Niveles 0DTE del próximo vencimiento, el viernes 27 de noviembre (sesión reducida; base gamma, motor actualizado a las 13:42 UTC). En el S&P 500 el call wall 0DTE está en 7.312 y el put wall en 7.012, con el precio del motor (7.179) por debajo del max pain (7.222) y un put/call OI de 0,93; los futuros ES cotizan ya por encima del max pain tras ampliar el rebote hacia la apertura de Nueva York. En el Nasdaq 100 el call wall 0DTE está en 26.702 y el put wall en 26.291, con el precio del motor (26.042) por debajo del max pain (26.456) y un put/call OI de 1,10. Hoy jueves el mercado permanece cerrado por Acción de Gracias; estos niveles regirán la sesión reducida del viernes."
   },
   "politica": {
-    "actualizado": "2026-11-26T12:50:13Z",
+    "actualizado": "2026-11-26T13:49:13Z",
     "ajuste": -12,
     "declaraciones": [
       {
@@ -1418,7 +1437,7 @@
       }
     ],
     "efecto": "mixto",
-    "lectura": "El mercado amanece hoy, festivo de Acción de Gracias, con un claro alivio técnico tras el pánico del miércoles: los futuros de EE. UU. suben (~+0,7-1,1%) y Asia y Europa rebotan con fuerza, mientras el WTI se dispara por la escalada en el estrecho de Ormuz (Irán amenaza con enviar un convoy de petroleros a China para desafiar el bloqueo naval de EE. UU.). El trasfondo sigue dominado por Trump, cuyos aranceles Sección 301 (hasta 14 economías; ~20% a China, acumulando hasta 40-45% con los existentes) verán su entrada en vigor aplazada 'varios meses' según el representante de Comercio Greer, mientras China (MOFCOM) los califica de ilegales ante la OMC pero no anuncia represalias concretas, manteniendo la tregua bilateral hasta el 10 de enero. La Fed de Kevin Warsh mantiene en el 96,5 % la probabilidad de subida el 9 de diciembre según Kalshi, con Bessent insistiendo en su tercera advertencia contra un endurecimiento excesivo citando el shock energético. El BOJ de Ueda sigue inclinado a subir tipos con el yen cerca de 160, y Lagarde se mantiene cautelosa sobre la financiación europea de chips y centros de datos; He Lifeng mantiene vigente la tregua arancelaria bilateral hasta el 10 de enero.",
+    "lectura": "El mercado amplía hacia la apertura de Nueva York el alivio técnico tras el pánico del miércoles: los futuros ES (+0,7%) y NQ (+0,8%) suben, y Asia y Europa rebotan con fuerza, mientras el WTI se mantiene firme cerca de 84 $ por la tensión en el estrecho de Ormuz, donde los ataques con minas contra petroleros continúan aunque Irán ha desmentido el envío inminente de un convoy hacia China y Trump advierte de una nueva ronda de financiación bélica. El trasfondo sigue dominado por Trump, cuyos aranceles Sección 301 (hasta 14 economías; ~20% a China, acumulando hasta 40-45% con los existentes) verán su entrada en vigor aplazada 'varios meses' según el representante de Comercio Greer, mientras China (MOFCOM) los califica de ilegales ante la OMC pero no anuncia represalias concretas, manteniendo la tregua bilateral hasta el 10 de enero. La Fed de Kevin Warsh mantiene en el 96,5 % la probabilidad de subida el 9 de diciembre según Kalshi, con Bessent insistiendo en su advertencia contra un endurecimiento excesivo citando el shock energético. El BOJ de Ueda sigue inclinado a subir tipos con el yen cerca de 160, y Lagarde se mantiene cautelosa sobre la financiación europea de chips y centros de datos; He Lifeng mantiene vigente la tregua arancelaria bilateral hasta el 10 de enero.",
     "personas": [
       {
         "cargo": "Presidente de EE. UU.",
@@ -1470,60 +1489,60 @@
       }
     ]
   },
-  "resumen": "Son las 12:50 UTC (07:50 en Nueva York) del jueves 26 de noviembre de 2026, día de Acción de Gracias: Wall Street permanece cerrada (la sesión del viernes 27 será reducida, hasta las 13:00 hora de Nueva York) y los futuros cotizan con baja liquidez y bastante dispersión entre fuentes. Los futuros del S&P 500 (ES) y del Nasdaq 100 (NQ) suben en torno a un +0,7-1,1% frente al cierre mixto del miércoles (S&P 500 -0,25%, Nasdaq Composite -0,62%), tras el rebote de Asia (Nikkei, Kospi, Hang Seng) y de los futuros europeos (Euro Stoxx 50 +2,2%). El oro sigue recuperando terreno hacia 3.576 $/oz tras el mínimo de 52 semanas del miércoles, y bitcoin rebota con fuerza a 60.400-60.900 $ (+3,2% en 24h) aunque las salidas de ETF en EE. UU. rondan ya 5.390 millones $ en noviembre, su peor mes desde 2024. El euro se mantiene débil en torno a 1,0969 $, con el índice dólar (DXY) todavía cerca de máximos de 20 meses, y el WTI se dispara (~84 $, +2,6%) por la escalada en el estrecho de Ormuz, donde Irán amenaza con enviar un convoy de petroleros a China para desafiar el bloqueo naval de EE. UU. El motor mantiene en el 96,5% la probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre según Kalshi, y la gamma sigue en régimen negativo en ambos índices.",
+  "resumen": "Son las 14:15 UTC (09:15 en Nueva York) del jueves 26 de noviembre de 2026, día de Acción de Gracias: Wall Street permanece cerrada (la sesión del viernes 27 será reducida, hasta las 13:00 hora de Nueva York) y los futuros cotizan con baja liquidez y cierta dispersión entre fuentes. Los futuros del S&P 500 (ES) y del Nasdaq 100 (NQ) amplían la subida hacia la apertura de Nueva York, en torno a 7.247,5 (+0,7%) y 26.301 (+0,8%) respectivamente, frente al cierre mixto del miércoles (S&P 500 -0,25%, Nasdaq Composite -0,62%), tras el rebote de Asia y de los futuros europeos. El oro ronda 3.576-3.580 $/oz tras el mínimo de 52 semanas del miércoles, y bitcoin se consolida en torno a 60.600-60.900 $ (+2-3% en 24h) aunque las salidas de ETF en EE. UU. rondan ya 5.390 millones $ en noviembre, su peor mes desde 2024. El euro se mantiene débil en torno a 1,0960-1,0980 $, con el índice dólar (DXY) todavía cerca de máximos de 20 meses, y el WTI se mantiene firme cerca de 84 $ (+2,6%) por la tensión en el estrecho de Ormuz, donde los ataques con minas contra petroleros continúan pese a que Irán ha desmentido el envío inminente de un convoy hacia China. El motor mantiene en el 96,5% la probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre según Kalshi (enero 2027 sube ligeramente a 94,0%), y la gamma sigue en régimen negativo en ambos índices.",
   "semana": {
     "activos": [
       {
-        "cambio": "De -21 a -17: el repunte de los futuros ES (~+0,7%) y el aplazamiento de los aranceles Sección 301 moderan algo más el giro bajista de la semana.",
+        "cambio": "De -17 a -15: los futuros ES amplían el rebote (+0,7%) hacia la apertura de Nueva York, moderando algo más el sesgo bajista de la semana.",
         "expectativa": "El saldo del calendario es neutral (0); seguirá mandando la Fed (96,5% de probabilidad de subida el 9-dic) y la escalada arancelaria/geopolítica, con el PMI de servicios ISM (3-dic) y el informe de empleo (4-dic) como próximas referencias de alto impacto.",
         "id": "SPX",
-        "narrativa": "El calendario de esta semana corta sigue dejando un saldo del dólar neutral (0): el PIB bate con fuerza (4,3% frente al 3,4%) y las ventas de viviendas nuevas sorprenden al alza, compensados por unos PMI de servicios más débiles y un PCE subyacente algo caliente en tasa interanual. Pesan los tipos -la Fed de Kevin Warsh al 96,5% de probabilidad de subida el 9 de diciembre según Kalshi- y la escalada arancelaria de Trump (Sección 301, aunque Greer adelanta que no entrará en vigor hasta dentro de varios meses y China no anuncia represalias concretas), con Bessent insistiendo en que un endurecimiento excesivo sería un error. La gamma sigue en régimen negativo (-6,17 mil M$ por 1%) con el precio del motor por debajo del gammaflip (7.394); la liquidez mantiene una tendencia de cuatro semanas positiva (+23.200 millones $) y los futuros ES rebotan con fuerza esta mañana, lo que sigue moderando el sesgo bajista de la semana.",
-        "score": -17,
+        "narrativa": "El calendario de esta semana corta sigue dejando un saldo del dólar neutral (0): el PIB bate con fuerza (4,3% frente al 3,4%) y las ventas de viviendas nuevas sorprenden al alza, compensados por unos PMI de servicios más débiles y un PCE subyacente algo caliente en tasa interanual. Pesan los tipos -la Fed de Kevin Warsh al 96,5% de probabilidad de subida el 9 de diciembre según Kalshi- y la escalada arancelaria de Trump (Sección 301, aunque Greer adelanta que no entrará en vigor hasta dentro de varios meses y China no anuncia represalias concretas), con Bessent insistiendo en que un endurecimiento excesivo sería un error. La gamma sigue en régimen negativo (-6,17 mil M$ por 1%) con el precio del motor por debajo del gammaflip (7.393); la liquidez mantiene una tendencia de cuatro semanas positiva (+23.200 millones $) y los futuros ES amplían el rebote hacia la apertura de Nueva York (+0,7%), moderando algo más el sesgo bajista de la semana.",
+        "score": -15,
         "scoreInicial": 28,
         "sesgo": "bajista"
       },
       {
-        "cambio": "De -27 a -20: el rebote de los futuros NQ (+0,8-1,1%) y el aplazamiento arancelario moderan el giro bajista, aunque el riesgo de semiconductores sigue latente.",
+        "cambio": "De -20 a -18: los futuros NQ amplían el rebote (+0,8%) hacia la apertura de Nueva York, aunque el riesgo de semiconductores sigue latente.",
         "expectativa": "El calendario pesa poco para el Nasdaq; la citación de Jensen Huang (1-2 dic), los aranceles Sección 301 y la Fed del 9 de diciembre son las referencias que más pueden moverlo hasta el informe de empleo del 4 de diciembre.",
         "id": "NQ",
-        "narrativa": "El calendario deja un saldo para el dólar neutral (0), igual que para el resto de índices. Pesa el riesgo específico de los semiconductores: los aranceles Sección 301 golpean la cadena de suministro tecnológica justo cuando Jensen Huang declarará ante el Congreso el 1 y 2 de diciembre, y la Fed sube al 96,5% la probabilidad de subir tipos el 9 de diciembre. El régimen de gamma sigue negativo (-1,95 mil M$ por 1%) con un put/call OI de 1,87; los futuros del Nasdaq 100 rebotan con fuerza esta mañana tras tocar brevemente terreno de mercado bajista de madrugada, y la liquidez positiva de cuatro semanas (+23.200 millones $) da cierto colchón frente al golpe sectorial a los chips.",
-        "score": -20,
+        "narrativa": "El calendario deja un saldo para el dólar neutral (0), igual que para el resto de índices. Pesa el riesgo específico de los semiconductores: los aranceles Sección 301 golpean la cadena de suministro tecnológica justo cuando Jensen Huang declarará ante el Congreso el 1 y 2 de diciembre, y la Fed sube al 96,5% la probabilidad de subir tipos el 9 de diciembre. El régimen de gamma sigue negativo (-1,95 mil M$ por 1%) con un put/call OI de 1,87; los futuros del Nasdaq 100 amplían el rebote hacia la apertura de Nueva York (+0,8%) tras tocar brevemente terreno de mercado bajista de madrugada, y la liquidez positiva de cuatro semanas (+23.200 millones $) da cierto colchón frente al golpe sectorial a los chips.",
+        "score": -18,
         "scoreInicial": 30,
         "sesgo": "bajista"
       },
       {
-        "cambio": "De 8 a 14: el oro amplía el rebote hacia 3.576 $/oz, con la escalada en Ormuz dando soporte adicional de refugio, aunque el dólar fuerte sigue limitando un giro más decidido al alza.",
+        "cambio": "De 14 a 13: el oro se estabiliza en torno a 3.576-3.580 $/oz, con el dólar firme limitando un nuevo impulso al alza.",
         "expectativa": "El saldo del calendario es neutral; el rebote técnico tras el mínimo de 52 semanas, la escalada en Ormuz y la evolución de los tipos son las claves hasta el informe de empleo del 4 de diciembre.",
         "id": "XAU",
-        "narrativa": "El calendario deja un saldo para el dólar neutral (0). Pesan los tipos -Fed al 96,5% de probabilidad de subida el 9 de diciembre- que siguen favoreciendo al dólar frente al oro, pero el metal amplía el rebote hacia 3.576 $/oz tras tocar un mínimo de 52 semanas (en torno a 3.426-3.534 $) el miércoles. La escalada geopolítica en el estrecho de Ormuz (minas contra petroleros, bloqueo naval de EE. UU., amenaza de convoy iraní) añade demanda de refugio, y el riesgo arancelario latente (Sección 301) sigue dando soporte estructural al oro.",
-        "score": 14,
+        "narrativa": "El calendario deja un saldo para el dólar neutral (0). Pesan los tipos -Fed al 96,5% de probabilidad de subida el 9 de diciembre- que siguen favoreciendo al dólar frente al oro, y el metal se estabiliza en torno a 3.576-3.580 $/oz tras el rebote desde el mínimo de 52 semanas (en torno a 3.426-3.534 $) del miércoles. La tensión geopolítica en el estrecho de Ormuz (ataques con minas, bloqueo naval de EE. UU., desmentido iraní sobre el convoy hacia China) sigue dando algo de soporte de refugio, y el riesgo arancelario latente (Sección 301) mantiene el soporte estructural del oro.",
+        "score": 13,
         "scoreInicial": 22,
         "sesgo": "neutral"
       },
       {
-        "cambio": "De -7 a -3: bitcoin amplía el rebote por encima de 60.000 $ (+3,2% en 24h) por un short squeeze, aunque las salidas de ETF cercanas a 5.390 millones $ en noviembre siguen pesando de fondo.",
+        "cambio": "De -3 a -2: bitcoin se consolida en torno a 60.700 $ tras el short squeeze, con las salidas de ETF de noviembre aún pesando de fondo.",
         "expectativa": "El calendario pesa poco; el posicionamiento de ETF y el apetito por el riesgo en general, no el calendario macro, son lo que más puede mover a bitcoin hasta la decisión de la Fed del 9 de diciembre.",
         "id": "BTC",
-        "narrativa": "El calendario es casi irrelevante para bitcoin esta semana (saldo del dólar neutral, 0). Pesan más los tipos -Fed al 96,5% de probabilidad de subida- y el posicionamiento: las salidas de ETF de bitcoin en EE. UU. alcanzan ya unos 5.390 millones $ en noviembre, su peor mes desde el lanzamiento de los productos en 2024, aunque el precio amplía el rebote esta mañana por encima de 60.000 $ (+3,2% en 24h) tras un short squeeze que liquidó más de 53 millones $ en posiciones cortas. El rebote generalizado de los activos de riesgo en Asia y en los futuros de EE. UU. da respiro adicional.",
-        "score": -3,
+        "narrativa": "El calendario es casi irrelevante para bitcoin esta semana (saldo del dólar neutral, 0). Pesan más los tipos -Fed al 96,5% de probabilidad de subida- y el posicionamiento: las salidas de ETF de bitcoin en EE. UU. alcanzan ya unos 5.390 millones $ en noviembre, su peor mes desde el lanzamiento de los productos en 2024, aunque el precio se consolida en torno a 60.700 $ tras el short squeeze del amanecer que liquidó más de 53 millones $ en posiciones cortas. El rebote generalizado de los activos de riesgo en Asia y en los futuros de EE. UU. da respiro adicional.",
+        "score": -2,
         "scoreInicial": 14,
         "sesgo": "neutral"
       },
       {
-        "cambio": "De 3 a 4: el euro se mantiene prácticamente estable, con un ligero repunte hacia 1,0969 $ sin cambiar el sesgo neutral.",
+        "cambio": "Se mantiene en 4: el euro ronda 1,0960 $ sin cambios relevantes frente a la lectura anterior.",
         "expectativa": "El IPC preliminar de Alemania (30-nov) y de la eurozona (1-dic), y el informe de empleo de EE. UU. (4-dic), son las próximas referencias que más pueden mover el par.",
         "id": "EURUSD",
-        "narrativa": "El calendario deja un saldo para el dólar neutral (0) y para el euro favorable (+67): los PMI de la eurozona mostraron una manufactura mejor de lo esperado en Alemania, aunque los servicios cayeron a un mínimo de cinco meses. Pesan los tipos -Fed al 96,5% de probabilidad de subida frente a un BCE con Lagarde cautelosa sobre la financiación de chips y centros de datos- y el par sigue débil, repuntando ligeramente hacia 1,0969 $, con el índice dólar (DXY) todavía cerca de máximos de 20 meses (104,59).",
+        "narrativa": "El calendario deja un saldo para el dólar neutral (0) y para el euro favorable (+67): los PMI de la eurozona mostraron una manufactura mejor de lo esperado en Alemania, aunque los servicios cayeron a un mínimo de cinco meses. Pesan los tipos -Fed al 96,5% de probabilidad de subida frente a un BCE con Lagarde cautelosa sobre la financiación de chips y centros de datos- y el par sigue débil, en torno a 1,0960 $, con el índice dólar (DXY) todavía cerca de máximos de 20 meses.",
         "score": 4,
         "scoreInicial": -5,
         "sesgo": "neutral"
       },
       {
-        "cambio": "De 13 a 25, pasando a sesgo alcista: la escalada en el estrecho de Ormuz (minas contra petroleros, bloqueo naval de EE. UU., amenaza de convoy iraní a China) dispara el WTI (~84 $, +2,6%).",
+        "cambio": "Se mantiene en torno a 24-25: el WTI se mantiene firme cerca de 84 $ pese a que Irán desmiente el envío inminente del convoy, con los ataques a petroleros aún activos.",
         "expectativa": "El calendario apenas mueve la aguja para el petróleo; la escalada geopolítica en Ormuz y las sanciones de Bessent a Irán son ahora el factor dominante.",
         "id": "WTI",
-        "narrativa": "El calendario apenas afecta al petróleo (peso bajo, saldo del dólar neutral). Domina la geopolítica: desde el 24 de noviembre se han reportado varios ataques con minas contra petroleros cerca del estrecho de Ormuz, EE. UU. mantiene un bloqueo naval a puertos iraníes y Teherán amenaza con enviar un convoy de unos 14 petroleros hacia China para desafiarlo, sin restaurar el tráfico normal mientras el bloqueo continúe. Esto, sumado al endurecimiento de las sanciones de Bessent a las exportaciones petroleras de Irán, dispara el WTI hacia 84 $/barril (+2,6%) y sube el sesgo de la semana a alcista.",
-        "score": 25,
+        "narrativa": "El calendario apenas afecta al petróleo (peso bajo, saldo del dólar neutral). Domina la geopolítica: desde el 24 de noviembre se han reportado varios ataques con minas contra petroleros cerca del estrecho de Ormuz y EE. UU. mantiene un bloqueo naval a puertos iraníes; medios iraníes han desmentido que un convoy de petroleros hacia China esté en marcha, pero Trump advierte de una posible nueva ronda de financiación bélica y la tensión sigue latente. Esto, sumado al endurecimiento de las sanciones de Bessent a las exportaciones petroleras de Irán, mantiene el WTI firme cerca de 84 $/barril (+2,6%) con sesgo alcista para la semana.",
+        "score": 24,
         "scoreInicial": -9,
         "sesgo": "alcista"
       }
@@ -1537,7 +1556,7 @@
         "WTI": 0,
         "XAU": 0
       },
-      "actualizado": "2026-11-26T12:50:13Z",
+      "actualizado": "2026-11-26T13:49:13Z",
       "dolar": 0,
       "dolarEsperado": -9,
       "euro": 67
@@ -1830,8 +1849,8 @@
     "pesoMotivo": "Semana festiva y corta por Acción de Gracias (jueves 26 cerrado): los PMI flash de EE. UU. y la eurozona y la confianza del consumidor no tienen consenso numérico confirmado en Investing.com, y ya se han publicado el PIB, el PCE subyacente, los pedidos de bienes duraderos, las peticiones de subsidio por desempleo y las ventas de viviendas nuevas del miércoles; con las bolsas muy volátiles por el riesgo arancelario y la gamma todavía muy negativa, mandan más los tipos, el posicionamiento y la geopolítica que el calendario.",
     "rango": "23 a 27 de noviembre de 2026",
     "slot": "semanal",
-    "updatedAt": "2026-11-26T12:50:13Z"
+    "updatedAt": "2026-11-26T13:49:13Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-26T13:17:43.000Z"
+  "updatedAt": "2026-11-26T14:15:43Z"
 }
