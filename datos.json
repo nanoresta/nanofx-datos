@@ -1,6 +1,8 @@
 {
- "generado": "2026-11-27T06:33:37Z",
- "errores": [],
+ "generado": "2026-11-27T07:51:31Z",
+ "errores": [
+  "letras: tabla de Letras no encontrada"
+ ],
  "fed": [
   {
    "fecha": "2026-12-09",
@@ -11,17 +13,10 @@
   },
   {
    "fecha": "2027-01-27",
-   "subir": 94.0,
+   "subir": 93.5,
    "bajar": 5.0,
-   "mantener": 1.0,
+   "mantener": 1.5,
    "tasaImplicita": 4.22
-  },
-  {
-   "fecha": "2027-04-28",
-   "subir": 96.5,
-   "bajar": 3.0,
-   "mantener": 0.5,
-   "tasaImplicita": 4.28
   }
  ],
  "liquidez": {
@@ -168,7 +163,7 @@
    "pcrOI": 1.84,
    "callWall": 750.0,
    "putWall": 700.0,
-   "gammaFlip": 750.25,
+   "gammaFlip": 750.1,
    "maxPain": 721.0,
    "vencimientoCercano": "2026-11-27",
    "escalera": [
@@ -349,7 +344,7 @@
     "precio": 7179,
     "callWall": 7513,
     "putWall": 7012,
-    "gammaFlip": 7515,
+    "gammaFlip": 7514,
     "maxPain": 7222
    },
    "odte": {
@@ -565,10 +560,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-27T06:34:03Z"
+  "calculado": "2026-11-27T07:51:51Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-27T06:34:11Z",
+  "actualizado": "2026-11-27T07:52:01Z",
   "total": 34,
   "fase": "Expansión",
   "cambio4": -28,
@@ -1328,39 +1323,6 @@
   ],
   "fuente": "FRED (Reserva Federal de St. Louis): GDP, DGS10, DFF, WALCL, WRESBAL, BAMLH0A0HYM2, BAMLHYH0A0HYM2TRIV, SP500, CP, TOTBKCR, FYFSGDA188S, PCOPPUSDM, DCOILWTICO",
   "metodo": "Cada indicador puntúa de -100 (recesión) a +100 (expansión); la línea es la media ponderada. Histórico semanal con los datos que ya estaban publicados cada semana."
- },
- "letras": {
-  "fuente": "Tesoro Público (tesoro.es), resultado de la última subasta",
-  "plazos": {
-   "3": {
-    "fechaSubasta": "2026-11-10",
-    "vencimiento": "2027-02-05",
-    "tipoMedio": 2.652,
-    "tipoMarginal": 2.665,
-    "precioMedio": 99.385
-   },
-   "6": {
-    "fechaSubasta": "2026-11-03",
-    "vencimiento": "2027-05-07",
-    "tipoMedio": 2.822,
-    "tipoMarginal": 2.845,
-    "precioMedio": 98.594
-   },
-   "9": {
-    "fechaSubasta": "2026-11-10",
-    "vencimiento": "2027-08-06",
-    "tipoMedio": 2.936,
-    "tipoMarginal": 2.946,
-    "precioMedio": 97.877
-   },
-   "12": {
-    "fechaSubasta": "2026-11-03",
-    "vencimiento": "2027-11-05",
-    "tipoMedio": 3.045,
-    "tipoMarginal": 3.068,
-    "precioMedio": 97.014
-   }
-  }
  },
  "fedFuente": "Kalshi, mercado de predicción en vivo (contratos KXFED)"
 }
