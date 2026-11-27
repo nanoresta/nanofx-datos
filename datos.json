@@ -1,19 +1,19 @@
 {
- "generado": "2026-11-27T01:44:13Z",
+ "generado": "2026-11-27T02:48:52Z",
  "errores": [],
  "fed": [
   {
    "fecha": "2026-12-09",
    "subir": 95.5,
-   "bajar": 1.5,
-   "mantener": 3.0,
+   "bajar": 1.0,
+   "mantener": 3.5,
    "tasaImplicita": 4.12
   },
   {
    "fecha": "2027-01-27",
-   "subir": 94.0,
+   "subir": 93.5,
    "bajar": 5.0,
-   "mantener": 1.0,
+   "mantener": 1.5,
    "tasaImplicita": 4.22
   }
  ],
@@ -153,15 +153,15 @@
    "etf": "SPY",
    "precio": 716.67,
    "oiFecha": "2026-11-24",
-   "contratos": 1903,
+   "contratos": 1902,
    "ratioIndice": 10.0167,
    "ratioFecha": "2026-11-24",
    "regimen": "negativa",
-   "gexTotal": -6.17,
+   "gexTotal": -6.18,
    "pcrOI": 1.84,
    "callWall": 730.0,
    "putWall": 700.0,
-   "gammaFlip": 736.31,
+   "gammaFlip": 736.2,
    "maxPain": 721.0,
    "vencimientoCercano": "2026-11-27",
    "escalera": [
@@ -183,11 +183,11 @@
     },
     {
      "strike": 700.0,
-     "gex": -1275.3
+     "gex": -1275.5
     },
     {
      "strike": 701.0,
-     "gex": -23.3
+     "gex": -23.6
     },
     {
      "strike": 702.0,
@@ -195,11 +195,11 @@
     },
     {
      "strike": 703.0,
-     "gex": -47.0
+     "gex": -47.1
     },
     {
      "strike": 704.0,
-     "gex": -108.8
+     "gex": -108.9
     },
     {
      "strike": 705.0,
@@ -223,11 +223,11 @@
     },
     {
      "strike": 710.0,
-     "gex": -499.7
+     "gex": -499.9
     },
     {
      "strike": 711.0,
-     "gex": -39.2
+     "gex": -39.3
     },
     {
      "strike": 712.0,
@@ -239,15 +239,15 @@
     },
     {
      "strike": 714.0,
-     "gex": -40.9
+     "gex": -41.2
     },
     {
      "strike": 715.0,
-     "gex": -246.2
+     "gex": -246.6
     },
     {
      "strike": 716.0,
-     "gex": -147.6
+     "gex": -148.2
     },
     {
      "strike": 717.0,
@@ -259,11 +259,11 @@
     },
     {
      "strike": 719.0,
-     "gex": -41.5
+     "gex": -41.6
     },
     {
      "strike": 720.0,
-     "gex": -238.1
+     "gex": -239.0
     },
     {
      "strike": 721.0,
@@ -275,39 +275,39 @@
     },
     {
      "strike": 723.0,
-     "gex": -127.3
+     "gex": -127.4
     },
     {
      "strike": 724.0,
-     "gex": -152.2
+     "gex": -152.7
     },
     {
      "strike": 725.0,
-     "gex": -211.4
+     "gex": -212.4
     },
     {
      "strike": 726.0,
-     "gex": -31.3
+     "gex": -31.7
     },
     {
      "strike": 727.0,
-     "gex": -275.1
+     "gex": -275.3
     },
     {
      "strike": 728.0,
-     "gex": -4.1
+     "gex": -4.2
     },
     {
      "strike": 729.0,
-     "gex": 12.8
+     "gex": 12.7
     },
     {
      "strike": 730.0,
-     "gex": -220.7
+     "gex": -220.8
     },
     {
      "strike": 731.0,
-     "gex": 42.8
+     "gex": 42.3
     },
     {
      "strike": 732.0,
@@ -319,15 +319,15 @@
     },
     {
      "strike": 734.0,
-     "gex": 20.3
+     "gex": 20.1
     },
     {
      "strike": 735.0,
-     "gex": 5.2
+     "gex": 5.0
     },
     {
      "strike": 736.0,
-     "gex": 21.7
+     "gex": 21.6
     },
     {
      "strike": 737.0,
@@ -342,7 +342,7 @@
     "precio": 7179,
     "callWall": 7312,
     "putWall": 7012,
-    "gammaFlip": 7375,
+    "gammaFlip": 7374,
     "maxPain": 7222
    },
    "odte": {
@@ -375,7 +375,7 @@
    "pcrOI": 1.87,
    "callWall": 650.0,
    "putWall": 640.0,
-   "gammaFlip": 662.73,
+   "gammaFlip": 662.39,
    "maxPain": 644.0,
    "vencimientoCercano": "2026-11-27",
    "escalera": [
@@ -536,7 +536,7 @@
     "precio": 26042,
     "callWall": 26702,
     "putWall": 26291,
-    "gammaFlip": 27225,
+    "gammaFlip": 27211,
     "maxPain": 26456
    },
    "odte": {
@@ -558,10 +558,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-27T01:44:31Z"
+  "calculado": "2026-11-27T02:49:09Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-27T01:44:40Z",
+  "actualizado": "2026-11-27T02:49:19Z",
   "total": 34,
   "fase": "Expansión",
   "cambio4": -28,
