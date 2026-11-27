@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T23:26:14Z",
+ "generado": "2026-11-27T01:44:13Z",
  "errores": [],
  "fed": [
   {
@@ -11,9 +11,9 @@
   },
   {
    "fecha": "2027-01-27",
-   "subir": 94.5,
+   "subir": 94.0,
    "bajar": 5.0,
-   "mantener": 0.5,
+   "mantener": 1.0,
    "tasaImplicita": 4.22
   }
  ],
@@ -161,7 +161,7 @@
    "pcrOI": 1.84,
    "callWall": 730.0,
    "putWall": 700.0,
-   "gammaFlip": 736.64,
+   "gammaFlip": 736.31,
    "maxPain": 721.0,
    "vencimientoCercano": "2026-11-27",
    "escalera": [
@@ -342,12 +342,12 @@
     "precio": 7179,
     "callWall": 7312,
     "putWall": 7012,
-    "gammaFlip": 7379,
+    "gammaFlip": 7375,
     "maxPain": 7222
    },
    "odte": {
     "vencimiento": "2026-11-27",
-    "esHoy": false,
+    "esHoy": true,
     "base": "gamma",
     "gexTotal": -0.22,
     "callWall": 730.0,
@@ -371,17 +371,17 @@
    "ratioIndice": 41.0803,
    "ratioFecha": "2026-11-24",
    "regimen": "negativa",
-   "gexTotal": -1.95,
+   "gexTotal": -1.96,
    "pcrOI": 1.87,
    "callWall": 650.0,
    "putWall": 640.0,
-   "gammaFlip": 663.46,
+   "gammaFlip": 662.73,
    "maxPain": 644.0,
    "vencimientoCercano": "2026-11-27",
    "escalera": [
     {
      "strike": 615.0,
-     "gex": -155.1
+     "gex": -155.5
     },
     {
      "strike": 616.0,
@@ -389,7 +389,7 @@
     },
     {
      "strike": 617.0,
-     "gex": -7.5
+     "gex": -7.6
     },
     {
      "strike": 618.0,
@@ -441,7 +441,7 @@
     },
     {
      "strike": 630.0,
-     "gex": -196.5
+     "gex": -197.2
     },
     {
      "strike": 631.0,
@@ -461,11 +461,11 @@
     },
     {
      "strike": 635.0,
-     "gex": -283.0
+     "gex": -283.3
     },
     {
      "strike": 636.0,
-     "gex": -3.8
+     "gex": -3.9
     },
     {
      "strike": 637.0,
@@ -497,11 +497,11 @@
     },
     {
      "strike": 644.0,
-     "gex": 19.4
+     "gex": 19.3
     },
     {
      "strike": 645.0,
-     "gex": -62.8
+     "gex": -62.9
     },
     {
      "strike": 646.0,
@@ -536,12 +536,12 @@
     "precio": 26042,
     "callWall": 26702,
     "putWall": 26291,
-    "gammaFlip": 27255,
+    "gammaFlip": 27225,
     "maxPain": 26456
    },
    "odte": {
     "vencimiento": "2026-11-27",
-    "esHoy": false,
+    "esHoy": true,
     "base": "gamma",
     "gexTotal": -0.15,
     "callWall": 650.0,
@@ -558,10 +558,10 @@
    }
   },
   "fuente": "Calculado por NanoFx con Alpaca: open interest diario (OCC) y gamma del feed indicativo (≈15 min de retraso). Niveles del índice convertidos desde SPY/QQQ.",
-  "calculado": "2026-11-26T23:26:33Z"
+  "calculado": "2026-11-27T01:44:31Z"
  },
  "ciclo": {
-  "actualizado": "2026-11-26T23:26:40Z",
+  "actualizado": "2026-11-27T01:44:40Z",
   "total": 34,
   "fase": "Expansión",
   "cambio4": -28,
@@ -612,8 +612,8 @@
     "id": "hy_prima",
     "n": "Prima de riesgo de los bonos basura",
     "peso": 3,
-    "score": -7,
-    "valor": "3,72 % (+1,09 en 3 meses)",
+    "score": -10,
+    "valor": "3,72 % (+1,12 en 3 meses)",
     "nota": "Si falta dinero, la burbuja pincha primero en los bonos basura. Prima baja = tranquilidad; si se dispara, alarma.",
     "fecha": "2026-11-24",
     "frec": "a diario"
@@ -623,7 +623,7 @@
     "n": "Bonos basura: tendencia",
     "peso": 2,
     "score": -38,
-    "valor": "-1,1 % sobre su media de 1 año",
+    "valor": "-1,2 % sobre su media de 1 año",
     "nota": "Si los bonos basura suben con fuerza es que entra dinero: sobra liquidez.",
     "fecha": "2026-11-24",
     "frec": "a diario"
@@ -682,18 +682,14 @@
     "id": "petroleo",
     "n": "Petróleo (WTI)",
     "peso": 1,
-    "score": 18,
-    "valor": "86,78 $ · +2,7 % sobre su media de 1 año",
+    "score": 24,
+    "valor": "87,59 $ · +3,5 % sobre su media de 1 año",
     "nota": "Petróleo firme = demanda. (Un pico muy brusco también puede frenar el consumo.)",
-    "fecha": "2026-11-19",
+    "fecha": "2026-11-20",
     "frec": "a diario"
    }
   ],
   "serie": [
-   {
-    "fecha": "2023-11-24",
-    "v": 21
-   },
    {
     "fecha": "2023-12-01",
     "v": 32
@@ -1319,7 +1315,7 @@
     "v": 41
    },
    {
-    "fecha": "2026-11-26",
+    "fecha": "2026-11-27",
     "v": 34
    }
   ],
