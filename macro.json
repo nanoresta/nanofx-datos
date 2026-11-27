@@ -392,9 +392,9 @@
     }
   ],
   "fed": {
-    "actualizado": "2026-11-27T07:51:31Z",
+    "actualizado": "2026-11-27T09:00:04Z",
     "fuente": "Kalshi, mercado de predicción en vivo (contratos KXFED) · motor de datos",
-    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 95,5% según Kalshi, sin cambios, con la tasa implícita estable en el 4,12%. Para enero de 2027 la probabilidad de subida baja ligeramente al 93,5% (desde 94,0%), con la tasa implícita sin cambios en el 4,22%.",
+    "lectura": "La probabilidad de que la Fed de Kevin Warsh suba tipos el 9 de diciembre se mantiene en el 95,5% según Kalshi, sin cambios, con la tasa implícita estable en el 4,12%. Para enero de 2027 la probabilidad de subida se mantiene en el 93,5%, con la tasa implícita sin cambios en el 4,22%.",
     "reuniones": [
       {
         "bajar": 1.5,
@@ -640,194 +640,194 @@
       "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso); hacia las 07:13 UTC los futuros ES (E-minis) cotizaban un 1,65% arriba según Reuters, en torno a 7.290-7.300, de camino a la apertura de Londres, en una sesión de liquidez todavía reducida antes de la apertura en sesión acortada de Wall Street por Acción de Gracias.",
       "changePct": 0,
       "claves": [
-        "Call wall sube a 7513 (ETF SPY 750,0 $), desde 7312.",
+        "Call wall baja a 7312 (ETF SPY 730,0 $), desde 7513.",
         "Put wall se mantiene en 7012 (ETF SPY 700,0 $).",
-        "Gammaflip sube a 7515 (ETF SPY 750,25 $), desde 7.382: el precio del motor (7.179) queda más lejos, por debajo, del nuevo flip.",
-        "Max pain se mantiene en 7222 (ETF SPY 721,0 $); régimen de gamma negativa, algo menos negativo en -5,99 mil M$ por 1 % (desde -6,17); put/call OI 1,84 (sin cambios); open interest del 24 de noviembre."
+        "Gammaflip baja a 7340 (ETF SPY 732,77 $), desde 7515: el colchón sobre el precio del motor (7179) se reduce con fuerza.",
+        "Max pain se mantiene en 7222 (ETF SPY 721,0 $); régimen de gamma negativa, mucho menos intensa en -0,17 mil M$ por 1 % (desde -5,99); put/call OI 1,84 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
-        "callWall": 750,
-        "contratos": 1703,
+        "callWall": 730,
+        "contratos": 1359,
         "escalera": [
           {
-            "gex": -88.6,
+            "gex": -54.7,
             "strike": 696
           },
           {
-            "gex": -45.9,
+            "gex": -24.9,
             "strike": 697
           },
           {
-            "gex": -34.3,
+            "gex": -19.3,
             "strike": 698
           },
           {
-            "gex": -8.5,
+            "gex": -6.5,
             "strike": 699
           },
           {
-            "gex": -1275.3,
+            "gex": -768.6,
             "strike": 700
           },
           {
-            "gex": -23.3,
+            "gex": -21.3,
             "strike": 701
           },
           {
-            "gex": -79.1,
+            "gex": -59.4,
             "strike": 702
           },
           {
-            "gex": -47,
+            "gex": -28.4,
             "strike": 703
           },
           {
-            "gex": -108.8,
+            "gex": -63.5,
             "strike": 704
           },
           {
-            "gex": -215.6,
+            "gex": -131.5,
             "strike": 705
           },
           {
-            "gex": -132.3,
+            "gex": -75.4,
             "strike": 706
           },
           {
-            "gex": -59.5,
+            "gex": -31.6,
             "strike": 707
           },
           {
-            "gex": -103,
+            "gex": -60.7,
             "strike": 708
           },
           {
-            "gex": -40.9,
+            "gex": -22.8,
             "strike": 709
           },
           {
-            "gex": -499.7,
+            "gex": -301.2,
             "strike": 710
           },
           {
-            "gex": -39.2,
+            "gex": -20.2,
             "strike": 711
           },
           {
-            "gex": -173,
+            "gex": -88.2,
             "strike": 712
           },
           {
-            "gex": -33.5,
+            "gex": -19.3,
             "strike": 713
           },
           {
-            "gex": -40.9,
+            "gex": -38.2,
             "strike": 714
           },
           {
-            "gex": -246.2,
+            "gex": -179.1,
             "strike": 715
           },
           {
-            "gex": -147.6,
+            "gex": -86.4,
             "strike": 716
           },
           {
-            "gex": 6.2,
+            "gex": -7.8,
             "strike": 717
           },
           {
-            "gex": -99,
+            "gex": -107,
             "strike": 718
           },
           {
-            "gex": -41.5,
+            "gex": 7.5,
             "strike": 719
           },
           {
-            "gex": -238.1,
+            "gex": -104.3,
             "strike": 720
           },
           {
-            "gex": 41.8,
+            "gex": 32.7,
             "strike": 721
           },
           {
-            "gex": 28.3,
+            "gex": -16.4,
             "strike": 722
           },
           {
-            "gex": -127.3,
+            "gex": -75.4,
             "strike": 723
           },
           {
-            "gex": -152.2,
+            "gex": -69,
             "strike": 724
           },
           {
-            "gex": -211.4,
+            "gex": 4,
             "strike": 725
           },
           {
-            "gex": -31.3,
+            "gex": -35.5,
             "strike": 726
           },
           {
-            "gex": -275.1,
+            "gex": -91.7,
             "strike": 727
           },
           {
-            "gex": -4.1,
+            "gex": -26.4,
             "strike": 728
           },
           {
-            "gex": 12.8,
+            "gex": 9.1,
             "strike": 729
           },
           {
-            "gex": -220.7,
+            "gex": 438.6,
             "strike": 730
           },
           {
-            "gex": 42.8,
+            "gex": 171.8,
             "strike": 731
           },
           {
-            "gex": 15.4,
+            "gex": 131.2,
             "strike": 732
           },
           {
-            "gex": 57.4,
+            "gex": 104.4,
             "strike": 733
           },
           {
-            "gex": 20.3,
+            "gex": 107.3,
             "strike": 734
           },
           {
-            "gex": 5.2,
+            "gex": 312.6,
             "strike": 735
           },
           {
-            "gex": 21.7,
+            "gex": 102.6,
             "strike": 736
           },
           {
-            "gex": 24.1,
+            "gex": 95.9,
             "strike": 737
           },
           {
-            "gex": 8.9,
+            "gex": 93.9,
             "strike": 738
           }
         ],
         "etf": "SPY",
-        "gammaFlip": 750.25,
-        "gexTotal": -5.99,
+        "gammaFlip": 732.77,
+        "gexTotal": -0.17,
         "indice": {
-          "callWall": 7513,
-          "gammaFlip": 7515,
+          "callWall": 7312,
+          "gammaFlip": 7340,
           "maxPain": 7222,
           "precio": 7179,
           "putWall": 7012
@@ -860,16 +860,16 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 (feed del motor, con retraso) se mantiene en torno a 7.179 puntos, mientras los futuros ES aceleran el rebote hacia la apertura de Londres (+1,65%, en torno a 7.290-7.300 según Reuters hacia las 07:13 UTC) en una madrugada asiática de fuerte apetito por el riesgo. El gammaflip del motor sube a 7.515 (desde 7.382), ampliando el colchón entre el precio y la zona de gamma positiva, con el régimen todavía negativo pero algo menos intenso (-5,99 mil M$ por 1 %, desde -6,17) y un put/call OI de 1,84. Pesa sobre el sesgo la probabilidad del 95,5% (Kalshi) de que la Fed de Kevin Warsh suba tipos el 9 de diciembre y la escalada arancelaria Sección 301 de Trump, con He Lifeng manteniendo un tono de 'preocupación grave' sin represalias; compensa parcialmente Bessent, que sigue advirtiendo contra un endurecimiento excesivo citando el shock energético, y el PIB revisado con fuerza al alza (4,3%) que de fondo sostiene el relato de crecimiento. Con la gamma menos negativa y el rebote ganando tracción, el sesgo del día se modera a neutral.",
+      "lectura": "El S&P 500 (feed del motor, con retraso) se mantiene en torno a 7.179 puntos. La pasada de opciones de las 09:00 UTC corrige con fuerza a la baja los niveles de gamma respecto a la actualización previa: el call wall cae a 7.312 (desde 7.513) y el gammaflip a 7.340 (desde 7.515), mientras el régimen de gamma negativa se modera mucho, hasta -0,17 mil M$ por 1 % (desde -5,99), con un put/call OI de 1,84 sin cambios. Pesa sobre el sesgo la probabilidad del 95,5% (Kalshi) de que la Fed de Kevin Warsh suba tipos el 9 de diciembre y la escalada arancelaria Sección 301 de Trump, con He Lifeng manteniendo un tono de 'preocupación grave' sin represalias; compensa parcialmente Bessent, que sigue advirtiendo contra un endurecimiento excesivo citando el shock energético. Con la gamma mucho menos negativa pero el call wall más cerca del precio, el sesgo del día se mantiene neutral.",
       "levels": {
-        "callWall": 7513,
-        "gammaFlip": 7515,
+        "callWall": 7312,
+        "gammaFlip": 7340,
         "maxPain": 7222,
         "precio": 7179,
         "putWall": 7012
       },
       "name": "S&P 500",
-      "netGex": "negativa (-5.99 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-24)",
+      "netGex": "negativa (-0,17 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-24)",
       "precio": 7179,
       "regime": "negativa",
       "regimen": "negativa",
@@ -881,45 +881,45 @@
       "changeNote": "precio del motor (feed de opciones de Alpaca, ~15 min de retraso); hacia las 07:13 UTC los futuros NQ (E-minis) cotizaban un 2,47% arriba según Reuters, en torno a 26.550-26.670, liderando el rebote tecnológico hacia la apertura de Londres tras rozar brevemente mercado bajista el miércoles.",
       "changePct": 0,
       "claves": [
-        "Call wall sube con fuerza a 27935 (ETF QQQ 680,0 $), desde 26702.",
-        "Put wall sube a 26702 (ETF QQQ 650,0 $), desde 26291: el precio del motor (26.042) queda por debajo, en zona de soporte gamma más débil.",
-        "El motor no calcula un gammaflip definido en esta actualización (la curva de gamma no cruza a positivo dentro de los strikes con datos).",
-        "Max pain se mantiene en 26456 (ETF QQQ 644,0 $); régimen de gamma negativa, algo menos negativo en -1,83 mil M$ por 1 % (desde -1,95); put/call OI 1,87 (sin cambios); open interest del 24 de noviembre."
+        "Call wall baja con fuerza a 26702 (ETF QQQ 650,0 $), desde 27935.",
+        "Put wall sube a 26702 (ETF QQQ 650,0 $), desde 26291: coincide ahora con el call wall.",
+        "Gammaflip reaparece en 26523 (ETF QQQ 645,64 $); el precio del motor (26042) queda por debajo, en gamma todavía negativa.",
+        "Max pain se mantiene en 26456 (ETF QQQ 644,0 $); régimen de gamma negativa, el GEX total pasa a positivo en 0,66 mil M$ por 1 % (desde -1,83); put/call OI 1,87 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
-        "callWall": 680,
-        "contratos": 1446,
+        "callWall": 650,
+        "contratos": 1203,
         "escalera": [
           {
-            "gex": -127,
+            "gex": -111.9,
             "strike": 615
           },
           {
-            "gex": -0.8,
+            "gex": -0.6,
             "strike": 616
           },
           {
-            "gex": -5.8,
+            "gex": -3.9,
             "strike": 617
           },
           {
-            "gex": -8,
+            "gex": -1.5,
             "strike": 618
           },
           {
-            "gex": -2.2,
+            "gex": -0.9,
             "strike": 619
           },
           {
-            "gex": -188.7,
+            "gex": -156.7,
             "strike": 620
           },
           {
-            "gex": -2.7,
+            "gex": -1.9,
             "strike": 621
           },
           {
-            "gex": -1.3,
+            "gex": -1.2,
             "strike": 622
           },
           {
@@ -927,128 +927,128 @@
             "strike": 623
           },
           {
-            "gex": -2.2,
+            "gex": -1.8,
             "strike": 624
           },
           {
-            "gex": -210.2,
+            "gex": -155.7,
             "strike": 625
           },
           {
-            "gex": -5.4,
+            "gex": -5.2,
             "strike": 626
           },
           {
-            "gex": -9.6,
+            "gex": -7.2,
             "strike": 627
           },
           {
-            "gex": -6,
+            "gex": -5.7,
             "strike": 628
           },
           {
-            "gex": -3.5,
+            "gex": -3.1,
             "strike": 629
           },
           {
-            "gex": -155.6,
+            "gex": -129,
             "strike": 630
           },
           {
-            "gex": -0.1,
+            "gex": -2.9,
             "strike": 631
           },
           {
-            "gex": -3.9,
+            "gex": -4.6,
             "strike": 632
           },
           {
-            "gex": -13.1,
+            "gex": -6.3,
             "strike": 633
           },
           {
-            "gex": -0.2,
+            "gex": -4.1,
             "strike": 634
           },
           {
-            "gex": -283,
+            "gex": -185.2,
             "strike": 635
           },
           {
-            "gex": -3.8,
+            "gex": -2.8,
             "strike": 636
           },
           {
-            "gex": -10.7,
+            "gex": -8.7,
             "strike": 637
           },
           {
-            "gex": -0.8,
+            "gex": -6.1,
             "strike": 638
           },
           {
-            "gex": 4.5,
+            "gex": -2.2,
             "strike": 639
           },
           {
-            "gex": -271.4,
+            "gex": -138.7,
             "strike": 640
           },
           {
-            "gex": 4.7,
+            "gex": 1.6,
             "strike": 641
           },
           {
-            "gex": 29.9,
+            "gex": 57.5,
             "strike": 642
           },
           {
-            "gex": 2.1,
+            "gex": 1.5,
             "strike": 643
           },
           {
-            "gex": 19.4,
+            "gex": 3,
             "strike": 644
           },
           {
-            "gex": -62.8,
+            "gex": -20.5,
             "strike": 645
           },
           {
-            "gex": -1.2,
+            "gex": 1,
             "strike": 646
           },
           {
-            "gex": -6.6,
+            "gex": 9.6,
             "strike": 647
           },
           {
-            "gex": 10.9,
+            "gex": 19.3,
             "strike": 648
           },
           {
-            "gex": 0.7,
+            "gex": 20.4,
             "strike": 649
           },
           {
-            "gex": -37.1,
+            "gex": 492,
             "strike": 650
           },
           {
-            "gex": -5.1,
+            "gex": 20.1,
             "strike": 651
           },
           {
-            "gex": 5.9,
+            "gex": 39.8,
             "strike": 652
           }
         ],
         "etf": "QQQ",
-        "gammaFlip": null,
-        "gexTotal": -1.83,
+        "gammaFlip": 645.64,
+        "gexTotal": 0.66,
         "indice": {
-          "callWall": 27935,
-          "gammaFlip": null,
+          "callWall": 26702,
+          "gammaFlip": 26523,
           "maxPain": 26456,
           "precio": 26042,
           "putWall": 26702
@@ -1081,16 +1081,16 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 (feed del motor, con retraso) se mantiene en torno a 26.042 puntos, con los futuros NQ liderando el rebote hacia la apertura de Londres (+2,47%, en torno a 26.550-26.670 según Reuters hacia las 07:13 UTC) tras rozar brevemente mercado bajista el miércoles. El dato más llamativo de la actualización de opciones es que el precio del motor queda por debajo del nuevo put wall (26.702, antes 26.291): una zona de soporte gamma más débil que la de ayer, aunque el régimen de gamma negativa se modera algo (-1,83 mil M$ por 1%, desde -1,95) y el motor no define un gammaflip claro en esta pasada. Pesan los aranceles Sección 301 sobre la cadena de semiconductores justo cuando Jensen Huang declarará ante el Congreso el 1 y 2 de diciembre, la probabilidad del 95,5% (Kalshi) de que la Fed suba tipos el 9 de diciembre, y el tono de 'preocupación grave' de He Lifeng frente a los nuevos aranceles. El rebote de los futuros da respiro, pero la fragilidad estructural de la gamma (precio bajo el put wall) mantiene el sesgo bajista.",
+      "lectura": "El Nasdaq 100 (feed del motor, con retraso) se mantiene en torno a 26.042 puntos. La pasada de opciones de las 09:00 UTC corrige a la baja el call wall, que cae con fuerza a 26.702 (desde 27.935), mientras reaparece un gammaflip en 26.523 y el put wall sube a 26.702, igualándose ahora al call wall; el régimen de gamma negativa se modera, con el GEX total pasando a positivo (0,66 mil M$ por 1 %, desde -1,83) y un put/call OI de 1,87 sin cambios. Pesan los aranceles Sección 301 sobre la cadena de semiconductores justo cuando Jensen Huang declarará ante el Congreso el 1 y 2 de diciembre, y la probabilidad del 95,5% (Kalshi) de que la Fed suba tipos el 9 de diciembre. Con el precio por debajo tanto del call como del put wall y la estructura de gamma estrechándose, el sesgo se mantiene bajista.",
       "levels": {
-        "callWall": 27935,
-        "gammaFlip": null,
+        "callWall": 26702,
+        "gammaFlip": 26523,
         "maxPain": 26456,
         "precio": 26042,
         "putWall": 26702
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (-1.83 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-24)",
+      "netGex": "negativa (0,66 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-24)",
       "precio": 26042,
       "regime": "negativa",
       "regimen": "negativa",
@@ -1100,7 +1100,7 @@
     }
   ],
   "liquidez": {
-    "actualizado": "2026-11-27T06:33:37Z",
+    "actualizado": "2026-11-27T09:00:04Z",
     "balance": 6741.5,
     "d4": 23.2,
     "dBalance": -17.4,
@@ -1112,7 +1112,7 @@
     "fecha4": "2026-10-21",
     "fechaPrev": "2026-11-11",
     "fuente": "Reserva Federal (H.4.1 y operaciones diarias) vía FRED",
-    "lectura": "Sin cambios desde la última publicación semanal: en la semana del 11 al 18 de noviembre la liquidez neta cayó 19.700 millones $ hasta 5.824.600 millones $. El balance de la Fed retiró 17.400 millones $ (hasta 6.741.500 millones $) y la cuenta del Tesoro (TGA) también retiró, subiendo 2.200 millones $ hasta 916.600 millones $; el RRP retiró solo 100 millones $, hasta 300.000 millones $. La tendencia de las últimas cuatro semanas (del 21 de octubre al 18 de noviembre) sigue siendo positiva, +23.200 millones $, dando cierto colchón al mercado. Repo permanente casi sin uso y RRP diario en 300 millones $: sin señales de tensión de liquidez. Hoy viernes 27 de noviembre, la publicación semanal del balance de la Fed (H.4.1), retrasada por el festivo de Acción de Gracias del jueves, todavía no ha llegado; se espera en las próximas horas.",
+    "lectura": "Sin cambios desde la última publicación semanal: en la semana del 11 al 18 de noviembre la liquidez neta cayó 19.700 millones $ hasta 5.824.600 millones $. El balance de la Fed retiró 17.400 millones $ (hasta 6.741.500 millones $) y la cuenta del Tesoro (TGA) también retiró, subiendo 2.200 millones $ hasta 916.600 millones $; el RRP retiró solo 100 millones $, hasta 300.000 millones $. La tendencia de las últimas cuatro semanas (del 21 de octubre al 18 de noviembre) sigue siendo positiva, +23.200 millones $. Repo permanente casi sin uso y RRP diario en 300 millones $: sin señales de tensión de liquidez. La publicación semanal del balance de la Fed (H.4.1), retrasada por el festivo de Acción de Gracias, sigue sin llegar a las 09:00 UTC del viernes 27 de noviembre; se espera en las próximas horas.",
     "neta": 5824.6,
     "repo": 0,
     "repoFecha": "2026-11-25",
@@ -1443,7 +1443,7 @@
         "valor": "26456"
       }
     ],
-    "lectura": "Niveles 0DTE del vencimiento de hoy, viernes 27 de noviembre (sesión reducida; base open interest -el motor no calculó base gamma en esta pasada-, actualizado a las 06:34 UTC). En el S&P 500 el call wall 0DTE sube a 7.362 (desde 7.312) y el put wall se mantiene en 7.012, con el precio del motor (7.179) por debajo del max pain (7.222) y un put/call OI de 0,93; los futuros ES ya cotizan por encima del max pain en el rebote asiático. En el Nasdaq 100 el call wall 0DTE sube con fuerza a 27.318 (desde 26.702) y el put wall se mantiene en 26.291, con el precio del motor (26.042) también por debajo del max pain (26.456) y un put/call OI de 1,10. Hoy Wall Street reabre en sesión reducida (cierre a las 13:00 hora de Nueva York) tras el festivo de Acción de Gracias; estos niveles regirán ese tramo final de la semana."
+    "lectura": "Niveles 0DTE del vencimiento de hoy, viernes 27 de noviembre (sesión reducida; base open interest -el motor no calculó base gamma en esta pasada-, actualizado a las 09:00 UTC). En el S&P 500 el call wall 0DTE se mantiene en 7.362 y el put wall en 7.012, con el precio del motor (7.179) por debajo del max pain (7.222) y un put/call OI de 0,93. En el Nasdaq 100 el call wall 0DTE se mantiene en 27.318 y el put wall en 26.291, con el precio del motor (26.042) también por debajo del max pain (26.456) y un put/call OI de 1,10. Hoy Wall Street reabre en sesión reducida (cierre a las 13:00 hora de Nueva York) tras el festivo de Acción de Gracias; estos niveles regirán ese tramo final de la semana."
   },
   "politica": {
     "actualizado": "2026-11-27T07:20:18.290Z",
@@ -1543,7 +1543,7 @@
       }
     ]
   },
-  "resumen": "Son las 08:15 UTC (03:15 en Nueva York) del viernes 27 de noviembre de 2026, a las puertas de la apertura de Londres: Wall Street abrirá hoy en sesión reducida tras el festivo de Acción de Gracias (cierre a las 18:00 UTC / 13:00 hora de Nueva York). El rebote de los futuros se amplía: hacia las 07:13 UTC Reuters cifraba los E-minis del S&P 500 en +1,65% y los del Nasdaq 100 en +2,47% (Dow +0,89%), extendiendo el salto asiático de primera hora (ES +1,66%, NQ +2,43%, Kosdaq +6,7%). El oro ronda los 3.630 $/oz tras rebotar un 1,9%; el petróleo WTI sube un 2,56% (en torno a 86-87 $) mientras el Brent modera el pico de 96,25 $ del jueves tras el ataque a Ras Tanura. Bitcoin se mantiene cerca de 60.500-61.500 $ tras el short squeeze, con las salidas de ETF en EE. UU. superando ya 5.390 millones $ en noviembre. El dólar sigue plano por la liquidez festiva (DXY en torno a 103,7-103,8) y el EUR/USD débil cerca de 1,0950-1,0980, sin reacción relevante al nombramiento de Hernández de Cos como próximo presidente del BCE. En el frente político sigue dominando la escalada arancelaria de Trump (Sección 301) con He Lifeng en tono de 'preocupación grave' sin represalias concretas, Bessent insistiendo en que un endurecimiento excesivo de la Fed sería un error, y Kevin Warsh manteniendo en el 95,5% (Kalshi) la probabilidad de una subida de tipos el 9 de diciembre.",
+  "resumen": "Son las 09:20 UTC (04:20 en Nueva York) del viernes 27 de noviembre de 2026: Wall Street abrirá hoy en sesión reducida tras el festivo de Acción de Gracias (cierre a las 18:00 UTC / 13:00 hora de Nueva York). Según el último dato de Reuters (07:13 UTC), los futuros del S&P 500 subían un 1,65% y los del Nasdaq 100 un 2,47% de cara a la apertura de Londres. La actualización de opciones del motor a las 09:00 UTC corrige con fuerza a la baja los niveles de gamma de la pasada anterior: el call wall del S&P 500 cae a 7.312 (desde 7.513) y el régimen de gamma negativa se modera mucho (-0,17 mil M$ por 1%, desde -5,99); en el Nasdaq 100 el call wall cae a 26.702 (desde 27.935) y el GEX total pasa a positivo (0,66 mil M$ por 1%). La Fed de Kevin Warsh mantiene en el 95,5% (Kalshi) la probabilidad de una subida de tipos el 9 de diciembre, sin cambios. El resto del contexto -oro, petróleo, bitcoin, aranceles Sección 301 y la tregua con China hasta el 10 de enero- se mantiene sin novedades confirmadas desde la última actualización.",
   "semana": {
     "activos": [
       {
@@ -1906,5 +1906,5 @@
     "updatedAt": "2026-11-27T06:50:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-27T08:18:00.000Z"
+  "updatedAt": "2026-11-27T09:21:00Z"
 }
