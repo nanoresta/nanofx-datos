@@ -637,13 +637,13 @@
   ],
   "indices": [
     {
-      "changeNote": "en vivo, 11:16 Canarias: futuros del S&P 500 (ES) +1,72% segun CNBC/futuros, antes de la apertura reducida de Black Friday (14:30 UTC); precio del motor (feed de opciones de Alpaca, ~15 min de retraso) en 7.179.",
-      "changePct": 1.72,
+      "changeNote": "en vivo (futuros premarket), 12:19 Canarias: S&P 500 (ES) +1,85% segun TipRanks/futuros, antes de la apertura reducida de Black Friday (14:30 UTC); precio del motor (feed de opciones de Alpaca, ~15 min de retraso) en 7.179.",
+      "changePct": 1.85,
       "claves": [
         "Call wall retrocede a 7312 (ETF SPY 730,0 $), desde 7513.",
         "Put wall se mantiene en 7012 (ETF SPY 700,0 $).",
         "Gammaflip practicamente estable en 7340 (ETF SPY 732,75 $), desde 7344.",
-        "Max pain se mantiene en 7222 (ETF SPY 721,0 $); regimen de gamma negativa se modera a -0,36 mil M$ por 1 % (desde -0,61); put/call OI 1,84 (sin cambios); open interest del 24 de noviembre."
+        "Max pain se mantiene en 7222 (ETF SPY 721,0 $); regimen de gamma negativa se modera a -0,36 mil M$ por 1 % (desde -0,61); put/call OI 1,84 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
         "callWall": 730,
@@ -860,7 +860,7 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "SPX",
-      "lectura": "El S&P 500 (feed del motor, con retraso) se mantiene en torno a 7.179 puntos. La pasada de opciones de las 10:32 UTC modera el salto de la actualización anterior: el call wall retrocede a 7.312 (desde 7.513) y el régimen de gamma negativa se modera a -0,36 mil M$ por 1 % (desde -0,61), con el gammaflip prácticamente estable en 7.340 y un put/call OI de 1,84 sin cambios. Pesa sobre el sesgo la probabilidad del 95,5 % (Kalshi) de que la Fed de Kevin Warsh suba tipos el 9 de diciembre y la escalada arancelaria Sección 301 de Trump, con He Lifeng manteniendo un tono de 'preocupación grave' sin represalias; compensa parcialmente Bessent, que sigue advirtiendo contra un endurecimiento excesivo citando el shock energético. Con la gamma menos negativa y el precio por debajo del gammaflip, el sesgo del día se mantiene neutral.",
+      "lectura": "El S&P 500 (feed del motor, con retraso) se mantiene en torno a 7.179 puntos. La pasada de opciones de las 10:32 UTC modera el salto de la actualización anterior: el call wall retrocede a 7.312 (desde 7.513) y el régimen de gamma negativa se modera a -0,36 mil M$ por 1 % (desde -0,61), con el gammaflip prácticamente estable en 7.340 y un put/call OI de 1,84 sin cambios. Pesa sobre el sesgo la probabilidad del 95,5 % (Kalshi) de que la Fed de Kevin Warsh suba tipos el 9 de diciembre y la escalada arancelaria Sección 301 de Trump, con He Lifeng manteniendo un tono de 'preocupación grave' sin represalias; compensa parcialmente Bessent, que sigue advirtiendo contra un endurecimiento excesivo citando el shock energético. Con la gamma menos negativa y el precio por debajo del gammaflip, el sesgo del día se mantiene neutral. En el premarket los futuros amplían la subida a +1,85 %.",
       "levels": {
         "callWall": 7312,
         "gammaFlip": 7340,
@@ -869,7 +869,7 @@
         "putWall": 7012
       },
       "name": "S&P 500",
-      "netGex": "negativa (-0,36 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-24)",
+      "netGex": "negativa (-0,36 mil M$ por 1 %), calculado por NanoFx con Alpaca (SPY, open interest del 2026-11-24)",
       "precio": 7179,
       "regime": "negativa",
       "regimen": "negativa",
@@ -878,13 +878,13 @@
       "spot": 7179
     },
     {
-      "changeNote": "en vivo, 11:16 Canarias: futuros del Nasdaq 100 (NQ) +2,4% segun CNBC/futuros, liderando antes de la apertura reducida de Black Friday (14:30 UTC); precio del motor (feed de opciones de Alpaca, ~15 min de retraso) en 26.042.",
-      "changePct": 2.4,
+      "changeNote": "en vivo (futuros premarket), 12:19 Canarias: Nasdaq 100 (NQ) +2,52% segun TipRanks/futuros, liderando antes de la apertura reducida de Black Friday (14:30 UTC); precio del motor (feed de opciones de Alpaca, ~15 min de retraso) en 26.042.",
+      "changePct": 2.52,
       "claves": [
         "Call wall se mantiene en 26702 (ETF QQQ 650,0 $).",
         "Put wall se mantiene en 26702 (ETF QQQ 650,0 $).",
         "Gammaflip retrocede ligeramente a 26581 (ETF QQQ 647,04 $), desde 26600: el colchon se estrecha un poco.",
-        "Max pain se mantiene en 26456 (ETF QQQ 644,0 $); regimen de gamma negativa, el GEX total sube a 0,28 mil M$ por 1 % (desde 0,12); put/call OI 1,87 (sin cambios); open interest del 24 de noviembre."
+        "Max pain se mantiene en 26456 (ETF QQQ 644,0 $); regimen de gamma negativa, el GEX total sube a 0,28 mil M$ por 1 % (desde 0,12); put/call OI 1,87 (sin cambios); open interest del 24 de noviembre."
       ],
       "gex": {
         "callWall": 650,
@@ -1081,7 +1081,7 @@
         "vencimientoCercano": "2026-11-27"
       },
       "id": "NDX",
-      "lectura": "El Nasdaq 100 (feed del motor, con retraso) se mantiene en torno a 26.042 puntos. La pasada de opciones de las 10:32 UTC deja el call wall y el put wall sin cambios en 26.702, mientras el gammaflip retrocede ligeramente a 26.581 (desde 26.600) y el GEX total sube hasta 0,28 mil M$ por 1 % (desde 0,12), con un put/call OI de 1,87 sin cambios. Pesan los aranceles Sección 301 sobre la cadena de semiconductores justo cuando Jensen Huang declarará ante el Congreso el 1 y 2 de diciembre, y la probabilidad del 95,5 % (Kalshi) de que la Fed suba tipos el 9 de diciembre. Con el precio por debajo tanto del call como del put wall y la gamma todavía positiva pero modesta, el sesgo se mantiene bajista.",
+      "lectura": "El Nasdaq 100 (feed del motor, con retraso) se mantiene en torno a 26.042 puntos. La pasada de opciones de las 10:32 UTC deja el call wall y el put wall sin cambios en 26.702, mientras el gammaflip retrocede ligeramente a 26.581 (desde 26.600) y el GEX total sube hasta 0,28 mil M$ por 1 % (desde 0,12), con un put/call OI de 1,87 sin cambios. Pesan los aranceles Sección 301 sobre la cadena de semiconductores justo cuando Jensen Huang declarará ante el Congreso el 1 y 2 de diciembre, y la probabilidad del 95,5 % (Kalshi) de que la Fed suba tipos el 9 de diciembre. Con el precio por debajo tanto del call como del put wall y la gamma todavía positiva pero modesta, el sesgo se mantiene bajista. En el premarket los futuros lideran la subida con un +2,52 %.",
       "levels": {
         "callWall": 26702,
         "gammaFlip": 26581,
@@ -1090,7 +1090,7 @@
         "putWall": 26702
       },
       "name": "Nasdaq 100",
-      "netGex": "negativa (0,28 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-24)",
+      "netGex": "negativa (0,28 mil M$ por 1 %), calculado por NanoFx con Alpaca (QQQ, open interest del 2026-11-24)",
       "precio": 26042,
       "regime": "negativa",
       "regimen": "negativa",
@@ -1237,6 +1237,41 @@
       "activos": {
         "BTC": "alcista"
       },
+      "fuente": "Investing.com",
+      "impacto": "medio",
+      "resumen": "Bitcoin repunta hasta 61.700 $, lo que lo deja en camino de cerrar su primera semana en positivo tras ocho semanas consecutivas de caídas.",
+      "titular": "Bitcoin sube a 61.700 $, camino de su primera semana en positivo tras ocho semanas de caídas",
+      "ts": "2026-11-27T12:00:00Z",
+      "url": "https://ca.investing.com/news/cryptocurrency-news/bitcoin-climbs-to-617k-set-for-first-positive-week-in-8-4983251"
+    },
+    {
+      "activos": {
+        "BTC": "neutral",
+        "XAU": "alcista"
+      },
+      "fuente": "CryptoTicker",
+      "impacto": "medio",
+      "resumen": "El oro amplía su rebote con una subida del 2,7% hasta 3.662 $ por onza, en paralelo a la estabilización de bitcoin en torno a 61.000 $.",
+      "titular": "El oro sube un 2,7% hasta 3.662 $/oz mientras bitcoin se mantiene en 61.000 $",
+      "ts": "2026-11-27T11:45:00Z",
+      "url": "https://cryptoticker.io/en/crypto-news-gold-jumps-2-7-percent-3662/"
+    },
+    {
+      "activos": {
+        "BTC": "alcista",
+        "NQ": "alcista"
+      },
+      "fuente": "FinScans",
+      "impacto": "medio",
+      "resumen": "Bitcoin se afianza por encima de 61.000 $ mientras los futuros del Nasdaq 100 amplían su subida hasta un 3% en un movimiento generalizado de apetito por el riesgo.",
+      "titular": "Bitcoin supera los 61.000 $ y los futuros del Nasdaq 100 suben un 3% en un rebote de riesgo",
+      "ts": "2026-11-27T11:30:00Z",
+      "url": "https://finscans.com/news/2026/11/27/bitcoin-climbs-above-61000-as-nasdaq-futures-rally-3-in"
+    },
+    {
+      "activos": {
+        "BTC": "alcista"
+      },
       "fuente": "FX Leaders",
       "impacto": "medio",
       "resumen": "BTC sube hacia 61.000-61.660 $ a pesar de los 5.390 millones $ en salidas netas de los ETF de bitcoin en noviembre.",
@@ -1373,29 +1408,6 @@
       "titular": "Los futuros de EE. UU. amplían subidas hacia la apertura de Nueva York: ES +0,7% (7.247,5), NQ +0,8% (26.301)",
       "ts": "2026-11-26T13:00:00Z",
       "url": "https://investinglive.com/news/investinglive-european-session-wrap-european-stocks-ride-wall-street-s-comeback-into-thanksgiving/"
-    },
-    {
-      "activos": {
-        "NQ": "alcista",
-        "SPX": "alcista"
-      },
-      "fuente": "The Company Chronicle",
-      "impacto": "medio",
-      "resumen": "En sesión de muy baja liquidez por el festivo, el ES ronda +0,7% y el NQ +0,8-1,1% frente al cierre mixto del miércoles, con bastante dispersión entre fuentes.",
-      "titular": "Los futuros del S&P 500 y el Nasdaq 100 amplían las subidas en la premarket de Acción de Gracias",
-      "ts": "2026-11-26T12:30:00Z",
-      "url": "https://thecompanychronicle.com/story/before-the-bell-thanksgiving-november-26-2026"
-    },
-    {
-      "activos": {
-        "BTC": "bajista"
-      },
-      "fuente": "FXStreet",
-      "impacto": "medio",
-      "resumen": "FXStreet recoge el aviso de Galaxy Digital en medio de la contracción de la oferta de stablecoins, el mismo factor que ya citó 21Shares.",
-      "titular": "Galaxy retira su pronóstico de suelo en bitcoin y avisa de una caída hasta 48.500 $",
-      "ts": "2026-11-26T12:06:00Z",
-      "url": "https://www.fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-bitcoin-dogecoin-crypto-european-wrap-26-november-202611261206"
     }
   ],
   "odte": {
@@ -1531,7 +1543,7 @@
       }
     ]
   },
-  "resumen": "Son las 11:16 UTC (11:16 en Canarias) del viernes 27 de noviembre de 2026: Wall Street reabre hoy en sesión reducida de Black Friday (apertura a las 14:30 UTC, cierre a las 18:00 UTC). La actualización de opciones del motor a las 10:32 UTC modera el salto de la pasada anterior: el call wall del S&P 500 retrocede a 7.312 (desde 7.513) y el régimen de gamma negativa se modera a -0,36 mil M$ por 1 % (desde -0,61); en el Nasdaq 100 el gammaflip retrocede ligeramente a 26.581 y el GEX total sube a 0,28 mil M$ por 1 % (desde 0,12). La Fed de Kevin Warsh mantiene en el 95,5 % (Kalshi) la probabilidad de una subida de tipos el 9 de diciembre, sin cambios. El Brent supera los 97 $ (+0,72 %) y el WTI sube a 85,80 $ (+2,6 %) por la escalada en Oriente Próximo; el euro cae hacia 1,0950 por las expectativas de subida de la Fed, y bitcoin recupera los 61.000 $ pese a las fuertes salidas de los ETF en noviembre.",
+  "resumen": "Son las 12:19 UTC (12:19 en Canarias) del viernes 27 de noviembre de 2026: Wall Street se prepara para reabrir en sesión reducida de Black Friday (apertura a las 14:30 UTC, cierre a las 18:00 UTC) con los futuros ampliando subidas: el S&P 500 sube un 1,85% y el Nasdaq 100 un 2,52% en el premarket. La Fed de Kevin Warsh mantiene en el 95,5% (Kalshi) la probabilidad de una subida de tipos el 9 de diciembre, sin cambios. El oro amplía el rebote hasta 3.662 $/oz (+2,7%) y bitcoin sube a 61.700 $, camino de su primera semana en positivo tras ocho semanas de caídas; el Brent se mantiene por encima de los 97 $ y el WTI en 85,80 $ por la escalada en Oriente Próximo, mientras el euro sigue cerca de 1,0950 por las expectativas de subida de la Fed.",
   "semana": {
     "activos": [
       {
@@ -1894,5 +1906,5 @@
     "updatedAt": "2026-11-27T06:50:00Z"
   },
   "slot": "rapida",
-  "updatedAt": "2026-11-27T11:16:04.000000Z"
+  "updatedAt": "2026-11-27T12:19:00.000000Z"
 }
